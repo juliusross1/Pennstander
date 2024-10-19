@@ -72753,7 +72753,7 @@ category = Letter;
 glyphname = "Zitalic-math";
 kernLeft = "Zitalic-math";
 kernRight = "Zitalic-math";
-lastChange = "2024-10-19 01:50:56 +0000";
+lastChange = "2024-10-19 15:56:32 +0000";
 layers = (
 {
 anchors = (
@@ -72767,7 +72767,7 @@ pos = (767,646);
 },
 {
 name = math.br;
-pos = (1096,0);
+pos = (1096,10);
 },
 {
 name = math.ic;
