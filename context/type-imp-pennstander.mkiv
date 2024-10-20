@@ -1,0 +1,147 @@
+\starttypescript [Pennstander-Thin,Pennstander-ExtraLight,Pennstander-Light,Pennstander-Regular,Pennstander-Medium,Pennstander-SemiBold,Pennstander-Bold,Pennstander-ExtraBold,Pennstander-Black]
+%I think I would prefer to have all the default features here and then add these two.  Not sure how to achieve that
+\definefontfeature[textfeatures][ss01=yes,liga=yes]
+% We have two goodies files, pennstanderlight-math for weight up to SemiBold and pennstanderheavy-math for Bold, ExtraBold,Black
+\definefontfeature[mathfeatureslight][ss01=yes,goodies=Pennstander-light]
+\definefontfeature[mathfeaturesheavy][ss01=yes,goodies=Pennstander-heavy]
+\stoptypescript
+
+
+%% JR does not understand the difference between *textfeatures and [features=default]
+
+\starttypescript  [Pennstander-Thin,Pennstander-ExtraLight,Pennstander-Light,Pennstander-Regular,Pennstander-Medium,Pennstander-SemiBold,Pennstander-Bold,Pennstander-ExtraBold,Pennstander-Black]
+
+\definefontfeature[stylsticsets][ss01=yes,goodies=Pennstander-math]
+	 % Upright Text
+     \definefontsynonym[PSThin]     				[file:Pennstander-Thin.otf*textfeatures]       		[features=default]
+     \definefontsynonym[PSExtraLight]     			[file:Pennstander-ExtraLight.otf*textfeatures]      [features=default]
+     \definefontsynonym[PSLight]     				[file:Pennstander-Light.otf*textfeatures]       	[features=default]
+     \definefontsynonym[PSRegular]     				[file:Pennstander-Regular.otf*textfeatures]        	[features=default]
+     \definefontsynonym[PSMedium]     				[file:Pennstander-Medium.otf*textfeatures]        	[features=default]
+     \definefontsynonym[PSSemiBold]     			[file:Pennstander-SemiBold.otf*textfeatures]        [features=default]
+     \definefontsynonym[PSBold]     				[file:Pennstander-Bold.otf*textfeatures]        	[features=default]
+     \definefontsynonym[PSExtraBold]     			[file:Pennstander-ExtraBold.otf*textfeatures]       [features=default]
+     \definefontsynonym[PSBlack]     				[file:Pennstander-Black.otf*textfeatures]        	[features=default]
+
+     % Italic Text
+     \definefontsynonym[PSThinItalic]     			[file:Pennstander-ItalicThin.otf*textfeatures]       		[features=default]
+     \definefontsynonym[PSExtraLightItalic]     	[file:Pennstander-ItalicExtraLight.otf*textfeatures]    	[features=default]
+     \definefontsynonym[PSLightItalic]     			[file:Pennstander-ItalicLight.otf*textfeatures]       		[features=default]
+     \definefontsynonym[PSRegularItalic]     		[file:Pennstander-ItalicRegular.otf*textfeatures]        	[features=default]
+     \definefontsynonym[PSMediumItalic]     		[file:Pennstander-ItalicMedium.otf*textfeatures]        	[features=default]
+     \definefontsynonym[PSSemiBoldItalic]     		[file:Pennstander-ItalicSemiBold.otf*textfeatures]        	[features=default]
+     \definefontsynonym[PSBoldItalic]     			[file:Pennstander-ItalicBold.otf*textfeatures]        		[features=default]
+     \definefontsynonym[PSExtraBoldItalic]     		[file:Pennstander-ItalicExtraBold.otf*textfeatures]        	[features=default]
+     \definefontsynonym[PSBlackItalic]     			[file:Pennstander-ItalicBlack.otf*textfeatures]        		[features=default]
+
+     % Math
+     \definefontsynonym[PSMathThin]     			[file:PennstanderMath-Thin.otf*mathfeatureslight]       		 	
+     \definefontsynonym[PSMathExtraLight]     		[file:PennstanderMath-ExtraLight.otf*mathfeatureslight]       		 	
+     \definefontsynonym[PSMathLight]     			[file:PennstanderMath-Light.otf*mathfeatureslight]       		 	
+     \definefontsynonym[PSMathRegular]     			[file:PennstanderMath-Regular.otf*mathfeatureslight]        		
+     \definefontsynonym[PSMathMedium]     			[file:PennstanderMath-Medium.otf*mathfeatureslight]        		
+     \definefontsynonym[PSMathSemiBold]     		[file:PennstanderMath-SemiBold.otf*mathfeatureslight]        		
+     \definefontsynonym[PSMathBold]     			[file:PennstanderMath-Bold.otf*mathfeaturesheavy]        		
+     \definefontsynonym[PSMathExtraBold]     		[file:PennstanderMath-ExtraBold.otf*mathfeaturesheavy]        		
+     \definefontsynonym[PSMathBlack]     			[file:PennstanderMath-Black.otf*mathfeaturesheavy]        		
+\stoptypescript
+
+
+\starttypescript[all] [Pennstander-Thin] 
+    \definefontsynonym [Serif]           		[PSThin]
+    \definefontsynonym [SerifItalic]    		[PSThinItalic]
+    \definefontsynonym [SerifBold]    			[PSLight]
+    \definefontsynonym [SerifBoldItalic]  		[PSLightItalic]
+    \definefontsynonym [MathRoman]				[PSMathThin]
+%   \definefontsynonym [MathRomanBold]			[PSMathBlack] %Not sure what this does
+\stoptypescript
+
+
+\starttypescript[all] [Pennstander-ExtraLight] 
+    \definefontsynonym [Serif]           		[PSExtraLight]
+    \definefontsynonym [SerifItalic]    		[PSExtraLightItalic]
+    \definefontsynonym [SerifBold]    			[PSRegular]
+    \definefontsynonym [SerifBoldItalic]  		[PSRegularItalic]
+    \definefontsynonym [MathRoman]				[PSMathExtraLight]
+\stoptypescript
+
+
+\starttypescript[all] [Pennstander-Light] 
+    \definefontsynonym [Serif]           		[PSLight]
+    \definefontsynonym [SerifItalic]    		[PSLightItalic]
+    \definefontsynonym [SerifBold]    			[PSMedium]
+    \definefontsynonym [SerifBoldItalic]  		[PSMediumItalic]
+    \definefontsynonym [MathRoman]				[PSMathLight]
+\stoptypescript
+
+\starttypescript[all] [Pennstander-Regular] 
+    \definefontsynonym [Serif]           	[PSRegular]
+    \definefontsynonym [SerifItalic]    	[PSRegularItalic]
+    \definefontsynonym [SerifBold]    		[PSSemiBold]
+    \definefontsynonym [SerifBoldItalic]  	[PSSemiBoldItalic]
+    \definefontsynonym [MathRoman]			[PSMathRegular]
+\stoptypescript
+
+\starttypescript [all][Pennstander-Medium] 
+    \definefontsynonym [Serif]           	[PSMedium]
+    \definefontsynonym [SerifItalic]    	[PSMediumItalic]
+    \definefontsynonym [SerifBold]    		[PSBold]
+    \definefontsynonym [SerifBoldItalic]  	[PSBoldItalics]
+    \definefontsynonym [MathRoman]			[PSMathMedium]
+\stoptypescript
+
+\starttypescript [all][Pennstander-SemiBold] 
+    \definefontsynonym[Serif]           	[PSSemiBold]
+    \definefontsynonym [SerifItalic]    	[PSSemiBoldItalic]
+    \definefontsynonym [SerifBold]    		[PSExtraBold]
+    \definefontsynonym [SerifBoldItalic]  	[PSExtraBoldItalic]
+    \definefontsynonym [MathRoman]			[PSMathSemiBold]
+\stoptypescript
+
+\starttypescript [all][Pennstander-Bold] 
+    \definefontsynonym [Serif]           	[PSBold]
+    \definefontsynonym [SerifItalic]    	[PSBoldItalic]
+    \definefontsynonym [SerifBold]    		[PSBlack]
+    \definefontsynonym [SerifBoldItalic]  	[PSBlackItalic]
+    \definefontsynonym [MathRoman]			[PSMathBold]
+\stoptypescript
+
+\starttypescript [all][Pennstander-ExtraBold] 
+    \definefontsynonym [Serif]           		[PSExtraBold]
+    \definefontsynonym [SerifItalic]    		[PSExtraBoldItalic]
+    \definefontsynonym [SerifBold]    			[PSBlack]
+    \definefontsynonym [SerifBoldItalic]  		[PSBlackItalic]
+    \definefontsynonym [MathRoman]				[PSMathExtraBold]
+\stoptypescript
+
+\starttypescript [all][Pennstander-Black] 
+    \definefontsynonym [Serif]           	[PSBlack]
+    \definefontsynonym [SerifItalic]    	[PSBlackItalic]
+    \definefontsynonym [SerifBold]    		[PSBlack]
+    \definefontsynonym [SerifBoldItalic]  	[PSBlackItalic]
+    \definefontsynonym [MathRoman]			[PSMathBlack]
+\stoptypescript
+
+
+\starttypescript [Pennstander-Thin,Pennstander-ExtraLight,Pennstander-Light,Pennstander-Regular,Pennstander-Medium,Pennstander-SemiBold,Pennstander-Bold,Pennstander-ExtraBold,Pennstander-Black]
+    \definefontsynonym [Sans]           	[Serif]
+    \definefontsynonym [SansItalic]     	[SerifItalic]
+    \definefontsynonym [SansBold]   		[SerifBold]
+    \definefontsynonym [SansBoldItalic]		[SerifBoldItalic]
+    
+
+    \definefontsynonym [SerifSlanted]		[SerifItalic]
+    \definefontsynonym [SansBoldSlanted]	[SerifBold]
+    \definefontsynonym [SansSlanted]		[SerifItalic]
+    \definefontsynonym [SerifBoldSlanted]	[SerifBold]
+\stoptypescript
+
+
+\starttypescript [Pennstander-Thin,Pennstander-ExtraLight,Pennstander-Light,Pennstander-Regular,Pennstander-Medium,Pennstander-SemiBold,Pennstander-Bold,Pennstander-ExtraBold,Pennstander-Black]
+    \definetypeface [\typescriptone] [rm] [serif] [\typescriptone] [default]
+    \definetypeface [\typescriptone] [ss] [sans]  [\typescriptone]  [default]
+    \definetypeface [\typescriptone] [mm] [math]  [MathRoman]  
+    % For a tiny fussy reason we should set MathBold to be SerifBold (currently the bold is taken from the unicode math-bold characters which is fine, but will be slightly different at script because of the goodies file)
+\stoptypescript
+
+
