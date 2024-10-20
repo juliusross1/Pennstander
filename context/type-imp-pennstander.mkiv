@@ -1,5 +1,4 @@
 \starttypescript [Pennstander-Thin,Pennstander-ExtraLight,Pennstander-Light,Pennstander-Regular,Pennstander-Medium,Pennstander-SemiBold,Pennstander-Bold,Pennstander-ExtraBold,Pennstander-Black]
-%I think I would prefer to have all the default features here and then add these two.  Not sure how to achieve that
 \definefontfeature[textfeatures][ss01=yes,liga=yes]
 % We have two goodies files, pennstanderlight-math for weight up to SemiBold and pennstanderheavy-math for Bold, ExtraBold,Black
 \definefontfeature[mathfeatureslight][ss01=yes,goodies=Pennstander-light]
@@ -53,7 +52,6 @@
     \definefontsynonym [SerifBold]    			[PSLight]
     \definefontsynonym [SerifBoldItalic]  		[PSLightItalic]
     \definefontsynonym [MathRoman]				[PSMathThin]
-%   \definefontsynonym [MathRomanBold]			[PSMathBlack] %Not sure what this does
 \stoptypescript
 
 
@@ -141,7 +139,8 @@
     \definetypeface [\typescriptone] [rm] [serif] [\typescriptone] [default]
     \definetypeface [\typescriptone] [ss] [sans]  [\typescriptone]  [default]
     \definetypeface [\typescriptone] [mm] [math]  [MathRoman]  
-    % For a tiny fussy reason we should set MathBold to be SerifBold (currently the bold is taken from the unicode math-bold characters which is fine, but will be slightly different at script because of the goodies file)
+    % For a tiny fussy reason we could set MathBold to be SerifBold but I do not know if that is possible in CONTEXT
+    % (currently the bold is taken from the unicode math-bold characters which is fine, but will be slightly different at script because of the goodies file)
 \stoptypescript
 
 
