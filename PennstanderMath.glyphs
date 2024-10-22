@@ -193346,8 +193346,7 @@ name = "Math Axis";
 }
 );
 note = "Todo:
-= Finish italic superscripts (upper Greek and lots more testing)
-= Look again at upright superscripts with italics in mind
+= Italic superscript Black Upright Greek
 = consistent size of dot accents
 = Widetildes on Black
 = CONTEXT: minimum width of fraction rule for context
