@@ -29,20 +29,14 @@ DisplayStrings = (
 "/.notdef",
 "‖",
 "‖/doublebar.001/doublebar.002/doublebar.003/doublebar.004/doublebar.005/doublebar.006/doublebar.007/doublebar.008/doublebar.009/doublebar.010/doublebar.011/doublebar.012",
-"/product.disp",
+"t/nArySquareIntersectionOperator.disp/nArySquareUnionOperator.disp/naryintersection.disp/naryunion.disp",
+"/nArySquareIntersectionOperator.disp",
+"⨅⨆⋂⋃",
+"/nArySquareIntersectionOperator.disp/nArySquareIntersectionOperator.disp/nArySquareUnionOperator.disp/naryintersection.disp/naryunion.disp",
+"+/nAryUnionOperatorWithPlus.disp",
 "/nAryUnionOperatorWithPlus.disp",
-"/nAryUnionOperatorWithPlus.disp/nAryUnionOperatorWithDot.disp",
-"√",
-"∇",
-"∶",
-":",
-"₡",
-"𝟺",
-"⋀⋁",
-"⊽",
-"/narylogicaland.disp/naryintersection.disp",
-"/narylogicalor.disp/nAryUnionOperatorWithDot.disp",
-"/narylogicaland.disp"
+"/nAryUnionOperatorWithDot.disp",
+"/nAryUnionOperatorWithDot.disp/nAryUnionOperatorWithPlus.disp"
 );
 axes = (
 {
@@ -170249,7 +170243,7 @@ production = multiset.heavy;
 },
 {
 glyphname = multisetmultiplication;
-lastChange = "2024-09-10 16:55:44 +0000";
+lastChange = "2024-10-23 02:14:57 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -170258,7 +170252,7 @@ shapes = (
 ref = union;
 },
 {
-pos = (283,-98);
+pos = (433,-98);
 ref = dotmath;
 scale = (0.802,0.853);
 }
@@ -170272,7 +170266,7 @@ shapes = (
 ref = union;
 },
 {
-pos = (524,319);
+pos = (562,319);
 ref = dotmath;
 scale = (0.33,0.33);
 }
@@ -170846,6 +170840,423 @@ metricRight = nAryCircledPlusOperator.disp;
 production = nAryCircledTimesOperator.disp;
 },
 {
+glyphname = nArySquareIntersectionOperator;
+lastChange = "2024-10-23 10:10:19 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(57,1341,o),
+(64,169,o),
+(68,-91,c),
+(94,-85,o),
+(125,-93,o),
+(141,-84,c),
+(147,-56,o),
+(128,1310,o),
+(125,1524,c),
+(434,1552,o),
+(574,1554,o),
+(884,1536,c),
+(888,1324,o),
+(890,-50,o),
+(899,-79,c),
+(920,-78,o),
+(950,-78,o),
+(971,-77,c),
+(966,195,o),
+(959,1367,o),
+(955,1612,c),
+(600,1630,o),
+(407,1628,o),
+(52,1597,c)
+);
+}
+);
+width = 1074;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(49,1295,o),
+(64,152,o),
+(75,-146,c),
+(181,-153,o),
+(287,-149,o),
+(393,-135,c),
+(382,-112,o),
+(355,1073,o),
+(369,1249,c),
+(466,1306,o),
+(732,1319,o),
+(833,1295,c),
+(866,1117,o),
+(864,-105,o),
+(858,-141,c),
+(957,-138,o),
+(1056,-135,o),
+(1155,-131,c),
+(1143,195,o),
+(1129,1300,o),
+(1118,1618,c),
+(983,1658,o),
+(424,1638,o),
+(39,1579,c)
+);
+}
+);
+width = 1176;
+}
+);
+unicode = 10757;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nArySquareIntersectionOperator.disp
+);
+};
+};
+},
+{
+glyphname = nArySquareIntersectionOperator.disp;
+lastChange = "2024-10-23 10:17:42 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(155,1851,o),
+(162,-191,o),
+(166,-451,c),
+(192,-445,o),
+(223,-453,o),
+(239,-444,c),
+(245,-416,o),
+(226,1820,o),
+(223,2034,c),
+(532,2062,o),
+(872,2064,o),
+(1282,2046,c),
+(1286,1834,o),
+(1288,-430,o),
+(1297,-459,c),
+(1318,-458,o),
+(1348,-458,o),
+(1369,-457,c),
+(1364,-185,o),
+(1357,1877,o),
+(1353,2122,c),
+(898,2140,o),
+(505,2138,o),
+(150,2107,c)
+);
+}
+);
+width = 1519;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,1755,o),
+(95,-268,o),
+(106,-566,c),
+(212,-573,o),
+(418,-569,o),
+(524,-555,c),
+(513,-532,o),
+(486,1483,o),
+(500,1659,c),
+(597,1716,o),
+(1063,1729,o),
+(1164,1705,c),
+(1197,1527,o),
+(1195,-525,o),
+(1189,-561,c),
+(1288,-558,o),
+(1487,-555,o),
+(1586,-551,c),
+(1574,-225,o),
+(1560,1760,o),
+(1549,2078,c),
+(1414,2118,o),
+(455,2098,o),
+(70,2039,c)
+);
+}
+);
+width = 1661;
+}
+);
+metricLeft = naryintersection;
+metricRight = naryintersection;
+production = nArySquareIntersectionOperator.disp;
+},
+{
+glyphname = nArySquareUnionOperator;
+lastChange = "2024-10-23 10:10:28 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 2;
+pos = (85,1383);
+ref = nArySquareIntersectionOperator;
+scale = (1,-1);
+}
+);
+width = 1246;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 2;
+pos = (30,1568);
+ref = nArySquareIntersectionOperator;
+scale = (1,-1);
+}
+);
+width = 1309;
+}
+);
+metricLeft = naryintersection;
+metricRight = naryintersection;
+unicode = 10758;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nArySquareUnionOperator.disp
+);
+};
+};
+},
+{
+glyphname = nArySquareUnionOperator.disp;
+lastChange = "2024-10-23 10:16:42 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 1;
+pos = (-8,1586);
+ref = nArySquareIntersectionOperator.disp;
+scale = (1,-1);
+}
+);
+width = 1532;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 2;
+pos = (-18,1414);
+ref = nArySquareIntersectionOperator.disp;
+scale = (1,-1);
+}
+);
+width = 1674;
+}
+);
+metricLeft = naryintersection;
+metricRight = naryintersection;
+production = nArySquareUnionOperator.disp;
+},
+{
+glyphname = nAryTimesOperator;
+lastChange = "2024-10-23 09:44:08 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1151,1206,o),
+(1138,1220,o),
+(1126,1232,c),
+(1021,1104,o),
+(164,33,o),
+(50,-71,c),
+(67,-86,o),
+(84,-100,o),
+(101,-112,c),
+(275,44,o),
+(1081,1071,o),
+(1161,1191,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(84,1184,o),
+(71,1171,o),
+(60,1155,c),
+(183,1071,o),
+(1027,56,o),
+(1188,-118,c),
+(1208,-101,o),
+(1222,-87,o),
+(1232,-62,c),
+(1024,169,o),
+(207,1126,o),
+(92,1192,c)
+);
+}
+);
+width = 1282;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1447,1101,o),
+(1279,1321,o),
+(1218,1339,c),
+(1113,1211,o),
+(241,144,o),
+(100,40,c),
+(123,-1,o),
+(291,-165,o),
+(331,-192,c),
+(559,-37,o),
+(1383,958,o),
+(1467,1077,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(321,1314,o),
+(135,1093,o),
+(109,1062,c),
+(231,978,o),
+(1065,-13,o),
+(1229,-189,c),
+(1272,-168,o),
+(1456,6,o),
+(1480,58,c),
+(1285,298,o),
+(522,1230,o),
+(371,1348,c)
+);
+}
+);
+width = 1580;
+}
+);
+unicode = 10761;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nAryTimesOperator.disp
+);
+};
+};
+},
+{
+glyphname = nAryTimesOperator.disp;
+lastChange = "2024-10-23 09:44:21 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1571,1446,o),
+(1558,1460,o),
+(1546,1472,c),
+(1441,1344,o),
+(164,-147,o),
+(50,-251,c),
+(67,-266,o),
+(84,-280,o),
+(101,-292,c),
+(275,-136,o),
+(1501,1311,o),
+(1581,1431,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(84,1404,o),
+(71,1391,o),
+(60,1375,c),
+(183,1291,o),
+(1387,-124,o),
+(1548,-298,c),
+(1568,-281,o),
+(1582,-267,o),
+(1592,-242,c),
+(1384,-11,o),
+(207,1346,o),
+(92,1412,c)
+);
+}
+);
+width = 1642;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1847,1311,o),
+(1679,1531,o),
+(1618,1549,c),
+(1513,1421,o),
+(241,-56,o),
+(100,-160,c),
+(123,-201,o),
+(291,-365,o),
+(331,-392,c),
+(559,-237,o),
+(1783,1168,o),
+(1867,1287,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(321,1514,o),
+(135,1293,o),
+(109,1262,c),
+(231,1178,o),
+(1465,-213,o),
+(1629,-389,c),
+(1672,-368,o),
+(1856,-194,o),
+(1880,-142,c),
+(1685,98,o),
+(522,1430,o),
+(371,1548,c)
+);
+}
+);
+width = 1980;
+}
+);
+production = nAryTimesOperator.disp;
+},
+{
 glyphname = nAryUnionOperatorWithDot;
 lastChange = "2024-10-23 01:37:32 +0000";
 layers = (
@@ -170890,7 +171301,7 @@ nAryUnionOperatorWithDot.disp
 },
 {
 glyphname = nAryUnionOperatorWithDot.disp;
-lastChange = "2024-10-23 01:41:29 +0000";
+lastChange = "2024-10-23 10:18:17 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -170912,7 +171323,7 @@ shapes = (
 ref = naryunion.disp;
 },
 {
-pos = (662,-367);
+pos = (662,33);
 ref = bullet.component;
 }
 );
@@ -170969,7 +171380,7 @@ nAryUnionOperatorWithPlus.disp
 },
 {
 glyphname = nAryUnionOperatorWithPlus.disp;
-lastChange = "2024-10-23 01:33:36 +0000";
+lastChange = "2024-10-23 10:16:11 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -170978,8 +171389,9 @@ shapes = (
 ref = naryunion.disp;
 },
 {
-pos = (300,-230);
+pos = (310,-250);
 ref = plus;
+scale = (0.95,0.95);
 }
 );
 width = 1549;
@@ -170991,7 +171403,7 @@ shapes = (
 ref = naryunion.disp;
 },
 {
-pos = (572,-34);
+pos = (572,326);
 ref = plus;
 scale = (0.7,0.7);
 }
@@ -171002,8 +171414,9 @@ width = 1880;
 production = nAryUnionOperatorWithPlus.disp;
 },
 {
+color = 9;
 glyphname = nand;
-lastChange = "2024-09-15 22:32:08 +0000";
+lastChange = "2024-10-23 10:05:33 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -195896,18 +196309,20 @@ name = "Math Axis";
 }
 );
 note = "Todo:
+= 2 more operators and display sizes
+= swap over the ss01
 = Italic superscript and check them all as we may have lost some
 = consistent size of dot accents (do this again!)
 = Widetildes on Black
-= Longarrows; injection arrow
+= Longarrows; injection arrow; extensible arrows
 = Test spacing with CONTEXT formula (e.g. colon)
 = CONTEXT: minimum width of fraction rule for context
 = Height of radicals in Black (do this again!)
 = slash (do this again!)
-= Triple bar
-= Ciel and Floor
-= Extended Fences
-= Double angle fences
+= Triple bar fences
+= Ciel and Floor fences
+= Extended Fences (which ones are still needed)
+= ?Double angle fences
 
 ==== Need help with the following
 = Lower integral position (will need help for this in both LuaLaTeX and ConTeXt)
