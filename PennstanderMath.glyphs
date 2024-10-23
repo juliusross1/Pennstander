@@ -36,7 +36,15 @@ DisplayStrings = (
 "+/nAryUnionOperatorWithPlus.disp",
 "/nAryUnionOperatorWithPlus.disp",
 "/nAryUnionOperatorWithDot.disp",
-"/nAryUnionOperatorWithDot.disp/nAryUnionOperatorWithPlus.disp"
+"/nAryUnionOperatorWithDot.disp/nAryUnionOperatorWithPlus.disp",
+"⨅⨆⋃",
+"⨃",
+"∫",
+"/integral.disp",
+"∭",
+"/tripleIntegral.disp",
+"/dblIntegral.disp",
+"⨅"
 );
 axes = (
 {
@@ -165930,13 +165938,13 @@ dblIntegral.disp
 },
 {
 glyphname = dblIntegral.disp;
-lastChange = "2024-07-06 12:18:36 +0000";
+lastChange = "2024-10-23 10:36:26 +0000";
 layers = (
 {
 anchors = (
 {
 name = math.ic;
-pos = (2520,-530);
+pos = (2720,-530);
 }
 );
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -165950,7 +165958,7 @@ pos = (-25,0);
 ref = integral.disp;
 }
 );
-width = 1977;
+width = 2057;
 },
 {
 anchors = (
@@ -170841,7 +170849,7 @@ production = nAryCircledTimesOperator.disp;
 },
 {
 glyphname = nArySquareIntersectionOperator;
-lastChange = "2024-10-23 10:10:19 +0000";
+lastChange = "2024-10-23 10:36:41 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -170849,34 +170857,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(57,1341,o),
-(64,169,o),
-(68,-91,c),
-(94,-85,o),
-(125,-93,o),
-(141,-84,c),
-(147,-56,o),
-(128,1310,o),
-(125,1524,c),
-(434,1552,o),
-(574,1554,o),
-(884,1536,c),
-(888,1324,o),
-(890,-50,o),
-(899,-79,c),
-(920,-78,o),
-(950,-78,o),
-(971,-77,c),
-(966,195,o),
-(959,1367,o),
-(955,1612,c),
-(600,1630,o),
-(407,1628,o),
-(52,1597,c)
+(155,1341,o),
+(162,169,o),
+(166,-91,c),
+(192,-85,o),
+(223,-93,o),
+(239,-84,c),
+(245,-56,o),
+(226,1310,o),
+(223,1524,c),
+(532,1552,o),
+(672,1554,o),
+(982,1536,c),
+(986,1324,o),
+(988,-50,o),
+(997,-79,c),
+(1018,-78,o),
+(1048,-78,o),
+(1069,-77,c),
+(1064,195,o),
+(1057,1367,o),
+(1053,1612,c),
+(698,1630,o),
+(505,1628,o),
+(150,1597,c)
 );
 }
 );
-width = 1074;
+width = 1219;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -170884,36 +170892,38 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(49,1295,o),
-(64,152,o),
-(75,-146,c),
-(181,-153,o),
-(287,-149,o),
-(393,-135,c),
-(382,-112,o),
-(355,1073,o),
-(369,1249,c),
-(466,1306,o),
-(732,1319,o),
-(833,1295,c),
-(866,1117,o),
-(864,-105,o),
-(858,-141,c),
-(957,-138,o),
-(1056,-135,o),
-(1155,-131,c),
-(1143,195,o),
-(1129,1300,o),
-(1118,1618,c),
-(983,1658,o),
-(424,1638,o),
-(39,1579,c)
+(110,1295,o),
+(125,152,o),
+(136,-146,c),
+(242,-153,o),
+(418,-149,o),
+(524,-135,c),
+(513,-112,o),
+(486,1043,o),
+(500,1219,c),
+(597,1276,o),
+(823,1289,o),
+(924,1265,c),
+(957,1087,o),
+(955,-105,o),
+(949,-141,c),
+(1048,-138,o),
+(1217,-135,o),
+(1316,-131,c),
+(1304,195,o),
+(1290,1300,o),
+(1279,1618,c),
+(1144,1658,o),
+(485,1638,o),
+(100,1579,c)
 );
 }
 );
-width = 1176;
+width = 1421;
 }
 );
+metricLeft = naryintersection;
+metricRight = naryintersection;
 unicode = 10757;
 userData = {
 com.nagwa.MATHPlugin.variants = {
@@ -170925,7 +170935,7 @@ nArySquareIntersectionOperator.disp
 },
 {
 glyphname = nArySquareIntersectionOperator.disp;
-lastChange = "2024-10-23 10:17:42 +0000";
+lastChange = "2024-10-23 10:36:49 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -170968,34 +170978,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(80,1755,o),
-(95,-268,o),
-(106,-566,c),
-(212,-573,o),
-(418,-569,o),
-(524,-555,c),
-(513,-532,o),
-(486,1483,o),
-(500,1659,c),
-(597,1716,o),
-(1063,1729,o),
-(1164,1705,c),
-(1197,1527,o),
-(1195,-525,o),
-(1189,-561,c),
-(1288,-558,o),
-(1487,-555,o),
-(1586,-551,c),
-(1574,-225,o),
-(1560,1760,o),
-(1549,2078,c),
-(1414,2118,o),
-(455,2098,o),
-(70,2039,c)
+(110,1755,o),
+(125,-268,o),
+(136,-566,c),
+(242,-573,o),
+(448,-569,o),
+(554,-555,c),
+(543,-532,o),
+(516,1483,o),
+(530,1659,c),
+(627,1716,o),
+(1093,1729,o),
+(1194,1705,c),
+(1227,1527,o),
+(1225,-525,o),
+(1219,-561,c),
+(1318,-558,o),
+(1517,-555,o),
+(1616,-551,c),
+(1604,-225,o),
+(1590,1760,o),
+(1579,2078,c),
+(1444,2118,o),
+(485,2098,o),
+(100,2039,c)
 );
 }
 );
-width = 1661;
+width = 1721;
 }
 );
 metricLeft = naryintersection;
@@ -171004,7 +171014,7 @@ production = nArySquareIntersectionOperator.disp;
 },
 {
 glyphname = nArySquareUnionOperator;
-lastChange = "2024-10-23 10:10:28 +0000";
+lastChange = "2024-10-23 10:19:49 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -171023,12 +171033,12 @@ layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
 angle = 2;
-pos = (30,1568);
+pos = (-31,1568);
 ref = nArySquareIntersectionOperator;
 scale = (1,-1);
 }
 );
-width = 1309;
+width = 1409;
 }
 );
 metricLeft = naryintersection;
@@ -174468,7 +174478,7 @@ unicode = 8746;
 },
 {
 glyphname = integral;
-lastChange = "2024-10-13 18:43:06 +0000";
+lastChange = "2024-10-23 10:31:58 +0000";
 layers = (
 {
 anchors = (
@@ -174647,13 +174657,13 @@ integral.disp
 },
 {
 glyphname = integral.disp;
-lastChange = "2024-09-16 01:52:35 +0000";
+lastChange = "2024-10-23 10:34:26 +0000";
 layers = (
 {
 anchors = (
 {
 name = math.ic;
-pos = (2100,-865);
+pos = (2230,-865);
 }
 );
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -174704,7 +174714,7 @@ nodes = (
 );
 }
 );
-width = 1447;
+width = 1527;
 },
 {
 anchors = (
@@ -179373,13 +179383,13 @@ tripleIntegral.disp
 },
 {
 glyphname = tripleIntegral.disp;
-lastChange = "2024-07-06 12:18:22 +0000";
+lastChange = "2024-10-23 10:36:14 +0000";
 layers = (
 {
 anchors = (
 {
 name = math.ic;
-pos = (3050,387);
+pos = (3350,387);
 }
 );
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -179397,7 +179407,7 @@ pos = (-25,0);
 ref = integral.disp;
 }
 );
-width = 2532;
+width = 2612;
 },
 {
 anchors = (
@@ -195290,7 +195300,6 @@ axesValues = (
 600,
 50
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.375;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.625;
@@ -196309,39 +196318,37 @@ name = "Math Axis";
 }
 );
 note = "Todo:
-= 2 more operators and display sizes
 = swap over the ss01
 = Italic superscript and check them all as we may have lost some
 = consistent size of dot accents (do this again!)
-= Widetildes on Black
-= Longarrows; injection arrow; extensible arrows
+= Widetildes 
 = Test spacing with CONTEXT formula (e.g. colon)
 = CONTEXT: minimum width of fraction rule for context
 = Height of radicals in Black (do this again!)
 = slash (do this again!)
 = Triple bar fences
-= Ciel and Floor fences
 = Extended Fences (which ones are still needed)
-= ?Double angle fences
 
 ==== Need help with the following
 = Lower integral position (will need help for this in both LuaLaTeX and ConTeXt)
 = CONTEXT: Where to keep typescript (will need help with this)
 
 === Future
+Longarrows; injection arrow; extensible arrows
+Ciel and Floor fences
 Improve/tidy the testing documents
 Extended double, triple integrals
-More extended?
+Long arrows, extended arrows
+Double angle fences
 Some Mathscript (\\mathscr I \\mathscr O \\mathscr X \\mathscr L \\mathscr Q)
 langle extra sizes
-ciel
 prescript spacing (and understanding what CONTEXT is doing here!)
 ?Double struck numerals
 ?Remove accented glyphs
 Mathscript capitals
 Flattened accents
-Mathfraktur???
-More math symbols???
+Mathfrak
+
 
 
 Version 0.1 Goals
