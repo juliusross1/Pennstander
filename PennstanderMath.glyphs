@@ -12,7 +12,12 @@ DisplayStrings = (
 "/ruledown.left",
 "/ruledown.right",
 "↤↦",
-"↞"
+"↞",
+"/rule.ext",
+"/.notdef",
+"/.notdef",
+"̅",
+t
 );
 axes = (
 {
@@ -31,7 +36,7 @@ tag = MLNT;
 classes = (
 {
 automatic = 1;
-code = "A.ss02 Aacute Aacute.ss02 Abreve Abreve.ss02 Abreveacute Abreveacute.ss02 Abrevedotbelow Abrevedotbelow.ss02 Abrevegrave Abrevegrave.ss02 Abrevehookabove Abrevehookabove.ss02 Abrevetilde Abrevetilde.ss02 Acaron Acaron.ss02 Acircumflex Acircumflex.ss02 Acircumflexacute Acircumflexacute.ss02 Acircumflexdotbelow Acircumflexdotbelow.ss02 Acircumflexgrave Acircumflexgrave.ss02 Acircumflexhookabove Acircumflexhookabove.ss02 Acircumflextilde Acircumflextilde.ss02 Adblgrave Adblgrave.ss02 Adieresis Adieresis.ss02 Adotbelow Adotbelow.ss02 Agrave Agrave.ss02 Ahookabove Ahookabove.ss02 Ainvertedbreve Ainvertedbreve.ss02 Amacron Amacron.ss02 Aogonek Aogonek.ss02 Aring Aring.ss02 Aringacute Aringacute.ss02 Atilde Atilde.ss02 AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron Eth E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I I.ss01 Iacute Iacute.ss01 Ibreve Ibreve.ss01 Icaron Icaron.ss01 Icircumflex Icircumflex.ss01 Idblgrave Idblgrave.ss01 Idieresis Idieresis.ss01 Idieresisacute Idieresisacute.ss01 Idotaccent Idotaccent.ss01 Idotbelow Idotbelow.ss01 Igrave Igrave.ss01 Ihookabove Ihookabove.ss01 Iinvertedbreve Iinvertedbreve.ss01 Imacron Imacron.ss01 Iogonek Iogonek.ss01 Itilde.ss01 J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M M.ss02 Mdotbelow Mdotbelow.ss02 N N.ss02 NJ Nacute Nacute.ss02 Ncaron Ncaron.ss02 Ncommaaccent Ncommaaccent.ss02 Ndotaccent Ndotaccent.ss02 Ndotbelow Ndotbelow.ss02 Nj Nlinebelow Nmacronbelow.ss02 Ntilde Ntilde.ss02 Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccent Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q Q.001 Q.ss02.001 Q.ss02 R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V V.ss02 W W.ss02 Wacute Wacute.ss02 Wcircumflex Wcircumflex.ss02 Wdieresis Wdieresis.ss02 Wgrave Wgrave.ss02 X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Z.ss02 Zacute Zacute.ss02 Zcaron Zcaron.ss02 Zdotaccent Zdotaccent.ss02 Zdotbelow Zdotbelow.ss02 A Alpha Beta Gamma Delta Epsilon Zeta Zeta.ss02 Eta Theta Iota Iota.ss01 Kappa Lambda Mu Mu.ss02 Nu Nu.ss02 Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega ThetaSymbol Alpha.ss02 Ascript-math Cscript-math Dscript-math Gscript-math Jscript-math Kscript-math Nscript-math Oscript-math Pscript-math Qscript-math Sscript-math Tscript-math Uscript-math Vscript-math Wscript-math Xscript-math Yscript-math Zscript-math Aboldscript-math Bboldscript-math Cboldscript-math Dboldscript-math Eboldscript-math Fboldscript-math Gboldscript-math Hboldscript-math Iboldscript-math Jboldscript-math Kboldscript-math Lboldscript-math Mboldscript-math Nboldscript-math Oboldscript-math Pboldscript-math Qboldscript-math Rboldscript-math Sboldscript-math Tboldscript-math Uboldscript-math Vboldscript-math Wboldscript-math Xboldscript-math Yboldscript-math Zboldscript-math Amono-math Bmono-math Cmono-math Dmono-math Emono-math Fmono-math Gmono-math Hmono-math Imono-math Jmono-math Kmono-math Lmono-math Mmono-math Nmono-math Omono-math Pmono-math Qmono-math Rmono-math Smono-math Tmono-math Umono-math Vmono-math Wmono-math Xmono-math Ymono-math Zmono-math Zetabold-math.ss02 Iotabold-math Mubold-math.ss02 Nubold-math.ss02 Alphaitalic-math.ss02 Zetaitalic-math.ss02 Muitalic-math.ss02 Nuitalic-math.ss02 Zetabolditalic-math.ss02 Iotabolditalic-math Mubolditalic-math.ss02 Nubolditalic-math.ss02 Abold-math Abold-math.ss02 Bbold-math Cbold-math Dbold-math Ebold-math Fbold-math Gbold-math Hbold-math Ibold-math Ibold-math.ss01 Jbold-math Kbold-math Lbold-math Mbold-math Mbold-math.ss02 Nbold-math Nbold-math.ss02 Obold-math Pbold-math Qbold-math Qbold-math.ss02 Rbold-math Sbold-math Tbold-math Ubold-math Vbold-math Vbold-math.ss02 Wbold-math Wbold-math.ss02 Xbold-math Ybold-math Zbold-math Zbold-math.ss02 Aitalic-math Aitalic-math.ss02 Bitalic-math Citalic-math Ditalic-math Eitalic-math Fitalic-math Gitalic-math Hitalic-math Iitalic-math Iitalic-math.ss01 Jitalic-math Kitalic-math Litalic-math Mitalic-math Mitalic-math.ss02 Nitalic-math Nitalic-math.ss02 Oitalic-math Pitalic-math Qitalic-math Qitalic-math.ss02 Ritalic-math Sitalic-math Titalic-math Uitalic-math Vitalic-math Vitalic-math.ss02 Witalic-math Witalic-math.ss02 Xitalic-math Yitalic-math Zitalic-math Zitalic-math.ss02 Abolditalic-math Abolditalic-math.ss02 Bbolditalic-math Cbolditalic-math Dbolditalic-math Ebolditalic-math Fbolditalic-math Gbolditalic-math Hbolditalic-math Ibolditalic-math Ibolditalic-math.ss01 Jbolditalic-math Kbolditalic-math Lbolditalic-math Mbolditalic-math Mbolditalic-math.ss02 Nbolditalic-math Nbolditalic-math.ss02 Obolditalic-math Pbolditalic-math Qbolditalic-math Qbolditalic-math.ss02 Rbolditalic-math Sbolditalic-math Tbolditalic-math Ubolditalic-math Vbolditalic-math Vbolditalic-math.ss02 Wbolditalic-math Wbolditalic-math.ss02 Xbolditalic-math Ybolditalic-math Zbolditalic-math Zbolditalic-math.ss02 Alphabold-math Alphabold-math.ss02 Betabold-math Gammabold-math Deltabold-math Epsilonbold-math Zetabold-math Etabold-math Thetabold-math Iotabold-math.ss01.ss01 Kappabold-math Lambdabold-math Mubold-math Nubold-math Xibold-math Omicronbold-math Pibold-math Rhobold-math ThetaSymbolbold-math Sigmabold-math Taubold-math Upsilonbold-math Phibold-math Chibold-math Psibold-math Omegabold-math Alphaitalic-math Betaitalic-math Gammaitalic-math Deltaitalic-math Epsilonitalic-math Zetaitalic-math Etaitalic-math Thetaitalic-math Iotaitalic-math Iotaitalic-math.ss01.ss01 Kappaitalic-math Lambdaitalic-math Muitalic-math Nuitalic-math Xiitalic-math Omicronitalic-math Piitalic-math Rhoitalic-math ThetaSymbolitalic-math Sigmaitalic-math Tauitalic-math Upsilonitalic-math Phiitalic-math Chiitalic-math Psiitalic-math Omegaitalic-math Alphabolditalic-math Alphabolditalic-math.ss02 Betabolditalic-math Gammabolditalic-math Deltabolditalic-math Epsilonbolditalic-math Zetabolditalic-math Etabolditalic-math Thetabolditalic-math Iotabolditalic-math.ss01 Kappabolditalic-math Lambdabolditalic-math Mubolditalic-math Nubolditalic-math Xibolditalic-math Omicronbolditalic-math Pibolditalic-math Rhobolditalic-math ThetaSymbolbolditalic-math Sigmabolditalic-math Taubolditalic-math Upsilonbolditalic-math Phibolditalic-math Chibolditalic-math Psibolditalic-math Omegabolditalic-math Iscript Lscript AdoubleStruck BdoubleStruck CdoubleStruck DdoubleStruck EdoubleStruck FdoubleStruck GdoubleStruck HdoubleStruck IdoubleStruck JdoubleStruck KdoubleStruck LdoubleStruck MdoubleStruck NdoubleStruck OdoubleStruck PdoubleStruck QdoubleStruck QdoubleStruck.heavy RdoubleStruck SdoubleStruck TdoubleStruck UdoubleStruck VdoubleStruck WdoubleStruck XdoubleStruck YdoubleStruck ZdoubleStruck";
+code = "A.ss02 Aacute Aacute.ss02 Abreve Abreve.ss02 Abreveacute Abreveacute.ss02 Abrevedotbelow Abrevedotbelow.ss02 Abrevegrave Abrevegrave.ss02 Abrevehookabove Abrevehookabove.ss02 Abrevetilde Abrevetilde.ss02 Acaron Acaron.ss02 Acircumflex Acircumflex.ss02 Acircumflexacute Acircumflexacute.ss02 Acircumflexdotbelow Acircumflexdotbelow.ss02 Acircumflexgrave Acircumflexgrave.ss02 Acircumflexhookabove Acircumflexhookabove.ss02 Acircumflextilde Acircumflextilde.ss02 Adblgrave Adblgrave.ss02 Adieresis Adieresis.ss02 Adotbelow Adotbelow.ss02 Agrave Agrave.ss02 Ahookabove Ahookabove.ss02 Ainvertedbreve Ainvertedbreve.ss02 Amacron Amacron.ss02 Aogonek Aogonek.ss02 Aring Aring.ss02 Aringacute Aringacute.ss02 Atilde Atilde.ss02 AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron Eth E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I I.ss01 Iacute Iacute.ss01 Ibreve Ibreve.ss01 Icaron Icaron.ss01 Icircumflex Icircumflex.ss01 Idblgrave Idblgrave.ss01 Idieresis Idieresis.ss01 Idieresisacute Idieresisacute.ss01 Idotaccent Idotaccent.ss01 Idotbelow Idotbelow.ss01 Igrave Igrave.ss01 Ihookabove Ihookabove.ss01 Iinvertedbreve Iinvertedbreve.ss01 Imacron Imacron.ss01 Iogonek Iogonek.ss01 Itilde.ss01 J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M M.ss02 Mdotbelow Mdotbelow.ss02 N N.ss02 NJ Nacute Nacute.ss02 Ncaron Ncaron.ss02 Ncommaaccent Ncommaaccent.ss02 Ndotaccent Ndotaccent.ss02 Ndotbelow Ndotbelow.ss02 Nj Nlinebelow Nmacronbelow.ss02 Ntilde Ntilde.ss02 Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccent Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q Q.001 Q.ss02.001 Q.ss02 R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V V.ss02 W W.ss02 Wacute Wacute.ss02 Wcircumflex Wcircumflex.ss02 Wdieresis Wdieresis.ss02 Wgrave Wgrave.ss02 X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Z.ss02 Zacute Zacute.ss02 Zcaron Zcaron.ss02 Zdotaccent Zdotaccent.ss02 Zdotbelow Zdotbelow.ss02 A Alpha Beta Gamma Delta Epsilon Zeta Zeta.ss02 Eta Theta Iota Iota.ss01 Kappa Lambda Mu Mu.ss02 Nu Nu.ss02 Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega ThetaSymbol Alpha.ss02 Ascript-math Cscript-math Dscript-math Gscript-math Jscript-math Kscript-math Nscript-math Oscript-math Pscript-math Qscript-math Sscript-math Tscript-math Uscript-math Vscript-math Wscript-math Xscript-math Yscript-math Zscript-math Aboldscript-math Bboldscript-math Cboldscript-math Dboldscript-math Eboldscript-math Fboldscript-math Gboldscript-math Hboldscript-math Iboldscript-math Jboldscript-math Kboldscript-math Lboldscript-math Mboldscript-math Nboldscript-math Oboldscript-math Pboldscript-math Qboldscript-math Rboldscript-math Sboldscript-math Tboldscript-math Uboldscript-math Vboldscript-math Wboldscript-math Xboldscript-math Yboldscript-math Zboldscript-math Amono-math Bmono-math Cmono-math Dmono-math Emono-math Fmono-math Gmono-math Hmono-math Imono-math Jmono-math Kmono-math Lmono-math Mmono-math Nmono-math Omono-math Pmono-math Qmono-math Rmono-math Smono-math Tmono-math Umono-math Vmono-math Wmono-math Xmono-math Ymono-math Zmono-math Zetabold-math.ss02 Iotabold-math Mubold-math.ss02 Nubold-math.ss02 Alphaitalic-math.ss02 Zetaitalic-math.ss02 Muitalic-math.ss02 Nuitalic-math.ss02 Zetabolditalic-math.ss02 Iotabolditalic-math Mubolditalic-math.ss02 Nubolditalic-math.ss02 Abold-math Abold-math.ss02 Bbold-math Cbold-math Dbold-math Ebold-math Fbold-math Gbold-math Hbold-math Ibold-math Ibold-math.ss01 Jbold-math Kbold-math Lbold-math Mbold-math Mbold-math.ss02 Nbold-math Nbold-math.ss02 Obold-math Pbold-math Qbold-math Qbold-math.ss02 Rbold-math Sbold-math Tbold-math Ubold-math Vbold-math Vbold-math.ss02 Wbold-math Wbold-math.ss02 Xbold-math Ybold-math Zbold-math Zbold-math.ss02 Aitalic-math Aitalic-math.ss02 Bitalic-math Citalic-math Ditalic-math Eitalic-math Fitalic-math Gitalic-math Hitalic-math Iitalic-math Iitalic-math.ss01 Jitalic-math Kitalic-math Litalic-math Mitalic-math Mitalic-math.ss02 Nitalic-math Nitalic-math.ss02 Oitalic-math Pitalic-math Qitalic-math Qitalic-math.ss02 Ritalic-math Sitalic-math Titalic-math Uitalic-math Vitalic-math Vitalic-math.ss02 Witalic-math Witalic-math.ss02 Xitalic-math Yitalic-math Zitalic-math Zitalic-math.ss02 Abolditalic-math Abolditalic-math.ss02 Bbolditalic-math Cbolditalic-math Dbolditalic-math Ebolditalic-math Fbolditalic-math Gbolditalic-math Hbolditalic-math Ibolditalic-math Ibolditalic-math.ss01 Jbolditalic-math Kbolditalic-math Lbolditalic-math Mbolditalic-math Mbolditalic-math.ss02 Nbolditalic-math Nbolditalic-math.ss02 Obolditalic-math Pbolditalic-math Qbolditalic-math Qbolditalic-math.ss02 Rbolditalic-math Sbolditalic-math Tbolditalic-math Ubolditalic-math Vbolditalic-math Vbolditalic-math.ss02 Wbolditalic-math Wbolditalic-math.ss02 Xbolditalic-math Ybolditalic-math Zbolditalic-math Zbolditalic-math.ss02 Alphabold-math Alphabold-math.ss02 Betabold-math Gammabold-math Deltabold-math Epsilonbold-math Zetabold-math Etabold-math Thetabold-math Iotabold-math.ss01 Kappabold-math Lambdabold-math Mubold-math Nubold-math Xibold-math Omicronbold-math Pibold-math Rhobold-math ThetaSymbolbold-math Sigmabold-math Taubold-math Upsilonbold-math Phibold-math Chibold-math Psibold-math Omegabold-math Alphaitalic-math Betaitalic-math Gammaitalic-math Deltaitalic-math Epsilonitalic-math Zetaitalic-math Etaitalic-math Thetaitalic-math Iotaitalic-math Iotaitalic-math.ss01 Kappaitalic-math Lambdaitalic-math Muitalic-math Nuitalic-math Xiitalic-math Omicronitalic-math Piitalic-math Rhoitalic-math ThetaSymbolitalic-math Sigmaitalic-math Tauitalic-math Upsilonitalic-math Phiitalic-math Chiitalic-math Psiitalic-math Omegaitalic-math Alphabolditalic-math Alphabolditalic-math.ss02 Betabolditalic-math Gammabolditalic-math Deltabolditalic-math Epsilonbolditalic-math Zetabolditalic-math Etabolditalic-math Thetabolditalic-math Iotabolditalic-math.ss01 Kappabolditalic-math Lambdabolditalic-math Mubolditalic-math Nubolditalic-math Xibolditalic-math Omicronbolditalic-math Pibolditalic-math Rhobolditalic-math ThetaSymbolbolditalic-math Sigmabolditalic-math Taubolditalic-math Upsilonbolditalic-math Phibolditalic-math Chibolditalic-math Psibolditalic-math Omegabolditalic-math Iscript Lscript AdoubleStruck BdoubleStruck CdoubleStruck DdoubleStruck EdoubleStruck FdoubleStruck GdoubleStruck HdoubleStruck IdoubleStruck JdoubleStruck KdoubleStruck LdoubleStruck MdoubleStruck NdoubleStruck OdoubleStruck PdoubleStruck QdoubleStruck QdoubleStruck.heavy RdoubleStruck SdoubleStruck TdoubleStruck UdoubleStruck VdoubleStruck WdoubleStruck XdoubleStruck YdoubleStruck ZdoubleStruck";
 name = Uppercase;
 },
 {
@@ -434,8 +439,8 @@ sub Iota by Iota.ss01;
 sub Ibold-math by Ibold-math.ss01;
 sub Iitalic-math by Iitalic-math.ss01;
 sub Ibolditalic-math by Ibolditalic-math.ss01;
-sub Iotabold-math by Iotabold-math.ss01.ss01;
-sub Iotaitalic-math by Iotaitalic-math.ss01.ss01;
+sub Iotabold-math by Iotabold-math.ss01;
+sub Iotaitalic-math by Iotaitalic-math.ss01;
 sub Iotabolditalic-math by Iotabolditalic-math.ss01;
 sub abold-math by abold-math.ss01;
 sub gbold-math by gbold-math.ss01;
@@ -39223,7 +39228,7 @@ unicode = 223;
 glyphname = t;
 kernLeft = t;
 kernRight = t;
-lastChange = "2024-10-15 20:03:29 +0000";
+lastChange = "2024-10-24 22:31:52 +0000";
 layers = (
 {
 anchors = (
@@ -80210,10 +80215,10 @@ unicode = 120495;
 },
 {
 category = Letter;
-glyphname = "Iotabold-math.ss01.ss01";
+glyphname = "Iotabold-math.ss01";
 kernLeft = "Hbold-math";
 kernRight = "Hbold-math";
-lastChange = "2024-10-23 12:10:31 +0000";
+lastChange = "2024-10-24 18:42:08 +0000";
 layers = (
 {
 anchors = (
@@ -84611,8 +84616,8 @@ unicode = 120554;
 },
 {
 category = Letter;
-glyphname = "Iotaitalic-math.ss01.ss01";
-lastChange = "2024-10-23 12:10:31 +0000";
+glyphname = "Iotaitalic-math.ss01";
+lastChange = "2024-10-24 18:41:43 +0000";
 layers = (
 {
 anchors = (
@@ -186552,6 +186557,82 @@ width = 581;
 );
 },
 {
+glyphname = widebar;
+kernLeft = minus;
+kernRight = minus;
+lastChange = "2024-10-24 18:34:16 +0000";
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (251,1318);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,1237,o),
+(499,1277,o),
+(497,1284,c),
+(336,1284,o),
+(85,1285,o),
+(9,1273,c),
+(3,1264,o),
+(0,1225,o),
+(0,1211,c),
+(81,1217,o),
+(441,1216,o),
+(500,1213,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 500;
+},
+{
+anchors = (
+{
+name = math.ta;
+pos = (48,1149);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(307,1237,o),
+(306,1565,o),
+(304,1572,c),
+(143,1572,o),
+(-108,1573,o),
+(-184,1561,c),
+(-190,1552,o),
+(-193,1225,o),
+(-193,1211,c),
+(-112,1217,o),
+(248,1216,o),
+(307,1213,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 115;
+}
+);
+production = "00305";
+unicode = 773;
+},
+{
 glyphname = hookabovecomb;
 kernLeft = hookabovecomb;
 kernRight = hookabovecomb;
@@ -195360,7 +195441,7 @@ width = 499;
 glyphname = overbar;
 kernLeft = macron;
 kernRight = macron;
-lastChange = "2024-10-24 11:49:09 +0000";
+lastChange = "2024-10-24 18:27:04 +0000";
 layers = (
 {
 anchors = (
@@ -196284,7 +196365,6 @@ value = (
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.75;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.25;
@@ -197236,22 +197316,23 @@ name = "Math Axis";
 }
 );
 note = "Todo:
-= swap over the ss01 (deal with Q and in text put accents on lower case g)
 = Italic superscript and check them all as we may have lost some
+= Tidy testing document
+= widebar
 = consistent size of dot accents (do this again!)
-= Widetildes 
-= Test spacing with CONTEXT formula (e.g. colon)
-= CONTEXT: minimum width of fraction rule for context
+= Widetildes in Black (check these are OK)
+= Fraction Rule (and minimum size etc)
+= Radical Rule (put this back again)
 = Height of radicals in Black (do this again!)
 = slash (do this again!)
-= Triple bar fences
-= Extended Fences (which ones are still needed)
 
 ==== Need help with the following
 = Lower integral position (will need help for this in both LuaLaTeX and ConTeXt)
 = CONTEXT: Where to keep typescript (will need help with this)
 
 === Future
+Triple bar fences
+Extended Fences (which ones are still needed)
 Longarrows; injection arrow; extensible arrows
 Ciel and Floor fences
 More integrals
