@@ -47,7 +47,14 @@ DisplayStrings = (
 "⨅",
 "̂â",
 "ê",
-"aáăắặằẳẵǎâấậầẩẫȁäạàảȃāąåǻã"
+"aáăắặằẳẵǎâấậầẩẫȁäạàảȃāąåǻã",
+"̂",
+"/circumflexcomb.case Â/Acircumflex.ss02/Acircumflexacute.ss02 Ậ/Acircumflexdotbelow.ss02/Acircumflexgrave.ss02/Acircumflexhookabove.ss02 Ẫ/Acircumflextilde.ss02 ĈÊỆỄĜĤÎ/Icircumflex.ss01 ĴÔỘŜÛŴ/Wcircumflex.ss02 Ŷĥf",
+"̌",
+"/caroncomb.case",
+"̆",
+"/brevecomb.case",
+a
 );
 axes = (
 {
@@ -163,11 +170,11 @@ feature pnum;
 feature tnum;
 feature case;
 feature zero;
+feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
 feature rvrn;
-feature ss01;
 ";
 tag = aalt;
 },
@@ -185293,7 +185300,7 @@ circumflexcomb.s7
 },
 {
 glyphname = circumflexcomb.case;
-lastChange = "2024-08-06 17:54:50 +0000";
+lastChange = "2024-10-24 01:42:19 +0000";
 layers = (
 {
 anchors = (
@@ -185303,7 +185310,11 @@ pos = (438,1063);
 },
 {
 name = math.ta;
-pos = (436,1058);
+pos = (457,1326);
+},
+{
+name = math.ta;
+pos = (457,1326);
 },
 {
 name = top;
@@ -185350,7 +185361,11 @@ pos = (449,1063);
 },
 {
 name = math.ta;
-pos = (452,1059);
+pos = (478,1309);
+},
+{
+name = math.ta;
+pos = (478,1309);
 },
 {
 name = top;
@@ -185400,7 +185415,7 @@ source = circumflexcomb;
 glyphname = caroncomb;
 kernLeft = caron;
 kernRight = caron;
-lastChange = "2024-07-09 02:15:58 +0000";
+lastChange = "2024-10-24 01:43:16 +0000";
 layers = (
 {
 anchors = (
@@ -185410,7 +185425,11 @@ pos = (430,1063);
 },
 {
 name = math.ta;
-pos = (429,1061);
+pos = (425,1129);
+},
+{
+name = math.ta;
+pos = (425,1129);
 },
 {
 name = top;
@@ -185457,7 +185476,11 @@ pos = (429,1063);
 },
 {
 name = math.ta;
-pos = (428,1067);
+pos = (426,1119);
+},
+{
+name = math.ta;
+pos = (426,1119);
 },
 {
 name = top;
@@ -185501,13 +185524,17 @@ unicode = 780;
 },
 {
 glyphname = caroncomb.case;
-lastChange = "2020-06-17 15:50:57 +0000";
+lastChange = "2024-10-24 01:43:58 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
 pos = (396,1291);
+},
+{
+name = math.ta;
+pos = (388,1358);
 },
 {
 name = top;
@@ -185553,6 +185580,10 @@ name = _top;
 pos = (400,1291);
 },
 {
+name = math.ta;
+pos = (398,1350);
+},
+{
 name = top;
 pos = (400,1796);
 }
@@ -185595,7 +185626,7 @@ width = 860;
 glyphname = brevecomb;
 kernLeft = breve;
 kernRight = breve;
-lastChange = "2024-07-09 02:15:01 +0000";
+lastChange = "2024-10-24 01:45:50 +0000";
 layers = (
 {
 anchors = (
@@ -185605,7 +185636,11 @@ pos = (413,1063);
 },
 {
 name = math.ta;
-pos = (414,1067);
+pos = (413,1020);
+},
+{
+name = math.ta;
+pos = (413,1020);
 },
 {
 name = top;
@@ -185654,7 +185689,11 @@ pos = (409,1063);
 },
 {
 name = math.ta;
-pos = (410,1060);
+pos = (406,1013);
+},
+{
+name = math.ta;
+pos = (406,1013);
 },
 {
 name = top;
@@ -185700,13 +185739,17 @@ unicode = 774;
 },
 {
 glyphname = brevecomb.case;
-lastChange = "2020-07-08 20:04:27 +0000";
+lastChange = "2024-10-24 01:46:27 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
 pos = (408.5,1291);
+},
+{
+name = math.ta;
+pos = (408,1353);
 },
 {
 name = top;
@@ -185752,6 +185795,10 @@ anchors = (
 {
 name = _top;
 pos = (412.5,1291);
+},
+{
+name = math.ta;
+pos = (409,1353);
 },
 {
 name = top;
@@ -196317,7 +196364,7 @@ name = "Math Axis";
 }
 );
 note = "Todo:
-= swap over the ss01
+= swap over the ss01 (deal with Q and in text put accents on lower case g)
 = Italic superscript and check them all as we may have lost some
 = consistent size of dot accents (do this again!)
 = Widetildes 
