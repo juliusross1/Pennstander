@@ -4,7 +4,9 @@
 DisplayStrings = (
 "̈̇",
 "/tildecomb.s1/tildecomb.s2/tildecomb.s3/tildecomb.s4/tildecomb.s5/tildecomb.s6/tildecomb.s7",
-"̅/widebar.s1/widebar.ext/widebar.left/widebar.right"
+"̅/widebar.s1/widebar.ext/widebar.left/widebar.right",
+"𝐴/Aitalic-math.ss02 𝐵𝐶𝐷𝐸𝐹𝐺𝐻𝛩Θ𝐼/Iitalic-math.ss01 𝐽𝐾𝐿𝑀/Mitalic-math.ss02 𝑁/Nitalic-math.ss02 𝑂𝑃𝑄/Qitalic-math.ss02 𝑅𝑆𝑇𝑈𝑉/Vitalic-math.ss02 𝑊/Witalic-math.ss02 𝑋𝑌x𝑍",
+"𝛼𝛽𝛾𝛿𝜀𝜁𝜂𝜃𝜄𝜅𝜆𝜇𝜈𝜉𝜊𝜋𝜌𝜍𝜎𝜏𝜐𝜑𝜒𝜓𝜔𝜖𝜗𝜙"
 );
 axes = (
 {
@@ -43116,13 +43118,13 @@ unicode = 7809;
 glyphname = x;
 kernLeft = x;
 kernRight = x;
-lastChange = "2024-10-17 00:58:25 +0000";
+lastChange = "2024-10-25 00:51:03 +0000";
 layers = (
 {
 anchors = (
 {
 name = math.br;
-pos = (1196,0);
+pos = (1156,0);
 },
 {
 name = math.ta;
@@ -68766,7 +68768,7 @@ category = Letter;
 glyphname = "Gitalic-math";
 kernLeft = "Oitalic-math";
 kernRight = "Gitalic-math";
-lastChange = "2024-10-19 13:25:06 +0000";
+lastChange = "2024-10-25 00:43:08 +0000";
 layers = (
 {
 anchors = (
@@ -68855,7 +68857,7 @@ pos = (588,0);
 },
 {
 name = math.br;
-pos = (1205,0);
+pos = (1265,0);
 },
 {
 name = math.ic;
@@ -68935,7 +68937,7 @@ category = Letter;
 glyphname = "Hitalic-math";
 kernLeft = "Hitalic-math";
 kernRight = "Hitalic-math";
-lastChange = "2024-10-20 19:14:12 +0000";
+lastChange = "2024-10-25 00:45:18 +0000";
 layers = (
 {
 anchors = (
@@ -69046,7 +69048,7 @@ pos = (795,1063);
 },
 {
 name = math.br;
-pos = (1129,0);
+pos = (1159,0);
 },
 {
 name = math.ic;
@@ -69062,7 +69064,7 @@ pos = (205,1287);
 },
 {
 name = math.tr;
-pos = (1079,1291);
+pos = (1159,1291);
 },
 {
 name = top;
@@ -69140,7 +69142,7 @@ category = Letter;
 glyphname = "Iitalic-math";
 kernLeft = "Hitalic-math";
 kernRight = "Hitalic-math";
-lastChange = "2024-10-23 12:09:18 +0000";
+lastChange = "2024-10-25 00:43:51 +0000";
 layers = (
 {
 anchors = (
@@ -69261,7 +69263,7 @@ pos = (37,-5);
 },
 {
 name = math.br;
-pos = (839,0);
+pos = (919,0);
 },
 {
 name = math.ic;
@@ -69277,7 +69279,7 @@ pos = (143,1292);
 },
 {
 name = math.tr;
-pos = (838,1308);
+pos = (908,1308);
 },
 {
 name = ogonek;
@@ -69499,7 +69501,7 @@ category = Letter;
 glyphname = "Jitalic-math";
 kernLeft = "Jitalic-math";
 kernRight = "Jitalic-math";
-lastChange = "2024-10-19 01:39:17 +0000";
+lastChange = "2024-10-25 00:41:01 +0000";
 layers = (
 {
 anchors = (
@@ -69573,7 +69575,7 @@ pos = (639,0);
 },
 {
 name = math.br;
-pos = (1228,0);
+pos = (1288,0);
 },
 {
 name = math.ic;
@@ -69638,7 +69640,7 @@ category = Letter;
 glyphname = "Kitalic-math";
 kernLeft = "Hitalic-math";
 kernRight = "Kitalic-math";
-lastChange = "2024-10-18 12:46:07 +0000";
+lastChange = "2024-10-25 00:41:11 +0000";
 layers = (
 {
 anchors = (
@@ -69724,7 +69726,7 @@ pos = (578,0);
 },
 {
 name = math.br;
-pos = (1135,0);
+pos = (1195,0);
 },
 {
 name = math.ic;
@@ -69801,7 +69803,7 @@ category = Letter;
 glyphname = "Litalic-math";
 kernLeft = "Hitalic-math";
 kernRight = "Litalic-math";
-lastChange = "2024-10-19 01:40:12 +0000";
+lastChange = "2024-10-25 00:45:53 +0000";
 layers = (
 {
 anchors = (
@@ -69890,7 +69892,7 @@ pos = (704,646);
 },
 {
 name = math.br;
-pos = (981,0);
+pos = (1101,0);
 },
 {
 name = math.ic;
@@ -69902,7 +69904,7 @@ pos = (684,1452);
 },
 {
 name = math.tr;
-pos = (1036,1256);
+pos = (806,1256);
 },
 {
 name = top;
@@ -69962,7 +69964,7 @@ category = Letter;
 glyphname = "Mitalic-math";
 kernLeft = "Mitalic-math";
 kernRight = "Mitalic-math";
-lastChange = "2024-10-20 19:16:24 +0000";
+lastChange = "2024-10-25 00:42:13 +0000";
 layers = (
 {
 anchors = (
@@ -70054,7 +70056,7 @@ pos = (747,0);
 },
 {
 name = math.br;
-pos = (1542,0);
+pos = (1602,0);
 },
 {
 name = math.ic;
@@ -70137,7 +70139,7 @@ category = Letter;
 glyphname = "Mitalic-math.ss02";
 kernLeft = "Mitalic-math";
 kernRight = "Mitalic-math";
-lastChange = "2024-10-18 04:31:48 +0000";
+lastChange = "2024-10-25 00:42:16 +0000";
 layers = (
 {
 anchors = (
@@ -70214,7 +70216,7 @@ pos = (747,0);
 },
 {
 name = math.br;
-pos = (1492,0);
+pos = (1552,0);
 },
 {
 name = math.ic;
@@ -70281,7 +70283,7 @@ category = Letter;
 glyphname = "Nitalic-math";
 kernLeft = "Hitalic-math";
 kernRight = "Hitalic-math";
-lastChange = "2024-10-20 19:16:27 +0000";
+lastChange = "2024-10-25 00:42:18 +0000";
 layers = (
 {
 anchors = (
@@ -70365,7 +70367,7 @@ pos = (641,0);
 },
 {
 name = math.br;
-pos = (1342,0);
+pos = (1402,0);
 },
 {
 name = math.ic;
@@ -70440,7 +70442,7 @@ category = Letter;
 glyphname = "Nitalic-math.ss02";
 kernLeft = "Hitalic-math";
 kernRight = "Hitalic-math";
-lastChange = "2024-10-18 04:32:05 +0000";
+lastChange = "2024-10-25 00:42:21 +0000";
 layers = (
 {
 anchors = (
@@ -70509,7 +70511,7 @@ pos = (641,0);
 },
 {
 name = math.br;
-pos = (1282,0);
+pos = (1342,0);
 },
 {
 name = math.ic;
@@ -70926,7 +70928,7 @@ category = Letter;
 glyphname = "Qitalic-math";
 kernLeft = "Oitalic-math";
 kernRight = "Oitalic-math";
-lastChange = "2024-10-19 01:45:50 +0000";
+lastChange = "2024-10-25 00:46:16 +0000";
 layers = (
 {
 anchors = (
@@ -71026,7 +71028,7 @@ pos = (686,0);
 },
 {
 name = math.br;
-pos = (1371,0);
+pos = (1451,0);
 },
 {
 name = math.ic;
@@ -71117,7 +71119,7 @@ category = Letter;
 glyphname = "Qitalic-math.ss02";
 kernLeft = "Q.ss01italic-math";
 kernRight = "Q.ss01italic-math";
-lastChange = "2024-10-18 04:33:27 +0000";
+lastChange = "2024-10-25 00:46:19 +0000";
 layers = (
 {
 anchors = (
@@ -71205,7 +71207,7 @@ pos = (646,0);
 },
 {
 name = math.br;
-pos = (1291,0);
+pos = (1371,0);
 },
 {
 name = math.ic;
@@ -71283,7 +71285,7 @@ category = Letter;
 glyphname = "Ritalic-math";
 kernLeft = "Hitalic-math";
 kernRight = "Ritalic-math";
-lastChange = "2024-10-18 04:33:32 +0000";
+lastChange = "2024-10-25 00:46:43 +0000";
 layers = (
 {
 anchors = (
@@ -71380,7 +71382,7 @@ pos = (567,0);
 },
 {
 name = math.br;
-pos = (1134,0);
+pos = (1214,0);
 },
 {
 name = math.ic;
@@ -71468,7 +71470,7 @@ category = Letter;
 glyphname = "Sitalic-math";
 kernLeft = "Sitalic-math";
 kernRight = "Sitalic-math";
-lastChange = "2024-10-19 01:49:00 +0000";
+lastChange = "2024-10-25 00:46:51 +0000";
 layers = (
 {
 anchors = (
@@ -71557,7 +71559,7 @@ pos = (606,0);
 },
 {
 name = math.br;
-pos = (1152,0);
+pos = (1252,0);
 },
 {
 name = math.ic;
@@ -71637,7 +71639,7 @@ category = Letter;
 glyphname = "Titalic-math";
 kernLeft = "Titalic-math";
 kernRight = "Titalic-math";
-lastChange = "2024-10-20 19:18:25 +0000";
+lastChange = "2024-10-25 00:47:20 +0000";
 layers = (
 {
 anchors = (
@@ -71722,7 +71724,7 @@ pos = (634,646);
 },
 {
 name = math.br;
-pos = (980,0);
+pos = (950,0);
 },
 {
 name = math.ic;
@@ -71790,7 +71792,7 @@ category = Letter;
 glyphname = "Uitalic-math";
 kernLeft = "Uitalic-math";
 kernRight = "Uitalic-math";
-lastChange = "2024-10-19 01:49:38 +0000";
+lastChange = "2024-10-25 00:47:24 +0000";
 layers = (
 {
 anchors = (
@@ -71884,7 +71886,7 @@ pos = (566,0);
 },
 {
 name = math.br;
-pos = (1172,0);
+pos = (1252,0);
 },
 {
 name = math.ic;
@@ -72222,7 +72224,7 @@ category = Letter;
 glyphname = "Witalic-math";
 kernLeft = "Witalic-math";
 kernRight = "Witalic-math";
-lastChange = "2024-10-19 01:50:09 +0000";
+lastChange = "2024-10-25 00:47:34 +0000";
 layers = (
 {
 anchors = (
@@ -72298,7 +72300,7 @@ pos = (702,0);
 },
 {
 name = math.br;
-pos = (1394,0);
+pos = (1464,0);
 },
 {
 name = math.ic;
@@ -72501,7 +72503,7 @@ category = Letter;
 glyphname = "Xitalic-math";
 kernLeft = "Xitalic-math";
 kernRight = "Xitalic-math";
-lastChange = "2024-10-17 23:03:19 +0000";
+lastChange = "2024-10-25 00:47:42 +0000";
 layers = (
 {
 anchors = (
@@ -72584,7 +72586,7 @@ pos = (647,0);
 },
 {
 name = math.br;
-pos = (1293,0);
+pos = (1363,0);
 },
 {
 name = math.ic;
@@ -72817,7 +72819,7 @@ category = Letter;
 glyphname = "Zitalic-math";
 kernLeft = "Zitalic-math";
 kernRight = "Zitalic-math";
-lastChange = "2024-10-20 17:40:54 +0000";
+lastChange = "2024-10-25 00:48:09 +0000";
 layers = (
 {
 anchors = (
@@ -72921,7 +72923,7 @@ pos = (705,646);
 },
 {
 name = math.br;
-pos = (1054,0);
+pos = (1134,0);
 },
 {
 name = math.ic;
@@ -84167,7 +84169,7 @@ category = Letter;
 glyphname = "Thetaitalic-math";
 kernLeft = "Oitalic-math";
 kernRight = "Oitalic-math";
-lastChange = "2024-10-20 19:14:32 +0000";
+lastChange = "2024-10-25 00:44:22 +0000";
 layers = (
 {
 anchors = (
@@ -84392,6 +84394,236 @@ width = 1306;
 );
 subCategory = Math;
 unicode = 120553;
+},
+{
+category = Letter;
+glyphname = "Thetaitalic-math.001";
+kernLeft = "Oitalic-math";
+kernRight = "Oitalic-math";
+lastChange = "2024-10-25 00:44:22 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (700,30);
+},
+{
+name = center;
+pos = (758,671);
+},
+{
+name = math.bl;
+pos = (5,15);
+},
+{
+name = math.br;
+pos = (1471,0);
+},
+{
+name = math.ic;
+pos = (1531,1300);
+},
+{
+name = math.ta;
+pos = (986,1521);
+},
+{
+name = math.tl;
+pos = (107,1330);
+},
+{
+name = math.tr;
+pos = (1431,1291);
+},
+{
+name = ogonek;
+pos = (934,46);
+},
+{
+name = top;
+pos = (956,1319);
+},
+{
+name = topleft;
+pos = (154,1263);
+},
+{
+name = topright;
+pos = (1317,1227);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1137,9,o),
+(1448,399,o),
+(1448,906,cs),
+(1448,1183,o),
+(1321,1401,o),
+(941,1376,cs),
+(501,1347,o),
+(144,953,o),
+(144,424,cs),
+(144,149,o),
+(301,-47,o),
+(659,-23,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(387,34,o),
+(231,208,o),
+(231,459,cs),
+(231,851,o),
+(532,1294,o),
+(932,1300,c),
+(1251,1322,o),
+(1363,1106,o),
+(1363,852,cs),
+(1363,387,o),
+(1072,85,o),
+(669,55,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1049,734,o),
+(970,731,o),
+(881,728,cs),
+(731,723,o),
+(622,707,o),
+(542,696,c),
+(537,674,o),
+(534,652,o),
+(531,635,c),
+(650,650,o),
+(880,665,o),
+(1068,671,c),
+(1074,686,o),
+(1081,714,o),
+(1085,733,c)
+);
+}
+);
+width = 1431;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (666,25);
+},
+{
+name = center;
+pos = (747,668);
+},
+{
+name = math.bl;
+pos = (67,23);
+},
+{
+name = math.br;
+pos = (1386,0);
+},
+{
+name = math.ic;
+pos = (1606,1291);
+},
+{
+name = math.ta;
+pos = (1017,1315);
+},
+{
+name = math.tl;
+pos = (67,1336);
+},
+{
+name = math.tr;
+pos = (1306,1291);
+},
+{
+name = ogonek;
+pos = (921,34);
+},
+{
+name = top;
+pos = (967,1315);
+},
+{
+name = topleft;
+pos = (272,1291);
+},
+{
+name = topright;
+pos = (1287,1226);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1162,-5,o),
+(1503,448,o),
+(1503,936,cs),
+(1503,1207,o),
+(1357,1396,o),
+(979,1384,cs),
+(507,1369,o),
+(122,943,o),
+(122,465,cs),
+(122,207,o),
+(261,-42,o),
+(651,-26,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(577,348,o),
+(501,448,o),
+(501,581,cs),
+(501,836,o),
+(709,1055,o),
+(928,1060,cs),
+(1102,1064,o),
+(1164,920,o),
+(1164,807,cs),
+(1164,585,o),
+(967,343,o),
+(739,346,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(993,821,o),
+(947,821,o),
+(887,817,cs),
+(842,814,o),
+(774,803,o),
+(714,786,c),
+(703,755,o),
+(674,639,o),
+(662,579,c),
+(738,592,o),
+(965,618,o),
+(999,621,c),
+(1011,679,o),
+(1024,749,o),
+(1031,815,c)
+);
+}
+);
+width = 1306;
+}
+);
+subCategory = Math;
 },
 {
 category = Letter;
@@ -105716,7 +105948,7 @@ unicode = 120594;
 glyphname = "psiitalic-math";
 kernLeft = "uitalic-math";
 kernRight = "uitalic-math";
-lastChange = "2024-10-20 17:11:20 +0000";
+lastChange = "2024-10-25 00:52:06 +0000";
 layers = (
 {
 anchors = (
@@ -105818,7 +106050,7 @@ pos = (685,0);
 },
 {
 name = math.br;
-pos = (1458,3);
+pos = (1498,3);
 },
 {
 name = math.ic;
@@ -197475,8 +197707,7 @@ name = "Math Axis";
 }
 );
 note = "Todo:
-= Widebar extender
-= Italic superscript and check them all as we may have lost some
+= Make the regular bar a little wider
 = Fraction Rule (and minimum size etc)
 = Radical Rule (put this back again)
 = figure out dotless
