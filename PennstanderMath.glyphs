@@ -41,7 +41,13 @@ DisplayStrings = (
 "⋍",
 "∽",
 "⊷⊶",
-"⊡"
+"⊡",
+"¬",
+"Θ",
+"I/dotaccentcomb.case İ",
+"",
+"𝑗",
+"𝚥"
 );
 axes = (
 {
@@ -166,16 +172,15 @@ feature rvrn;
 tag = aalt;
 },
 {
-code = "sub A from [A A.ss02];";
-tag = rand;
-},
-{
 code = "script math;
 language dflt;
 lookup SUB_6 {
 	sub i by idotless;
 	sub j by jdotless;
-} SUB_6;";
+	sub iitalic-math by idotlessitalic-math;
+	sub jitalic-math by jdotlessitalic-math;
+} SUB_6;
+";
 tag = dtls;
 },
 {
@@ -630,18 +635,6 @@ value = "";
 }
 );
 tag = ss04;
-},
-{
-code = "condition 699<wght;
-	sub QdoubleStruck by QdoubleStruck.heavy;";
-tag = rvrn;
-},
-{
-code = "script math;
-language dflt;
-sub i by idotless;
-sub j by jdotless;";
-tag = dtls;
 }
 );
 fontMaster = (
@@ -46244,7 +46237,7 @@ unicode = 919;
 glyphname = Theta;
 kernLeft = O;
 kernRight = O;
-lastChange = "2024-10-19 02:37:38 +0000";
+lastChange = "2024-10-25 02:52:12 +0000";
 layers = (
 {
 anchors = (
@@ -46274,7 +46267,7 @@ pos = (101,1291);
 },
 {
 name = math.tr;
-pos = (1401,1291);
+pos = (1441,1291);
 },
 {
 name = ogonek;
@@ -46380,7 +46373,7 @@ pos = (80,1291);
 },
 {
 name = math.tr;
-pos = (1356,1291);
+pos = (1396,1291);
 },
 {
 name = ogonek;
@@ -97216,121 +97209,6 @@ width = 1200;
 unicode = 120483;
 },
 {
-glyphname = idotless.math;
-lastChange = "2024-10-17 01:04:24 +0000";
-layers = (
-{
-anchors = (
-{
-name = math.br;
-pos = (366,0);
-},
-{
-name = math.ta;
-pos = (236,997);
-},
-{
-name = math.tr;
-pos = (366,1291);
-}
-);
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-ref = idotless;
-}
-);
-width = 366;
-},
-{
-anchors = (
-{
-name = math.br;
-pos = (581,0);
-},
-{
-name = math.ta;
-pos = (244,995);
-},
-{
-name = math.tr;
-pos = (581,1291);
-}
-);
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-ref = idotless;
-}
-);
-width = 581;
-}
-);
-unicode = 120484;
-},
-{
-glyphname = jdotless.math;
-kernLeft = j;
-lastChange = "2024-10-17 01:03:56 +0000";
-layers = (
-{
-anchors = (
-{
-name = math.br;
-pos = (838,0);
-},
-{
-name = math.ta;
-pos = (557,1000);
-},
-{
-name = math.tr;
-pos = (838,1291);
-},
-{
-name = top;
-pos = (553,1001);
-}
-);
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-ref = jdotless;
-}
-);
-width = 838;
-},
-{
-anchors = (
-{
-name = math.br;
-pos = (1091,0);
-},
-{
-name = math.ta;
-pos = (691,997);
-},
-{
-name = math.tr;
-pos = (1091,1291);
-},
-{
-name = top;
-pos = (690,991);
-}
-);
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-ref = jdotless;
-}
-);
-width = 1091;
-}
-);
-unicode = 120485;
-},
-{
 glyphname = "alphabold-math";
 kernLeft = "obold-math";
 lastChange = "2024-10-19 23:11:48 +0000";
@@ -127525,6 +127403,232 @@ width = 1043;
 );
 subCategory = Math;
 unicode = 119963;
+},
+{
+category = Letter;
+glyphname = "idotlessitalic-math";
+kernLeft = "iitalic-math";
+kernRight = "iitalic-math";
+lastChange = "2024-10-26 00:32:37 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (206,0);
+},
+{
+name = math.br;
+pos = (590,0);
+},
+{
+name = math.ic;
+pos = (730,1300);
+},
+{
+name = math.tr;
+pos = (618,1308);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(283,91,o),
+(404,516,o),
+(473,774,cs),
+(492,845,o),
+(507,903,o),
+(515,938,c),
+(503,938,o),
+(447,934,o),
+(441,933,c),
+(387,730,o),
+(190,85,o),
+(152,-2,c),
+(162,-4,o),
+(179,-6,o),
+(201,-6,cs),
+(215,-6,o),
+(230,-5,o),
+(249,-3,c)
+);
+}
+);
+width = 540;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (301,0);
+},
+{
+name = math.br;
+pos = (720,0);
+},
+{
+name = math.ic;
+pos = (910,1300);
+},
+{
+name = math.tr;
+pos = (766,1411);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(513,85,o),
+(614,401,o),
+(675,628,cs),
+(708,751,o),
+(733,864,o),
+(736,911,c),
+(655,911,o),
+(436,903,o),
+(365,898,c),
+(309,690,o),
+(109,92,o),
+(71,5,c),
+(133,-3,o),
+(198,-6,o),
+(259,-6,cs),
+(348,-6,o),
+(440,1,o),
+(465,3,c)
+);
+}
+);
+width = 660;
+}
+);
+subCategory = Math;
+unicode = 120484;
+},
+{
+category = Letter;
+glyphname = "jdotlessitalic-math";
+kernLeft = "jitalic-math";
+kernRight = "jitalic-math";
+lastChange = "2024-10-26 00:32:48 +0000";
+layers = (
+{
+anchors = (
+{
+name = math.bl;
+pos = (24,-51);
+},
+{
+name = math.br;
+pos = (1054,-55);
+},
+{
+name = math.ic;
+pos = (1190,1300);
+},
+{
+name = math.tl;
+pos = (364,1073);
+},
+{
+name = math.tr;
+pos = (1102,1090);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(644,-454,o),
+(762,-176,o),
+(849,147,cs),
+(919,407,o),
+(977,731,o),
+(995,999,c),
+(916,991,l),
+(885,713,o),
+(837,418,o),
+(771,173,cs),
+(704,-76,o),
+(596,-378,o),
+(404,-378,cs),
+(255,-378,o),
+(192,-224,o),
+(178,-103,c),
+(151,-119,o),
+(107,-145,o),
+(85,-163,c),
+(107,-337,o),
+(214,-454,o),
+(390,-454,cs)
+);
+}
+);
+width = 990;
+},
+{
+anchors = (
+{
+name = math.bl;
+pos = (-23,-9);
+},
+{
+name = math.br;
+pos = (1313,-1);
+},
+{
+name = math.ic;
+pos = (1279,1300);
+},
+{
+name = math.tl;
+pos = (465,1121);
+},
+{
+name = math.tr;
+pos = (1275,1374);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(739,-534,o),
+(970,-273,o),
+(1111,254,cs),
+(1176,497,o),
+(1199,832,o),
+(1191,881,c),
+(767,862,l),
+(770,701,o),
+(733,393,o),
+(677,187,cs),
+(636,36,o),
+(554,-189,o),
+(461,-189,cs),
+(400,-189,o),
+(372,-137,o),
+(371,-66,c),
+(268,-94,o),
+(63,-159,o),
+(-60,-231,c),
+(-58,-410,o),
+(137,-534,o),
+(368,-534,cs)
+);
+}
+);
+width = 1109;
+}
+);
+subCategory = Math;
+unicode = 120485;
 },
 {
 color = 9;
@@ -173935,7 +174039,7 @@ unicode = 126;
 glyphname = logicalnot;
 kernLeft = logicalnot;
 kernRight = logicalnot;
-lastChange = "2024-10-20 02:31:42 +0000";
+lastChange = "2024-10-25 02:48:25 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -173943,28 +174047,28 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(756,692,o),
-(210,679,o),
-(80,675,c),
-(81,657,o),
-(84,621,o),
-(87,604,c),
-(188,608,o),
-(591,618,o),
-(778,618,cs),
-(778,564,o),
-(769,335,o),
-(761,270,cs),
-(780,270,o),
-(802,271,o),
-(818,276,c),
-(832,481,o),
-(836,673,o),
-(836,692,c)
+(806,808,o),
+(210,795,o),
+(80,791,c),
+(81,773,o),
+(84,737,o),
+(87,720,c),
+(188,724,o),
+(624,734,o),
+(811,734,cs),
+(811,680,o),
+(802,351,o),
+(794,286,cs),
+(813,286,o),
+(852,287,o),
+(868,292,c),
+(882,497,o),
+(886,789,o),
+(886,808,c)
 );
 }
 );
-width = 886;
+width = 1026;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -184343,6 +184447,93 @@ width = 1200;
 unicode = 9674;
 },
 {
+glyphname = whiteSquare;
+lastChange = "2024-10-25 13:01:51 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(376,8,o),
+(943,8,o),
+(1201,8,c),
+(1225,363,o),
+(1225,916,o),
+(1201,1271,c),
+(943,1271,o),
+(376,1271,o),
+(118,1271,c),
+(94,916,o),
+(94,363,o),
+(118,8,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,379,o),
+(160,899,o),
+(183,1209,c),
+(397,1209,o),
+(922,1209,o),
+(1136,1209,c),
+(1160,899,o),
+(1160,379,o),
+(1136,69,c),
+(922,69,o),
+(397,69,o),
+(183,69,c)
+);
+}
+);
+width = 1319;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(459,55,o),
+(866,55,o),
+(1213,55,c),
+(1234,636,o),
+(1231,712,o),
+(1213,1385,c),
+(866,1385,o),
+(459,1385,o),
+(111,1385,c),
+(95,771,o),
+(97,672,o),
+(111,55,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(382,645,o),
+(382,816,o),
+(412,1088,c),
+(594,1088,o),
+(736,1088,o),
+(918,1088,c),
+(948,816,o),
+(948,645,o),
+(918,373,c),
+(736,373,o),
+(594,373,o),
+(412,373,c)
+);
+}
+);
+width = 1328;
+}
+);
+unicode = 9633;
+},
+{
 glyphname = dieresiscomb;
 kernLeft = dieresis;
 kernRight = dieresis;
@@ -184539,7 +184730,7 @@ unicode = 775;
 },
 {
 glyphname = dotaccentcomb.case;
-lastChange = "2024-10-24 23:10:32 +0000";
+lastChange = "2024-10-25 23:54:44 +0000";
 layers = (
 {
 anchors = (
@@ -184555,7 +184746,7 @@ pos = (206,1581);
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-pos = (0,700);
+pos = (0,908);
 ref = bullet.component;
 scale = (0.9,0.81);
 }
@@ -196502,7 +196693,6 @@ value = (
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.125;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.875;
@@ -196516,7 +196706,6 @@ axesValues = (
 500,
 50
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.25;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.75;
@@ -196550,7 +196739,6 @@ value = (
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.5;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.5;
@@ -196572,7 +196760,6 @@ value = (
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.625;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.375;
@@ -196619,7 +196806,6 @@ value = (
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.875;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.125;
@@ -197549,12 +197735,20 @@ name = "Math Axis";
 note = "Todo:
 = Fraction Rule (and minimum size etc)
 = Radical Rule (put this back again)
-= fix goodies
-= figure out dotless
+= Github testing documents and fonts
+= Test the stylstic alternatives
 
 ==== Need help with the following
-= Lower integral position (will need help for this in both LuaLaTeX and ConTeXt)
-= Will CONTEXT show my which glyph (i.e. unicode and variant/extended) it is displaying
+
+Questions about CONTEXT
+Can CONTEXT show my which glyph (i.e. unicode and variant/extended) it is displaying?
+
+Small issues concerning typescript/font for which I would appreciate help
+= Lower integral position, I would like to move it down but do not want to shift all the subscripts down.  Is there a tweak for this?
+= dtls opentype feature: I cannot get this working even though I tried to copy what is happening in euler
+= I do not know what u02061 is meant to do (used in \\of command)
+= the \\inverse command seems to ask for uFD066 but I do not understand what is going on there
+= the primes are shifted down quite a lot in denominators of fractions.  Not sure what controls this.
 
 === Future
 Triple bar fences
@@ -197563,7 +197757,6 @@ Longarrows; injection arrow; extensible arrows
 Improve the Black Widetilde
 Ciel and Floor fences
 More integrals
-Improve/tidy the testing documents
 Extended double, triple integrals
 Double angle fences
 Some Mathscript (\\mathscr I \\mathscr O \\mathscr X \\mathscr L \\mathscr Q)
