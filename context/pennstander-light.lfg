@@ -2,25 +2,24 @@ local common  = fonts.goodies.load("common-math.lfg")
 local presets = common.mathematics.tweaks.presets
 
 return {
-    name = "pennstander",
-    version = "0.01",
-    comment = "Goodies that complement Pennstander Math Light Weights",
+    name = "Pennstander",
+    version = "0.1",
+    comment = "Goodies that complement Pennstander.",
     author = "Julius Ross",
     copyright = "",
     mathematics = {
-        helpers={
-        },        
-        scales = {
-            scriptweight       =   20,
-            scriptscriptweight =   80,
+        parameters = {
+            PrimeShiftUp                   = "1*SuperscriptShiftUp",
+            PrimeShiftUpCramped            = "1*SuperscriptShiftUp",
         },
-        
-        
         tweaks = {
-        
             aftercopying = {
-            	presets.moveintegrals        {},
+                presets.moveintegrals        { },
             },
+        },
+        scales = {
+            scriptweight       =   80,
+            scriptscriptweight =   140,
         },
     },
 }

@@ -2,28 +2,24 @@ local common  = fonts.goodies.load("common-math.lfg")
 local presets = common.mathematics.tweaks.presets
 
 return {
-    name = "penstander",
-    version = "0.01",
-    comment = "Goodies that complement Pennstander Math at Heavy Weights",
+    name = "Pennstander",
+    version = "0.1",
+    comment = "Goodies that complement Pennstander.",
     author = "Julius Ross",
     copyright = "",
     mathematics = {
-        helpers={
-        },        
-        -- Makes heavier the script and subscripts.  This solution is fine, but ideally
-        -- we would be able to define a new font for this (for instance we are not consistent with \bf)
-        -- super and subscripts (i.e \tf at weight Bold behave differently to \bf at weight Medium)
+        parameters = {
+            PrimeShiftUp                   = "1*SuperscriptShiftUp",
+            PrimeShiftUpCramped            = "1*SuperscriptShiftUp",
+        },
+        tweaks = {
+            aftercopying = {
+                presets.moveintegrals        { },
+            },
+        },
         scales = {
             scriptweight       =   0,
             scriptscriptweight =   0,
-        },
-        
-        
-        tweaks = {
-        
-            aftercopying = {
-            	presets.moveintegrals        { },
-            },
         },
     },
 }
