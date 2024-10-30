@@ -4,7 +4,18 @@
 DisplayStrings = (
 ":;",
 "∦",
-"ϕ𝑖|(/parenleft.001 𝜙(𝑈(𝐻("
+"ϕ𝑖|(/parenleft.001 𝜙(𝑈(𝐻(",
+"",
+"",
+"",
+"",
+"",
+"/rightArrow.lft",
+"/rightArrow.mid",
+"/rightArrow.rgt",
+"→",
+"‾",
+"/rule.ext"
 );
 axes = (
 {
@@ -181506,9 +181517,15 @@ unicode = 8599;
 },
 {
 glyphname = rightArrow;
-lastChange = "2024-08-10 14:44:43 +0000";
+lastChange = "2024-10-30 17:36:30 +0000";
 layers = (
 {
+anchors = (
+{
+name = "new anchor";
+pos = (636,499);
+}
+);
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
@@ -181516,21 +181533,296 @@ pos = (-50,-30);
 ref = arrow;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+rightArrow.lft,
+0,
+0,
+200
+),
+(
+rightArrow.mid,
+1,
+200,
+200
+),
+(
+rightArrow.rgt,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1529;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-alignment = -1;
 pos = (40,0);
 ref = arrow;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+rightArrow.lft,
+0,
+0,
+200
+),
+(
+rightArrow.mid,
+1,
+150,
+150
+),
+(
+rightArrow.rgt,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1893;
 }
 );
+production = rightArrow;
 unicode = 8594;
+},
+{
+glyphname = rightArrow.lft;
+lastChange = "2024-10-30 15:05:50 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(409,553,l),
+(609,553,l),
+(609,621,l),
+(409,620,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(409,620,l),
+(228,615,o),
+(115,611,o),
+(0,606,c),
+(0,584,o),
+(4,562,o),
+(9,545,c),
+(118,550,o),
+(238,550,o),
+(409,553,c)
+);
+}
+);
+width = 609;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(512,442,l),
+(715,442,l),
+(712,787,l),
+(512,787,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(512,787,l),
+(374,782,o),
+(261,774,o),
+(133,763,c),
+(115,715,o),
+(90,502,o),
+(90,409,c),
+(191,413,o),
+(329,431,o),
+(512,442,c)
+);
+}
+);
+width = 715;
+}
+);
+production = rightArrow.lft;
+},
+{
+glyphname = rightArrow.mid;
+lastChange = "2024-10-30 17:35:20 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,553,l),
+(400,553,l),
+(400,621,l),
+(0,620,l)
+);
+}
+);
+width = 400;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,442,l),
+(400,442,l),
+(400,787,l),
+(0,787,l)
+);
+}
+);
+width = 400;
+}
+);
+production = rightArrow.mid;
+},
+{
+glyphname = rightArrow.rgt;
+lastChange = "2024-10-30 15:06:02 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(447,880,o),
+(763,684,o),
+(928,577,c),
+(937,605,l),
+(676,471,o),
+(318,290,o),
+(249,262,c),
+(249,246,o),
+(259,226,o),
+(265,214,c),
+(304,224,o),
+(689,418,o),
+(969,568,c),
+(970,615,l),
+(740,771,o),
+(416,973,o),
+(363,987,c),
+(352,980,o),
+(335,964,o),
+(326,954,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,553,l),
+(429,556,o),
+(679,558,o),
+(905,558,c),
+(908,573,o),
+(908,601,o),
+(908,620,c),
+(820,622,o),
+(634,622,o),
+(409,622,cs),
+(335,622,o),
+(266,622,o),
+(200,621,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,553,l),
+(200,553,l),
+(200,621,l),
+(0,620,l)
+);
+}
+);
+width = 1120;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(525,781,o),
+(773,609,o),
+(837,565,c),
+(874,690,l),
+(748,589,o),
+(421,363,o),
+(400,354,c),
+(400,312,o),
+(457,113,o),
+(494,79,c),
+(534,89,o),
+(964,374,o),
+(1221,502,c),
+(1214,684,l),
+(1030,816,o),
+(701,1053,o),
+(648,1067,c),
+(579,1031,o),
+(481,925,o),
+(426,854,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(203,442,l),
+(517,460,o),
+(829,479,o),
+(903,479,c),
+(903,571,o),
+(901,598,o),
+(874,702,c),
+(727,749,o),
+(529,785,o),
+(296,785,cs),
+(266,785,o),
+(233,788,o),
+(200,787,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,442,l),
+(203,442,l),
+(200,787,l),
+(0,787,l)
+);
+}
+);
+width = 1381;
+}
+);
+production = rightArrow.rgt;
 },
 {
 glyphname = southEastArrow;
@@ -181698,7 +181990,7 @@ unicode = 8598;
 },
 {
 glyphname = leftRightArrow;
-lastChange = "2024-10-26 23:37:03 +0000";
+lastChange = "2024-10-30 15:58:55 +0000";
 layers = (
 {
 anchors = (
@@ -181867,6 +182159,7 @@ width = 2241;
 );
 metricLeft = "=leftArrow";
 metricRight = "=rightArrow";
+production = leftRightArrow;
 unicode = 8596;
 },
 {
@@ -198531,7 +198824,6 @@ value = (
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.75;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.25;
@@ -199735,6 +200027,7 @@ name = "Math Axis";
 note = "Todo:
 = Test the stylistic alternatives subscript/superscript positions
 = Fraction Rule (and minimum size etc)
+= Fix spacing of fences (especially in Black)
 
 ==== Need help with the following
 
