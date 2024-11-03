@@ -23,7 +23,7 @@ DisplayStrings = (
 "/rightfloor.010",
 "/rightfloor.011",
 "‖",
-"⌊",
+"/rightfloor.top ⌋⎥",
 "/floor.top",
 "⌋",
 "/rightfloor.top ⎥",
@@ -155319,7 +155319,7 @@ category = Punctuation;
 glyphname = floor.top;
 kernLeft = bar;
 kernRight = bar;
-lastChange = "2024-11-03 03:28:13 +0000";
+lastChange = "2024-11-03 04:00:42 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -155327,22 +155327,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(503,-5,l),
-(503,26,o),
-(506,359,o),
-(505,390,cs),
-(499,706,o),
-(482,1026,o),
-(466,1245,c),
-(368,1245,o),
-(174,1236,o),
-(119,1233,c),
-(109,929,o),
-(103,647,o),
-(101,390,cs),
-(100,365,o),
-(100,19,o),
-(100,-5,c)
+(405,0,l),
+(406,395,l),
+(400,711,o),
+(382,1031,o),
+(366,1250,c),
+(268,1250,o),
+(115,1241,o),
+(60,1238,c),
+(50,934,o),
+(44,652,o),
+(42,395,c),
+(41,0,l)
 );
 }
 );
@@ -155355,9 +155351,7 @@ shapes = (
 closed = 1;
 nodes = (
 (238,0,l),
-(238,24,o),
-(238,315,o),
-(237,339,cs),
+(237,339,l),
 (234,672,o),
 (227,1003,o),
 (220,1230,c),
@@ -155366,10 +155360,8 @@ nodes = (
 (173,1226,c),
 (164,963,o),
 (161,626,o),
-(161,343,cs),
-(161,319,o),
-(161,23,o),
-(161,0,c)
+(161,343,c),
+(161,0,l)
 );
 }
 );
@@ -155384,7 +155376,7 @@ category = Punctuation;
 glyphname = rightfloor.top;
 kernLeft = bar;
 kernRight = bar;
-lastChange = "2024-11-03 03:33:03 +0000";
+lastChange = "2024-11-03 04:01:56 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -155392,26 +155384,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(503,-5,l),
-(503,26,o),
-(506,359,o),
-(505,390,cs),
-(499,706,o),
-(482,1026,o),
-(466,1245,c),
-(368,1245,o),
-(174,1236,o),
-(119,1233,c),
-(109,929,o),
-(103,647,o),
-(101,390,cs),
-(100,365,o),
-(100,19,o),
-(100,-5,c)
+(669,-5,l),
+(671,390,l),
+(661,706,o),
+(648,1026,o),
+(632,1245,c),
+(534,1245,o),
+(380,1236,o),
+(325,1233,c),
+(315,929,o),
+(309,647,o),
+(307,390,c),
+(306,-5,l)
 );
 }
 );
-width = 605;
+width = 712;
 },
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -155420,9 +155408,7 @@ shapes = (
 closed = 1;
 nodes = (
 (645,0,l),
-(645,24,o),
-(645,315,o),
-(645,339,cs),
+(645,339,l),
 (642,672,o),
 (634,1003,o),
 (627,1230,c),
@@ -155431,10 +155417,8 @@ nodes = (
 (579,1226,c),
 (570,963,o),
 (567,626,o),
-(567,343,cs),
-(567,319,o),
-(567,23,o),
-(567,0,c)
+(567,343,c),
+(567,0,l)
 );
 }
 );
@@ -155446,10 +155430,10 @@ subCategory = Parenthesis;
 },
 {
 category = Punctuation;
-glyphname = ceilingleft.bot;
+glyphname = leftceiling.bot;
 kernLeft = bar;
 kernRight = bar;
-lastChange = "2024-11-03 03:33:22 +0000";
+lastChange = "2024-11-03 04:06:01 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -155506,15 +155490,15 @@ nodes = (
 width = 288;
 }
 );
-production = ceilingleft.bot;
+production = leftceiling.bot;
 subCategory = Parenthesis;
 },
 {
 category = Punctuation;
-glyphname = ceilingright.bot;
+glyphname = rightceiling.bot;
 kernLeft = bar;
 kernRight = bar;
-lastChange = "2024-11-03 03:33:31 +0000";
+lastChange = "2024-11-03 04:06:09 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -155571,7 +155555,7 @@ nodes = (
 width = 288;
 }
 );
-production = ceilingright.bot;
+production = rightceiling.bot;
 subCategory = Parenthesis;
 },
 {
@@ -158626,7 +158610,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = leftCeiling;
-lastChange = "2024-11-03 02:38:45 +0000";
+lastChange = "2024-11-03 04:06:42 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -158662,6 +158646,30 @@ nodes = (
 );
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketleft.top,
+0,
+0,
+200
+),
+(
+bracketleft.ext,
+1,
+200,
+200
+),
+(
+leftceiling.bot,
+0,
+200,
+0
+)
+);
+};
+};
 width = 757;
 },
 {
@@ -159697,7 +159705,7 @@ production = leftCeiling.012;
 },
 {
 glyphname = leftFloor;
-lastChange = "2024-11-03 03:28:33 +0000";
+lastChange = "2024-11-03 03:59:08 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -159743,6 +159751,30 @@ ref = leftCeiling;
 scale = (1,-1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketleft.bot,
+0,
+0,
+0
+),
+(
+bracketleft.ext,
+1,
+0,
+0
+),
+(
+floor.top,
+0,
+0,
+0
+)
+);
+};
+};
 width = 739;
 }
 );
@@ -161160,7 +161192,7 @@ production = rightCeiling.012;
 },
 {
 glyphname = rightFloor;
-lastChange = "2024-11-03 03:35:36 +0000";
+lastChange = "2024-11-03 03:57:33 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -161206,6 +161238,30 @@ pos = (760,1164);
 ref = leftCeiling;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketright.bot,
+0,
+0,
+200
+),
+(
+bracketright.ext,
+1,
+200,
+200
+),
+(
+rightfloor.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 739;
 }
 );
@@ -216288,8 +216344,7 @@ note = "Todo:
 = Test the stylistic alternatives subscript/superscript positions
 = Fraction Rule (and minimum size etc)
 = Should stackers have/need italic correction?
-= Overbrace needs extending (Really?)
-= Extended Ceiling
+= over/under brackets and parentheses
 
 ==== Need help with the following
 
