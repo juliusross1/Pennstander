@@ -1,43 +1,4 @@
-% How do we do the startsetups with multiple fonts at once
-    \pushglobalsetups
-        \startsetups[\s!math:Pennstander-Thin]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-ExtraLight]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Light]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Regular]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Medium]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-SemiBold]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Bold]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-ExtraBold]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Black]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-    \popglobalsetups
-    
+
 
 \starttypescript  [Pennstander-Thin,Pennstander-ExtraLight,Pennstander-Light,Pennstander-Regular,Pennstander-Medium,Pennstander-SemiBold,Pennstander-Bold,Pennstander-ExtraBold,Pennstander-Black]
 	 % Upright Text
@@ -80,7 +41,7 @@
     \definefontsynonym [SerifItalic]    		[PSThinItalic]		
     \definefontsynonym [SerifBold]    			[PSLight]			
     \definefontsynonym [SerifBoldItalic]  		[PSLightItalic]		
-    \definefontsynonym [MathRoman]				[PSMathThin]	[features={math\mathsizesuffix},goodies=pennstander-light]
+    \definefontsynonym [MathRoman]				[PSMathThin]	[\s!features={\s!math\mathsizesuffix},\s!goodies=pennstander-light]
 \stoptypescript
 
 
@@ -173,3 +134,43 @@
 \stoptypescript
 
 
+% Can we do startsetups with multiple fonts at once
+    \pushglobalsetups
+        \startsetups[\s!math:Pennstander-Thin]
+            \setupmathradical[rule=symbol,top="E001]
+        \stopsetups
+        
+        \startsetups[\s!math:Pennstander-ExtraLight]
+            \setupmathradical[rule=symbol,top="E001]
+        \stopsetups
+        
+        \startsetups[\s!math:Pennstander-Light]
+            \setupmathradical[rule=symbol,top="E001]
+        \stopsetups
+        
+        \startsetups[\s!math:Pennstander-Regular]
+            \setupmathradical[rule=symbol,top="E001]
+        \stopsetups
+        
+        \startsetups[\s!math:Pennstander-Medium]
+            \setupmathradical[rule=symbol,top="E001]
+        \stopsetups
+        
+        \startsetups[\s!math:Pennstander-SemiBold]
+            \setupmathradical[rule=symbol,top="E001]
+        \stopsetups
+        
+        \startsetups[\s!math:Pennstander-Bold]
+            \setupmathradical[rule=symbol,top="E001]
+        \stopsetups
+        
+        \startsetups[\s!math:Pennstander-ExtraBold]
+            \setupmathradical[rule=symbol,top="E001]
+        \stopsetups
+        
+        \startsetups[\s!math:Pennstander-Black]
+            \setupmathradical[rule=symbol,top="E001]
+        \stopsetups
+        
+    \popglobalsetups
+    

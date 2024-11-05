@@ -9,12 +9,18 @@ return {
     copyright = "",
     mathematics = {
         parameters = {
-            PrimeShiftUp                   = "1*SuperscriptShiftUp",
-            PrimeShiftUpCramped            = "1*SuperscriptShiftUp",
+            PrimeShiftUp                   = "0.9*SuperscriptShiftUp",
+            PrimeShiftUpCramped            = "0.9*SuperscriptShiftUp",
         },
         tweaks = {
             aftercopying = {
                 presets.moveintegrals        { },
+                {
+                    tweak = "accentdimensions",
+                },
+                {
+                    tweak = "checkspacing",
+                },
             },
         },
         scales = {
