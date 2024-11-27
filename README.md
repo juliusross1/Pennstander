@@ -5,12 +5,19 @@ An opentype mathematics font based on Grandstander by Tyler Finck, aimed at LuaL
 
 ## Features
 Latin and Greek lower and upper case in upright and oblique/italics
+
 Doublestruck upper case
+
 Integrals including display and extended
+
 Mathematical Operators including display
+
 Mathematics Accents
+
 Arrows and stackers
+
 Radicals
+
 Mathematical symbols
 
 ## ConTeXt
