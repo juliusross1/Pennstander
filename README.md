@@ -35,20 +35,33 @@ Sample usage
 \documentclass[12pt]{article}
 
 \usepackage{unicode-math}
+
 \setmainfont[
 BoldFont =Pennstander-Light.otf,   
 ItalicFont = Pennstander-ItalicThin.otf, 
 BoldItalicFont = Pennstander-ItalicLight.otf
 ]
 {Pennstander-Thin.otf}
+%% Replace 'Thin'/'Light' in the above with one of the following to match the 
+%% mathematics font below
+%% 'ExtraLight'/'Regular' 
+%%'Light'/'Medium' 
+%% 'Regular'/'Bold'
+%% 'SemiBold'/'ExtraBold'
+%% 'Bold'/'Black'
+%% 'ExtraBold'/'Black'
+%% 'Black'/'Black'
 
 \setmathfont[
 script-font  = PennstanderMath-Thin-script.otf,
 sscript-font  = PennstanderMath-Thin-sscript.otf,
 ]{PennstanderMath-Thin.otf}
+%% Replace 'Thin' with 'ExtraLight'/'Light'/... to match the text font above
+
 
 \begin{document}
-Here is some {\bf bold} and some {\it italics} and an equation
+Here is some {\bf bold}, some {\it italics} and some {\bf bolditalics} and an equation
+
 \[ \int_a^b {\bf f}'(x) dx= {\bf f}(b) - {\bf f}(a)\]
 \end{document}
 ```
