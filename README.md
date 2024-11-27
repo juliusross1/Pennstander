@@ -53,7 +53,8 @@ BoldItalicFont = Pennstander-ItalicLight.otf
 %% mathematics font below
 %% 'ExtraLight'/'Regular' 
 %% 'Light'/'Medium' 
-%% 'Regular'/'Bold'
+%% 'Regular'/'SemiBold'
+%% 'Medium'/'Bold'
 %% 'SemiBold'/'ExtraBold'
 %% 'Bold'/'Black'
 %% 'ExtraBold'/'Black'
