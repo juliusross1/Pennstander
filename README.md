@@ -29,3 +29,25 @@ Sample usage for ConTeXt MKIV
 ```
 
 ## LuaLaTeX
+Sample usage
+```
+\documentclass[12pt]{article}
+
+\usepackage{unicode-math}
+\setmainfont[
+BoldFont =Pennstander-Light.otf,   
+ItalicFont = Pennstander-ItalicThin.otf, 
+BoldItalicFont = Pennstander-ItalicLight.otf
+]
+{Pennstander-Thin.otf}
+
+\setmathfont[
+script-font  = PennstanderMath-Thin-script.otf,
+sscript-font  = PennstanderMath-Thin-sscript.otf,
+]{PennstanderMath-Thin.otf}
+
+\begin{document}
+Here is some {\bf bold} and some {\it italics} and an equation
+\[ \int_a^b {\bf f}'(x) dx= {\bf f}(b) - {\bf f}(a)\]
+\end{document}
+```
