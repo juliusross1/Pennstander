@@ -1,5 +1,5 @@
 # Pennstander
-An opentype mathematics font based on Grandstander by Tyler Finck, aimed at LuaLaTeX and ConTeXt
+An opentype mathematics font based on Grandstander by Tyler Finck, aimed at LuaLaTeX and ConTeXt.   Beta version, comments/bugs/advice welcome.
 
 ![A sample of the font at each of the different weights](samples/fontweights.png)
 
