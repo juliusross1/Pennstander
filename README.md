@@ -15,7 +15,7 @@ Mathematical symbols
 
 ## ConTeXt
 Sample usage for ConTeXt MKIV
-
+```
 \usetypescriptfile[type-imp-pennstander]
 \setupmathfractions[symbol="E000] %recommended but optional
 \setupalign[profile] %recommended but optional
@@ -26,5 +26,6 @@ Sample usage for ConTeXt MKIV
 \int_a^b \frac{df}{dx} dx = f(b) - f(a)
 \stopformula
 \stoptext
+```
 
 ## LuaLaTeX
