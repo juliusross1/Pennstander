@@ -17,13 +17,14 @@ Mathematical symbols
 Sample usage for ConTeXt MKIV
 ```
 \usetypescriptfile[type-imp-pennstander]
-\setupmathfractions[symbol="E000] %recommended but optional
-\setupalign[profile] %recommended but optional
-\setupinterlinespace[14pt] %recommended but optional
-\setupbodyfont[Pennstander-Thin] %replace 'Thin' with 'ExtraLight','Light',...
+\setupmathfractions[symbol="E000]
+\setupbodyfont[Pennstander-Thin]
+\setupalign[profile]
+\setupinterlinespace[14pt]
 \starttext
+Here is some {\bf bold} and some {\it italics} and an equation
 \startformula
-\int_a^b \frac{df}{dx} dx = f(b) - f(a)
+\int_a^b \frac{d{\bf f}}{dx} dx = {\bf f}(b) - {\bf f}(a)
 \stopformula
 \stoptext
 ```
