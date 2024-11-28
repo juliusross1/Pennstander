@@ -12,6 +12,8 @@ Integrals including display and extended
 
 Mathematical Operators including display
 
+Brackets including multiple sizes and extended
+
 Mathematics Accents
 
 Arrows and stackers
