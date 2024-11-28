@@ -60,7 +60,7 @@ BoldItalicFont = Pennstander-ItalicLight.otf
 %% 'Regular'/'SemiBold'
 %% 'Medium'/'Bold'
 %% 'SemiBold'/'ExtraBold'
-%% 'Bold'/'Black'  (some math symbols do not display well at Bold/ExtraBold/Black so use with care)
+%% 'Bold'/'Black'  (some math symbols do not look good at Bold/ExtraBold/Black so use with care)
 %% 'ExtraBold'/'Black'
 %% 'Black'/'Black'
 
