@@ -65,8 +65,8 @@ BoldItalicFont = Pennstander-ItalicLight.otf
 %% 'Black'/'Black'
 
 \setmathfont[
-script-font  = PennstanderMath-Thin-script.otf,
-sscript-font  = PennstanderMath-Thin-sscript.otf,
+script-font  = PennstanderMath-Thin-script.otf,       % optional, acts as cheap optical sizing
+sscript-font  = PennstanderMath-Thin-sscript.otf,     % optional, acts as cheap optical sizing
 ]{PennstanderMath-Thin.otf}
 %% Replace 'Thin' with 'ExtraLight'/'Light'/... to match the text font above
 
