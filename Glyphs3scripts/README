@@ -8,4 +8,4 @@ Notes:
 
 3. The bold-math and boliditalic-math letters in PennstanderMath are written over by the script (using the upright and italics version of the letters), and thus editing them within PennstanderMath.glyphs has no effect.
 
-4. The exports for PennstanderText have the italics axes at 50/100 which is different from the instances used in Grandstander.
+4. The exports for PennstanderText/PennstanderMath have the italics axes at 50/100 which is different from the instances used in Grandstander.
