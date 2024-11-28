@@ -1,7 +1,13 @@
-
-
+% Can we do startsetups with multiple fonts at once
+%    \pushglobalsetups
+%        \startsetups
+%           \setupmathfractions[symbol="E000]   %does not work,not sure why
+%         \stopsetups
+%    \popglobalsetups
+    
 \starttypescript  [Pennstander-Thin,Pennstander-ExtraLight,Pennstander-Light,Pennstander-Regular,Pennstander-Medium,Pennstander-SemiBold,Pennstander-Bold,Pennstander-ExtraBold,Pennstander-Black]
 	 % Upright Text
+	 %\definefontfeature[PS-random][mode=node,kern=yes,rand=random]
      \definefontsynonym[PSThin]     				[file:Pennstander-Thin.otf]       		[features=default]
      \definefontsynonym[PSExtraLight]     			[file:Pennstander-ExtraLight.otf]      	[features=default]
      \definefontsynonym[PSLight]     				[file:Pennstander-Light.otf]       		[features=default]
@@ -37,7 +43,7 @@
 
 
 \starttypescript[all] [Pennstander-Thin] 
-    \definefontsynonym [Serif]           		[PSThin]			
+    \definefontsynonym [Serif]           		[PSThin]		
     \definefontsynonym [SerifItalic]    		[PSThinItalic]		
     \definefontsynonym [SerifBold]    			[PSLight]			
     \definefontsynonym [SerifBoldItalic]  		[PSLightItalic]		
@@ -134,43 +140,6 @@
 \stoptypescript
 
 
-% Can we do startsetups with multiple fonts at once
-    \pushglobalsetups
-        \startsetups[\s!math:Pennstander-Thin]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-ExtraLight]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Light]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Regular]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Medium]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-SemiBold]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Bold]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-ExtraBold]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-        \startsetups[\s!math:Pennstander-Black]
-            \setupmathradical[rule=symbol,top="E001]
-        \stopsetups
-        
-    \popglobalsetups
-    
+
+
+

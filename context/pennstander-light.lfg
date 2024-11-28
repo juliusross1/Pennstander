@@ -9,8 +9,8 @@ return {
     copyright = "",
     mathematics = {
         parameters = {
-            PrimeShiftUp                   = "0.9*SuperscriptShiftUp",
-            PrimeShiftUpCramped            = "0.9*SuperscriptShiftUp",
+            SubscriptBaselineDropMin= 400,
+            PrimeShiftUpCramped = "SuperscriptShiftUp",
         },
         tweaks = {
             aftercopying = {
@@ -20,6 +20,17 @@ return {
                 },
                 {
                     tweak = "checkspacing",
+                },
+                
+                
+                {
+                    tweak = "kernpairs",
+                    list = {
+                        -- beware: we kept the italic correction in spite of punctuation class
+                        [0x002F] = { -- slash
+                            [0x007C] = .2,
+                        },
+                    },
                 },
             },
         },
