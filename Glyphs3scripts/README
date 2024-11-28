@@ -1,5 +1,4 @@
 To build the fonts: run createmasters.py script on PennstanderMath.glyphs Glyphs 3 and then export from Glyphs3.
 
-About: PennstanderMath is a variable font, but since the mathematics table does not recognize this we instead use instances.  The script creates a new font with an additional axes used the bold mathematics.  
-
+About: PennstanderMath is a variable font, but since the mathematics table does not recognize this we instead use instances.  The script creates a new font with an additional axes that is used for the Bold mathematics letters.
 Note also that the exports for PennstanderText have the italics axes at 50/100 which is different from the instances used in Grandstander.
