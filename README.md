@@ -28,8 +28,8 @@ Sample usage for ConTeXt MKIV
 \usetypescriptfile[type-imp-pennstander]
 \setupmathfractions[symbol="E000]
 \setupbodyfont[Pennstander-Thin]
-% Replace 'Thin' with 'ExtraLight'/'Light',...
-% (some math symbols do not display well at Bold/ExtraBold/Black so use with care)
+% Replace 'Thin' with 'ExtraLight'/'Light'/'Regular'/'Medium'/'SemiBold'/'Bold'/'ExtraBold'/'Black'
+% (some math symbols do not look good at Bold/ExtraBold/Black so use with care)
 \setupalign[profile]
 \setupinterlinespace[14pt]
 \starttext
