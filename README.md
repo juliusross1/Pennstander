@@ -6,7 +6,7 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 ## Features
 [Latin and Greek lower and upper case in upright and oblique/italics](samples/letters.png)
 
-Doublestruck upper case
+[Doublestruck upper case](samples/doublestruck.png)
 
 [Integrals including display and extended](samples/integrals.png)
 
