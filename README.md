@@ -18,7 +18,7 @@ Mathematical accents
 
 Radicals
 
-[Mathematical symbols](samples/symbols) (many available, if you need/want something that is missing report a bug and I will see if I can create it for you)
+[Mathematical symbols](samples/symbols.png) (many available, if you need/want something that is missing report a bug and I will see if I can create it for you)
 
 ## ConTeXt
 Sample usage for ConTeXt MKIV
