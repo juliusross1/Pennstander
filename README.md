@@ -75,3 +75,7 @@ Here is some {\bf bold}, some {\it italics} and some {\bf bolditalics} and an eq
 \[ \int_a^b {\bf f}'(x) dx= {\bf f}(b) - {\bf f}(a)\]
 \end{document}
 ```
+
+## Acknowledgements
+
+Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to Andrea Tomatis for discussions, and help from Hans Hagan and Mikael P. Sundqvist for help/comments and for the "Mathematics in ConTeXt" work, from which some test formulae have been taken.
