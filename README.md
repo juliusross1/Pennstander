@@ -10,8 +10,6 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 
 [Integrals including display and extended](samples/integrals.png)
 
-Mathematical Operators including display
-
 Brackets including multiple sizes and extended
 
 Mathematical accents
@@ -20,7 +18,7 @@ Mathematical accents
 
 Radicals
 
-Mathematical symbols (many available, if you need/want something that is missing report a bug and I will see if I can create it for you)
+[Mathematical symbols](samples/symbols) (many available, if you need/want something that is missing report a bug and I will see if I can create it for you)
 
 ## ConTeXt
 Sample usage for ConTeXt MKIV
