@@ -8,9 +8,9 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 
 [Doublestruck upper case](samples/doublestruck.png)
 
-[Integrals including display and extended](samples/integrals.png)
+[Integrals](samples/integrals.png)
 
-Brackets including multiple sizes and extended
+Brackets
 
 Mathematical accents
 
