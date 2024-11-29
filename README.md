@@ -4,7 +4,7 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 ![A sample of the font at each of the different weights](samples/fontweights.png)
 
 ## Features
-Latin and Greek lower and upper case in upright and oblique/italics
+[Latin and Greek lower and upper case in upright and oblique/italics](samples/letters.png)
 
 Doublestruck upper case
 
@@ -16,7 +16,7 @@ Brackets including multiple sizes and extended
 
 Mathematical accents
 
-Arrows and stackers
+[Arrows and stackers](samples/arrows.png)
 
 Radicals
 
