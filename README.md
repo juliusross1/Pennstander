@@ -10,7 +10,7 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 
 [Integrals](samples/integrals.png)
 
-Brackets
+[Brackets](samples/fences.png)
 
 Mathematical accents
 
