@@ -1,5 +1,5 @@
 # Pennstander
-An Opentype mathematics font based on Grandstander by Tyler Finck, aimed at LuaLaTeX and ConTeXt.   Beta version, comments/bug reports/advice welcome.
+An Opentype mathematics font based on [Grandstander](https://etceteratype.co/grandstander) by Tyler Finck, aimed at LuaLaTeX and ConTeXt.   Beta version, comments/bug reports/advice welcome.
 
 ![A sample of the font at each of the different weights](samples/fontweights.png)
 
@@ -8,7 +8,7 @@ Latin and Greek lower and upper case in upright and oblique/italics
 
 Doublestruck upper case
 
-Integrals including display and extended
+[Integrals including display and extended](samples/integrals.png)
 
 Mathematical Operators including display
 
@@ -20,7 +20,7 @@ Arrows and stackers
 
 Radicals
 
-Mathematical symbols
+Mathematical symbols (many available, if you need/want something that is missing report a bug and I will try and create it for you)
 
 ## ConTeXt
 Sample usage for ConTeXt MKIV
