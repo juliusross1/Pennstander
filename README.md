@@ -8,11 +8,9 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 
 [Doublestruck upper case](samples/doublestruck.png)
 
-[Integrals including display and extended](samples/integrals.png)
+[Integrals](samples/integrals.png)
 
-Mathematical Operators including display
-
-Brackets including multiple sizes and extended
+Brackets
 
 Mathematical accents
 
@@ -20,7 +18,7 @@ Mathematical accents
 
 Radicals
 
-Mathematical symbols (many available, if you need/want something that is missing report a bug and I will see if I can create it for you)
+[Mathematical symbols](samples/symbols.png) (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
 ## ConTeXt
 Sample usage for ConTeXt MKIV
@@ -77,3 +75,7 @@ Here is some {\bf bold}, some {\it italics} and some {\bf bolditalics} and an eq
 \[ \int_a^b {\bf f}'(x) dx= {\bf f}(b) - {\bf f}(a)\]
 \end{document}
 ```
+
+## Acknowledgements
+
+Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to Andrea Tomatis for discussions, and help from Hans Hagan and Mikael P. Sundqvist for help/comments and for the "Mathematics in ConTeXt" work, from which some test formulae have been taken.
