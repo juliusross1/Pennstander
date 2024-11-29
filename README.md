@@ -6,7 +6,7 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 ## Features
 [Latin and Greek lower and upper case in upright and oblique/italics](samples/letters.png)
 
-Doublestruck upper case
+[Doublestruck upper case](samples/doublestruck.png)
 
 [Integrals including display and extended](samples/integrals.png)
 
@@ -20,7 +20,7 @@ Mathematical accents
 
 Radicals
 
-Mathematical symbols (many available, if you need/want something that is missing report a bug and I will try and create it for you)
+Mathematical symbols (many available, if you need/want something that is missing report a bug and I will see if I can create it for you)
 
 ## ConTeXt
 Sample usage for ConTeXt MKIV
