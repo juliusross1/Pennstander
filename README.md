@@ -10,7 +10,7 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 
 [Integrals](samples/integrals.png)
 
-Brackets
+[Brackets](samples/fences.png)
 
 Mathematical accents
 
@@ -78,4 +78,4 @@ Here is some {\bf bold}, some {\it italics} and some {\bf bolditalics} and an eq
 
 ## Acknowledgements
 
-Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to Andrea Tomatis for discussions, and help from Hans Hagan and Mikael P. Sundqvist for help/comments and for the "Mathematics in ConTeXt" work, from which some test formulae have been taken.
+Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to Andrea Tomatis for discussions, and help from Hans Hagan and Mikael P. Sundqvist for help/comments and for the "Mathematics in ConTeXt" work, from which some tests have been taken.
