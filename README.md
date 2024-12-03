@@ -12,9 +12,9 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 
 [Brackets](samples/fences.png)
 
-Mathematical accents
+[Accents and stackers](samples/accents.png)
 
-[Arrows and stackers](samples/arrows.png)
+[Arrows](samples/arrows.png)
 
 Radicals
 
