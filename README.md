@@ -75,6 +75,11 @@ Here is some {\bf bold}, some {\it italics} and some {\bf bolditalics} and an eq
 \[ \int_a^b {\bf f}'(x) dx= {\bf f}(b) - {\bf f}(a)\]
 \end{document}
 ```
+## Sample
+
+I am not sure how useful this font will be for long documents/papers.  Here is a sample of what motivated its creation (joint with Andrea Tomatis)
+
+<img src="https://github.com/juliusross1/Pennstander/blob/main/samples/CAsample.png" width="600">
 
 ## Acknowledgements
 
