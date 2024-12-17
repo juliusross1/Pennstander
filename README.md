@@ -70,7 +70,7 @@ sscript-font  = PennstanderMath-Thin-sscript.otf,     % optional, acts as cheap 
 
 
 \begin{document}
-Here is some {\bf bold}, some {\it italics} and some {\bf bolditalics} and an equation
+Here is some {\bf bold}, some {\it italics} and some {\bfit bolditalics} and an equation
 
 \[ \int_a^b {\bf f}'(x) dx= {\bf f}(b) - {\bf f}(a)\]
 \end{document}
