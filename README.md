@@ -83,4 +83,4 @@ I am not sure how useful this font will be for long documents/papers.  Here is a
 
 ## Acknowledgements
 
-Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to Andrea Tomatis for discussions, and help from Hans Hagan and Mikael P. Sundqvist for help/comments and for the "Mathematics in ConTeXt" work, from which some tests have been taken.
+Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to Andrea Tomatis for discussions, and to Hans Hagan and Mikael P. Sundqvist for help/comments and for the "Mathematics in ConTeXt" work, from which some tests have been taken.
