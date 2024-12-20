@@ -8,6 +8,8 @@ An Opentype mathematics font based on [Grandstander](https://etceteratype.co/gra
 
 [Doublestruck upper case](samples/doublestruck.png)
 
+[Script upper case](samples/script.png)
+
 [Integrals](samples/integrals.png)
 
 [Brackets](samples/fences.png)
