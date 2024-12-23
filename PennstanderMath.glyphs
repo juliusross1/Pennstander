@@ -2,25 +2,15 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-"ℒ",
-"ℳ",
-"𝒩",
-"𝒪",
-"𝒫",
-"𝒬",
-"ℛ",
-"ℛ",
-"𝒮",
-"𝒯T",
-"𝒱",
-"𝒲",
-"𝒰",
-"∲∫",
-"∳∫",
-"/counterclockwisecontourIntegral.disp",
-"𝒳",
-"𝒴",
-"𝒵"
+"",
+"(/parenleft.s1/.notdef",
+"𝔥",
+"𝔟",
+"𝔥",
+"|(/bar.s1/parenleft.s1/bar.s2/parenleft.s2/bar.s3/parenleft.s3/bar.s4/parenleft.s4/bar.s5/parenleft.s5/bar.s6/parenleft.s6/bar.s7/parenleft.s7/bar.s8/parenleft.s8/bar.s9/parenleft.s9/bar.s10/parenleft.s10/bar.s11/parenleft.s11/bar.s12/parenleft.s12",
+"/parenleft.s2",
+"(/parenleft.s1/parenleft.s2/parenleft.s3/parenleft.s4/parenleft.s5/parenleft.s6/parenleft.s7/parenleft.s8/parenleft.s9/parenleft.s10/parenleft.s11",
+"(/parenleft.s1/parenleft.s2/parenleft.s3/parenleft.s4/parenleft.s5/parenleft.s6/parenleft.s7/parenleft.s8/parenleft.s9/parenleft.s10/parenleft.s11/parenleft.s12"
 );
 axes = (
 {
@@ -39,12 +29,12 @@ tag = MLNT;
 classes = (
 {
 automatic = 1;
-code = "A.ss02 Aacute Aacute.ss02 Abreve Abreve.ss02 Abreveacute Abreveacute.ss02 Abrevedotbelow Abrevedotbelow.ss02 Abrevegrave Abrevegrave.ss02 Abrevehookabove Abrevehookabove.ss02 Abrevetilde Abrevetilde.ss02 Acaron Acaron.ss02 Acircumflex Acircumflex.ss02 Acircumflexacute Acircumflexacute.ss02 Acircumflexdotbelow Acircumflexdotbelow.ss02 Acircumflexgrave Acircumflexgrave.ss02 Acircumflexhookabove Acircumflexhookabove.ss02 Acircumflextilde Acircumflextilde.ss02 Adblgrave Adblgrave.ss02 Adieresis Adieresis.ss02 Adotbelow Adotbelow.ss02 Agrave Agrave.ss02 Ahookabove Ahookabove.ss02 Ainvertedbreve Ainvertedbreve.ss02 Amacron Amacron.ss02 Aogonek Aogonek.ss02 Aring Aring.ss02 Aringacute Aringacute.ss02 Atilde Atilde.ss02 AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron Eth E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I I.ss01 Iacute Iacute.ss01 Ibreve Ibreve.ss01 Icaron Icaron.ss01 Icircumflex Icircumflex.ss01 Idblgrave Idblgrave.ss01 Idieresis Idieresis.ss01 Idieresisacute Idieresisacute.ss01 Idotaccent Idotaccent.ss01 Idotbelow Idotbelow.ss01 Igrave Igrave.ss01 Ihookabove Ihookabove.ss01 Iinvertedbreve Iinvertedbreve.ss01 Imacron Imacron.ss01 Iogonek Iogonek.ss01 Itilde.ss01 J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M M.ss02 Mdotbelow Mdotbelow.ss02 N N.ss02 NJ Nacute Nacute.ss02 Ncaron Ncaron.ss02 Ncommaaccent Ncommaaccent.ss02 Ndotaccent Ndotaccent.ss02 Ndotbelow Ndotbelow.ss02 Nj Nlinebelow Nmacronbelow.ss02 Ntilde Ntilde.ss02 Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccent Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q Q.001 Q.ss02.001 Q.ss02 R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V V.ss02 W W.ss02 Wacute Wacute.ss02 Wcircumflex Wcircumflex.ss02 Wdieresis Wdieresis.ss02 Wgrave Wgrave.ss02 X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Z.ss02 Zacute Zacute.ss02 Zcaron Zcaron.ss02 Zdotaccent Zdotaccent.ss02 Zdotbelow Zdotbelow.ss02 A Alpha Beta Gamma Delta Epsilon Zeta Zeta.ss02 Eta Theta Iota Iota.ss01 Kappa Lambda Mu Mu.ss02 Nu Nu.ss02 Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega ThetaSymbol Bscript Gscript Hscript Iscript Lscript Rscript AdoubleStruck BdoubleStruck CdoubleStruck DdoubleStruck EdoubleStruck FdoubleStruck GdoubleStruck HdoubleStruck IdoubleStruck JdoubleStruck KdoubleStruck LdoubleStruck MdoubleStruck NdoubleStruck OdoubleStruck PdoubleStruck QdoubleStruck QdoubleStruck.heavy RdoubleStruck SdoubleStruck TdoubleStruck UdoubleStruck VdoubleStruck WdoubleStruck XdoubleStruck YdoubleStruck ZdoubleStruck DitalicDoubleStruck Alpha.ss02 Ascript Cscript Dscript Jscript Kscript Oscript Pscript Qscript Sscript Tscript Uscript Vscript Wscript Xscript Yscript Zscript Ascriptbold-math Bscriptbold-math Cscriptbold-math Dscriptbold-math Escriptbold-math Fscriptbold-math Gscriptbold-math Hscriptbold-math Iscriptbold-math Jscriptbold-math Kscriptbold-math Lscriptbold-math Mscriptbold-math Nscriptbold-math Oscriptbold-math Pscriptbold-math Qscriptbold-math Rscriptbold-math Sscriptbold-math Tscriptbold-math Uscriptbold-math Vscriptbold-math Wscriptbold-math Xscriptbold-math Yscriptbold-math Zscriptbold-math Amono-math Bmono-math Cmono-math Dmono-math Emono-math Fmono-math Gmono-math Hmono-math Imono-math Jmono-math Kmono-math Lmono-math Mmono-math Nmono-math Omono-math Pmono-math Qmono-math Rmono-math Smono-math Tmono-math Umono-math Vmono-math Wmono-math Xmono-math Ymono-math Zmono-math Zetabold-math.ss02 Iotabold-math Mubold-math.ss02 Nubold-math.ss02 Alphaitalic-math.ss02 Zetaitalic-math.ss02 Muitalic-math.ss02 Nuitalic-math.ss02 Zetabolditalic-math.ss02 Iotabolditalic-math Mubolditalic-math.ss02 Nubolditalic-math.ss02 Escript Fscript Mscript Nscript Abold-math Abold-math.ss02 Bbold-math Cbold-math Dbold-math Ebold-math Fbold-math Gbold-math Hbold-math Ibold-math Ibold-math.ss01 Jbold-math Kbold-math Lbold-math Mbold-math Mbold-math.ss02 Nbold-math Nbold-math.ss02 Obold-math Pbold-math Qbold-math Qbold-math.ss02 Rbold-math Sbold-math Tbold-math Ubold-math Vbold-math Vbold-math.ss02 Wbold-math Wbold-math.ss02 Xbold-math Ybold-math Zbold-math Zbold-math.ss02 Aitalic-math Aitalic-math.ss02 Bitalic-math Citalic-math Ditalic-math Eitalic-math Fitalic-math Gitalic-math Hitalic-math Iitalic-math Iitalic-math.ss01 Jitalic-math Kitalic-math Litalic-math Mitalic-math Mitalic-math.ss02 Nitalic-math Nitalic-math.ss02 Oitalic-math Pitalic-math Qitalic-math Qitalic-math.ss02 Ritalic-math Sitalic-math Titalic-math Uitalic-math Vitalic-math Vitalic-math.ss02 Witalic-math Witalic-math.ss02 Xitalic-math Yitalic-math Zitalic-math Zitalic-math.ss02 Abolditalic-math Abolditalic-math.ss02 Bbolditalic-math Cbolditalic-math Dbolditalic-math Ebolditalic-math Fbolditalic-math Gbolditalic-math Hbolditalic-math Ibolditalic-math Ibolditalic-math.ss01 Jbolditalic-math Kbolditalic-math Lbolditalic-math Mbolditalic-math Mbolditalic-math.ss02 Nbolditalic-math Nbolditalic-math.ss02 Obolditalic-math Pbolditalic-math Qbolditalic-math Qbolditalic-math.ss02 Rbolditalic-math Sbolditalic-math Tbolditalic-math Ubolditalic-math Vbolditalic-math Vbolditalic-math.ss02 Wbolditalic-math Wbolditalic-math.ss02 Xbolditalic-math Ybolditalic-math Zbolditalic-math Zbolditalic-math.ss02 Alphabold-math Alphabold-math.ss02 Betabold-math Gammabold-math Deltabold-math Epsilonbold-math Zetabold-math Etabold-math Thetabold-math Iotabold-math.ss01 Kappabold-math Lambdabold-math Mubold-math Nubold-math Xibold-math Omicronbold-math Pibold-math Rhobold-math ThetaSymbolbold-math Sigmabold-math Taubold-math Upsilonbold-math Phibold-math Chibold-math Psibold-math Omegabold-math Alphaitalic-math Betaitalic-math Gammaitalic-math Deltaitalic-math Epsilonitalic-math Zetaitalic-math Etaitalic-math Thetaitalic-math Iotaitalic-math Iotaitalic-math.ss01 Kappaitalic-math Lambdaitalic-math Muitalic-math Nuitalic-math Xiitalic-math Omicronitalic-math Piitalic-math Rhoitalic-math ThetaSymbolitalic-math Sigmaitalic-math Tauitalic-math Upsilonitalic-math Phiitalic-math Chiitalic-math Psiitalic-math Omegaitalic-math Alphabolditalic-math Alphabolditalic-math.ss02 Betabolditalic-math Gammabolditalic-math Deltabolditalic-math Epsilonbolditalic-math Zetabolditalic-math Etabolditalic-math Thetabolditalic-math Iotabolditalic-math.ss01 Kappabolditalic-math Lambdabolditalic-math Mubolditalic-math Nubolditalic-math Xibolditalic-math Omicronbolditalic-math Pibolditalic-math Rhobolditalic-math ThetaSymbolbolditalic-math Sigmabolditalic-math Taubolditalic-math Upsilonbolditalic-math Phibolditalic-math Chibolditalic-math Psibolditalic-math Omegabolditalic-math";
+code = "A.ss02 Aacute Aacute.ss02 Abreve Abreve.ss02 Abreveacute Abreveacute.ss02 Abrevedotbelow Abrevedotbelow.ss02 Abrevegrave Abrevegrave.ss02 Abrevehookabove Abrevehookabove.ss02 Abrevetilde Abrevetilde.ss02 Acaron Acaron.ss02 Acircumflex Acircumflex.ss02 Acircumflexacute Acircumflexacute.ss02 Acircumflexdotbelow Acircumflexdotbelow.ss02 Acircumflexgrave Acircumflexgrave.ss02 Acircumflexhookabove Acircumflexhookabove.ss02 Acircumflextilde Acircumflextilde.ss02 Adblgrave Adblgrave.ss02 Adieresis Adieresis.ss02 Adotbelow Adotbelow.ss02 Agrave Agrave.ss02 Ahookabove Ahookabove.ss02 Ainvertedbreve Ainvertedbreve.ss02 Amacron Amacron.ss02 Aogonek Aogonek.ss02 Aring Aring.ss02 Aringacute Aringacute.ss02 Atilde Atilde.ss02 AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron Eth E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I I.ss01 Iacute Iacute.ss01 Ibreve Ibreve.ss01 Icaron Icaron.ss01 Icircumflex Icircumflex.ss01 Idblgrave Idblgrave.ss01 Idieresis Idieresis.ss01 Idieresisacute Idieresisacute.ss01 Idotaccent Idotaccent.ss01 Idotbelow Idotbelow.ss01 Igrave Igrave.ss01 Ihookabove Ihookabove.ss01 Iinvertedbreve Iinvertedbreve.ss01 Imacron Imacron.ss01 Iogonek Iogonek.ss01 Itilde.ss01 J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M M.ss02 Mdotbelow Mdotbelow.ss02 N N.ss02 NJ Nacute Nacute.ss02 Ncaron Ncaron.ss02 Ncommaaccent Ncommaaccent.ss02 Ndotaccent Ndotaccent.ss02 Ndotbelow Ndotbelow.ss02 Nj Nlinebelow Nmacronbelow.ss02 Ntilde Ntilde.ss02 Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccent Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q Q.001 Q.ss02.001 Q.ss02 R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V V.ss02 W W.ss02 Wacute Wacute.ss02 Wcircumflex Wcircumflex.ss02 Wdieresis Wdieresis.ss02 Wgrave Wgrave.ss02 X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Z.ss02 Zacute Zacute.ss02 Zcaron Zcaron.ss02 Zdotaccent Zdotaccent.ss02 Zdotbelow Zdotbelow.ss02 A Alpha Beta Gamma Delta Epsilon Zeta Zeta.ss02 Eta Theta Iota Iota.ss01 Kappa Lambda Mu Mu.ss02 Nu Nu.ss02 Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega ThetaSymbol Bscript Gscript Hscript Iscript Lscript Rscript AdoubleStruck BdoubleStruck CdoubleStruck DdoubleStruck EdoubleStruck FdoubleStruck GdoubleStruck HdoubleStruck IdoubleStruck JdoubleStruck KdoubleStruck LdoubleStruck MdoubleStruck NdoubleStruck OdoubleStruck PdoubleStruck QdoubleStruck QdoubleStruck.heavy RdoubleStruck SdoubleStruck TdoubleStruck UdoubleStruck VdoubleStruck WdoubleStruck XdoubleStruck YdoubleStruck ZdoubleStruck DitalicDoubleStruck Alpha.ss02 Ascript Cscript Dscript Jscript Kscript Oscript Pscript Qscript Sscript Tscript Uscript Vscript Wscript Xscript Yscript Zscript Ascriptbold-math Bscriptbold-math Cscriptbold-math Dscriptbold-math Escriptbold-math Fscriptbold-math Gscriptbold-math Hscriptbold-math Iscriptbold-math Jscriptbold-math Kscriptbold-math Lscriptbold-math Mscriptbold-math Nscriptbold-math Oscriptbold-math Pscriptbold-math Qscriptbold-math Rscriptbold-math Sscriptbold-math Tscriptbold-math Uscriptbold-math Vscriptbold-math Wscriptbold-math Xscriptbold-math Yscriptbold-math Zscriptbold-math Zetabold-math.ss02 Iotabold-math Mubold-math.ss02 Nubold-math.ss02 Alphaitalic-math.ss02 Zetaitalic-math.ss02 Muitalic-math.ss02 Nuitalic-math.ss02 Zetabolditalic-math.ss02 Iotabolditalic-math Mubolditalic-math.ss02 Nubolditalic-math.ss02 Escript Fscript Mscript Nscript Abold-math Abold-math.ss02 Bbold-math Cbold-math Dbold-math Ebold-math Fbold-math Gbold-math Hbold-math Ibold-math Ibold-math.ss01 Jbold-math Kbold-math Lbold-math Mbold-math Mbold-math.ss02 Nbold-math Nbold-math.ss02 Obold-math Pbold-math Qbold-math Qbold-math.ss02 Rbold-math Sbold-math Tbold-math Ubold-math Vbold-math Vbold-math.ss02 Wbold-math Wbold-math.ss02 Xbold-math Ybold-math Zbold-math Zbold-math.ss02 Aitalic-math Aitalic-math.ss02 Bitalic-math Citalic-math Ditalic-math Eitalic-math Fitalic-math Gitalic-math Hitalic-math Iitalic-math Iitalic-math.ss01 Jitalic-math Kitalic-math Litalic-math Mitalic-math Mitalic-math.ss02 Nitalic-math Nitalic-math.ss02 Oitalic-math Pitalic-math Qitalic-math Qitalic-math.ss02 Ritalic-math Sitalic-math Titalic-math Uitalic-math Vitalic-math Vitalic-math.ss02 Witalic-math Witalic-math.ss02 Xitalic-math Yitalic-math Zitalic-math Zitalic-math.ss02 Abolditalic-math Abolditalic-math.ss02 Bbolditalic-math Cbolditalic-math Dbolditalic-math Ebolditalic-math Fbolditalic-math Gbolditalic-math Hbolditalic-math Ibolditalic-math Ibolditalic-math.ss01 Jbolditalic-math Kbolditalic-math Lbolditalic-math Mbolditalic-math Mbolditalic-math.ss02 Nbolditalic-math Nbolditalic-math.ss02 Obolditalic-math Pbolditalic-math Qbolditalic-math Qbolditalic-math.ss02 Rbolditalic-math Sbolditalic-math Tbolditalic-math Ubolditalic-math Vbolditalic-math Vbolditalic-math.ss02 Wbolditalic-math Wbolditalic-math.ss02 Xbolditalic-math Ybolditalic-math Zbolditalic-math Zbolditalic-math.ss02 Alphabold-math Alphabold-math.ss02 Betabold-math Gammabold-math Deltabold-math Epsilonbold-math Zetabold-math Etabold-math Thetabold-math Iotabold-math.ss01 Kappabold-math Lambdabold-math Mubold-math Nubold-math Xibold-math Omicronbold-math Pibold-math Rhobold-math ThetaSymbolbold-math Sigmabold-math Taubold-math Upsilonbold-math Phibold-math Chibold-math Psibold-math Omegabold-math Alphaitalic-math Betaitalic-math Gammaitalic-math Deltaitalic-math Epsilonitalic-math Zetaitalic-math Etaitalic-math Thetaitalic-math Iotaitalic-math Iotaitalic-math.ss01 Kappaitalic-math Lambdaitalic-math Muitalic-math Nuitalic-math Xiitalic-math Omicronitalic-math Piitalic-math Rhoitalic-math ThetaSymbolitalic-math Sigmaitalic-math Tauitalic-math Upsilonitalic-math Phiitalic-math Chiitalic-math Psiitalic-math Omegaitalic-math Alphabolditalic-math Alphabolditalic-math.ss02 Betabolditalic-math Gammabolditalic-math Deltabolditalic-math Epsilonbolditalic-math Zetabolditalic-math Etabolditalic-math Thetabolditalic-math Iotabolditalic-math.ss01 Kappabolditalic-math Lambdabolditalic-math Mubolditalic-math Nubolditalic-math Xibolditalic-math Omicronbolditalic-math Pibolditalic-math Rhobolditalic-math ThetaSymbolbolditalic-math Sigmabolditalic-math Taubolditalic-math Upsilonbolditalic-math Phibolditalic-math Chibolditalic-math Psibolditalic-math Omegabolditalic-math";
 name = Uppercase;
 },
 {
 automatic = 1;
-code = "a a.ss01 aacute aacute.ss01 abreve abreve.ss01 abreveacute abreveacute.ss01 abrevedotbelow abrevedotbelow.ss01 abrevegrave abrevegrave.ss01 abrevehookabove abrevehookabove.ss01 abrevetilde abrevetilde.ss01 acaron acaron.ss01 acircumflex acircumflex.ss01 acircumflexacute acircumflexacute.ss01 acircumflexdotbelow acircumflexdotbelow.ss01 acircumflexgrave acircumflexgrave.ss01 acircumflexhookabove acircumflexhookabove.ss01 acircumflextilde acircumflextilde.ss01 adblgrave adblgrave.ss01 adieresis adieresis.ss01 adotbelow adotbelow.ss01 agrave agrave.ss01 ahookabove ahookabove.ss01 ainvertedbreve ainvertedbreve.ss01 amacron amacron.ss01 aogonek aogonek.ss01 aring aring.ss01 aringacute aringacute.ss01 atilde atilde.ss01 ae aeacute b c cacute ccaron ccedilla ccedillaacute ccircumflex cdotaccent d dcaron dcroat ddotbelow dlinebelow dzcaron eth e eacute ebreve ecaron ecedillabreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron emacronacute emacrongrave eogonek etilde schwa f g g.ss01 gbreve.ss01 gcaron.ss01 gcircumflex.ss01 gcommaaccent.ss01 gdotaccent.ss01 gmacron.ss01 h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve imacron iogonek itilde j jdotless jcircumflex k kcommaaccent kgreenlandic l l.ss04 lacute lacute.ss04 lcaron lcaron.ss04 lcommaaccent lcommaaccent.ss04 ldot ldot.ss04 ldotbelow ldotbelow.ss04 lj llinebelow lslash m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow nj nlinebelow ntilde eng o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron omacronacute omacrongrave oogonek oslash oslashacute otilde otildeacute otildedieresis otildemacron oe p thorn q r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow s sacute sacutedotaccent scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent germandbls t t.ss04 tbar tbar.ss04 tcaron tcaron.ss04 tcedilla tcedilla.ss04 tcommaaccent tcommaaccent.ss04 tdieresis tdieresis.ss04 tdotbelow tdotbelow.ss04 tlinebelow tmacronbelow.ss04 u uacute ubreve ucaron ucircumflex udblgrave udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v v.ss02 w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde z z.ss02 zacute zacute.ss02 zcaron zcaron.ss02 zdotaccent zdotaccent.ss02 zdotbelow zdotbelow.ss02 alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon varphi chi psi omega thetaSymbol epsilonLunateSymbol phi vitalic-math.ss02 zitalic-math.ss02 vbolditalic-math.ss02 zbolditalic-math.ss02 amono-math bmono-math cmono-math dmono-math emono-math fmono-math gmono-math.ss01 hmono-math imono-math jmono-math kmono-math lmono-math mmono-math nmono-math omono-math pmono-math qmono-math rmono-math smono-math tmono-math umono-math vmono-math wmono-math xmono-math ymono-math zmono-math alphabold-math betabold-math gammabold-math deltabold-math epsilonbold-math zetabold-math etabold-math thetabold-math iotabold-math kappabold-math lambdabold-math mubold-math nubold-math xibold-math omicronbold-math pibold-math rhobold-math sigmafinalbold-math sigmabold-math taubold-math upsilonbold-math varphibold-math chibold-math psibold-math omegabold-math epsilonLunateSymbolbold-math thetaSymbolbold-math phibold-math alphaitalic-math betaitalic-math gammaitalic-math deltaitalic-math epsilonitalic-math zetaitalic-math etaitalic-math thetaitalic-math iotaitalic-math kappaitalic-math lambdaitalic-math muitalic-math nuitalic-math xiitalic-math omicronitalic-math piitalic-math rhoitalic-math sigmafinalitalic-math sigmaitalic-math tauitalic-math upsilonitalic-math varphiitalic-math chiitalic-math psiitalic-math omegaitalic-math epsilonLunateSymbolitalic-math thetaSymbolitalic-math phiitalic-math alphabolditalic-math betabolditalic-math gammabolditalic-math deltabolditalic-math epsilonbolditalic-math zetabolditalic-math etabolditalic-math thetabolditalic-math iotabolditalic-math kappabolditalic-math lambdabolditalic-math mubolditalic-math nubolditalic-math xibolditalic-math omicronbolditalic-math pibolditalic-math rhobolditalic-math sigmafinalbolditalic-math sigmabolditalic-math taubolditalic-math upsilonbolditalic-math varphibolditalic-math chibolditalic-math psibolditalic-math omegabolditalic-math epsilonLunateSymbolbolditalic-math thetaSymbolbolditalic-math phibolditalic-math hitalic-math abold-math abold-math.ss01 bbold-math cbold-math dbold-math ebold-math fbold-math gbold-math gbold-math.ss01 hbold-math ibold-math jbold-math kbold-math lbold-math lbold-math.ss04 mbold-math nbold-math obold-math pbold-math qbold-math rbold-math sbold-math tbold-math tbold-math.ss04 ubold-math vbold-math wbold-math xbold-math ybold-math zbold-math aitalic-math aitalic-math.ss01 bitalic-math citalic-math ditalic-math eitalic-math fitalic-math gitalic-math gitalic-math.ss01 iitalic-math jitalic-math kitalic-math litalic-math litalic-math.ss04 mitalic-math nitalic-math oitalic-math pitalic-math qitalic-math ritalic-math sitalic-math titalic-math titalic-math.ss04 uitalic-math vitalic-math witalic-math xitalic-math yitalic-math zitalic-math abolditalic-math abolditalic-math.ss01 bbolditalic-math cbolditalic-math dbolditalic-math ebolditalic-math fbolditalic-math gbolditalic-math gbolditalic-math.ss01 hbolditalic-math ibolditalic-math jbolditalic-math kbolditalic-math lbolditalic-math lbolditalic-math.ss04 mbolditalic-math nbolditalic-math obolditalic-math pbolditalic-math qbolditalic-math rbolditalic-math sbolditalic-math tbolditalic-math tbolditalic-math.ss04 ubolditalic-math vbolditalic-math wbolditalic-math xbolditalic-math ybolditalic-math zbolditalic-math idotlessitalic-math jdotlessitalic-math";
+code = "a a.ss01 aacute aacute.ss01 abreve abreve.ss01 abreveacute abreveacute.ss01 abrevedotbelow abrevedotbelow.ss01 abrevegrave abrevegrave.ss01 abrevehookabove abrevehookabove.ss01 abrevetilde abrevetilde.ss01 acaron acaron.ss01 acircumflex acircumflex.ss01 acircumflexacute acircumflexacute.ss01 acircumflexdotbelow acircumflexdotbelow.ss01 acircumflexgrave acircumflexgrave.ss01 acircumflexhookabove acircumflexhookabove.ss01 acircumflextilde acircumflextilde.ss01 adblgrave adblgrave.ss01 adieresis adieresis.ss01 adotbelow adotbelow.ss01 agrave agrave.ss01 ahookabove ahookabove.ss01 ainvertedbreve ainvertedbreve.ss01 amacron amacron.ss01 aogonek aogonek.ss01 aring aring.ss01 aringacute aringacute.ss01 atilde atilde.ss01 ae aeacute b c cacute ccaron ccedilla ccedillaacute ccircumflex cdotaccent d dcaron dcroat ddotbelow dlinebelow dzcaron eth e eacute ebreve ecaron ecedillabreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron emacronacute emacrongrave eogonek etilde schwa f g g.ss01 gbreve.ss01 gcaron.ss01 gcircumflex.ss01 gcommaaccent.ss01 gdotaccent.ss01 gmacron.ss01 h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve imacron iogonek itilde j jdotless jcircumflex k kcommaaccent kgreenlandic l l.ss04 lacute lacute.ss04 lcaron lcaron.ss04 lcommaaccent lcommaaccent.ss04 ldot ldot.ss04 ldotbelow ldotbelow.ss04 lj llinebelow lslash m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow nj nlinebelow ntilde eng o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron omacronacute omacrongrave oogonek oslash oslashacute otilde otildeacute otildedieresis otildemacron oe p thorn q r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow s sacute sacutedotaccent scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent germandbls t t.ss04 tbar tbar.ss04 tcaron tcaron.ss04 tcedilla tcedilla.ss04 tcommaaccent tcommaaccent.ss04 tdieresis tdieresis.ss04 tdotbelow tdotbelow.ss04 tlinebelow tmacronbelow.ss04 u uacute ubreve ucaron ucircumflex udblgrave udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v v.ss02 w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde z z.ss02 zacute zacute.ss02 zcaron zcaron.ss02 zdotaccent zdotaccent.ss02 zdotbelow zdotbelow.ss02 alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon varphi chi psi omega thetaSymbol phi epsilonLunateSymbol iitalicDoubleStruck jitalicDoubleStruck vitalic-math.ss02 zitalic-math.ss02 vbolditalic-math.ss02 zbolditalic-math.ss02 alphabold-math betabold-math gammabold-math deltabold-math epsilonbold-math zetabold-math etabold-math thetabold-math iotabold-math kappabold-math lambdabold-math mubold-math nubold-math xibold-math omicronbold-math pibold-math rhobold-math sigmafinalbold-math sigmabold-math taubold-math upsilonbold-math varphibold-math chibold-math psibold-math omegabold-math epsilonLunateSymbolbold-math thetaSymbolbold-math phibold-math alphaitalic-math betaitalic-math gammaitalic-math deltaitalic-math epsilonitalic-math zetaitalic-math etaitalic-math thetaitalic-math iotaitalic-math kappaitalic-math lambdaitalic-math muitalic-math nuitalic-math xiitalic-math omicronitalic-math piitalic-math rhoitalic-math sigmafinalitalic-math sigmaitalic-math tauitalic-math upsilonitalic-math varphiitalic-math chiitalic-math psiitalic-math omegaitalic-math epsilonLunateSymbolitalic-math thetaSymbolitalic-math phiitalic-math alphabolditalic-math betabolditalic-math gammabolditalic-math deltabolditalic-math epsilonbolditalic-math zetabolditalic-math etabolditalic-math thetabolditalic-math iotabolditalic-math kappabolditalic-math lambdabolditalic-math mubolditalic-math nubolditalic-math xibolditalic-math omicronbolditalic-math pibolditalic-math rhobolditalic-math sigmafinalbolditalic-math sigmabolditalic-math taubolditalic-math upsilonbolditalic-math varphibolditalic-math chibolditalic-math psibolditalic-math omegabolditalic-math epsilonLunateSymbolbolditalic-math thetaSymbolbolditalic-math phibolditalic-math hitalic-math abold-math abold-math.ss01 bbold-math cbold-math dbold-math ebold-math fbold-math gbold-math gbold-math.ss01 hbold-math ibold-math jbold-math kbold-math lbold-math lbold-math.ss04 mbold-math nbold-math obold-math pbold-math qbold-math rbold-math sbold-math tbold-math tbold-math.ss04 ubold-math vbold-math wbold-math xbold-math ybold-math zbold-math aitalic-math aitalic-math.ss01 bitalic-math citalic-math ditalic-math eitalic-math fitalic-math gitalic-math gitalic-math.ss01 iitalic-math jitalic-math kitalic-math litalic-math litalic-math.ss04 mitalic-math nitalic-math oitalic-math pitalic-math qitalic-math ritalic-math sitalic-math titalic-math titalic-math.ss04 uitalic-math vitalic-math witalic-math xitalic-math yitalic-math zitalic-math abolditalic-math abolditalic-math.ss01 bbolditalic-math cbolditalic-math dbolditalic-math ebolditalic-math fbolditalic-math gbolditalic-math gbolditalic-math.ss01 hbolditalic-math ibolditalic-math jbolditalic-math kbolditalic-math lbolditalic-math lbolditalic-math.ss04 mbolditalic-math nbolditalic-math obolditalic-math pbolditalic-math qbolditalic-math rbolditalic-math sbolditalic-math tbolditalic-math tbolditalic-math.ss04 ubolditalic-math vbolditalic-math wbolditalic-math xbolditalic-math ybolditalic-math zbolditalic-math idotlessitalic-math jdotlessitalic-math";
 name = Lowercase;
 }
 );
@@ -26423,7 +26413,7 @@ unicode = 509;
 glyphname = b;
 kernLeft = h;
 kernRight = o;
-lastChange = "2024-10-17 00:57:56 +0000";
+lastChange = "2024-12-23 00:32:53 +0000";
 layers = (
 {
 anchors = (
@@ -54663,6 +54653,678 @@ subCategory = Math;
 unicode = 1013;
 },
 {
+glyphname = "a-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120094;
+},
+{
+glyphname = "b-fraktur";
+lastChange = "2024-12-22 15:26:05 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (550,0);
+},
+{
+name = math.br;
+pos = (1075,0);
+},
+{
+name = math.ta;
+pos = (550,1470);
+},
+{
+name = math.tr;
+pos = (973,1460);
+},
+{
+name = top;
+pos = (550,1470);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(164,-9,o),
+(213,-10,o),
+(228,-9,c),
+(229,22,o),
+(234,84,o),
+(232,124,c),
+(289,150,o),
+(473,210,o),
+(558,233,c),
+(668,186,o),
+(783,107,o),
+(944,4,c),
+(946,64,o),
+(935,768,o),
+(940,903,c),
+(861,881,o),
+(766,727,o),
+(583,672,c),
+(415,710,o),
+(251,833,o),
+(234,855,c),
+(231,1091,o),
+(234,1285,o),
+(226,1450,c),
+(204,1450,o),
+(167,1450,o),
+(148,1447,c),
+(141,1235,o),
+(135,156,o),
+(142,-8,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(243,268,o),
+(237,713,o),
+(235,756,c),
+(278,700,o),
+(412,637,o),
+(574,581,c),
+(764,623,o),
+(840,743,o),
+(874,764,c),
+(871,667,o),
+(847,435,o),
+(880,142,c),
+(796,179,o),
+(635,289,o),
+(557,315,c),
+(428,278,o),
+(274,192,o),
+(244,229,c)
+);
+}
+);
+width = 1075;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (629,0);
+},
+{
+name = math.br;
+pos = (1199,0);
+},
+{
+name = math.ta;
+pos = (629,1470);
+},
+{
+name = math.tr;
+pos = (1089,1464);
+},
+{
+name = top;
+pos = (629,1470);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,-15,o),
+(344,-20,o),
+(492,-19,c),
+(491,-9,o),
+(486,75,o),
+(484,114,c),
+(512,73,o),
+(615,0,o),
+(752,0,cs),
+(990,0,o),
+(1148,173,o),
+(1148,447,cs),
+(1148,772,o),
+(983,918,o),
+(757,918,cs),
+(637,918,o),
+(519,861,o),
+(448,786,c),
+(432,1052,o),
+(431,1335,o),
+(431,1450,c),
+(226,1418,o),
+(79,1389,o),
+(61,1385,c),
+(61,1173,o),
+(89,162,o),
+(101,-2,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(471,400,o),
+(467,479,o),
+(467,501,c),
+(495,539,o),
+(560,603,o),
+(678,603,cs),
+(763,603,o),
+(795,547,o),
+(795,479,cs),
+(795,386,o),
+(747,342,o),
+(633,342,cs),
+(575,342,o),
+(504,361,o),
+(473,378,c)
+);
+}
+);
+width = 1199;
+}
+);
+unicode = 120095;
+},
+{
+glyphname = "c-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120096;
+},
+{
+glyphname = "d-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120097;
+},
+{
+glyphname = "e-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120098;
+},
+{
+glyphname = "f-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120099;
+},
+{
+glyphname = "g-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120100;
+},
+{
+glyphname = "h-fraktur";
+lastChange = "2024-12-22 18:58:23 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (512,0);
+},
+{
+name = center;
+pos = (285,1265);
+},
+{
+name = math.br;
+pos = (1048,6);
+},
+{
+name = math.ta;
+pos = (532,1403);
+},
+{
+name = math.tr;
+pos = (994,1291);
+},
+{
+name = top;
+pos = (142,1403);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(227,350,o),
+(230,439,o),
+(230,675,c),
+(255,636,o),
+(453,662,o),
+(540,532,c),
+(639,647,o),
+(749,606,o),
+(785,677,c),
+(785,600,o),
+(768,428,o),
+(801,-14,c),
+(810,-15,o),
+(782,-14,o),
+(801,-14,cs),
+(820,-14,o),
+(859,-14,o),
+(873,-14,c),
+(890,446,o),
+(887,479,o),
+(880,622,cs),
+(873,757,o),
+(868,807,o),
+(868,877,c),
+(755,751,o),
+(632,794,o),
+(539,649,c),
+(447,779,o),
+(297,785,o),
+(229,826,c),
+(229,1098,o),
+(231,1268,o),
+(225,1427,c),
+(209,1425,o),
+(174,1438,o),
+(155,1431,c),
+(134,1289,o),
+(115,1025,o),
+(113,777,cs),
+(110,386,o),
+(132,6,o),
+(136,-26,c),
+(144,-27,o),
+(157,-29,o),
+(172,-29,cs),
+(190,-29,o),
+(199,-29,o),
+(213,-29,c)
+);
+}
+);
+width = 994;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (572,0);
+},
+{
+name = center;
+pos = (338,1189);
+},
+{
+name = math.br;
+pos = (1267,9);
+},
+{
+name = math.ta;
+pos = (656,1443);
+},
+{
+name = math.tr;
+pos = (1263,1291);
+},
+{
+name = top;
+pos = (232,1436);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(429,109,o),
+(415,328,o),
+(423,439,c),
+(444,459,o),
+(619,550,o),
+(681,592,c),
+(742,543,o),
+(772,530,o),
+(824,446,c),
+(853,324,o),
+(854,282,o),
+(879,-3,c),
+(934,-14,o),
+(792,-8,o),
+(858,-8,cs),
+(918,-8,o),
+(1060,-10,o),
+(1117,0,c),
+(1142,224,o),
+(1142,129,o),
+(1142,295,cs),
+(1142,420,o),
+(1142,552,o),
+(1142,682,c),
+(1100,719,o),
+(830,935,o),
+(723,993,c),
+(663,993,o),
+(495,872,o),
+(431,780,c),
+(409,880,o),
+(394,1123,o),
+(358,1423,c),
+(286,1423,o),
+(175,1430,o),
+(126,1423,c),
+(59,1123,o),
+(56,1159,o),
+(69,570,cs),
+(74,349,o),
+(81,252,o),
+(137,-9,c),
+(172,-23,o),
+(195,-16,o),
+(282,-16,cs),
+(355,-16,o),
+(349,-8,o),
+(387,-1,c)
+);
+}
+);
+width = 1266;
+}
+);
+unicode = 120101;
+},
+{
+glyphname = "i-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120102;
+},
+{
+glyphname = "j-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120103;
+},
+{
+glyphname = "k-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120104;
+},
+{
+glyphname = "l-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120105;
+},
+{
+glyphname = "m-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120106;
+},
+{
+glyphname = "n-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120107;
+},
+{
+glyphname = "o-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120108;
+},
+{
+glyphname = "p-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120109;
+},
+{
+glyphname = "q-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120110;
+},
+{
+glyphname = "r-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120111;
+},
+{
+glyphname = "s-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120112;
+},
+{
+glyphname = "t-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120113;
+},
+{
+glyphname = "u-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120114;
+},
+{
+glyphname = "v-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120115;
+},
+{
+glyphname = "w-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120116;
+},
+{
+glyphname = "x-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120117;
+},
+{
+glyphname = "y-fraktur";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1200;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1200;
+}
+);
+unicode = 120118;
+},
+{
 glyphname = Bscript;
 lastChange = "2024-12-20 22:42:59 +0000";
 layers = (
@@ -54891,297 +55553,6 @@ width = 1562;
 );
 script = math;
 unicode = 8492;
-},
-{
-glyphname = Gscript;
-lastChange = "2024-12-21 01:30:41 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-pos = (567,0);
-},
-{
-name = math.br;
-pos = (1284,0);
-},
-{
-name = math.ta;
-pos = (725,1291);
-},
-{
-name = math.tl;
-pos = (76,1299);
-},
-{
-name = math.tr;
-pos = (1342,1291);
-},
-{
-name = top;
-pos = (725,1291);
-}
-);
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(1080,590,o),
-(1065,592,o),
-(1041,591,c),
-(1012,355,o),
-(958,145,o),
-(651,136,cs),
-(439,130,o),
-(261,454,o),
-(261,711,cs),
-(261,1127,o),
-(495,1288,o),
-(674,1288,cs),
-(877,1288,o),
-(1081,1201,o),
-(1081,1028,cs),
-(1081,822,o),
-(918,784,o),
-(842,721,c),
-(850,729,o),
-(823,692,o),
-(878,667,c),
-(1062,764,o),
-(1129,841,o),
-(1152,995,cs),
-(1186,1223,o),
-(941,1368,o),
-(702,1368,cs),
-(338,1368,o),
-(178,1057,o),
-(178,683,cs),
-(178,397,o),
-(395,52,o),
-(642,52,cs),
-(842,52,o),
-(939,159,o),
-(991,236,c),
-(921,-464,o),
-(684,-466,o),
-(588,-465,cs),
-(406,-463,o),
-(284,-330,o),
-(299,-253,cs),
-(312,-187,o),
-(402,-131,o),
-(584,-131,c),
-(587,-96,o),
-(586,-72,o),
-(574,-55,c),
-(330,-67,o),
-(209,-161,o),
-(209,-274,cs),
-(209,-382,o),
-(362,-539,o),
-(578,-545,cs),
-(955,-555,o),
-(1031,-245,o),
-(1101,583,c)
-);
-}
-);
-width = 1254;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (628,0);
-},
-{
-name = math.br;
-pos = (1365,0);
-},
-{
-name = math.ta;
-pos = (909,1591);
-},
-{
-name = math.tl;
-pos = (119,1309);
-},
-{
-name = math.tr;
-pos = (1426,1291);
-},
-{
-name = top;
-pos = (809,1291);
-}
-);
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(1109,622,o),
-(1000,616,o),
-(890,593,c),
-(904,462,o),
-(894,360,o),
-(728,360,cs),
-(599,360,o),
-(542,501,o),
-(542,636,cs),
-(542,844,o),
-(656,1039,o),
-(791,1097,cs),
-(849,1122,o),
-(1012,1121,o),
-(1012,1035,cs),
-(1012,962,o),
-(942,916,o),
-(895,879,c),
-(921,834,o),
-(1052,713,o),
-(1143,679,c),
-(1230,721,o),
-(1376,829,o),
-(1362,1106,cs),
-(1347,1400,o),
-(978,1439,o),
-(831,1439,cs),
-(462,1439,o),
-(176,1090,o),
-(176,707,cs),
-(176,362,o),
-(341,23,o),
-(674,23,cs),
-(789,23,o),
-(743,23,o),
-(789,23,c),
-(836,51,o),
-(762,-314,o),
-(557,-314,cs),
-(409,-314,o),
-(382,-274,o),
-(382,-232,cs),
-(382,-126,o),
-(427,-104,o),
-(493,-64,c),
-(427,-11,o),
-(270,43,o),
-(159,53,c),
-(86,-3,o),
-(13,-100,o),
-(13,-250,cs),
-(13,-425,o),
-(277,-639,o),
-(492,-639,cs),
-(1273,-639,o),
-(1212,232,o),
-(1245,593,c)
-);
-}
-);
-width = 1418;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (698,0);
-},
-{
-name = math.br;
-pos = (1315,0);
-},
-{
-name = math.ta;
-pos = (698,1291);
-},
-{
-name = math.tr;
-pos = (1315,1291);
-},
-{
-name = top;
-pos = (698,1291);
-}
-);
-associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-layerId = "7B25E95F-EEA6-4067-B927-834D6AE2EA24";
-name = "Dec 18, 24 at 09:54";
-shapes = (
-{
-closed = 1;
-nodes = (
-(922,-860,o),
-(1057,-617,o),
-(1131,-94,cs),
-(1177,230,o),
-(1252,826,o),
-(1252,826,c),
-(1244,829,o),
-(1202,830,o),
-(1186,830,cs),
-(1171,830,o),
-(1156,829,o),
-(1146,827,c),
-(1146,807,o),
-(1105,461,o),
-(1080,324,cs),
-(1036,85,o),
-(899,-27,o),
-(737,-27,cs),
-(505,-27,o),
-(480,232,o),
-(480,368,cs),
-(480,625,o),
-(450,819,o),
-(277,815,cs),
-(-129,805,o),
-(-82,253,o),
-(158,282,c),
-(176,309,o),
-(180,327,o),
-(180,355,c),
-(-3,362,o),
-(58,730,o),
-(245,730,cs),
-(351,730,o),
-(396,603,o),
-(396,373,cs),
-(396,113,o),
-(460,-107,o),
-(724,-107,cs),
-(946,-107,o),
-(1047,16,o),
-(1069,91,c),
-(1023,-378,o),
-(902,-781,o),
-(665,-781,cs),
-(406,-781,o),
-(391,-628,o),
-(396,-571,cs),
-(403,-493,o),
-(526,-403,o),
-(589,-394,c),
-(597,-356,o),
-(580,-336,o),
-(562,-317,c),
-(447,-371,o),
-(311,-430,o),
-(311,-573,cs),
-(311,-715,o),
-(410,-858,o),
-(660,-859,cs)
-);
-}
-);
-width = 1315;
-}
-);
-script = math;
-unicode = 119970;
 },
 {
 glyphname = Hscript;
@@ -62366,6 +62737,297 @@ width = 1901;
 unicode = 119967;
 },
 {
+glyphname = Gscript;
+lastChange = "2024-12-21 01:30:41 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (567,0);
+},
+{
+name = math.br;
+pos = (1284,0);
+},
+{
+name = math.ta;
+pos = (725,1291);
+},
+{
+name = math.tl;
+pos = (76,1299);
+},
+{
+name = math.tr;
+pos = (1342,1291);
+},
+{
+name = top;
+pos = (725,1291);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1080,590,o),
+(1065,592,o),
+(1041,591,c),
+(1012,355,o),
+(958,145,o),
+(651,136,cs),
+(439,130,o),
+(261,454,o),
+(261,711,cs),
+(261,1127,o),
+(495,1288,o),
+(674,1288,cs),
+(877,1288,o),
+(1081,1201,o),
+(1081,1028,cs),
+(1081,822,o),
+(918,784,o),
+(842,721,c),
+(850,729,o),
+(823,692,o),
+(878,667,c),
+(1062,764,o),
+(1129,841,o),
+(1152,995,cs),
+(1186,1223,o),
+(941,1368,o),
+(702,1368,cs),
+(338,1368,o),
+(178,1057,o),
+(178,683,cs),
+(178,397,o),
+(395,52,o),
+(642,52,cs),
+(842,52,o),
+(939,159,o),
+(991,236,c),
+(921,-464,o),
+(684,-466,o),
+(588,-465,cs),
+(406,-463,o),
+(284,-330,o),
+(299,-253,cs),
+(312,-187,o),
+(402,-131,o),
+(584,-131,c),
+(587,-96,o),
+(586,-72,o),
+(574,-55,c),
+(330,-67,o),
+(209,-161,o),
+(209,-274,cs),
+(209,-382,o),
+(362,-539,o),
+(578,-545,cs),
+(955,-555,o),
+(1031,-245,o),
+(1101,583,c)
+);
+}
+);
+width = 1254;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (628,0);
+},
+{
+name = math.br;
+pos = (1365,0);
+},
+{
+name = math.ta;
+pos = (909,1591);
+},
+{
+name = math.tl;
+pos = (119,1309);
+},
+{
+name = math.tr;
+pos = (1426,1291);
+},
+{
+name = top;
+pos = (809,1291);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1109,622,o),
+(1000,616,o),
+(890,593,c),
+(904,462,o),
+(894,360,o),
+(728,360,cs),
+(599,360,o),
+(542,501,o),
+(542,636,cs),
+(542,844,o),
+(656,1039,o),
+(791,1097,cs),
+(849,1122,o),
+(1012,1121,o),
+(1012,1035,cs),
+(1012,962,o),
+(942,916,o),
+(895,879,c),
+(921,834,o),
+(1052,713,o),
+(1143,679,c),
+(1230,721,o),
+(1376,829,o),
+(1362,1106,cs),
+(1347,1400,o),
+(978,1439,o),
+(831,1439,cs),
+(462,1439,o),
+(176,1090,o),
+(176,707,cs),
+(176,362,o),
+(341,23,o),
+(674,23,cs),
+(789,23,o),
+(743,23,o),
+(789,23,c),
+(836,51,o),
+(762,-314,o),
+(557,-314,cs),
+(409,-314,o),
+(382,-274,o),
+(382,-232,cs),
+(382,-126,o),
+(427,-104,o),
+(493,-64,c),
+(427,-11,o),
+(270,43,o),
+(159,53,c),
+(86,-3,o),
+(13,-100,o),
+(13,-250,cs),
+(13,-425,o),
+(277,-639,o),
+(492,-639,cs),
+(1273,-639,o),
+(1212,232,o),
+(1245,593,c)
+);
+}
+);
+width = 1418;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (698,0);
+},
+{
+name = math.br;
+pos = (1315,0);
+},
+{
+name = math.ta;
+pos = (698,1291);
+},
+{
+name = math.tr;
+pos = (1315,1291);
+},
+{
+name = top;
+pos = (698,1291);
+}
+);
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+layerId = "7B25E95F-EEA6-4067-B927-834D6AE2EA24";
+name = "Dec 18, 24 at 09:54";
+shapes = (
+{
+closed = 1;
+nodes = (
+(922,-860,o),
+(1057,-617,o),
+(1131,-94,cs),
+(1177,230,o),
+(1252,826,o),
+(1252,826,c),
+(1244,829,o),
+(1202,830,o),
+(1186,830,cs),
+(1171,830,o),
+(1156,829,o),
+(1146,827,c),
+(1146,807,o),
+(1105,461,o),
+(1080,324,cs),
+(1036,85,o),
+(899,-27,o),
+(737,-27,cs),
+(505,-27,o),
+(480,232,o),
+(480,368,cs),
+(480,625,o),
+(450,819,o),
+(277,815,cs),
+(-129,805,o),
+(-82,253,o),
+(158,282,c),
+(176,309,o),
+(180,327,o),
+(180,355,c),
+(-3,362,o),
+(58,730,o),
+(245,730,cs),
+(351,730,o),
+(396,603,o),
+(396,373,cs),
+(396,113,o),
+(460,-107,o),
+(724,-107,cs),
+(946,-107,o),
+(1047,16,o),
+(1069,91,c),
+(1023,-378,o),
+(902,-781,o),
+(665,-781,cs),
+(406,-781,o),
+(391,-628,o),
+(396,-571,cs),
+(403,-493,o),
+(526,-403,o),
+(589,-394,c),
+(597,-356,o),
+(580,-336,o),
+(562,-317,c),
+(447,-371,o),
+(311,-430,o),
+(311,-573,cs),
+(311,-715,o),
+(410,-858,o),
+(660,-859,cs)
+);
+}
+);
+width = 1315;
+}
+);
+script = math;
+unicode = 119970;
+},
+{
 glyphname = Jscript;
 lastChange = "2024-12-21 01:28:50 +0000";
 layers = (
@@ -62733,6 +63395,201 @@ width = 1726;
 );
 metricLeft = "=Escript";
 unicode = 119974;
+},
+{
+glyphname = Nscript;
+lastChange = "2024-12-21 03:35:11 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (543,0);
+},
+{
+name = math.br;
+pos = (1309,0);
+},
+{
+name = math.ta;
+pos = (830,1538);
+},
+{
+name = math.tr;
+pos = (1368,1291);
+},
+{
+name = top;
+pos = (814,1535);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1126,1093,o),
+(991,292,o),
+(935,86,c),
+(923,288,o),
+(698,877,o),
+(685,934,cs),
+(606,1281,o),
+(623,1366,o),
+(352,1366,cs),
+(203,1366,o),
+(82,1230,o),
+(82,1098,cs),
+(82,993,o),
+(122,881,o),
+(227,807,c),
+(251,824,o),
+(259,850,o),
+(263,885,c),
+(194,955,o),
+(159,1032,o),
+(163,1098,cs),
+(167,1170,o),
+(241,1282,o),
+(351,1288,cs),
+(402,1291,o),
+(470,1284,o),
+(499,1256,c),
+(462,1023,o),
+(393,497,o),
+(355,178,cs),
+(346,102,o),
+(297,80,o),
+(275,80,cs),
+(226,80,o),
+(196,138,o),
+(214,221,c),
+(196,236,o),
+(173,239,o),
+(140,225,c),
+(105,102,o),
+(176,-4,o),
+(261,-3,cs),
+(335,-2,o),
+(426,59,o),
+(439,175,cs),
+(439,175,o),
+(555,1176,o),
+(555,1176,c),
+(619,986,o),
+(872,38,o),
+(875,21,c),
+(901,16,o),
+(967,16,o),
+(1000,16,c),
+(1026,99,o),
+(1240,1197,o),
+(1266,1328,c),
+(1249,1330,o),
+(1205,1327,o),
+(1177,1327,c)
+);
+}
+);
+width = 1332;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (715,0);
+},
+{
+name = math.br;
+pos = (1960,0);
+},
+{
+name = math.ta;
+pos = (1296,1591);
+},
+{
+name = math.tr;
+pos = (2061,1291);
+},
+{
+name = top;
+pos = (896,1291);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1553,1253,o),
+(1507,810,o),
+(1428,630,c),
+(1410,806,o),
+(1331,1101,o),
+(1226,1234,cs),
+(1102,1391,o),
+(839,1406,o),
+(586,1391,cs),
+(336,1376,o),
+(120,1257,o),
+(123,980,cs),
+(127,642,o),
+(449,475,o),
+(498,475,c),
+(597,541,o),
+(635,651,o),
+(658,782,c),
+(563,807,o),
+(488,845,o),
+(488,928,cs),
+(488,1008,o),
+(537,1078,o),
+(621,1084,cs),
+(697,1089,o),
+(804,1050,o),
+(800,1025,c),
+(769,839,o),
+(725,456,o),
+(702,302,cs),
+(694,248,o),
+(704,66,o),
+(621,66,cs),
+(565,66,o),
+(586,101,o),
+(533,198,c),
+(450,198,o),
+(381,229,o),
+(235,176,c),
+(204,72,o),
+(340,-192,o),
+(569,-200,cs),
+(1074,-218,o),
+(1057,234,o),
+(1063,282,cs),
+(1082,423,o),
+(1101,665,o),
+(1119,807,c),
+(1135,652,o),
+(1294,77,o),
+(1298,0,c),
+(1351,-11,o),
+(1643,0,o),
+(1730,0,c),
+(1811,441,o),
+(1893,845,o),
+(1973,1324,c),
+(1863,1343,o),
+(1691,1355,o),
+(1588,1355,c)
+);
+}
+);
+width = 2061;
+}
+);
+metricLeft = Mscript;
+script = math;
+unicode = 119977;
 },
 {
 glyphname = Oscript;
@@ -65801,406 +66658,6 @@ width = 1054;
 unicode = 120041;
 },
 {
-glyphname = "Amono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1000;
-}
-);
-unicode = 120432;
-userData = {
-RMXScaler = {
-source = A;
-};
-};
-},
-{
-glyphname = "Bmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120433;
-},
-{
-glyphname = "Cmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120434;
-},
-{
-glyphname = "Dmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120435;
-},
-{
-glyphname = "Emono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120436;
-},
-{
-glyphname = "Fmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120437;
-},
-{
-glyphname = "Gmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120438;
-},
-{
-glyphname = "Hmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120439;
-},
-{
-glyphname = "Imono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120440;
-userData = {
-RMXScaler = {
-source = I.ss01;
-};
-};
-},
-{
-glyphname = "Jmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120441;
-},
-{
-glyphname = "Kmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120442;
-},
-{
-glyphname = "Lmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120443;
-},
-{
-glyphname = "Mmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120444;
-},
-{
-glyphname = "Nmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120445;
-},
-{
-glyphname = "Omono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120446;
-},
-{
-glyphname = "Pmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120447;
-},
-{
-glyphname = "Qmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120448;
-},
-{
-glyphname = "Rmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120449;
-},
-{
-glyphname = "Smono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120450;
-},
-{
-glyphname = "Tmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120451;
-},
-{
-glyphname = "Umono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120452;
-},
-{
-glyphname = "Vmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120453;
-},
-{
-glyphname = "Wmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120454;
-},
-{
-glyphname = "Xmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120455;
-},
-{
-glyphname = "Ymono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120456;
-},
-{
-glyphname = "Zmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120457;
-},
-{
 glyphname = "Zetabold-math.ss02";
 kernLeft = Z;
 kernRight = Z;
@@ -68710,201 +69167,6 @@ width = 2544;
 metricLeft = "=Escript";
 script = math;
 unicode = 8499;
-},
-{
-glyphname = Nscript;
-lastChange = "2024-12-21 03:35:11 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-pos = (543,0);
-},
-{
-name = math.br;
-pos = (1309,0);
-},
-{
-name = math.ta;
-pos = (830,1538);
-},
-{
-name = math.tr;
-pos = (1368,1291);
-},
-{
-name = top;
-pos = (814,1535);
-}
-);
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(1126,1093,o),
-(991,292,o),
-(935,86,c),
-(923,288,o),
-(698,877,o),
-(685,934,cs),
-(606,1281,o),
-(623,1366,o),
-(352,1366,cs),
-(203,1366,o),
-(82,1230,o),
-(82,1098,cs),
-(82,993,o),
-(122,881,o),
-(227,807,c),
-(251,824,o),
-(259,850,o),
-(263,885,c),
-(194,955,o),
-(159,1032,o),
-(163,1098,cs),
-(167,1170,o),
-(241,1282,o),
-(351,1288,cs),
-(402,1291,o),
-(470,1284,o),
-(499,1256,c),
-(462,1023,o),
-(393,497,o),
-(355,178,cs),
-(346,102,o),
-(297,80,o),
-(275,80,cs),
-(226,80,o),
-(196,138,o),
-(214,221,c),
-(196,236,o),
-(173,239,o),
-(140,225,c),
-(105,102,o),
-(176,-4,o),
-(261,-3,cs),
-(335,-2,o),
-(426,59,o),
-(439,175,cs),
-(439,175,o),
-(555,1176,o),
-(555,1176,c),
-(619,986,o),
-(872,38,o),
-(875,21,c),
-(901,16,o),
-(967,16,o),
-(1000,16,c),
-(1026,99,o),
-(1240,1197,o),
-(1266,1328,c),
-(1249,1330,o),
-(1205,1327,o),
-(1177,1327,c)
-);
-}
-);
-width = 1332;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (715,0);
-},
-{
-name = math.br;
-pos = (1960,0);
-},
-{
-name = math.ta;
-pos = (1296,1591);
-},
-{
-name = math.tr;
-pos = (2061,1291);
-},
-{
-name = top;
-pos = (896,1291);
-}
-);
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(1553,1253,o),
-(1507,810,o),
-(1428,630,c),
-(1410,806,o),
-(1331,1101,o),
-(1226,1234,cs),
-(1102,1391,o),
-(839,1406,o),
-(586,1391,cs),
-(336,1376,o),
-(120,1257,o),
-(123,980,cs),
-(127,642,o),
-(449,475,o),
-(498,475,c),
-(597,541,o),
-(635,651,o),
-(658,782,c),
-(563,807,o),
-(488,845,o),
-(488,928,cs),
-(488,1008,o),
-(537,1078,o),
-(621,1084,cs),
-(697,1089,o),
-(804,1050,o),
-(800,1025,c),
-(769,839,o),
-(725,456,o),
-(702,302,cs),
-(694,248,o),
-(704,66,o),
-(621,66,cs),
-(565,66,o),
-(586,101,o),
-(533,198,c),
-(450,198,o),
-(381,229,o),
-(235,176,c),
-(204,72,o),
-(340,-192,o),
-(569,-200,cs),
-(1074,-218,o),
-(1057,234,o),
-(1063,282,cs),
-(1082,423,o),
-(1101,665,o),
-(1119,807,c),
-(1135,652,o),
-(1294,77,o),
-(1298,0,c),
-(1351,-11,o),
-(1643,0,o),
-(1730,0,c),
-(1811,441,o),
-(1893,845,o),
-(1973,1324,c),
-(1863,1343,o),
-(1691,1355,o),
-(1588,1355,c)
-);
-}
-);
-width = 2061;
-}
-);
-metricLeft = Mscript;
-script = math;
-unicode = 119977;
 },
 {
 category = Letter;
@@ -99195,405 +99457,6 @@ nodes = (
 width = 1104;
 }
 );
-},
-{
-glyphname = "amono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120458;
-},
-{
-glyphname = "bmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120459;
-},
-{
-glyphname = "cmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120460;
-},
-{
-glyphname = "dmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120461;
-},
-{
-glyphname = "emono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120462;
-},
-{
-glyphname = "fmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120463;
-},
-{
-glyphname = "gmono-math.ss01";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-},
-{
-glyphname = "hmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120465;
-},
-{
-glyphname = "imono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120466;
-userData = {
-RMXScaler = {
-source = i;
-};
-};
-},
-{
-glyphname = "jmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120467;
-},
-{
-glyphname = "kmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120468;
-},
-{
-glyphname = "lmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120469;
-userData = {
-RMXScaler = {
-source = l;
-};
-};
-},
-{
-glyphname = "mmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120470;
-},
-{
-glyphname = "nmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120471;
-},
-{
-glyphname = "omono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120472;
-},
-{
-glyphname = "pmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120473;
-},
-{
-glyphname = "qmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120474;
-},
-{
-glyphname = "rmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120475;
-},
-{
-glyphname = "smono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120476;
-},
-{
-glyphname = "tmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120477;
-},
-{
-glyphname = "umono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120478;
-},
-{
-glyphname = "vmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120479;
-},
-{
-glyphname = "wmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120480;
-},
-{
-glyphname = "xmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120481;
-},
-{
-glyphname = "ymono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120482;
-},
-{
-glyphname = "zmono-math";
-lastChange = "2024-12-03 12:17:05 +0000";
-layers = (
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1000;
-},
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
-}
-);
-unicode = 120483;
 },
 {
 glyphname = "alphabold-math";
@@ -143745,6 +143608,143 @@ groupleft.s12
 };
 },
 {
+glyphname = groupright;
+kernLeft = parenleft;
+kernRight = parenleft;
+lastChange = "2024-12-22 13:31:56 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-314,o),
+(676,126,o),
+(676,562,cs),
+(676,1013,o),
+(568,1411,o),
+(421,1640,c),
+(272,1620,o),
+(127,1574,o),
+(39,1530,c),
+(156,1275,o),
+(279,928,o),
+(279,540,cs),
+(279,201,o),
+(187,-148,o),
+(30,-353,c),
+(95,-401,o),
+(278,-513,o),
+(356,-548,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupright.bot,
+0,
+0,
+300
+),
+(
+groupright.ext,
+1,
+300,
+300
+),
+(
+groupright.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 856;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(179,-217,o),
+(271,149,o),
+(271,595,cs),
+(271,916,o),
+(192,1302,o),
+(45,1569,c),
+(34,1565,o),
+(-15,1547,o),
+(-25,1540,c),
+(136,1250,o),
+(199,885,o),
+(199,588,cs),
+(199,134,o),
+(98,-209,o),
+(-30,-359,c),
+(-15,-374,o),
+(17,-405,o),
+(26,-410,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupright.bot,
+0,
+0,
+300
+),
+(
+groupright.ext,
+1,
+300,
+300
+),
+(
+groupright.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 451;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = groupright;
+unicode = 10223;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+groupright,
+groupright.s01,
+groupright.s02,
+groupright.s03,
+groupright.s04,
+groupright.s05,
+groupright.s06,
+groupright.s07,
+groupright.s08,
+groupright.s09,
+groupright.s10,
+groupright.s11,
+groupright.s12
+);
+};
+};
+},
+{
 category = Punctuation;
 glyphname = topsquarebracket;
 lastChange = "2024-11-25 12:41:00 +0000";
@@ -147540,9 +147540,8 @@ unicode = 8215;
 },
 {
 glyphname = parenleft;
-kernLeft = parenleft;
 kernRight = parenleft;
-lastChange = "2024-12-12 15:55:24 +0000";
+lastChange = "2024-12-23 00:52:38 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -147573,26 +147572,6 @@ nodes = (
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-(
-groupleft.bot,
-0,
-0,
-300
-),
-(
-groupleft.ext,
-1,
-300,
-300
-),
-(
-groupleft.top,
-0,
-300,
-0
-)
-);
 };
 };
 width = 856;
@@ -147603,81 +147582,60 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(534,-405,o),
-(566,-374,o),
-(581,-359,c),
-(353,-209,o),
-(252,234,o),
-(252,588,cs),
-(252,885,o),
-(315,1250,o),
-(576,1540,c),
-(566,1547,o),
-(517,1565,o),
-(506,1569,c),
-(259,1302,o),
-(180,916,o),
-(180,595,cs),
-(180,249,o),
-(272,-217,o),
-(525,-410,c)
+(384,-405,o),
+(416,-374,o),
+(431,-359,c),
+(203,-209,o),
+(102,234,o),
+(102,588,cs),
+(102,885,o),
+(165,1250,o),
+(426,1540,c),
+(416,1547,o),
+(367,1565,o),
+(356,1569,c),
+(109,1302,o),
+(30,916,o),
+(30,595,cs),
+(30,249,o),
+(122,-217,o),
+(375,-410,c)
 );
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-(
-groupleft.bot,
-0,
-0,
-300
-),
-(
-groupleft.ext,
-1,
-300,
-300
-),
-(
-groupleft.top,
-0,
-300,
-0
-)
-);
 };
 };
-width = 551;
+width = 441;
 }
 );
-production = parenleft.001;
+production = parenleft;
 unicode = 40;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-groupleft,
-groupleft.s01,
-groupleft.s02,
-groupleft.s03,
-groupleft.s04,
-groupleft.s05,
-groupleft.s06,
-groupleft.s07,
-groupleft.s08,
-groupleft.s09,
-groupleft.s10,
-groupleft.s11,
-groupleft.s12
+parenleft,
+parenleft.s1,
+parenleft.s2,
+parenleft.s3,
+parenleft.s4,
+parenleft.s5,
+parenleft.s6,
+parenleft.s7,
+parenleft.s8,
+parenleft.s9,
+parenleft.s10,
+parenleft.s11,
+parenleft.s12
 );
 };
 };
 },
 {
 glyphname = parenleft.s1;
-kernLeft = parenleft;
 kernRight = parenleft;
-lastChange = "2024-12-06 00:23:44 +0000";
+lastChange = "2024-12-23 00:23:03 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -147685,24 +147643,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(578,-513,o),
-(761,-401,o),
-(826,-353,c),
-(669,-148,o),
-(577,201,o),
+(678,-713,o),
+(861,-601,o),
+(926,-553,c),
+(769,-348,o),
+(577,101,o),
 (577,540,cs),
-(577,928,o),
-(700,1275,o),
-(817,1530,c),
-(729,1574,o),
-(584,1620,o),
-(435,1640,c),
-(288,1411,o),
-(180,1013,o),
+(577,1328,o),
+(800,1575,o),
+(917,1830,c),
+(829,1874,o),
+(684,1920,o),
+(535,1940,c),
+(388,1711,o),
+(180,1413,o),
 (180,562,cs),
-(180,126,o),
-(302,-314,o),
-(500,-548,c)
+(180,26,o),
+(402,-514,o),
+(600,-748,c)
 );
 }
 );
@@ -147730,7 +147688,7 @@ groupleft.top,
 );
 };
 };
-width = 856;
+width = 956;
 },
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -147738,41 +147696,38 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(714,-705,o),
-(746,-674,o),
-(761,-659,c),
-(333,-309,o),
-(252,334,o),
-(252,588,cs),
-(252,785,o),
-(215,1260,o),
-(696,1850,c),
-(686,1857,o),
-(637,1875,o),
-(626,1879,c),
-(159,1312,o),
-(180,816,o),
-(180,595,cs),
-(180,349,o),
-(252,-317,o),
-(705,-710,c)
+(564,-705,o),
+(596,-674,o),
+(611,-659,c),
+(183,-309,o),
+(102,334,o),
+(102,588,cs),
+(102,785,o),
+(65,1260,o),
+(546,1850,c),
+(536,1857,o),
+(487,1875,o),
+(476,1879,c),
+(9,1312,o),
+(30,816,o),
+(30,595,cs),
+(30,349,o),
+(102,-317,o),
+(555,-710,c)
 );
 }
 );
-userData = {
-com.nagwa.MATHPlugin.variants = {
-};
-};
-width = 811;
+width = 621;
 }
 );
-production = parenleft.001.001;
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s1;
 },
 {
-glyphname = parenleft.s1.001;
-kernLeft = parenleft;
+glyphname = parenleft.s10;
 kernRight = parenleft;
-lastChange = "2024-12-06 00:23:44 +0000";
+lastChange = "2024-12-23 00:48:34 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -147780,24 +147735,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(578,-513,o),
-(761,-401,o),
-(826,-353,c),
-(669,-148,o),
-(577,201,o),
+(1528,-3293,o),
+(1711,-3181,o),
+(1776,-3133,c),
+(1619,-2928,o),
+(577,-1179,o),
 (577,540,cs),
-(577,928,o),
-(700,1275,o),
-(817,1530,c),
-(729,1574,o),
-(584,1620,o),
-(435,1640,c),
-(288,1411,o),
-(180,1013,o),
+(577,2518,o),
+(1650,4115,o),
+(1767,4370,c),
+(1679,4414,o),
+(1534,4460,o),
+(1385,4480,c),
+(1238,4251,o),
+(180,2603,o),
 (180,562,cs),
-(180,126,o),
-(302,-314,o),
-(500,-548,c)
+(180,-1254,o),
+(1252,-3094,o),
+(1450,-3328,c)
 );
 }
 );
@@ -147825,7 +147780,7 @@ groupleft.top,
 );
 };
 };
-width = 856;
+width = 1806;
 },
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -147833,24 +147788,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(714,-705,o),
-(746,-674,o),
-(761,-659,c),
-(333,-309,o),
-(252,334,o),
-(252,588,cs),
-(252,785,o),
-(215,1260,o),
-(696,1850,c),
-(686,1857,o),
-(637,1875,o),
-(626,1879,c),
-(159,1312,o),
-(180,816,o),
-(180,595,cs),
-(180,349,o),
-(252,-317,o),
-(705,-710,c)
+(1384,-3185,o),
+(1416,-3154,o),
+(1431,-3139,c),
+(1003,-2789,o),
+(102,-1133,o),
+(102,588,cs),
+(102,2191,o),
+(885,3820,o),
+(1366,4410,c),
+(1356,4417,o),
+(1307,4435,o),
+(1296,4439,c),
+(829,3872,o),
+(30,2223,o),
+(30,595,cs),
+(30,-1116,o),
+(922,-2797,o),
+(1375,-3190,c)
 );
 }
 );
@@ -147858,16 +147813,978 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 };
 };
-width = 811;
+width = 1441;
 }
 );
-production = parenleft.001.001.001;
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s10;
+},
+{
+glyphname = parenleft.s11;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:48:39 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1628,-3593,o),
+(1811,-3481,o),
+(1876,-3433,c),
+(1719,-3228,o),
+(577,-1379,o),
+(577,540,cs),
+(577,2718,o),
+(1750,4415,o),
+(1867,4670,c),
+(1779,4714,o),
+(1634,4760,o),
+(1485,4780,c),
+(1338,4551,o),
+(180,2803,o),
+(180,562,cs),
+(180,-1454,o),
+(1352,-3394,o),
+(1550,-3628,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1906;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1484,-3385,o),
+(1516,-3354,o),
+(1531,-3339,c),
+(1103,-2989,o),
+(102,-1233,o),
+(102,588,cs),
+(102,2291,o),
+(985,4120,o),
+(1466,4710,c),
+(1456,4717,o),
+(1407,4735,o),
+(1396,4739,c),
+(929,4172,o),
+(30,2323,o),
+(30,595,cs),
+(30,-1216,o),
+(1022,-2997,o),
+(1475,-3390,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1541;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s11;
+},
+{
+glyphname = parenleft.s12;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:51:28 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1728,-3893,o),
+(1911,-3781,o),
+(1976,-3733,c),
+(1819,-3528,o),
+(577,-1479,o),
+(577,540,cs),
+(577,2818,o),
+(1850,4815,o),
+(1967,5070,c),
+(1879,5114,o),
+(1734,5160,o),
+(1585,5180,c),
+(1438,4951,o),
+(180,2903,o),
+(180,562,cs),
+(180,-1554,o),
+(1452,-3694,o),
+(1650,-3928,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 2006;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1584,-3785,o),
+(1616,-3754,o),
+(1631,-3739,c),
+(1203,-3389,o),
+(102,-1333,o),
+(102,588,cs),
+(102,2391,o),
+(1085,4520,o),
+(1566,5110,c),
+(1556,5117,o),
+(1507,5135,o),
+(1496,5139,c),
+(1029,4572,o),
+(30,2423,o),
+(30,595,cs),
+(30,-1316,o),
+(1122,-3397,o),
+(1575,-3790,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1641;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s12;
+},
+{
+glyphname = parenleft.s2;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:24:01 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(708,-913,o),
+(891,-801,o),
+(956,-753,c),
+(799,-548,o),
+(577,-99,o),
+(577,640,cs),
+(577,1228,o),
+(830,1675,o),
+(947,1930,c),
+(859,1974,o),
+(714,2020,o),
+(565,2040,c),
+(418,1811,o),
+(180,1313,o),
+(180,662,cs),
+(180,-174,o),
+(432,-714,o),
+(630,-948,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 986;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(664,-905,o),
+(696,-874,o),
+(711,-859,c),
+(283,-509,o),
+(102,134,o),
+(102,588,cs),
+(102,1085,o),
+(165,1460,o),
+(646,2050,c),
+(636,2057,o),
+(587,2075,o),
+(576,2079,c),
+(109,1512,o),
+(30,1116,o),
+(30,595,cs),
+(30,149,o),
+(202,-517,o),
+(655,-910,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 721;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s2;
+},
+{
+glyphname = parenleft.s3;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:24:09 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(878,-1193,o),
+(1061,-1081,o),
+(1126,-1033,c),
+(969,-828,o),
+(577,-99,o),
+(577,540,cs),
+(577,1428,o),
+(1000,1915,o),
+(1117,2170,c),
+(1029,2214,o),
+(884,2260,o),
+(735,2280,c),
+(588,2051,o),
+(180,1513,o),
+(180,562,cs),
+(180,-174,o),
+(602,-994,o),
+(800,-1228,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1156;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(764,-1165,o),
+(796,-1134,o),
+(811,-1119,c),
+(383,-769,o),
+(102,-63,o),
+(102,588,cs),
+(102,1291,o),
+(265,1720,o),
+(746,2310,c),
+(736,2317,o),
+(687,2335,o),
+(676,2339,c),
+(209,1772,o),
+(30,1323,o),
+(30,595,cs),
+(30,-46,o),
+(302,-777,o),
+(755,-1170,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 821;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s3;
+},
+{
+glyphname = parenleft.s4;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:24:12 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(978,-1493,o),
+(1161,-1381,o),
+(1226,-1333,c),
+(1069,-1128,o),
+(577,-299,o),
+(577,540,cs),
+(577,1628,o),
+(1100,2215,o),
+(1217,2470,c),
+(1129,2514,o),
+(984,2560,o),
+(835,2580,c),
+(688,2351,o),
+(180,1713,o),
+(180,562,cs),
+(180,-374,o),
+(702,-1294,o),
+(900,-1528,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1256;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(864,-1515,o),
+(896,-1484,o),
+(911,-1469,c),
+(483,-1119,o),
+(102,-363,o),
+(102,588,cs),
+(102,1591,o),
+(365,2020,o),
+(846,2610,c),
+(836,2617,o),
+(787,2635,o),
+(776,2639,c),
+(309,2072,o),
+(30,1623,o),
+(30,595,cs),
+(30,-346,o),
+(402,-1127,o),
+(855,-1520,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 921;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s4;
+},
+{
+glyphname = parenleft.s5;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:24:15 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1028,-1793,o),
+(1211,-1681,o),
+(1276,-1633,c),
+(1119,-1428,o),
+(577,-379,o),
+(577,540,cs),
+(577,1718,o),
+(1150,2515,o),
+(1267,2770,c),
+(1179,2814,o),
+(1034,2860,o),
+(885,2880,c),
+(738,2651,o),
+(180,1803,o),
+(180,562,cs),
+(180,-454,o),
+(752,-1594,o),
+(950,-1828,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1306;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(974,-1785,o),
+(1006,-1754,o),
+(1021,-1739,c),
+(593,-1389,o),
+(102,-543,o),
+(102,588,cs),
+(102,1691,o),
+(465,2320,o),
+(946,2910,c),
+(936,2917,o),
+(887,2935,o),
+(876,2939,c),
+(409,2372,o),
+(30,1723,o),
+(30,595,cs),
+(30,-526,o),
+(512,-1397,o),
+(965,-1790,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1031;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s5;
+},
+{
+glyphname = parenleft.s6;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:48:15 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1128,-2093,o),
+(1311,-1981,o),
+(1376,-1933,c),
+(1219,-1728,o),
+(577,-579,o),
+(577,540,cs),
+(577,1918,o),
+(1250,2915,o),
+(1367,3170,c),
+(1279,3214,o),
+(1134,3260,o),
+(985,3280,c),
+(838,3051,o),
+(180,2003,o),
+(180,562,cs),
+(180,-654,o),
+(852,-1894,o),
+(1050,-2128,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1406;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(974,-2035,o),
+(1006,-2004,o),
+(1021,-1989,c),
+(593,-1639,o),
+(102,-733,o),
+(102,588,cs),
+(102,1791,o),
+(465,2620,o),
+(946,3210,c),
+(936,3217,o),
+(887,3235,o),
+(876,3239,c),
+(409,2672,o),
+(30,1823,o),
+(30,595,cs),
+(30,-716,o),
+(512,-1647,o),
+(965,-2040,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1031;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s6;
+},
+{
+glyphname = parenleft.s7;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:48:19 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1228,-2393,o),
+(1411,-2281,o),
+(1476,-2233,c),
+(1319,-2028,o),
+(577,-779,o),
+(577,540,cs),
+(577,2118,o),
+(1350,3215,o),
+(1467,3470,c),
+(1379,3514,o),
+(1234,3560,o),
+(1085,3580,c),
+(938,3351,o),
+(180,2203,o),
+(180,562,cs),
+(180,-854,o),
+(952,-2194,o),
+(1150,-2428,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1506;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1085,-2335,o),
+(1117,-2304,o),
+(1132,-2289,c),
+(704,-1939,o),
+(102,-833,o),
+(102,588,cs),
+(102,1891,o),
+(585,2920,o),
+(1066,3510,c),
+(1056,3517,o),
+(1007,3535,o),
+(996,3539,c),
+(529,2972,o),
+(30,1923,o),
+(30,595,cs),
+(30,-816,o),
+(623,-1947,o),
+(1076,-2340,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1142;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s7;
+},
+{
+glyphname = parenleft.s8;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:48:24 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1328,-2693,o),
+(1511,-2581,o),
+(1576,-2533,c),
+(1419,-2328,o),
+(577,-979,o),
+(577,540,cs),
+(577,2318,o),
+(1450,3515,o),
+(1567,3770,c),
+(1479,3814,o),
+(1334,3860,o),
+(1185,3880,c),
+(1038,3651,o),
+(180,2403,o),
+(180,562,cs),
+(180,-1054,o),
+(1052,-2494,o),
+(1250,-2728,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1606;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1185,-2635,o),
+(1217,-2604,o),
+(1232,-2589,c),
+(804,-2239,o),
+(102,-933,o),
+(102,588,cs),
+(102,1991,o),
+(685,3220,o),
+(1166,3810,c),
+(1156,3817,o),
+(1107,3835,o),
+(1096,3839,c),
+(629,3272,o),
+(30,2023,o),
+(30,595,cs),
+(30,-916,o),
+(723,-2247,o),
+(1176,-2640,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1242;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s8;
+},
+{
+glyphname = parenleft.s9;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:48:29 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1428,-2993,o),
+(1611,-2881,o),
+(1676,-2833,c),
+(1519,-2628,o),
+(577,-1079,o),
+(577,540,cs),
+(577,2418,o),
+(1550,3815,o),
+(1667,4070,c),
+(1579,4114,o),
+(1434,4160,o),
+(1285,4180,c),
+(1138,3951,o),
+(180,2503,o),
+(180,562,cs),
+(180,-1154,o),
+(1152,-2794,o),
+(1350,-3028,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1706;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1284,-2935,o),
+(1316,-2904,o),
+(1331,-2889,c),
+(903,-2539,o),
+(102,-1033,o),
+(102,588,cs),
+(102,2091,o),
+(786,3520,o),
+(1267,4110,c),
+(1257,4117,o),
+(1208,4135,o),
+(1197,4139,c),
+(730,3572,o),
+(30,2123,o),
+(30,595,cs),
+(30,-1016,o),
+(822,-2547,o),
+(1275,-2940,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1341;
+}
+);
+metricLeft = "=parenleft";
+metricRight = "=parenleft";
+production = parenleft.s9;
 },
 {
 glyphname = parenright;
 kernLeft = parenleft;
 kernRight = parenleft;
-lastChange = "2024-12-20 22:34:38 +0000";
+lastChange = "2024-12-23 00:54:56 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -147898,26 +148815,6 @@ nodes = (
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-(
-groupleft.bot,
-0,
-0,
-300
-),
-(
-groupleft.ext,
-1,
-300,
-300
-),
-(
-groupleft.top,
-0,
-300,
-0
-)
-);
 };
 };
 width = 856;
@@ -147928,24 +148825,88 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(279,-217,o),
-(371,249,o),
-(371,595,cs),
-(371,916,o),
-(292,1302,o),
-(45,1569,c),
-(34,1565,o),
-(-15,1547,o),
-(-25,1540,c),
-(236,1250,o),
-(299,885,o),
-(299,588,cs),
-(299,234,o),
-(198,-209,o),
-(-30,-359,c),
-(-15,-374,o),
-(17,-405,o),
-(26,-410,c)
+(319,-217,o),
+(411,249,o),
+(411,595,cs),
+(411,916,o),
+(332,1302,o),
+(85,1569,c),
+(74,1565,o),
+(25,1547,o),
+(15,1540,c),
+(276,1250,o),
+(339,885,o),
+(339,588,cs),
+(339,234,o),
+(238,-209,o),
+(10,-359,c),
+(25,-374,o),
+(57,-405,o),
+(66,-410,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 441;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright;
+unicode = 41;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+parenright,
+parenright.s1,
+parenright.s2,
+parenright.s3,
+parenright.s4,
+parenright.s5,
+parenright.s6,
+parenright.s7,
+parenright.s8,
+parenright.s9,
+parenright.s10,
+parenright.s11,
+parenright.s12
+);
+};
+};
+},
+{
+color = 4;
+glyphname = parenright.s1;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:10 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-514,o),
+(776,26,o),
+(776,562,cs),
+(776,1413,o),
+(568,1711,o),
+(421,1940,c),
+(272,1920,o),
+(127,1874,o),
+(39,1830,c),
+(156,1575,o),
+(379,1328,o),
+(379,540,cs),
+(379,101,o),
+(187,-348,o),
+(30,-553,c),
+(95,-601,o),
+(278,-713,o),
+(356,-748,c)
 );
 }
 );
@@ -147973,32 +148934,1108 @@ groupleft.top,
 );
 };
 };
-width = 551;
+width = 956;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-317,o),
+(591,349,o),
+(591,595,cs),
+(591,816,o),
+(612,1312,o),
+(145,1879,c),
+(134,1875,o),
+(85,1857,o),
+(75,1850,c),
+(556,1260,o),
+(519,785,o),
+(519,588,cs),
+(519,334,o),
+(438,-309,o),
+(10,-659,c),
+(25,-674,o),
+(57,-705,o),
+(66,-710,c)
+);
+}
+);
+width = 621;
 }
 );
 metricLeft = "=|parenleft";
 metricRight = "=|parenleft";
-production = parenright;
-unicode = 41;
+production = parenright.s1;
+},
+{
+color = 4;
+glyphname = parenright.s10;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:14 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-3094,o),
+(1626,-1254,o),
+(1626,562,cs),
+(1626,2603,o),
+(568,4251,o),
+(421,4480,c),
+(272,4460,o),
+(127,4414,o),
+(39,4370,c),
+(156,4115,o),
+(1229,2518,o),
+(1229,540,cs),
+(1229,-1179,o),
+(187,-2928,o),
+(30,-3133,c),
+(95,-3181,o),
+(278,-3293,o),
+(356,-3328,c)
+);
+}
+);
 userData = {
 com.nagwa.MATHPlugin.variants = {
-vVariants = (
-groupleft,
-groupleft.s01,
-groupleft.s02,
-groupleft.s03,
-groupleft.s04,
-groupleft.s05,
-groupleft.s06,
-groupleft.s07,
-groupleft.s08,
-groupleft.s09,
-groupleft.s10,
-groupleft.s11,
-groupleft.s12
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
 );
 };
 };
+width = 1806;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-2797,o),
+(1411,-1116,o),
+(1411,595,cs),
+(1411,2223,o),
+(612,3872,o),
+(145,4439,c),
+(134,4435,o),
+(85,4417,o),
+(75,4410,c),
+(556,3820,o),
+(1339,2191,o),
+(1339,588,cs),
+(1339,-1133,o),
+(438,-2789,o),
+(10,-3139,c),
+(25,-3154,o),
+(57,-3185,o),
+(66,-3190,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1441;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s10;
+},
+{
+color = 4;
+glyphname = parenright.s11;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:17 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-3394,o),
+(1726,-1454,o),
+(1726,562,cs),
+(1726,2803,o),
+(568,4551,o),
+(421,4780,c),
+(272,4760,o),
+(127,4714,o),
+(39,4670,c),
+(156,4415,o),
+(1329,2718,o),
+(1329,540,cs),
+(1329,-1379,o),
+(187,-3228,o),
+(30,-3433,c),
+(95,-3481,o),
+(278,-3593,o),
+(356,-3628,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1906;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-2997,o),
+(1511,-1216,o),
+(1511,595,cs),
+(1511,2323,o),
+(612,4172,o),
+(145,4739,c),
+(134,4735,o),
+(85,4717,o),
+(75,4710,c),
+(556,4120,o),
+(1439,2291,o),
+(1439,588,cs),
+(1439,-1233,o),
+(438,-2989,o),
+(10,-3339,c),
+(25,-3354,o),
+(57,-3385,o),
+(66,-3390,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1541;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s11;
+},
+{
+color = 4;
+glyphname = parenright.s12;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:20 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-3694,o),
+(1826,-1554,o),
+(1826,562,cs),
+(1826,2903,o),
+(568,4951,o),
+(421,5180,c),
+(272,5160,o),
+(127,5114,o),
+(39,5070,c),
+(156,4815,o),
+(1429,2818,o),
+(1429,540,cs),
+(1429,-1479,o),
+(187,-3528,o),
+(30,-3733,c),
+(95,-3781,o),
+(278,-3893,o),
+(356,-3928,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 2006;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-3397,o),
+(1611,-1316,o),
+(1611,595,cs),
+(1611,2423,o),
+(612,4572,o),
+(145,5139,c),
+(134,5135,o),
+(85,5117,o),
+(75,5110,c),
+(556,4520,o),
+(1539,2391,o),
+(1539,588,cs),
+(1539,-1333,o),
+(438,-3389,o),
+(10,-3739,c),
+(25,-3754,o),
+(57,-3785,o),
+(66,-3790,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1641;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s12;
+},
+{
+color = 4;
+glyphname = parenright.s2;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:24 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-714,o),
+(806,-174,o),
+(806,662,cs),
+(806,1313,o),
+(568,1811,o),
+(421,2040,c),
+(272,2020,o),
+(127,1974,o),
+(39,1930,c),
+(156,1675,o),
+(409,1228,o),
+(409,640,cs),
+(409,-99,o),
+(187,-548,o),
+(30,-753,c),
+(95,-801,o),
+(278,-913,o),
+(356,-948,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 986;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-517,o),
+(691,149,o),
+(691,595,cs),
+(691,1116,o),
+(612,1512,o),
+(145,2079,c),
+(134,2075,o),
+(85,2057,o),
+(75,2050,c),
+(556,1460,o),
+(619,1085,o),
+(619,588,cs),
+(619,134,o),
+(438,-509,o),
+(10,-859,c),
+(25,-874,o),
+(57,-905,o),
+(66,-910,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 721;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s2;
+},
+{
+color = 4;
+glyphname = parenright.s3;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:27 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-994,o),
+(976,-174,o),
+(976,562,cs),
+(976,1513,o),
+(568,2051,o),
+(421,2280,c),
+(272,2260,o),
+(127,2214,o),
+(39,2170,c),
+(156,1915,o),
+(579,1428,o),
+(579,540,cs),
+(579,-99,o),
+(187,-828,o),
+(30,-1033,c),
+(95,-1081,o),
+(278,-1193,o),
+(356,-1228,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1156;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-777,o),
+(791,-46,o),
+(791,595,cs),
+(791,1323,o),
+(612,1772,o),
+(145,2339,c),
+(134,2335,o),
+(85,2317,o),
+(75,2310,c),
+(556,1720,o),
+(719,1291,o),
+(719,588,cs),
+(719,-63,o),
+(438,-769,o),
+(10,-1119,c),
+(25,-1134,o),
+(57,-1165,o),
+(66,-1170,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 821;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s3;
+},
+{
+color = 4;
+glyphname = parenright.s4;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:30 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-1294,o),
+(1076,-374,o),
+(1076,562,cs),
+(1076,1713,o),
+(568,2351,o),
+(421,2580,c),
+(272,2560,o),
+(127,2514,o),
+(39,2470,c),
+(156,2215,o),
+(679,1628,o),
+(679,540,cs),
+(679,-299,o),
+(187,-1128,o),
+(30,-1333,c),
+(95,-1381,o),
+(278,-1493,o),
+(356,-1528,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1256;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-1127,o),
+(891,-346,o),
+(891,595,cs),
+(891,1623,o),
+(612,2072,o),
+(145,2639,c),
+(134,2635,o),
+(85,2617,o),
+(75,2610,c),
+(556,2020,o),
+(819,1591,o),
+(819,588,cs),
+(819,-363,o),
+(438,-1119,o),
+(10,-1469,c),
+(25,-1484,o),
+(57,-1515,o),
+(66,-1520,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 921;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s4;
+},
+{
+color = 4;
+glyphname = parenright.s5;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:34 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-1594,o),
+(1126,-454,o),
+(1126,562,cs),
+(1126,1803,o),
+(568,2651,o),
+(421,2880,c),
+(272,2860,o),
+(127,2814,o),
+(39,2770,c),
+(156,2515,o),
+(729,1718,o),
+(729,540,cs),
+(729,-379,o),
+(187,-1428,o),
+(30,-1633,c),
+(95,-1681,o),
+(278,-1793,o),
+(356,-1828,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1306;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-1397,o),
+(1001,-526,o),
+(1001,595,cs),
+(1001,1723,o),
+(622,2372,o),
+(155,2939,c),
+(144,2935,o),
+(95,2917,o),
+(85,2910,c),
+(566,2320,o),
+(929,1691,o),
+(929,588,cs),
+(929,-543,o),
+(438,-1389,o),
+(10,-1739,c),
+(25,-1754,o),
+(57,-1785,o),
+(66,-1790,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1031;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s5;
+},
+{
+color = 4;
+glyphname = parenright.s6;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:37 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-1894,o),
+(1226,-654,o),
+(1226,562,cs),
+(1226,2003,o),
+(568,3051,o),
+(421,3280,c),
+(272,3260,o),
+(127,3214,o),
+(39,3170,c),
+(156,2915,o),
+(829,1918,o),
+(829,540,cs),
+(829,-579,o),
+(187,-1728,o),
+(30,-1933,c),
+(95,-1981,o),
+(278,-2093,o),
+(356,-2128,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1406;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-1647,o),
+(1001,-716,o),
+(1001,595,cs),
+(1001,1823,o),
+(622,2672,o),
+(155,3239,c),
+(144,3235,o),
+(95,3217,o),
+(85,3210,c),
+(566,2620,o),
+(929,1791,o),
+(929,588,cs),
+(929,-733,o),
+(438,-1639,o),
+(10,-1989,c),
+(25,-2004,o),
+(57,-2035,o),
+(66,-2040,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1031;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s6;
+},
+{
+color = 4;
+glyphname = parenright.s7;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:41 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-2194,o),
+(1326,-854,o),
+(1326,562,cs),
+(1326,2203,o),
+(568,3351,o),
+(421,3580,c),
+(272,3560,o),
+(127,3514,o),
+(39,3470,c),
+(156,3215,o),
+(929,2118,o),
+(929,540,cs),
+(929,-779,o),
+(187,-2028,o),
+(30,-2233,c),
+(95,-2281,o),
+(278,-2393,o),
+(356,-2428,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1506;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-1947,o),
+(1112,-816,o),
+(1112,595,cs),
+(1112,1923,o),
+(613,2972,o),
+(146,3539,c),
+(135,3535,o),
+(86,3517,o),
+(76,3510,c),
+(557,2920,o),
+(1040,1891,o),
+(1040,588,cs),
+(1040,-833,o),
+(438,-1939,o),
+(10,-2289,c),
+(25,-2304,o),
+(57,-2335,o),
+(66,-2340,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1142;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s7;
+},
+{
+color = 4;
+glyphname = parenright.s8;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:44 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-2494,o),
+(1426,-1054,o),
+(1426,562,cs),
+(1426,2403,o),
+(568,3651,o),
+(421,3880,c),
+(272,3860,o),
+(127,3814,o),
+(39,3770,c),
+(156,3515,o),
+(1029,2318,o),
+(1029,540,cs),
+(1029,-979,o),
+(187,-2328,o),
+(30,-2533,c),
+(95,-2581,o),
+(278,-2693,o),
+(356,-2728,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1606;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-2247,o),
+(1212,-916,o),
+(1212,595,cs),
+(1212,2023,o),
+(613,3272,o),
+(146,3839,c),
+(135,3835,o),
+(86,3817,o),
+(76,3810,c),
+(557,3220,o),
+(1140,1991,o),
+(1140,588,cs),
+(1140,-933,o),
+(438,-2239,o),
+(10,-2589,c),
+(25,-2604,o),
+(57,-2635,o),
+(66,-2640,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1242;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s8;
+},
+{
+color = 4;
+glyphname = parenright.s9;
+kernRight = parenleft;
+lastChange = "2024-12-23 00:56:05 +0000";
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-2794,o),
+(1526,-1154,o),
+(1526,562,cs),
+(1526,2503,o),
+(568,3951,o),
+(421,4180,c),
+(272,4160,o),
+(127,4114,o),
+(39,4070,c),
+(156,3815,o),
+(1129,2418,o),
+(1129,540,cs),
+(1129,-1079,o),
+(187,-2628,o),
+(30,-2833,c),
+(95,-2881,o),
+(278,-2993,o),
+(356,-3028,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+groupleft.bot,
+0,
+0,
+300
+),
+(
+groupleft.ext,
+1,
+300,
+300
+),
+(
+groupleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1706;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,-2547,o),
+(1311,-1016,o),
+(1311,595,cs),
+(1311,2123,o),
+(611,3572,o),
+(144,4139,c),
+(133,4135,o),
+(84,4117,o),
+(74,4110,c),
+(555,3520,o),
+(1239,2091,o),
+(1239,588,cs),
+(1239,-1033,o),
+(438,-2539,o),
+(10,-2889,c),
+(25,-2904,o),
+(57,-2935,o),
+(66,-2940,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1341;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+production = parenright.s9;
 },
 {
 glyphname = braceleft;
@@ -171181,1316 +173218,6 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 category = Punctuation;
 color = 3;
 export = 0;
-glyphname = parenright.bot.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-);
-},
-{
-closed = 1;
-nodes = (
-(201,82,o),
-(344,37,o),
-(458,13,c),
-(647,238,o),
-(739,683,o),
-(741,973,c),
-(741,1622,l),
-(336,1622,l),
-(336,973,l),
-(336,703,o),
-(258,346,o),
-(100,138,c)
-);
-}
-);
-width = 839;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-);
-},
-{
-closed = 1;
-nodes = (
-(113,24,o),
-(150,11,o),
-(176,4,c),
-(352,257,o),
-(439,593,o),
-(439,912,c),
-(439,1345,l),
-(361,1345,l),
-(361,911,l),
-(361,513,o),
-(221,171,o),
-(100,33,c)
-);
-}
-);
-width = 539;
-}
-);
-production = parenright.bot.ss05;
-subCategory = Parenthesis;
-},
-{
-category = Punctuation;
-color = 3;
-export = 0;
-glyphname = parenright.ext.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(741,0,l),
-(741,600,l),
-(336,600,l),
-(336,0,l)
-);
-}
-);
-width = 839;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(439,0,l),
-(439,600,l),
-(361,600,l),
-(361,0,l)
-);
-}
-);
-width = 539;
-}
-);
-production = parenright.ext.ss05;
-subCategory = Parenthesis;
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.002.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(180,1833,o),
-(282,1015,o),
-(282,595,cs),
-(282,185,o),
-(151,-637,o),
-(20,-945,c),
-(108,-990,o),
-(257,-1039,o),
-(405,-1059,c),
-(565,-778,o),
-(682,95,o),
-(682,572,cs),
-(682,1084,o),
-(552,1996,o),
-(338,2269,c),
-(260,2234,o),
-(76,2117,o),
-(10,2067,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 140;
-};
-};
-width = 862;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(107,1935,o),
-(296,1593,o),
-(311,685,cs),
-(327,-295,o),
-(236,-658,o),
-(73,-928,c),
-(89,-935,o),
-(126,-945,o),
-(143,-949,c),
-(309,-684,o),
-(389,-207,o),
-(389,688,cs),
-(389,1517,o),
-(238,1849,o),
-(126,2102,c),
-(100,2095,o),
-(63,2082,o),
-(50,2073,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 140;
-};
-};
-width = 569;
-}
-);
-metricLeft = "=|parenleft.002";
-metricRight = "=|parenleft.002";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.004.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(170,2373,o),
-(272,1015,o),
-(272,595,cs),
-(272,185,o),
-(141,-1207,o),
-(10,-1515,c),
-(98,-1560,o),
-(247,-1609,o),
-(395,-1629,c),
-(555,-1348,o),
-(672,95,o),
-(672,572,cs),
-(672,1084,o),
-(542,2536,o),
-(328,2809,c),
-(250,2774,o),
-(66,2657,o),
-(0,2607,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 180;
-};
-};
-width = 852;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(124,2485,o),
-(291,2143,o),
-(291,685,cs),
-(291,-905,o),
-(216,-1268,o),
-(53,-1538,c),
-(69,-1545,o),
-(106,-1555,o),
-(123,-1559,c),
-(289,-1294,o),
-(369,-817,o),
-(369,688,cs),
-(369,2067,o),
-(255,2399,o),
-(106,2652,c),
-(80,2645,o),
-(43,2632,o),
-(30,2623,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 180;
-};
-};
-width = 549;
-}
-);
-metricLeft = "=|parenleft.004";
-metricRight = "=|parenleft.004";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.005.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(100,2663,o),
-(202,1015,o),
-(202,595,cs),
-(202,185,o),
-(71,-1537,o),
-(-60,-1845,c),
-(28,-1890,o),
-(177,-1939,o),
-(325,-1959,c),
-(485,-1678,o),
-(602,95,o),
-(602,572,cs),
-(602,1084,o),
-(472,2826,o),
-(258,3099,c),
-(180,3064,o),
-(-4,2947,o),
-(-70,2897,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 200;
-};
-};
-width = 782;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(92,2785,o),
-(281,2443,o),
-(281,685,cs),
-(281,-1215,o),
-(206,-1578,o),
-(43,-1848,c),
-(59,-1855,o),
-(96,-1865,o),
-(113,-1869,c),
-(279,-1604,o),
-(359,-1127,o),
-(359,688,cs),
-(359,2367,o),
-(223,2699,o),
-(96,2952,c),
-(70,2945,o),
-(33,2932,o),
-(20,2923,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 200;
-};
-};
-width = 539;
-}
-);
-metricLeft = "=|parenleft.005";
-metricRight = "=|parenleft.005";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.006.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(100,3063,o),
-(202,1015,o),
-(202,595,cs),
-(202,185,o),
-(71,-1837,o),
-(-60,-2145,c),
-(28,-2190,o),
-(177,-2239,o),
-(325,-2259,c),
-(485,-1978,o),
-(602,95,o),
-(602,572,cs),
-(602,2714,o),
-(472,3226,o),
-(258,3499,c),
-(180,3464,o),
-(-4,3347,o),
-(-70,3297,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 220;
-};
-};
-width = 782;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(111,3115,o),
-(281,2773,o),
-(281,685,cs),
-(281,-1495,o),
-(206,-1858,o),
-(43,-2128,c),
-(59,-2135,o),
-(96,-2145,o),
-(113,-2149,c),
-(279,-1884,o),
-(359,-1407,o),
-(359,688,cs),
-(359,2697,o),
-(242,3029,o),
-(96,3282,c),
-(70,3275,o),
-(33,3262,o),
-(20,3253,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 220;
-};
-};
-width = 539;
-}
-);
-metricLeft = "=|parenleft.006";
-metricRight = "=|parenleft.006";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.007.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(100,3353,o),
-(202,1015,o),
-(202,595,cs),
-(202,185,o),
-(71,-2097,o),
-(-60,-2405,c),
-(28,-2450,o),
-(177,-2499,o),
-(325,-2519,c),
-(485,-2238,o),
-(602,95,o),
-(602,572,cs),
-(602,3004,o),
-(472,3516,o),
-(258,3789,c),
-(180,3754,o),
-(-4,3637,o),
-(-70,3587,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 240;
-};
-};
-width = 532;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(111,3455,o),
-(281,3113,o),
-(281,685,cs),
-(281,-1825,o),
-(206,-2188,o),
-(43,-2458,c),
-(59,-2465,o),
-(96,-2475,o),
-(113,-2479,c),
-(279,-2214,o),
-(359,-1737,o),
-(359,688,cs),
-(359,3037,o),
-(242,3369,o),
-(96,3622,c),
-(70,3615,o),
-(33,3602,o),
-(20,3593,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 240;
-};
-};
-width = 379;
-}
-);
-metricLeft = "=|parenleft.007";
-metricRight = "=|parenright.007";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.008.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(100,3683,o),
-(202,1015,o),
-(202,595,cs),
-(202,185,o),
-(71,-2437,o),
-(-60,-2745,c),
-(28,-2790,o),
-(177,-2839,o),
-(325,-2859,c),
-(485,-2578,o),
-(602,95,o),
-(602,572,cs),
-(602,1084,o),
-(472,3846,o),
-(258,4119,c),
-(180,4084,o),
-(-4,3967,o),
-(-70,3917,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 260;
-};
-};
-width = 782;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(109,3685,o),
-(281,3343,o),
-(281,685,cs),
-(281,-2085,o),
-(206,-2448,o),
-(43,-2718,c),
-(59,-2725,o),
-(96,-2735,o),
-(113,-2739,c),
-(279,-2474,o),
-(359,-1997,o),
-(359,688,cs),
-(359,3267,o),
-(240,3599,o),
-(96,3852,c),
-(70,3845,o),
-(33,3832,o),
-(20,3823,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 260;
-};
-};
-width = 539;
-}
-);
-metricLeft = "=|parenleft.008";
-metricRight = "=parenright";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.009.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(100,3903,o),
-(202,1015,o),
-(202,595,cs),
-(202,185,o),
-(71,-2737,o),
-(-60,-3045,c),
-(28,-3090,o),
-(177,-3139,o),
-(325,-3159,c),
-(485,-2878,o),
-(602,95,o),
-(602,572,cs),
-(602,1084,o),
-(472,4066,o),
-(258,4339,c),
-(180,4304,o),
-(-4,4187,o),
-(-70,4137,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 280;
-};
-};
-width = 782;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(109,4025,o),
-(270,3612,o),
-(281,685,cs),
-(292,-2355,o),
-(206,-2718,o),
-(43,-2988,c),
-(59,-2995,o),
-(96,-3005,o),
-(113,-3009,c),
-(279,-2744,o),
-(370,-2267,o),
-(359,688,cs),
-(348,3536,o),
-(240,3939,o),
-(96,4192,c),
-(70,4185,o),
-(33,4172,o),
-(20,4163,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 280;
-};
-};
-width = 540;
-}
-);
-metricLeft = "=|parenleft.009";
-metricRight = "=parenright";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.010.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(100,4183,o),
-(202,1015,o),
-(202,595,cs),
-(202,185,o),
-(71,-2987,o),
-(-60,-3295,c),
-(28,-3340,o),
-(177,-3389,o),
-(325,-3409,c),
-(485,-3128,o),
-(602,95,o),
-(602,572,cs),
-(602,1084,o),
-(472,4346,o),
-(258,4619,c),
-(180,4584,o),
-(-4,4467,o),
-(-70,4417,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 300;
-};
-};
-width = 782;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(141,4295,o),
-(281,3853,o),
-(281,685,cs),
-(281,-2685,o),
-(206,-3048,o),
-(43,-3318,c),
-(59,-3325,o),
-(96,-3335,o),
-(113,-3339,c),
-(279,-3074,o),
-(359,-2597,o),
-(359,688,cs),
-(359,3777,o),
-(272,4209,o),
-(96,4462,c),
-(70,4455,o),
-(33,4442,o),
-(20,4433,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 300;
-};
-};
-width = 539;
-}
-);
-metricLeft = "=|parenleft.010";
-metricRight = "=parenright";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.011.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:16:29 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(100,4513,o),
-(202,1015,o),
-(202,595,cs),
-(202,185,o),
-(71,-3298,o),
-(-60,-3606,c),
-(28,-3651,o),
-(177,-3700,o),
-(325,-3720,c),
-(485,-3439,o),
-(602,95,o),
-(602,572,cs),
-(602,1084,o),
-(472,4676,o),
-(258,4949,c),
-(180,4914,o),
-(-4,4797,o),
-(-70,4747,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 320;
-};
-};
-width = 782;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(126,4605,o),
-(281,4163,o),
-(281,685,cs),
-(281,-2985,o),
-(206,-3348,o),
-(43,-3618,c),
-(59,-3625,o),
-(96,-3635,o),
-(113,-3639,c),
-(279,-3374,o),
-(359,-2897,o),
-(359,688,cs),
-(359,4087,o),
-(257,4519,o),
-(96,4772,c),
-(70,4765,o),
-(33,4752,o),
-(20,4743,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 320;
-};
-};
-width = 539;
-}
-);
-metricLeft = "=|parenleft.011";
-metricRight = "=parenright";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.001.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:15:15 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(190,1543,o),
-(292,1125,o),
-(292,595,cs),
-(292,185,o),
-(161,-357,o),
-(30,-665,c),
-(118,-710,o),
-(267,-759,o),
-(415,-779,c),
-(575,-498,o),
-(692,95,o),
-(692,572,cs),
-(692,1194,o),
-(562,1706,o),
-(348,1979,c),
-(270,1944,o),
-(86,1827,o),
-(20,1777,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 120;
-width = 110;
-};
-};
-width = 872;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(167,1695,o),
-(321,1353,o),
-(321,685,cs),
-(321,25,o),
-(246,-338,o),
-(83,-608,c),
-(99,-615,o),
-(136,-625,o),
-(153,-629,c),
-(319,-364,o),
-(399,113,o),
-(399,688,cs),
-(399,1277,o),
-(298,1609,o),
-(136,1862,c),
-(110,1855,o),
-(73,1842,o),
-(60,1833,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 120;
-};
-};
-width = 579;
-}
-);
-metricLeft = "=|parenleft.001";
-metricRight = "=|parenleft.001";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.012.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:15:08 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(100,4933,o),
-(202,1015,o),
-(202,595,cs),
-(202,185,o),
-(71,-3587,o),
-(-60,-3895,c),
-(28,-3940,o),
-(177,-3989,o),
-(325,-4009,c),
-(485,-3728,o),
-(602,95,o),
-(602,572,cs),
-(602,1084,o),
-(472,5096,o),
-(258,5369,c),
-(180,5334,o),
-(-4,5217,o),
-(-70,5167,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 340;
-};
-};
-width = 782;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(132,4995,o),
-(281,4553,o),
-(281,685,cs),
-(281,-3285,o),
-(206,-3648,o),
-(43,-3918,c),
-(59,-3925,o),
-(96,-3935,o),
-(113,-3939,c),
-(279,-3674,o),
-(359,-3197,o),
-(359,688,cs),
-(359,4477,o),
-(263,4909,o),
-(96,5162,c),
-(70,5155,o),
-(33,5142,o),
-(20,5133,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 340;
-};
-};
-width = 539;
-}
-);
-metricLeft = "=|parenleft.012";
-metricRight = "=parenright";
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.003.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 19:14:51 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(170,2063,o),
-(272,1645,o),
-(272,595,cs),
-(272,185,o),
-(141,-937,o),
-(10,-1245,c),
-(98,-1290,o),
-(247,-1339,o),
-(395,-1359,c),
-(555,-1078,o),
-(672,95,o),
-(672,572,cs),
-(672,1714,o),
-(542,2226,o),
-(328,2499,c),
-(250,2464,o),
-(66,2347,o),
-(0,2297,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 160;
-};
-};
-width = 852;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(126,2175,o),
-(301,1833,o),
-(301,685,cs),
-(301,-595,o),
-(226,-958,o),
-(63,-1228,c),
-(79,-1235,o),
-(116,-1245,o),
-(133,-1249,c),
-(299,-984,o),
-(379,-507,o),
-(379,688,cs),
-(379,1757,o),
-(257,2089,o),
-(116,2342,c),
-(90,2335,o),
-(53,2322,o),
-(40,2313,c)
-);
-}
-);
-userData = {
-RMXScaler = {
-height = 160;
-};
-};
-width = 559;
-}
-);
-userData = {
-RMXScaler = {
-source = parenleft;
-};
-};
-},
-{
-color = 3;
-export = 0;
-glyphname = parenright.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 18:16:38 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(188,1332,o),
-(270,974,o),
-(270,704,cs),
-(270,233,o),
-(173,-93,o),
-(44,-261,c),
-(95,-314,o),
-(274,-421,o),
-(354,-448,c),
-(542,-228,o),
-(676,286,o),
-(676,646,cs),
-(676,995,o),
-(577,1440,o),
-(388,1665,c),
-(274,1641,o),
-(131,1596,o),
-(30,1540,c)
-);
-}
-);
-userData = {
-com.nagwa.MATHPlugin.variants = {
-};
-};
-width = 856;
-},
-{
-annotations = (
-{
-pos = (564,1448);
-text = "The parentheses in ss05 are not in use as they need to be fixed to match precisely the size of the left brackets";
-type = Text;
-}
-);
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(191,1425,o),
-(331,1083,o),
-(331,685,cs),
-(331,275,o),
-(256,-88,o),
-(93,-358,c),
-(109,-365,o),
-(146,-375,o),
-(163,-379,c),
-(329,-114,o),
-(409,363,o),
-(409,688,cs),
-(409,1007,o),
-(322,1339,o),
-(146,1592,c),
-(120,1585,o),
-(83,1572,o),
-(70,1563,c)
-);
-}
-);
-userData = {
-com.nagwa.MATHPlugin.variants = {
-};
-};
-width = 589;
-}
-);
-metricLeft = "=|parenleft";
-metricRight = "=|parenleft";
-},
-{
-category = Punctuation;
-color = 3;
-export = 0;
-glyphname = parenright.top.ss05;
-kernLeft = parenright;
-kernRight = parenright;
-lastChange = "2024-11-28 18:16:54 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(258,1309,o),
-(336,952,o),
-(336,682,c),
-(336,0,l),
-(741,0,l),
-(741,682,l),
-(739,972,o),
-(647,1417,o),
-(458,1642,c),
-(344,1618,o),
-(201,1573,o),
-(100,1517,c)
-);
-}
-);
-width = 839;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(221,1115,o),
-(361,773,o),
-(361,375,c),
-(361,0,l),
-(439,0,l),
-(439,374,l),
-(439,693,o),
-(352,1029,o),
-(176,1282,c),
-(150,1275,o),
-(113,1262,o),
-(100,1253,c)
-);
-}
-);
-width = 539;
-},
-{
-associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-layerId = "8DA7B59E-C72A-4B73-B310-AB4A7EB701BB";
-name = "Jul 15, 24 at 16:33";
-shapes = (
-{
-closed = 1;
-nodes = (
-(454,-110,o),
-(453,145,o),
-(454,383,cs),
-(454,450,o),
-(456,493,o),
-(456,502,cs),
-(456,862,o),
-(322,1376,o),
-(134,1596,c),
-(54,1569,o),
-(-125,1462,o),
-(-176,1409,c),
-(-47,1241,o),
-(50,915,o),
-(50,444,cs),
-(50,440,o),
-(50,518,o),
-(50,483,cs),
-(50,294,o),
-(49,-89,o),
-(48,-110,c),
-(452,-110,l)
-);
-}
-);
-width = 651;
-}
-);
-production = parenright.top.ss05;
-subCategory = Parenthesis;
-},
-{
-category = Punctuation;
-color = 3;
-export = 0;
 glyphname = braceright.bot.ss05;
 kernLeft = parenright;
 kernRight = parenright;
@@ -181955,7 +182682,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = finitePartIntegral;
-lastChange = "2024-11-24 22:50:08 +0000";
+lastChange = "2024-12-22 13:55:15 +0000";
 layers = (
 {
 anchors = (
@@ -181973,12 +182700,12 @@ nodes = (
 (670,1332,o),
 (622,1003,cs),
 (610,920,o),
-(589,820,o),
-(579,729,c),
-(540,386,o),
-(527,154,o),
+(589,840,o),
+(579,749,c),
+(540,406,o),
+(527,174,o),
 (485,-101,cs),
-(455,-283,o),
+(457,-283,o),
 (429,-434,o),
 (317,-434,cs),
 (278,-434,o),
@@ -181992,9 +182719,9 @@ nodes = (
 (519,-435,o),
 (556,-157,cs),
 (578,7,o),
-(622,422,o),
-(661,724,c),
-(669,792,o),
+(622,442,o),
+(661,744,c),
+(669,812,o),
 (691,903,o),
 (700,974,cs),
 (736,1253,o),
@@ -182014,18 +182741,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(869,609,o),
-(384,609,o),
-(289,609,c),
-(290,591,o),
-(291,550,o),
-(292,532,c),
-(391,532,o),
-(819,530,o),
-(923,530,c),
-(924,545,o),
-(926,588,o),
-(927,607,c)
+(869,629,o),
+(384,629,o),
+(289,629,c),
+(290,611,o),
+(291,570,o),
+(292,552,c),
+(391,552,o),
+(819,550,o),
+(923,550,c),
+(924,565,o),
+(926,608,o),
+(927,627,c)
 );
 }
 );
@@ -183715,7 +184442,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = slashIntegral;
-lastChange = "2024-11-24 22:50:08 +0000";
+lastChange = "2024-12-22 13:55:38 +0000";
 layers = (
 {
 anchors = (
@@ -183774,18 +184501,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(902,719,o),
-(325,463,o),
-(240,423,c),
-(248,406,o),
-(267,367,o),
-(276,350,c),
-(366,392,o),
-(891,624,o),
-(985,668,c),
-(980,682,o),
-(962,725,o),
-(955,743,c)
+(902,769,o),
+(325,513,o),
+(240,473,c),
+(248,456,o),
+(267,417,o),
+(276,400,c),
+(366,442,o),
+(891,674,o),
+(985,718,c),
+(980,732,o),
+(962,775,o),
+(955,793,c)
 );
 }
 );
@@ -242815,142 +243542,6 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 };
 },
 {
-glyphname = groupright;
-kernLeft = parenleft;
-kernRight = parenleft;
-lastChange = "2024-12-12 16:04:25 +0000";
-layers = (
-{
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(554,-314,o),
-(676,126,o),
-(676,562,cs),
-(676,1013,o),
-(568,1411,o),
-(421,1640,c),
-(272,1620,o),
-(127,1574,o),
-(39,1530,c),
-(156,1275,o),
-(279,928,o),
-(279,540,cs),
-(279,201,o),
-(187,-148,o),
-(30,-353,c),
-(95,-401,o),
-(278,-513,o),
-(356,-548,c)
-);
-}
-);
-userData = {
-com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-(
-groupright.bot,
-0,
-0,
-300
-),
-(
-groupright.ext,
-1,
-300,
-300
-),
-(
-groupright.top,
-0,
-300,
-0
-)
-);
-};
-};
-width = 856;
-},
-{
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-shapes = (
-{
-closed = 1;
-nodes = (
-(179,-217,o),
-(271,149,o),
-(271,595,cs),
-(271,916,o),
-(192,1302,o),
-(45,1569,c),
-(34,1565,o),
-(-15,1547,o),
-(-25,1540,c),
-(136,1250,o),
-(199,885,o),
-(199,588,cs),
-(199,134,o),
-(98,-209,o),
-(-30,-359,c),
-(-15,-374,o),
-(17,-405,o),
-(26,-410,c)
-);
-}
-);
-userData = {
-com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-(
-groupright.bot,
-0,
-0,
-300
-),
-(
-groupright.ext,
-1,
-300,
-300
-),
-(
-groupright.top,
-0,
-300,
-0
-)
-);
-};
-};
-width = 451;
-}
-);
-metricLeft = "=|parenleft";
-metricRight = "=|parenleft";
-production = groupright;
-userData = {
-com.nagwa.MATHPlugin.variants = {
-vVariants = (
-groupright,
-groupright.s01,
-groupright.s02,
-groupright.s03,
-groupright.s04,
-groupright.s05,
-groupright.s06,
-groupright.s07,
-groupright.s08,
-groupright.s09,
-groupright.s10,
-groupright.s11,
-groupright.s12
-);
-};
-};
-},
-{
 glyphname = groupright.s01;
 kernLeft = parenleft.001;
 kernRight = parenleft;
@@ -244769,6 +245360,19 @@ t.ss04 = -71.79487;
 "@MMK_R_j" = -150;
 "@MMK_R_jitalic-math" = -200;
 "@MMK_R_yitalic-math" = -250;
+};
+"@MMK_L_parenleft" = {
+"@MMK_R_parenleft" = -340;
+parenleft.s10 = -420;
+parenleft.s11 = -460;
+parenleft.s2 = -100;
+parenleft.s3 = -140;
+parenleft.s4 = -180;
+parenleft.s5 = -220;
+parenleft.s6 = -260;
+parenleft.s7 = -300;
+parenleft.s8 = -340;
+parenleft.s9 = -380;
 };
 "@MMK_L_q" = {
 "@MMK_R_t" = -52.99145;
