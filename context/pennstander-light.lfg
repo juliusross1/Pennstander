@@ -9,7 +9,6 @@ return {
     copyright = "",
     mathematics = {
         parameters = {
-            SubscriptBaselineDropMin= 400,
             PrimeShiftUpCramped = "SuperscriptShiftUp",
         },
         tweaks = {
@@ -21,12 +20,9 @@ return {
                 {
                     tweak = "checkspacing",
                 },
-                
-                
                 {
-                    tweak = "kernpairs",
+                    tweak = "kernpairs",  -- can I put this instead in the font?
                     list = {
-                        -- beware: we kept the italic correction in spite of punctuation class
                         [0x002F] = { -- slash
                             [0x007C] = .2,
                         },
@@ -35,7 +31,7 @@ return {
             },
         },
         scales = {
-            scriptweight       =   80,
+            scriptweight       =   80, -- cheap optical sizing
             scriptscriptweight =   140,
         },
     },

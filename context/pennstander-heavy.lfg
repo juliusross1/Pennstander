@@ -9,8 +9,8 @@ return {
     copyright = "",
     mathematics = {
         parameters = {
-            SuperscriptBaselineDropMax = 300,
-            SubscriptBaselineDropMin= 300,
+            --SuperscriptBaselineDropMax = 300,
+            --SubscriptBaselineDropMin= 300,
             PrimeShiftUpCramped = "SuperscriptShiftUp",
         },
         tweaks = {
