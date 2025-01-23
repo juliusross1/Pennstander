@@ -1,4 +1,4 @@
-To build the fonts: run createmasters.py script on PennstanderMath.glyphs Glyphs 3 and then export from Glyphs3.
+To build the mathematics fonts: run createmasters.py script on PennstanderMath.glyphs Glyphs 3 and then export from Glyphs3.
 
 Notes:
 

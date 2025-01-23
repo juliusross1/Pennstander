@@ -1,7 +1,7 @@
 # Pennstander
-An Opentype mathematics font based on [Grandstander](https://etceteratype.co/grandstander), aimed at LuaLaTeX and ConTeXt.   Beta version, comments/bug reports/advice welcome.
+A text and mathematics font based on [Grandstander](https://etceteratype.co/grandstander), aimed at LuaLaTeX and ConTeXt.   Beta version, comments/bug reports/advice welcome.
 
-<img src="https://github.com/juliusross1/Pennstander/blob/main/samples/fontweights.png" width="450">
+<img src="https://github.com/juliusross1/Pennstander/blob/main/samples/fontweights.png" width="650">
 
 ## Features
 [Latin and Greek lower and upper case in upright and oblique/italics](samples/letters.png)
@@ -85,4 +85,4 @@ I am not sure how useful this font will be for long documents/papers, perhaps it
 
 ## Acknowledgements
 
-Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to Andrea Tomatis for discussions, and to Hans Hagan and Mikael P. Sundqvist for help/comments and for the "Mathematics in ConTeXt" work, from which some tests have been taken.
+Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to Andrea Tomatis, Khaled Hosny, and to Hans Hagan and Mikael P. Sundqvist for help/comments and for the "Mathematics in ConTeXt" work, from which some tests have been taken.
