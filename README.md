@@ -10,6 +10,8 @@ A text and mathematics font based on [Grandstander](https://etceteratype.co/gran
 
 [Script upper case](samples/script.png)
 
+[Fraktur-like lower case (samples/fraktur.png)]
+
 [Integrals](samples/integrals.png)
 
 [Brackets](samples/fences.png)
