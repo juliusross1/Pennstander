@@ -59557,7 +59557,7 @@ unicode = 120091;
 category = Letter;
 glyphname = "X-fraktur.ss05";
 kernLeft = Afraktur;
-lastChange = "2025-10-29 01:09:07 +0000";
+lastChange = "2025-10-31 01:38:20 +0000";
 layers = (
 {
 anchors = (
@@ -59756,6 +59756,7 @@ width = 1459;
 );
 script = "Black Letter";
 subCategory = Blackletter;
+unicode = 921859;
 },
 {
 category = Letter;
