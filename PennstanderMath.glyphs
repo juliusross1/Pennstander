@@ -193797,7 +193797,7 @@ unicode = 402;
 },
 {
 glyphname = clockwiseIntegral;
-lastChange = "2024-11-24 22:50:08 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -194072,6 +194072,7 @@ isempty
 );
 unicode = 8753;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 clockwiseIntegral,
@@ -194811,7 +194812,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = counterclockwiseIntegral;
-lastChange = "2024-11-24 22:50:08 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -195086,6 +195087,7 @@ isempty
 );
 unicode = 10769;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 counterclockwiseIntegral,
@@ -199077,7 +199079,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = dblIntegral.disp;
-lastChange = "2024-11-26 23:00:50 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -199122,6 +199124,9 @@ metricLeft = "=singleintegral.disp";
 metricRight = "=singleintegral.disp";
 production = dblIntegral.disp;
 subCategory = Halfform;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 },
 {
 category = Symbol;
@@ -199341,7 +199346,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = finitePartIntegral;
-lastChange = "2024-12-22 13:55:15 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -199568,6 +199573,7 @@ production = finitePartIntegral;
 subCategory = Halfform;
 unicode = 10765;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 finitePartIntegral,
@@ -199849,7 +199855,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = singleintegral;
-lastChange = "2024-11-24 22:50:08 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -200018,6 +200024,7 @@ production = singleintegral;
 subCategory = Halfform;
 unicode = 8747;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 singleintegral,
@@ -200028,7 +200035,7 @@ singleintegral.disp
 },
 {
 glyphname = quadrupleIntegral;
-lastChange = "2024-11-30 13:20:43 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -200139,6 +200146,7 @@ production = quadrupleIntegral;
 subCategory = Halfform;
 unicode = 10764;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 quadrupleIntegral,
@@ -201101,7 +201109,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = slashIntegral;
-lastChange = "2024-12-22 13:55:38 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -201328,6 +201336,7 @@ production = slashIntegral;
 subCategory = Halfform;
 unicode = 10767;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 slashIntegral.disp
@@ -201609,7 +201618,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = surfaceIntegral;
-lastChange = "2024-11-24 22:50:08 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -201807,6 +201816,7 @@ isempty
 );
 unicode = 8751;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 surfaceIntegral,
@@ -202545,7 +202555,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = tripleIntegral;
-lastChange = "2024-11-26 12:45:22 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -202647,6 +202657,7 @@ metricRight = "=singleintegral";
 subCategory = Halfform;
 unicode = 8749;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 tripleIntegral.disp
@@ -203159,7 +203170,7 @@ com.nagwa.MATHPlugin.extendedShape = 1;
 },
 {
 glyphname = volumeIntegral;
-lastChange = "2024-11-25 12:46:43 +0000";
+lastChange = "2025-11-02 13:55:32 +0000";
 layers = (
 {
 anchors = (
@@ -203354,6 +203365,7 @@ production = volumeIntegral;
 subCategory = Halfform;
 unicode = 8752;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 volumeIntegral.disp
