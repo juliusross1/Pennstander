@@ -109,7 +109,7 @@ def populate_all_layers3(font,glyphlist,font_original):
 	
 	
 	for glyph in glyphlist:
-		if 'bold-math' in glyph.name:
+		if 'bold-math' in glyph.name and 'sans' not in glyph.name:
 			print('Processing ', glyph.name,' as bold-math letter')
 			print('italic-name of this glyph is',glyph.name.replace('bold-math','italic-math'))
 			print('italic glyph of this is',font.glyphs[glyph.name.replace('bold-math','italic-math')])
@@ -130,7 +130,7 @@ def populate_all_layers3(font,glyphlist,font_original):
 			for element in action['bold-math']:
 				copy_master_content2(populatinglayers[element[1]],glyph,masterids[element[0]])
 
-		if 'italic-math' in glyph.name and 'bolditalic-math' not in glyph.name:
+		if 'italic-math' in glyph.name and 'bolditalic-math' not in glyph.name and 'sans' not in glyph.name:
 			print('Processing ', glyph.name,' as italic-math letter')
 			sourceglyphname = glyph.name.replace('italic-math','')
 			print('source: ',sourceglyphname)
@@ -143,7 +143,7 @@ def populate_all_layers3(font,glyphlist,font_original):
 			for element in action['italic-math']:
 				copy_master_content2(populatinglayers[element[1]],glyph,masterids[element[0]])
 		
-		if 'bolditalic-math' in glyph.name:
+		if 'bolditalic-math' in glyph.name and 'sans' not in glyph.name:
 			print('Processing ', glyph.name,' as bolditalic-math letter')
 			sourceglyphname = glyph.name.replace('bolditalic-math','')
 			populatinglayers['Thin']=font_original.glyphs[sourceglyphname].layers[masterids['Thin']].copy()
@@ -176,7 +176,6 @@ def populate_all_layers3(font,glyphlist,font_original):
 				populatinglayers['Black']=glyph.layers[masterids['Black']].copy()
 				populatinglayers['Slant']=glyph.layers[masterids['Thin']].copy()
 				populatinglayers['WeightSlant']=glyph.layers[masterids['Black']].copy()
-				insert_mathic(populatinglayers)
 				
 				for element in action['symbol']:
 					copy_master_content2(populatinglayers[element[1]],glyph,masterids[element[0]])
