@@ -1,6 +1,9 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
+DisplayStrings = (
+"ℜ"
+);
 axes = (
 {
 name = Weight;
@@ -134499,10 +134502,9 @@ unicode = 120084;
 },
 {
 category = Letter;
-color = 0;
 glyphname = "R-fraktur";
 kernLeft = Afraktur;
-lastChange = "2025-11-06 01:47:06 +0000";
+lastChange = "2025-11-12 00:06:27 +0000";
 layers = (
 {
 anchors = (
@@ -135374,10 +135376,9 @@ unicode = 120090;
 },
 {
 category = Letter;
-color = 0;
 glyphname = "X-fraktur";
 kernLeft = Afraktur;
-lastChange = "2025-11-08 02:22:41 +0000";
+lastChange = "2025-11-12 00:06:27 +0000";
 layers = (
 {
 anchors = (
@@ -136396,9 +136397,8 @@ unicode = 921857;
 },
 {
 category = Letter;
-color = 0;
 glyphname = "L-fraktur.ss05";
-lastChange = "2025-10-29 02:13:31 +0000";
+lastChange = "2025-11-12 00:06:27 +0000";
 layers = (
 {
 anchors = (
