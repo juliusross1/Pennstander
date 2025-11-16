@@ -25,10 +25,9 @@ Radicals
 [Mathematical symbols](samples/symbols.png) (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
 ## ConTeXt
-Sample usage for ConTeXt MKIV
+Sample usage for ConTeXt MKXL
 ```
 \usetypescriptfile[type-imp-pennstander]
-\setupmathfractions[symbol="E000]
 \setupbodyfont[Pennstander-Thin]
 % Replace 'Thin' with 'ExtraLight'/'Light'/'Regular'/'Medium'/'SemiBold'/'Bold'/'ExtraBold'/'Black'
 % (some math symbols do not look good at Bold/ExtraBold/Black so use with care)
@@ -74,7 +73,7 @@ sscript-font  = PennstanderMath-Thin-sscript.otf,     % optional, acts as cheap 
 
 
 \begin{document}
-Here is some {\bf bold}, some {\it italics} and some {\bfit bolditalics} and an equation
+Here is some {\bf bold}, some {\it italics} and some {\bf\it bolditalics} and an equation
 
 \[ \int_a^b {\bf f}'(x) dx= {\bf f}(b) - {\bf f}(a)\]
 \end{document}
