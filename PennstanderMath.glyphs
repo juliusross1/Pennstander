@@ -24,7 +24,12 @@ j,
 "ȷ",
 "ı",
 V,
-B
+B,
+"𝐀",
+"2",
+"",
+"♮",
+"♯♭♮"
 );
 axes = (
 {
@@ -43,7 +48,7 @@ tag = MLNT;
 classes = (
 {
 automatic = 1;
-code = "A A.ss02 B C D E Schwa F G H I J K L M M.ss02 N N.ss02 O P Q Q.ss02.001 Q.ss02 R S T U V V.ss02 W W.ss02 X Y Z Z.ss02 A-fraktur B-fraktur C-fraktur D-fraktur E-fraktur F-fraktur G-fraktur H-fraktur I-fraktur J-fraktur K-fraktur L-fraktur M-fraktur N-fraktur O-fraktur P-fraktur Q-fraktur R-fraktur S-fraktur T-fraktur U-fraktur V-fraktur W-fraktur X-fraktur Y-fraktur Z-fraktur A-frakturbold-math B-frakturbold-math C-frakturbold-math D-frakturbold-math E-frakturbold-math F-frakturbold-math G-frakturbold-math H-frakturbold-math I-frakturbold-math J-frakturbold-math K-frakturbold-math L-frakturbold-math M-frakturbold-math N-frakturbold-math O-frakturbold-math P-frakturbold-math Q-frakturbold-math R-frakturbold-math S-frakturbold-math T-frakturbold-math U-frakturbold-math V-frakturbold-math W-frakturbold-math X-frakturbold-math Y-frakturbold-math Z-frakturbold-math Ascript Bscript Cscript Dscript Escript Fscript Gscript Hscript Iscript Jscript Kscript Lscript Mscript Nscript Oscript Pscript Qscript Rscript Sscript Tscript Uscript Vscript Wscript Xscript Yscript Zscript Ascriptbold-math Bscriptbold-math Cscriptbold-math Dscriptbold-math Escriptbold-math Fscriptbold-math Gscriptbold-math Hscriptbold-math Iscriptbold-math Jscriptbold-math Kscriptbold-math Lscriptbold-math Mscriptbold-math Nscriptbold-math Oscriptbold-math Pscriptbold-math Qscriptbold-math Rscriptbold-math Sscriptbold-math Tscriptbold-math Uscriptbold-math Vscriptbold-math Wscriptbold-math Xscriptbold-math Yscriptbold-math Zscriptbold-math AdoubleStruck BdoubleStruck CdoubleStruck DdoubleStruck DitalicDoubleStruck EdoubleStruck FdoubleStruck GdoubleStruck HdoubleStruck IdoubleStruck JdoubleStruck KdoubleStruck LdoubleStruck MdoubleStruck NdoubleStruck OdoubleStruck PdoubleStruck QdoubleStruck QdoubleStruck.heavy RdoubleStruck SdoubleStruck TdoubleStruck UdoubleStruck VdoubleStruck WdoubleStruck XdoubleStruck YdoubleStruck ZdoubleStruck Asans-math Bsans-math Csans-math Dsans-math Esans-math Fsans-math Gsans-math Hsans-math Isans-math Jsans-math Ksans-math Lsans-math Msans-math Nsans-math Osans-math Psans-math Qsans-math Rsans-math Ssans-math Tsans-math Usans-math Vsans-math Wsans-math Xsans-math Ysans-math Zsans-math Asansbold-math Bsansbold-math Csansbold-math Dsansbold-math Esansbold-math Fsansbold-math Gsansbold-math Hsansbold-math Isansbold-math Jsansbold-math Ksansbold-math Lsansbold-math Msansbold-math Nsansbold-math Osansbold-math Psansbold-math Qsansbold-math Rsansbold-math Ssansbold-math Tsansbold-math Usansbold-math Vsansbold-math Wsansbold-math Xsansbold-math Ysansbold-math Zsansbold-math Asansitalic-math Bsansitalic-math Csansitalic-math Dsansitalic-math Esansitalic-math Fsansitalic-math Gsansitalic-math Hsansitalic-math Isansitalic-math Jsansitalic-math Ksansitalic-math Lsansitalic-math Msansitalic-math Nsansitalic-math Osansitalic-math Psansitalic-math Qsansitalic-math Rsansitalic-math Ssansitalic-math Tsansitalic-math Usansitalic-math Vsansitalic-math Wsansitalic-math Xsansitalic-math Ysansitalic-math Zsansitalic-math Asansbolditalic-math Bsansbolditalic-math Csansbolditalic-math Dsansbolditalic-math Esansbolditalic-math Fsansbolditalic-math Gsansbolditalic-math Hsansbolditalic-math Isansbolditalic-math Jsansbolditalic-math Ksansbolditalic-math Lsansbolditalic-math Msansbolditalic-math Nsansbolditalic-math Osansbolditalic-math Psansbolditalic-math Qsansbolditalic-math Rsansbolditalic-math Ssansbolditalic-math Tsansbolditalic-math Usansbolditalic-math Vsansbolditalic-math Wsansbolditalic-math Xsansbolditalic-math Ysansbolditalic-math Zsansbolditalic-math Alphasansbold-math Betasansbold-math Gammasansbold-math Deltasansbold-math Epsilonsansbold-math Zetasansbold-math Etasansbold-math Thetasansbold-math Iotasansbold-math Kappasansbold-math Lambdasansbold-math Musansbold-math Nusansbold-math Xisansbold-math Omicronsansbold-math Pisansbold-math Rhosansbold-math ThetaSymbolsansbold-math Sigmasansbold-math Tausansbold-math Upsilonsansbold-math Phisansbold-math Chisansbold-math Psisansbold-math Omegasansbold-math Alphasansbolditalic-math Betasansbolditalic-math Gammasansbolditalic-math Deltasansbolditalic-math Epsilonsansbolditalic-math Zetasansbolditalic-math Etasansbolditalic-math Thetasansbolditalic-math Iotasansbolditalic-math Kappasansbolditalic-math Lambdasansbolditalic-math Musansbolditalic-math Nusansbolditalic-math Xisansbolditalic-math Omicronsansbolditalic-math Pisansbolditalic-math Rhosansbolditalic-math ThetaSymbolsansbolditalic-math Sigmasansbolditalic-math Tausansbolditalic-math Upsilonsansbolditalic-math Phisansbolditalic-math Chisansbolditalic-math Psisansbolditalic-math Omegasansbolditalic-math Alpha Beta Gamma Delta Epsilon Zeta Zeta.ss02 Eta Theta Iota Iota.ss01 Kappa Lambda Mu Mu.ss02 Nu Nu.ss02 Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega ThetaSymbol Alpha.ss02 Zetabold-math.ss02 Iotabold-math Mubold-math.ss02 Nubold-math.ss02 Alphaitalic-math.ss02 Zetaitalic-math.ss02 Muitalic-math.ss02 Nuitalic-math.ss02 Zetabolditalic-math.ss02 Iotabolditalic-math Mubolditalic-math.ss02 Nubolditalic-math.ss02 Abold-math Abold-math.ss02 Bbold-math Cbold-math Dbold-math Ebold-math Fbold-math Gbold-math Hbold-math Ibold-math Ibold-math.ss01 Jbold-math Kbold-math Lbold-math Mbold-math Mbold-math.ss02 Nbold-math Nbold-math.ss02 Obold-math Pbold-math Qbold-math Qbold-math.ss02 Rbold-math Sbold-math Tbold-math Ubold-math Vbold-math Vbold-math.ss02 Wbold-math Wbold-math.ss02 Xbold-math Ybold-math Zbold-math Zbold-math.ss02 Aitalic-math Aitalic-math.ss02 Bitalic-math Citalic-math Ditalic-math Eitalic-math Fitalic-math Gitalic-math Hitalic-math Iitalic-math Iitalic-math.ss01 Jitalic-math Kitalic-math Litalic-math Mitalic-math Mitalic-math.ss02 Nitalic-math Nitalic-math.ss02 Oitalic-math Pitalic-math Qitalic-math Qitalic-math.ss02 Ritalic-math Sitalic-math Titalic-math Uitalic-math Vitalic-math Vitalic-math.ss02 Witalic-math Witalic-math.ss02 Xitalic-math Yitalic-math Zitalic-math Zitalic-math.ss02 Abolditalic-math Abolditalic-math.ss02 Bbolditalic-math Cbolditalic-math Dbolditalic-math Ebolditalic-math Fbolditalic-math Gbolditalic-math Hbolditalic-math Ibolditalic-math Ibolditalic-math.ss01 Jbolditalic-math Kbolditalic-math Lbolditalic-math Mbolditalic-math Mbolditalic-math.ss02 Nbolditalic-math Nbolditalic-math.ss02 Obolditalic-math Pbolditalic-math Qbolditalic-math Qbolditalic-math.ss02 Rbolditalic-math Sbolditalic-math Tbolditalic-math Ubolditalic-math Vbolditalic-math Vbolditalic-math.ss02 Wbolditalic-math Wbolditalic-math.ss02 Xbolditalic-math Ybolditalic-math Zbolditalic-math Zbolditalic-math.ss02 Alphabold-math Alphabold-math.ss02 Betabold-math Gammabold-math Deltabold-math Epsilonbold-math Zetabold-math Etabold-math Thetabold-math Iotabold-math.ss01 Kappabold-math Lambdabold-math Mubold-math Nubold-math Xibold-math Omicronbold-math Pibold-math Rhobold-math ThetaSymbolbold-math Sigmabold-math Taubold-math Upsilonbold-math Phibold-math Chibold-math Psibold-math Omegabold-math Alphaitalic-math Betaitalic-math Gammaitalic-math Deltaitalic-math Epsilonitalic-math Zetaitalic-math Etaitalic-math Thetaitalic-math Iotaitalic-math Iotaitalic-math.ss01 Kappaitalic-math Lambdaitalic-math Muitalic-math Nuitalic-math Xiitalic-math Omicronitalic-math Piitalic-math Rhoitalic-math ThetaSymbolitalic-math Sigmaitalic-math Tauitalic-math Upsilonitalic-math Phiitalic-math Chiitalic-math Psiitalic-math Omegaitalic-math Alphabolditalic-math Alphabolditalic-math.ss02 Betabolditalic-math Gammabolditalic-math Deltabolditalic-math Epsilonbolditalic-math Zetabolditalic-math Etabolditalic-math Thetabolditalic-math Iotabolditalic-math.ss01 Kappabolditalic-math Lambdabolditalic-math Mubolditalic-math Nubolditalic-math Xibolditalic-math Omicronbolditalic-math Pibolditalic-math Rhobolditalic-math ThetaSymbolbolditalic-math Sigmabolditalic-math Taubolditalic-math Upsilonbolditalic-math Phibolditalic-math Chibolditalic-math Psibolditalic-math Omegabolditalic-math PidoubleStruck GammadoubleStruck";
+code = "A A.ss02 B C D E Schwa F G H I J K L M M.ss02 N N.ss02 O P Q Q.ss02 R S T U V V.ss02 W W.ss02 X Y Z Z.ss02 A-fraktur B-fraktur C-fraktur D-fraktur E-fraktur F-fraktur G-fraktur H-fraktur I-fraktur J-fraktur K-fraktur L-fraktur M-fraktur N-fraktur O-fraktur P-fraktur Q-fraktur R-fraktur S-fraktur T-fraktur U-fraktur V-fraktur W-fraktur X-fraktur Y-fraktur Z-fraktur A-frakturbold-math B-frakturbold-math C-frakturbold-math D-frakturbold-math E-frakturbold-math F-frakturbold-math G-frakturbold-math H-frakturbold-math I-frakturbold-math J-frakturbold-math K-frakturbold-math L-frakturbold-math M-frakturbold-math N-frakturbold-math O-frakturbold-math P-frakturbold-math Q-frakturbold-math R-frakturbold-math S-frakturbold-math T-frakturbold-math U-frakturbold-math V-frakturbold-math W-frakturbold-math X-frakturbold-math Y-frakturbold-math Z-frakturbold-math Ascript Bscript Cscript Dscript Escript Fscript Gscript Hscript Iscript Jscript Kscript Lscript Mscript Nscript Oscript Pscript Qscript Rscript Sscript Tscript Uscript Vscript Wscript Xscript Yscript Zscript Ascriptbold-math Bscriptbold-math Cscriptbold-math Dscriptbold-math Escriptbold-math Fscriptbold-math Gscriptbold-math Hscriptbold-math Iscriptbold-math Jscriptbold-math Kscriptbold-math Lscriptbold-math Mscriptbold-math Nscriptbold-math Oscriptbold-math Pscriptbold-math Qscriptbold-math Rscriptbold-math Sscriptbold-math Tscriptbold-math Uscriptbold-math Vscriptbold-math Wscriptbold-math Xscriptbold-math Yscriptbold-math Zscriptbold-math AdoubleStruck BdoubleStruck CdoubleStruck DdoubleStruck DitalicDoubleStruck EdoubleStruck FdoubleStruck GdoubleStruck HdoubleStruck IdoubleStruck JdoubleStruck KdoubleStruck LdoubleStruck MdoubleStruck NdoubleStruck OdoubleStruck PdoubleStruck QdoubleStruck QdoubleStruck.heavy RdoubleStruck SdoubleStruck TdoubleStruck UdoubleStruck VdoubleStruck WdoubleStruck XdoubleStruck YdoubleStruck ZdoubleStruck Asans-math Bsans-math Csans-math Dsans-math Esans-math Fsans-math Gsans-math Hsans-math Isans-math Jsans-math Ksans-math Lsans-math Msans-math Nsans-math Osans-math Psans-math Qsans-math Rsans-math Ssans-math Tsans-math Usans-math Vsans-math Wsans-math Xsans-math Ysans-math Zsans-math Asansbold-math Bsansbold-math Csansbold-math Dsansbold-math Esansbold-math Fsansbold-math Gsansbold-math Hsansbold-math Isansbold-math Jsansbold-math Ksansbold-math Lsansbold-math Msansbold-math Nsansbold-math Osansbold-math Psansbold-math Qsansbold-math Rsansbold-math Ssansbold-math Tsansbold-math Usansbold-math Vsansbold-math Wsansbold-math Xsansbold-math Ysansbold-math Zsansbold-math Asansitalic-math Bsansitalic-math Csansitalic-math Dsansitalic-math Esansitalic-math Fsansitalic-math Gsansitalic-math Hsansitalic-math Isansitalic-math Jsansitalic-math Ksansitalic-math Lsansitalic-math Msansitalic-math Nsansitalic-math Osansitalic-math Psansitalic-math Qsansitalic-math Rsansitalic-math Ssansitalic-math Tsansitalic-math Usansitalic-math Vsansitalic-math Wsansitalic-math Xsansitalic-math Ysansitalic-math Zsansitalic-math Asansbolditalic-math Bsansbolditalic-math Csansbolditalic-math Dsansbolditalic-math Esansbolditalic-math Fsansbolditalic-math Gsansbolditalic-math Hsansbolditalic-math Isansbolditalic-math Jsansbolditalic-math Ksansbolditalic-math Lsansbolditalic-math Msansbolditalic-math Nsansbolditalic-math Osansbolditalic-math Psansbolditalic-math Qsansbolditalic-math Rsansbolditalic-math Ssansbolditalic-math Tsansbolditalic-math Usansbolditalic-math Vsansbolditalic-math Wsansbolditalic-math Xsansbolditalic-math Ysansbolditalic-math Zsansbolditalic-math Alphasansbold-math Betasansbold-math Gammasansbold-math Deltasansbold-math Epsilonsansbold-math Zetasansbold-math Etasansbold-math Thetasansbold-math Iotasansbold-math Kappasansbold-math Lambdasansbold-math Musansbold-math Nusansbold-math Xisansbold-math Omicronsansbold-math Pisansbold-math Rhosansbold-math ThetaSymbolsansbold-math Sigmasansbold-math Tausansbold-math Upsilonsansbold-math Phisansbold-math Chisansbold-math Psisansbold-math Omegasansbold-math Alphasansbolditalic-math Betasansbolditalic-math Gammasansbolditalic-math Deltasansbolditalic-math Epsilonsansbolditalic-math Zetasansbolditalic-math Etasansbolditalic-math Thetasansbolditalic-math Iotasansbolditalic-math Kappasansbolditalic-math Lambdasansbolditalic-math Musansbolditalic-math Nusansbolditalic-math Xisansbolditalic-math Omicronsansbolditalic-math Pisansbolditalic-math Rhosansbolditalic-math ThetaSymbolsansbolditalic-math Sigmasansbolditalic-math Tausansbolditalic-math Upsilonsansbolditalic-math Phisansbolditalic-math Chisansbolditalic-math Psisansbolditalic-math Omegasansbolditalic-math Alpha Beta Gamma Delta Epsilon Zeta Zeta.ss02 Eta Theta Iota Iota.ss01 Kappa Lambda Mu Mu.ss02 Nu Nu.ss02 Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega ThetaSymbol Alpha.ss02 Zetabold-math.ss02 Iotabold-math Mubold-math.ss02 Nubold-math.ss02 Alphaitalic-math.ss02 Zetaitalic-math.ss02 Muitalic-math.ss02 Nuitalic-math.ss02 Zetabolditalic-math.ss02 Iotabolditalic-math Mubolditalic-math.ss02 Nubolditalic-math.ss02 Abold-math Abold-math.ss02 Bbold-math Cbold-math Dbold-math Ebold-math Fbold-math Gbold-math Hbold-math Ibold-math Ibold-math.ss01 Jbold-math Kbold-math Lbold-math Mbold-math Mbold-math.ss02 Nbold-math Nbold-math.ss02 Obold-math Pbold-math Qbold-math Qbold-math.ss02 Rbold-math Sbold-math Tbold-math Ubold-math Vbold-math Vbold-math.ss02 Wbold-math Wbold-math.ss02 Xbold-math Ybold-math Zbold-math Zbold-math.ss02 Aitalic-math Aitalic-math.ss02 Bitalic-math Citalic-math Ditalic-math Eitalic-math Fitalic-math Gitalic-math Hitalic-math Iitalic-math Iitalic-math.ss01 Jitalic-math Kitalic-math Litalic-math Mitalic-math Mitalic-math.ss02 Nitalic-math Nitalic-math.ss02 Oitalic-math Pitalic-math Qitalic-math Qitalic-math.ss02 Ritalic-math Sitalic-math Titalic-math Uitalic-math Vitalic-math Vitalic-math.ss02 Witalic-math Witalic-math.ss02 Xitalic-math Yitalic-math Zitalic-math Zitalic-math.ss02 Abolditalic-math Abolditalic-math.ss02 Bbolditalic-math Cbolditalic-math Dbolditalic-math Ebolditalic-math Fbolditalic-math Gbolditalic-math Hbolditalic-math Ibolditalic-math Ibolditalic-math.ss01 Jbolditalic-math Kbolditalic-math Lbolditalic-math Mbolditalic-math Mbolditalic-math.ss02 Nbolditalic-math Nbolditalic-math.ss02 Obolditalic-math Pbolditalic-math Qbolditalic-math Qbolditalic-math.ss02 Rbolditalic-math Sbolditalic-math Tbolditalic-math Ubolditalic-math Vbolditalic-math Vbolditalic-math.ss02 Wbolditalic-math Wbolditalic-math.ss02 Xbolditalic-math Ybolditalic-math Zbolditalic-math Zbolditalic-math.ss02 Alphabold-math Alphabold-math.ss02 Betabold-math Gammabold-math Deltabold-math Epsilonbold-math Zetabold-math Etabold-math Thetabold-math Iotabold-math.ss01 Kappabold-math Lambdabold-math Mubold-math Nubold-math Xibold-math Omicronbold-math Pibold-math Rhobold-math ThetaSymbolbold-math Sigmabold-math Taubold-math Upsilonbold-math Phibold-math Chibold-math Psibold-math Omegabold-math Alphaitalic-math Betaitalic-math Gammaitalic-math Deltaitalic-math Epsilonitalic-math Zetaitalic-math Etaitalic-math Thetaitalic-math Iotaitalic-math Iotaitalic-math.ss01 Kappaitalic-math Lambdaitalic-math Muitalic-math Nuitalic-math Xiitalic-math Omicronitalic-math Piitalic-math Rhoitalic-math ThetaSymbolitalic-math Sigmaitalic-math Tauitalic-math Upsilonitalic-math Phiitalic-math Chiitalic-math Psiitalic-math Omegaitalic-math Alphabolditalic-math Alphabolditalic-math.ss02 Betabolditalic-math Gammabolditalic-math Deltabolditalic-math Epsilonbolditalic-math Zetabolditalic-math Etabolditalic-math Thetabolditalic-math Iotabolditalic-math.ss01 Kappabolditalic-math Lambdabolditalic-math Mubolditalic-math Nubolditalic-math Xibolditalic-math Omicronbolditalic-math Pibolditalic-math Rhobolditalic-math ThetaSymbolbolditalic-math Sigmabolditalic-math Taubolditalic-math Upsilonbolditalic-math Phibolditalic-math Chibolditalic-math Psibolditalic-math Omegabolditalic-math PidoubleStruck GammadoubleStruck";
 name = Uppercase;
 },
 {
@@ -2364,6 +2369,12 @@ sub @SymbolsSans by @Symbols;
 ";
 disabled = 1;
 tag = ccmp;
+},
+{
+automatic = 1;
+code = "";
+disabled = 1;
+tag = ssty;
 }
 );
 fontMaster = (
@@ -25213,7 +25224,7 @@ unicode = 120513;
 },
 {
 glyphname = "sharp-musical";
-lastChange = "2024-11-24 22:50:08 +0000";
+lastChange = "2025-11-23 00:27:10 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -25221,99 +25232,99 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(471,-29,o),
-(505,-27,o),
-(531,-22,c),
-(531,131,o),
-(532,284,o),
-(532,437,c),
-(785,554,l),
-(790,391,o),
-(799,231,o),
-(811,84,c),
-(846,84,o),
-(875,88,o),
-(899,92,c),
-(889,236,o),
-(882,413,o),
-(878,597,c),
-(1068,684,o),
-(1233,760,o),
-(1275,781,c),
-(1273,800,o),
-(1260,835,o),
-(1240,876,c),
-(1119,818,o),
-(997,761,o),
-(876,703,c),
-(874,816,o),
-(873,929,o),
-(873,1038,c),
-(1025,1098,o),
-(1155,1148,o),
-(1234,1177,c),
-(1231,1206,o),
-(1221,1239,o),
-(1210,1270,c),
-(1096,1228,o),
-(984,1184,o),
-(873,1138,c),
-(874,1266,o),
-(876,1385,o),
-(880,1484,c),
-(839,1484,o),
-(820,1482,o),
-(791,1477,c),
-(785,1362,o),
-(782,1233,o),
-(780,1098,c),
-(699,1063,o),
-(618,1027,o),
-(536,989,c),
-(539,1161,o),
-(543,1321,o),
-(549,1453,c),
-(525,1453,o),
-(503,1452,o),
-(474,1446,c),
-(464,1297,o),
-(457,1126,o),
-(452,951,c),
-(85,781,l),
-(88,761,o),
-(95,733,o),
-(105,705,c),
-(207,755,o),
-(326,810,o),
-(450,863,c),
-(447,739,o),
-(445,615,o),
-(443,497,c),
-(300,428,o),
-(183,371,o),
-(142,349,c),
-(151,321,o),
-(159,296,o),
-(172,269,c),
-(196,282,o),
-(303,332,o),
-(442,396,c),
-(440,230,o),
-(440,82,o),
-(440,-29,c)
+(471,-189,o),
+(505,-187,o),
+(531,-182,c),
+(531,-29,o),
+(532,124,o),
+(532,277,c),
+(785,394,l),
+(790,231,o),
+(799,71,o),
+(811,-76,c),
+(846,-76,o),
+(875,-72,o),
+(899,-68,c),
+(889,76,o),
+(882,253,o),
+(878,437,c),
+(1068,524,o),
+(1233,600,o),
+(1275,621,c),
+(1273,640,o),
+(1260,675,o),
+(1240,716,c),
+(1119,658,o),
+(997,601,o),
+(876,543,c),
+(874,656,o),
+(873,769,o),
+(873,878,c),
+(1025,938,o),
+(1155,988,o),
+(1234,1017,c),
+(1231,1046,o),
+(1221,1079,o),
+(1210,1110,c),
+(1096,1068,o),
+(984,1024,o),
+(873,978,c),
+(874,1106,o),
+(876,1225,o),
+(880,1324,c),
+(839,1324,o),
+(820,1322,o),
+(791,1317,c),
+(785,1202,o),
+(782,1073,o),
+(780,938,c),
+(699,903,o),
+(618,867,o),
+(536,829,c),
+(539,1001,o),
+(543,1161,o),
+(549,1293,c),
+(525,1293,o),
+(503,1292,o),
+(474,1286,c),
+(464,1137,o),
+(457,966,o),
+(452,791,c),
+(85,621,l),
+(88,601,o),
+(95,573,o),
+(105,545,c),
+(207,595,o),
+(326,650,o),
+(450,703,c),
+(447,579,o),
+(445,455,o),
+(443,337,c),
+(300,268,o),
+(183,211,o),
+(142,189,c),
+(151,161,o),
+(159,136,o),
+(172,109,c),
+(196,122,o),
+(303,172,o),
+(442,236,c),
+(440,70,o),
+(440,-78,o),
+(440,-189,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(535,899,l),
-(617,934,o),
-(700,968,o),
-(779,1000,c),
-(779,889,o),
-(780,773,o),
-(782,658,c),
-(532,539,l)
+(535,739,l),
+(617,774,o),
+(700,808,o),
+(779,840,c),
+(779,729,o),
+(780,613,o),
+(782,498,c),
+(532,379,l)
 );
 }
 );
@@ -25576,19 +25587,128 @@ width = 1184;
 unicode = 9837;
 },
 {
-color = 1;
 glyphname = "natural-musical";
-lastChange = "2025-10-24 19:05:55 +0000";
+lastChange = "2025-11-23 00:28:33 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,1280,o),
+(93,353,o),
+(97,223,c),
+(119,223,o),
+(140,223,o),
+(162,223,c),
+(408,414,o),
+(619,593,o),
+(680,641,c),
+(683,416,o),
+(687,194,o),
+(689,132,c),
+(707,133,o),
+(738,136,o),
+(755,139,c),
+(752,274,o),
+(746,1042,o),
+(743,1216,c),
+(719,1215,o),
+(695,1214,o),
+(671,1213,c),
+(514,1097,o),
+(156,840,o),
+(154,838,c),
+(151,1068,o),
+(148,1292,o),
+(147,1358,c),
+(132,1359,o),
+(99,1360,o),
+(80,1360,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,420,o),
+(158,585,o),
+(155,756,c),
+(238,815,o),
+(524,1020,o),
+(673,1128,c),
+(674,1040,o),
+(676,884,o),
+(678,723,c),
+(564,637,o),
+(298,422,o),
+(161,318,c)
+);
+}
+);
+width = 835;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-width = 1200;
+shapes = (
+{
+closed = 1;
+nodes = (
+(44,1310,o),
+(107,173,o),
+(111,43,c),
+(233,43,o),
+(304,53,o),
+(426,73,c),
+(542,152,o),
+(588,182,o),
+(684,281,c),
+(687,-54,o),
+(691,14,o),
+(693,-48,c),
+(801,-47,o),
+(1025,-4,o),
+(1042,-1,c),
+(1042,-9,o),
+(986,1190,o),
+(980,1242,c),
+(868,1250,o),
+(786,1247,o),
+(674,1235,c),
+(569,1169,o),
+(505,1122,o),
+(418,1038,c),
+(415,1388,o),
+(412,1322,o),
+(411,1388,c),
+(349,1409,o),
+(102,1418,o),
+(44,1390,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(424,550,o),
+(422,495,o),
+(419,666,c),
+(505,743,o),
+(591,821,o),
+(677,898,c),
+(678,810,o),
+(680,854,o),
+(682,693,c),
+(596,611,o),
+(511,530,o),
+(425,448,c)
+);
 }
 );
+width = 1086;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
 unicode = 9838;
 },
 {
@@ -25636,7 +25756,9 @@ script = "";
 unicode = 1014;
 },
 {
+color = 1;
 glyphname = alephsymbol;
+lastChange = "2025-11-23 00:28:43 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -25650,7 +25772,9 @@ width = 1200;
 unicode = 8501;
 },
 {
+color = 1;
 glyphname = betsymbol;
+lastChange = "2025-11-23 00:28:43 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -25664,7 +25788,9 @@ width = 1200;
 unicode = 8502;
 },
 {
+color = 1;
 glyphname = daletsymbol;
+lastChange = "2025-11-23 00:28:43 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -25678,7 +25804,9 @@ width = 1200;
 unicode = 8504;
 },
 {
+color = 1;
 glyphname = gimelsymbol;
+lastChange = "2025-11-23 00:28:43 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -26468,8 +26596,9 @@ unicode = 8768;
 },
 {
 category = Letter;
+color = 1;
 glyphname = weierstrass;
-lastChange = "2024-11-13 02:09:55 +0000";
+lastChange = "2025-11-23 00:28:46 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -159704,17 +159833,14 @@ width = 1282;
 },
 {
 category = Letter;
+color = 7;
 glyphname = "Abold-math";
-kernLeft = "Abold-math";
-kernRight = "Abold-math";
-lastChange = "2024-10-19 23:11:48 +0000";
+kernLeft = A;
+kernRight = A;
+lastChange = "2025-11-22 23:58:20 +0000";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-pos = (594,0);
-},
 {
 name = math.br;
 pos = (1272,0);
@@ -159726,17 +159852,9 @@ pos = (680,1327);
 {
 name = math.tr;
 pos = (1272,1291);
-},
-{
-name = ogonek;
-pos = (1187,7);
-},
-{
-name = top;
-pos = (680,1327);
 }
 );
-layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
 closed = 1;
@@ -159793,9 +159911,75 @@ width = 1272;
 {
 anchors = (
 {
-name = bottom;
-pos = (594,0);
+name = math.br;
+pos = (1097,0);
 },
+{
+name = math.ta;
+pos = (595,1324);
+},
+{
+name = math.tr;
+pos = (1097,1291);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+name = Thin;
+shapes = (
+{
+closed = 1;
+nodes = (
+(266,83,o),
+(302,282,o),
+(341,467,c),
+(379,475,o),
+(662,498,o),
+(769,499,c),
+(777,399,o),
+(794,79,o),
+(799,-15,c),
+(852,-15,o),
+(930,-10,o),
+(970,-2,c),
+(924,662,o),
+(875,1090,o),
+(824,1323,c),
+(779,1329,o),
+(726,1331,o),
+(679,1331,cs),
+(560,1331,o),
+(437,1315,o),
+(374,1305,c),
+(288,983,o),
+(116,191,o),
+(82,-6,c),
+(121,-11,o),
+(205,-15,o),
+(252,-15,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(419,879,o),
+(474,1108,o),
+(490,1172,c),
+(526,1177,o),
+(659,1188,o),
+(709,1188,c),
+(731,1066,o),
+(756,733,o),
+(763,641,c),
+(643,637,o),
+(446,620,o),
+(364,603,c)
+);
+}
+);
+width = 1097;
+},
+{
+anchors = (
 {
 name = math.br;
 pos = (1272,0);
@@ -159807,17 +159991,18 @@ pos = (680,1327);
 {
 name = math.tr;
 pos = (1272,1291);
-},
-{
-name = ogonek;
-pos = (1187,7);
-},
-{
-name = top;
-pos = (680,1327);
 }
 );
-layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+700,
+100,
+0
+);
+};
+layerId = "32413148-6734-4272-9F0E-9985A43454DE";
+name = "Nov 22, 25 at 17:56";
 shapes = (
 {
 closed = 1;
