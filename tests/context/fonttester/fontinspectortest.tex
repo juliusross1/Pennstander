@@ -1,0 +1,120 @@
+% !TEX root = fontinspectortest.tex
+\environment myenvironment
+
+
+%\setupmathematics[default=normal]
+\setupbodyfont[Pennstander-Black]
+
+
+\input fontinspector.tex
+\setupmathematics[default=normal,lcgreek=normal,ucgreek=normal]
+
+
+
+\startluacode
+
+allfonts = {"Pennstander-Thin","Pennstander-ExtraLight","Pennstander-Light","Pennstander-Regular","Pennstander-Medium","Pennstander-Bold","Pennstander-ExtraBold","Pennstander-Black"}
+somefonts = {"Pennstander-Thin","Pennstander-Regular","Pennstander-Black"}
+
+fontlist = {"Pennstander-Thin"}
+fontlist={"Pennstander-Thin","Pennstander-Regular","Pennstander-Bold","Pennstander-Black"}
+
+--showtestbuffer({fonts=fontlist,characters=operators,testbuffer="operatorbuffershort"})
+
+showtestbuffer({fonts=fontlist,characters=doublestrucknumerals,testbuffer="letterbuffer"})
+
+
+-- context("\\chapter{Braces}")
+-- showbraces({fonts=fontlist})
+-- shownestedbraces({fonts=fontlist})
+
+-- context("\\chapter{Fences}")
+-- showfences({fonts=fontlist})
+-- showfences({fonts=fontlist,superscript="H",subscript="H"})
+-- showfences({fonts=fontlist,expression="H",braces=allbraces,extendedsizes={"20","40"},superscript="H",subscript="H"})
+
+-- context("\\chapter{Matrices}")
+-- showmatrices({fonts=fontlist})
+-- --showmatrices({fonts=fontlist,matrixtypes={"\\bmatrix"}})
+
+
+
+-- context("\\chapter{Integrals}")
+-- showintegrals({fonts=fontlist})
+-- --showintegrals({fonts=fontlist,sizes={".4cm"},integrals={"\\iint"}})
+
+
+-- context("\\chapter{Wideaccents}")
+-- showwideaccents({fonts=fontlist})
+
+-- context("\\chapter{Arrows}")
+-- showarrows({fonts=fontlist})
+
+-- context("\\chapter{Primes}")
+-- showprimes({fonts=fontlist})
+
+-- context("\\chapter{Relations}")
+-- showtestbuffer({fonts=fontlist,characterlist=relations,testbuffer="relationsbuffershort"})
+
+-- context("\\chapter{Operators}")
+-- showtestbuffer({fonts=fontlist,characterlist=operators,testbuffer="operatorbuffershort"})
+
+-- context("\\chapter{Radicals}")
+-- showradicals({fonts=fontlist})
+
+
+-- context("\\chapter{Accents}")
+-- showaccents({fonts=fontlist,alphabet=latinupper})
+-- showaccents({fonts=fontlist,alphabet=latinlower})
+-- showaccents({fonts=fontlist,alphabet=greekupper,styles=greekstyles})
+-- showaccents({fonts=fontlist,alphabet=greeklower,styles=greekstyles})
+-- showaccents({fonts=fontlist,alphabet=frakturupper,styles={"rm"}})
+-- showaccents({fonts=fontlist,alphabet=numerals,styles={"rm"}})
+-- showaccents({fonts=fontlist,alphabet=doublestruckupper,styles={"rm"}}) 
+
+
+-- context("\\chapter{Alphabets}")
+-- showallalphabets({fonts=fontlist})
+-- context("\\chapter{Alphabets Spacing}")
+-- showallalphabets({fonts=fontlist,spacerleft="|",spacerright="|"})
+-- context("\\chapter{Subscript and Superscript}")
+-- showallalphabets({fonts=fontlist,subscript="H",superscript="H"})
+-- context("\\chapter{Prescripts}")
+-- showallalphabets({fonts=fontlist,presubscript="H",presuperscript="H"})
+
+
+
+
+\stopluacode
+
+
+
+
+\stoptext
+
+-- TESTING TOOL TODO
+-- Better way to test ss0X
+
+-- TODO
+-- Doublestruck upper
+-- latin upper ss0X
+-- latin lower ss0X
+-- Backup testing documents
+-- More spacing on outside of brace, parenthesis, group
+-- Test through the chatgpt formula again, and on all weights
+-- ** Radicals in LuaLaTex.  Then do it in ConTeXt.  Then ask Hans about the bar 
+-- Redo italics !!!!!
+-- Consider italic correction
+-- Retest all italics !!!!
+-- Redo bold
+-- Opticals
+-- Kerns?
+
+
+
+---------- Things to create tests for -----------
+-- Stackers
+-- Fractions spacing
+-- Lorem
+-- Actual Formulae
+-- Look at mathincontext paper again

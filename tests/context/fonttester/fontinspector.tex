@@ -1,0 +1,604 @@
+% !TEX root = fontinspectortest.tex
+
+\input operatorbuffer.tex
+\input relationsbuffer.tex
+
+\startluacode
+
+allstyles = {"rm","it","bf","mathbi"}
+greekstyles= {"mathgreekupright","mathgreekitalic","mathgreekupright\\bf","mathgreekitalic\\bf"}
+
+
+function merge_tables(a, b)
+    local r = {}
+    for k, v in pairs(a) do r[k] = v end
+    for k, v in pairs(b) do r[k] = v end
+    return r
+end
+
+defaultfontlist = {"Pennstander-Thin"}
+
+-- Axes constructor
+function Axes(type_, list)
+    return { type = type_, list = list or {} }
+end
+
+dofile("harcodedaxes.lua")
+
+-- Index finder with validation
+ function get_axes_indices(all_axes)
+    local indices = { font = nil, size = nil, style = nil, input1 = nil, input2 = nil }
+    local counts  = { font = 0, size = 0, style = 0, input1 = 0, input2 = 0 }
+
+    for i, ax in ipairs(all_axes) do
+        if ax.type == "font" then
+            counts.font = counts.font + 1
+            if counts.font > 1 then error("Too many axes of type 'font'") end
+            indices.font = i
+        elseif ax.type == "size" then
+            counts.size = counts.size + 1
+            if counts.size > 1 then error("Too many axes of type 'size'") end
+            indices.size = i
+        elseif ax.type == "style" then
+            counts.style = counts.style + 1
+            if counts.style > 1 then error("Too many axes of type 'style'") end
+            indices.style = i
+        elseif ax.type == "input1" then
+            counts.input1 = counts.input1 + 1
+            if counts.input1 > 1 then error("Too many axes of type 'input1'") end
+            indices.input1 = i
+        elseif ax.type == "input2" then
+            counts.input2 = counts.input2 + 1
+            if counts.input2 > 1 then error("Too many axes of type 'input2'") end
+            indices.input2 = i
+        end
+    end
+
+    return indices
+end
+
+
+-- Cartesian product iterator
+ function product(lists, callback, combo, depth)
+    combo = combo or {}
+    depth = depth or 1
+    if depth > #lists then
+        callback(combo)
+    else
+        for _, val in ipairs(lists[depth].list) do
+            combo[depth] = val
+            product(lists, callback, combo, depth + 1)
+        end
+    end
+end
+
+
+
+
+
+-- Function to build table for a given combo of page axes
+ function build_table(combo)
+   -- context("\\page")
+
+    local horiz_axis = all_axes[1]
+    local vert_axis  = all_axes[2]
+
+    context("\\starttabulate[|" .. string.rep("c|", #horiz_axis.list) .. "]")
+    for vi, v_val in ipairs(vert_axis.list) do
+        context("\\bTR")
+        for hi, h_val in ipairs(horiz_axis.list) do
+            -- Determine font/style for horizontal/vertical axes
+            local font  = nil
+            local style = nil
+            local input1 = nil
+            local input2 = nil
+
+            -- Horizontal/vertical axes can themselves be font/style/input
+            if horiz_axis.type == "font" then font = h_val end
+            if horiz_axis.type == "style" then style = h_val end
+            if horiz_axis.type == "input1" then input1 = h_val end
+            if horiz_axis.type == "input2" then input2 = h_val end
+
+            if vert_axis.type == "font" then font = v_val end
+            if vert_axis.type == "style" then style = v_val end
+            if vert_axis.type == "input1" then input1 = v_val end
+            if vert_axis.type == "input2" then input2 = v_val end
+
+            -- Map page axes for font/style/input1/input2 if needed
+            for pi, ai in ipairs(page_axes) do
+                local ax = all_axes[ai]
+                if ax.type == "font" then font  = combo[pi] end
+                if ax.type == "style" then style = combo[pi] end
+                if ax.type == "input1" then input1 = combo[pi] end
+                if ax.type == "input2" then input2 = combo[pi] end
+            end
+
+
+              function substitute_inputs(str, input1, input2,style)
+                local result = str
+                result = result:gsub("%%input1", input1 or "")
+                result = result:gsub("%%input2", input2 or "")
+                result = result:gsub("%%style", style or "")
+                return result
+                end
+
+            commandexpanded = substitute_inputs(command,input1 or " ",input2 or " ",style)
+            --  context("\\NC\\setupbodyfont[%s]\\math{\\%s"..command.."}", font or "(no font)", style or "rm", input1 or "(none)", input2 or "(none)")
+            context("\\NC\\setupbodyfont[%s]\\math{\\%s "..commandexpanded.."}", font or "(no font)", style or "rm")
+
+        end
+        context("\\NR")
+    end
+    context("\\stoptabulate")
+end
+
+function fontinspector(all_axes,comm)
+command = comm
+-- Get indices
+ idx = get_axes_indices(all_axes)
+
+-- Remaining axes (3rd, 4th, etc.) will generate new pages
+ page_axes = {}
+for i=3,#all_axes do table.insert(page_axes, i) end
+
+
+-- Build Cartesian product over page axes only
+local page_axes_list = {}
+for _, i in ipairs(page_axes) do
+    table.insert(page_axes_list, all_axes[i])
+end
+
+product(page_axes_list, build_table)
+
+end
+
+function printbuffer(combo)
+    local font  = "nil"
+    local style = "nil"
+    local input1 = "nil"
+    local input2 = "nil"
+
+    all_axes_list={}
+    for i = 1, #all_axes do
+        all_axes_list[i] = i
+    end
+
+    for pi, ai in ipairs(all_axes_list) do
+        local ax = all_axes[ai]
+        if ax.type == "font" then font  = combo[pi] end
+--    if ax.type == "style" then style = combo[pi] end -- not used
+        if ax.type == "input1" then input1 = combo[pi] end
+        if ax.type == "input2" then input2 = combo[pi] end
+    end
+
+
+-- Why cannot I change 5 to N here?
+for i = 1, 5 do
+  local letter = string.char(64 + i)   -- 65='A', 66='B', etc.
+  local name = "command" .. letter
+  context("\\def\\" .. name .. "{}")
+end
+
+-- Should we just run this from 1 to N and then loop around input1?
+for i = 1, #input1 do
+  local letter = string.char(64 + i)   -- 65='A', 66='B', etc.
+  local name = "command" .. letter
+  context("\\def\\" .. name .. "{" .. (input1[i] or "") .. "}")
+end
+
+
+
+context("\\setupbodyfont[%s]",font)
+context("\\getbuffer[%s]",buffername)
+end
+
+function iterateoveraxes(all_axes,number,buffer_name)
+    buffername = buffer_name
+    N =number
+    product(all_axes,printbuffer)
+end
+
+
+function chunk(listtochunk, n)
+-- Table to hold sublists of n
+chunked = {}
+for i = 1, #listtochunk, n do
+    local chunk = {}
+    for j = 0, n-1 do
+        if listtochunk[i+j] then
+            table.insert(chunk, listtochunk[i+j])
+        end
+    end
+    table.insert(chunked, chunk)
+
+end
+return chunked
+end
+
+------------------------------------------
+
+function showbigoperators()
+fontaxis = Axes("font", {"Pennstander-Thin","Pennstander-Regular","Pennstander-Bold","Pennstander-Black"})
+input1 = Axes("input1", {{""}})
+all_axes = {fontaxis,input1}
+iterateoveraxes(all_axes,1,"bigoperatorsbuffer")
+end
+
+
+function showprimes(opts)
+
+local opts = opts or {}
+local texts = opts.texts or {{"g"},{"H"},{"o"}}
+local wideaccentlist = opts.wideaccents or wideaccents
+local fontlist = opts.fonts or defaultfontlist
+
+fontaxis = Axes("font", fontlist)
+input1 = Axes("input1", texts)
+all_axes = {fontaxis,input1}
+iterateoveraxes(all_axes,1,"primebuffer")
+end
+
+function showtestbuffer(opts)
+local opts = opts or {}
+local characterlist = opts.characters or operators
+local short = opts.short or false
+local fontlist = opts.fonts or defaultfontlist
+local testbuffer = opts.testbuffer or "operatorbuffershort"
+local testbufferparameters = opts.testbufferparameters or 1
+fontaxis = Axes("font", fontlist)
+input1 = Axes("input1", chunk(characterlist,testbufferparameters))
+all_axes = {input1,fontaxis}
+iterateoveraxes(all_axes,testbufferparameters,testbuffer)
+end
+
+-- Some hack so that I can test some of the ss05
+-- I am not sure how to test stylistic alternatives in general
+-- This does not work with bold, italics etc.
+frakturupper[#frakturupper+1]="{\\char\"E1100}"
+frakturupper[#frakturupper+1]="{\\char\"E1101}"
+frakturupper[#frakturupper+1]="{\\char\"E1102}"
+frakturupper[#frakturupper+1]="{\\char\"E1103}"
+frakturupper[#frakturupper+1]="{\\char\"E1104}"
+frakturupper[#frakturupper+1]="{\\char\"E1105}"
+frakturlower[#frakturlower+1]="{\\char\"E1110}"
+frakturlower[#frakturlower+1]="{\\char\"E1111}"
+\stopluacode
+
+\setupinteraction[state=start]
+
+\completecontent
+%\showboxes
+%\showglyphdata
+%\showmakeup[boxes,glyph,whatsit,user]
+
+\startluacode
+
+ 
+ ------- ARROWS
+ function showarrows(opts)
+local opts = opts or {}
+local texts = opts.texts or {"H","HH","HHHHHHH"}
+local fontlist = opts.fonts or defaultfontlist
+local arrowlist = opts.arrows or allarrows
+
+fontaxis = Axes("font", fontlist)
+input1 = Axes("input1", arrowlist)
+input2 = Axes("input2", texts)
+all_axes = {input2,input1,fontaxis}
+
+fontinspector(all_axes,"{%input1{%input2}}")
+end 
+
+
+------- BRACES
+function showbraces(opts)
+-- Things to look for
+-- Consistent width across braces
+-- Vertical placement and consistency across braces
+
+local opts = opts or {}
+local fontlist = opts.fonts or defaultfontlist
+local bracelist = opts.braces or allunderandoverbraces
+
+local texts = opts.texts or {"H","HH","HHH","HHHHHHH"}
+
+fontaxis = Axes("font", fontlist)
+
+input1 = Axes("input1", bracelist)
+styleaxis = Axes("style", {"rm"})
+input2 = Axes("input2", texts)
+all_axes = {input2,input1,fontaxis}
+fontinspector(all_axes,"%input1{%input2}")
+end
+
+function shownestedbraces(opts)
+
+local opts = opts or {}
+local overbracelist = opts.overbraces or overbraces
+local underbracelist = opts.underbraces or underbraces
+local fontlist = opts.fonts or defaultfontlist
+
+
+fontaxis = Axes("font", fontlist)
+
+------- Nested OverBraces
+s = "%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{1}^1+1}^{2}+1}^{3}-1}^{2}+1}^{3}-1}^{2}-1}^{1}-1}^{0}"
+ input1 = Axes("input1", overbracelist)
+ input2=Axes("input2", {""})
+all_axes = {input2,input1,fontaxis}
+fontinspector(all_axes,s)
+
+------- Nested Underbraces
+s = "%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{%input1[stretch=no]{1}_1+1}_{2}+1}_{3}-1}_{2}+1}_{3}-1}_{2}-1}_{1}-1}_{0}"
+ input1 = Axes("input1", underbracelist)
+ input2=Axes("input2", {""})
+all_axes = {input2,input1,fontaxis}
+fontinspector(all_axes,s)
+end 
+
+------- Accents
+function showaccents(opts)
+-- Things to look for
+-- Horizontal/Vertical Placement over each letter
+
+local opts = opts or {}
+
+local accentlist = opts.integrals or accents
+local styles = opts.styles or {"rm","it","mathscr"}
+local fontlist = opts.fonts or defaultfontlist
+local alphabet = opts.alphabet or latinupper
+
+fontaxis = Axes("font", fontlist)
+styleaxis = Axes("style",styles)
+input2 = Axes("input2", alphabet)
+input1 = Axes("input1", accentlist)
+all_axes = {input1,input2,styleaxis,fontaxis}
+fontinspector(all_axes,"{%input1{%input2}}")
+end
+
+
+------- WideAccents
+function showwideaccents(opts)
+
+
+local opts = opts or {}
+local texts = opts.texts or {".","H","HH","HHHHHHH"}
+local wideaccentlist = opts.wideaccents or wideaccents
+local fontlist = opts.fonts or defaultfontlist
+
+fontaxis = Axes("font", fontlist)
+
+
+input2 = Axes("input2", texts)
+input1 = Axes("input1", wideaccentlist)
+all_axes = {input2,input1,fontaxis}
+fontinspector(all_axes,"%input1{%input2}")
+
+input2 = Axes("input2", {"","H","HH"})
+all_axes = {input1,input2,fontaxis}
+fontinspector(all_axes,"%input1{%input2}")
+
+-- All at once -- not really useful
+--input1 = Axes("input1",{" "})
+--input2 = Axes("input2", texts)
+--all_axes = {input2,input1,fontaxis}
+--s= "\\wideunderrightarrow{\\wideunderleftarrow{\\wideunderleftharpoon{\\wideunderrightharpoon{\\wideunderleftrightarrow{\\wideunderbar{\\wideoverleftrightarrow{\\wideoverrightarrow{\\wideoverleftarrow{\\wideoverrightharpoon{\\wideoverleftharpoon{\\widecheck{\\widebar{\\widetilde{%input2}}}}}}}}}}}}}}"
+--fontinspector(all_axes,s)
+
+--overandunder (hardcoded list of accents)
+input1  = Axes("input1",{"leftharpoon","rightharpoon","leftarrow","rightarrow","leftrightarrow"})
+s="\\wideunder%input1{\\wideover%input1{%input2}}"
+input2 = Axes("input2", texts)
+all_axes = {input2,input1,fontaxis}
+fontinspector(all_axes,s)
+
+
+
+
+end
+
+------- Integrals
+function showintegrals(opts)
+-- Options
+-- integrals(defaults to all)
+-- sizes
+-- fontlist
+-- Example usage: showintegrals({sizes={".4cm",".8cm"},integrals={"\\iint"}})
+local opts = opts or {}
+
+
+local integrallist = opts.integrals or integrals
+local sizes = opts.sizes or {".2cm",".4cm","1.2cm"}
+local fontlist = opts.fonts or defaultfontlist
+
+input2 = Axes("input2", integrallist)
+input1 = Axes("input1", sizes)
+fontaxis = Axes("font", fontlist)
+
+all_axes = {input1,input2,fontaxis}
+fontinspector(all_axes,"%input2[size=%input1,bottom=a,top=b]{f(x)dx}")
+
+end
+
+------- Matrices
+function showmatrices(opts)
+-- options
+-- matrices: list of matrices to print
+-- matrixtypes: list of matrixtypes (defaults to all)
+-- fontlist
+-- Example Usage:
+-- showmatrices({fonts={"Pennstander-Thin","Pennstander-Black"},matrixtypes={"\\bmatrix"}})
+
+
+local opts = opts or {}
+local matrices = opts.matrices or {"{a}", "{a,b;c,d}","{\\alpha,\\beta,\\gamma;\\delta,\\epsilon,\\nu; \\lambda,\\theta,\\phi}" ,"{1,2;3,4;5,6;7,8;9,10;11,12;13,14;15,16;17,18}"}
+local matrixtypes = opts.matrixtypes or {"\\bmatrix","\\vmatrix","\\vvmatrix","\\gmatrix","\\pmatrix","\\vvvmatrix"}
+local fontlist = opts.fonts or defaultfontlist
+
+
+fontaxis = Axes("font", fontlist)
+input1=Axes("input1",matrices)
+input2=Axes("input2",matrixtypes)
+all_axes = {input2,input1,fontaxis}
+fontinspector(all_axes," %input2%input1")
+end
+
+function showradicals(opts)
+local opts = opts or {}
+
+local fontlist = opts.fonts or defaultfontlist
+local texts = opts.texts or {"o","oo","ooo","ooooooooo","\\bigoplus","\\frac{1}{2}"}
+local degrees = opts.degrees or {"n","n+m","n+m+p"}
+input1=Axes("input1",texts)
+input2=Axes("input2",degrees)
+
+fontaxis = Axes("font", fontlist)
+
+all_axes = {input2,input1,fontaxis}
+fontinspector(all_axes,"\\left|\\sqrt[%input2]{%input1}\\right|")
+end
+
+
+
+------- Fences ------- 
+
+-- Options:
+-- fonts: List of fonts to show
+-- braces: List of braces (defaults to all)
+-- sizes: List of sizes to show
+-- extendedsizes: list of extendedsizes to show
+-- subscript
+-- superscript
+-- expression
+
+--fences
+-- Things to look for:
+-- Left/Right margin
+-- Consistent height across different fences
+
+-- Example Usage
+-- showfences()
+-- showfences({fonts={"Pennstander-Regular"},braces={"parenthesis","brace"},sizes={"10","12"},extendedsizes={"20","40"}})
+
+
+function showfences(opts)
+
+-- Setup Defaults
+local opts = opts or {}
+local allsizes = {"0","1","2","3","4","5","6","7","8","9","10","11","12"}
+local fontlist = opts.fonts or defaultfontlist
+
+
+local bracelist = opts.braces or allbraces
+local sizelist = opts.sizes or allsizes
+local superscript = opts.superscript
+local subscript = opts.subscript
+local expression = opts.expression or "H"
+suffix = ""
+
+if superscript then suffix = suffix.."^"..superscript end
+if subscript then suffix = suffix.."_"..subscript end
+
+
+local extendedsizes = opts.extendedsizes or {"10","20","40"}
+
+local fontaxis = Axes("font", fontlist)
+
+input2 = Axes("input2", bracelist)
+input1 = Axes("input1", sizelist )
+all_axes = {input2,input1,fontaxis}
+fontinspector(all_axes,"\\fenced[%input2][size=%input1]{"..expression.."}"..suffix)
+
+
+input2 = Axes("input2", bracelist)
+input1 = Axes("input1", {""})
+all_axes = {input1,input2,fontaxis}
+-- If I really cared I could make this loop over sizelist FIXME
+s="\\fenced[%input2][size=12]{\\fenced[%input2][size=11]{\\fenced[%input2][size=10]{\\fenced[%input2][size=9]{\\fenced[%input2][size=8]{\\fenced[%input2][size=7]{\\fenced[%input2][size=6]{\\fenced[%input2][size=5]{\\fenced[%input2][size=4]{\\fenced[%input2][size=3]{\\fenced[%input2][size=2]{\\fenced[%input2][size=1]{\\fenced[%input2][size=0]{"..expression.."}}}}}}}}}}}}}\\crlf\\crlf"
+fontinspector(all_axes,s)
+
+input1 = Axes("input1", extendedsizes)
+all_axes = {input1,input2,fontaxis}
+fontinspector(all_axes,"\\fenced[%input2][bottomspace=%input1 pt,topspace=%input1 pt]{"..expression.."}"..suffix.."\\quad")
+
+-- If I cared I could here loop over braceslist
+s="\\fenced[brace][size=%input2]{\\fenced[angle][size=%input2]{\\fenced[parenthesis][size=%input2]{\\fenced[bracket][size=%input2]{\\fenced[bar][size=%input2]{\\fenced[ceiling][size=%input2]{\\fenced[floor][size=%input2]{\\fenced[openbracket][size=%input2]{H}}}}}}}}"
+input1 = Axes("input1", {""})
+input2 = Axes("input2", sizelist)
+all_axes = {input1,input2,fontaxis}
+fontinspector(all_axes,s)
+end
+
+------- Alphabets 
+
+function showalphabets(opts)
+opts = opts or {}
+superscript = opts.superscript or nil
+subscript = opts.subscript or nil
+presuperscript = opts.presuperscript or nil
+presubscript = opts.presubscript or nil
+spacerleft = opts.spacerleft or nil
+spacerright = opts.spacerright or nil
+local fontlist = opts.fonts or defaultfontlist
+local alphabets = opts.alphabets or {latinlower,latinupper}
+local styles = opts.styles or {"rm","it","bf","mathbi"}
+local fontlist = opts.fonts or defaultfontlist
+local fontaxis = Axes("font", fontlist)
+
+context("\\definepapersize[sheet][width=45cm]\\setuppapersize[sheet][sheet]")
+
+input2 = Axes("input2", "")
+
+s = "%input1"
+
+if superscript then s = s.."^"..superscript end
+if presuperscript then s = s.."^^^"..presuperscript end
+if subscript then  s = s.."_"..superscript  end
+if presubscript then  s = s.."___"..presuperscript  end
+if spacerleft then s = spacerleft..s  end
+if spacerright then s = s..spacerright end
+
+styleaxis = Axes("style", styles)
+
+for i,v in pairs(alphabets) do
+input1 = Axes("input1", v)
+all_axes = {input1,styleaxis,fontaxis}
+fontinspector(all_axes,s)
+end
+
+end
+
+-- All Alphabets
+
+function showallalphabets(opts)
+opts = opts or {}
+local additionaloptions = opts or {}
+
+options = {alphabets={latinupper,latinlower},styles=allstyles}
+showalphabets(merge_tables(options,additionaloptions))
+
+options = {alphabets={greekupper,greeklower},styles=greekstyles}
+showalphabets(merge_tables(options,additionaloptions))
+
+options=   {alphabets={greekupper,greeklower},styles=greekstyles}
+showalphabets(merge_tables(options,additionaloptions))
+
+options = {alphabets={numerals},styles={"rm","bf"}}
+showalphabets(merge_tables(options,additionaloptions))
+
+
+options={alphabets={frakturupper,frakturlower},styles={"rm","bf"}}
+showalphabets(merge_tables(options,additionaloptions))
+
+options={alphabets={scriptupper},styles={"rm","bf"}}
+showalphabets(merge_tables(options,additionaloptions))
+
+optons={alphabets={doublestruckupper},styles={"rm"}}
+showalphabets(merge_tables(options,additionaloptions))
+
+end
+
+
+\stopluacode
+
+
