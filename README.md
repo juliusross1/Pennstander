@@ -6,7 +6,7 @@ A text and mathematics font based on [Grandstander](https://etceteratype.co/gran
 ## Features
 [Latin and Greek lower and upper case in upright and oblique/italics](samples/letters.png)
 
-[Doublestruck upper case](samples/doublestruck.png)
+[Doublestruck upper case and numerals](samples/doublestruck.png)
 
 [Script upper case](samples/script.png)
 
