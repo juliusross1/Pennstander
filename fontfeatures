@@ -14,6 +14,7 @@ dlig: Discretionary Ligatures
 liga: Standard Ligatures
 zero: Slashed Zero
 cpsp: Capital Spacing
+ss01: Alternate a,g,I
 ss02: Alternate A,M,N,Q,V,W,Z,v,z
 ss03: Alternate 4
 ss04: Alternate l,t

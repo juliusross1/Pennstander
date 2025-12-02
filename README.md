@@ -25,7 +25,7 @@ A text and mathematics font based on [Grandstander](https://etceteratype.co/gran
 [Mathematical symbols](samples/symbols.png) (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
 ## ConTeXt
-Sample usage for ConTeXt MKXL (the required typescript and goodies files are included in the latest ConTeXt release, or can be found above and places in your working directory)
+Sample usage for ConTeXt MKXL (the required typescript and goodies files are included in the latest ConTeXt release, or can be found above and placed in your working directory)
 ```
 \usetypescriptfile[type-imp-pennstander]
 \setupbodyfont[pennstander]
