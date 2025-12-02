@@ -20,7 +20,7 @@ A text and mathematics font based on [Grandstander](https://etceteratype.co/gran
 
 [Arrows](samples/arrows.png)
 
-Radicals
+[Radicals](samples/radicals.png)
 
 [Mathematical symbols](samples/symbols.png) (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
