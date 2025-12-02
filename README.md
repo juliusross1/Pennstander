@@ -25,16 +25,16 @@ Radicals
 [Mathematical symbols](samples/symbols.png) (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
 ## ConTeXt
-Sample usage for ConTeXt MKXL
+Sample usage for ConTeXt MKXL (the required typescript and goodies files are included in the latest ConTeXt release, or can be found above and places in your working directory)
 ```
 \usetypescriptfile[type-imp-pennstander]
-\setupbodyfont[Pennstander-Thin]
-% Replace 'Thin' with 'ExtraLight'/'Light'/'Regular'/'Medium'/'SemiBold'/'Bold'/'ExtraBold'/'Black'
-% (some math symbols do not look good at Bold/ExtraBold/Black so use with care)
+\setupbodyfont[pennstander]
+% Replace 'pennstander' with 'pennstander-thin', 'pennstander-extralight', 'pennstander-light' etc. as desired
+% (some math symbols do not look good at bold/extrabold/black so use with care)
 \setupalign[profile]
 \setupinterlinespace[14pt]
 \starttext
-Here is some {\bf bold} and some {\it italics} and an equation
+Here is some {\bf bold} and some {\it italics} some {\bi bolditalics} and an equation
 \startformula
 \int_a^b \frac{d{\bf f}}{dx} dx = {\bf f}(b) - {\bf f}(a)
 \stopformula
