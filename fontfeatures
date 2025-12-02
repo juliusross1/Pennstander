@@ -1,0 +1,38 @@
+Pennstander
+aalt: Access All Alternatives
+ccmp: Glyph Composition/Decomposition
+locl: Localized Forms
+sups: Superscript
+numr: Numerators
+dnom: Denominators
+frac: Fractions
+ordn: Ordinals
+pnum: Proportional Figures
+tnum: Tabular Figures
+case: Case-Sensitive Forms
+dlig: Discretionary Ligatures
+liga: Standard Ligatures
+zero: Slashed Zero
+cpsp: Capital Spacing
+ss02: Alternate A,M,N,Q,V,W,Z,v,z
+ss03: Alternate 4
+ss04: Alternate l,t
+ss06: Alternate ampersand
+ss07: Alternate 7
+
+Pennstander-Math
+aalt: Access All Alternatives
+dtls: Dotless Forms
+zero: Slashed Zero
+frac: Fractions
+ss01: Alternate a,g,I,\Iota
+ss02: Alternate A,M,N,Q,V,W,Z,v,z,\Alpha,\Mu,\Rho,\Zeta
+ss03: Alternate 4
+ss04: Alternate l,t
+ss05: Simplified Fraktur A,K,L,X,Y,Z,x,y
+ss07: Alternate 7
+
+Glyphs assigned to Unicode Private Use Area:
+Double-struck uppercase Greek letters: U+E1002–U+E1008
+Fraction Rule: U+E000
+Radical Rule: U+E001
