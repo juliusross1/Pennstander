@@ -1,0 +1,551 @@
+﻿<html>
+	<!--<base href="..">--> <!-- uncomment for keeping the HTML in a subfolder -->
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<head>
+		<title>OTVar Test: Pennstander Math Regular</title>
+		<style id="font-declaration">
+			@font-face {
+				font-family: "Pennstander Math Regular";
+				src: url("PennstanderMathVF.ttf");
+			}
+		</style>
+		<style>
+			body {
+				padding: 0;
+				margin: auto;
+				overflow-x: hidden;
+			}
+			#flexbox {
+				display: flex;
+				flex-flow: column;
+				height: 100%;
+			}
+			#controls {
+				flex: 0 1 auto;
+				background-color: white;
+				margin: 2px 0 0 0;
+				padding: 0;
+				width: 100%;
+				border: 0px solid transparent;
+				height: auto;
+				user-select: none;
+				-moz-user-select: none;
+				-webkit-user-select: none;
+			}
+
+/* OTVar Sliders: */
+			.labeldiv {
+				width: 49.2%;
+				padding: 0 0 0 0.2%;
+				margin: auto;
+				display: inline-block;
+			}
+
+			label {
+				z-index: 2;
+				position: absolute;
+				pointer-events: none;
+				height: 2em;
+				margin: 0;
+				padding: 0.5em 1em;
+				vertical-align: text-top;
+				font: x-small sans-serif;
+				color: black;
+				opacity: 0.5;
+			}
+			.slider {
+				z-index: 1;
+				position: relative;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+				width: 100%;
+				height: 2em;
+				border-radius: 5px;
+				background: #eee;
+				padding: auto;
+				margin: auto;
+			}
+			.slider::-webkit-slider-thumb {
+				z-index: 3;
+				position: relative;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+				width: 16px;
+				height: 2em;
+				border-radius: 5px;
+				background: #777;
+				cursor: auto;
+			}
+
+/* Feature Buttons: */
+			#featureControls {
+				font-size: x-small;
+				font-family: sans-serif;
+				padding: 0 0.2%;
+			}
+			#featureControls .emojiButton {
+				vertical-align: -50%;
+				font-size: small;
+			}
+			.emojiButton {
+				cursor: pointer;
+				text-decoration: none;
+			}
+			.otFeatureLabel, .otFeature {
+				font-size: small;
+				position: relative;
+				opacity: 1;
+				pointer-events: auto;
+				white-space: nowrap;
+			}
+			.otFeatureLabel, select {
+				padding: 0.2em 0.5em 0.3em 0.5em;
+				margin: 0 .04em;
+				line-height: 2em;
+				color: #666;
+				background-color: #ddd;
+				border-radius: 0.3em;
+				border: 0;
+				text-align: center;
+				z-index: 6;
+			}
+			select {
+				position: relative;
+				margin: 0.25em 0.15em;
+				height: 2.1em;
+				font: x-small sans-serif;
+				vertical-align: top;
+			}
+			.otFeature {
+				visibility: collapse;
+				margin: 0 -1em 0 0;
+			}
+			input[type=checkbox]:checked + label {
+				visibility: visible;
+				color: #eee;
+				background-color: #555;
+				position: relative;
+			}
+			.otFeatureLabel .tooltip {
+				visibility: hidden;
+				background-color: #333;
+				color: white;
+				text-align: center;
+				padding: 0px 5px;
+				top: -2em;
+				left: 0;
+				position: absolute;
+				z-index: 8;
+			}
+			.otFeatureLabel:hover .tooltip {
+				visibility: visible;
+			}
+
+/* Sample Text Area: */
+			#textarea {
+				flex: 1 1 auto;
+				border: 0 solid transparent;
+				margin: auto;
+				padding: 0 0 0.6em 0;
+				line-height: 1em;
+				width: 100%;
+				color: black;
+				font: 40px "Pennstander Math Regular";
+				font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				-moz-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				-ms-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				-o-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				font-variation-settings: "wght" 100.0, "WGHT" 100.0, "MLNT" 0.0;
+				overflow-x: hidden;
+				overflow-y: scroll;
+				word-wrap: break-word;
+                white-space: pre-wrap;
+			}
+			.○ {
+				-webkit-text-stroke: 1px black;
+				-webkit-text-fill-color: #FFF0;
+			}
+			div:focus {
+				outline: 0px solid transparent;
+			}
+
+/* Footer paragraph: */
+			#helptext {
+				position: fixed;
+				background: transparent;
+				bottom: 0;
+				width: 100%;
+				color: #888;
+				font: x-small sans-serif;
+			}
+			a {
+				color: #333;
+			}
+			
+/* Print: */
+			@media print {
+				#helptext, #helptext *,
+				#controls, #controls *, 
+				#featureControls, 
+				#styleMenu, #styleMenu *,
+				.otFeature {
+					display: none !important;
+				}
+			}
+			
+/* Dark Mode: */
+			@media (prefers-color-scheme: dark) {
+				body { background: #000; }
+				p { color: #eee; }
+				#textInput{
+					color: #eee;
+					background-color: #222;
+					background: #222;
+				}
+				label { color: #fff; }
+				.otFeatureLabel {
+					color: #999;
+					background-color: #333;
+				}
+				input[type=checkbox]:checked + label {
+					color: #111;
+					background-color: #888;
+				}
+
+				.slider { background: #333; }
+				.slider::-webkit-slider-thumb { background: #888; }
+				a { color: #ccc; }
+
+				#controls {
+					background-color: black;
+				}
+				#textarea {
+					color: white;
+					background-color: black;
+				}
+				.○ {
+					-webkit-text-stroke: 1px white;
+					-webkit-text-fill-color: #0000;
+				}
+			}
+
+		</style>
+		<script>
+			document.addEventListener('keyup', keyAnalysis);
+			document.addEventListener('keyup', sliderPrecision);
+			document.addEventListener('keydown', sliderPrecision);
+
+			const sliders = document.getElementsByClassName('slider');
+
+			function sliderPrecision(event) {
+				if (event.shiftKey) {
+					for (i = 0; i < sliders.length; i++) {
+						sliders[i].step = 0.005;
+					}
+				} else {
+					for (i = 0; i < sliders.length; i++) {
+						if (sliders[i].id == "ital") {
+							sliders[i].step = 0.05;
+						} else {
+							sliders[i].step = 1;
+						}
+					}
+				}
+			}
+			function version() {
+				let version = new Date().getTime();
+				return version;
+			}
+			function currentSuffix() {
+				const link = document.getElementById("type");
+				let suffix = "ttf";
+				if (link.textContent == "W1") {
+					let suffix = "woff";
+				} else {
+					let suffix = "woff2";
+				}
+				return suffix;
+			}
+			function reloadFontFace() {
+				let fontFace = new FontFace("Pennstander Math Regular", `url('PennstanderMathVF.${currentSuffix()}?v=${version()}')`);
+				fontFace.load().then(function(loadedFontFace) {
+					document.fonts.add(loadedFontFace);
+					console.log('Font reloaded');
+				}).catch(function(error) {
+					console.error('Failed to reload font:', error);
+				});
+			}
+			function keyAnalysis(event) {
+				const sizeSlider = document.getElementById("fontsize");
+				const lineheightSlider = document.getElementById("lineheight");
+				const styleMenu = document.getElementById("styleMenu");
+				const styleMenuLength = styleMenu.options.length;
+
+				if (event.ctrlKey) {
+					if (event.code == 'KeyR') {
+						resetParagraph();
+					} else if (event.code == 'KeyU') {
+						reloadFontFace();
+					} else if (event.code == 'KeyL') {
+						setLat1();
+					} else if (event.code == 'KeyJ') {
+						toggleLeftRight();
+					} else if (event.code == 'KeyX') {
+						toggleInverse();
+					} else if (event.code == 'KeyC') {
+						toggleCenter();
+					} else if (event.code == 'KeyM') {
+						toggleMenu();
+					} else if (event.code == 'Period') {
+						styleMenu.selectedIndex = (styleMenu.selectedIndex + 1) % styleMenuLength;
+						setStyle(styleMenu.value);
+					} else if (event.code == 'Comma') {
+						var newIndex = styleMenu.selectedIndex - 1;
+						if (newIndex<0) {
+							newIndex = styleMenuLength - 1;
+						}
+						styleMenu.selectedIndex = newIndex;
+						setStyle(styleMenu.value);
+					} else if (event.key == '+') {
+						sizeSlider.value = Math.round(sizeSlider.value*1.25);
+						if (sizeSlider.value > parseInt(sizeSlider.max)) {
+							sizeSlider.value = sizeSlider.max;
+						}
+						updateSlider();
+					} else if (event.key == '-') {
+						sizeSlider.value = Math.round(sizeSlider.value*0.8);
+						if (sizeSlider.value < parseInt(sizeSlider.min)) {
+							sizeSlider.value = sizeSlider.min;
+						}
+						updateSlider();
+					} else if (event.key == '1') {
+						lineheightSlider.value = Math.round(parseInt(lineheightSlider.value)-20);
+						if (lineheightSlider.value < parseInt(lineheightSlider.min)) {
+							lineheightSlider.value = lineheightSlider.min;
+						}
+						updateSlider();
+					} else if (event.key == '2') {
+						lineheightSlider.value = Math.round(parseInt(lineheightSlider.value)+20);
+						if (lineheightSlider.value > parseInt(lineheightSlider.max)) {
+							lineheightSlider.value = lineheightSlider.max;
+						}
+						updateSlider();
+					}
+				}
+			}
+			function setLanguage(lang) {
+				document.body.setAttribute('lang',lang);
+			}
+			function updateFeatures() {
+				// update features based on user input:
+				var testtext = getTestText();
+				var codeLine = "";
+				var checkboxes = document.getElementsByClassName("otFeature")
+				for (i = 0; i < checkboxes.length; i++) {
+					var checkbox = checkboxes[i];
+					if (i != 0) { codeLine += ", " };
+					codeLine += '"'+checkbox.name+'" ';
+					codeLine += checkbox.checked ? '1' : '0';
+					if (checkbox.name=="kern") {
+						testtext.style.setProperty("font-kerning", checkbox.checked ? 'normal' : 'none');
+					} else if (checkbox.name=="liga") {
+						testtext.style.setProperty("font-variant-ligatures", checkbox.checked ? 'common-ligatures contextual' : 'no-common-ligatures no-contextual');
+					} else if (checkbox.name=="dlig") {
+						testtext.style.setProperty("font-variant-ligatures", checkbox.checked ? 'discretionary-ligatures' : 'no-discretionary-ligatures');
+					} else if (checkbox.name=="hlig") {
+						testtext.style.setProperty("font-variant-ligatures", checkbox.checked ? 'historical-ligatures' : 'no-historical-ligatures');
+					} else if (checkbox.name=="case") {
+						testtext.style.textTransform = checkbox.checked ? "uppercase" : "none";
+					}
+				}
+				testtext.style.setProperty("font-feature-settings", codeLine);
+			}
+			function resetParagraph() {
+				const defaulttext = 'Text\n0 1 2 3 4 5 6 7 8 9 𝟶 𝟷 𝟸 𝟹 𝟺 𝟻 𝟼 𝟽 𝟾 𝟿 ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ A B C D E Ə F G H I 󢀀 J K L M N O P Q R S T U V W X Y Z a b c d ð e ə f g h i ı j ȷ k l m n o p q r s t u v w x y z ª º Γ Δ Θ Λ Ξ Π Σ Φ Ψ Ω ϴ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϑ ϕ ϖ ϰ ϱ ϵ 𝔄 𝔅 ℭ 𝔇 𝔈 𝔉 𝔊 ℌ ℑ 𝔍 𝔎 𝔏 𝔐 𝔑 𝔒 𝔓 𝔔 ℜ 𝔖 𝔗 𝔘 𝔙 𝔚 𝔛 𝔜 ℨ 𝔞 𝔟 𝔠 𝔡 𝔢 𝔣 𝔤 𝔥 𝔦 𝔧 𝔨 𝔩 𝔪 𝔫 𝔬 𝔭 𝔮 𝔯 𝔰 𝔱 𝔲 𝔳 𝔴 𝔵 𝔶 𝔷 󡄐 󡄑 𝒜 ℬ 𝒞 𝒟 ℰ ℱ 𝒢 ℋ ℐ 𝒥 𝒦 ℒ ℳ 𝒩 𝒪 𝒫 𝒬 ℛ 𝒮 𝒯 𝒰 𝒱 𝒲 𝒳 𝒴 𝒵 𝔸 𝔹 ℂ 𝔻 ⅅ 𝔼 𝔽 𝔾 ℍ 𝕀 𝕁 𝕂 𝕃 𝕄 ℕ 𝕆 ℙ ℚ ℝ 𝕊 𝕋 𝕌 𝕍 𝕎 𝕏 𝕐 ℤ ℿ ℾ 𝟙 𝟚 𝟛 𝟜 𝟝 𝟞 𝟟 𝟠 𝟡 𝟘 󡀂 󡀃 󡀄 󡀅 󡀁  󡀇\n\n𝐁𝐨𝐥𝐝\n𝟎 𝟏 𝟐 𝟑 𝟒 𝟓 𝟔 𝟕 𝟖 𝟗 𝐀 𝐁 𝐂 𝐃 𝐄 𝐅 𝐆 𝐇 𝐈 𝐉 𝐊 𝐋 𝐌 𝐍 𝐎 𝐏 𝐐 𝐑 𝐒 𝐓 𝐔 𝐕 𝐖 𝐗 𝐘 𝐙 𝐚 𝐛 𝐜 𝐝 𝐞 𝐟 𝐠 𝐡 𝐢 𝐣 𝐤 𝐥 𝐦 𝐧 𝐨 𝐩 𝐪 𝐫 𝐬 𝐭 𝐮 𝐯 𝐰 𝐱 𝐲 𝐳 𝚪 𝚫 𝚯 𝚲 𝚵 𝚷 𝚹 𝚺 𝚽 𝚿 𝛀 𝛂 𝛃 𝛄 𝛅 𝛆 𝛇 𝛈 𝛉 𝛊 𝛋 𝛌 𝛍 𝛎 𝛏 𝛐 𝛑 𝛒 𝛓 𝛔 𝛕 𝛖 𝛗 𝛘 𝛙 𝛚 𝛜 𝛝 𝛞 𝛟 𝛠 𝛡 𝕬 𝕭 𝕮 𝕯 𝕰 𝕱 𝕲 𝕳 𝕴 𝕵 𝕶 𝕷 𝕸 𝕹 𝕺 𝕻 𝕼 𝕽 𝕾 𝕿 𝖀 𝖁 𝖂 𝖃 𝖄 𝖅 󡄠 󡄡 󡄢 󡄣 󡄤 󡄥 𝖆 𝖇 𝖈 𝖉 𝖊 𝖋 𝖌 𝖍 𝖎 𝖏 𝖐 𝖑 𝖒 𝖓 𝖔 𝖕 𝖖 𝖗 𝖘 𝖙 𝖚 𝖛 𝖜 𝖝 𝖞 𝖟 󡄰 󡄱 𝓐 𝓑 𝓒 𝓓 𝓔 𝓕 𝓖 𝓗 𝓘 𝓙 𝓚 𝓛 𝓜 𝓝 𝓞 𝓟 𝓠 𝓡 𝓢 𝓣 𝓤 𝓥 𝓦 𝓧 𝓨 𝓩 𝛛\n\n𝐼𝑡𝑎𝑙𝑖𝑐\n𝐴 𝐵 𝐶 𝐷 𝐸 𝐹 𝐺 𝐻 𝐼 𝐽 𝐾 𝐿 𝑀 𝑁 𝑂 𝑃 𝑄 𝑅 𝑆 𝑇 𝑈 𝑉 𝑊 𝑋 𝑌 𝑍 ℎ 𝑎 𝑏 𝑐 𝑑 𝑒 𝑓 𝑔 𝑖 𝑗 𝑘 𝑙 𝑚 𝑛 𝑜 𝑝 𝑞 𝑟 𝑠 𝑡 𝑢 𝑣 𝑤 𝑥 𝑦 𝑧 𝚤 𝚥 𝛤 𝛥 𝛩 𝛬 𝛯 𝛱 𝛳 𝛴 𝛷 𝛹 𝛺 𝛼 𝛽 𝛾 𝛿 𝜀 𝜁 𝜂 𝜃 𝜄 𝜅 𝜆 𝜇 𝜈 𝜉 𝜊 𝜋 𝜌 𝜍 𝜎 𝜏 𝜐 𝜑 𝜒 𝜓 𝜔 𝜖 𝜗 𝜘 𝜙 𝜚 𝜛 𝜕\n\n𝑩𝒐𝒍𝒅𝑰𝒕𝒂𝒍𝒊𝒄\n𝑨 𝑩 𝑪 𝑫 𝑬 𝑭 𝑮 𝑯 𝑰 𝑱 𝑲 𝑳 𝑴 𝑵 𝑶 𝑷 𝑸 𝑹 𝑺 𝑻 𝑼 𝑽 𝑾 𝑿 𝒀 𝒁 𝒂 𝒃 𝒄 𝒅 𝒆 𝒇 𝒈 𝒉 𝒊 𝒋 𝒌 𝒍 𝒎 𝒏 𝒐 𝒑 𝒒 𝒓 𝒔 𝒕 𝒖 𝒗 𝒘 𝒙 𝒚 𝒛 𝜶 𝜷 𝜸 𝜹 𝜺 𝜻 𝜼 𝜽 𝜾 𝜿 𝝀 𝝁 𝝂 𝝃 𝝄 𝝅 𝝆 𝝇 𝝈 𝝉 𝝊 𝝋 𝝌 𝝍 𝝎 𝝐 𝝑 𝝒 𝝓 𝝔 𝝕 𝜞 𝜟 𝜣 𝜦 𝜩 𝜫 𝜭 𝜮 𝜱 𝜳 𝜴 𝝏\n\nSymbols\nƒ ♠ ♡ ♢ ♣ ♤ ♥ ♦ ♧ ✓ @ & ¶ § © ® ™ ° № ♩ ♪ ♫ ♬ « » ‹ › ℏ ′ ″ ‶ ‵ ⁗ ‴ ‷ ͍ ⃖ ⃮ ⃭ ⃡ ⃗ ⃯ ⃑ ⃬ ̈ ̇ ̋ ̊ ̄ ̏ ̐ ̒ ̛ ̣ ̤ ̦ ̧ ̨ ̱ ̵ ̶ ̷ ̸ ⃰ ⃨ ̀ ́ ̂ ̌ ̆ ̃ ̅ ̉ ̑ ̲ ⃐ ˙ ¨ ⃜ ⃛ ` ´ ˝ ˆ ˉ ˇ ˘ ˚ ˜ ¯ ¸ ˛ ʼ … ⋮ ⋯ ⋱ ⋅ µ % ‰ Å # ∜ ∛ ∅ ∈ ∖ ∋ ∌ ∁ ∉ ∃ ∄ ∀ ≌ ∷ ∶ ⟂ ∟ ∥ ∦ * ∙ ∣ ∤ ∕ ⧢ ∏ ∐ ⨿ ∑ ⨊ ⅀ ∴ ∵ ∎ ⫪ ⟙ ⟘ ⌙ ⊯ ‗ ∠ ∢ ∡ ∂  ∇ 𝛻 𝛁 ♯ ♭ ♮ ϶ ⋔ ⋆ ∘ ∗ ⋈ ≀ ⊶ ⊺ ⊷ • □ ◊ ℧ ⌞ ⌟ ⌜ ⌝ ⊿ ¦ ‡ ≬ ⋋ ⋰ + ± − ∓ ∔ ∸ ≂ × ÷ ⨯ ⊓ ⊔ ⧆ ⧅ ⧄ ⧈ ⧇ ⊡ ⊟ ⊞ ⊠ ⊛ ⦶ ⦿ ⦺ ⦵ ⦻ ⊝ ⊜ ⦼ ⊘ ⧁ ⧀ ⊖ ⊗ ⨀ ⨁ ⨂ ⊙ ⦷ ⦹ ⊕ ⦸ ⊚ ⦾ ⦽ ⨅ ⨆ ⨉ ⨃ ⨄ ⊼ ⋂ ⋀ ⋁ ⋃ ∧ ∨ ⋏ ⋎ ⋒ ∩ ∪ ⋓ ⊌ ⊍ ⊎ ⊻ ⊽ ⋄ ≁ ⋇ ⊮ ⊹ ∾ ⋉ ^ ∞ ∿ / \ = ⩵ ⩶ ≔ ≕ ⩴ ≝ ≅ ≞ ≜ ≛ ≗ ≖ ≣ ≑ ∺ ≚ ≡ ≍ ≘ ≠ ≭ ≢ ⊭ ≉ ≟ ≈ ≒ ≆ ≃ ~ ∽ ⋍ ≓ ≐ ∝ ≙ ⊩ ⌆ ⌅ ∼ < > ≤ ≥ ≦ ≧ ⋖ ⋗ ≨ ≩ ⋦ ⋧ ≲ ≳ ≶ ≷ ⋚ ⋛ ⪅ ⪆ ⩽ ⩾ ⪕ ⪖ ⪉ ⪊ ≪ ≫ ⋘ ⋙ ⋜ ⋝ ≮ ≯ ≰ ≱ ≹ ≴ ≵ ≸ ⊂ ⊃ ⊆ ⊇ ⊊ ⊋ ⊈ ⊉ ⊄ ⊅ ⋐ ⋑ ⊏ ⊑ ⋤ ⊐ ⊒ ⋥ ⋢ ⋣ ≺ ⋨ ≼ ≾ ⊰ ≻ ⋩ ≽ ⋞ ⋟ ≿ ⊱ ⋠ ⋡ ⊀ ⊁ ⊬ ⊲ ⊴ ⊳ ⊵ ⋪ ⋬ ⋫ ⋭ ⋌ ⋊ ⊦ ⊨ ⊧ ⊫ ⊪ ⊤ ⊣ ⊢ ⫟ ⫞ ⫠ ⊥ ¬ ⌐ ∹ ⎯ ‾ - ­ – — ― _   ( ) { ⎩ ⎪ ⎨ ⎧ } [ ⎣ ⎢ ⎡ ] ⎦ ⎥ ⎤ ⟦ ⟧ ⟨ ⟩ ⟪ ⟫ ⟮ ⟯ | ‖ ⦀ ⌈ ⌉ ⌊ ⌋ ⎴ ⎵ ⏜ ⏝ ⏞ ⏟ ∫ ⌡ ⎮ ⌠ ∬ ∭ ⨌ ∯ ∰ ∱ ∲ ∮ ⨑ ∳ ⨍ ⨏ ↑ ↗ → ↘ ↓ ↙ ← ↖ ↔ ↕ ⇵ ⟻ ⟼ ⇈ ⇉ ⇊ ⇇ ⟵ ⟶ ⟷ ↚ ↛ ⇷ ⇸ ⇹ ⇺ ⇻ ↮ ⇼ ↞ ↟ ↠ ↡ ↢ ↣ ↤ ↥ ↦ ↧ ↨ ⇤ ⇥ ↫ ↬ ⇠ ⇡ ⇢ ⇣ ↼ ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇋ ⇌ ⇄ ⇅ ⇆ ⇑ ⇗ ⇒ ⇘ ⇓ ⇙ ⇐ ⇖ ⇔ ⇕ ⇍ ⇎ ⇏ ⤆ ⤇ ⟸ ⟹ ⟺ ⟽ ⟾ ⤤ ⤣ ⤥ ⤦ ↩ ↪ √ ⎷'
+                const testtext = getTestText();
+			    testtext.innerText = defaulttext;
+			}
+			function setLat1() {
+				const lat1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz &Agrave;&Aacute;&Acirc;&Atilde;&Auml;&Aring;&AElig;&Ccedil;&Egrave;&Eacute;&Ecirc;&Euml;&Igrave;&Iacute;&Icirc;&Iuml;&ETH;&Ntilde;&Ograve;&Oacute;&Ocirc;&Otilde;&Ouml;&Oslash;&OElig;&THORN;&Ugrave;&Uacute;&Ucirc;&Uuml;&Yacute;&Yuml; &agrave;&aacute;&acirc;&atilde;&auml;&aring;&aelig;&ccedil;&egrave;&eacute;&ecirc;&euml;&igrave;&iacute;&icirc;&iuml;&eth;&ntilde;&ograve;&oacute;&ocirc;&otilde;&ouml;&oslash;&oelig;&thorn;&szlig;&ugrave;&uacute;&ucirc;&uuml;&yacute;&yuml; .,:;&middot;&hellip;&iquest;?&iexcl;!&laquo;&raquo;&lsaquo;&rsaquo; /|&brvbar;\()[]{}_-&ndash;&mdash;&sbquo;&bdquo;&lsquo;&rsquo;&ldquo;&rdquo;&quot;&#x27; #&amp;&sect;@&bull;&shy;*&dagger;&Dagger;&para; +&times;&divide;&plusmn;=&lt;&gt;&not;&mu; ^~&acute;`&circ;&macr;&tilde;&uml;&cedil; &yen;&euro;&pound;$&cent;&curren;&fnof; &trade;&reg;&copy; 1234567890 &ordf;&ordm;&deg;%&permil; &sup1;&sup2;&sup3;&frac14;&frac12;&frac34;";
+				const testtext = getTestText();
+				testtext.innerHTML = lat1;
+			}
+			function getTestText() {
+				return document.getElementById("textarea");
+			}
+			function updateSlider() {
+				var body = getTestText();
+				var sliders = document.getElementsByClassName("slider");
+				var settingtext = "";
+				for (var i = 0; i < sliders.length; i++) {
+					var sliderID = sliders[i].id;
+					var sliderValue = sliders[i].value;
+					var label = document.getElementById("label_"+sliderID);
+					var labelName = label.getAttribute("name");
+
+					label.textContent = ""+labelName+": "+sliderValue;
+
+					if (sliderID == "fontsize") {
+						// Text Size Slider
+						body.style.setProperty("font-size", ""+sliderValue+"px");
+						label.textContent += "px";
+					} else if (sliderID == "lineheight") {
+						// Line Height Slider
+						body.style.setProperty("line-height", ""+sliderValue/100.0+"em");
+						label.textContent += "%";
+					} else {
+						// OTVar Slider: collect settings
+						if (settingtext != "") { settingtext += ", " };
+						settingtext += '"' + sliderID + '" ' + sliderValue;
+					}
+				}
+				// apply OTVar slider settings:
+				body.style.setProperty("font-variation-settings", settingtext);
+			}
+			function vanish(item) {
+				item.style.setProperty("display", "none");
+			}
+			function toggleLeftRight() {
+				const waterfall = document.getElementById("textarea");
+				if (waterfall.dir != "rtl") {
+					waterfall.dir = "rtl";
+					waterfall.align = "right";
+				} else {
+					waterfall.dir = "";
+					waterfall.align = "";
+				}
+			}
+			function toggleCenter() {
+				const waterfall = document.getElementById("textarea");
+				if (waterfall.align != "center") {
+					waterfall.align = "center";
+				} else {
+					if (waterfall.dir == "rtl") {
+						waterfall.align = "right";
+					} else {
+						waterfall.align = "left";
+					}
+				}
+			}
+			function toggleInverse() {
+				const testText = document.getElementById("textarea");
+				if (testText) {
+					const link = document.getElementById("invert");
+					if (testText.className == "●") {
+						testText.className = "○";
+						link.textContent = "🔳";
+					} else {
+						testText.className = "●";
+						link.textContent = "🔲";
+					}
+				}
+			}
+			function toggleMenu() {
+				const menu = document.getElementById("featureControls");
+				menu.hidden = !menu.hidden;
+			}
+			function setFontTypeTo(suffix) {
+				const styleId = "font-declaration";
+				var fontStyleSheet = document.getElementById(styleId);
+				var newFontStyleSheet = document.createElement("style");
+				newFontStyleSheet.id = styleId;
+				newFontStyleSheet.textContent = `
+				@font-face {
+					font-family: "Pennstander Math Regular";
+					src: url("PennstanderMathVF.${suffix}");
+				}`;
+				fontStyleSheet.replaceWith(newFontStyleSheet);
+			}
+			function toggleType() {
+				const link = document.getElementById("type");
+				if (link.textContent == "TT") {
+					link.textContent = "W1";
+					setFontTypeTo("woff");
+				} else if (link.textContent == "W1") {
+					link.textContent = "W2";
+					setFontTypeTo("woff2");
+				} else {
+					link.textContent = "TT";
+					setFontTypeTo("ttf");
+				}
+			}
+			function setStyle(styleString) {
+				const axisStrings = styleString.split(",");
+				for (var i = axisStrings.length - 1; i >= 0; i--) {
+					const axisSetting = axisStrings[i].split(":");
+					const axisTag = axisSetting[0];
+					const axisValue = parseInt(axisSetting[1]);
+					document.getElementById(axisTag).value=axisValue;
+					updateSlider();
+				}
+			}
+		</script>
+	</head>
+	<body onload="updateSlider();resetParagraph();document.getElementById('textarea').focus()">
+	<div id="flexbox">
+		<div id="controls">
+			<!-- OTVar sliders -->
+			<div class="labeldiv"><label class="sliderlabel" id="label_fontsize" name="Font Size">Font Size</label><input type="range" min="10" max="1000" value="20" class="slider" id="fontsize" oninput="updateSlider();"></div>
+			<div class="labeldiv"><label class="sliderlabel" id="label_lineheight" name="Line Height">Line Height</label><input type="range" min="30" max="300" value="120" class="slider" id="lineheight" oninput="updateSlider();"></div>
+			<div class='labeldiv'><label class='sliderlabel' id='label_wght' name='Weight'>Weight</label><input type='range' min='100' max='900' value='100' class='slider' id='wght' oninput='updateSlider();'></div>
+			<div class='labeldiv'><label class='sliderlabel' id='label_WGHT' name='Math weight'>Math weight</label><input type='range' min='100' max='900' value='100' class='slider' id='WGHT' oninput='updateSlider();'></div>
+			<div class='labeldiv'><label class='sliderlabel' id='label_MLNT' name='Math slant'>Math slant</label><input type='range' min='0' max='100' value='0' class='slider' id='MLNT' oninput='updateSlider();'></div>
+
+			<div id="featureControls">
+			<!-- style menu -->
+			<select id='styleMenu' name='styleMenu' onchange='setStyle(this.value);'>
+				<option value='wght: 100.0,WGHT: 100.0,MLNT: 0.0'>Origin</option>
+				<option value='wght: 100.0,WGHT: 300.0,MLNT: 50.0'>Thin</option>
+				<option value='wght: 200.0,WGHT: 400.0,MLNT: 50.0'>ExtraLight</option>
+				<option value='wght: 300.0,WGHT: 500.0,MLNT: 50.0'>Light</option>
+				<option value='wght: 400.0,WGHT: 600.0,MLNT: 50.0'>Regular</option>
+				<option value='wght: 500.0,WGHT: 700.0,MLNT: 50.0'>Medium</option>
+				<option value='wght: 600.0,WGHT: 800.0,MLNT: 50.0'>SemiBold</option>
+				<option value='wght: 700.0,WGHT: 900.0,MLNT: 50.0'>Bold</option>
+				<option value='wght: 800.0,WGHT: 900.0,MLNT: 50.0'>ExtraBold</option>
+				<option value='wght: 900.0,WGHT: 900.0,MLNT: 50.0'>Black</option>
+{tabbing}</select>
+
+			<!-- file type -->
+				<a onclick="toggleType();" id="type" class="emojiButton">&nbsp;TT</a>
+				<a onclick="reloadFontFace();" id="reload" class="emojiButton">&nbsp;🔄</a>
+
+			<!-- Samsa -->
+				<!-- placeholder for external links, hold down OPTION and SHIFT while running the script -->
+
+			<!-- display type (x-ray vs. filled) -->
+				<a onclick="toggleInverse();" id="invert" class="emojiButton">&nbsp;🔲&nbsp;</a>
+
+			<!-- OT features -->
+				<input type="checkbox" name="kern" id="kern" value="kern" class="otFeature" onchange="updateFeatures()" checked><label for="kern" class="otFeatureLabel">kern</label>
+				<input type="checkbox" name="liga" id="liga" value="liga" class="otFeature" onchange="updateFeatures()" checked><label for="liga" class="otFeatureLabel">liga</label>
+				<input type="checkbox" name="calt" id="calt" value="calt" class="otFeature" onchange="updateFeatures()" checked><label for="calt" class="otFeatureLabel">calt</label>
+				<input type="checkbox" name="dtls" id="dtls" value="dtls" class="otFeature" onchange="updateFeatures()"><label for="dtls" class="otFeatureLabel">dtls</label>
+				<input type="checkbox" name="frac" id="frac" value="frac" class="otFeature" onchange="updateFeatures()"><label for="frac" class="otFeatureLabel">frac</label>
+				<input type="checkbox" name="zero" id="zero" value="zero" class="otFeature" onchange="updateFeatures()"><label for="zero" class="otFeatureLabel">zero</label>
+				<input type="checkbox" name="ss01" id="ss01" value="ss01" class="otFeature" onchange="updateFeatures()"><label for="ss01" class="otFeatureLabel">ss01</label>
+				<input type="checkbox" name="ss02" id="ss02" value="ss02" class="otFeature" onchange="updateFeatures()"><label for="ss02" class="otFeatureLabel">ss02</label>
+				<input type="checkbox" name="ss03" id="ss03" value="ss03" class="otFeature" onchange="updateFeatures()"><label for="ss03" class="otFeatureLabel">ss03</label>
+				<input type="checkbox" name="ss04" id="ss04" value="ss04" class="otFeature" onchange="updateFeatures()"><label for="ss04" class="otFeatureLabel">ss04</label>
+				<input type="checkbox" name="ss05" id="ss05" value="ss05" class="otFeature" onchange="updateFeatures()"><label for="ss05" class="otFeatureLabel">ss05</label>
+				<input type="checkbox" name="ss07" id="ss07" value="ss07" class="otFeature" onchange="updateFeatures()"><label for="ss07" class="otFeatureLabel">ss07</label>
+
+			</div>
+		</div>
+
+		<!-- Test Text -->
+		<div contenteditable="true" spellcheck="false" autocomplete="true" id="textarea" class="●">
+		</div>
+	</div>
+
+	<!-- Disclaimer -->
+	<p id="helptext" onmouseleave="vanish(this);">
+		<strong>Ctrl-period/comma</strong> step through styles <strong>Ctrl-R</strong> reset charset <strong>Ctrl-U</strong> update font <strong>Ctrl-L</strong> Lat-1 <strong>Ctrl-J</strong> LTR/RTL <strong>Ctrl-C</strong> center <strong>Ctrl-M</strong> toggle menu <strong>Ctrl-X</strong> x-ray <strong>Ctrl +/−</strong> size <strong>Ctrl-1/2</strong> linegap <strong>Shift</strong> high slider precision <em>Not working? Try newer macOS or <a href="https://www.google.com/chrome/">latest Chrome</a>. Hover mouse above this note to make it disappear.</em>
+	</p>
+	</body>
+</html>
