@@ -32,6 +32,7 @@ ss03: Alternate 4
 ss04: Alternate l,t
 ss05: Simplified Fraktur A,K,L,X,Y,Z,x,y
 ss07: Alternate 7
+ssty: Math Script Style Alternatives
 
 Glyphs assigned to Unicode Private Use Area:
 Double-struck uppercase Greek letters: U+E1002–U+E1008
