@@ -75,6 +75,10 @@ Here is some {\bf bold}, some {\it italics} and some {\bf\it bolditalics} and an
 \[ \int_a^b {\bf f}'(x) dx= {\bf f}(b) - {\bf f}(a)\]
 \end{document}
 ```
+
+## Cheap Optical Sizing
+The latest (not released) version of PennstanderMath has cheap optical sizing using the weight axis.   Fussy users may want the text font to match this so that operators in superscripts and subscripts do not look too Thin; [here is an example of how to achieve this in luaLaTeX](/docs/cheapopticalsizing.pdf) (I do not yet know to do this in ConTeXt)
+
 ## Sample
 
 I am not sure how useful this font will be for long documents/papers, perhaps it is more suitable for posters or presentations.  I have been using it for writing solutions for students [sample](samples/Quiz4solutions.pdf).  Here is a sample of what motivated its creation (joint with Andrea Tomatis)
