@@ -77,7 +77,7 @@ Here is some {\bf bold}, some {\it italics} and some {\bf\it bolditalics} and an
 ```
 
 ## Cheap Optical Sizing
-PennstanderMath has cheap optical sizing using the weight axis.   Fussy users may want the text font to match this; [here is an example of how to achieve this](/doc/cheapopticalsizing.pdf)
+PennstanderMath has cheap optical sizing using the weight axis.   Fussy users may want the text font to match this; [here is an example of how to achieve this](/docs/cheapopticalsizing.pdf)
 
 ## Sample
 
