@@ -1,0 +1,134 @@
+\documentclass[12pt]{article}
+\usepackage{unicode-math}
+\usepackage{pgffor}
+\usepackage{etoolbox}
+\usepackage{verbatim}
+\begin{document}
+
+%The following takes the basesize from the documentclass
+\makeatletter
+\newcommand{\basesize}{\strip@pt\dimexpr\f@size pt\relax}
+\makeatother
+
+\def\selectpennstander#1{%
+\def\weightname{#1} 
+
+%%% Function from here
+\def\weight{400} %Set the default weight in case \weightname is not as expected
+\ifdefstring{\weightname}{Thin}{\def\weight{100}}{}
+\ifdefstring{\weightname}{ExtraLight}{\def\weight{200}}{}
+\ifdefstring{\weightname}{Light}{\def\weight{300}}{}
+\ifdefstring{\weightname}{Regular}{\def\weight{400}}{}
+\ifdefstring{\weightname}{Medium}{\def\weight{500}}{}
+\ifdefstring{\weightname}{SemiBold}{\def\weight{600}}{}
+\ifdefstring{\weightname}{Bold}{\def\weight{700}}{}
+\ifdefstring{\weightname}{ExtraBold}{\def\weight{800}}{}
+\ifdefstring{\weightname}{Black}{\def\weight{900}}{}
+
+\pgfmathsetmacro{\scripttextsize}{\basesize*0.8-0.1} 
+\pgfmathsetmacro{\scriptscripttextsize}{\basesize*0.6}
+
+\pgfmathsetmacro{\boldweight}{min(\weight+200,900)}
+
+\pgfmathsetmacro{\scriptweight}{(750/800)*\weight + 56.25}
+\pgfmathsetmacro{\scriptscriptweight}{(700/800)*\weight + 900/8}
+\pgfmathsetmacro{\boldscriptweight}{(750/800)*\boldweight + 56.25} 
+\pgfmathsetmacro{\boldscriptscriptweight}{(700/800)*\boldweight + 900/8}
+\setmainfont{PennstanderVF.ttf}
+[
+ItalicFont={PennstanderVF.ttf},
+BoldFont={PennstanderVF.ttf},
+BoldItalicFont={PennstanderVF.ttf},
+UprightFeatures={
+    SizeFeatures = {
+    {Size = -\scripttextsize, RawAxis = {wght=\scriptscriptweight}},
+    {Size = \scripttextsize-\basesize,RawAxis = {wght=\scriptweight}},
+    {Size = \basesize-,RawAxis = {wght=\weight}}
+  },    
+},
+BoldFeatures = {
+    SizeFeatures = {
+    {Size = -\scripttextsize, RawAxis = {wght=\boldscriptscriptweight}},
+    {Size = \scripttextsize-\basesize,RawAxis = {wght=\boldscriptweight}},
+    {Size = \basesize-,RawAxis = {wght=\boldweight}}
+  },      
+},
+ItalicFeatures = {
+    SizeFeatures = {
+    {Size = -\scripttextsize, RawAxis = {wght=\scriptscriptweight,ital=50}},
+    {Size = \scripttextsize-\basesize,RawAxis = {wght=\scriptweight,ital=50}},
+    {Size = \basesize-,RawAxis = {wght=\weight,ital=50}}
+  },    
+},
+BoldItalicFeatures = {
+   SizeFeatures = {
+   {Size = -\scripttextsize, RawAxis = {wght=\boldscriptscriptweight,ital=50}},
+   {Size = \scripttextsize-\basesize,RawAxis = {wght=\boldscriptweight,ital=50}},
+   {Size = \basesize-,RawAxis = {wght=\boldweight,ital=50}}
+ },
+}
+]
+
+\setmathfont{PennstanderMath-\weightname.otf}
+}
+
+\selectpennstander{Thin} %Should be one of Thin, ExtraLight, Light, Regular, Medium, SemiBold, Bold, ExtraBold, Black
+
+\title{Cheap Optical Sizing in Pennstander}
+\maketitle
+The issue is that in \verb| $2^{\log n}$| the \verb|\log| uses the text font.  Since the math font in Pennstander has cheap optical sizing we want to do the same with the text font (or maybe we don't; it is a matter of opinion).
+
+With the way Pennstander is loaded in this file these all look pretty much the same which fixes the issue:
+
+\begin{tabular}{ll}
+
+Text& \textit{TT} TT {\bfseries TT} {\bfseries \textit{TT}}\\
+
+Math:&  $TT\ \symup{TT}\ \symbf{TT}\ \symbfit{TT}$ \bigskip\\
+
+Text:& H\textsuperscript{\textit{TT} TT \bfseries TT \textit{TT}}\\
+
+Math:& $\symup{H}^{TT\ \symup{TT}\ \symbf{TT}\ \symbfit{TT}}$\\
+
+TextInMath: &$\symup{H}^{\textit{TT}\ \text{TT}\ \text{\bfseries TT \textit{TT}}}$ \bigskip \\
+
+Text:& H\textsuperscript{H\textsuperscript{\textit{TT} TT \bfseries TT \textit{TT}}}\\
+
+Math:& $\symup{H}^{\symup{H}^{TT\ \symup{TT}\ \symbf{TT}\ \symbfit{TT}}}$\\
+
+TextInMath: & $\symup{H}^{\symup{H}^{\textit{TT}\ \text{TT}\ \text{\bfseries TT \textit{TT}}}}$
+\end{tabular}\bigskip
+
+The next examples will look slightly different (e.g. ligatures) but the weight should be about the same
+
+\begin{tabular}{ll}
+Math: & $2^{\symup{log}\ n}$\\
+TextInMath & $2^{\log n}$\\
+
+
+Math: & $2^{\symup{Diff}(u)}$\\
+TextInMath & $2^{\text{Diff}(u)}$
+\end{tabular}
+
+
+
+
+\end{document}
+
+
+Text: H\textsuperscript{\textit H\textsuperscript{\bfseries bold}}
+
+Math: $\symup H^{H^{\symbfup{bold}}}$
+
+Text: 2\textsuperscript{log n}
+
+Math: $2^{\log \symup n}$
+
+Text: 2\textsuperscript{log \textsuperscript{log n} m}
+
+Math: $2^{\log^{\log \symup n} \symup m}$
+
+
+
+\end{document}
+
