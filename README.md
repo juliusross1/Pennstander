@@ -77,7 +77,7 @@ Here is some {\bf bold}, some {\it italics} and some {\bf\it bolditalics} and an
 ```
 
 ## Cheap Optical Sizing
-The latest (not released) version of PennstanderMath has cheap optical sizing using the weight axis.   Fussy users may want the text font to match this so that operators in superscripts and subscripts do not look too; [here is an example of how to achieve this](/docs/cheapopticalsizing.pdf)
+The latest (not released) version of PennstanderMath has cheap optical sizing using the weight axis.   Fussy users may want the text font to match this so that operators in superscripts and subscripts do not look too; [here is an example of how to achieve this in luaLaTeX](/docs/cheapopticalsizing.pdf) (I do not yet know to do this in ConTeXt)
 
 ## Sample
 
