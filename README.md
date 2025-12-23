@@ -46,7 +46,7 @@ Sample usage
 ```
 \documentclass[12pt]{article}
 
-\usepackage{unicode-math}
+\usepackage[math-style=upright]{unicode-math} %The upright option is recommended for this font, but not necessary
 
 \setmainfont[
 BoldFont =Pennstander-Light.otf,   
