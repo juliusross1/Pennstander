@@ -3,27 +3,28 @@ A text and mathematics font based on [Grandstander](https://etceteratype.co/gran
 
 <img src="https://github.com/juliusross1/Pennstander/blob/main/samples/fontweights.png" width="650">
 
-## Features
-[Latin and Greek lower and upper case in upright and oblique/italics](samples/letters.png)
+## Characters
+Latin and Greek lower and upper case in upright and oblique/italics
 
-[Doublestruck upper case and numerals](samples/doublestruck.png)
+Doublestruck upper case and numerals
 
-[Script upper case](samples/script.png)
+Script upper case
 
-[Fraktur-like upper and lower case (with simplified styleset)](samples/fraktur.png)
+Fraktur-like upper and lower case (with simplified styleset)
 
-[Integrals](samples/integrals.png)
+Integrals
 
-[Brackets](samples/fences.png)
+Brackets
 
-[Accents and stackers](samples/accents.png)
+Accents and stackers
 
-[Arrows](samples/arrows.png)
+Arrows
 
-[Radicals](samples/radicals.png)
+Radicals
 
-[Mathematical symbols](samples/symbols.png) (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
+Mathematical symbols (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
+Here is the [Pennstander Math Characters document](docs/pennstandercharacters.pdf)
 ## ConTeXt
 Sample usage for ConTeXt MKXL (the required typescript and goodies files are included in the latest ConTeXt, or can be found above and placed in your working directory)
 ```
