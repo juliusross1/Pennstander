@@ -1,0 +1,1320 @@
+% !TEX root = mathfonttester.tex
+
+
+\def\latinlower{\char"\0061,\char"\0062,\char"\0063,\char"\0064,\char"\0065,\char"\0066,\char"\0067,\char"\0068,
+    \char"\0069,\char"\006A,\char"\006B,\char"\006C,\char"\006D,\char"\006E,\char"\006F,\char"\0070,
+    \char"\0071,\char"\0072,\char"\0073,\char"\0074,\char"\0075,\char"\0076,\char"\0077,\char"\0078,
+    \char"\0079,\char"\007A
+}
+
+\def\latinupper{%
+    \char"\0041,\char"\0042,\char"\0043,\char"\0044,\char"\0045,\char"\0046,\char"\0047,\char"\0048,
+    \char"\0049,\char"\004A,\char"\004B,\char"\004C,\char"\004D,\char"\004E,\char"\004F,\char"\0050,
+    \char"\0051,\char"\0052,\char"\0053,\char"\0054,\char"\0055,\char"\0056,\char"\0057,\char"\0058,
+    \char"\0059,\char"\005A
+}
+
+\def\numerals{\char"\0030,\char"\0031,\char"\0032,\char"\0033,\char"\0034,\char"\0035,\char"\0036,\char"\0037,\char"\0038,\char"\0039}
+
+%GreekUpper
+\def\greekupper{%
+    \char"0391, % Α Alpha
+    \char"0392, % Β Beta
+    \char"0393, % Γ Gamma
+    \char"0394, % Δ Delta
+    \char"0395, % Ε Epsilon
+    \char"0396, % Ζ Zeta
+    \char"0397, % Η Eta
+    \char"0398, % Θ Theta
+    \char"0399, % Ι Iota
+    \char"039A, % Κ Kappa
+    \char"039B, % Λ Lambda
+    \char"039C, % Μ Mu
+    \char"039D, % Ν Nu
+    \char"039E, % Ξ Xi
+    \char"039F, % Ο Omicron
+    \char"03A0, % Π Pi
+    \char"03A1, % Ρ Rho
+    \char"03A3, % Σ Sigma
+    \char"03A4, % Τ Tau
+    \char"03A5, % Υ Upsilon
+    \char"03A6, % Φ Phi
+    \char"03A7, % Χ Chi
+    \char"03A8, % Ψ Psi
+    \char"03A9  % Ω Omega
+}
+
+%Greek Lowercase (regular)
+\def\greeklower{%
+    \char"03B1, % alpha
+    \char"03B2, % beta
+    \char"03B3, % gamma
+    \char"03B4, % delta
+    \char"03B5, % epsilon
+    \char"03B6, % zeta
+    \char"03B7, % eta
+    \char"03B8, % theta
+    \char"03B9, % iota
+    \char"03BA, % kappa
+    \char"03BB, % lambda
+    \char"03BC, % mu
+    \char"03BD, % nu
+    \char"03BE, % xi
+    \char"03BF, % omicron
+    \char"03C0, % pi
+    \char"03C1, % rho
+    \char"03C2, % terminal sigma (varsigma)
+    \char"03C3, % sigma
+    \char"03C4, % tau
+    \char"03C5, % upsilon
+    \char"03C6, % phi
+    \char"03C7, % chi
+    \char"03C8, % psi
+    \char"03C9, % omega
+    \char"03F5, % varepsilon
+    \char"03D1, % vartheta
+    \char"03F0, % varkappa (no separate standard codepoint in Unicode, usually same as kappa)
+    \char"03D5, % varphi
+    \char"03F1, % varrho
+    \char"03D6  % varpi
+}
+
+
+\def\numeralsbold{%
+    \char"\1D7CE, % 0
+    \char"\1D7CF, % 1
+    \char"\1D7D0, % 2
+    \char"\1D7D1, % 3
+    \char"\1D7D2, % 4
+    \char"\1D7D3, % 5
+    \char"\1D7D4, % 6
+    \char"\1D7D5, % 7
+    \char"\1D7D6, % 8
+    \char"\1D7D7  % 9
+}
+
+
+\def\latinitalicupper{%
+    \char"\1D434,\char"\1D435,\char"\1D436,\char"\1D437,\char"\1D438,\char"\1D439,\char"\1D43A,\char"\1D43B,
+    \char"\1D43C,\char"\1D43D,\char"\1D43E,\char"\1D43F,\char"\1D440,\char"\1D441,\char"\1D442,\char"\1D443,
+    \char"\1D444,\char"\1D445,\char"\1D446,\char"\1D447,\char"\1D448,\char"\1D449,\char"\1D44A,\char"\1D44B,
+    \char"\1D44C,\char"\1D44D
+}
+
+\def\latinitaliclower{
+    \char"\1D44E, % a
+    \char"\1D44F, % b
+    \char"\1D450, % c
+    \char"\1D451, % d
+    \char"\1D452, % e
+    \char"\1D453, % f
+    \char"\1D454, % g
+    \char"\0210E, % h
+    \char"\1D456, % i
+    \char"\1D457, % j
+    \char"\1D458, % k
+    \char"\1D459, % l
+    \char"\1D45A, % m
+    \char"\1D45B, % n
+    \char"\1D45C, % o
+    \char"\1D45D, % p
+    \char"\1D45E, % q
+    \char"\1D45F, % r
+    \char"\1D460, % s
+    \char"\1D461, % t
+    \char"\1D462, % u
+    \char"\1D463, % v
+    \char"\1D464, % w
+    \char"\1D465, % x
+    \char"\1D466, % y
+    \char"\1D467  % z
+}
+
+
+
+\def\latinboldlower{\char"\1D41A,\char"\1D41B,\char"\1D41C,\char"\1D41D,\char"\1D41E,\char"\1D41F,\char"\1D420,\char"\1D421,%
+    \char"\1D422,\char"\1D423,\char"\1D424,\char"\1D425,\char"\1D426,\char"\1D427,\char"\1D428,\char"\1D429,%
+    \char"\1D42A,\char"\1D42B,\char"\1D42C,\char"\1D42D,\char"\1D42E,\char"\1D42F,\char"\1D430,\char"\1D431,\char"\1D432,\char"\1D433}
+
+\def\latinboldupper{%
+    \char"\1D400,\char"\1D401,\char"\1D402,\char"\1D403,\char"\1D404,\char"\1D405,\char"\1D406,\char"\1D407,
+    \char"\1D408,\char"\1D409,\char"\1D40A,\char"\1D40B,\char"\1D40C,\char"\1D40D,\char"\1D40E,\char"\1D40F,
+    \char"\1D410,\char"\1D411,\char"\1D412,\char"\1D413,\char"\1D414,\char"\1D415,\char"\1D416,\char"\1D417,
+    \char"\1D418,\char"\1D419
+}
+
+\def\latinbolditalicupper{%
+    \char"\1D468,\char"\1D469,\char"\1D46A,\char"\1D46B,\char"\1D46C,\char"\1D46D,\char"\1D46E,\char"\1D46F,
+    \char"\1D470,\char"\1D471,\char"\1D472,\char"\1D473,\char"\1D474,\char"\1D475,\char"\1D476,\char"\1D477,
+    \char"\1D478,\char"\1D479,\char"\1D47A,\char"\1D47B,\char"\1D47C,\char"\1D47D,\char"\1D47E,\char"\1D47F,
+    \char"\1D480,\char"\1D481
+}
+
+
+\def\latinbolditaliclower{%
+    \char"\1D482,\char"\1D483,\char"\1D484,\char"\1D485,\char"\1D486,\char"\1D487,\char"\1D488,\char"\1D489,
+    \char"\1D48A,\char"\1D48B,\char"\1D48C,\char"\1D48D,\char"\1D48E,\char"\1D48F,\char"\1D490,\char"\1D491,
+    \char"\1D492,\char"\1D493,\char"\1D494,\char"\1D495,\char"\1D496,\char"\1D497,\char"\1D498,\char"\1D499,
+    \char"\1D49A,\char"\1D49B
+}
+
+
+\def\frakturlower{%
+    \char"\1D51E,\char"\1D51F,\char"\1D520,\char"\1D521,\char"\1D522,\char"\1D523,\char"\1D524,\char"\210E,
+    \char"\1D526,\char"\1D527,\char"\1D528,\char"\1D529,\char"\1D52A,\char"\1D52B,\char"\1D52C,\char"\1D52D,
+    \char"\1D52E,\char"\1D52F,\char"\1D530,\char"\1D531,\char"\1D532,\char"\1D533,\char"\1D534,\char"\1D535,
+    \char"\1D536,\char"\1D537
+}
+
+
+\def\frakturupper{%
+    \char"\1D504,\char"\1D505,\char"\212D,\char"\1D507,\char"\1D508,\char"\1D509,\char"\1D50A,\char"\210C,
+    \char"\2111,\char"\1D50D,\char"\1D50E,\char"\1D50F,\char"\1D510,\char"\1D511,\char"\1D512,\char"\1D513,
+    \char"\1D514,\char"\211C,\char"\1D516,\char"\1D517,\char"\1D518,\char"\1D519,\char"\1D51A,
+    \char"\1D51C,\char"\2128
+}
+
+\def\frakturboldupper{%
+    \char"\1D56C,\char"\1D56D,\char"\1D56E,\char"\1D56F,\char"\1D570,\char"\1D571,\char"\1D572,\char"\1D573,
+    \char"\1D574,\char"\1D575,\char"\1D576,\char"\1D577,\char"\1D578,\char"\1D579,\char"\1D57A,\char"\1D57B,
+    \char"\1D57C,\char"\1D57D,\char"\1D57E,\char"\1D57F,\char"\1D580,\char"\1D581,\char"\1D582,\char"\1D583,
+    \char"\1D584,\char"\1D585
+}
+
+\def\frakturboldlower{%
+    \char"\1D586,\char"\1D587,\char"\1D588,\char"\1D589,\char"\1D58A,\char"\1D58B,\char"\1D58C,\char"\1D58D,
+    \char"\1D58E,\char"\1D58F,\char"\1D590,\char"\1D591,\char"\1D592,\char"\1D593,\char"\1D594,\char"\1D595,
+    \char"\1D596,\char"\1D597,\char"\1D598,\char"\1D599,\char"\1D59A,\char"\1D59B,\char"\1D59C,\char"\1D59D,
+    \char"\1D59E,\char"\1D59F
+}
+
+
+\def\scriptlower{%
+    \char"\1D4B6,\char"\1D4B7,\char"\1D4B8,\char"\1D4B9,\char"\1D4BA,\char"\1D4BB,\char"\1D4BC,\char"\1D4BD,
+    \char"\1D4BE,\char"\1D4BF,\char"\1D4C0,\char"\1D4C1,\char"\1D4C2,\char"\1D4C3,\char"\1D4C4,\char"\1D4C5,
+    \char"\1D4C6,\char"\1D4C7,\char"\1D4C8,\char"\1D4C9,\char"\1D4CA,\char"\1D4CB,\char"\1D4CC,\char"\1D4CD,
+    \char"\1D4CE,\char"\1D4CF%
+}
+
+%FIXME
+\def\scriptupper{
+    \mathscr{A}, \mathscr{B}, \mathscr{C}, \mathscr{D}, \mathscr{E}, \mathscr{F}, \mathscr{G}, \mathscr{H}, \mathscr{I}, \mathscr{J}, \mathscr{K}, \mathscr{L}, \mathscr{M},
+    \mathscr{N}, \mathscr{O}, \mathscr{P}, \mathscr{Q}, \mathscr{R}, \mathscr{S}, \mathscr{T}, \mathscr{U}, \mathscr{V}, \mathscr{W}, \mathscr{X}, \mathscr{Y}, \mathscr{Z}
+}
+
+
+\def\doublestruckupper{%
+    \char"\1D538, % A
+    \char"\1D539, % B
+    \char"\2102,  % C
+    \char"\1D53B, % D
+    \char"\1D53C, % E
+    \char"\1D53D, % F
+    \char"\1D53E, % G
+    \char"\210D,  % H
+    \char"\1D540, % I
+    \char"\1D541, % J
+    \char"\1D542, % K
+    \char"\1D543, % L
+    \char"\1D544, % M
+    \char"\2115,  % N
+    \char"\1D546, % O
+    \char"\2119,  % P
+    \char"\211A,  % Q
+    \char"\211D,  % R
+    \char"\1D54A, % S
+    \char"\1D54B, % T
+    \char"\1D54C, % U
+    \char"\1D54D, % V
+    \char"\1D54E, % W
+    \char"\1D54F, % X
+    \char"\1D550, % Y
+    \char"\2124   % Z
+}
+
+\def\doublestrucklower{%
+    \char"\1D552, % a
+    \char"\1D553, % b
+    \char"\1D554, % c
+    \char"\1D555, % d
+    \char"\1D556, % e
+    \char"\1D557, % f
+    \char"\1D558, % g
+    \char"\1D559, % h
+    \char"\1D55A, % i
+    \char"\1D55B, % j
+    \char"\1D55C, % k
+    \char"\1D55D, % l
+    \char"\1D55E, % m
+    \char"\1D55F, % n
+    \char"\1D560, % o
+    \char"\1D561, % p
+    \char"\1D562, % q
+    \char"\1D563, % r
+    \char"\1D564, % s
+    \char"\1D565, % t
+    \char"\1D566, % u
+    \char"\1D567, % v
+    \char"\1D568, % w
+    \char"\1D569, % x
+    \char"\1D56A, % y
+    \char"\1D56B  % z
+}
+
+\def\doublestrucknumerals{%
+    \char"\1D7D8, % 0
+    \char"\1D7D9, % 1
+    \char"\1D7DA, % 2
+    \char"\1D7DB, % 3
+    \char"\1D7DC, % 4
+    \char"\1D7DD, % 5
+    \char"\1D7DE, % 6
+    \char"\1D7DF, % 7
+    \char"\1D7E0, % 8
+    \char"\1D7E1 
+}
+
+
+
+\def\greeksansboldupper{%
+    \char"1D756,
+    \char"1D757,
+    \char"1D758,
+    \char"1D759,
+    \char"1D75A,
+    \char"1D75B,
+    \char"1D75C,
+    \char"1D75D,
+    \char"1D75E,
+    \char"1D75F,
+    \char"1D760,
+    \char"1D761,
+    \char"1D762,
+    \char"1D763,
+    \char"1D764,
+    \char"1D765,
+    \char"1D766,
+    \char"1D767,
+    \char"1D768,
+    \char"1D769,
+    \char"1D76A,
+    \char"1D76B,
+    \char"1D76C,
+    \char"1D76D,
+    \char"1D76E%
+}
+
+\def\greeksansboldlower{%
+    \char"\1D770, % alpha
+    \char"\1D771, % beta
+    \char"\1D772, % gamma
+    \char"\1D773, % delta
+    \char"\1D774, % epsilon
+    \char"\1D775, % zeta
+    \char"\1D776, % eta
+    \char"\1D777, % theta
+    \char"\1D778, % iota
+    \char"\1D779, % kappa
+    \char"\1D77A, % lambda
+    \char"\1D77B, % mu
+    \char"\1D77C, % nu
+    \char"\1D77D, % xi
+    \char"\1D77E, % omicron
+    \char"\1D77F, % pi
+    \char"\1D780, % rho
+    \char"\1D781, % final sigma
+    \char"\1D782, % sigma
+    \char"\1D783, % tau
+    \char"\1D784, % upsilon
+    \char"\1D785, % phi
+    \char"\1D786, % chi
+    \char"\1D787, % psi
+    \char"\1D788, % omega
+}
+
+% Greek Lowercase Bold Italic (Mathematical)
+\def\greekbolditaliclower{
+    \char"\1D736, % alpha
+    \char"\1D737, % beta
+    \char"\1D738, % gamma
+    \char"\1D739, % delta
+    \char"\1D73A, % epsilon
+    \char"\1D73B, % zeta
+    \char"\1D73C, % eta
+    \char"\1D73D, % theta
+    \char"\1D73E, % iota
+    \char"\1D73F, % kappa
+    \char"\1D740, % lambda
+    \char"\1D741, % mu
+    \char"\1D742, % nu
+    \char"\1D743, % xi
+    \char"\1D744, % omicron
+    \char"\1D745, % pi
+    \char"\1D746, % rho
+    \char"\1D747, % terminal sigma
+    \char"\1D748, % sigma
+    \char"\1D749, % tau
+    \char"\1D74A, % upsilon
+    \char"\1D74B, % phi
+    \char"\1D74C, % chi
+    \char"\1D74D, % psi
+    \char"\1D74E, % omega
+    \char"\1D750, % varepsilon
+    \char"\1D751, % vartheta
+    \char"\1D752, % varkappa
+    \char"\1D753, % varphi
+    \char"\1D754, % varrho
+    \char"\1D755  % varpi
+}
+
+
+\def\scriptboldupper{%
+    \char"\1D4D0,\char"\1D4D1,\char"\1D4D2,\char"\1D4D3,\char"\1D4D4,\char"\1D4D5,\char"\1D4D6,\char"\1D4D7,%
+    \char"\1D4D8,\char"\1D4D9,\char"\1D4DA,\char"\1D4DB,\char"\1D4DC,\char"\1D4DD,\char"\1D4DE,\char"\1D4DF,%
+    \char"\1D4E0,\char"\1D4E1,\char"\1D4E2,\char"\1D4E3,\char"\1D4E4,\char"\1D4E5,\char"\1D4E6,\char"\1D4E7,%
+    \char"\1D4E8,\char"\1D4E9}
+
+
+
+\def\greekboldlower{
+    \char"\1D6C2, % alpha
+    \char"\1D6C3, % beta
+    \char"\1D6C4, % gamma
+    \char"\1D6C5, % delta
+    \char"\1D6C6, % epsilon
+    \char"\1D6C7, % zeta
+    \char"\1D6C8, % eta
+    \char"\1D6C9, % theta
+    \char"\1D6CA, % iota
+    \char"\1D6CB, % kappa
+    \char"\1D6CC, % lambda
+    \char"\1D6CD, % mu
+    \char"\1D6CE, % nu
+    \char"\1D6CF, % xi
+    \char"\1D6D0, % omicron
+    \char"\1D6D1, % pi
+    \char"\1D6D2, % rho
+    \char"\1D6D3, % terminal sigma
+    \char"\1D6D4, % sigma
+    \char"\1D6D5, % tau
+    \char"\1D6D6, % upsilon
+    \char"\1D6D7, % phi
+    \char"\1D6D8, % chi
+    \char"\1D6D9, % psi
+    \char"\1D6DA, % omega
+    \char"\1D6DC, % varepsilon
+    \char"\1D6DD, % vartheta
+    \char"\1D6DE, % varkappa
+    \char"\1D6DF, % varphi
+    \char"\1D6E0, % varrho
+    \char"\1D6E1  % varpi
+}
+
+% Greek Uppercase Bold (Mathematical)
+\def\greekboldupper{
+    \char"\1D6A8, % Alpha
+    \char"\1D6A9, % Beta
+    \char"\1D6AA, % Gamma
+    \char"\1D6AB, % Delta
+    \char"\1D6AC, % Epsilon
+    \char"\1D6AD, % Zeta
+    \char"\1D6AE, % Eta
+    \char"\1D6AF, % Theta
+    \char"\1D6B0, % Iota
+    \char"\1D6B1, % Kappa
+    \char"\1D6B2, % Lambda
+    \char"\1D6B3, % Mu
+    \char"\1D6B4, % Nu
+    \char"\1D6B5, % Xi
+    \char"\1D6B6, % Omicron
+    \char"\1D6B7, % Pi
+    \char"\1D6B8, % Rho
+    \char"\1D6BA, % Sigma
+    \char"\1D6BB, % Tau
+    \char"\1D6BC, % Upsilon
+    \char"\1D6BD, % Phi
+    \char"\1D6BE, % Chi
+    \char"\1D6BF,  % Psi
+    \char"\1D6C0 % Omega
+}
+
+
+% Greek Uppercase Italic (Mathematical)
+\def\greekitalicupper{%
+    \char"\1D6E2, % 𝛢 Alpha
+    \char"\1D6E3, % 𝛣 Beta
+    \char"\1D6E4, % 𝛤 Gamma
+    \char"\1D6E5, % 𝛥 Delta
+    \char"\1D6E6, % 𝛦 Epsilon
+    \char"\1D6E7, % 𝛧 Zeta
+    \char"\1D6E8, % 𝛨 Eta
+    \char"\1D6E9, % 𝛩 Theta
+    \char"\1D6EA, % 𝛪 Iota
+    \char"\1D6EB, % 𝛫 Kappa
+    \char"\1D6EC, % 𝛬 Lambda
+    \char"\1D6ED, % 𝛭 Mu
+    \char"\1D6EE, % 𝛮 Nu
+    \char"\1D6EF, % 𝛯 Xi
+    \char"\1D6F0, % 𝛰 Omicron
+    \char"\1D6F1, % 𝛱 Pi
+    \char"\1D6F2, % 𝛲 Rho
+    \char"\1D6F3, % 𝛳 Theta (variant)
+    \char"\1D6F4, % 𝛴 Sigma
+    \char"\1D6F5, % 𝛵 Tau
+    \char"\1D6F6, % 𝛶 Upsilon
+    \char"\1D6F7, % 𝛷 Phi
+    \char"\1D6F8, % 𝛸 Chi
+    \char"\1D6F9,  % 𝛹 Psi
+    \char"\1D6FA % 𝛺 Omega
+}
+
+
+
+% Greek Lowercase Italic (Mathematical)
+\def\greekitaliclower{
+    \char"\1D6FC, % alpha
+    \char"\1D6FD, % beta
+    \char"\1D6FE, % gamma
+    \char"\1D6FF, % delta
+    \char"\1D700, % epsilon
+    \char"\1D701, % zeta
+    \char"\1D702, % eta
+    \char"\1D703, % theta
+    \char"\1D704, % iota
+    \char"\1D705, % kappa
+    \char"\1D706, % lambda
+    \char"\1D707, % mu
+    \char"\1D708, % nu
+    \char"\1D709, % xi
+    \char"\1D70A, % omicron
+    \char"\1D70B, % pi
+    \char"\1D70C, % rho
+    \char"\1D70D, % terminal sigma
+    \char"\1D70E, % sigma
+    \char"\1D70F, % tau
+    \char"\1D710, % upsilon
+    \char"\1D711, % phi
+    \char"\1D712, % chi
+    \char"\1D713, % psi
+    \char"\1D714, % omega
+
+    % Variant forms
+    \char"\1D716, % varepsilon
+    \char"\1D717, % vartheta
+    \char"\1D718, % varkappa
+    \char"\1D719, % varphi
+    \char"\1D71A, % varrho
+    \char"\1D71B  % varpi
+}
+
+
+
+% Greek Bold Italic Uppercase
+\def\greekbolditalicupper{
+    \char"\1D6E2, % Alpha
+    \char"\1D6E3, % Beta
+    \char"\1D6E4, % Gamma
+    \char"\1D6E5, % Delta
+    \char"\1D6E6, % Epsilon
+    \char"\1D6E7, % Zeta
+    \char"\1D6E8, % Eta
+    \char"\1D6E9, % Theta
+    \char"\1D6EA, % Iota
+    \char"\1D6EB, % Kappa
+    \char"\1D6EC, % Lambda
+    \char"\1D6ED, % Mu
+    \char"\1D6EE, % Nu
+    \char"\1D6EF, % Xi
+    \char"\1D6F0, % Omicron
+    \char"\1D6F1, % Pi
+    \char"\1D6F2, % Rho
+    \char"\1D6F3, % Final Sigma
+    \char"\1D6F4, % Sigma
+    \char"\1D6F5, % Tau
+    \char"\1D6F6, % Upsilon
+    \char"\1D6F7, % Phi
+    \char"\1D6F8, % Chi
+    \char"\1D6F9, % Psi
+    \char"\1D6FA  % Omega
+}
+
+
+
+
+% Greek Uppercase Bold Italic (Mathematical)
+\def\greekbolditalicupper{
+    \char"\1D71C, % Alpha
+    \char"\1D71D, % Beta
+    \char"\1D71E, % Gamma
+    \char"\1D71F, % Delta
+    \char"\1D720, % Epsilon
+    \char"\1D721, % Zeta
+    \char"\1D722, % Eta
+    \char"\1D723, % Theta
+    \char"\1D724, % Iota
+    \char"\1D725, % Kappa
+    \char"\1D726, % Lambda
+    \char"\1D727, % Mu
+    \char"\1D728, % Nu
+    \char"\1D729, % Xi
+    \char"\1D72A, % Omicron
+    \char"\1D72B, % Pi
+    \char"\1D72C, % Rho
+    \char"\1D72E, % Sigma
+    \char"\1D72F, % Tau
+    \char"\1D730, % Upsilon
+    \char"\1D731, % Phi
+    \char"\1D732, % Chi
+    \char"\1D733  % Psi
+    , \char"\1D734 % Omega
+}
+
+\def\alphabetlisttext{%
+latinupper,
+latinlower,
+numerals,
+greekupper,
+greeklower,
+latinitalicupper,
+latinitaliclower,
+greekitalicupper,
+greekitaliclower,
+frakturupper,
+frakturlower,
+scriptupper,
+doublestruckupper,
+doublestrucknumerals}
+
+\def\alphabetlistbold{%
+latinboldupper,
+latinboldlower,
+numeralsbold,
+greekboldupper,
+greekboldlower,
+latinbolditalicupper,
+latinbolditaliclower,
+greekbolditalicupper,
+greekbolditaliclower,
+frakturboldupper,
+frakturboldlower,
+scriptboldupper%
+}
+
+%Some alphabets are missing
+%Script lower
+%Script bold lower
+%Dooublestruck lower
+%Monospace
+%All the sans
+
+\edef\alphabetlistall{\alphabetlisttext,\alphabetlistbold}
+
+\def\allstyles{text,script,scriptscript}
+
+
+
+\def\allsizes{
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+}
+
+\def\allfences{%
+  brace,
+  angle,
+  parenthesis,
+  bracket,
+  bar,
+  ceiling,
+  floor,
+  openbracket%
+  }
+
+\def\allintegrals{%
+  \int,
+  \iint,
+  \iiint,
+  \iiiint,
+  \oint,
+  \oiint,
+  \oiiint,
+  \ointc,
+  \aointc,
+  \barint,
+  \slashint,
+  \intc,
+  \aodownintc%
+}
+
+\def\overbraces{%
+\overparent,
+\overbrace,
+\overbar,
+\overbracket
+}
+
+\def\underbraces{%
+\underparent,
+\underbrace,
+\underbar,
+\underbracket}
+
+\def\doublebraces{%
+\doubleparent,%
+\doublebrace,%
+ \doublebar,%
+ \doublebracket%
+ }
+
+ \edef\allbraces{\overbraces,\underbraces,\doublebraces}
+
+
+ \def\overarrows{%
+    \overleftrightarrow,
+    \overleftarrow,
+    \overtwoheadleftarrow,
+    \overlefttailarrow,
+    \overleftbararrow,
+    \overlefthookarrow,
+    \overleftharpoondown,
+    \overleftharpoonup,
+    \overLeftarrow,
+    \overLeftbararrow,
+    \overLeftrightarrow,
+    \overrightarrow,
+    \overtwoheadrightarrow,
+    \overrighttailarrow,
+    \overrightbararrow,
+    \overrighthookarrow,
+    \overrightharpoondown,
+    \overrightharpoonup,
+    \overRightarrow,
+    \overRightbararrow%
+}
+
+
+\def\underarrows{%
+    \underleftrightarrow,
+    \underleftarrow,
+    \undertwoheadleftarrow,
+    \underlefttailarrow,
+    \underlefttailarrow,
+    \underlefthookarrow,
+    \underleftharpoondown,
+    \underleftharpoonup,
+    \underLeftarrow,
+    \underLeftbararrow,
+    \underLeftrightarrow,
+    \underrightarrow,
+    \undertwoheadrightarrow,
+    \underrighttailarrow,
+    \underrighttailarrow,
+    \underrighthookarrow,
+    \underrightharpoondown,
+    \underrightharpoonup,
+    \underRightarrow,
+    \underRightbararrow%
+}
+
+
+
+\edef\allarrows{\overarrows,\underarrows}
+
+\def\accents{%
+  \grave, \acute, \hat,
+ \tilde, \bar, \breve,
+ \dot, \ddot, \ring,
+ \check, \overleftharpoon, \overrightharpoon,
+ \dddot, \ddddot%
+}
+ 
+\def\wideaccents{%
+  \widehat, \widetilde,
+  \widebar, \widecheck,
+  \wideoverleftharpoon, \wideoverrightharpoon,
+  \wideoverleftarrow, \wideoverrightarrow,
+  \wideoverleftrightarrow, \wideunderbar,
+  \wideunderleftrightarrow, \wideunderrightharpoon,
+  \wideunderleftharpoon, \wideunderleftarrow,
+  \wideunderrightarrow%
+}
+
+
+\def\alloperators{
+\char"\002B,
+\char"\00B1,
+\char"\2212,
+\char"\2213,
+\char"\2214,
+\char"\2238,
+\char"\2242,
+\char"\00D7,
+\char"\00F7,
+\char"\2A2F,
+\char"\2293,
+\char"\2294,
+\char"\29C6,
+\char"\29C5,
+\char"\29C4,
+\char"\29C8,
+\char"\29C7,
+\char"\22A1,
+\char"\229F,
+\char"\229E,
+\char"\22A0,
+\char"\229B,
+\char"\29B6,
+\char"\29BF,
+\char"\29BA,
+\char"\29B5,
+\char"\29BB,
+\char"\229D,
+\char"\229C,
+\char"\29BC,
+\char"\2298,
+\char"\29C1,
+\char"\29C0,
+\char"\2296,
+\char"\2297,
+\char"\2A00,
+\char"\2A01,
+\char"\2A02,
+\char"\2299,
+\char"\29B7,
+\char"\29B9,
+\char"\2295,
+\char"\29B8,
+\char"\229A,
+\char"\29BE,
+\char"\29BD,
+\char"\2A05,
+\char"\2A06,
+\char"\2A09,
+\char"\2A03,
+\char"\2A04,
+\char"\22BC,
+\char"\22C2,
+\char"\22C0,
+\char"\22C1,
+\char"\22C3,
+\char"\2227,
+\char"\2228,
+\char"\22CF,
+\char"\22CE,
+\char"\22D2,
+\char"\2229,
+\char"\222A,
+\char"\22D3,
+\char"\228C,
+\char"\228D,
+\char"\228E,
+\char"\22BB,
+\char"\22BD,
+\char"\22C4,
+\char"\22B2,
+\char"\2241,
+\char"\22C7,
+\char"\22AE,
+\char"\22B9,
+\char"\223E,
+\char"\22C9,
+\char"\221E,
+\char"\223F,
+\char"\002F,
+\char"\005C}
+
+
+\def\allequalityrelations{
+    =,
+    ⩵,
+    ⩶,
+    ≔,
+    ≕,
+    ⩴,
+    ≝,
+    ≅,
+    ≞,
+    ≜,
+    ≛,
+    ≗,
+    ≖,
+    ≣,
+    ≑,
+    ∺,
+    ≚,
+    ≡,
+    ≍,
+    ≘,
+    ≠,
+    ≭,
+    ≢,
+    ⊭,
+    ≉,
+    ≟,
+    ≈,
+    ≒,
+    ≆,
+    ≃,
+    ~,
+    ∽,
+    \mathrel{⋍},
+    ≓,
+    ≐,
+    ∝,
+    ≙,
+    ⊩,
+    ⌆,
+    ⌅,
+    ~}
+
+\def\allcomparisonrelations{
+    <,
+    >,
+    ≤,
+    ≥,
+    ≦,
+    ≧,
+    ⋖,
+    ⋗,
+    ≨,
+    ≩,
+    ⋦,
+    ⋧,
+    ≲,
+    ≳,
+    ≶,
+    ≷,
+    ⋚,
+    ⋛,
+    ⪅,
+    ⪆,
+    ⩽,
+    ⩾,
+    ⪕,
+    ⪖,
+    ⪉,
+    ⪊,
+    ≪,
+    ≫,
+    ⋘,
+    ⋙,
+    ⋜,
+    ⋝,
+    ≮,
+    ≯,
+    ≰,
+    ≱,
+    ≹,
+    ≴,
+    ≵,
+    ≸,
+    ⊂,
+    ⊃,
+    ⊆,
+    ⊇,
+    ⊊,
+    ⊋,
+    ⊈,
+    ⊉,
+    ⊄,
+    ⊅,
+    ⋐,
+    ⋑,
+    ⊏,
+    ⊑,
+    ⋤,
+    ⊐,
+    ⊒,
+    ⋥,
+    ⋢,
+    ⋣,
+    ≺,
+    ⋨,
+    ≼,
+    ≾,
+    ⊰,
+    ≻,
+    ⋩,
+    ≽,
+    ⋞,
+    ⋟,
+    ≿,
+    ⊱,
+    ⊀,
+    ⊁,
+    ⋠,
+    ⋡,
+    ⊬,
+    ⊴,
+    ⊳,
+    ⊵,
+    ⋪,
+    ⋬,
+    ⋫,
+    ⋭,
+    ⋌,
+    ⋊,
+    ⊦,
+    ⊨,
+    ⊧,
+    ⊫,
+    ⊪,
+    ⊤,
+    ⊣,
+    ⊢,
+    ⫟,
+    ⫞,
+    ⫠,
+    ⊥,
+    ¬,
+    ⌐,
+    ∹}
+
+
+\def\normaltext#1{#1}
+\edef\scripttext#1{H^{#1}}
+\def\scriptscripttext#1{H^{H^{#1}}}
+
+\def\sizelist{.2cm,.4cm,1cm}
+\def\newstyles{normaltext,scripttext,scriptscripttext}
+
+
+
+
+\def\doloopoverfonts#1#2{%
+\doloopoverlist
+#1
+{
+    \edef\fontname{\recursestring}
+%    \rightaligned{\fontname}\crlf
+    \setupbodyfont[\recursestring]
+    \expanded{\chapter{\recursestring}}
+    \usebodyfont[\recursestring]
+    #2
+    \blank[10] 
+}
+}
+
+
+\def\doloopoverlistONE#1#2#3#4{%
+\doloopoverlist#1
+{
+\edef#2{\recursestring}
+#4
+#3
+}
+}
+
+
+\def\doloopoverlistTWO#1#2#3#4#5#6#7{%
+\doloopoverlist#1
+{
+\edef#2{\recursestring}
+%\inleft{\expandafter\string\recursestring}
+\doloopoverlist#4
+{
+\edef#5{\recursestring}
+%\inright{\expandafter\string\recursestring}
+#7
+#6
+}
+#3
+}
+}
+
+
+
+
+\def\doloopoverlistTHREE#1#2#3#4#5#6#7#8#9#A{%
+\doloopoverlist#1
+{
+{%
+\edef#2{\recursestring}
+\inleft{\expandafter\string\recursestring}
+\doloopoverlist#4
+{%
+\edef#5{\recursestring}  {
+%\inright{\expandafter\string\recursestring}%
+\doloopoverlist#7
+{%
+\edef#8{\recursestring} #A
+#9%
+}
+}
+#6%
+} 
+#3%
+}
+}
+}
+
+
+%% Labelling in the margins - this is not working
+\def\showlabels{0} 
+\def\labelleft{
+    \ifnum \showlabels=1
+%\inleft{\expandafter\string\recursestring}
+\fi}
+
+
+\def\labelright{
+    \ifnum \showlabels=1
+\inleft{\expandafter\string\recursestring}
+\fi}
+
+
+%Main functions to show pieces of the font
+\def\showfencesI{%
+\section{Fences I}
+\doloopoverlistTHREE{\allfences}{\fence}{\blank}{\stylelist}{\style}{\blank}{\allsizes}{\size}{}
+{
+\math[mathstyle=\style]{\fenced[\fence][size=\size]{H}}
+}
+}
+
+% \def\showfencesI{%
+% \section{Fences I}
+% \doloopoverlistTHREE{\allfences}{\fence}{\blank}{\newstyles}{\style}{\blank}{\allsizes}{\size}{}
+% {
+% %\math{\scripttext{\fenced[\fence][size=\size]{H}}}
+% \math{\csname\style\endcsname{\fenced[brace][size=\size]{H}}}
+% }
+% }
+
+
+
+\def\showfencesII{%
+\section{Fences II}
+\doloopoverlistTWO{\allfences}{\fencetype}{\blank}{\stylelist}{\style}{\blank}
+{
+\math[mathstyle=\style]{\fenced[\fencetype][size=12]{%
+\fenced[\fencetype][size=11]{%
+\fenced[\fencetype][size=10]{%
+\fenced[\fencetype][size=9]{%
+\fenced[\fencetype][size=8]{%
+\fenced[\fencetype][size=7]{%
+\fenced[\fencetype][size=6]{%
+\fenced[\fencetype][size=5]{%
+\fenced[\fencetype][size=4]{%
+\fenced[\fencetype][size=3]{%
+\fenced[\fencetype][size=2]{%
+\fenced[\fencetype][size=1]{%
+\fenced[\fencetype][size=0]{H}%
+}}}}}}}}}}}}}
+}
+}
+
+\def\showfencesIII{%
+\section{Fences III}
+\doloopoverlistTWO{\allsizes}{\size}{\blank}{\stylelist}{\style}{\blank}{
+\math[mathstyle=\style]
+{\fenced[brace][size=\size]{\fenced[angle][size=\size]{\fenced[parenthesis][size=\size]{\fenced[bracket][size=\size]{\fenced[bar][size=\size]{\fenced[ceiling][size=\size]{\fenced[floor][size=\size]{\fenced[openbracket][size=\size]{H}}}}}}}}
+}
+}
+}
+
+\def\showintegrals{%
+\section{Integrals}
+%\def\allintegrals{int,iint}
+%\def\sizelist{1cm}
+\doloopoverlistTHREE{\allintegrals}{\integraltype}{\blank}{\sizelist}{\size}{\blank}{\newstyles}{\style}{}{%
+\math{\csname \style \endcsname{\integraltype[size=\size,bottom=a,top=b]{f(x)dx}}}%
+}%
+}
+
+% \def\showintegrals{%
+% \section{Integrals}
+% %\def\allintegrals{int,iint}
+% \def\sizelist{.2cm,.4cm,1cm}
+% \doloopoverlistTHREE{\allintegrals}{\integraltype}{\blank}{\sizelist}{\size}{\blank}{\stylelist}{\style}{}{%
+% \math[mathstyle=\style]{\integraltype[size=\size,bottom=a,top=b]{f(x)dx}}%
+% }%
+% }
+
+
+
+
+
+\def\showalphabets{%
+\section{Alphabets}
+\doloopoverlistTWO{\alphabetlistall}{\alphabet}{}{\stylelist}{\style}{}{
+    {\math[mathematics=normaldefaults,mathstyle=\style]{
+\doloopoverlist
+{\csname\alphabet\endcsname}
+  {\recursestring}}}
+
+  }
+}
+
+\def\showovernestedbraces{%
+\section{Nested Overbraces}
+\doloopoverlistONE{\overbraces}{\brace}{}{
+\startformula
+{{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{1}^1+1}^{2}+1}^{3}-1}^{2}+1}^{3}-1}^{2}-1}^{1}-1}^{0}}}
+\stopformula
+}
+}
+
+
+\def\showundernestedbraces{%
+\section{Nested Underbraces}
+\doloopoverlistONE{\underbraces}{\brace}{}{
+\startformula
+\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{\brace[stretch=no]{1}_1+1}_{2}+1}_{3}-1}_{2}+1}_{3}-1}_{2}-1}_{1}-1}_{0}
+\stopformula
+}
+}
+
+\def\showbraces{%
+\section{Braces}
+\def\expressionlist{H,HH,HHH,HHHHHHH}
+\doloopoverlistTHREE{\allbraces}{\bracetype}{\blank}{\expressionlist}{\expression}{\blank}{\newstyles}{\style}{}
+{
+\math{\csname \style \endcsname{\bracetype{\expression}}
+}
+}
+}
+
+\def\showaccents{%
+\section{Accents}
+\doloopoverlistTHREE{\alphabetlist}{\alphabet}{\blank}{\stylelist}{\style}{\blank}{\accents}{\accenttype}{}
+{\math[mathematics=normaldefaults,mathstyle=\style]{
+\doloopoverlist
+{\csname\alphabet\endcsname}
+  {\accenttype{\recursestring}\quad \allowbreak}}\crlf
+}}
+
+\def\showspacing{%
+\section{Spacing}
+\doloopoverlistTWO{\alphabetlist}{\alphabet}{\blank}{\stylelist}{\style}{\blank}
+{\math[mathematics=normaldefaults,mathstyle=\style]{
+\doloopoverlist
+{\csname\alphabet\endcsname}
+  {|\recursestring|\allowbreak\quad}}
+}}
+
+\def\showsuperscriptsI{%
+\section{Superscripts I}
+\def\superscriptcharacter{\rm H}
+\def\subscriptcharacter{\rm M}
+\doloopoverlistTWO{\alphabetlist}{\alphabet}{\blank}{\stylelist}{\style}{\blank}
+{\math[mathematics=normaldefaults,mathstyle=\style]{
+\doloopoverlist
+{\csname\alphabet\endcsname}
+  {\recursestring^{\superscriptcharacter}_{\subscriptcharacter}\allowbreak\quad}}
+}}
+
+\def\showsuperscriptsII{%
+\section{Superscripts II}
+\def\maincharacter{\rm H}
+\doloopoverlistTWO{\alphabetlist}{\alphabet}{\crlf}{\stylelist}{\style}{\crlf}
+{\math[mathematics=normaldefaults,mathstyle=\style]{
+\doloopoverlist
+{\csname\alphabet\endcsname}
+  {{\maincharacter}^{\recursestring}_{\recursestring} \allowbreak\quad}}
+}}
+
+
+\def\showradicals{%
+\section{Radicals}
+
+\def\expressionlist{b,a+b,c+d+e,z+z+z+z+z,\frac{a+b}{c+d}}
+\def\rootlist{n,m,1/3}
+\doloopoverlistTHREE{\expressionlist}{\expression}{\blank}{\rootlist}{\rootvalue}{\blank}{\newstyles}{\style}{}
+{
+\math{\csname \style \endcsname{\sqrt[\rootvalue]{\expression}}}
+}
+}
+
+% \def\showwideaccents{%
+% \section{Wideaccents}
+% \def\expressionlist{o,o+o,a+b+c,a+b+c+d+e+f}
+% \def\rootlist{n,m,1/3}
+% \doloopoverlistTHREE{\wideaccents}{\wideaccent}{\blank}{\stylelist}{\style}{\blank}{\expressionlist}{\expression}{}
+% {
+% \math[mathstyle=\style]{\wideaccent{\expression}}
+% }
+% }
+
+\def\showwideaccents{%
+\section{Wideaccents}
+\def\expressionlist{o,o+o,a+b+c,a+b+c+d+e+f}
+\def\rootlist{n,m,1/3}
+\doloopoverlistTHREE{\wideaccents}{\wideaccent}{\blank}{\newstyles}{\style}{\blank}{\expressionlist}{\expression}{}
+{
+\math{\csname \style \endcsname{\wideaccent[stretch=no]{\expression}}}
+}
+}
+
+\def\showarrows{%
+\section{Arrows}
+\def\expressionlist{x,x+y,a+b+c,a+b+c+d+e+f}
+\doloopoverlistTHREE{\allarrows}{\arrow}{\blank}{\newstyles}{\style}{\blank}{\expressionlist}{\expression}{}
+{
+\math{\csname \style \endcsname{\arrow{\expression}}}
+}
+}
+
+
+
+% \def\showprimes{%
+% \section{Primes}
+% \def\expressionlist{g,h,o}
+% \def\primelist{','',''',''''}
+% \doloopoverlistTHREE{\primelist}{\primetype}{}{\expressionlist}{\expression}{\blank}{\stylelist}{\style}{}
+% {
+% \math[mathstyle=\style]{\expression\primetype}
+% }
+% }
+
+\def\showprimes{%
+\section{Primes}
+\def\expressionlist{g,h,o}
+\def\primelist{','',''',''''}
+\doloopoverlistTHREE{\primelist}{\primetype}{}{\expressionlist}{\expression}{\blank}{\newstyles}{\style}{}
+{
+\math{\csname \style \endcsname{\expression\primetype}}
+}
+}
+
+
+
+\def\showfractions{%
+\section{Fractions}
+\def\expressionlist{1+2+\frac{a}{b}+\frac{h}{h},\frac{1}{2} + \frac{3}{4} + \frac{5}{6},\frac{a+b+c+d}{u+v+g+h},\frac{\frac{a}{b}}{\frac{c}{d}}}
+\doloopoverlistTWO{\expressionlist}{\expression}{\blank}{\stylelist}{\style}{}
+{
+\math[mathstyle=\style]{\expression}
+}
+}
+
+
+\def\showsymbols{%
+\section{Operators}
+\def\characterleft{x}
+\def\characterright{y}
+\def\allsymbols{\alloperators}
+\doloopoverlistTWO{\allsymbols}{\operatorsingle}{\break}{\stylelist}{\style}{}
+{
+\math[mathstyle=\style]{ABC\quad \operatorsingle\quad BCD} %%FIXME
+}
+
+\section{Relations}
+\def\characterleft{x}
+\def\characterright{y}
+\def\allsymbols{\allequalityrelations,\allcomparisonrelations}
+\doloopoverlistTWO{\allsymbols}{\operatorsingle}{\break}{\stylelist}{\style}{}
+{
+\math[mathstyle=\style]{ABC\quad \operatorsingle\quad BCD} %%FIXME
+}
+}

@@ -1,0 +1,119 @@
+% !TEX root = mathfonttester.tex
+\usetypescriptfile[type-imp-pennstander-local]
+
+
+
+\setupmathematics[default=normal,lcgreek=normal,ucgreek=normal]
+
+\definemathematics[normaldefaults][default=normal,lcgreek=none,ucgreek=none,mathstyle=scriptscript]
+
+\input mathfonttester_axes.tex
+ 
+\definepapersize[sheet][width=20cm]
+\setuppapersize[sheet][sheet]
+\setuplayout[width=14cm,rightmargin=3cm,leftmargin=3cm]
+
+
+\starttext
+
+
+\define[1]\MyTinyStyle{\switchtobodyfont[6pt]\color[gray]{#1}}
+\setupmargindata
+  [style=\MyTinyStyle]
+
+\setupinteraction[state=start]
+\setupindenting[no]
+\completecontent 
+
+\def\allfonts{pennstander-thin,pennstander-extralight,pennstander-light,pennstander-regular,pennstander-medium,pennstander-semibold,pennstander-bold,pennstander-extrabold,pennstander-black}
+\def\somefonts{pennstander-thin,pennstander-regular,pennstander-black}
+\def\manyfonts{pennstander-thin,pennstander-light,pennstander-regular,pennstander-bold,pennstander-black}
+
+\def\thin{pennstander-thin}
+
+
+\let\fontlist\somefonts
+\let\alphabetlist\alphabetlisttext
+
+\let\stylelist\allstyles
+%\def\stylelist{text}
+
+
+%\math{\scripttext{\fenced[bracket][size=4]{H}}}
+
+
+\def\sizelist{.2cm,.4cm,1cm} %used for extended shapes such as integrals
+%\def\newstyles{normaltext} %uncomment to supress testing of superscripts for various tests
+
+
+\startbuffer[fonttest]
+
+%\def\sizelist{1cm}
+% \showalphabets
+ \showintegrals
+% \showfencesI
+% \showfencesII
+% \showfencesIII
+%showbraces
+% \showradicals
+% \showwideaccents
+% \showundernestedbraces
+% \showovernestedbraces
+% \showarrows
+% \showprimes
+% \showfractions
+
+% \def\stylelist{text}
+% \def\newstyles{normaltext}
+% \showaccents
+% \showspacing
+% \showsuperscriptsI
+% \showsuperscriptsII
+% \showsymbols
+\stopbuffer
+
+
+\definelayer[MyLayer][
+  x=0mm, y=0mm,
+  width=\paperwidth, height=\paperheight
+]
+
+
+% \section{Integrals}
+% \def\sizelist{.2cm,.4cm,1cm}
+% \doloopoverlistTHREE{\allintegrals}{\integral}{\crlf}{\sizelist}{\size}{\crlf}{\stylelist}{\style}{\crlf}
+% {\math[mathstyle=\style]{\integral[size=\size,bottom=a,top=b]{A}}}
+
+
+
+% \math{H}
+% \math[mathstyle=script]{H}
+% \math[mathstyle=scriptscript]{H}
+
+% \math{\overparent{H}}
+% \math[mathstyle=script]{\overparent{H}}
+% \math[mathstyle=scriptscript]{\overparent{H}}
+% \math{H 2^H 2^{2^H}}
+% \math{H 2^{\overparent{H}} 2^{2^{\overparent{H}}}}
+% \math{H 2^{\hat{H}} 2^{2^{\hat{H}}}}
+
+
+\doloopoverfonts{\fontlist}{
+    \getbuffer[fonttest]
+}
+
+%\math[mathstyle=text]{\overbrace{HH}}
+%\math[mathstyle=script]{\overbrace{HH}}
+%\math[mathstyle=scriptscript]{\overbrace{HH}}
+
+%\math{2^{\overbrace{HH}}}
+%\math{2^{2^{\overbrace{HH}}}}
+
+
+
+
+\stoptext
+
+
+
+
