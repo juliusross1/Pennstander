@@ -82,7 +82,7 @@ The latest (not released) version of PennstanderMath has cheap optical sizing us
 
 ## Sample
 
-I am not sure how useful this font will be for long documents/papers, perhaps it is more suitable for posters or presentations.  I have been using it for writing solutions for students [sample](samples/Quiz4solutions.pdf).  Here is a sample of what motivated its creation (joint with Andrea Tomatis)
+I am not sure how useful this font will be for long documents/papers, perhaps it is more suitable for posters or presentations.  I have been using it for writing solutions for students.  Here is a sample of what motivated its creation (joint with Andrea Tomatis)
 
 <img src="https://github.com/juliusross1/Pennstander/blob/main/samples/CAsample.png" width="600">
 
