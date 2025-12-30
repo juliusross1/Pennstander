@@ -1,4 +1,4 @@
-% !TEX root = features.tex
+% !TEX root = pennstandercharacters.tex
 
 %% This needs to be tidied up a lot.
 
@@ -10,8 +10,6 @@
 \setupbodyfont[pennstander-thin-ss]
 \setupbodyfont[pennstander-regular-ss]
 \setupbodyfont[pennstander-bold-ss]
-
-%\definefontfeature[AllSS][{ss01=yes,ss02=yes,ss03=yes,ss04=yes,ss05=yes,ss06=yesss07=yes,zero=yes}]
 
 \definemathematics[uprightmathematics][default=normal,ucgreek=normal,lcgreek=normal]
 \definemathematics[italicmathematics][default=italic,ucgreek=italic,lcgreek=italic]
@@ -136,6 +134,7 @@ abcdefghijklmnopqrstuvwxyz\breakhere
 \getbuffer[#1]
 }
 }
+
 
 \section[title= Upright Latin and Greek upper and lower case]
 
@@ -621,6 +620,8 @@ U \mrightleftharpoons{1+2}{a+b+c} V \mtriplerel{1+2}{a+b+c} W
 
 \getbufferatweights{brackets}
 
+
+
 \subsection[title=Stylistic Alternatives]
 \startbuffer[alternatives]
 \starttabulate[|l|l|]
@@ -631,7 +632,6 @@ U \mrightleftharpoons{1+2}{a+b+c} V \mtriplerel{1+2}{a+b+c} W
 \NC ss05:\NC $\mathfrak A\ K\ L\ X\ Y\ Z\ x\ y$ \NR
 \NC ss07:\NC $7\ \mathbb 7$ \NR
 \stoptabulate
-
 \stopbuffer
 
 \doloopoverlist{pennstander-thin-ss,pennstander-regular-ss,pennstander-bold-ss}
@@ -639,6 +639,25 @@ U \mrightleftharpoons{1+2}{a+b+c} V \mtriplerel{1+2}{a+b+c} W
 \setupbodyfont[\recursestring]
 \getbuffer[alternatives]
 }
+
+
+
+
+\subsection[title=Non-Unicode Characters]
+\startbuffer[additionals]
+\starttabulate[|l|l|]
+\NC U+E1001 \NC $\char"E1001$\NR
+\NC U+E1002 \NC $\char"E1002$\NR
+\NC U+E1003 \NC $\char"E1003$\NR
+\NC U+E1004 \NC $\char"E1004$\NR
+\NC U+E1005 \NC $\char"E1005$\NR
+\NC U+E1006 \NC $\char"E1006$\NR
+\NC U+E1007 \NC $\char"E1007$\NR
+\stoptabulate
+\stopbuffer
+
+\getbufferatweights{additionals}
+
 
 \setupbodyfont[pennstander-regular]
 \startformula
