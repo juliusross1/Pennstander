@@ -25,6 +25,11 @@ Radicals
 Mathematical symbols (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
 Here is the [Pennstander Math Characters document](docs/pennstandercharacters.pdf)
+
+## CTAN
+
+This is available as [Pennstander-otf on CTAN](https://www.ctan.org/pkg/pennstander-otf) (thanks to Cédric Pierquet)
+
 ## ConTeXt
 Sample usage for ConTeXt MKXL (the required typescript and goodies files are included in the latest ConTeXt, or can be found above and placed in your working directory)
 ```
