@@ -30,7 +30,9 @@ U,
 p,
 "ď",
 "/_smart.r r/r.alt1",
-"/r.alt1/racute.alt1/rcaron.alt1/rcommaaccent.alt1/rdblgrave.alt1/rdotbelow.alt1/rinvertedbreve.alt1/rlinebelow.alt1"
+"/r.alt1/racute.alt1/rcaron.alt1/rcommaaccent.alt1/rdblgrave.alt1/rdotbelow.alt1/rinvertedbreve.alt1/rlinebelow.alt1",
+"/_smart.r",
+t
 );
 axes = (
 {
@@ -70353,11 +70355,10 @@ width = 1207;
 unicode = 113;
 },
 {
-color = 6;
 glyphname = r;
 kernLeft = n;
 kernRight = r;
-lastChange = "2026-03-28 20:28:03 +0000";
+lastChange = "2026-03-28 23:24:37 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -83798,11 +83799,11 @@ width = 1195;
 );
 },
 {
-color = 8;
+color = 0;
 glyphname = dcaron.alt1;
 kernLeft = o;
 kernRight = l;
-lastChange = "2026-03-28 20:36:51 +0000";
+lastChange = "2026-03-28 20:37:19 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -83847,11 +83848,11 @@ width = 1195;
 );
 },
 {
-color = 8;
+color = 0;
 glyphname = dcroat.alt1;
 kernLeft = o;
 kernRight = l;
-lastChange = "2026-03-28 20:36:51 +0000";
+lastChange = "2026-03-28 20:37:19 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -83948,9 +83949,9 @@ width = 1195;
 );
 },
 {
-color = 8;
+color = 0;
 glyphname = ddotbelow.alt1;
-lastChange = "2026-03-28 20:36:51 +0000";
+lastChange = "2026-03-28 20:37:19 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -83995,9 +83996,9 @@ width = 1195;
 );
 },
 {
-color = 8;
+color = 0;
 glyphname = dlinebelow.alt1;
-lastChange = "2026-03-28 20:36:51 +0000";
+lastChange = "2026-03-28 20:37:19 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -153265,9 +153266,10 @@ metricWidth = quoteright;
 unicode = 700;
 },
 {
+color = 5;
 export = 0;
 glyphname = _smart.d;
-lastChange = "2026-03-28 19:14:19 +0000";
+lastChange = "2026-03-28 20:39:10 +0000";
 layers = (
 {
 anchors = (
@@ -153919,9 +153921,10 @@ topValue = 1;
 );
 },
 {
+color = 5;
 export = 0;
 glyphname = _smart.f;
-lastChange = "2026-03-27 16:09:52 +0000";
+lastChange = "2026-03-28 20:39:07 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -155057,9 +155060,10 @@ topValue = 100;
 );
 },
 {
+color = 5;
 export = 0;
 glyphname = _smart.r;
-lastChange = "2026-03-28 20:28:26 +0000";
+lastChange = "2026-03-28 20:39:12 +0000";
 layers = (
 {
 anchors = (
