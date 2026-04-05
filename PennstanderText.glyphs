@@ -6,7 +6,8 @@ k,
 "/quotedblright.alt1",
 "/circumflexcomb.case",
 "̣",
-"̈"
+"̈",
+"󩦙"
 );
 axes = (
 {
@@ -22551,11 +22552,11 @@ shapes = (
 ref = D.alt1;
 },
 {
-pos = (103,228);
+pos = (171,228);
 ref = caroncomb;
 }
 );
-width = 1198;
+width = 1266;
 },
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -22671,11 +22672,11 @@ shapes = (
 ref = D.alt1;
 },
 {
-pos = (341,0);
+pos = (409,0);
 ref = dotbelowcomb.case;
 }
 );
-width = 1198;
+width = 1266;
 },
 {
 layerId = "82219AB4-7C60-4B3A-9196-329BE868CB10";
@@ -43873,7 +43874,7 @@ shapes = (
 ref = _smart.jdotless;
 }
 );
-width = 0;
+width = 717;
 },
 {
 layerId = "82219AB4-7C60-4B3A-9196-329BE868CB10";
@@ -43882,7 +43883,7 @@ shapes = (
 ref = _smart.jdotless;
 }
 );
-width = 0;
+width = 610;
 },
 {
 layerId = "63DB0068-8B02-4205-807F-6F2453D24B26";
@@ -43891,7 +43892,7 @@ shapes = (
 ref = _smart.jdotless;
 }
 );
-width = 0;
+width = 717;
 }
 );
 unicode = 567;
@@ -43926,7 +43927,7 @@ pos = (-93,-21);
 ref = circumflexcomb;
 }
 );
-width = 0;
+width = 717;
 },
 {
 layerId = "82219AB4-7C60-4B3A-9196-329BE868CB10";
@@ -43939,7 +43940,7 @@ pos = (-162,9);
 ref = circumflexcomb;
 }
 );
-width = 0;
+width = 610;
 },
 {
 layerId = "63DB0068-8B02-4205-807F-6F2453D24B26";
@@ -43952,7 +43953,7 @@ pos = (-91,-12);
 ref = circumflexcomb;
 }
 );
-width = 0;
+width = 717;
 }
 );
 unicode = 309;
@@ -57020,7 +57021,7 @@ alt1 = 1;
 ref = _smart.a;
 }
 );
-width = 1218;
+width = 1200;
 }
 );
 },
@@ -58156,7 +58157,7 @@ alt1 = 1;
 ref = _smart.g;
 }
 );
-width = 1289;
+width = 1253;
 }
 );
 },
@@ -59712,11 +59713,11 @@ shapes = (
 ref = idotless.alt1;
 },
 {
-pos = (-88,-3);
+pos = (-86,-73);
 ref = breveinvertedcomb;
 }
 );
-width = 567;
+width = 576;
 },
 {
 layerId = "63DB0068-8B02-4205-807F-6F2453D24B26";
@@ -59725,11 +59726,11 @@ shapes = (
 ref = idotless.alt1;
 },
 {
-pos = (-123,12);
+pos = (-134,-88);
 ref = breveinvertedcomb;
 }
 );
-width = 567;
+width = 568;
 }
 );
 },
@@ -117085,6 +117086,183 @@ width = 578;
 );
 metricWidth = quoteright;
 unicode = 700;
+},
+{
+glyphname = E9999;
+lastChange = "2026-04-05 20:40:10 +0000";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (6,879);
+ref = J;
+scale = (0.5212,0.57);
+},
+{
+alignment = -1;
+pos = (582,879);
+ref = R;
+scale = (0.5212,0.57);
+},
+{
+pos = (-19,41);
+ref = two;
+scale = (0.4253,0.5036);
+},
+{
+pos = (376,50);
+ref = zero;
+scale = (0.4253,0.5036);
+},
+{
+pos = (714,59);
+ref = two;
+scale = (0.4253,0.5036);
+},
+{
+pos = (1102,60);
+ref = five;
+scale = (0.4253,0.5036);
+},
+{
+pos = (926,-310);
+ref = ellipsis;
+scale = (0.3768,0.3135);
+}
+);
+width = 1532;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (569,684);
+ref = J;
+scale = (0.5467,0.6034);
+},
+{
+alignment = -1;
+pos = (1240,684);
+ref = R;
+scale = (0.5467,0.6034);
+},
+{
+pos = (-13,-378);
+ref = two;
+scale = (0.5765,0.6684);
+},
+{
+pos = (521,-408);
+ref = zero;
+scale = (0.5765,0.6684);
+},
+{
+pos = (1144,-347);
+ref = two;
+scale = (0.5765,0.6684);
+},
+{
+pos = (1689,-402);
+ref = five;
+scale = (0.5765,0.6684);
+},
+{
+pos = (653,-810);
+ref = ellipsis;
+}
+);
+width = 2294;
+},
+{
+layerId = "82219AB4-7C60-4B3A-9196-329BE868CB10";
+shapes = (
+{
+alignment = -1;
+pos = (118,879);
+ref = J;
+scale = (0.5212,0.57);
+},
+{
+alignment = -1;
+pos = (694,879);
+ref = R;
+scale = (0.5212,0.57);
+},
+{
+pos = (93,41);
+ref = two;
+scale = (0.4253,0.5036);
+},
+{
+pos = (488,50);
+ref = zero;
+scale = (0.4253,0.5036);
+},
+{
+pos = (826,59);
+ref = two;
+scale = (0.4253,0.5036);
+},
+{
+pos = (1214,60);
+ref = five;
+scale = (0.4253,0.5036);
+},
+{
+pos = (1038,-310);
+ref = ellipsis;
+scale = (0.3768,0.3135);
+}
+);
+width = 1750;
+},
+{
+layerId = "63DB0068-8B02-4205-807F-6F2453D24B26";
+shapes = (
+{
+alignment = -1;
+pos = (429,684);
+ref = J;
+scale = (0.5467,0.6034);
+},
+{
+alignment = -1;
+pos = (1100,684);
+ref = R;
+scale = (0.5467,0.6034);
+},
+{
+pos = (-153,-378);
+ref = two;
+scale = (0.5765,0.6684);
+},
+{
+pos = (381,-408);
+ref = zero;
+scale = (0.5765,0.6684);
+},
+{
+pos = (1004,-347);
+ref = two;
+scale = (0.5765,0.6684);
+},
+{
+pos = (1549,-402);
+ref = five;
+scale = (0.5765,0.6684);
+},
+{
+pos = (513,-810);
+ref = ellipsis;
+}
+);
+width = 2338;
+}
+);
+unicode = 956825;
 },
 {
 color = 5;
