@@ -17,7 +17,16 @@ k,
 "😛😜😝",
 "🤑🤪",
 "😙",
-"😗/kissingheart/kissingheart.001 😘😙"
+"😗/kissingheart/kissingheart.001 😘😙",
+"😀",
+"😃",
+"😄",
+"😉",
+"😀😃😄😉😍",
+"🙃",
+"😀😉🙃",
+"😍",
+"😎🤓"
 );
 axes = (
 {
@@ -91575,8 +91584,9 @@ width = 600;
 unicode = 9836;
 },
 {
+color = 3;
 glyphname = grinningface;
-lastChange = "2026-04-18 10:41:23 +0000";
+lastChange = "2026-04-19 15:52:50 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -91680,8 +91690,9 @@ width = 2253;
 unicode = 128512;
 },
 {
+color = 3;
 glyphname = smilingFaceWithOpenMouth;
-lastChange = "2026-04-18 10:47:44 +0000";
+lastChange = "2026-04-19 15:52:50 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -91795,8 +91806,9 @@ metricRight = grinningface;
 unicode = 128515;
 },
 {
+color = 3;
 glyphname = smilingfacewithsmilingeyes;
-lastChange = "2026-04-18 20:13:24 +0000";
+lastChange = "2026-04-19 15:52:50 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -91902,8 +91914,9 @@ metricRight = grinningface;
 unicode = 128516;
 },
 {
+color = 3;
 glyphname = winkingface;
-lastChange = "2026-04-18 10:54:55 +0000";
+lastChange = "2026-04-19 15:52:50 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -92082,8 +92095,9 @@ metricRight = grinningface;
 unicode = 128521;
 },
 {
+color = 3;
 glyphname = smilingfacewithhearteyes;
-lastChange = "2026-04-18 11:03:34 +0000";
+lastChange = "2026-04-19 15:55:29 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -92197,8 +92211,9 @@ metricRight = grinningface;
 unicode = 128525;
 },
 {
+color = 3;
 glyphname = facewithsunglasses;
-lastChange = "2026-04-18 10:59:06 +0000";
+lastChange = "2026-04-19 15:56:43 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -92904,8 +92919,9 @@ metricRight = grinningface;
 unicode = 128529;
 },
 {
+color = 3;
 glyphname = confusedface;
-lastChange = "2026-04-18 18:29:38 +0000";
+lastChange = "2026-04-19 15:57:16 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -94912,8 +94928,9 @@ metricRight = "=100";
 unicode = 128564;
 },
 {
+color = 3;
 glyphname = facewithoutmouth;
-lastChange = "2026-04-18 11:03:01 +0000";
+lastChange = "2026-04-19 15:57:36 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -94997,8 +95014,9 @@ metricRight = grinningface;
 unicode = 128566;
 },
 {
+color = 3;
 glyphname = upsidedownface;
-lastChange = "2026-04-18 19:03:53 +0000";
+lastChange = "2026-04-19 15:55:31 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -95712,8 +95730,9 @@ width = 2253;
 unicode = 129297;
 },
 {
+color = 3;
 glyphname = nerdface;
-lastChange = "2026-04-18 10:46:44 +0000";
+lastChange = "2026-04-19 15:56:43 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -96142,8 +96161,9 @@ metricRight = "=equal";
 unicode = 129299;
 },
 {
+color = 3;
 glyphname = facewithstareyes;
-lastChange = "2026-04-18 11:01:09 +0000";
+lastChange = "2026-04-19 15:57:16 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
