@@ -24,7 +24,7 @@ Radicals
 
 Mathematical symbols (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
-Here is the [Pennstander Math Characters document](docs/pennstandercharacters.pdf)
+Here is the [Pennstander Text Characters document](docs/pennstandertext_guide.pdf) and the [Pennstander Math Characters document](docs/pennstandermath_guide.pdf)
 
 ## CTAN
 
