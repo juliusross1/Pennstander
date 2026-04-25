@@ -1,16 +1,6 @@
 {
 .appVersion = "3523";
 .formatVersion = 3;
-DisplayStrings = (
-k,
-"/_emjoineutralmouth 😐",
-"😑",
-"😐",
-"😐😑",
-"/_emojitear/_emojitear 🥵",
-"🥲",
-""
-);
 axes = (
 {
 name = Weight;
