@@ -1,0 +1,381 @@
+%D \module
+%D   [      file=s-math-characters-renewed.mkiv, % was: s-fnt-25 and later s-mat-10 and later s-math-characters.mkiv
+%D        version=2026.04.20
+%D          title=\CONTEXT\ Style File,
+%D       subtitle=Math Glyph Checking,
+%D         author=Hans Hagen, Julius Ross
+%D           date=\currentdate,
+%D      copyright={PRAGMA ADE \& \CONTEXT\ Development Team}]
+%C
+%C This module is part of the \CONTEXT\ macro||package and is
+%C therefore copyrighted by \PRAGMA. See mreadme.pdf for
+%C details.
+
+\startmodule[math-characters-renewed]
+
+\registerctxluafile{s-math-characters-renewed}{}
+
+% context --jit --global --bodyfont=cambria --result=math-characters-cambria s-math-characters.mkiv
+% context --jit --global --bodyfont=modern  --result=math-characters-modern  s-math-characters.mkiv
+
+\startsetups s-math-characters:reset
+
+    \let\showmathcharactersstart               \relax
+    \let\showmathcharactersstop                \relax
+    \let\showmathcharactersreference           \gobbleoneargument
+    \let\showmathcharactersstartentry          \relax
+    \let\showmathcharactersstopentry           \relax
+    \let\showmathcharactersentryhexdectit      \gobblethreearguments
+    \let\showmathcharactersdefinemathsymbol    \gobblethreearguments
+    \let\showmathcharactersdefinevariantsymbol \gobblethreearguments
+    \let\showmathcharactersdefinesizesymbol    \gobblethreearguments
+    \let\showmathcharactersentrywdhtdpic       \gobblefourarguments
+\ifcase\contextlmtxmode
+    \let\showmathcharactersentrywdhtdpicta     \gobblefivearguments
+\else
+    \let\showmathcharactersentrywdhtdpicta     \gobbleoneargument
+\fi
+    \let\showmathcharactersentryresource       \gobbleoneargument
+    \let\showmathcharactersstartnext           \relax
+    \let\showmathcharactersnextentry           \gobblethreearguments
+    \let\showmathcharactersnextcycle           \gobbleonearguments
+    \let\showmathcharactersstopnext            \relax
+    \let\showmathcharactersstarthparts         \relax
+    \let\showmathcharactershpartsentry         \gobblethreearguments
+    \let\showmathcharactersstophparts          \relax
+    \let\showmathcharactersstartvparts         \relax
+    \let\showmathcharactersvpartsentry         \gobblethreearguments
+    \let\showmathcharactersstopvparts          \relax
+    \let\showmathcharactersbetweennextandvparts\relax
+    \let\showmathcharactersstartentryclassspec \relax
+    \let\showmathcharactersstopentryclassspec  \relax
+    \let\showmathcharactersentryclassname      \gobbletwoarguments
+    \let\showmathcharactersentrysymbol         \gobbletwoarguments
+    \let\showmathcharactersstartlookupvariants \relax
+    \let\showmathcharacterslookupvariant       \gobblefourarguments
+    \let\showmathcharactersstoplookupvariants  \relax
+    \let\showmathcharacterssetrange            \gobblethreearguments
+
+\stopsetups
+
+\directsetup{s-math-characters:reset}
+
+\startsetups s-math-characters:default
+
+  \directsetup{s-math-characters:reset}
+
+  \unexpanded\def\showmathcharactersstartentry {\blank\raggedright}
+  \unexpanded\def\showmathcharactersstopentry  {\blank}
+
+  \def\showmathcharactersentryhexdectit##1##2##3%
+    {##1:\space{\char##2}\space\ruledhbox{\char##2}\space##3\par}
+
+%% define the command \showmathcharactersmathsymbol for the base symbol
+%% taking into account the exceptions needed if the base is special
+%% is there a better way to do this? 
+  \def\showmathcharactersdefinemathsymbol##1##2##3%
+    {
+      \edef\tempa{##2}%
+      \edef\tempb{92}\ifx\tempa\tempb  % backslash
+        \def\showmathcharactersmathsymbol{\backslash}%
+      \else
+      \edef\tempb{94}\ifx\tempa\tempb  % caret
+        \def\showmathcharactersmathsymbol{\^{}}%
+      \else
+      \edef\tempb{95}\ifx\tempa\tempb  % underscore
+        \def\showmathcharactersmathsymbol{\_{}}%
+      \else
+        \definemathsymbol[showmathcharactersmathsymbol][##3][##2]%
+      \fi\fi\fi
+    }
+
+%% define the command \showmathcharactersdefinevariantsymbol for the variant symbol
+%% taking into account the exceptions needed if the variant is special
+  \def\showmathcharactersdefinevariantsymbol##1##2##3%
+    {
+      \edef\tempa{##2}%
+      \edef\tempb{92}\ifx\tempa\tempb  % backslash
+        \def\showmathcharactersvariantsymbol{\backslash}%
+      \else
+      \edef\tempb{94}\ifx\tempa\tempb  % caret
+        \def\showmathcharactersvariantsymbol{\^{}}%
+      \else
+      \edef\tempb{95}\ifx\tempa\tempb  % underscore
+        \def\showmathcharactersvariantsymbol{\_{}}%
+      \else
+        \definemathsymbol[showmathcharactersvariantsymbol][##3][##2]%
+      \fi\fi\fi
+    }
+%% define the command \showmathcharacterssizesymbol to use the size symbol
+%% taking into account the exceptions needed if the variant is special
+  \def\showmathcharactersdefinesizesymbol##1##2##3%
+    {
+      \edef\tempa{##2}%
+      \edef\tempb{92}\ifx\tempa\tempb  % backslash
+        \def\showmathcharacterssizesymbol{\backslash}%
+      \else
+      \edef\tempb{94}\ifx\tempa\tempb  % caret
+        \def\showmathcharacterssizesymbol{\^{}}%
+      \else
+      \edef\tempb{95}\ifx\tempa\tempb  % underscore
+        \def\showmathcharacterssizesymbol{\_{}}%
+      \else
+        \definemathsymbol[showmathcharacterssizesymbol][##3][##2]%
+      \fi\fi\fi
+    }
+
+
+  \def\showmathcharactersentrywdhtdpic##1##2##3##4%
+    {width:\space##1,\space height:\space##2,\space depth:\space##3,\space italic:\space##4\par}
+
+  \def\showmathcharactersentryresource##1%
+    {virtual:\space##1\par}
+
+  \def\showmathcharactersstartnext
+    {\par\begingroup\hangindent\emwidth\hangafter-\plushundred\hskip-\emwidth\relax
+      next:\space}
+
+  \def\showmathcharactersnextentry##1##2##3%
+    {\ifnum##1>\plusone \space=>\space\fi##2~\ruledhbox{\char##3}}
+
+  \def\showmathcharactersnextcycle##1%
+    {\ifnum##1>\plusone \space=>\space\fi cycle}
+
+  \def\showmathcharactersstopnext
+    {\par\endgroup}
+
+  % Parts
+  \def\showmathcharactersstartparts
+    {\par\begingroup\hangindent\emwidth\hangafter-\plushundred\hskip-\emwidth\relax
+      parts:\space}
+
+  \def\showmathcharacterspartsentry##1##2##3%
+    {\ifnum##1>\plusone \space=>\space\fi##2~\ruledhbox{\char##3}}
+
+    \def\showmathcharactersstopparts
+      {\par\endgroup}
+
+  \let\showmathcharactersstartvparts\showmathcharactersstartparts
+  \let\showmathcharactersvpartsentry\showmathcharacterspartsentry
+  \let\showmathcharactersstopvparts \showmathcharactersstopparts
+
+  \let\showmathcharactersstarthparts\showmathcharactersstartparts
+  \let\showmathcharactershpartsentry\showmathcharacterspartsentry
+  \let\showmathcharactersstophparts \showmathcharactersstopparts
+
+  \def\showmathcharactersbetweennextandparts
+    {}
+
+  \def\showmathcharactersentryclassname##1##2%
+    {mathclass:\space##1,\space mathname:\space##2\par}
+
+  \def\showmathcharactersentrysymbol##1##2%
+    {mathsymbol:\space##1~\ruledhbox{\char##2}\par}
+
+  % Variants
+  \def\showmathcharactersstartlookupvariants
+    {\par\begingroup\hangindent\emwidth\hangafter-\plushundred\hskip-\emwidth\relax
+      lookupvariants:\space}
+
+  \def\showmathcharacterslookupvariant##1##2##3##4%
+    {\ifnum##1>\plusone,\space\fi##2:~{\char##3}\space(##4)}
+
+  \def\showmathcharactersstoplookupvariants
+    {\par\endgroup}
+\stopsetups
+
+\startsetups s-math-characters:charactersonly
+    \directsetup{s-math-characters:default}
+    \def\showmathcharactersentryhexdectit##1##2##3%
+    {\im{\showmathcharactersmathsymbol}\allowbreak}
+    \def\showmathcharactersstartentry{}
+    \def\showmathcharactersstopentry{}
+
+    \def\showmathcharactersstartnext{}
+    \def\showmathcharactersstopnext{}
+
+    \def\showmathcharactersentryclassname##1##2%
+      {}
+    \def\showmathcharactersentrysymbol##1##2%
+      {}
+
+    \def\showmathcharactersstartlookupvariants%
+      {}
+    \def\showmathcharacterslookupvariant##1##2##3##4%
+    {\im{\showmathcharactersvariantsymbol}\allowbreak}
+
+    \def\showmathcharactersstoplookupvariants%
+      {}
+
+    \def\showmathcharactersnextentry##1##2##3%
+      {\im{\showmathcharacterssizesymbol}\allowbreak}
+
+    \def\showmathcharactersnextcycle##1%
+      {}
+\stopsetups
+
+  
+
+
+
+% alternative=charactersonlywithoutsizes
+
+\startsetups s-math-characters:charactersonlywithoutsizes
+    \directsetup{s-math-characters:charactersonly}
+    \def\showmathcharactersnextentry##1##2##3%
+      {}
+\stopsetups
+
+% alternative=simplevariantsonly
+
+\startsetups s-math-characters:simplevariantsonly
+    \directsetup{s-math-characters:default}
+    % inline the parts of "simple" that you need:
+    \def\showmathcharactersstartentry{}
+    \def\showmathcharactersstopentry{}
+    \def\showmathcharactersstartnext{}
+    \def\showmathcharactersstopnext{}
+    \def\showmathcharactersentryclassname##1##2{}
+    \def\showmathcharactersentrysymbol##1##2{}
+    \def\showmathcharactersnextentry##1##2##3{}
+    \def\showmathcharactersnextcycle##1{}
+    \def\showmathcharactersentryhexdectit##1##2##3%
+    {}
+    \def\showmathcharactersstartlookupvariants%
+        {}
+    \def\showmathcharactersstoplookupvariants%
+        {}
+    \def\showmathcharacterslookupvariant##1##2##3##4%
+    {\im{\showmathcharactersvariantsymbol}\allowbreak}
+\stopsetups
+
+% alternative=spacing %%FIXME%%
+
+\startbuffer[spacingcore]
+\im{\testcharacter}
+\im{\mathord{\testcharacter}^2}
+  \im{\testcharacter\quad |\testcharacter| \quad (\testcharacter) \quad \testcharacter^2\quad \testcharacter \quad  2^\testcharacter\quad 2^{2^\testcharacter}\quad 2_\testcharacter \quad \hat{\testcharacter} \bar{\testcharacter}}\allowbreak
+\stopbuffer
+\startbuffer[spacing]
+\switchtobodyfont[pennstander-medium]
+\getbuffer[spacingcore] \crlf
+\switchtobodyfont[pennstander-black]
+\getbuffer[spacingcore]
+\stopbuffer
+
+\startsetups s-math-characters:spacing
+    \directsetup{s-math-characters:simple}
+      \def\showmathcharactersentryhexdectit##1##2##3%
+    {\crlf \def\testcharacter{\showmathcharactersmathsymbol} \getbuffer[spacing]}
+    \def\showmathcharacterslookupvariant##1##2##3##4%
+    {\crlf \def\testcharacter{\showmathcharactersvariantsymbol} \getbuffer[spacing]}
+    \def\showmathcharactersnextentry##1##2##3%
+    {\crlf \def\testcharacter{\showmathcharacterssizesymbol} \getbuffer[spacing]}
+    \stopsetups
+
+% alternative=characterincontext
+\startbuffer[characterincontext]
+    \im{ \testcharacter = A = \testcharacter^2}
+\stopbuffer
+\startsetups s-math-characters:characterincontext
+    \directsetup{s-math-characters:charactersonly}
+    \def\showmathcharactersentryhexdectit##1##2##3%
+    {\crlf \def\testcharacter{\showmathcharactersmathsymbol} \getbuffer[characterincontext]}
+    \def\showmathcharacterslookupvariant##1##2##3##4%
+    {\crlf \def\testcharacter{\showmathcharactersvariantsymbol} \getbuffer[characterincontext]}    
+\stopsetups
+
+
+\unprotect
+
+\unexpanded\def\enableshowmathfontvirtual
+  {\ctxlua{fonts.constructors.autocleanup=false}}
+
+\unexpanded\def\showmathfontcharacters
+  {\dosingleempty\module_math_characters_show}
+
+\def\module_math_characters_show[#1]%
+  {\begingroup
+   \getdummyparameters
+     [\c!bodyfont=,
+      \c!list=,
+      \c!check=,
+      \c!alternative=default,
+      \c!option=\v!all,
+      \c!method=\v!default,
+      showfeatures=,
+      togglelist=,
+      #1]%
+   \directsetup{s-math-characters:\dummyparameter\c!alternative}%
+   \doifelsenothing{\dummyparameter\c!bodyfont}
+     {\definedfont[MathRoman*math-text]}
+     {\definedfont[\dummyparameter\c!bodyfont]}%
+   \dontcomplain
+   \ctxlua{moduledata.math.characters.showlist {
+      number   = false, 
+      check    = "\dummyparameter\c!check",
+      list     = "\dummyparameter\c!list",
+      option   = "\dummyparameter\c!option",
+      method   = "\dummyparameter\c!method",
+      showfeatures     = "\dummyparameter{showfeatures}",
+      togglelist     = "\dummyparameter{togglelist}",
+      }}%
+   \endgroup}
+
+\protect
+
+\stopmodule
+
+\continueifinputfile{s-math-characters.mkiv}
+
+\setuplayout
+  [width=middle,
+   height=middle,
+   topspace=15mm,
+   backspace=15mm,
+   bottomspace=15mm,
+   header=1cm,
+   headerdistance=0.5cm,
+   footer=0pt]
+
+\starttext
+
+    \doifelse {\getdocumentargument{bodyfont}} {} {
+
+        \setupbodyfont[cambria,   12pt]
+      % \setupbodyfont[modern,    12pt]
+      % \setupbodyfont[lmvirtual, 12pt]
+      % \setupbodyfont[pxvirtual, 12pt]
+      % \setupbodyfont[txvirtual, 12pt]
+      % \setupbodyfont[palatino,  10pt]
+      % \setupbodyfont[mathtimes, 12pt]
+      % \setupbodyfont[stix,      12pt]
+      % \setupbodyfont[xits,      12pt]
+      % \setupbodyfont[lucida,    12pt]
+      % \setupbodyfont[lucidaot,  12pt]
+      % \setupbodyfont[pagella,   12pt]
+      % \setupbodyfont[bonum,     12pt]
+
+    } {
+
+        \normalexpanded{\setupbodyfont[\getdocumentargument{bodyfont},12pt]}
+
+    }
+
+%     \showmathfontcharacters
+
+% \showmathfontcharacters[list=0x2208]
+% \showmathfontcharacters[list=0x2227]
+% \showmathfontcharacters[list=0x31]
+
+\setupbodyfont[stixtwo,12pt]
+% 
+\showmathfontcharacters[list=lowercaseitalic,method=manual]
+%\showmathfontcharacters[list={0x00303,0x02205,0x02208,0x02227,0x0291F},method=manual]
+%\showmathfontcharacters[list=uppercasedoublestruck,method=manual]
+%\showmathfontcharacters[alternative=simple,list=digitsnormal]
+%\showmathfontcharacters[alternative=context,list=lowercaseitalic,method=manual]
+%\showmathfontcharacters[alternative=simplevariantsonly,list={uppercasenormal,lowercasenormal},showfeatures=none,togglelist={ss01}]
+%\showmathfontcharacters[alternative=simplevariantsonly,list={uppercasenormal,lowercasenormal},showfeatures=all,togglelist={ss01}]
+\stoptext
+
