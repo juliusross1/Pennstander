@@ -24,7 +24,7 @@ Radicals
 
 Mathematical symbols (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
-Here is the [Pennstander Math Characters document](docs/pennstandercharacters.pdf)
+Here is the [Pennstander Text guide](docs/pennstandertext_guide.pdf) and the [Pennstander Math guide](docs/pennstandermath_guide.pdf)
 
 ## CTAN
 
@@ -93,4 +93,4 @@ I am not sure how useful this font will be for long documents/papers, perhaps it
 
 ## Acknowledgements
 
-Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to those who submitted issues, as well as Andrea Tomatis, David Carlisle, Khaled Hosny, and to Hans Hagan and Mikael P. Sundqvist for help/comments and for the "Mathematics in ConTeXt" work, from which some tests have been taken.  Thanks to Cédric Pierquet for the CTAN package.
+Thanks to Tyler Fink for creating and sharing Grandstander (for the new name think NYC train stations).  Thanks to those who submitted issues, as well as Andrea Tomatis, David Carlisle, Khaled Hosny, and to Hans Hagan and Mikael P. Sundqvist for help/comments/collaboration and for the "Mathematics in ConTeXt" work, from which some tests have been taken.  Thanks to Cédric Pierquet for the CTAN package.
