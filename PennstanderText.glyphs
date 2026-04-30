@@ -1,6 +1,9 @@
 {
-.appVersion = "3523";
+.appVersion = "3436";
 .formatVersion = 3;
+DisplayStrings = (
+"/Dcaron.alt1/Ddotbelow.alt1/ydotbelow.alt1"
+);
 axes = (
 {
 name = Weight;
@@ -22546,7 +22549,7 @@ color = 8;
 glyphname = Dcaron.alt1;
 kernLeft = H;
 kernRight = O;
-lastChange = "2026-03-28 20:36:51 +0000";
+lastChange = "2026-04-25 18:10:57 +0000";
 layers = (
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -22565,6 +22568,7 @@ width = 1216;
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
+alignment = -1;
 ref = D.alt1;
 },
 {
@@ -22652,12 +22656,13 @@ width = 1198;
 {
 color = 8;
 glyphname = Ddotbelow.alt1;
-lastChange = "2026-03-28 20:36:51 +0000";
+lastChange = "2026-04-25 18:10:57 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
+alignment = -1;
 ref = D.alt1;
 },
 {
@@ -62623,7 +62628,7 @@ color = 8;
 glyphname = ydotbelow.alt1;
 kernLeft = y;
 kernRight = y;
-lastChange = "2026-03-28 20:36:51 +0000";
+lastChange = "2026-04-25 18:10:57 +0000";
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -62657,6 +62662,7 @@ width = 1079;
 layerId = "82219AB4-7C60-4B3A-9196-329BE868CB10";
 shapes = (
 {
+alignment = -1;
 ref = y.alt1;
 },
 {
