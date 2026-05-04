@@ -60,6 +60,10 @@
 
 \directsetup{s-math-characters:reset}
 
+%
+% default setup
+%
+
 \startsetups s-math-characters:default
 
   \directsetup{s-math-characters:reset}
@@ -70,9 +74,9 @@
   \def\showmathcharactersentryhexdectit##1##2##3%
     {##1:\space{\char##2}\space\ruledhbox{\char##2}\space##3\par}
 
-%% define the command \showmathcharactersmathsymbol for the base symbol
-%% taking into account the exceptions needed if the base is special
-%% is there a better way to do this? 
+  %% define the command \showmathcharactersmathsymbol for the base symbol
+  %% taking into account the exceptions needed if the base is special
+  %% is there a better way to do this? 
   \def\showmathcharactersdefinemathsymbol##1##2##3%
     {
       \edef\tempa{##2}%
@@ -89,8 +93,8 @@
       \fi\fi\fi
     }
 
-%% define the command \showmathcharactersdefinevariantsymbol for the variant symbol
-%% taking into account the exceptions needed if the variant is special
+  %% define the command \showmathcharactersdefinevariantsymbol for the variant symbol
+  %% taking into account the exceptions needed if the variant is special
   \def\showmathcharactersdefinevariantsymbol##1##2##3%
     {
       \edef\tempa{##2}%
@@ -106,8 +110,8 @@
         \definemathsymbol[showmathcharactersvariantsymbol][##3][##2]%
       \fi\fi\fi
     }
-%% define the command \showmathcharacterssizesymbol to use the size symbol
-%% taking into account the exceptions needed if the variant is special
+  %% define the command \showmathcharacterssizesymbol to use the size symbol
+  %% taking into account the exceptions needed if the variant is special
   \def\showmathcharactersdefinesizesymbol##1##2##3%
     {
       \edef\tempa{##2}%
@@ -144,7 +148,7 @@
   \def\showmathcharactersstopnext
     {\par\endgroup}
 
-  % Parts
+  % parts
   \def\showmathcharactersstartparts
     {\par\begingroup\hangindent\emwidth\hangafter-\plushundred\hskip-\emwidth\relax
       parts:\space}
@@ -172,7 +176,7 @@
   \def\showmathcharactersentrysymbol##1##2%
     {mathsymbol:\space##1~\ruledhbox{\char##2}\par}
 
-  % Variants
+  % variants
   \def\showmathcharactersstartlookupvariants
     {\par\begingroup\hangindent\emwidth\hangafter-\plushundred\hskip-\emwidth\relax
       lookupvariants:\space}
@@ -184,53 +188,48 @@
     {\par\endgroup}
 \stopsetups
 
-\startsetups s-math-characters:charactersonly
+%
+% alternative=glyphs
+%
+
+\startsetups s-math-characters:glyphs
     \directsetup{s-math-characters:default}
     \def\showmathcharactersentryhexdectit##1##2##3%
     {\im{\showmathcharactersmathsymbol}\allowbreak}
+
     \def\showmathcharactersstartentry{}
     \def\showmathcharactersstopentry{}
 
     \def\showmathcharactersstartnext{}
     \def\showmathcharactersstopnext{}
+    \def\showmathcharactersentryclassname##1##2{}
+    \def\showmathcharactersentrysymbol##1##2{}
+    \def\showmathcharactersstartlookupvariants{}
 
-    \def\showmathcharactersentryclassname##1##2%
-      {}
-    \def\showmathcharactersentrysymbol##1##2%
-      {}
-
-    \def\showmathcharactersstartlookupvariants%
-      {}
     \def\showmathcharacterslookupvariant##1##2##3##4%
     {\im{\showmathcharactersvariantsymbol}\allowbreak}
 
-    \def\showmathcharactersstoplookupvariants%
-      {}
-
+    \def\showmathcharactersstoplookupvariants{}
     \def\showmathcharactersnextentry##1##2##3%
       {\im{\showmathcharacterssizesymbol}\allowbreak}
-
-    \def\showmathcharactersnextcycle##1%
-      {}
+    \def\showmathcharactersnextcycle##1{}
 \stopsetups
 
-  
+%
+% alternative=glyphswithoutsizes
+%
 
-
-
-% alternative=charactersonlywithoutsizes
-
-\startsetups s-math-characters:charactersonlywithoutsizes
-    \directsetup{s-math-characters:charactersonly}
-    \def\showmathcharactersnextentry##1##2##3%
-      {}
+\startsetups s-math-characters:glyphswithoutsizes
+    \directsetup{s-math-characters:glyphs}
+    \def\showmathcharactersnextentry##1##2##3{}
 \stopsetups
 
-% alternative=simplevariantsonly
+%
+% alternative=glyphvariants
+%
 
-\startsetups s-math-characters:simplevariantsonly
+\startsetups s-math-characters:glyphvariants
     \directsetup{s-math-characters:default}
-    % inline the parts of "simple" that you need:
     \def\showmathcharactersstartentry{}
     \def\showmathcharactersstopentry{}
     \def\showmathcharactersstartnext{}
@@ -239,50 +238,39 @@
     \def\showmathcharactersentrysymbol##1##2{}
     \def\showmathcharactersnextentry##1##2##3{}
     \def\showmathcharactersnextcycle##1{}
-    \def\showmathcharactersentryhexdectit##1##2##3%
-    {}
-    \def\showmathcharactersstartlookupvariants%
-        {}
-    \def\showmathcharactersstoplookupvariants%
-        {}
+    \def\showmathcharactersentryhexdectit##1##2##3{}
+    \def\showmathcharactersstartlookupvariants{}
+    \def\showmathcharactersstoplookupvariants{}
     \def\showmathcharacterslookupvariant##1##2##3##4%
     {\im{\showmathcharactersvariantsymbol}\allowbreak}
 \stopsetups
 
-% alternative=spacing %%FIXME%%
 
-\startbuffer[spacingcore]
-\im{\testcharacter}
-\im{\mathord{\testcharacter}^2}
-  \im{\testcharacter\quad |\testcharacter| \quad (\testcharacter) \quad \testcharacter^2\quad \testcharacter \quad  2^\testcharacter\quad 2^{2^\testcharacter}\quad 2_\testcharacter \quad \hat{\testcharacter} \bar{\testcharacter}}\allowbreak
-\stopbuffer
-\startbuffer[spacing]
-\switchtobodyfont[pennstander-medium]
-\getbuffer[spacingcore] \crlf
-\switchtobodyfont[pennstander-black]
-\getbuffer[spacingcore]
+%
+% alternative=glyphsincontext
+%
+
+\startbuffer[s-math-characters-glyphsincontext-base]
+\im{\showmathcharactersmathsymbol}\allowbreak%
 \stopbuffer
 
-\startsetups s-math-characters:spacing
-    \directsetup{s-math-characters:simple}
-      \def\showmathcharactersentryhexdectit##1##2##3%
-    {\crlf \def\testcharacter{\showmathcharactersmathsymbol} \getbuffer[spacing]}
-    \def\showmathcharacterslookupvariant##1##2##3##4%
-    {\crlf \def\testcharacter{\showmathcharactersvariantsymbol} \getbuffer[spacing]}
-    \def\showmathcharactersnextentry##1##2##3%
-    {\crlf \def\testcharacter{\showmathcharacterssizesymbol} \getbuffer[spacing]}
-    \stopsetups
-
-% alternative=characterincontext
-\startbuffer[characterincontext]
-    \im{ \testcharacter = A = \testcharacter^2}
+\startbuffer[s-math-characters-glyphsincontext-variant]
+\im{\showmathcharactersvariantsymbol}\allowbreak%
 \stopbuffer
-\startsetups s-math-characters:characterincontext
-    \directsetup{s-math-characters:charactersonly}
+
+\startbuffer[s-math-characters-glyphsincontext-size]
+\im{\showmathcharacterssizesymbol}\allowbreak%
+\stopbuffer
+
+
+\startsetups s-math-characters:glyphsincontext
+    \directsetup{s-math-characters:glyphs}
     \def\showmathcharactersentryhexdectit##1##2##3%
-    {\crlf \def\testcharacter{\showmathcharactersmathsymbol} \getbuffer[characterincontext]}
+      {\getbuffer[s-math-characters-glyphsincontext-base]}
     \def\showmathcharacterslookupvariant##1##2##3##4%
-    {\crlf \def\testcharacter{\showmathcharactersvariantsymbol} \getbuffer[characterincontext]}    
+      {\getbuffer[s-math-characters-glyphsincontext-variant]}    
+    \def\showmathcharactersnextentry##1##2##3%
+      {\getbuffer[s-math-characters-glyphsincontext-size]}    
 \stopsetups
 
 
@@ -362,7 +350,7 @@
 
     }
 
-%     \showmathfontcharacters
+% \showmathfontcharacters
 
 % \showmathfontcharacters[list=0x2208]
 % \showmathfontcharacters[list=0x2227]
@@ -370,12 +358,12 @@
 
 \setupbodyfont[stixtwo,12pt]
 % 
-\showmathfontcharacters[list=lowercaseitalic,method=manual]
-%\showmathfontcharacters[list={0x00303,0x02205,0x02208,0x02227,0x0291F},method=manual]
-%\showmathfontcharacters[list=uppercasedoublestruck,method=manual]
-%\showmathfontcharacters[alternative=simple,list=digitsnormal]
-%\showmathfontcharacters[alternative=context,list=lowercaseitalic,method=manual]
-%\showmathfontcharacters[alternative=simplevariantsonly,list={uppercasenormal,lowercasenormal},showfeatures=none,togglelist={ss01}]
-%\showmathfontcharacters[alternative=simplevariantsonly,list={uppercasenormal,lowercasenormal},showfeatures=all,togglelist={ss01}]
+\showmathfontcharacters[list=lowercaseitalic,method=manual]\blank[10pt]
+%\showmathfontcharacters[list={0x00303,0x02205,0x02208,0x02227,0x0291F},method=manual]\blank[10pt]
+%\showmathfontcharacters[list=uppercasedoublestruck]\blank[10pt]
+%\showmathfontcharacters[alternative=glyphs,list=digitsnormal]\blank[10pt]
+%\showmathfontcharacters[alternative=glyphvariants,list=lowercaseitalic,showfeatures=all,togglelist={aalt,ssty}]\blank[10pt]
+%\showmathfontcharacters[alternative=glyphvariants,list={digitsnormal},showfeatures=none,togglelist={ss03,ss07}]\blank[10pt]
+%\showmathfontcharacters[alternative=glyphvariants,list={lowercasenormal},showfeatures=all,togglelist={uppercasing,aalt,ssty}]\blank[10pt]
 \stoptext
 

@@ -1,0 +1,466 @@
+% !TEX root = pennstandermath_guide.tex
+\usetypescriptfile[pennstander]
+
+\usemodule[math-characters-renewed]
+
+\setupbodyfont[pennstander-regular]
+%\setupbodyfont[pennstander-black]
+%\setupbodyfont[pennstander-thin]
+
+\definefontfamily[dejavu][rm][DejaVu Serif]
+\switchtobodyfont[dejavu]
+
+\setuppagenumbering[state=stop]
+
+\setuphead
+  [title]
+  [style=\dejavu,align=middle]
+
+
+\setuphead
+  [section]
+  [style=\dejavu,number=no,align=middle]
+
+\title[title={Pennstander Math}]
+
+\starttext
+
+\startbuffer[weightdisplays]
+\starttabulate[|c|l|]
+\NR \NC Thin \NC {\switchtobodyfont[pennstander-thin]
+ \dm{
+\int_a^b \!\! f'(x) dx = f(b) -f(a)
+}}
+
+\switchtobodyfont[pennstander-extralight] 
+\NR \NC Extralight \NC \dm{
+c:= \sqrt{a^2 + b^2} \notin \mathbb Q
+}
+
+\NR \NC Light \NC {\switchtobodyfont[pennstander-light]\dm{
+\oint_\gamma \hat{f}(z) dz =0
+}}
+
+\NR \NC Regular \NC {\switchtobodyfont[pennstander-regular]
+\dm{
+\iint_M d\omega = \int_{\partial M}\omega}\blank[10pt]
+}
+
+\NR \NC  Medium \NC
+{\switchtobodyfont[pennstander-medium]
+\dm{
+\lim_{n\to \infty}\sum_{\mu=1}^n \frac{1}{\mu^2} = \frac{\pi^2}{6}
+}\blank[10pt]}
+
+\NR \NC 
+ Semibold \NC { \switchtobodyfont[pennstander-semibold] \switchtobodyfont[pennstander-semibold]
+
+\dm{
+\frac{d}{d \tau}(\psi\cdot \phi) = \frac{d\psi}{d\tau} \cdot \phi + \psi \cdot \frac{d\phi}{d\tau}
+}}
+
+
+\NR \NC 
+ Bold \NC {\switchtobodyfont[pennstander-bold]
+
+\dm{
+\nabla\cdot \fenced[group]{ \nabla \times G}= 0
+}}
+
+\NR \NC  ExtraBold \NC {\switchtobodyfont[pennstander-extrabold] \dm{\fenced[brace]{e^{i\theta} = \cos(\theta) + i \sin(\theta) : \theta\in\mathbb R}}\blank[10pt]
+}
+
+
+\NR \NC Black \NC
+{\switchtobodyfont[pennstander-black] \dm{\Psi \otimes \Omega = \Omega \otimes \Psi}}
+\stoptabulate
+\stopbuffer
+
+\startbuffer[weightdisplays]
+\startalign[center]
+\setupTABLE[frame=off, valign=middle, align=middle]
+\setupTABLE[column][2][width=1cm]
+\bTABLE
+  \bTR[height=1cm]
+    \bTD Thin \eTD
+    \bTD \eTD
+    \bTD Extralight \eTD
+  \eTR
+  \bTR[height=2cm]
+    \bTD {\switchtobodyfont[pennstander-thin]
+      \dm{\int_a^b f'(x) dx = f(b) -f(a)}} \eTD
+    \bTD \eTD
+    \bTD {\switchtobodyfont[pennstander-extralight]
+      \dm{c:= \sqrt{a^2 + b^2} \notin \mathbb Q}} \eTD
+  \eTR
+
+  \bTR[height=1cm]
+    \bTD Light \eTD
+    \bTD \eTD
+    \bTD Regular \eTD
+  \eTR
+  \bTR[height=2cm]
+    \bTD {\switchtobodyfont[pennstander-light]
+      \dm{\oint_\gamma \hat{f}(z) dz = 0}} \eTD
+    \bTD \eTD
+    \bTD {\switchtobodyfont[pennstander-regular]
+      \dm{\iint_M d\omega = \int_{\partial M}\omega}} \eTD
+  \eTR
+
+  \bTR[height=1cm]
+    \bTD Medium \eTD
+    \bTD \eTD
+    \bTD Semibold \eTD
+  \eTR
+  \bTR[height=2cm]
+    \bTD {\switchtobodyfont[pennstander-medium]
+      \dm{\lim_{n\to \infty}\sum_{\mu=1}^n \frac{1}{\mu^2} = \frac{\pi^2}{6}}} \eTD
+    \bTD \eTD
+    \bTD {\switchtobodyfont[pennstander-semibold]
+      \dm{\frac{d}{d \tau}(\psi\cdot \phi) = \frac{d\psi}{d\tau} \cdot \phi + \psi \cdot \frac{d\phi}{d\tau}}} \eTD
+  \eTR
+
+  \bTR[height=1cm]
+    \bTD Bold \eTD
+    \bTD \eTD
+    \bTD ExtraBold \eTD
+  \eTR
+  \bTR[height=2cm]
+    \bTD {\switchtobodyfont[pennstander-bold]
+      \dm{\nabla\cdot \fenced[group]{\nabla \times G} = 0}} \eTD
+    \bTD \eTD
+    \bTD {\switchtobodyfont[pennstander-extrabold]
+      \dm{\fenced[brace]{e^{i\theta} = \cos(\theta) + i \sin(\theta) : \theta\in\mathbb R}}} \eTD
+  \eTR
+
+  \bTR[height=1cm]
+    \bTD Black \eTD
+    \bTD \eTD
+    \bTD \eTD
+  \eTR
+  \bTR[height=2cm]
+    \bTD {\switchtobodyfont[pennstander-black]
+      \dm{\Psi \otimes \Omega = \Omega \otimes \Psi}} \eTD
+    \bTD \eTD
+    \bTD \eTD
+  \eTR
+\eTABLE
+\stopalign
+\stopbuffer
+\getbuffer[weightdisplays]
+\define\testcharacter{{\,\, }}
+
+\define[1]\AllFenceSizes{
+\im{
+\fenced[#1][size=12]{
+\fenced[#1][size=11]{
+\fenced[#1][size=10]{
+\fenced[#1][size=9]{
+\fenced[#1][size=8]{
+\fenced[#1][size=7]{
+\fenced[#1][size=6]{
+\fenced[#1][size=5]{
+\fenced[#1][size=4]{
+\fenced[#1][size=3]{
+\fenced[#1][size=2]{
+\fenced[#1][size=1]{
+\fenced[#1][size=0]{\testcharacter}}}}}}}}}}}}}
+}
+}
+
+\define\AllFences{
+\AllFenceSizes{angle}
+\AllFenceSizes{bracket}\crlf\crlf
+\AllFenceSizes{brace}
+\AllFenceSizes{bar}\crlf\crlf
+\AllFenceSizes{parenthesis}
+\AllFenceSizes{doublebar}\crlf\crlf
+\AllFenceSizes{group}
+\AllFenceSizes{ceiling}\crlf\crlf
+\AllFenceSizes{floor}
+\AllFenceSizes{triplebar}\crlf\crlf
+\AllFenceSizes{openbracket}
+}
+\def\fontlist{pennstander-thin,pennstander-regular,pennstander-bold}
+\def\fontlist{pennstander-regular}
+
+\startbuffer[alphabets]
+\doloopoverlist\fontlist{
+{\switchtobodyfont[\recursestring]
+   \doloopoverlist\alphabetlist
+{%
+\startalignment[center]
+\showmathfontcharacters[alternative=glyphs,list=\recursestring,showfeatures=none]
+\stopalignment
+}
+}}
+\stopbuffer
+\page
+\setupmathematics[default=normal,lcgreek=normal]
+\section[title={Upright Latin and Greek upper and lower case}]
+\def\alphabetlist{lowercasenormal,uppercasenormal,digitsnormal,uppercasegreeknormal,lowercasegreeknormal}
+\getbuffer[alphabets]
+\section[title={Italic/Oblique Latin and Greek upper and lower case}]
+
+\def\alphabetlist{lowercaseitalic,uppercaseitalic,uppercasegreekitalic,lowercasegreekitalic}
+\getbuffer[alphabets]
+\subsection[title={Double Struck upper case and numerals}]
+\def\alphabetlist{uppercasedoublestruck,digitsdoublestruck}
+\getbuffer[alphabets]
+\subsection[title={Fraktur-like upper and lower case}]
+\def\alphabetlist{uppercasefraktur,lowercasefraktur}
+\getbuffer[alphabets]
+
+
+
+\subsection[title={Script upper case}]
+\def\alphabetlist{uppercasescript}
+\getbuffer[alphabets]
+
+\page
+\subsection[title={Integrals}]
+
+\startbuffer[integrals]
+ \define\integrand{}
+\define[1]\testintegrals{
+\int[size=#1]{\integrand}  \iint[size=#1]{\integrand} \iiint[size=#1]{\integrand} 
+\iiiint[size=#1]{\integrand} \oint[size=#1]{\integrand}  \oiint[size=#1]{\integrand}  \oiiint[size=#1]{\integrand}  \slashint[size=#1]{\integrand}   \barint[size=#1]{\integrand} \,\, 
+ \aointc[size=#1]{\integrand} \,\, \ointc[size=#1]{\integrand} \,\, \intc[size=#1]{\integrand} \,\, \aodownintc[size=#1]{\integrand} \,\, \doublebarint[size=#1]{\integrand}\,\,\hookleftarrowint[size=#1]{\integrand} \,\,
+ \timesint[size=#1]{\integrand} \,\, \capint[size=#1]{\integrand} \,\,  \cupint[size=#1]{\integrand} \,\,  \upperint[size=#1]{\integrand} \,\,  \lowerint[size=#1]{\integrand} \,\,
+  \rectangularpoleintc[size=#1]{\integrand} \,\, \semicirclepoleintc[size=#1]{\integrand} \,\,
+  \circlepoleoutsideintc[size=#1]{\integrand} \,\,\circlepoleinsideintc[size=#1]{\integrand} \,\, \squareintc[size=#1]{\integrand} \,\,
+}
+\startformula
+\testintegrals{.15cm}\breakhere
+\testintegrals{.4cm}\breakhere
+\testintegrals{1cm}\breakhere
+\stopformula
+\stopbuffer
+
+\doloopoverlist\fontlist
+{
+{\switchtobodyfont[\recursestring]
+\getbuffer[integrals]}
+}
+
+
+\subsection[title={Radicals}]
+\startbuffer[radicals]
+\startformula
+\sqrt[2]{1+x+y}+
+\sqrt[1/3]{\frac{a+b}{c+d}}
+\stopformula 
+\stopbuffer
+
+
+\doloopoverlist\fontlist
+{
+{\switchtobodyfont[\recursestring]
+\getbuffer[radicals]}
+}
+\subsection[title={Accents and Stackers}]
+\startbuffer[accents]
+\startformula
+\grave{x} \quad \tilde{x} \quad \dot{x}\quad \ddot{x}\quad \dddot{x}\quad\ddddot{x}\quad \check{x}\quad \acute{x} \quad\bar{x}\quad\breve{x}\quad\ring{x}
+\stopformula
+\startformula
+\widehat{x+y}\quad
+\widebar{x+y}\quad
+\wideoverleftharpoon{x+y}\quad
+\wideoverleftrightarrow{x+y}\quad
+\wideunderleftrightarrow{x+y}\quad
+\wideunderleftharpoon{x+y}\quad
+\wideunderrightarrow{x+y}\quad
+\widecheck{x+y}\quad\widetilde{x+y}\quad
+\breakhere
+%\wideoverrightharpoon{x+y}\quad
+%\wideoverrightarrow{x+y}\quad
+%\wideunderbar{x+y}\quad
+%\wideunderrightharpoon{x+y}\quad
+%\wideunderleftarrow{x+y}\quad
+\overbrace{x+y}\quad
+\overparent{x+y}\quad
+\overbracket{x+y}\quad
+\overbar{x+y}\quad
+\breakhere
+\underbrace{x+y}\quad
+\underparent{x+y}\quad
+\underbracket{x+y}\quad
+\underbar{x+y}\quad
+\stopformula
+\stopbuffer
+
+\doloopoverlist\fontlist
+{
+{\switchtobodyfont[\recursestring]
+\getbuffer[accents]}
+}
+
+
+\subsection[title={Arrows}]
+\startbuffer[arrows]
+\startformula
+A \mrel{1+2}{a+b+c}  B \mequal{1+2}{a+b+c} 
+C \mleftarrow{1+2}{a+b+c} D \mrightarrow{1+2}{a+b+c} 
+E \mleftrightarrow{1+2}{a+b+c} F \mLeftarrow{1+2}{a+b+c}
+G \mRightarrow{1+2}{a+b+c} H \mLeftrightarrow{1+2}{a+b+c}
+I \mtwoheadleftarrow{1+2}{a+b+c} J \mtwoheadrightarrow{1+2}{a+b+c}
+K \mmapsto{1+2}{a+b+c} L \mhookleftarrow{1+2}{a+b+c}
+M \mhookrightarrow{1+2}{a+b+c} N \mleftharpoondown{1+2}{a+b+c}
+O \mleftharpoonup{1+2}{a+b+c} P \mrightharpoondown{1+2}{a+b+c}
+Q \mrightharpoonup{1+2}{a+b+c} R \mrightoverleftarrow{1+2}{a+b+c}
+S \mleftoverrightarrow{1+2}{a+b+c} T \mleftrightharpoons{1+2}{a+b+c}
+U \mrightleftharpoons{1+2}{a+b+c} V \mtriplerel{1+2}{a+b+c} W
+\stopformula
+\stopbuffer
+
+
+{\setupbodyfont[pennstander-regular]
+\getbuffer[arrows]}
+
+\subsection[title={Symbols}]
+
+\def\symbollist{
+    arrows,
+%    basiclatin,
+    blockelements,
+%    combiningdiacriticalmarks,
+%    combiningdiacriticalmarksforsymbols,
+    controlpictures,
+    currencysymbols,
+    dingbats,
+%    generalpunctuation,
+    geometricshapes,
+    ipaextensions,
+    latinextendeda,
+    latinsupplement,
+    letterlikesymbols,
+    mathematicaloperators,
+    miscellaneousmathematicalsymbolsa,
+    miscellaneousmathematicalsymbolsb,
+    miscellaneoussymbols,
+    miscellaneoussymbolsandarrows,
+    miscellaneoustechnical,
+    phoneticextensions,
+    superscriptsandsubscripts,
+    supplementalarrowsa,
+    supplementalarrowsb,
+    supplementalarrowsc,
+    supplementalmathematicaloperators,
+    supplementalsymbolsandpictographs,
+    emoticons,
+    miscellaneoussymbolsandpictographs}
+
+
+\doloopoverlist\fontlist{
+\edef\fontchoice{\recursestring}%
+\doloopoverlist\symbollist{%
+{\switchtobodyfont[\fontchoice]{\showmathfontcharacters[alternative=glyphswithoutsizes,list=\recursestring,showfeatures=none]}}}\blank[10pt]
+}
+
+
+
+
+
+
+
+
+\subsection[title=Brackets]
+\startbuffer[brackets]
+{\AllFences \blank[20pt]}
+\stopbuffer
+
+{\switchtobodyfont[pennstander-regular]
+\getbuffer[brackets]}
+
+
+
+
+
+\def\alternativeslist{
+%    uppercasenormal,
+%    lowercasenormal,
+%    digitsnormal,
+    digitsdoublestruck,
+    uppercasefraktur,
+    lowercasefraktur,
+    arrows,
+    basiclatin,
+    blockelements,
+%    combiningdiacriticalmarks,
+%    combiningdiacriticalmarksforsymbols,
+    controlpictures,
+    currencysymbols,
+    dingbats,
+%    generalpunctuation,
+    geometricshapes,
+    ipaextensions,
+    latinextendeda,
+    latinsupplement,
+    letterlikesymbols,
+    mathematicaloperators,
+    miscellaneousmathematicalsymbolsa,
+    miscellaneousmathematicalsymbolsb,
+    miscellaneoussymbols,
+    miscellaneoussymbolsandarrows,
+    miscellaneoustechnical,
+    phoneticextensions,
+    superscriptsandsubscripts,
+    supplementalarrowsa,
+    supplementalarrowsb,
+    supplementalarrowsc,
+    supplementalmathematicaloperators,
+    supplementalsymbolsandpictographs}
+
+
+\setupmathematics[default=normal]
+{\subsection[title=Alternatives]
+\switchtobodyfont[pennstander-regular]
+\doloopoverlist{ss01,ss02,ss03,ss04,ss05,ss07,ss20,cv01,cv10,cv20,cv21,cv30,cv31,cv32,zero}{
+{\switchtobodyfont[dejavu] \recursestring : }
+\setupbodyfont[pennstander-regular]\showmathfontcharacters[alternative=glyphvariants,list=\alternativeslist,showfeatures=none,togglelist={\recursestring}]\crlf
+}
+}
+
+
+
+
+
+%\doloopoverlist{pennstander-thin-ss,pennstander-regular-ss,pennstander-bold-ss}
+%{
+%\setupbodyfont[\recursestring]
+%\getbuffer[alternatives]
+%}
+
+
+
+
+\subsection[title=Private Space Characters]
+\startbuffer[additionals]
+\starttabulate[|l|l|]
+\NC U+E1001 \NC {\switchtobodyfont[pennstander-regular]$\char"E1001$}\NR
+\NC U+E1002 \NC {\switchtobodyfont[pennstander-regular]$\char"E1002$}\NR
+\NC U+E1003 \NC {\switchtobodyfont[pennstander-regular]$\char"E1003$}\NR
+\NC U+E1004 \NC {\switchtobodyfont[pennstander-regular]$\char"E1004$}\NR
+\NC U+E1005 \NC {\switchtobodyfont[pennstander-regular]$\char"E1005$}\NR
+\NC U+E1006 \NC {\switchtobodyfont[pennstander-regular]$\char"E1006$}\NR
+\NC U+E1007 \NC {\switchtobodyfont[pennstander-regular]$\char"E1007$}\NR
+\stoptabulate
+\stopbuffer
+\switchtobodyfont[dejavu] 
+\getbuffer[additionals]
+
+\setupbodyfont[pennstander-bold]
+\startformula
+{\char"E9999}
+\stopformula
+
+% \startformula
+% \rm agIAMNQVWZX \breakhere
+% \it agIAMNQVWZX \breakhere
+% \bf agIAMNQVWZX \breakhere
+% \bi agIAMNQVWZX
+% \stopformula
+    
+
+\stopcomponent

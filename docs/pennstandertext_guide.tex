@@ -1,0 +1,74 @@
+% !TEX root = pennstandertext_guide.tex
+
+\usetypescriptfile[pennstander]
+
+\setupbodyfont[dejavu]
+
+\definefontfamily[dejavu][rm][DejaVu Serif]
+
+
+\setuppagenumbering[state=stop]
+
+\setuphead
+  [title]
+  [style=\dejavu,align=middle]
+
+
+\setuphead
+  [section]
+  [style=\dejavu,number=no,align=middle]
+
+\def\fontlist{pennstander-thin,pennstander-regular,pennstander-bold}
+\definefontfeature[ss01][ss01=yes]
+\definefontfeature[ss02][ss02=yes]
+\definefontfeature[ss03][ss01=yes]
+\definefontfeature[ss03][ss03=yes]
+\definefontfeature[ss04][ss04=yes]
+\definefontfeature[ss05][ss05=yes]
+\definefontfeature[ss06][ss06=yes]
+\definefontfeature[ss07][ss07=yes]
+
+\definefontfeature[ss20][ss20=yes]
+\definefontfeature[rand][rand=random]
+\definefontfeature[dlig][dlig=yes]
+
+\startbuffer[wehold]
+{\it We hold these truths to be self-evident}: That the human body is not a machine, and even machines require downtime; that sleep is not laziness but the nightly maintenance cycle upon which memory, mood, and judgment all depend; and that a culture which glorifies exhaustion as ambition has confused suffering for virtue. 
+\stopbuffer
+\title[title=Pennstander Text]
+\section[title=Weights]
+
+\doloopoverlist{pennstander-thin,pennstander-extralight,pennstander-light,pennstander-regular,pennstander-medium,pennstander-semibold,pennstander-extrabold,pennstander-black}{
+\recursestring \crlf {\switchtobodyfont[\recursestring]{\getbuffer[wehold]\blank[10pt]}}
+}
+
+\section[title=Discretionary Ligatures]
+\addfeature[dlig]
+{\switchtobodyfont[pennstander-regular] BB CC DD EE FF GG LL MM NN OO PP RR SS TT bb cc dd ee fa ff ffi ffl fi fl ft ﬁﬂ gg ll mm nn oo pp rr ss ti tt tu tw
+\blank[10pt]
+\getbuffer[wehold]}
+
+
+
+\section[title=Alternates]
+
+
+{\switchtobodyfont[dejavu]{ss01}}: {\switchtobodyfont[pennstander-regular] \addfeature[ss01] I a g}\crlf
+{\switchtobodyfont[dejavu]{ss02}}: {\switchtobodyfont[pennstander-regular] \addfeature[ss02] A M N Q V W Z v z}\crlf
+{\switchtobodyfont[dejavu]{ss03}}: {\switchtobodyfont[pennstander-regular] \addfeature[ss03] 4 ¼ ¾}\crlf
+{\switchtobodyfont[dejavu]{ss04}}: {\switchtobodyfont[pennstander-regular] \addfeature[ss04] l t}\crlf
+{\switchtobodyfont[dejavu]{ss06}}: {\switchtobodyfont[pennstander-regular] \addfeature[ss06] &}\crlf
+{\switchtobodyfont[dejavu]{ss07}}: {\switchtobodyfont[pennstander-regular] \addfeature[ss07] 7 ⅞}
+
+%zeros, fractions, ordinals, different types of figures, accented characters
+
+\section[title=ss20: Extra flair]
+\subtractfeature[dlig]
+\addfeature[ss20]
+{\switchtobodyfont[pennstander-regular] \getbuffer[wehold]}
+\section[title=rand: Randoms]
+\subtractfeature[ss20]
+\addfeature[rand]
+{\switchtobodyfont[pennstander-regular] \getbuffer[wehold]}
+%\showfont[pennstander-thin][all]
+\stoptext
