@@ -3,8 +3,18 @@ A text and mathematics font based on [Grandstander](https://etceteratype.co/gran
 
 <img src="https://github.com/juliusross1/Pennstander/blob/main/samples/fontweights.png" width="650">
 
-## Characters
-Latin and Greek lower and upper case in upright and oblique/italics
+## Characters and Features
+### Text
+Characters in upright and oblique/italics with support for over 500 languages
+
+Stylstic and other Alternates Letters
+
+Some Emjois
+
+Here is the [Pennstander Text guide](docs/pennstandertext_guide.pdf).
+
+### Math
+Math Latin and Greek lower and upper case in upright and oblique/italics
 
 Doublestruck upper case and numerals
 
@@ -24,7 +34,7 @@ Radicals
 
 Mathematical symbols (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
-Here is the [Pennstander Text guide](docs/pennstandertext_guide.pdf) and the [Pennstander Math guide](docs/pennstandermath_guide.pdf)
+Here is the [Pennstander Math guide](docs/pennstandermath_guide.pdf)
 
 ## CTAN
 
