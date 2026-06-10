@@ -7,7 +7,7 @@ A text and mathematics font based on [Grandstander](https://etceteratype.co/gran
 ### Text
 Characters in upright and oblique/italics with support for over 500 languages
 
-Stylstic and other Alternates Letters
+Stylistic and other alternates Letters
 
 Some Emjois
 
