@@ -11,7 +11,7 @@ Stylistic and other alternates Letters
 
 Some Emjois
 
-Here is the [Pennstander Text guide](docs/pennstandertext_guide.pdf).
+Here is the [Pennstander Text guide](docs/pennstandertext_guide.pdf) [(download)](https://raw.githubusercontent.com/juliusross1/Pennstander/main/docs/pennstandertext_guide.pdf)
 
 ### Math
 Math Latin and Greek lower and upper case in upright and oblique/italics
@@ -34,7 +34,7 @@ Radicals
 
 Mathematical symbols (attempted to cover all the most used ones; if you need/want something that is missing report a bug and I will see if I can create it for you)
 
-Here is the [Pennstander Math guide](docs/pennstandermath_guide.pdf)
+Here is the [Pennstander Math guide](docs/pennstandermath_guide.pdf) [(download)](https://raw.githubusercontent.com/juliusross1/Pennstander/main/docs/pennstandermath_guide.pdf)
 
 ## CTAN
 
