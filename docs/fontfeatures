@@ -13,13 +13,13 @@ case: Case-Sensitive Forms
 dlig: Discretionary Ligatures
 liga: Standard Ligatures
 zero: Slashed Zero
-cpsp: Capital Spacing
 ss01: Alternate a,g,I
 ss02: Alternate A,M,N,Q,V,W,Z,v,z
-ss03: Alternate 4
-ss04: Alternate l,t
+ss03: Alternate l,t
+ss04: Alternate 4
 ss06: Alternate ampersand
 ss07: Alternate 7
+rand: Randoms
 
 Pennstander-Math
 aalt: Access All Alternatives
@@ -28,8 +28,8 @@ zero: Slashed Zero
 frac: Fractions
 ss01: Alternate a,g,I,\Iota
 ss02: Alternate A,M,N,Q,V,W,Z,v,z,\Alpha,\Mu,\Rho,\Zeta
-ss03: Alternate 4
-ss04: Alternate l,t
+ss03: Alternate l,t
+ss04: Alternate 4
 ss05: Simplified Fraktur A,K,L,X,Y,Z,x,y
 ss07: Alternate 7
 ss08: Alternate braces
@@ -41,6 +41,7 @@ cv30: Alternate Integrals (without serif)
 cv31: Alternate Integrals (serif)
 cv32: Alternate Integrals (all)
 zero: Alternate zero
+rand: Randoms
 
 
 
