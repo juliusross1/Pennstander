@@ -32,11 +32,11 @@ ss03: Alternate 4
 ss04: Alternate l,t
 ss05: Simplified Fraktur A,K,L,X,Y,Z,x,y
 ss07: Alternate 7
+ss08: Alternate braces
 ssty: Math Script Style Alternatives
 cv01: Alternate a,g,I
-cv10: Alternate numerals
+cv15: Alternate numerals
 cv20: Alternate Fences
-cv21: Alternate Fences
 cv30: Alternate Integrals (without serif)
 cv31: Alternate Integrals (serif)
 cv32: Alternate Integrals (all)
