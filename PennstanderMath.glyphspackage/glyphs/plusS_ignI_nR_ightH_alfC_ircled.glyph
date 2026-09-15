@@ -1,0 +1,39 @@
+{
+glyphname = plusSignInRightHalfCircled;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (1434,-50);
+ref = leftHalfCircle;
+scale = (-1,1);
+},
+{
+pos = (80,5);
+ref = plus;
+}
+);
+width = 1434;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (1386,0);
+ref = leftHalfCircle;
+scale = (-1,1);
+},
+{
+pos = (176,200);
+ref = plus;
+scale = (0.55,0.55);
+}
+);
+width = 1386;
+}
+);
+metricLeft = "=plus.circled";
+metricRight = "=plus.circled";
+unicode = 10798;
+}

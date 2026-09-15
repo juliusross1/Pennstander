@@ -1,0 +1,82 @@
+{
+category = Symbol;
+glyphname = tripleIntegral.ext;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(531,10,l),
+(624,10,l),
+(624,400,l),
+(531,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1281,10,l),
+(1374,10,l),
+(1374,400,l),
+(1281,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(2031,10,l),
+(2124,10,l),
+(2124,400,l),
+(2031,400,l)
+);
+}
+);
+width = 2348;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(441,10,l),
+(815,10,l),
+(815,400,l),
+(441,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1461,10,l),
+(1835,10,l),
+(1835,400,l),
+(1461,400,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(2481,10,l),
+(2855,10,l),
+(2855,400,l),
+(2481,400,l)
+);
+}
+);
+width = 2858;
+}
+);
+metricLeft = "=integral.ext";
+metricRight = "=integral.ext";
+production = tripleIntegral.ext;
+subCategory = Halfform;
+tags = (
+integral
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

@@ -1,0 +1,52 @@
+{
+color = 8;
+glyphname = doubleStrokeIntegral.alt3;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1724,-272);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _singleintegral.alt3;
+},
+{
+pos = (55,-70);
+ref = _doubleStrokeIntegralcomponent;
+}
+);
+width = 1254;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (2102,-390);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _singleintegral.alt3;
+},
+{
+pos = (159,-80);
+ref = _doubleStrokeIntegralcomponent;
+}
+);
+width = 1701;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+doubleStrokeIntegral.alt3,
+doubleStrokeIntegral.alt3.disp
+);
+};
+};
+}

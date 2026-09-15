@@ -1,0 +1,40 @@
+{
+glyphname = longRightTack;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (3,0);
+ref = hyphen;
+scale = (1.3,1);
+},
+{
+angle = 90;
+pos = (703,90);
+ref = hyphen;
+scale = (1.2,1);
+}
+);
+width = 1167;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (165,10);
+ref = hyphen;
+scale = (1.4,1);
+},
+{
+angle = 90;
+pos = (963,166);
+ref = hyphen;
+}
+);
+width = 1487;
+}
+);
+metricRight = "=righttack";
+unicode = 10205;
+}

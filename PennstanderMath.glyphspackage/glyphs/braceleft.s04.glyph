@@ -1,0 +1,39 @@
+{
+glyphname = braceleft.s04;
+kernLeft = braceleft;
+kernRight = braceleft;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Height = 40;
+};
+ref = _smart.braceleft;
+}
+);
+width = 892;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Height = 40;
+};
+ref = _smart.braceleft;
+}
+);
+width = 807;
+}
+);
+metricLeft = "=braceleft.s1";
+metricRight = "=braceleft.s1";
+subCategory = Parenthesis;
+userData = {
+RMXScaler = {
+source = braceleft;
+};
+};
+}

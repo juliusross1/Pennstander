@@ -1,0 +1,165 @@
+{
+color = 11;
+glyphname = "rbolditalic-math.alt1.ssty2";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.r;
+}
+);
+width = 915;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.r;
+}
+);
+width = 915;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+100,
+100
+);
+};
+layerId = "A797288C-EC5E-4937-81ED-CA958D756D11";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.r;
+}
+);
+width = 1062;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+100,
+100
+);
+};
+layerId = "77F8F99A-0692-4761-8238-1D262E34B34E";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.r;
+}
+);
+width = 1075;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+100
+);
+};
+layerId = "F9A7ED4D-0055-4A6C-9133-15ADD38D7D0E";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.r;
+}
+);
+width = 1163;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+100
+);
+};
+layerId = "BFF1DACA-7A79-4610-AB42-8834F62ABE4B";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.r;
+}
+);
+width = 1163;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+0
+);
+};
+layerId = "8E24CF11-42A0-4FFB-B487-A01DF91B5D9A";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.r;
+}
+);
+width = 893;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+0
+);
+};
+layerId = "9CF0C9DA-4255-4486-93DF-5D6896B65BF2";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.r;
+}
+);
+width = 893;
+}
+);
+}

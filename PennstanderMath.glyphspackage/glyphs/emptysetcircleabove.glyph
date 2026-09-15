@@ -1,0 +1,32 @@
+{
+glyphname = emptysetcircleabove;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = emptyset;
+},
+{
+pos = (179,390);
+ref = ringcomb;
+}
+);
+width = 1135;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = emptyset;
+},
+{
+pos = (352,402);
+ref = ringcomb;
+}
+);
+width = 1383;
+}
+);
+unicode = 10674;
+}

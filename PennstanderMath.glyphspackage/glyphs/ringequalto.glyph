@@ -1,0 +1,36 @@
+{
+glyphname = ringequalto;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = equal;
+},
+{
+pos = (202,-19);
+ref = ring;
+}
+);
+width = 1211;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (0,12);
+ref = equal;
+},
+{
+pos = (314,234);
+ref = ring;
+scale = (0.7341,0.7268);
+}
+);
+width = 1101;
+}
+);
+metricLeft = equal;
+metricRight = equal;
+unicode = 8791;
+}

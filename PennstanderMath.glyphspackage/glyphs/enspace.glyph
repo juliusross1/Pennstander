@@ -1,0 +1,14 @@
+{
+glyphname = enspace;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+width = 1000;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+width = 1000;
+}
+);
+unicode = 8194;
+}

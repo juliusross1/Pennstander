@@ -1,0 +1,28 @@
+{
+glyphname = caron;
+kernLeft = caron;
+kernRight = caron;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = 1;
+ref = caroncomb;
+}
+);
+width = 860;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = 1;
+ref = caroncomb;
+}
+);
+width = 860;
+}
+);
+unicode = 711;
+}

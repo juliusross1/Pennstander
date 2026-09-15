@@ -1,0 +1,33 @@
+{
+glyphname = "downandhorizontalwave-dentistry";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = "downandhorizontal-dentistry";
+},
+{
+pos = (130,-680);
+ref = tilde;
+}
+);
+width = 1093;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = "downandhorizontal-dentistry";
+},
+{
+pos = (-3,-840);
+ref = tilde;
+scale = (1.1016,1);
+}
+);
+width = 1093;
+}
+);
+unicode = 9159;
+}

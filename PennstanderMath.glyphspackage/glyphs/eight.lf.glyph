@@ -1,0 +1,27 @@
+{
+glyphname = eight.lf;
+kernLeft = eight;
+kernRight = eight;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = eight;
+}
+);
+width = 1156;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = eight;
+}
+);
+width = 1159;
+}
+);
+metricLeft = eight;
+metricRight = eight;
+}

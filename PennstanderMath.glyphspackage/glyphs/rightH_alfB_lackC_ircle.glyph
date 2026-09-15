@@ -1,0 +1,30 @@
+{
+glyphname = rightHalfBlackCircle;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (932,0);
+ref = leftHalfBlackCircle;
+scale = (-1,1);
+}
+);
+width = 932;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (857,0);
+ref = leftHalfBlackCircle;
+scale = (-1,1);
+}
+);
+width = 857;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 9687;
+}

@@ -1,0 +1,118 @@
+{
+glyphname = braceleft;
+kernLeft = braceleft;
+kernRight = braceleft;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _smart.braceleft;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+braceleft.bot,
+0,
+0,
+300
+),
+(
+braceleft.ext,
+1,
+300,
+300
+),
+(
+braceleft.mid,
+0,
+300,
+300
+),
+(
+braceleft.ext,
+1,
+300,
+300
+),
+(
+braceleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 778;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _smart.braceleft;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+braceleft.bot,
+0,
+0,
+300
+),
+(
+braceleft.ext,
+1,
+300,
+300
+),
+(
+braceleft.mid,
+0,
+300,
+300
+),
+(
+braceleft.ext,
+1,
+300,
+300
+),
+(
+braceleft.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 722;
+}
+);
+production = braceleft;
+subCategory = Parenthesis;
+unicode = 123;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+braceleft.s01,
+braceleft.s02,
+braceleft.s03,
+braceleft.s04,
+braceleft.s05,
+braceleft.s06,
+braceleft.s07,
+braceleft.s08,
+braceleft.s09,
+braceleft.s10,
+braceleft.s11,
+braceleft.s12
+);
+};
+};
+}

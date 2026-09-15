@@ -1,0 +1,37 @@
+{
+glyphname = plusSignWithDotBelow;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (0,6);
+ref = plus;
+},
+{
+pos = (347,-513);
+ref = bulletoperator;
+scale = (0.77,0.77);
+}
+);
+width = 1075;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = plus;
+},
+{
+pos = (220,-660);
+ref = bulletoperator;
+scale = (0.88,0.88);
+}
+);
+width = 1096;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10789;
+}

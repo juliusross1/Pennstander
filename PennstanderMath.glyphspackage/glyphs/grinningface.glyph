@@ -1,0 +1,52 @@
+{
+glyphname = grinningface;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+ref = _emojicircle;
+},
+{
+alignment = -1;
+pos = (477,300);
+ref = _emjoiopeneye;
+},
+{
+pos = (999,298);
+ref = _emjoiopeneye;
+},
+{
+pos = (7,72);
+ref = _emojismilingmouth;
+}
+);
+width = 1849;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+ref = _emojicircle;
+},
+{
+alignment = -1;
+pos = (465,176);
+ref = _emjoiopeneye;
+},
+{
+pos = (961,183);
+ref = _emjoiopeneye;
+},
+{
+pos = (31,0);
+ref = _emojismilingmouth;
+}
+);
+width = 2183;
+}
+);
+unicode = 128512;
+}

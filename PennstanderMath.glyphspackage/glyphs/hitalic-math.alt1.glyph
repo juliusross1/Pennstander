@@ -1,0 +1,81 @@
+{
+category = Letter;
+color = 8;
+glyphname = "hitalic-math.alt1";
+kernLeft = "hitalic-math";
+kernRight = "nitalic-math";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+alt1 = 2;
+};
+ref = _smart.h;
+}
+);
+width = 937;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+alt1 = 1.95341;
+};
+ref = _smart.h;
+}
+);
+width = 1123;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+100,
+100
+);
+};
+layerId = "33A19D07-684F-4B88-80AA-49266F5EAEDD";
+name = "{100,100,100}";
+shapes = (
+{
+piece = {
+Italic = 100;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 1121;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+100,
+100
+);
+};
+layerId = "44B2F788-505C-4902-96FA-7AE3D1A9294A";
+name = "{900,100,100}";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 1304;
+}
+);
+production = "hitalic-math.alt1";
+script = math;
+subCategory = Math;
+}

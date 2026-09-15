@@ -1,0 +1,165 @@
+{
+color = 11;
+glyphname = "dbolditalic-math.alt1.ssty2";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.d;
+}
+);
+width = 1152;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.d;
+}
+);
+width = 1152;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+100,
+100
+);
+};
+layerId = "5D04D6F6-C971-494A-8C0C-AE42B59D959C";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.d;
+}
+);
+width = 1421;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+100,
+100
+);
+};
+layerId = "7DD1A21C-6DAB-497C-B7A1-6978F99E9609";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.d;
+}
+);
+width = 1416;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+100
+);
+};
+layerId = "51CF697C-736B-42DC-98D1-594A9F4CBC9E";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.d;
+}
+);
+width = 1464;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+100
+);
+};
+layerId = "49EE462C-5F4A-4860-802E-380D5BCD12EB";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.d;
+}
+);
+width = 1464;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+0
+);
+};
+layerId = "7A80B3EB-DCAD-454F-AF8B-B66D3D378B68";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.d;
+}
+);
+width = 1200;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+0
+);
+};
+layerId = "4936537B-9AD7-4E1F-A056-6D557EE739A8";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.d;
+}
+);
+width = 1200;
+}
+);
+}

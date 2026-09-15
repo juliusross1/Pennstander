@@ -1,0 +1,33 @@
+{
+glyphname = doubleSolidusOperator.s4;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = slash.s4;
+},
+{
+pos = (400,0);
+ref = slash.s4;
+}
+);
+width = 1934;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = slash.s4;
+},
+{
+pos = (670,0);
+ref = slash.s4;
+}
+);
+width = 2451;
+}
+);
+metricLeft = "=slash";
+metricRight = "=slash";
+}

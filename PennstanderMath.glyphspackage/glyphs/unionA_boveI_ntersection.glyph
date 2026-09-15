@@ -1,0 +1,42 @@
+{
+glyphname = unionAboveIntersection;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (40,2170);
+ref = smallintersection;
+scale = (1,-1);
+},
+{
+alignment = -1;
+pos = (40,-1078);
+ref = smallintersection;
+}
+);
+width = 1049;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (-28,2396);
+ref = smallintersection;
+scale = (1,-1);
+},
+{
+alignment = -1;
+pos = (-40,-1524);
+ref = smallintersection;
+}
+);
+width = 1208;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10822;
+}

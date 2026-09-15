@@ -1,0 +1,30 @@
+{
+glyphname = verticalBarDoubleLeftTurnstile;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = -90;
+pos = (-158,1104);
+ref = doubleDownTack;
+}
+);
+width = 868;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = -90;
+pos = (-153,1179);
+ref = doubleDownTack;
+}
+);
+width = 950;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10980;
+}

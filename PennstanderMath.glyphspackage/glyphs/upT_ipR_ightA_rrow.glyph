@@ -1,0 +1,30 @@
+{
+glyphname = upTipRightArrow;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 180;
+pos = (1651,1168);
+ref = downTipLeftArrow;
+}
+);
+width = 1651;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 180;
+pos = (1712,916);
+ref = downTipLeftArrow;
+}
+);
+width = 1712;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 8625;
+}

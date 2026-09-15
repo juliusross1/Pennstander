@@ -1,0 +1,36 @@
+{
+glyphname = measuredRightAngleWithDot;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = measuredRightAngle;
+},
+{
+pos = (230,-190);
+ref = bulletoperator;
+scale = (0.77,0.77);
+}
+);
+width = 1091;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = measuredRightAngle;
+},
+{
+pos = (490,380);
+ref = bulletoperator;
+scale = (0.22,0.22);
+}
+);
+width = 1201;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10653;
+}

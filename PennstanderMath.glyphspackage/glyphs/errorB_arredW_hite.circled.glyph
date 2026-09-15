@@ -1,0 +1,71 @@
+{
+glyphname = errorBarredWhite.circled;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (0,-200);
+ref = whiteCircle;
+},
+{
+angle = -90;
+pos = (199,1642);
+ref = hyphen;
+scale = (0.55,1);
+},
+{
+pos = (500,962);
+ref = hyphen;
+scale = (0.7218,1);
+},
+{
+angle = 90;
+pos = (199,-578);
+ref = hyphen;
+scale = (0.55,-1);
+},
+{
+pos = (500,102);
+ref = hyphen;
+scale = (0.7218,-1);
+}
+);
+width = 1597;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (0,-200);
+ref = whiteCircle;
+},
+{
+angle = -90;
+pos = (267,1644);
+ref = hyphen;
+scale = (0.66,1);
+},
+{
+pos = (389,1027);
+ref = hyphen;
+},
+{
+angle = 90;
+pos = (252,-533);
+ref = hyphen;
+scale = (0.66,-1);
+},
+{
+pos = (408,65);
+ref = hyphen;
+scale = (1,-1);
+}
+);
+width = 1735;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10738;
+}

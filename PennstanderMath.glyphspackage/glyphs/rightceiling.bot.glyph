@@ -1,0 +1,56 @@
+{
+category = Punctuation;
+glyphname = rightceiling.bot;
+kernLeft = bar;
+kernRight = bar;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(275,850,l),
+(277,593,o),
+(283,311,o),
+(293,7,c),
+(348,4,o),
+(502,-5,o),
+(600,-5,c),
+(616,214,o),
+(633,534,o),
+(639,850,c),
+(638,1245,l),
+(274,1245,l)
+);
+}
+);
+width = 712;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(457,887,l),
+(457,604,o),
+(460,267,o),
+(469,4,c),
+(482,1,o),
+(493,0,o),
+(516,0,c),
+(523,227,o),
+(532,558,o),
+(535,891,c),
+(535,1230,l),
+(457,1230,l)
+);
+}
+);
+width = 525;
+}
+);
+production = rightceiling.bot;
+subCategory = Parenthesis;
+}

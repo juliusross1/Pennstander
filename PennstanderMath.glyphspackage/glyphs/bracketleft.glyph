@@ -1,0 +1,98 @@
+{
+glyphname = bracketleft;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+rand2 = 0;
+};
+ref = _smart.bracketleft;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketleft.bot,
+0,
+0,
+200
+),
+(
+bracketleft.ext,
+1,
+200,
+200
+),
+(
+bracketleft.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 757;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+rand2 = 0;
+};
+ref = _smart.bracketleft;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketleft.bot,
+0,
+0,
+200
+),
+(
+bracketleft.ext,
+1,
+200,
+200
+),
+(
+bracketleft.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 808;
+}
+);
+production = bracketleft;
+unicode = 91;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bracketleft,
+bracketleft.s01,
+bracketleft.s02,
+bracketleft.s03,
+bracketleft.s04,
+bracketleft.s05,
+bracketleft.s06,
+bracketleft.s07,
+bracketleft.s08,
+bracketleft.s09,
+bracketleft.s10,
+bracketleft.s11,
+bracketleft.s12
+);
+};
+};
+}

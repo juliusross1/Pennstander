@@ -1,0 +1,119 @@
+{
+color = 8;
+glyphname = dblIntegral.alt2;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (996,600);
+},
+{
+name = math.ic;
+pos = (2435,-479);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+ref = _singleintegral.alt3;
+},
+{
+alignment = -1;
+pos = (726,0);
+ref = _singleintegral;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+dblIntegral.bot,
+0,
+0,
+200
+),
+(
+dblIntegral.ext,
+1,
+200,
+200
+),
+(
+dblIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1965;
+},
+{
+anchors = (
+{
+name = center;
+pos = (1367,520);
+},
+{
+name = math.ic;
+pos = (3035,-390);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _singleintegral.alt3;
+},
+{
+alignment = -1;
+pos = (1161,0);
+ref = _singleintegral;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+dblIntegral.bot,
+0,
+0,
+200
+),
+(
+dblIntegral.ext,
+1,
+200,
+200
+),
+(
+dblIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 2634;
+}
+);
+metricLeft = "=singleintegral";
+metricRight = "=singleintegral.alt2";
+production = dblIntegral.rand2;
+subCategory = Halfform;
+tags = (
+integral
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+dblIntegral.alt2,
+dblIntegral.alt2.disp
+);
+};
+};
+}

@@ -1,0 +1,90 @@
+{
+glyphname = rightFloor;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _smart.rightFloor;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketright.bot,
+0,
+0,
+200
+),
+(
+bracketright.ext,
+1,
+200,
+200
+),
+(
+rightFloor.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 680;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _smart.rightFloor;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketright.bot,
+0,
+0,
+200
+),
+(
+bracketright.ext,
+1,
+200,
+200
+),
+(
+rightFloor.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 760;
+}
+);
+unicode = 8971;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+rightFloor.s01,
+rightFloor.s02,
+rightFloor.s03,
+rightFloor.s04,
+rightFloor.s05,
+rightFloor.s06,
+rightFloor.s07,
+rightFloor.s08,
+rightFloor.s09,
+rightFloor.s10,
+rightFloor.s11,
+rightFloor.s12
+);
+};
+};
+}

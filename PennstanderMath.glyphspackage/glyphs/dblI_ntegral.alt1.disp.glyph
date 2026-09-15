@@ -1,0 +1,63 @@
+{
+color = 8;
+glyphname = dblIntegral.alt1.disp;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (1751,618);
+},
+{
+name = math.ic;
+pos = (4507,-530);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = singleintegral.alt1.disp;
+},
+{
+alignment = -1;
+pos = (1100,0);
+ref = singleintegral.alt1.disp;
+}
+);
+width = 3493;
+},
+{
+anchors = (
+{
+name = center;
+pos = (1995,618);
+},
+{
+name = math.ic;
+pos = (4969,-399);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = singleintegral.alt1.disp;
+},
+{
+pos = (1390,0);
+ref = singleintegral.alt1.disp;
+}
+);
+width = 3920;
+}
+);
+metricLeft = "=singleintegral.alt1.disp";
+metricRight = "=singleintegral.alt1.disp";
+production = dblIntegral.rand1.disp;
+subCategory = Halfform;
+tags = (
+integral
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

@@ -1,0 +1,139 @@
+{
+color = 8;
+glyphname = volumeIntegral.alt1;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (3183,214);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+ref = _singleintegral.alt1.shorterlserifs;
+},
+{
+alignment = -1;
+pos = (722,0);
+ref = _singleintegral.alt1.shorterlserifs;
+},
+{
+alignment = -1;
+pos = (1394,0);
+ref = _singleintegral.alt1.shorterlserifs;
+},
+{
+alignment = -1;
+piece = {
+Width = 132.34843;
+};
+pos = (142,80);
+ref = _smart.volumeintegralcomponent.disp;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+tripleIntegral.bot,
+0,
+0,
+200
+),
+(
+tripleIntegral.ext,
+1,
+200,
+200
+),
+(
+tripleIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 2716;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (4713,214);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (2,0);
+ref = _singleintegral.alt1.shorterlserifs;
+},
+{
+alignment = -1;
+pos = (1070,0);
+ref = _singleintegral.alt1.shorterlserifs;
+},
+{
+alignment = -1;
+pos = (2095,0);
+ref = _singleintegral.alt1.shorterlserifs;
+},
+{
+alignment = -1;
+piece = {
+Width = 129.03279;
+};
+pos = (27,100);
+ref = _smart.volumeintegralcomponent.disp;
+scale = (1.1205,0.92);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+tripleIntegral.bot,
+0,
+0,
+200
+),
+(
+tripleIntegral.ext,
+1,
+200,
+200
+),
+(
+tripleIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 4016;
+}
+);
+metricLeft = "=singleintegral";
+metricRight = "=singleintegral";
+subCategory = Halfform;
+tags = (
+integral
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+volumeIntegral.alt1,
+volumeIntegral.alt1.disp
+);
+};
+};
+}

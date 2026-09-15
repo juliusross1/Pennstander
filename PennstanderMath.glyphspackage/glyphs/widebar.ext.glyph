@@ -1,0 +1,40 @@
+{
+category = Mark;
+glyphname = widebar.ext;
+kernLeft = minus;
+kernRight = minus;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,1140,l),
+(400,1140,l),
+(400,1207,l),
+(0,1207,l)
+);
+}
+);
+width = 400;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,1225,l),
+(400,1225,l),
+(400,1582,l),
+(0,1582,l)
+);
+}
+);
+width = 400;
+}
+);
+production = widebar.ext;
+subCategory = Spacing;
+}

@@ -1,0 +1,30 @@
+{
+glyphname = smallcontainsoverbar;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (757,0);
+ref = smallelementofoverbar;
+scale = (-1,1);
+}
+);
+width = 757;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (1002,0);
+ref = smallelementofoverbar;
+scale = (-1,1);
+}
+);
+width = 1002;
+}
+);
+metricLeft = "=|element";
+metricRight = "=|element";
+unicode = 8958;
+}

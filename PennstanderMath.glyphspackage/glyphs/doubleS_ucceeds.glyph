@@ -1,0 +1,30 @@
+{
+glyphname = doubleSucceeds;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (1368,0);
+ref = doublePrecedes;
+scale = (-1,1);
+}
+);
+width = 1368;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (1796,0);
+ref = doublePrecedes;
+scale = (-1,1);
+}
+);
+width = 1796;
+}
+);
+metricLeft = "=greater";
+metricRight = "=greater";
+unicode = 10940;
+}

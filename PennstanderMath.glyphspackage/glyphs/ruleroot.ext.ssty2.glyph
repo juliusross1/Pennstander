@@ -1,0 +1,40 @@
+{
+category = Punctuation;
+color = 11;
+glyphname = ruleroot.ext.ssty2;
+kernLeft = minus;
+kernRight = minus;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,0,l),
+(400,0,l),
+(400,104,l),
+(0,104,l)
+);
+}
+);
+width = 400;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,0,l),
+(400,0,l),
+(400,356,l),
+(0,356,l)
+);
+}
+);
+width = 400;
+}
+);
+production = ruleroot.ext.ssty2;
+}

@@ -1,0 +1,58 @@
+{
+glyphname = smilingFaceWithOpenMouth;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+ref = _emojicircle;
+},
+{
+alignment = -1;
+pos = (516,-40);
+ref = _emjoiopeneye;
+scale = (1,1.66);
+},
+{
+pos = (974,-40);
+ref = _emjoiopeneye;
+scale = (1,1.66);
+},
+{
+pos = (-18,0);
+ref = _emojismilingmouth;
+}
+);
+width = 1849;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+ref = _emojicircle;
+},
+{
+alignment = -1;
+pos = (555,-80);
+ref = _emjoiopeneye;
+scale = (0.77,1.33);
+},
+{
+pos = (1013,-80);
+ref = _emjoiopeneye;
+scale = (0.77,1.33);
+},
+{
+pos = (57,5);
+ref = _emojismilingmouth;
+}
+);
+width = 2183;
+}
+);
+metricLeft = grinningface;
+metricRight = grinningface;
+unicode = 128515;
+}

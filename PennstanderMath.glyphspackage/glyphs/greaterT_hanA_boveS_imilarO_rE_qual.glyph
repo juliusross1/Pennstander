@@ -1,0 +1,38 @@
+{
+glyphname = greaterThanAboveSimilarOrEqual;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (3,400);
+ref = greater;
+},
+{
+pos = (29,-413);
+ref = asymptoticallyequal;
+scale = (0.6722,0.8108);
+}
+);
+width = 824;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (55,-10);
+ref = greater;
+},
+{
+pos = (13,-1289);
+ref = asymptoticallyequal;
+scale = (0.8343,1);
+}
+);
+width = 931;
+}
+);
+metricLeft = "=greater";
+metricRight = "=greater";
+unicode = 10894;
+}

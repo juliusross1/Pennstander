@@ -1,0 +1,55 @@
+{
+category = Symbol;
+glyphname = leftarrowHookIntegral.disp;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (2721,-898);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (350,0);
+ref = _singleintegral.disp;
+},
+{
+pos = (360,160);
+ref = _hookarrowintegralcomponent.disp;
+}
+);
+width = 1944;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (3359,-480);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (386,0);
+ref = _singleintegral.disp;
+},
+{
+pos = (567,119);
+ref = _hookarrowintegralcomponent.disp;
+}
+);
+width = 2286;
+}
+);
+metricLeft = leftarrowHookIntegral.alt1.disp;
+production = leftarrowHookIntegral.disp;
+script = math;
+subCategory = Halfform;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

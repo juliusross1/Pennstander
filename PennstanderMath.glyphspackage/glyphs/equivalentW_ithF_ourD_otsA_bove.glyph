@@ -1,0 +1,59 @@
+{
+glyphname = equivalentWithFourDotsAbove;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (65,0);
+ref = equivalence;
+},
+{
+pos = (-12,1034);
+ref = period;
+scale = (0.88,0.88);
+},
+{
+pos = (292,1041);
+ref = period;
+scale = (0.88,0.88);
+},
+{
+pos = (585,1034);
+ref = period;
+scale = (0.88,0.88);
+}
+);
+width = 1049;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (18,0);
+ref = equivalence;
+scale = (1.1811,1);
+},
+{
+pos = (-55,1383);
+ref = period;
+scale = (0.66,0.66);
+},
+{
+pos = (342,1389);
+ref = period;
+scale = (0.66,0.66);
+},
+{
+pos = (738,1375);
+ref = period;
+scale = (0.66,0.66);
+}
+);
+width = 1190;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10872;
+}

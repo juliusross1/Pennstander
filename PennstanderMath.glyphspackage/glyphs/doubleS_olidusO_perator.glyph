@@ -1,0 +1,48 @@
+{
+glyphname = doubleSolidusOperator;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = slash;
+},
+{
+pos = (400,0);
+ref = slash;
+}
+);
+width = 1446;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = slash;
+},
+{
+pos = (600,0);
+ref = slash;
+}
+);
+width = 1781;
+}
+);
+metricLeft = "=slash";
+metricRight = "=slash";
+unicode = 11005;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+doubleSolidusOperator,
+doubleSolidusOperator.s1,
+doubleSolidusOperator.s2,
+doubleSolidusOperator.s3,
+doubleSolidusOperator.s4,
+doubleSolidusOperator.s5,
+doubleSolidusOperator.s6,
+doubleSolidusOperator.s7
+);
+};
+};
+}

@@ -1,0 +1,34 @@
+{
+category = Symbol;
+glyphname = mathll;
+kernLeft = guillemetleft;
+kernRight = guillemetleft;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (1726,0);
+ref = mathgg;
+scale = (-1,1);
+}
+);
+width = 1726;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (1221,0);
+ref = mathgg;
+scale = (-1,1);
+}
+);
+width = 1221;
+}
+);
+metricLeft = less;
+metricRight = less;
+script = "";
+unicode = 8810;
+}

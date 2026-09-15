@@ -1,0 +1,65 @@
+{
+category = Symbol;
+glyphname = leftarrowHookIntegral.bot;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(731,1151,l),
+(731,753,ls),
+(731,163,o),
+(659,104,o),
+(549,100,cs),
+(491,98,o),
+(449,139,o),
+(403,203,c),
+(343,136,l),
+(361,113,o),
+(449,3,o),
+(536,3,cs),
+(741,3,o),
+(823,163,o),
+(823,753,cs),
+(823,1155,l)
+);
+}
+);
+width = 847;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(963,1187,l),
+(963,699,l),
+(953,586,o),
+(924,343,o),
+(809,343,cs),
+(766,343,o),
+(744,356,o),
+(714,380,c),
+(557,99,l),
+(593,59,o),
+(695,0,o),
+(865,0,cs),
+(1252,0,o),
+(1317,324,o),
+(1331,699,c),
+(1331,1187,l)
+);
+}
+);
+width = 814;
+}
+);
+production = leftarrowHookIntegral.bot;
+subCategory = Halfform;
+tags = (
+integral
+);
+}

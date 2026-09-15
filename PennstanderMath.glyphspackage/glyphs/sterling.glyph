@@ -1,0 +1,26 @@
+{
+glyphname = sterling;
+kernLeft = sterling;
+kernRight = sterling;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = sterlira;
+}
+);
+width = 1140;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = sterlira;
+}
+);
+width = 1140;
+}
+);
+unicode = 163;
+}

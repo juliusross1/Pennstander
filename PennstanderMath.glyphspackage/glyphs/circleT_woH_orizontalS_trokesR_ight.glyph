@@ -1,0 +1,52 @@
+{
+glyphname = circleTwoHorizontalStrokesRight;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (-80,0);
+ref = mediumsmallwhitecircle;
+},
+{
+pos = (1356,-211);
+ref = minus;
+scale = (0.44,1);
+},
+{
+pos = (1324,188);
+ref = minus;
+scale = (0.44,1);
+}
+);
+width = 1927;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (-156,0);
+ref = mediumsmallwhitecircle;
+},
+{
+angle = -3;
+pos = (1227,-138);
+ref = minus;
+scale = (0.55,0.77);
+},
+{
+angle = -3;
+pos = (1270,445);
+ref = minus;
+scale = (0.55,0.77);
+}
+);
+width = 1870;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10691;
+}

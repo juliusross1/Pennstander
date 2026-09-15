@@ -1,0 +1,82 @@
+{
+glyphname = rightDoubleArrowFromBar;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (1629,0);
+ref = leftDoubleArrowFromBar;
+scale = (-1,1);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+rightDoubleArrowFromBar.lft,
+0,
+0,
+200
+),
+(
+rightDoubleArrow.mid,
+1,
+200,
+200
+),
+(
+rightDoubleArrow.rgt,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1629;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (1985,0);
+ref = leftDoubleArrowFromBar;
+scale = (-1,1);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+rightDoubleArrowFromBar.lft,
+0,
+0,
+200
+),
+(
+rightDoubleArrow.mid,
+1,
+200,
+200
+),
+(
+rightDoubleArrow.rgt,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1985;
+}
+);
+metricLeft = rightArrow;
+metricRight = rightArrow;
+subCategory = Arrow;
+tags = (
+"too long when used as an overarrow"
+);
+unicode = 10503;
+}

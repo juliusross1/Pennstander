@@ -1,0 +1,37 @@
+{
+glyphname = parallelWithHorizontalStroke;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (281,0);
+ref = parallel;
+},
+{
+pos = (0,54);
+ref = minus;
+}
+);
+width = 1146;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (212,0);
+ref = parallel;
+},
+{
+pos = (-22,45);
+ref = minus;
+scale = (1.5,1);
+}
+);
+width = 1454;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10994;
+}

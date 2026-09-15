@@ -1,0 +1,36 @@
+{
+glyphname = upperLeftCornerWithDot;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (0,-400);
+ref = topLeftCorner;
+},
+{
+pos = (325,-253);
+ref = mathsymboldot;
+}
+);
+width = 947;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (0,-529);
+ref = topLeftCorner;
+},
+{
+pos = (490,-200);
+ref = mathsymboldot;
+scale = (0.77,0.77);
+}
+);
+width = 901;
+}
+);
+metricRight = "=equal";
+unicode = 10196;
+}

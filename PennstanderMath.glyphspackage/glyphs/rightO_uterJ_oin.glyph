@@ -1,0 +1,50 @@
+{
+glyphname = rightOuterJoin;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = join;
+},
+{
+angle = -2;
+pos = (1140,502);
+ref = minus;
+scale = (0.3135,1);
+},
+{
+angle = -2;
+pos = (1140,-488);
+ref = minus;
+scale = (0.3135,1);
+}
+);
+width = 1604;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = join;
+},
+{
+angle = -5;
+pos = (1253,470);
+ref = minus;
+scale = (0.33,0.88);
+},
+{
+angle = -4;
+pos = (1272,-338);
+ref = minus;
+scale = (0.33,0.88);
+}
+);
+width = 1678;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10198;
+}

@@ -1,0 +1,70 @@
+{
+glyphname = leftBarbUpHarpoon.rgt;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(190,613,l),
+(0,613,l),
+(0,546,l),
+(190,546,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(190,546,l),
+(365,550,o),
+(468,559,o),
+(580,565,c),
+(580,587,o),
+(576,609,o),
+(571,626,c),
+(464,622,o),
+(357,617,o),
+(190,613,c)
+);
+}
+);
+width = 629;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,750,l),
+(0,750,l),
+(0,394,l),
+(200,394,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(200,394,l),
+(405,394,o),
+(473,402,o),
+(597,421,c),
+(615,469,o),
+(640,682,o),
+(640,775,c),
+(567,766,o),
+(519,750,o),
+(200,750,c)
+);
+}
+);
+width = 730;
+}
+);
+metricRight = "=leftArrow";
+production = leftBarbUpHarpoon.rgt;
+tags = (
+extended
+);
+}

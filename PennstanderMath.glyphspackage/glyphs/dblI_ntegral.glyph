@@ -1,0 +1,116 @@
+{
+glyphname = dblIntegral;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (877,473);
+},
+{
+name = math.ic;
+pos = (2349,-272);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (660,-13);
+ref = singleintegral;
+},
+{
+ref = singleintegral;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+dblIntegral.bot,
+0,
+0,
+200
+),
+(
+dblIntegral.ext,
+1,
+200,
+200
+),
+(
+dblIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1899;
+},
+{
+anchors = (
+{
+name = center;
+pos = (1153,525);
+},
+{
+name = math.ic;
+pos = (2796,-390);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (873,0);
+ref = singleintegral;
+},
+{
+ref = singleintegral;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+dblIntegral.bot,
+0,
+0,
+200
+),
+(
+dblIntegral.ext,
+1,
+200,
+200
+),
+(
+dblIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 2346;
+}
+);
+metricLeft = "=singleintegral";
+metricRight = "=singleintegral";
+production = dblIntegral;
+subCategory = Halfform;
+tags = (
+integral
+);
+unicode = 8748;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+dblIntegral,
+dblIntegral.disp
+);
+};
+};
+}

@@ -1,0 +1,30 @@
+{
+glyphname = erthan;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 90;
+pos = (982,4);
+ref = logicalAndWithMiddleStem;
+}
+);
+width = 1106;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 90;
+pos = (1097,-164);
+ref = logicalAndWithMiddleStem;
+}
+);
+width = 1152;
+}
+);
+metricLeft = "=less";
+metricRight = "=less";
+unicode = 10922;
+}

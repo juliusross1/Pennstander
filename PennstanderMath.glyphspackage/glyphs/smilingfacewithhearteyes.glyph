@@ -1,0 +1,58 @@
+{
+glyphname = smilingfacewithhearteyes;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+ref = _emojicircle;
+},
+{
+alignment = -1;
+pos = (-36,30);
+ref = _emojismilingmouth;
+},
+{
+pos = (384,723);
+ref = heartBlackSuit;
+scale = (0.2939,0.2628);
+},
+{
+pos = (937,718);
+ref = heartBlackSuit;
+scale = (0.2732,0.2758);
+}
+);
+width = 1849;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+ref = _emojicircle;
+},
+{
+alignment = -1;
+pos = (66,27);
+ref = _emojismilingmouth;
+},
+{
+pos = (551,716);
+ref = heartBlackSuit;
+scale = (0.2554,0.2231);
+},
+{
+pos = (1094,712);
+ref = heartBlackSuit;
+scale = (0.2396,0.2186);
+}
+);
+width = 2183;
+}
+);
+metricLeft = grinningface;
+metricRight = grinningface;
+unicode = 128525;
+}

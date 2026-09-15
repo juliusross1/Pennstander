@@ -1,0 +1,60 @@
+{
+glyphname = nAryCircledTimesOperator;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = OperatorCircle.component;
+},
+{
+angle = -45;
+pos = (-185,890);
+ref = hyphen;
+scale = (2.35,1);
+},
+{
+angle = 45;
+pos = (679,-517);
+ref = hyphen;
+scale = (2.35,1);
+}
+);
+width = 1908;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = OperatorCircle.component;
+},
+{
+angle = -45;
+pos = (154,646);
+ref = hyphen;
+scale = (1.8,0.9);
+},
+{
+angle = 45;
+pos = (914,-479);
+ref = hyphen;
+scale = (1.8,0.9);
+}
+);
+width = 2177;
+}
+);
+metricLeft = nAryCircledPlusOperator;
+metricRight = nAryCircledPlusOperator;
+tags = (
+operator
+);
+unicode = 10754;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nAryCircledTimesOperator.disp
+);
+};
+};
+}

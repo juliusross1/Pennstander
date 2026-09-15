@@ -1,0 +1,34 @@
+{
+glyphname = subsetOfOrEqualToWithDotAbove;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = reflexsubset;
+},
+{
+pos = (307,669);
+ref = mathsymboldot;
+}
+);
+width = 1124;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = reflexsubset;
+},
+{
+pos = (397,792);
+ref = mathsymboldot;
+}
+);
+width = 1148;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10947;
+}

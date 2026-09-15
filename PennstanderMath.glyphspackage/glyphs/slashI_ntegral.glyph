@@ -1,0 +1,129 @@
+{
+glyphname = slashIntegral;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1689,-272);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _singleintegral;
+},
+{
+pos = (-41,-112);
+ref = _slashintegralcomponent;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+slashIntegral.bot,
+0,
+0,
+200
+),
+(
+slashIntegral.ext,
+1,
+200,
+200
+),
+(
+slashIntegral.mid,
+0,
+200,
+200
+),
+(
+slashIntegral.ext,
+1,
+200,
+200
+),
+(
+slashIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1239;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (1923,-390);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _singleintegral;
+},
+{
+pos = (-1,-2);
+ref = _slashintegralcomponent;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+slashIntegral.bot,
+0,
+0,
+200
+),
+(
+slashIntegral.ext,
+1,
+200,
+200
+),
+(
+slashIntegral.mid,
+0,
+200,
+200
+),
+(
+slashIntegral.ext,
+1,
+200,
+200
+),
+(
+slashIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1473;
+}
+);
+production = slashIntegral;
+subCategory = Halfform;
+tags = (
+integral
+);
+unicode = 10767;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+slashIntegral.disp
+);
+};
+};
+}

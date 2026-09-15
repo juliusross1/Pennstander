@@ -1,0 +1,38 @@
+{
+glyphname = thermodynamic;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = equal;
+},
+{
+pos = (390,180);
+ref = bar;
+scale = (1,0.66);
+}
+);
+width = 1211;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (-5,0);
+ref = equal;
+scale = (1.11,1);
+},
+{
+pos = (392,100);
+ref = bar;
+scale = (0.77,0.77);
+}
+);
+width = 1212;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10727;
+}

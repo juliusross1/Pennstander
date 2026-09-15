@@ -1,0 +1,44 @@
+{
+glyphname = "leftanglebracket-math";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 558;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 763;
+}
+);
+production = "leftanglebracket-math";
+unicode = 10216;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+"leftanglebracket-math",
+"leftanglebracket-math.s01",
+"leftanglebracket-math.s02",
+"leftanglebracket-math.s03",
+"leftanglebracket-math.s04",
+"leftanglebracket-math.s05",
+"leftanglebracket-math.s06",
+"leftanglebracket-math.s07",
+"leftanglebracket-math.s08",
+"leftanglebracket-math.s09",
+"leftanglebracket-math.s10",
+"leftanglebracket-math.s11",
+"leftanglebracket-math.s12"
+);
+};
+};
+}

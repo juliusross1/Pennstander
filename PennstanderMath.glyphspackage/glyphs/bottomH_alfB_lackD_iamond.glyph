@@ -1,0 +1,30 @@
+{
+glyphname = bottomHalfBlackDiamond;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = -90;
+pos = (253,1493);
+ref = rightHalfBlackDiamond;
+}
+);
+width = 1785;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = -90;
+pos = (213,1538);
+ref = rightHalfBlackDiamond;
+}
+);
+width = 1751;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 11033;
+}

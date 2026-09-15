@@ -1,0 +1,30 @@
+{
+glyphname = logicalOrWithMiddleStem;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (0,930);
+ref = logicalAndWithMiddleStem;
+scale = (1,-1);
+}
+);
+width = 1002;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (0,880);
+ref = logicalAndWithMiddleStem;
+scale = (1,-1);
+}
+);
+width = 1548;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10843;
+}

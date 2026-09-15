@@ -1,0 +1,38 @@
+{
+glyphname = greaterThanWithCircleInside;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (180,0);
+ref = greater;
+},
+{
+pos = (0,-590);
+ref = ringcomb;
+scale = (0.88,0.88);
+}
+);
+width = 1001;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (317,0);
+ref = greater;
+},
+{
+pos = (17,-290);
+ref = ringcomb;
+scale = (0.66,0.66);
+}
+);
+width = 1173;
+}
+);
+metricLeft = "=greater";
+metricRight = "=greater";
+unicode = 10874;
+}

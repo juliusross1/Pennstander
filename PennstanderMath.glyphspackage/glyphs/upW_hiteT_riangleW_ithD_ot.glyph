@@ -1,0 +1,37 @@
+{
+glyphname = upWhiteTriangleWithDot;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (468,0);
+ref = bullet;
+scale = (0.55,0.55);
+},
+{
+ref = upWhiteTriangle;
+}
+);
+width = 1277;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (588,265);
+ref = bullet;
+scale = (0.22,0.22);
+},
+{
+ref = upWhiteTriangle;
+}
+);
+width = 1327;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+subCategory = "";
+unicode = 9708;
+}

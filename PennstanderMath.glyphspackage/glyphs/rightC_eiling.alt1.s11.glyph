@@ -1,0 +1,35 @@
+{
+color = 8;
+glyphname = rightCeiling.alt1.s11;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Height = 110;
+rand1 = 1;
+};
+ref = _smart.rightCeiling;
+}
+);
+width = 680;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Height = 110;
+rand1 = 1;
+};
+ref = _smart.rightCeiling;
+}
+);
+width = 730;
+}
+);
+metricLeft = "=bracketright.011";
+metricRight = "=bracketright.011";
+production = rightCeiling.s11.001;
+}

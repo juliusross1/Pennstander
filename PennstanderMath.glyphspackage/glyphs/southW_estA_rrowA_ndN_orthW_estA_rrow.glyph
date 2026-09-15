@@ -1,0 +1,30 @@
+{
+glyphname = southWestArrowAndNorthWestArrow;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = -90;
+pos = (104,1443);
+ref = southEastArrowAndSouthWestArrow;
+}
+);
+width = 1419;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = -90;
+pos = (129,1609);
+ref = southEastArrowAndSouthWestArrow;
+}
+);
+width = 1654;
+}
+);
+metricLeft = "=leftArrow";
+metricRight = "=rightArrow";
+unicode = 10538;
+}

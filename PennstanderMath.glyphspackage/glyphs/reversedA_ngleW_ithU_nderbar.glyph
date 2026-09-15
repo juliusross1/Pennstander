@@ -1,0 +1,38 @@
+{
+glyphname = reversedAngleWithUnderbar;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (44,300);
+ref = reversedAngle;
+},
+{
+angle = -2;
+pos = (-48,-1178);
+ref = overbar;
+scale = (1.1,1);
+}
+);
+width = 1252;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = reversedAngle;
+},
+{
+pos = (-20,-1490);
+ref = overbar;
+scale = (1.55,0.88);
+}
+);
+width = 1581;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10661;
+}

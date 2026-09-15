@@ -1,0 +1,37 @@
+{
+glyphname = downTackWithCircleBelow;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = verticalLineWithCircleBelow;
+},
+{
+angle = -2;
+pos = (43,704);
+ref = minus;
+scale = (0.55,1);
+}
+);
+width = 749;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = verticalLineWithCircleBelow;
+},
+{
+pos = (40,770);
+ref = minus;
+scale = (0.66,0.66);
+}
+);
+width = 759;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10993;
+}

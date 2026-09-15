@@ -1,0 +1,87 @@
+{
+color = 11;
+glyphname = "rightanglebracket-math.alt1.s02.ssty2";
+layers = (
+{
+anchors = (
+{
+name = math.br;
+pos = (447,-394);
+},
+{
+name = math.tr;
+pos = (447,1656);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(161,-306,o),
+(435,452,o),
+(512,603,c),
+(434,835,o),
+(195,1507,o),
+(174,2158,c),
+(146,2153,o),
+(85,2143,o),
+(65,2131,c),
+(99,1458,o),
+(301,805,o),
+(385,595,c),
+(303,443,o),
+(42,-297,o),
+(22,-917,c),
+(46,-938,o),
+(95,-949,o),
+(119,-958,c)
+);
+}
+);
+width = 645;
+},
+{
+anchors = (
+{
+name = math.br;
+pos = (685,0);
+},
+{
+name = math.tr;
+pos = (685,1291);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(369,-356,o),
+(753,394,o),
+(807,592,c),
+(772,754,o),
+(356,1554,o),
+(377,2267,c),
+(228,2255,o),
+(83,2226,o),
+(-5,2182,c),
+(-21,1451,o),
+(364,728,o),
+(410,570,c),
+(367,428,o),
+(-25,-353,o),
+(-33,-922,c),
+(49,-986,o),
+(166,-1032,o),
+(293,-1067,c)
+);
+}
+);
+width = 857;
+}
+);
+metricLeft = "=|leftanglebracket-math";
+metricRight = "=|leftanglebracket-math";
+production = "rightanglebracket-math.alt1.s02.ssty2";
+}

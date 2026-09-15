@@ -1,0 +1,97 @@
+{
+color = 8;
+glyphname = bracketright.alt2;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+rand2 = 1;
+};
+ref = _smart.bracketright;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketright.bot,
+0,
+0,
+200
+),
+(
+bracketright.ext,
+1,
+200,
+200
+),
+(
+bracketright.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 757;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+rand2 = 1;
+};
+ref = _smart.bracketright;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketright.bot,
+0,
+0,
+200
+),
+(
+bracketright.ext,
+1,
+200,
+200
+),
+(
+bracketright.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 808;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bracketright.alt2,
+bracketright.alt2.s01,
+bracketright.alt2.s02,
+bracketright.alt2.s03,
+bracketright.alt2.s04,
+bracketright.alt2.s05,
+bracketright.alt2.s06,
+bracketright.alt2.s07,
+bracketright.alt2.s08,
+bracketright.alt2.s09,
+bracketright.alt2.s10,
+bracketright.alt2.s11,
+bracketright.alt2.s12
+);
+};
+};
+}

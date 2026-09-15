@@ -1,0 +1,32 @@
+{
+color = 10;
+glyphname = h.alt1.ssty1;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Weight = 150;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 943;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 1123;
+}
+);
+}

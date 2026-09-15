@@ -1,0 +1,57 @@
+{
+category = Symbol;
+glyphname = counterclockwiseIntegral.mid;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(531,-500,l),
+(624,-500,l),
+(624,1900,l),
+(531,1900,l)
+);
+},
+{
+angle = 78;
+pos = (30,814);
+ref = _clockwiseintegralarrow.disp;
+scale = (1,-0.9562);
+}
+);
+width = 1452;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(763,-500,l),
+(1137,-500,l),
+(1137,1900,l),
+(763,1900,l)
+);
+},
+{
+angle = 80;
+pos = (105,519);
+ref = _clockwiseintegralarrow.disp;
+scale = (1,-1);
+}
+);
+width = 1947;
+}
+);
+production = counterclockwiseIntegral.mid;
+script = math;
+subCategory = Halfform;
+tags = (
+extended
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

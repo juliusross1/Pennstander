@@ -1,0 +1,60 @@
+{
+category = Symbol;
+color = 11;
+glyphname = leftOverRightArrow.mid.ssty2;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(400,722,l),
+(400,825,l),
+(0,824,l),
+(0,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,142,l),
+(400,241,l),
+(0,241,l),
+(0,143,l)
+);
+}
+);
+width = 400;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(400,774,l),
+(400,1115,l),
+(0,1114,l),
+(0,774,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,-10,l),
+(400,328,l),
+(0,328,l),
+(0,-8,l)
+);
+}
+);
+width = 400;
+}
+);
+production = leftOverRightArrow.mid.ssty2;
+subCategory = Arrow;
+tags = (
+extended
+);
+}

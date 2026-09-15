@@ -1,0 +1,33 @@
+{
+color = 10;
+glyphname = d.ssty1;
+kernLeft = o;
+kernRight = l;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Weight = 900;
+};
+ref = _smart.d;
+}
+);
+width = 1200;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Weight = 150;
+};
+ref = _smart.d;
+}
+);
+width = 1148;
+}
+);
+production = d.ssty1;
+}

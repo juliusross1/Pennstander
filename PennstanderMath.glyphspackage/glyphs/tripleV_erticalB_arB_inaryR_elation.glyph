@@ -1,0 +1,42 @@
+{
+glyphname = tripleVerticalBarBinaryRelation;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = divides;
+},
+{
+pos = (301,0);
+ref = divides;
+},
+{
+pos = (600,0);
+ref = divides;
+}
+);
+width = 1043;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = divides;
+},
+{
+pos = (500,0);
+ref = divides;
+},
+{
+pos = (1000,0);
+ref = divides;
+}
+);
+width = 1768;
+}
+);
+metricLeft = "=divides";
+metricRight = "=divides";
+unicode = 10996;
+}

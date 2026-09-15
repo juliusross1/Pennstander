@@ -1,0 +1,30 @@
+{
+glyphname = rightDoubleArrowTail;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (1090,0);
+ref = leftDoubleArrowTail;
+scale = (-1,1);
+}
+);
+width = 1090;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (1582,0);
+ref = leftDoubleArrowTail;
+scale = (-1,1);
+}
+);
+width = 1582;
+}
+);
+metricLeft = "=|leftArrowTail";
+metricRight = "=|leftArrowTail";
+unicode = 10524;
+}

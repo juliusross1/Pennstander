@@ -1,0 +1,122 @@
+{
+glyphname = sunWithRays;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (393,-755);
+ref = ringcomb;
+},
+{
+pos = (1010,39);
+ref = minus;
+scale = (0.33,1);
+},
+{
+angle = 45;
+pos = (1386,379);
+ref = minus;
+scale = (0.33,1);
+},
+{
+angle = 90;
+pos = (1344,874);
+ref = minus;
+scale = (0.33,1);
+},
+{
+angle = 135;
+pos = (954,1220);
+ref = minus;
+scale = (0.33,1);
+},
+{
+angle = 180;
+pos = (459,1208);
+ref = minus;
+scale = (0.33,1);
+},
+{
+angle = -135;
+pos = (93,798);
+ref = minus;
+scale = (0.33,1);
+},
+{
+angle = -90;
+pos = (185,323);
+ref = minus;
+scale = (0.33,1);
+},
+{
+angle = -45;
+pos = (605,-23);
+ref = minus;
+scale = (0.33,1);
+}
+);
+width = 1469;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (592,-804);
+ref = ringcomb;
+},
+{
+pos = (1322,309);
+ref = minus;
+scale = (0.55,0.66);
+},
+{
+angle = 45;
+pos = (1472,626);
+ref = minus;
+scale = (0.55,0.66);
+},
+{
+angle = 90;
+pos = (1297,981);
+ref = minus;
+scale = (0.55,0.66);
+},
+{
+angle = 135;
+pos = (860,1171);
+ref = minus;
+scale = (0.55,0.66);
+},
+{
+angle = 180;
+pos = (569,991);
+ref = minus;
+scale = (0.55,0.66);
+},
+{
+angle = -135;
+pos = (419,574);
+ref = minus;
+scale = (0.55,0.66);
+},
+{
+angle = -90;
+pos = (624,251);
+ref = minus;
+scale = (0.55,0.66);
+},
+{
+angle = -45;
+pos = (1041,101);
+ref = minus;
+scale = (0.55,0.66);
+}
+);
+width = 1891;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 9788;
+}

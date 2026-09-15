@@ -1,0 +1,52 @@
+{
+color = 8;
+glyphname = integralWithIntersection.alt3;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (1724,-272);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _singleintegral.alt3;
+},
+{
+pos = (62,7);
+ref = _intersectionintegral.component;
+}
+);
+width = 1254;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (2102,-390);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _singleintegral.alt3;
+},
+{
+pos = (194,-53);
+ref = _intersectionintegral.component;
+}
+);
+width = 1701;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+integralWithIntersection.alt3,
+integralWithIntersection.alt3.disp
+);
+};
+};
+}

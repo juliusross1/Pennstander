@@ -1,0 +1,95 @@
+{
+category = Symbol;
+glyphname = counterclockwisecontourIntegral.top;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (2248,1291);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1113,26,l),
+(1113,447,l),
+(1118,662,o),
+(1138,807,o),
+(1182,893,cs),
+(1218,965,o),
+(1270,997,o),
+(1345,997,cs),
+(1426,997,o),
+(1487,900,o),
+(1494,863,c),
+(1513,871,o),
+(1560,891,o),
+(1574,902,c),
+(1562,967,o),
+(1477,1076,o),
+(1350,1076,cs),
+(1229,1076,o),
+(1151,1031,o),
+(1100,932,cs),
+(1049,831,o),
+(1027,673,o),
+(1020,448,c),
+(1021,26,l)
+);
+}
+);
+width = 1798;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (2592,1291);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1639,1,l),
+(1639,614,l),
+(1642,632,o),
+(1648,708,o),
+(1661,754,cs),
+(1678,814,o),
+(1725,873,o),
+(1791,873,cs),
+(1855,873,o),
+(1882,850,o),
+(1920,796,c),
+(1954,831,o),
+(2042,944,o),
+(2069,1024,c),
+(2029,1084,o),
+(1918,1181,o),
+(1732,1181,cs),
+(1564,1181,o),
+(1454,1115,o),
+(1384,1017,cs),
+(1302,903,o),
+(1274,747,o),
+(1271,604,c),
+(1271,1,l)
+);
+}
+);
+width = 2142;
+}
+);
+metricRight = "=singleintegral.bot";
+production = counterclockwisecontourIntegral.top;
+script = math;
+subCategory = Halfform;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

@@ -1,0 +1,99 @@
+{
+color = 8;
+glyphname = leftCeiling.alt2;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+rand2 = 1;
+};
+ref = _smart.leftCeiling;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftceiling.bot,
+0,
+0,
+200
+),
+(
+bracketleft.ext,
+1,
+200,
+200
+),
+(
+bracketleft.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 720;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+rand2 = 1;
+};
+ref = _smart.leftCeiling;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftceiling.bot,
+0,
+0,
+200
+),
+(
+bracketleft.ext,
+1,
+200,
+200
+),
+(
+bracketleft.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 771;
+}
+);
+metricLeft = "=bracketleft";
+metricRight = "=bracketleft";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+leftCeiling.alt2,
+leftCeiling.alt2.s01,
+leftCeiling.alt2.s02,
+leftCeiling.alt2.s03,
+leftCeiling.alt2.s04,
+leftCeiling.alt2.s05,
+leftCeiling.alt2.s06,
+leftCeiling.alt2.s07,
+leftCeiling.alt2.s08,
+leftCeiling.alt2.s09,
+leftCeiling.alt2.s10,
+leftCeiling.alt2.s11,
+leftCeiling.alt2.s12
+);
+};
+};
+}

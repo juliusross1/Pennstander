@@ -1,0 +1,64 @@
+{
+category = Mark;
+glyphname = ddddot;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (637,1127);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (5,0);
+ref = dotaccentcomb;
+},
+{
+pos = (305,0);
+ref = dotaccentcomb;
+},
+{
+pos = (630,0);
+ref = dotaccentcomb;
+},
+{
+pos = (950,0);
+ref = dotaccentcomb;
+}
+);
+width = 1320;
+},
+{
+anchors = (
+{
+name = math.ta;
+pos = (943,1140);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (11,0);
+ref = dotaccentcomb;
+},
+{
+pos = (491,0);
+ref = dotaccentcomb;
+},
+{
+pos = (956,0);
+ref = dotaccentcomb;
+},
+{
+pos = (1436,0);
+ref = dotaccentcomb;
+}
+);
+width = 1883;
+}
+);
+subCategory = Spacing;
+unicode = 8412;
+}

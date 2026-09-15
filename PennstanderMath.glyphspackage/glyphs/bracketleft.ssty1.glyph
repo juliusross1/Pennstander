@@ -1,0 +1,168 @@
+{
+color = 10;
+glyphname = bracketleft.ssty1;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(320,-358,o),
+(413,-359,o),
+(507,-359,cs),
+(605,-359,o),
+(697,-355,o),
+(734,-355,c),
+(736,-330,o),
+(740,-305,o),
+(740,-284,c),
+(675,-286,o),
+(349,-286,o),
+(323,-286,c),
+(306,-123,o),
+(296,24,o),
+(296,398,cs),
+(296,804,o),
+(307,1279,o),
+(332,1452,c),
+(498,1469,o),
+(732,1484,o),
+(811,1487,c),
+(813,1499,o),
+(814,1511,o),
+(815,1523,cs),
+(815,1538,o),
+(814,1550,o),
+(812,1559,c),
+(667,1559,o),
+(374,1541,o),
+(244,1515,c),
+(210,1263,o),
+(194,831,o),
+(194,445,cs),
+(194,91,o),
+(208,-46,o),
+(232,-358,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketleft.bot,
+0,
+0,
+200
+),
+(
+bracketleft.ext,
+1,
+200,
+200
+),
+(
+bracketleft.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 760;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(196,-491,o),
+(317,-499,o),
+(439,-500,cs),
+(496,-500,o),
+(691,-486,o),
+(717,-484,c),
+(726,-424,o),
+(740,-267,o),
+(740,-165,c),
+(697,-165,o),
+(538,-162,o),
+(496,-150,c),
+(486,22,o),
+(480,186,o),
+(480,387,cs),
+(480,695,o),
+(495,1050,o),
+(534,1399,c),
+(604,1404,o),
+(722,1411,o),
+(752,1411,c),
+(756,1428,o),
+(768,1485,o),
+(777,1554,cs),
+(783,1600,o),
+(788,1652,o),
+(788,1700,c),
+(552,1695,o),
+(320,1683,o),
+(182,1656,c),
+(144,1461,o),
+(110,1007,o),
+(110,519,cs),
+(110,180,o),
+(126,-161,o),
+(170,-491,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketleft.bot,
+0,
+0,
+200
+),
+(
+bracketleft.ext,
+1,
+200,
+200
+),
+(
+bracketleft.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 808;
+}
+);
+production = bracketleft.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bracketleft,
+bracketleft.s01,
+bracketleft.s02,
+bracketleft.s03,
+bracketleft.s04,
+bracketleft.s05,
+bracketleft.s06,
+bracketleft.s07,
+bracketleft.s08,
+bracketleft.s09,
+bracketleft.s10,
+bracketleft.s11,
+bracketleft.s12
+);
+};
+};
+}

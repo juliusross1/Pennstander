@@ -1,0 +1,41 @@
+{
+glyphname = blankSymbol;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (233,0);
+ref = b;
+},
+{
+angle = 14;
+pos = (183,419);
+ref = minus;
+scale = (0.77,1);
+}
+);
+width = 1308;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (250,0);
+ref = b;
+},
+{
+angle = 9;
+pos = (134,420);
+ref = minus;
+}
+);
+width = 1449;
+}
+);
+metricLeft = b;
+metricRight = b;
+unicode = 9250;
+}

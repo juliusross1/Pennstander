@@ -1,0 +1,42 @@
+{
+category = Punctuation;
+glyphname = doublebar.s05;
+kernLeft = bar;
+kernRight = bar;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Height = 50;
+};
+ref = _smart.doublebar;
+}
+);
+width = 1290;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Height = 50;
+};
+ref = _smart.doublebar;
+}
+);
+width = 640;
+}
+);
+metricLeft = "=bar";
+metricRight = "=bar";
+production = doublebar.s5;
+subCategory = Parenthesis;
+userData = {
+RMXScaler = {
+source = bar;
+};
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

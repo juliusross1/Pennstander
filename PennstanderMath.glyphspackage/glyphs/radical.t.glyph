@@ -1,0 +1,60 @@
+{
+category = Symbol;
+glyphname = radical.t;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (573,68);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (849,67);
+type = Stem;
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1010,573,l),
+(1010,641,l),
+(666,641,l),
+(666,0,l),
+(734,0,l),
+(734,573,l)
+);
+}
+);
+width = 971;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1506,284,l),
+(1506,640,l),
+(723,640,l),
+(723,0,l),
+(1079,0,l),
+(1079,284,l)
+);
+}
+);
+width = 1478;
+}
+);
+note = uni221A.t;
+production = radical.t;
+script = math;
+}

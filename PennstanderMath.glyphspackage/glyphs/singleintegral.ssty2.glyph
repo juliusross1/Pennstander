@@ -1,0 +1,206 @@
+{
+color = 11;
+glyphname = singleintegral.ssty2;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (297,-517);
+},
+{
+name = center;
+pos = (573,494);
+},
+{
+name = math.ic;
+pos = (1718,-287);
+},
+{
+name = top;
+pos = (904,1461);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(720,1461,o),
+(637,1342,o),
+(588,1026,cs),
+(575,947,o),
+(556,854,o),
+(546,768,c),
+(509,442,o),
+(485,136,o),
+(447,-98,cs),
+(419,-266,o),
+(393,-404,o),
+(287,-404,cs),
+(248,-404,o),
+(214,-371,o),
+(198,-353,c),
+(126,-447,l),
+(147,-472,o),
+(200,-517,o),
+(297,-517,cs),
+(406,-517,o),
+(519,-437,o),
+(555,-154,cs),
+(579,31,o),
+(625,459,o),
+(662,758,c),
+(669,825,o),
+(689,928,o),
+(698,992,cs),
+(733,1242,o),
+(768,1359,o),
+(904,1359,cs),
+(1001,1359,o),
+(1049,1280,o),
+(1060,1241,c),
+(1081,1252,o),
+(1124,1284,o),
+(1142,1303,c),
+(1127,1368,o),
+(1033,1461,o),
+(904,1461,cs)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+singleintegral.bot,
+0,
+0,
+200
+),
+(
+singleintegral.ext,
+1,
+200,
+200
+),
+(
+singleintegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1268;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (408,-538);
+},
+{
+name = center;
+pos = (722,538);
+},
+{
+name = math.ic;
+pos = (1923,-390);
+},
+{
+name = top;
+pos = (1036,1510);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(797,1510,o),
+(682,1412,o),
+(619,1186,cs),
+(606,1139,o),
+(597,1091,o),
+(590,1042,c),
+(566,835,o),
+(465,13,o),
+(451,-78,cs),
+(441,-144,o),
+(414,-195,o),
+(352,-195,cs),
+(309,-195,o),
+(287,-182,o),
+(257,-158,c),
+(100,-439,l),
+(136,-479,o),
+(238,-538,o),
+(408,-538,cs),
+(571,-538,o),
+(788,-451,o),
+(821,-137,cs),
+(856,195,o),
+(921,721,o),
+(938,996,c),
+(945,1058,o),
+(950,1101,o),
+(958,1117,cs),
+(982,1168,o),
+(1006,1202,o),
+(1072,1202,cs),
+(1136,1202,o),
+(1166,1179,o),
+(1204,1125,c),
+(1238,1160,o),
+(1326,1273,o),
+(1373,1353,c),
+(1333,1413,o),
+(1222,1510,o),
+(1036,1510,cs)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+singleintegral.bot,
+0,
+0,
+200
+),
+(
+singleintegral.ext,
+1,
+200,
+200
+),
+(
+singleintegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1473;
+}
+);
+production = singleintegral.ssty2;
+subCategory = Halfform;
+tags = (
+integral
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+singleintegral.ssty2,
+singleintegral.disp.ssty2
+);
+};
+};
+}

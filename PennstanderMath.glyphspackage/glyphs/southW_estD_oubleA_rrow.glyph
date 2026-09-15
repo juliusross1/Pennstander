@@ -1,0 +1,30 @@
+{
+glyphname = southWestDoubleArrow;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = -134.1;
+pos = (765,1541);
+ref = rightDoubleArrow;
+}
+);
+width = 1302;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = -134.1;
+pos = (1069,1482);
+ref = rightDoubleArrow;
+}
+);
+width = 1647;
+}
+);
+metricLeft = "=leftArrow";
+metricRight = "=leftArrow";
+unicode = 8665;
+}
