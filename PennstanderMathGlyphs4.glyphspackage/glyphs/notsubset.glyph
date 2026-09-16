@@ -1,0 +1,37 @@
+{
+glyphname = notsubset;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = subset;
+},
+{
+pos = (229,0);
+ref = not.001;
+}
+);
+width = 1102;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (-4,0);
+ref = subset;
+scale = (1.1,1);
+},
+{
+pos = (541,-147);
+ref = not.001;
+scale = (0.8,1.2);
+}
+);
+width = 1242;
+}
+);
+metricLeft = equal;
+metricRight = equal;
+unicode = 8836;
+}

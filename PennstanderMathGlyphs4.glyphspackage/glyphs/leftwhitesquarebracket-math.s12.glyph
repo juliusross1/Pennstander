@@ -1,0 +1,38 @@
+{
+glyphname = "leftwhitesquarebracket-math.s12";
+kernLeft = bracketlet;
+kernRight = bracketleft;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Height = 120;
+};
+ref = "_smart.whitesquarebracketleft-math";
+}
+);
+width = 1328;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Height = 120;
+};
+ref = "_smart.whitesquarebracketleft-math";
+}
+);
+width = 757;
+}
+);
+metricLeft = "=bracketleft";
+production = "leftwhitesquarebracket-math.s12";
+userData = {
+RMXScaler = {
+source = bracketleft;
+};
+};
+}

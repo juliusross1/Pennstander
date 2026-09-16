@@ -1,0 +1,35 @@
+{
+glyphname = intersectionWithDot;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = intersection;
+},
+{
+pos = (368,-49);
+ref = bullet.component;
+}
+);
+width = 1109;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = intersection;
+},
+{
+pos = (468,-30);
+ref = bullet.component;
+scale = (0.55,0.55);
+}
+);
+width = 1268;
+}
+);
+metricLeft = "=union";
+metricRight = "=union";
+unicode = 10816;
+}

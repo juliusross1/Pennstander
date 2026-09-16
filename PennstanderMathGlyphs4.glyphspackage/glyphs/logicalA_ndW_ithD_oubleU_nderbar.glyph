@@ -1,0 +1,48 @@
+{
+glyphname = logicalAndWithDoubleUnderbar;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (93,0);
+ref = logicaland;
+},
+{
+pos = (14,-724);
+ref = minus;
+scale = (0.88,1);
+},
+{
+pos = (26,-921);
+ref = minus;
+scale = (0.88,1);
+}
+);
+width = 1049;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (-6,0);
+ref = logicaland;
+},
+{
+pos = (58,-620);
+ref = minus;
+scale = (1.1,0.66);
+},
+{
+pos = (73,-961);
+ref = minus;
+scale = (1.1,0.66);
+}
+);
+width = 1209;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10848;
+}

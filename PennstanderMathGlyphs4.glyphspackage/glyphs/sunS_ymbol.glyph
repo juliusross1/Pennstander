@@ -1,0 +1,33 @@
+{
+glyphname = sunSymbol;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = mediumWhiteCircle;
+},
+{
+pos = (630,10);
+ref = bullet;
+}
+);
+width = 1889;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = mediumWhiteCircle;
+},
+{
+pos = (630,90);
+ref = bullet;
+scale = (0.88,0.88);
+}
+);
+width = 2071;
+}
+);
+unicode = 9737;
+}

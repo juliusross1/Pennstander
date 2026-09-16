@@ -1,0 +1,42 @@
+{
+category = Symbol;
+glyphname = groupright.s09;
+kernLeft = parenleft;
+kernRight = parenleft;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Height = 90;
+};
+ref = _smart.groupright;
+}
+);
+width = 879;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Height = 90;
+};
+ref = _smart.groupright;
+}
+);
+width = 596;
+}
+);
+metricLeft = "=|groupleft.s01";
+metricRight = "=|groupleft.s01";
+production = groupright.s09;
+subCategory = "";
+userData = {
+RMXScaler = {
+source = parenleft;
+};
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

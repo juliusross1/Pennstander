@@ -1,0 +1,41 @@
+{
+glyphname = rightArrowAboveTildeOperator;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (35,0);
+ref = rightArrow;
+},
+{
+alignment = -1;
+pos = (29,-797);
+ref = tilde;
+scale = (0.66,0.8209);
+}
+);
+width = 1613;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+ref = rightArrow;
+},
+{
+alignment = -1;
+pos = (81,-733);
+ref = tilde;
+scale = (0.66,0.66);
+}
+);
+width = 1893;
+}
+);
+metricLeft = "=rightArrow";
+metricRight = "=rightArrow";
+unicode = 10612;
+}

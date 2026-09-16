@@ -1,0 +1,134 @@
+{
+color = 8;
+glyphname = surfaceIntegral.alt3;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (2378,-265);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = dblIntegral.alt3;
+},
+{
+alignment = -1;
+pos = (17,45);
+ref = surfaceIntegralring;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+surfaceIntegral.bot,
+0,
+0,
+200
+),
+(
+surfaceIntegral.ext,
+1,
+200,
+200
+),
+(
+surfaceIntegral.mid,
+0,
+200,
+200
+),
+(
+surfaceIntegral.ext,
+1,
+200,
+200
+),
+(
+surfaceIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1988;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (3055,-390);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (48,0);
+ref = dblIntegral.alt3;
+},
+{
+pos = (0,30);
+ref = surfaceIntegralring;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+surfaceIntegral.bot,
+0,
+0,
+200
+),
+(
+surfaceIntegral.ext,
+1,
+200,
+200
+),
+(
+surfaceIntegral.mid,
+0,
+200,
+200
+),
+(
+surfaceIntegral.ext,
+1,
+200,
+200
+),
+(
+surfaceIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 2605;
+}
+);
+metricLeft = dblIntegral.alt3;
+metricRight = dblIntegral.alt3;
+production = surfaceIntegral.002;
+subCategory = Halfform;
+tags = (
+integral
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+surfaceIntegral.alt3,
+surfaceIntegral.alt3.disp
+);
+};
+};
+}

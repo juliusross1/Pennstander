@@ -1,0 +1,98 @@
+{
+category = Punctuation;
+glyphname = triplebar.mid;
+kernLeft = bar;
+kernRight = bar;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1130,-530,l),
+(1130,270,l),
+(720,270,l),
+(720,-530,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1780,-530,l),
+(1780,270,l),
+(1370,270,l),
+(1370,-530,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(530,-530,l),
+(530,270,l),
+(120,270,l),
+(120,-530,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 180;
+};
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1900;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(448,-530,l),
+(448,270,l),
+(368,270,l),
+(368,-530,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(647,-530,l),
+(647,270,l),
+(567,270,l),
+(567,-530,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(230,-530,l),
+(230,270,l),
+(150,270,l),
+(150,-530,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 180;
+};
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 797;
+}
+);
+metricLeft = "=bar";
+metricRight = "=bar";
+production = triplebar.mid;
+subCategory = Parenthesis;
+userData = {
+RMXScaler = {
+source = bar;
+};
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

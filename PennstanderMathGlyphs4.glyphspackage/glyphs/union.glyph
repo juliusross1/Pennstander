@@ -1,0 +1,72 @@
+{
+glyphname = union;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (659,0);
+},
+{
+name = math.ta;
+pos = (559,1053);
+},
+{
+name = ogonek;
+pos = (816,0);
+},
+{
+name = top;
+pos = (659,1063);
+},
+{
+name = topright;
+pos = (982,940);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (70,0);
+ref = cup;
+}
+);
+width = 1109;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (640,0);
+},
+{
+name = math.ta;
+pos = (640,1063);
+},
+{
+name = ogonek;
+pos = (887,0);
+},
+{
+name = top;
+pos = (640,1063);
+},
+{
+name = topright;
+pos = (1144,902);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (-6,0);
+ref = cup;
+}
+);
+width = 1268;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 8746;
+}

@@ -1,0 +1,27 @@
+{
+color = 7;
+glyphname = r;
+kernLeft = n;
+kernRight = r;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _smart.r;
+}
+);
+width = 893;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _smart.r;
+}
+);
+width = 918;
+}
+);
+unicode = (114,120267);
+}

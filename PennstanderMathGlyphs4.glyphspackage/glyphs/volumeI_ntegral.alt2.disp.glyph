@@ -1,0 +1,90 @@
+{
+color = 8;
+glyphname = volumeIntegral.alt2.disp;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (4350,387);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+angle = -1;
+pos = (189,18);
+ref = singleintegral.disp;
+},
+{
+alignment = -1;
+pos = (840,0);
+ref = singleintegral.alt3.disp;
+},
+{
+alignment = -1;
+angle = -1;
+pos = (2009,-14);
+ref = singleintegral.disp;
+},
+{
+alignment = -1;
+angle = 4;
+piece = {
+Width = 623.6084;
+};
+pos = (602,25);
+ref = _smart.volumeintegralcomponent.disp;
+}
+);
+width = 3650;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (5532,36);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (410,0);
+ref = singleintegral.disp;
+},
+{
+alignment = -1;
+pos = (1305,0);
+ref = singleintegral.alt3.disp;
+},
+{
+alignment = -1;
+pos = (2540,0);
+ref = singleintegral.disp;
+},
+{
+alignment = -1;
+angle = 3;
+piece = {
+Width = 542.24365;
+};
+pos = (148,0);
+ref = _smart.volumeintegralcomponent.disp;
+}
+);
+width = 4632;
+}
+);
+metricLeft = singleintegral.disp;
+metricRight = singleintegral.disp;
+production = tripleIntegral.disp.002.001;
+subCategory = Halfform;
+tags = (
+integral
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

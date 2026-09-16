@@ -1,0 +1,81 @@
+{
+glyphname = rightFrombarArrow.lft;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(483,553,l),
+(683,553,l),
+(683,621,l),
+(483,620,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(483,620,l),
+(302,615,o),
+(189,611,o),
+(74,606,c),
+(74,584,o),
+(78,562,o),
+(83,545,c),
+(192,550,o),
+(312,550,o),
+(483,553,c)
+);
+},
+{
+angle = -90;
+pos = (-609,1558);
+ref = endarrowcomponent;
+scale = (1.2,1);
+}
+);
+width = 683;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(827,442,l),
+(1030,442,l),
+(1027,787,l),
+(827,787,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(827,787,l),
+(689,782,o),
+(576,774,o),
+(448,763,c),
+(430,715,o),
+(405,502,o),
+(405,409,c),
+(506,413,o),
+(644,431,o),
+(827,442,c)
+);
+},
+{
+angle = -90;
+pos = (-406,1451);
+ref = endarrowcomponent;
+}
+);
+width = 1030;
+}
+);
+metricLeft = "=rightFrombarArrow";
+production = rightFrombarArrow.lft;
+tags = (
+extended
+);
+}

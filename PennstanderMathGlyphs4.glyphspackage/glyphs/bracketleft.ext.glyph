@@ -1,0 +1,40 @@
+{
+category = Punctuation;
+glyphname = bracketleft.ext;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,0,l),
+(277,0,l),
+(278,400,l),
+(200,400,l)
+);
+}
+);
+width = 845;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(110,0,l),
+(474,0,l),
+(474,400,l),
+(110,400,l)
+);
+}
+);
+width = 780;
+}
+);
+metricLeft = "=bracketleft";
+production = bracketleft.ext;
+subCategory = Parenthesis;
+unicode = 9122;
+}

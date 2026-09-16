@@ -1,0 +1,170 @@
+{
+color = 11;
+glyphname = "hbolditalic-math.alt1.ssty2";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+piece = {
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 955;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+piece = {
+Italic = 0;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 955;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+100,
+100
+);
+};
+layerId = "91FEB709-5795-463D-9319-BB245D8A97FC";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 1144;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+100,
+100
+);
+};
+layerId = "E0BBB46F-C8AF-4072-983C-3678BDA80090";
+shapes = (
+{
+alignment = -1;
+piece = {
+Italic = 100;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 1154;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+100
+);
+};
+layerId = "08ECA832-9BA8-4CC3-B2D7-9D97C7FE15F9";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 1304;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+100
+);
+};
+layerId = "9A88FD7D-F616-4701-9070-9DD73CB03DBD";
+shapes = (
+{
+alignment = -1;
+piece = {
+Italic = 100;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 1304;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+0
+);
+};
+layerId = "7CFB1C72-1532-467E-B55C-ADE0F0BF808C";
+shapes = (
+{
+alignment = -1;
+piece = {
+Italic = 0;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 1123;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+0
+);
+};
+layerId = "E3761F29-821D-414A-AE81-F3011C984511";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.h;
+}
+);
+width = 1123;
+}
+);
+}

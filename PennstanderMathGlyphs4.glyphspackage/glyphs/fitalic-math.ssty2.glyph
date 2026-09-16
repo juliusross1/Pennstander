@@ -1,0 +1,81 @@
+{
+category = Letter;
+color = 11;
+glyphname = "fitalic-math.ssty2";
+kernLeft = "fitalic-math";
+kernRight = "fitalic-math";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+piece = {
+Weight = 200;
+};
+ref = _smart.f;
+}
+);
+width = 920;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Weight = 900;
+};
+ref = _smart.f;
+}
+);
+width = 949;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+100,
+100
+);
+};
+layerId = "176716E4-E488-419A-9982-773B24247830";
+name = "{100,100,100}";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 200;
+};
+ref = _smart.f;
+}
+);
+width = 1201;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+100,
+100
+);
+};
+layerId = "0859D3FC-53B9-4491-8A77-ECAD933402D9";
+name = "{900,100,100}";
+shapes = (
+{
+alignment = -1;
+piece = {
+Italic = 100;
+Weight = 900;
+};
+ref = _smart.f;
+}
+);
+width = 1162;
+}
+);
+production = "fitalic-math.ssty2";
+subCategory = Math;
+}

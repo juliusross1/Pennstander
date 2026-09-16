@@ -1,0 +1,166 @@
+{
+color = 11;
+glyphname = "xbolditalic-math.alt1.ssty2";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.x;
+}
+);
+width = 1143;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.x;
+}
+);
+width = 1143;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+100,
+100
+);
+};
+layerId = "F59973A9-F610-4465-9C83-D210E21C5D66";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.x;
+}
+);
+width = 1361;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+100,
+100
+);
+};
+layerId = "69209BA0-ADD4-4B0C-94A1-2EA41E09B8BC";
+shapes = (
+{
+alignment = -1;
+piece = {
+Italic = 100;
+Weight = 200;
+alt1 = 1;
+};
+ref = _smart.x;
+}
+);
+width = 1380;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+100
+);
+};
+layerId = "513B866E-8DA9-4781-AE15-6F3F55F31DDC";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.x;
+}
+);
+width = 1514;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+100
+);
+};
+layerId = "1F49A50B-D751-479D-83B2-BD338156655A";
+shapes = (
+{
+piece = {
+Italic = 100;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.x;
+}
+);
+width = 1514;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+0
+);
+};
+layerId = "3DD64971-5172-477F-ADB4-87CE881204A0";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.x;
+}
+);
+width = 1182;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+0
+);
+};
+layerId = "EAA16999-FAC9-4EF6-B936-1942DC8B6335";
+shapes = (
+{
+piece = {
+Italic = 0;
+Weight = 900;
+alt1 = 1;
+};
+ref = _smart.x;
+}
+);
+width = 1182;
+}
+);
+}

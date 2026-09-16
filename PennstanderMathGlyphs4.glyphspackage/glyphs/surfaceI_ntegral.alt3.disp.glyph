@@ -1,0 +1,49 @@
+{
+color = 8;
+glyphname = surfaceIntegral.alt3.disp;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (3519,-530);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+metricLeft = "=dblIntegral.alt3.disp";
+metricRight = "=dblIntegral.alt1.disp";
+shapes = (
+{
+ref = dblIntegral.alt3.disp;
+},
+{
+angle = -3;
+pos = (449,74);
+ref = surfaceIntegralring.wide.disp;
+}
+);
+width = 2819;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (4236,-399);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = dblIntegral.alt3.disp;
+},
+{
+angle = -3;
+pos = (417,89);
+ref = surfaceIntegralring.wide.disp;
+}
+);
+width = 3336;
+}
+);
+metricRight = "=dblIntegral.alt3.disp";
+}

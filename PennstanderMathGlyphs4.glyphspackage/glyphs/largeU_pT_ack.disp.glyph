@@ -1,0 +1,30 @@
+{
+glyphname = largeUpTack.disp;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (0,1335);
+ref = largeDownTack.disp2;
+scale = (1,-1);
+}
+);
+width = 1533;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (0,1264);
+ref = largeDownTack.disp2;
+scale = (1,-1);
+}
+);
+width = 1381;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+production = largeUpTack.disp;
+}

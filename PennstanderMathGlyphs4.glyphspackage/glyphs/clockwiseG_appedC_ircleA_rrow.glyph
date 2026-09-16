@@ -1,0 +1,30 @@
+{
+glyphname = clockwiseGappedCircleArrow;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (1295,0);
+ref = anticlockwiseGappedCircleArrow;
+scale = (-1,1);
+}
+);
+width = 1295;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (1553,0);
+ref = anticlockwiseGappedCircleArrow;
+scale = (-1,1);
+}
+);
+width = 1553;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10227;
+}

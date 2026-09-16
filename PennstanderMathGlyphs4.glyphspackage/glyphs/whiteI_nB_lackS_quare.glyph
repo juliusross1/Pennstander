@@ -1,0 +1,36 @@
+{
+glyphname = whiteInBlackSquare;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = whiteSquare;
+},
+{
+pos = (212,193);
+ref = blackSquare;
+scale = (0.7,0.7);
+}
+);
+width = 1359;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = whiteSquare;
+},
+{
+pos = (432,469);
+ref = blackSquare;
+scale = (0.33,0.33);
+}
+);
+width = 1256;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 9635;
+}

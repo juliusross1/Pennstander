@@ -1,0 +1,40 @@
+{
+glyphname = multiplyWithCircumflexAccentCircled;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+ref = multiply.circled;
+},
+{
+alignment = -1;
+pos = (443,267);
+ref = circumflexcomb;
+scale = (1.1481,1);
+}
+);
+width = 1757;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+ref = multiply.circled;
+},
+{
+alignment = -1;
+pos = (598,476);
+ref = circumflexcomb;
+scale = (1.1747,1);
+}
+);
+width = 2242;
+}
+);
+metricLeft = "=plus.circled";
+metricRight = "=plus.circled";
+unicode = 10806;
+}

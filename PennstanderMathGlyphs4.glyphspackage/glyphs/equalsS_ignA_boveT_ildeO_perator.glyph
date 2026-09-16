@@ -1,0 +1,36 @@
+{
+glyphname = equalsSignAboveTildeOperator;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = equal;
+},
+{
+pos = (40,-600);
+ref = similar;
+scale = (1.11,1);
+}
+);
+width = 1238;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = equal;
+},
+{
+pos = (20,-770);
+ref = similar;
+scale = (1.11,1);
+}
+);
+width = 1152;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10867;
+}

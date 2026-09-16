@@ -1,0 +1,40 @@
+{
+glyphname = notsuperset;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 5;
+pos = (84,-43);
+ref = superset;
+},
+{
+pos = (249,1);
+ref = not.001;
+}
+);
+width = 1129;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 7;
+pos = (110,-46);
+ref = superset;
+},
+{
+angle = 5;
+pos = (300,-194);
+ref = not.001;
+scale = (0.8,1.2);
+}
+);
+width = 1180;
+}
+);
+metricLeft = equal;
+metricRight = equal;
+unicode = 8837;
+}

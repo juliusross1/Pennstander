@@ -1,0 +1,31 @@
+{
+glyphname = "leftanglebracket-math.s11";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Height = 110;
+};
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 811;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Height = 110;
+};
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 1398;
+}
+);
+metricRight = "leftanglebracket-math";
+production = "leftanglebracket-math.s11";
+}

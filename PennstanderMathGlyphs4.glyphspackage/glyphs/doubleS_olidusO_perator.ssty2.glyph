@@ -1,0 +1,102 @@
+{
+color = 11;
+glyphname = doubleSolidusOperator.ssty2;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(459,282,o),
+(663,665,o),
+(965,1290,c),
+(944,1310,o),
+(906,1327,o),
+(858,1338,c),
+(614,822,o),
+(412,412,o),
+(157,20,c),
+(178,5,o),
+(223,-17,o),
+(255,-26,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(884,282,o),
+(1088,665,o),
+(1390,1290,c),
+(1369,1310,o),
+(1331,1327,o),
+(1283,1338,c),
+(1039,822,o),
+(837,412,o),
+(582,20,c),
+(603,5,o),
+(648,-17,o),
+(680,-26,c)
+);
+}
+);
+width = 1487;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(613,244,o),
+(861,600,o),
+(1051,1270,c),
+(1006,1323,o),
+(959,1363,o),
+(792,1397,c),
+(655,1043,o),
+(373,449,o),
+(130,58,c),
+(194,-6,o),
+(277,-76,o),
+(388,-101,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(1213,244,o),
+(1461,600,o),
+(1651,1270,c),
+(1606,1323,o),
+(1559,1363,o),
+(1392,1397,c),
+(1255,1043,o),
+(973,449,o),
+(730,58,c),
+(794,-6,o),
+(877,-76,o),
+(988,-101,c)
+);
+}
+);
+width = 1781;
+}
+);
+metricLeft = "=slash";
+metricRight = "=slash";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+doubleSolidusOperator,
+doubleSolidusOperator.s1,
+doubleSolidusOperator.s2,
+doubleSolidusOperator.s3,
+doubleSolidusOperator.s4,
+doubleSolidusOperator.s5,
+doubleSolidusOperator.s6,
+doubleSolidusOperator.s7
+);
+};
+};
+}

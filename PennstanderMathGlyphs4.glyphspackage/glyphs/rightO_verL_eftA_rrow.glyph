@@ -1,0 +1,88 @@
+{
+glyphname = rightOverLeftArrow;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 90;
+pos = (1582,1202);
+ref = downAndUpArrow;
+scale = (-1,1);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+rightOverLeftArrow.lft,
+0,
+0,
+200
+),
+(
+rightOverLeftArrow.mid,
+1,
+200,
+200
+),
+(
+rightOverLeftArrow.rgt,
+0,
+200,
+0
+)
+);
+};
+};
+width = 2187;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 90;
+pos = (1651,1495);
+ref = downAndUpArrow;
+scale = (-1,1);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+rightOverLeftArrow.lft,
+0,
+0,
+200
+),
+(
+rightOverLeftArrow.mid,
+1,
+200,
+200
+),
+(
+rightOverLeftArrow.rgt,
+0,
+200,
+0
+)
+);
+};
+};
+width = 2340;
+}
+);
+metricLeft = "=leftArrow";
+metricRight = "=rightArrow";
+production = rightOverLeftArrow;
+unicode = 8644;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+rightOverLeftArrow.s1
+);
+};
+};
+}

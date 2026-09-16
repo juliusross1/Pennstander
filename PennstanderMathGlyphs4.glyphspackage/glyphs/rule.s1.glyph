@@ -1,0 +1,83 @@
+{
+category = Punctuation;
+glyphname = rule.s1;
+kernLeft = minus;
+kernRight = minus;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,1113,o),
+(999,1153,o),
+(997,1160,c),
+(836,1160,o),
+(85,1161,o),
+(9,1149,c),
+(3,1140,o),
+(0,1101,o),
+(0,1087,c),
+(81,1093,o),
+(941,1092,o),
+(1000,1089,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
+width = 1000;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,987,o),
+(999,1291,o),
+(997,1298,c),
+(836,1308,o),
+(124,1307,o),
+(9,1257,c),
+(3,1228,o),
+(0,975,o),
+(0,961,c),
+(81,915,o),
+(910,931,o),
+(1000,963,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+ruledown.left,
+0,
+0,
+300
+),
+(
+rule.ext,
+1,
+300,
+300
+),
+(
+ruledown.right,
+0,
+300,
+0
+)
+);
+};
+};
+width = 1000;
+}
+);
+production = rule.s1;
+}

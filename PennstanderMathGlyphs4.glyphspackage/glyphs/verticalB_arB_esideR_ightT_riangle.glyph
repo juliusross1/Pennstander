@@ -1,0 +1,30 @@
+{
+glyphname = verticalBarBesideRightTriangle;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = -90;
+pos = (397,1196);
+ref = triangleWithUnderbar;
+}
+);
+width = 1580;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = -90;
+pos = (600,1277);
+ref = triangleWithUnderbar;
+}
+);
+width = 1756;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10704;
+}

@@ -1,0 +1,81 @@
+{
+glyphname = smallelementofoverbar;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (412.081,916.813);
+},
+{
+name = top;
+pos = (423.988,1115.467);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = elementSmall;
+},
+{
+closed = 1;
+nodes = (
+(706,1046,o),
+(708,1084,o),
+(707,1091,c),
+(601,1098,o),
+(204,1097,o),
+(153,1088,c),
+(149,1080,o),
+(144,1043,o),
+(143,1029,c),
+(271,1035,o),
+(578,1031,o),
+(704,1022,c)
+);
+}
+);
+width = 757;
+},
+{
+anchors = (
+{
+name = math.ta;
+pos = (552,1014);
+},
+{
+name = top;
+pos = (549,1319);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (46,0);
+ref = elementSmall;
+},
+{
+closed = 1;
+nodes = (
+(952,1166,o),
+(944,1282,o),
+(940,1312,c),
+(799,1312,o),
+(287,1316,o),
+(130,1288,c),
+(130,1231,o),
+(118,1116,o),
+(127,1056,c),
+(339,1072,o),
+(830,1082,o),
+(952,1082,c)
+);
+}
+);
+width = 1002;
+}
+);
+metricLeft = "=element";
+metricRight = "=element";
+unicode = 8951;
+}

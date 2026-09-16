@@ -1,0 +1,69 @@
+{
+category = Mark;
+glyphname = rightarrowabovecomb.lft;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(449,1203,l),
+(649,1203,l),
+(649,1271,l),
+(449,1270,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(449,1270,l),
+(268,1265,o),
+(155,1261,o),
+(40,1256,c),
+(40,1234,o),
+(44,1212,o),
+(49,1195,c),
+(158,1200,o),
+(278,1200,o),
+(449,1203,c)
+);
+}
+);
+width = 649;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(472,1342,l),
+(675,1342,l),
+(675,1687,l),
+(472,1687,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(472,1687,l),
+(334,1682,o),
+(221,1674,o),
+(93,1663,c),
+(75,1615,o),
+(50,1402,o),
+(50,1309,c),
+(151,1313,o),
+(289,1331,o),
+(472,1342,c)
+);
+}
+);
+width = 675;
+}
+);
+metricLeft = "=rightarrowabovecomb";
+production = rightarrowabovecomb.lft;
+subCategory = Arrow;
+}

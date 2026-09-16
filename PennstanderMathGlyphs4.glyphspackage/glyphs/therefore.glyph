@@ -1,0 +1,50 @@
+{
+glyphname = therefore;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (70,854);
+ref = bullet.component;
+scale = (1,-1);
+},
+{
+pos = (586,858);
+ref = bullet.component;
+scale = (1,-1);
+},
+{
+pos = (331,1332);
+ref = bullet.component;
+scale = (1,-1);
+}
+);
+width = 1002;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (-6,878);
+ref = bullet.component;
+scale = (1,-1);
+},
+{
+pos = (666,887);
+ref = bullet.component;
+scale = (1,-1);
+},
+{
+pos = (336,1447);
+ref = bullet.component;
+scale = (1,-1);
+}
+);
+width = 1243;
+}
+);
+metricLeft = equal;
+metricRight = equal;
+unicode = 8756;
+}

@@ -1,0 +1,97 @@
+{
+category = Punctuation;
+glyphname = bar;
+kernLeft = bar;
+kernRight = bar;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _smart.bar;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bar.bot,
+0,
+0,
+300
+),
+(
+bar.ext,
+1,
+300,
+300
+),
+(
+bar.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 648;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _smart.bar;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bar.bot,
+0,
+0,
+300
+),
+(
+bar.ext,
+1,
+300,
+300
+),
+(
+bar.top,
+0,
+300,
+0
+)
+);
+};
+};
+width = 386;
+}
+);
+production = bar;
+subCategory = Parenthesis;
+unicode = 124;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bar,
+bar.s01,
+bar.s02,
+bar.s03,
+bar.s04,
+bar.s05,
+bar.s06,
+bar.s07,
+bar.s08,
+bar.s09,
+bar.s10,
+bar.s11,
+bar.s12
+);
+};
+};
+}

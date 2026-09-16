@@ -1,0 +1,121 @@
+{
+color = 5;
+glyphname = _smart.groupright;
+layers = (
+{
+anchors = (
+{
+name = math.br;
+pos = (408,100);
+},
+{
+name = math.tr;
+pos = (408,1191);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+partSelection = {
+Height = 1;
+};
+shapes = (
+{
+pos = (551,0);
+ref = _smart.groupleft;
+scale = (-1,1);
+}
+);
+width = 551;
+},
+{
+anchors = (
+{
+name = math.br;
+pos = (562,0);
+},
+{
+name = math.tr;
+pos = (562,1291);
+}
+);
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+layerId = "60BBB745-E762-41B8-B050-EA679D86E582";
+name = Thin_high;
+partSelection = {
+Height = 2;
+};
+shapes = (
+{
+piece = {
+Height = 120;
+};
+pos = (611,0);
+ref = _smart.groupleft;
+scale = (-1,1);
+}
+);
+width = 611;
+},
+{
+anchors = (
+{
+name = math.br;
+pos = (745,0);
+},
+{
+name = math.tr;
+pos = (745,1291);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+partSelection = {
+Height = 1;
+};
+shapes = (
+{
+pos = (856,0);
+ref = _smart.groupleft;
+scale = (-1,1);
+}
+);
+width = 856;
+},
+{
+anchors = (
+{
+name = math.br;
+pos = (880,0);
+},
+{
+name = math.tr;
+pos = (880,1291);
+}
+);
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+layerId = "0425262E-A5C4-49CA-817D-46A3FB6F1ED0";
+name = Black_high;
+partSelection = {
+Height = 2;
+};
+shapes = (
+{
+piece = {
+Height = 120;
+};
+pos = (886,0);
+ref = _smart.groupleft;
+scale = (-1,1);
+}
+);
+width = 886;
+}
+);
+metricLeft = "=|bracketleft";
+metricRight = "=|bracketleft";
+partsSettings = (
+{
+bottomValue = 0;
+name = Height;
+topValue = 120;
+}
+);
+}

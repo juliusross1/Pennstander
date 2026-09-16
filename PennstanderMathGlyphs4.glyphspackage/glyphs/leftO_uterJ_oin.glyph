@@ -1,0 +1,30 @@
+{
+glyphname = leftOuterJoin;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (1604,0);
+ref = rightOuterJoin;
+scale = (-1,1);
+}
+);
+width = 1604;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (1678,0);
+ref = rightOuterJoin;
+scale = (-1,1);
+}
+);
+width = 1678;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10197;
+}

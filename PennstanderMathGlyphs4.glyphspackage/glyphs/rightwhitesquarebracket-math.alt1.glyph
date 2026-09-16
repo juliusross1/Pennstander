@@ -1,0 +1,100 @@
+{
+color = 8;
+glyphname = "rightwhitesquarebracket-math.alt1";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+rand1 = 1;
+};
+ref = "_smart.whitesquarebracketright-math";
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+"rightwhitesquarebracket-math.bot",
+0,
+0,
+200
+),
+(
+"rightwhitesquarebracket-math.ext",
+1,
+200,
+200
+),
+(
+"rightwhitesquarebracket-math.top",
+0,
+200,
+0
+)
+);
+};
+};
+width = 757;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+rand1 = 1;
+};
+ref = "_smart.whitesquarebracketright-math";
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+"rightwhitesquarebracket-math.bot",
+0,
+0,
+200
+),
+(
+"rightwhitesquarebracket-math.ext",
+1,
+200,
+200
+),
+(
+"rightwhitesquarebracket-math.top",
+0,
+200,
+0
+)
+);
+};
+};
+width = 1078;
+}
+);
+metricLeft = "=|leftwhitesquarebracket-math";
+metricRight = "=|leftwhitesquarebracket-math";
+production = "rightwhitesquarebracket-math.001";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+"rightwhitesquarebracket-math.alt1",
+"rightwhitesquarebracket-math.alt1.s01",
+"rightwhitesquarebracket-math.alt1.s02",
+"rightwhitesquarebracket-math.alt1.s03",
+"rightwhitesquarebracket-math.alt1.s04",
+"rightwhitesquarebracket-math.alt1.s05",
+"rightwhitesquarebracket-math.alt1.s06",
+"rightwhitesquarebracket-math.alt1.s07",
+"rightwhitesquarebracket-math.alt1.s08",
+"rightwhitesquarebracket-math.alt1.s09",
+"rightwhitesquarebracket-math.alt1.s10",
+"rightwhitesquarebracket-math.alt1.s11",
+"rightwhitesquarebracket-math.alt1.s12"
+);
+};
+};
+}

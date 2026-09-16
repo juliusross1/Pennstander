@@ -1,0 +1,41 @@
+{
+glyphname = notequivalentto;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = equivalentto;
+},
+{
+angle = 10;
+pos = (247,200);
+ref = not.002;
+scale = (1,0.6);
+}
+);
+width = 1032;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = equivalentto;
+},
+{
+angle = 7;
+pos = (368,309);
+ref = not.002;
+scale = (0.8,0.7);
+}
+);
+width = 1051;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+tags = (
+isempty
+);
+unicode = 8813;
+}

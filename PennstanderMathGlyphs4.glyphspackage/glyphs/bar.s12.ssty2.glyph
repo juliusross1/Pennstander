@@ -1,0 +1,77 @@
+{
+category = Punctuation;
+color = 11;
+glyphname = bar.s12.ssty2;
+kernLeft = bar;
+kernRight = bar;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(515,-3595,o),
+(528,-847,o),
+(528,75,cs),
+(528,1690,o),
+(511,3823,o),
+(488,5100,c),
+(390,5100,o),
+(196,5091,o),
+(141,5081,c),
+(125,3900,o),
+(120,2575,o),
+(120,1498,cs),
+(120,38,o),
+(125,-3118,o),
+(129,-3870,c),
+(240,-3891,o),
+(380,-3900,o),
+(481,-3900,c)
+);
+}
+);
+width = 648;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(271,-3796,o),
+(271,-2882,o),
+(271,-2511,cs),
+(271,-1797,o),
+(261,4525,o),
+(247,5100,c),
+(215,5100,o),
+(175,5098,o),
+(156,5093,c),
+(145,4621,o),
+(153,1158,o),
+(153,703,cs),
+(153,-2408,o),
+(160,-3555,o),
+(171,-3892,c),
+(196,-3896,o),
+(239,-3900,o),
+(262,-3900,c)
+);
+}
+);
+width = 421;
+}
+);
+metricLeft = "=bar";
+metricRight = "=bar";
+production = bar.s12.ssty2;
+subCategory = Parenthesis;
+userData = {
+RMXScaler = {
+source = bar;
+};
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
+}

@@ -1,0 +1,39 @@
+{
+glyphname = largeUpTack;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (0,1435);
+ref = largeDownTack;
+scale = (1,-1);
+}
+);
+width = 1133;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (0,1064);
+ref = largeDownTack;
+scale = (1,-1);
+}
+);
+width = 981;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+production = largeUpTack;
+unicode = 10200;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+largeUpTack,
+largeUpTack.disp
+);
+};
+};
+}

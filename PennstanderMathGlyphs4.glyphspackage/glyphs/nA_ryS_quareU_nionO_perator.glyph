@@ -1,0 +1,39 @@
+{
+glyphname = nArySquareUnionOperator;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 2;
+pos = (-13,1383);
+ref = nArySquareIntersectionOperator;
+scale = (1,-1);
+}
+);
+width = 1446;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 2;
+pos = (-31,1568);
+ref = nArySquareIntersectionOperator;
+scale = (1,-1);
+}
+);
+width = 1409;
+}
+);
+metricLeft = "=nArySquareIntersectionOperator";
+metricRight = "=nArySquareIntersectionOperator";
+unicode = 10758;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nArySquareUnionOperator.disp
+);
+};
+};
+}

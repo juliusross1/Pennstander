@@ -1,0 +1,124 @@
+{
+color = 8;
+glyphname = quadrupleIntegral.alt2;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (3889,258);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (810,0);
+ref = singleintegral;
+},
+{
+ref = singleintegral.alt2;
+},
+{
+pos = (1460,0);
+ref = singleintegral;
+},
+{
+pos = (1950,0);
+ref = singleintegral.alt2;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+quadrupleIntegral.bot,
+0,
+0,
+200
+),
+(
+quadrupleIntegral.ext,
+1,
+200,
+200
+),
+(
+quadrupleIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 3439;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (4713,394);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (995,0);
+ref = singleintegral;
+},
+{
+ref = singleintegral.alt2;
+},
+{
+pos = (1777,0);
+ref = singleintegral;
+},
+{
+pos = (2580,0);
+ref = singleintegral.alt2;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+quadrupleIntegral.bot,
+0,
+0,
+200
+),
+(
+quadrupleIntegral.ext,
+1,
+200,
+200
+),
+(
+quadrupleIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 4263;
+}
+);
+metricLeft = "=singleintegral.alt2";
+metricRight = "=singleintegral.alt2";
+production = quadrupleIntegral.alt2;
+subCategory = Halfform;
+tags = (
+integral
+);
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+quadrupleIntegral.alt2,
+quadrupleIntegral.alt2.disp
+);
+};
+};
+}

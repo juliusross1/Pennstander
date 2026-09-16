@@ -1,0 +1,36 @@
+{
+glyphname = unionWithMinusSign;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = union;
+},
+{
+pos = (225,-95);
+ref = minus;
+scale = (0.55,1);
+}
+);
+width = 1109;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = union;
+},
+{
+pos = (535,393);
+ref = minus;
+scale = (0.22,0.44);
+}
+);
+width = 1268;
+}
+);
+metricLeft = "=union";
+metricRight = "=union";
+unicode = 10817;
+}

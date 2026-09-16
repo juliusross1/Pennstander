@@ -1,0 +1,43 @@
+{
+glyphname = nAryCircledDotOperator;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = OperatorCircle.component;
+},
+{
+pos = (797,-1251);
+ref = dotaccentcomb.case;
+}
+);
+width = 1908;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = OperatorCircle.component;
+},
+{
+pos = (886,-1061);
+ref = dotaccentcomb.case;
+}
+);
+width = 2177;
+}
+);
+metricLeft = OperatorCircle.component;
+metricRight = OperatorCircle.component;
+production = nAryCircledDotOperator;
+unicode = 10752;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nAryCircledDotOperator,
+nAryCircledDotOperator.disp
+);
+};
+};
+}

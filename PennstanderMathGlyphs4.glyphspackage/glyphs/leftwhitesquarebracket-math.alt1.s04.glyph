@@ -1,0 +1,42 @@
+{
+color = 8;
+glyphname = "leftwhitesquarebracket-math.alt1.s04";
+kernLeft = bracketleft;
+kernRight = bracketleft;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Height = 40;
+rand1 = 1;
+};
+ref = "_smart.whitesquarebracketleft-math";
+}
+);
+width = 1195;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Height = 40;
+rand1 = 1;
+};
+ref = "_smart.whitesquarebracketleft-math";
+}
+);
+width = 757;
+}
+);
+metricLeft = "=bracketleft";
+metricRight = "=bracketleft";
+production = "leftwhitesquarebracket-math.s4.001";
+userData = {
+RMXScaler = {
+source = bracketleft;
+};
+};
+}

@@ -1,0 +1,47 @@
+{
+glyphname = dotaccentcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (206,1591);
+},
+{
+name = top;
+pos = (206,1581);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (0,1358);
+ref = bullet.component;
+scale = (0.9,0.81);
+}
+);
+width = 311;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (225.5,1291);
+},
+{
+name = top;
+pos = (226,1724);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (0,1110);
+ref = bullet.component;
+scale = (0.7,0.68);
+}
+);
+width = 408;
+}
+);
+}

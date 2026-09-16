@@ -1,0 +1,68 @@
+{
+glyphname = quadrupleprime;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = minute;
+},
+{
+ref = minute;
+},
+{
+ref = minute;
+},
+{
+ref = minute;
+},
+{
+pos = (400,0);
+ref = minute;
+},
+{
+pos = (800,0);
+ref = minute;
+},
+{
+pos = (1200,0);
+ref = minute;
+}
+);
+width = 1507;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = minute;
+},
+{
+ref = minute;
+},
+{
+ref = minute;
+},
+{
+ref = minute;
+},
+{
+pos = (600,0);
+ref = minute;
+},
+{
+pos = (1200,0);
+ref = minute;
+},
+{
+pos = (1800,0);
+ref = minute;
+}
+);
+width = 2338;
+}
+);
+metricLeft = minute;
+metricRight = minute;
+unicode = 8279;
+}

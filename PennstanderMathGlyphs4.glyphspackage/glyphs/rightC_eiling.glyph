@@ -1,0 +1,94 @@
+{
+glyphname = rightCeiling;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _smart.rightCeiling;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightceiling.bot,
+0,
+0,
+200
+),
+(
+bracketright.ext,
+1,
+200,
+200
+),
+(
+bracketright.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 680;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _smart.rightCeiling;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightceiling.bot,
+0,
+0,
+200
+),
+(
+bracketright.ext,
+1,
+200,
+200
+),
+(
+bracketright.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 760;
+}
+);
+metricLeft = "=bracketright";
+metricRight = "=bracketright";
+production = rightCeiling;
+unicode = 8969;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+rightCeiling,
+rightCeiling.s01,
+rightCeiling.s02,
+rightCeiling.s03,
+rightCeiling.s04,
+rightCeiling.s05,
+rightCeiling.s06,
+rightCeiling.s07,
+rightCeiling.s08,
+rightCeiling.s09,
+rightCeiling.s10,
+rightCeiling.s11,
+rightCeiling.s12
+);
+};
+};
+}

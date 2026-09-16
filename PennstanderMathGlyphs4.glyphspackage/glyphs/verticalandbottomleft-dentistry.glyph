@@ -1,0 +1,28 @@
+{
+glyphname = "verticalandbottomleft-dentistry";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 180;
+pos = (593,1306);
+ref = "verticalandtopright-dentistry";
+}
+);
+width = 583;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 180;
+pos = (738,1284);
+ref = "verticalandtopright-dentistry";
+}
+);
+width = 728;
+}
+);
+unicode = 9164;
+}

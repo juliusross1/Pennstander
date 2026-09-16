@@ -1,0 +1,41 @@
+{
+glyphname = breve;
+kernLeft = breve;
+kernRight = breve;
+layers = (
+{
+anchors = (
+{
+name = math.ta;
+pos = (407,1281);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = 1;
+ref = brevecomb;
+}
+);
+width = 885;
+},
+{
+anchors = (
+{
+name = math.ta;
+pos = (407,1157);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = 1;
+ref = brevecomb;
+}
+);
+width = 631;
+}
+);
+production = breve;
+unicode = 728;
+}

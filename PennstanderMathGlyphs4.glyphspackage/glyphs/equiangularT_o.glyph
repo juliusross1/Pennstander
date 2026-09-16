@@ -1,0 +1,38 @@
+{
+glyphname = equiangularTo;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (0,-66);
+ref = equal;
+},
+{
+pos = (236,1001);
+ref = logicalor;
+scale = (0.78,0.68);
+}
+);
+width = 1211;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (0,-38);
+ref = equal;
+},
+{
+pos = (191,1161);
+ref = logicalor;
+scale = (0.59,0.5);
+}
+);
+width = 1101;
+}
+);
+metricLeft = equal;
+metricRight = equal;
+unicode = 8794;
+}

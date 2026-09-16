@@ -1,0 +1,66 @@
+{
+glyphname = caroncomb.alt;
+kernLeft = quoteright;
+kernRight = quotesingle;
+layers = (
+{
+anchors = (
+{
+name = _topright;
+pos = (50,1063);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(285,1314,o),
+(285,1460,c),
+(253,1460,o),
+(211,1459,o),
+(179,1455,c),
+(179,1284,o),
+(161,1160,o),
+(132,1056,c),
+(148,1048,o),
+(175,1037,o),
+(193,1037,c),
+(228,1108,o)
+);
+}
+);
+width = 515;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (32,1063);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(476,1175,o),
+(476,1460,c),
+(417,1460,o),
+(201,1443,o),
+(169,1439,c),
+(169,1268,o),
+(104,1063,o),
+(79,1004,c),
+(95,996,o),
+(233,927,o),
+(267,912,c),
+(311,949,o)
+);
+}
+);
+width = 515;
+}
+);
+metricWidth = quoteright;
+}

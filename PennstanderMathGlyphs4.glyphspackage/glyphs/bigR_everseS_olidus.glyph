@@ -1,0 +1,30 @@
+{
+glyphname = bigReverseSolidus;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (1409,0);
+ref = bigSolidus;
+scale = (-1,1);
+}
+);
+width = 1349;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (1568,0);
+ref = bigSolidus;
+scale = (-1,1);
+}
+);
+width = 1568;
+}
+);
+metricLeft = "=slash";
+metricRight = "=slash";
+unicode = 10745;
+}

@@ -1,0 +1,30 @@
+{
+glyphname = sector;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 90;
+pos = (1151,106);
+ref = lessThanClosedByCurve;
+}
+);
+width = 1059;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 90;
+pos = (1241,74);
+ref = lessThanClosedByCurve;
+}
+);
+width = 1156;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 8980;
+}

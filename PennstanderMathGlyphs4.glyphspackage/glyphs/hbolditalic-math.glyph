@@ -1,0 +1,167 @@
+{
+category = Letter;
+color = 7;
+glyphname = "hbolditalic-math";
+kernLeft = "hbolditalic-math";
+kernRight = "nbolditalic-math";
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _smart.h;
+}
+);
+width = 926;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+piece = {
+Weight = 100;
+};
+ref = _smart.h;
+}
+);
+width = 926;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+100,
+100
+);
+};
+layerId = "008AB27F-2E6D-4F1E-9C48-C790C43C903D";
+name = "{100,100,100}";
+shapes = (
+{
+piece = {
+Italic = 100;
+};
+ref = _smart.h;
+}
+);
+width = 1121;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+100,
+100
+);
+};
+layerId = "D2A08D88-EDB0-4261-A230-B9C552E45431";
+name = "{900,100,100}";
+shapes = (
+{
+alignment = -1;
+piece = {
+Italic = 100;
+Weight = 100;
+alt1 = 0;
+};
+ref = _smart.h;
+}
+);
+width = 1121;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+100
+);
+};
+layerId = "84C2D94E-4B95-430D-A23F-F6305E18E99C";
+name = "{100,900,100}";
+shapes = (
+{
+alignment = -1;
+piece = {
+Italic = 98.50454;
+Weight = 883.92078;
+};
+ref = _smart.h;
+}
+);
+width = 1298;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+100
+);
+};
+layerId = "2D89132E-8A18-49FE-9991-AB06958EAEE8";
+name = "{900,900,100}";
+shapes = (
+{
+alignment = -1;
+piece = {
+Italic = 70.06485;
+Weight = 900;
+};
+ref = _smart.h;
+}
+);
+width = 1288;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+attr = {
+coordinates = (
+100,
+900,
+0
+);
+};
+layerId = "6959EFAE-018F-4B8A-9EFF-AA84A980CD91";
+name = "{100,900,0}";
+shapes = (
+{
+alignment = -1;
+piece = {
+Weight = 900;
+};
+ref = _smart.h;
+}
+);
+width = 1123;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+attr = {
+coordinates = (
+900,
+900,
+0
+);
+};
+layerId = "FE58418A-3C4D-4F7F-83BE-70790C47E1AD";
+name = "{900,900,0}";
+shapes = (
+{
+piece = {
+Weight = 900;
+};
+ref = _smart.h;
+}
+);
+width = 1123;
+}
+);
+subCategory = Math;
+unicode = (119945,120413);
+}

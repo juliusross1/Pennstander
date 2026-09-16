@@ -1,0 +1,167 @@
+{
+color = 11;
+glyphname = bracketleft.alt1.ssty2;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(264,-334,o),
+(378,-343,o),
+(490,-352,cs),
+(591,-360,o),
+(689,-367,o),
+(729,-369,c),
+(732,-351,o),
+(736,-300,o),
+(736,-273,c),
+(579,-266,o),
+(493,-256,o),
+(330,-236,c),
+(314,-73,o),
+(305,35,o),
+(305,398,cs),
+(305,797,o),
+(313,1204,o),
+(339,1389,c),
+(499,1415,o),
+(728,1468,o),
+(803,1481,c),
+(806,1493,o),
+(807,1510,o),
+(808,1525,cs),
+(809,1542,o),
+(809,1557,o),
+(807,1569,c),
+(677,1551,o),
+(367,1501,o),
+(236,1465,c),
+(202,1216,o),
+(189,843,o),
+(189,450,cs),
+(189,100,o),
+(200,-21,o),
+(224,-331,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketleft.bot,
+0,
+0,
+200
+),
+(
+bracketleft.ext,
+0,
+200,
+200
+),
+(
+bracketleft.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 760;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(222,-462,o),
+(310,-475,o),
+(398,-484,cs),
+(498,-494,o),
+(597,-500,o),
+(687,-500,c),
+(696,-440,o),
+(710,-284,o),
+(710,-182,c),
+(667,-182,o),
+(508,-159,o),
+(466,-147,c),
+(456,25,o),
+(450,186,o),
+(450,387,cs),
+(450,695,o),
+(445,990,o),
+(484,1339,c),
+(554,1361,o),
+(692,1390,o),
+(722,1401,c),
+(726,1418,o),
+(738,1485,o),
+(747,1554,cs),
+(753,1600,o),
+(758,1652,o),
+(758,1700,c),
+(687,1700,o),
+(290,1641,o),
+(152,1596,c),
+(114,1401,o),
+(110,1007,o),
+(110,519,cs),
+(110,180,o),
+(106,-147,o),
+(140,-447,c)
+);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+bracketleft.bot,
+0,
+0,
+200
+),
+(
+bracketleft.ext,
+1,
+200,
+200
+),
+(
+bracketleft.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 778;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bracketleft.alt1,
+bracketleft.alt1.s01,
+bracketleft.alt1.s02,
+bracketleft.alt1.s03,
+bracketleft.alt1.s04,
+bracketleft.alt1.s05,
+bracketleft.alt1.s06,
+bracketleft.alt1.s07,
+bracketleft.alt1.s08,
+bracketleft.alt1.s09,
+bracketleft.alt1.s10,
+bracketleft.alt1.s11,
+bracketleft.alt1.s12
+);
+};
+};
+}

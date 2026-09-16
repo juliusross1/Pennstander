@@ -1,0 +1,60 @@
+{
+color = 0;
+glyphname = e.alt2.old;
+kernLeft = o;
+kernRight = e;
+layers = (
+{
+anchors = (
+{
+name = math.br;
+pos = (1072,-3);
+},
+{
+name = math.ta;
+pos = (603,1077);
+},
+{
+name = math.tr;
+pos = (1069,1064);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+angle = -7;
+pos = (-47,136);
+ref = e;
+}
+);
+width = 1123;
+},
+{
+anchors = (
+{
+name = math.br;
+pos = (1078,-47);
+},
+{
+name = math.ta;
+pos = (637,1065);
+},
+{
+name = math.tr;
+pos = (1081,1027);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+angle = -7;
+pos = (-59,85);
+ref = e;
+}
+);
+width = 1092;
+}
+);
+}

@@ -1,0 +1,38 @@
+{
+glyphname = leftHarpoonWithBarbDownFromBar;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = leftBarbDownHarpoon;
+},
+{
+angle = 90;
+pos = (2207,-92);
+ref = endarrowcomponent;
+scale = (0.8,1);
+}
+);
+width = 1598;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = leftBarbDownHarpoon;
+},
+{
+angle = 90;
+pos = (2307,-119);
+ref = endarrowcomponent;
+scale = (0.8,1);
+}
+);
+width = 1901;
+}
+);
+metricLeft = "=leftArrow";
+metricRight = "=leftArrow";
+unicode = 10590;
+}

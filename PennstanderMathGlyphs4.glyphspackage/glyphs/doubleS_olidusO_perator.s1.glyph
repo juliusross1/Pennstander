@@ -1,0 +1,63 @@
+{
+glyphname = doubleSolidusOperator.s1;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = slash.s1;
+},
+{
+pos = (360,0);
+ref = slash.s1;
+}
+);
+width = 1473;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = slash.s1;
+},
+{
+pos = (650,0);
+ref = slash.s1;
+}
+);
+width = 2011;
+},
+{
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+layerId = "CADBD499-CB38-4081-A366-9CD3C1FE7223";
+name = "Feb 24, 26 at 14:50";
+shapes = (
+{
+ref = slash;
+},
+{
+pos = (600,0);
+ref = slash;
+}
+);
+width = 1781;
+},
+{
+associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+layerId = "36823C6E-E611-42DA-A966-BF2373F2BF35";
+name = "Feb 24, 26 at 14:50";
+shapes = (
+{
+ref = slash;
+},
+{
+pos = (400,0);
+ref = slash;
+}
+);
+width = 1446;
+}
+);
+metricLeft = "=slash";
+metricRight = "=slash";
+}

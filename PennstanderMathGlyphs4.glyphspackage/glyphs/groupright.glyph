@@ -1,0 +1,48 @@
+{
+glyphname = groupright;
+kernLeft = parenleft;
+kernRight = parenleft;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = _smart.groupright;
+}
+);
+width = 856;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = _smart.groupright;
+}
+);
+width = 551;
+}
+);
+metricLeft = "=|groupleft";
+metricRight = "=|groupleft";
+production = groupright;
+unicode = 10223;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+groupright,
+groupright.s01,
+groupright.s02,
+groupright.s03,
+groupright.s04,
+groupright.s05,
+groupright.s06,
+groupright.s07,
+groupright.s08,
+groupright.s09,
+groupright.s10,
+groupright.s11,
+groupright.s12
+);
+};
+};
+}

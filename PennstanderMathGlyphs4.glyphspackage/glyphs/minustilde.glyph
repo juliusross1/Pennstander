@@ -1,0 +1,41 @@
+{
+glyphname = minustilde;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (68,3);
+ref = hyphen;
+},
+{
+alignment = -1;
+pos = (90,-985);
+ref = tilde;
+}
+);
+width = 1011;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (47,-18);
+ref = hyphen;
+},
+{
+alignment = -1;
+pos = (13,-1472);
+ref = tilde;
+scale = (1.0469,1.1);
+}
+);
+width = 1068;
+}
+);
+metricLeft = equal;
+metricRight = equal;
+unicode = 8770;
+}

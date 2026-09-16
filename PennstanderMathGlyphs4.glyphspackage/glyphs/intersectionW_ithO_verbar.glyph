@@ -1,0 +1,37 @@
+{
+glyphname = intersectionWithOverbar;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (58,0);
+ref = intersection;
+},
+{
+pos = (0,596);
+ref = minus;
+}
+);
+width = 1167;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+ref = intersection;
+},
+{
+angle = -2;
+pos = (69,839);
+ref = minus;
+scale = (1.11,0.88);
+}
+);
+width = 1268;
+}
+);
+metricLeft = "=union";
+metricRight = "=union";
+unicode = 10819;
+}

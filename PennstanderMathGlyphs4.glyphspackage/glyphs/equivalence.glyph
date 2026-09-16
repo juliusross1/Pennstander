@@ -1,0 +1,102 @@
+{
+glyphname = equivalence;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (61,292);
+ref = hyphen;
+},
+{
+pos = (61,-317);
+ref = hyphen;
+},
+{
+pos = (61,0);
+ref = hyphen;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+equivalence.lft,
+0,
+0,
+200
+),
+(
+equivalence.mid,
+1,
+200,
+200
+),
+(
+equivalence.rgt,
+0,
+200,
+0
+)
+);
+};
+};
+width = 984;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (24,430);
+ref = hyphen;
+},
+{
+pos = (25,-436);
+ref = hyphen;
+},
+{
+pos = (25,0);
+ref = hyphen;
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+equivalence.lft,
+0,
+0,
+200
+),
+(
+equivalence.mid,
+1,
+200,
+200
+),
+(
+equivalence.rgt,
+0,
+200,
+0
+)
+);
+};
+};
+width = 982;
+}
+);
+metricLeft = equal;
+metricRight = equal;
+production = equivalence;
+unicode = 8801;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+equivalence.s1,
+equivalence.s2,
+equivalence.s3
+);
+};
+};
+}

@@ -1,0 +1,59 @@
+{
+glyphname = facewithstareyes;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+ref = _emojicircle;
+},
+{
+alignment = -1;
+angle = -2;
+pos = (-51,81);
+ref = _emojismilingmouth;
+},
+{
+pos = (342,681);
+ref = blackStar;
+scale = (0.3982,0.3347);
+},
+{
+pos = (862,651);
+ref = blackStar;
+scale = (0.3982,0.3347);
+}
+);
+width = 1849;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+ref = _emojicircle;
+},
+{
+alignment = -1;
+pos = (31,0);
+ref = _emojismilingmouth;
+},
+{
+pos = (543,630);
+ref = blackStar;
+scale = (0.344,0.2982);
+},
+{
+pos = (1005,650);
+ref = blackStar;
+scale = (0.344,0.2982);
+}
+);
+width = 2183;
+}
+);
+metricLeft = grinningface;
+metricRight = grinningface;
+unicode = 129321;
+}

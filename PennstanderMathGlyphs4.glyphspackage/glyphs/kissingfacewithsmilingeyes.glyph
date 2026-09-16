@@ -1,0 +1,56 @@
+{
+category = Symbol;
+glyphname = kissingfacewithsmilingeyes;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (-62,0);
+ref = _emojicircle;
+},
+{
+alignment = -1;
+pos = (773,-58);
+ref = _emojikissingmouth;
+},
+{
+pos = (423,897);
+ref = _emojismilingeye;
+},
+{
+pos = (966,912);
+ref = _emojismilingeye;
+}
+);
+width = 1728;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (-87,0);
+ref = _emojicircle;
+},
+{
+alignment = -1;
+pos = (921,8);
+ref = _emojikissingmouth;
+},
+{
+pos = (546,789);
+ref = _emojismilingeye;
+},
+{
+pos = (1053,805);
+ref = _emojismilingeye;
+}
+);
+width = 2020;
+}
+);
+subCategory = Emoji;
+unicode = 128537;
+}

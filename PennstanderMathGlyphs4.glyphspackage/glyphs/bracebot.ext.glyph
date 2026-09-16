@@ -1,0 +1,34 @@
+{
+category = Punctuation;
+glyphname = bracebot.ext;
+kernLeft = braceleft;
+kernRight = braceleft;
+layers = (
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = 90;
+pos = (0,-514);
+ref = braceleft.ext;
+scale = (1,-1);
+}
+);
+width = 600;
+},
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+angle = 90;
+pos = (0,-531);
+ref = braceleft.ext;
+scale = (1,-1);
+}
+);
+width = 600;
+}
+);
+production = bracebot.ext;
+subCategory = Parenthesis;
+}

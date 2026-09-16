@@ -1,0 +1,26 @@
+{
+glyphname = bulletoperator.component;
+kernLeft = bullet;
+kernRight = bullet;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+ref = bullet.component;
+}
+);
+width = 346;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (88,0);
+ref = bullet.component;
+}
+);
+width = 800;
+}
+);
+}

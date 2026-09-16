@@ -1,0 +1,40 @@
+{
+glyphname = heavyHeartExclamationOrnament;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (88,551);
+ref = heavyBlackHeart;
+scale = (0.6435,0.7569);
+},
+{
+pos = (472,-265);
+ref = bullet;
+scale = (0.6191,0.6184);
+}
+);
+width = 1261;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (-18,652);
+ref = heavyBlackHeart;
+scale = (0.6168,0.663);
+},
+{
+pos = (331,-132);
+ref = bullet;
+scale = (0.6355,0.5747);
+}
+);
+width = 1213;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10083;
+}

@@ -1,0 +1,51 @@
+{
+glyphname = precedesAboveSingleLineNotEqualTo;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (5,-820);
+ref = relationinclusioncomponent;
+scale = (0.7999,1);
+},
+{
+angle = -38.1;
+pos = (-463,-371);
+ref = not.003;
+},
+{
+pos = (900,5);
+ref = succeeds;
+scale = (-1,1);
+}
+);
+width = 945;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (20,-1169);
+ref = relationinclusioncomponent;
+},
+{
+angle = -34.1;
+pos = (-402,-609);
+ref = not.003;
+scale = (1.2687,1.0835);
+},
+{
+pos = (1040,-92);
+ref = succeeds;
+scale = (-1,1);
+}
+);
+width = 1220;
+}
+);
+metricLeft = "=less";
+metricRight = "=less";
+unicode = 10929;
+}

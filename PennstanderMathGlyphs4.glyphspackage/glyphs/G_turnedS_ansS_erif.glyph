@@ -1,0 +1,30 @@
+{
+glyphname = GturnedSansSerif;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (1315,1279);
+ref = G;
+}
+);
+width = 1315;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (1245,1279);
+ref = G;
+}
+);
+width = 1245;
+}
+);
+unicode = 8513;
+}

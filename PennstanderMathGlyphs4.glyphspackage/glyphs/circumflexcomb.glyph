@@ -1,0 +1,116 @@
+{
+glyphname = circumflexcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (496,1022);
+},
+{
+name = math.ta;
+pos = (496,1188);
+},
+{
+name = top;
+pos = (392,1534);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(721,1066,o),
+(821,1115,o),
+(904,1173,c),
+(831,1254,o),
+(699,1382,o),
+(624,1454,c),
+(573,1454,o),
+(415,1452,o),
+(374,1450,c),
+(314,1416,o),
+(162,1306,o),
+(40,1208,c),
+(105,1150,o),
+(225,1073,o),
+(293,1052,c),
+(374,1135,o),
+(481,1225,o),
+(512,1248,c),
+(479,1248,l),
+(496,1229,o),
+(579,1132,o),
+(651,1045,c)
+);
+}
+);
+width = 944;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (391,1023);
+},
+{
+name = math.ta;
+pos = (391,1339);
+},
+{
+name = top;
+pos = (397,1410);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(684,1110,o),
+(701,1122,o),
+(709,1141,c),
+(627,1221,o),
+(504,1334,o),
+(421,1409,c),
+(403,1411,o),
+(384,1411,o),
+(370,1411,c),
+(331,1384,o),
+(151,1249,o),
+(40,1165,c),
+(52,1155,o),
+(74,1135,o),
+(109,1124,c),
+(180,1173,o),
+(379,1336,o),
+(399,1353,c),
+(384,1353,l),
+(404,1337,o),
+(591,1166,o),
+(654,1098,c)
+);
+}
+);
+width = 749;
+}
+);
+production = circumflexcomb;
+subCategory = Spacing;
+unicode = 770;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+circumflexcomb,
+circumflexcomb.s1,
+circumflexcomb.s2,
+circumflexcomb.s3,
+circumflexcomb.s4,
+circumflexcomb.s5,
+circumflexcomb.s6,
+circumflexcomb.s7
+);
+};
+};
+}

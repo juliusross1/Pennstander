@@ -1,0 +1,40 @@
+{
+category = Symbol;
+glyphname = counterclockwisecontourIntegral.ext;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1021,0,l),
+(1114,0,l),
+(1114,400,l),
+(1021,400,l)
+);
+}
+);
+width = 1338;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1271,0,l),
+(1645,0,l),
+(1645,400,l),
+(1271,400,l)
+);
+}
+);
+width = 1748;
+}
+);
+metricRight = "=integral.bot";
+production = counterclockwisecontourIntegral.ext;
+script = math;
+subCategory = Halfform;
+}

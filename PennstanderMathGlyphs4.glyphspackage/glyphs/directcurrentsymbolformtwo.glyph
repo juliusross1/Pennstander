@@ -1,0 +1,65 @@
+{
+glyphname = directcurrentsymbolformtwo;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (25,0);
+ref = minus;
+},
+{
+angle = -2;
+pos = (75,-204);
+ref = minus;
+scale = (0.2,1);
+},
+{
+angle = -2;
+pos = (446,-196);
+ref = minus;
+scale = (0.2,1);
+},
+{
+angle = -2;
+pos = (776,-188);
+ref = minus;
+scale = (0.2,1);
+}
+);
+width = 1171;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+angle = -2;
+pos = (0,28);
+ref = minus;
+},
+{
+angle = -4;
+pos = (12,-179);
+ref = minus;
+scale = (0.28,0.66);
+},
+{
+angle = -4;
+pos = (342,-179);
+ref = minus;
+scale = (0.28,0.66);
+},
+{
+angle = -3;
+pos = (679,-172);
+ref = minus;
+scale = (0.28,0.66);
+}
+);
+width = 1026;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 9107;
+}

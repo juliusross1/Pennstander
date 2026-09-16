@@ -1,0 +1,137 @@
+{
+glyphname = counterclockwisecontourIntegral;
+layers = (
+{
+anchors = (
+{
+name = math.ic;
+pos = (2204,-272);
+}
+);
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (413,0);
+ref = contourIntegral;
+},
+{
+pos = (0,1056);
+ref = _clockwiseintegralarrow;
+scale = (1,-1);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+counterclockwisecontourIntegral.bot,
+0,
+0,
+200
+),
+(
+counterclockwisecontourIntegral.ext,
+1,
+200,
+200
+),
+(
+counterclockwisecontourIntegral.mid,
+0,
+200,
+200
+),
+(
+counterclockwisecontourIntegral.ext,
+1,
+200,
+200
+),
+(
+counterclockwisecontourIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 1652;
+},
+{
+anchors = (
+{
+name = math.ic;
+pos = (2501,-390);
+}
+);
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (578,0);
+ref = contourIntegral;
+},
+{
+alignment = -1;
+angle = -29;
+pos = (307,1495);
+ref = _clockwiseintegralarrow;
+scale = (1,-1);
+}
+);
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+counterclockwisecontourIntegral.bot,
+0,
+0,
+200
+),
+(
+counterclockwisecontourIntegral.ext,
+1,
+200,
+200
+),
+(
+counterclockwisecontourIntegral.mid,
+0,
+200,
+200
+),
+(
+counterclockwisecontourIntegral.ext,
+1,
+200,
+200
+),
+(
+counterclockwisecontourIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
+width = 2051;
+}
+);
+metricLeft = "=singleintegral";
+metricRight = "=singleintegral";
+production = counterclockwisecontourIntegral;
+subCategory = Halfform;
+tags = (
+integral
+);
+unicode = 8755;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+counterclockwisecontourIntegral.disp
+);
+};
+};
+}

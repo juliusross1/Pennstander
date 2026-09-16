@@ -1,0 +1,39 @@
+{
+glyphname = plusSignWithTildeBelow;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (48,0);
+ref = plus;
+},
+{
+alignment = -1;
+pos = (90,-1378);
+ref = tilde;
+}
+);
+width = 1123;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+ref = plus;
+},
+{
+alignment = -1;
+pos = (40,-1476);
+ref = tilde;
+}
+);
+width = 1096;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10790;
+}

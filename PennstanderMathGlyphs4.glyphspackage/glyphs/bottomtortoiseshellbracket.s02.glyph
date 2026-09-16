@@ -1,0 +1,30 @@
+{
+glyphname = bottomtortoiseshellbracket.s02;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+piece = {
+Width = 200;
+};
+ref = _smart.bottomtortoiseshellbracket;
+}
+);
+width = 2505;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+piece = {
+Width = 200;
+};
+ref = _smart.bottomtortoiseshellbracket;
+}
+);
+width = 2978;
+}
+);
+production = bottomtortoiseshellbracket.s02;
+}

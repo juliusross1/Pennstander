@@ -1,0 +1,60 @@
+{
+glyphname = doubleColonEqual;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+pos = (671,0);
+ref = equal;
+},
+{
+pos = (15,90);
+ref = mathsymboldot;
+},
+{
+pos = (15,-400);
+ref = mathsymboldot;
+},
+{
+pos = (335,110);
+ref = mathsymboldot;
+},
+{
+pos = (335,-380);
+ref = mathsymboldot;
+}
+);
+width = 1882;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+pos = (956,0);
+ref = equal;
+},
+{
+pos = (33,120);
+ref = mathsymboldot;
+},
+{
+pos = (43,-320);
+ref = mathsymboldot;
+},
+{
+pos = (523,120);
+ref = mathsymboldot;
+},
+{
+pos = (533,-320);
+ref = mathsymboldot;
+}
+);
+width = 2057;
+}
+);
+metricLeft = equal;
+metricRight = equal;
+unicode = 10868;
+}

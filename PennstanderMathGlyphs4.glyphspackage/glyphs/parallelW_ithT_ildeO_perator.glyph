@@ -1,0 +1,41 @@
+{
+glyphname = parallelWithTildeOperator;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+alignment = -1;
+pos = (241,0);
+ref = parallel;
+},
+{
+alignment = -1;
+pos = (90,-617);
+ref = tilde;
+}
+);
+width = 1011;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+alignment = -1;
+pos = (368,0);
+ref = parallel;
+},
+{
+alignment = -1;
+pos = (-10,-649);
+ref = tilde;
+scale = (1.8,1);
+}
+);
+width = 1773;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
+unicode = 10995;
+}

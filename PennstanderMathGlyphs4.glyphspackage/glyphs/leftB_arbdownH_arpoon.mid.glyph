@@ -1,0 +1,38 @@
+{
+category = Symbol;
+glyphname = leftBarbdownHarpoon.mid;
+layers = (
+{
+layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,620,l),
+(0,553,l),
+(400,553,l),
+(400,620,l)
+);
+}
+);
+width = 400;
+},
+{
+layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,750,l),
+(0,394,l),
+(400,394,l),
+(400,750,l)
+);
+}
+);
+width = 400;
+}
+);
+production = leftBarbdownHarpoon.mid;
+subCategory = Arrow;
+}
