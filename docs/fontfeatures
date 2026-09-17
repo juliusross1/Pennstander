@@ -13,13 +13,13 @@ case: Case-Sensitive Forms
 dlig: Discretionary Ligatures
 liga: Standard Ligatures
 zero: Slashed Zero
-ss01: Alternate a,g,I
-ss02: Alternate A,M,N,Q,V,W,Z,v,z
-ss03: Alternate l,t
+ss01: Alternate Letters (a,g,I)
+ss02: Sharp Letters  (A,M,N,Q,V,W,Z,v,z)
+ss03: Straight Feet (l,t)
 ss04: Alternate 4
-ss06: Alternate ampersand
+ss06: Alternate Symbols
 ss07: Alternate 7
-ss20: Extra flair
+ss20: Flair
 rand: Randomize
 
 Pennstander-Math
@@ -27,17 +27,17 @@ aalt: Access All Alternatives
 dtls: Dotless Forms
 zero: Slashed Zero
 frac: Fractions
-ss01: Alternate a,g,I,\Iota
-ss02: Alternate A,M,N,Q,V,W,Z,v,z,\Alpha,\Mu,\Rho,\Zeta
-ss03: Alternate l,t
+ss01: Alternate Letters (a,g,I,\Iota)
+ss02: Sharp Letters (A,M,N,Q,V,W,Z,v,z,\Alpha,\Mu,\Rho,\Zeta)
+ss03: Straight feet (l,t)
 ss04: Alternate 4
-ss05: Simplified Fraktur A,K,L,X,Y,Z,x,y
+ss05: Simplified Fraktur (A,K,L,X,Y,Z,x,y)
 ss07: Alternate 7
-ss08: Alternate braces
-ss20: Extra flair
+ss08: Alternate Parentheses
+ss20: Flair
 ssty: Math Script Style Alternatives
 cv01: Alternate a,g,I
-cv15: Alternate numerals
+cv15: Alternate Numerals
 cv20: Alternate Fences
 cv30: Alternate Integrals (without serif)
 cv31: Alternate Integrals (serif)
