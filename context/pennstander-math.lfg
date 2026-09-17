@@ -10,11 +10,11 @@ return {
     copyright   = "ConTeXt development team",
     mathematics = {
         parameters = {
-            PrimeShiftUpCramped            = "SuperscriptShiftUp",
-            -- RadicalKernBeforeExtensible     = 100,
-            -- RadicalDisplayStyleVerticalGap  = 0,
-            -- RadicalDegreeBottomRaisePercent = 60,
-            -- RadicalKernAfterDegree          = -300,
+            PrimeShiftUpCramped               = "SuperscriptShiftUp",
+            -- RadicalKernBeforeExtensible    = 100,
+            -- RadicalDisplayStyleVerticalGap = 0,
+            RadicalDegreeBottomRaisePercent   = 60,
+            RadicalKernAfterDegree            = -300,
         },
         tweaks = {
             aftercopying = {
@@ -56,7 +56,7 @@ return {
                 {
                     tweak = "copyaccents",
                 },
-                presets.addmathkerns { },
+--                presets.addmathkerns { },
                 {
                     tweak = "checkspacing",
                 },
@@ -99,10 +99,40 @@ return {
                 },
             },
         },
-        scales = {
-            feature            = "pennstanderscale",
-            scriptweight       =  80,
-            scriptscriptweight = 140,
+     -- scales = {
+     --     feature            = "pennstanderscale",
+     --     scriptweight       =  80,
+     --     scriptscriptweight = 140,
+     -- },
+        alternates = {
+            -- The next alternates may supress randomness
+            alternateletters = { order = 1, feature = 'ss01', value = yes, comment = "Alternate a,g,I"},
+            sharpletters = { order = 1, feature = 'ss02', value = yes, comment = "Alternate A,M,N,V,W,Q,Z,v,z"}, 
+            alternatefour = { order = 1, feature = 'ss03', value = yes, comment = "Alternate four"},
+            straightfeet = { order = 1, feature = 'ss04', value = yes, comment = "Alternate l,t"}, 
+            simplifiedfraktur = { order = 1, feature = 'ss05', value = yes, comment = "Simplified fraktur-like letters"}, 
+            alternateseven = { order = 1, feature = 'ss07', value = yes, comment = "Alternate seven"}, 
+            alternatefences   = {order=1, feature = 'cv21', value = 2, comment = "Alternate parentheses and braces"}, 
+            alternateintegrals   = {order=1, feature = 'cv31', value = 2, comment = "Serif integrals"}, 
+            flair = {order=2,feature = 'ss20', value = yes, comment = "Extra flair throughout" },
+            -- Now various random alternates
+            randomfences = {order=10,feature = "cv20", value = "random", comment = "Random fences" }, 
+            randomletters = {order=11,feature = "cv01", value = "random", comment = "Random letters" },
+            randomnumerals = {order=12,feature = "cv10", value = "random", comment = "Random numerals" },
+            randomintegrals = {order=13,feature = "cv32", value = "random", comment = "Random integrals" },
+ --         randomsymbols = {order=14,feature = "cvXX", value = "random", comment = "Random symbols" },
+            random = {order=15,feature = "rand", value = "random", comment = "All randoms" },
+            -- The rest is just for testing
+            allrandomintegrals = {order=14,feature = "cv06", value = "random", comment = "All random integrals" },
+            random0 = { feature = "rand", value = "0", comment = "For testing only" },
+            random1 = { feature = "rand", value = "1", comment = "For testing only" },
+            random2 = { feature = "rand", value = "2", comment = "For testing only" }, 
+            random3 = { feature = "rand", value = "3", comment = "For testing only" }, 
+            random4 = { feature = "rand", value = "4", comment = "For testing only" },
+            parenthesistestingrandom = { feature = "cv66", value = "random", comment = "For testing only" },
+            parenthesistestingtwo = { feature = "cv66", value = "2", comment = "For testing only" },
+            parenthesistestingthree = { feature = "cv66", value = "3", comment = "For testing only" },
+
         },
-    },
+     },
 }
