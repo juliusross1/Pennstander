@@ -9787,7 +9787,6 @@ Location = 62.5;
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.375;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.625;
