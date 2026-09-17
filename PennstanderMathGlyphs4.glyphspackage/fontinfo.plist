@@ -9380,10 +9380,6 @@ Axis = Weight;
 Location = 100;
 },
 {
-Axis = "Math Weight";
-Location = 100;
-},
-{
 Axis = "Math Slant";
 Location = 0;
 }
@@ -9551,10 +9547,6 @@ Axis = Weight;
 Location = 900;
 },
 {
-Axis = "Math Weight";
-Location = 100;
-},
-{
 Axis = "Math Slant";
 Location = 0;
 }
@@ -9681,7 +9673,7 @@ widebarbelow.s1
 );
 }
 );
-name = Variable;
+name = Regular;
 type = variable;
 },
 {
@@ -9695,6 +9687,15 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Math Weight";
+Location = 25;
+}
+);
 }
 );
 exports = 0;
@@ -9715,6 +9716,15 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Math Weight";
+Location = 37.5;
+}
+);
 }
 );
 exports = 0;
@@ -9736,6 +9746,15 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Math Weight";
+Location = 50;
+}
+);
 }
 );
 exports = 0;
@@ -9757,6 +9776,15 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Math Weight";
+Location = 62.5;
+}
+);
 }
 );
 exports = 0;
@@ -9777,6 +9805,15 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Math Weight";
+Location = 75;
+}
+);
 }
 );
 exports = 0;
@@ -9798,6 +9835,15 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Math Weight";
+Location = 87.5;
+}
+);
 }
 );
 exports = 0;
@@ -9825,6 +9871,15 @@ value = (
 {
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Math Weight";
+Location = 100;
+}
+);
 }
 );
 exports = 0;
@@ -9853,6 +9908,15 @@ value = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Math Weight";
+Location = 100;
+}
+);
 }
 );
 exports = 0;
@@ -9881,6 +9945,15 @@ value = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Math Weight";
+Location = 100;
+}
+);
 }
 );
 exports = 0;

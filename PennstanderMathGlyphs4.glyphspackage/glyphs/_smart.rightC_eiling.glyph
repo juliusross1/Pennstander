@@ -11,6 +11,11 @@ rand2 = 1;
 };
 shapes = (
 {
+piece = {
+Height = 0;
+rand1 = 0;
+rand2 = 0;
+};
 pos = (680,0);
 ref = _smart.leftCeiling;
 scale = (-1,1);
@@ -89,6 +94,11 @@ rand2 = 1;
 };
 shapes = (
 {
+piece = {
+Height = 0;
+rand1 = 0;
+rand2 = 0;
+};
 pos = (760,0);
 ref = _smart.leftCeiling;
 scale = (-1,1);

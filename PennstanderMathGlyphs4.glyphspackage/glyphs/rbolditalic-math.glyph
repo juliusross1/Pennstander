@@ -9,6 +9,10 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
+piece = {
+Italic = 0;
+alt1 = 0;
+};
 ref = _smart.r;
 }
 );
@@ -147,6 +151,10 @@ layerId = "B1BC1846-8011-4DBB-87BA-3BB60378F981";
 name = "{900,900,0}";
 shapes = (
 {
+piece = {
+Italic = 0;
+alt1 = 0;
+};
 ref = _smart.r;
 }
 );

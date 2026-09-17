@@ -21,6 +21,11 @@ rand2 = 1;
 };
 shapes = (
 {
+piece = {
+Height = 0;
+rand1 = 0;
+rand2 = 0;
+};
 pos = (856,0);
 ref = _smart.parenleft;
 scale = (-1,1);
@@ -140,6 +145,11 @@ rand2 = 1;
 };
 shapes = (
 {
+piece = {
+Height = 0;
+rand1 = 0;
+rand2 = 0;
+};
 pos = (888,0);
 ref = _smart.parenleft;
 scale = (-1,1);

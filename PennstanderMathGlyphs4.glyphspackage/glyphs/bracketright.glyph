@@ -5,6 +5,11 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
+piece = {
+Height = 0;
+rand1 = 0;
+rand2 = 0;
+};
 ref = _smart.bracketright;
 }
 );

@@ -9,6 +9,11 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
+piece = {
+Italic = 0;
+alt1 = 0;
+alt2 = 0;
+};
 ref = _smart.x;
 }
 );
@@ -18,6 +23,11 @@ width = 1079;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
+piece = {
+Italic = 0;
+alt1 = 0;
+alt2 = 0;
+};
 ref = _smart.x;
 }
 );

@@ -9,6 +9,11 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
+piece = {
+Italic = 0;
+Weight = 100;
+alt1 = 0;
+};
 ref = _smart.d;
 }
 );
@@ -62,10 +67,15 @@ layerId = "7F36775A-2A00-4C9E-8BB9-A9341BC6B3B8";
 name = "{900,900,0}";
 shapes = (
 {
+piece = {
+Italic = 0;
+Weight = 100;
+alt1 = 0;
+};
 ref = _smart.d;
 }
 );
-width = 1200;
+width = 1209;
 }
 );
 subCategory = Math;

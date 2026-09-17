@@ -6,6 +6,9 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
+piece = {
+Italic = 0;
+};
 ref = _smart.gradient;
 }
 );

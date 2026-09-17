@@ -19,6 +19,9 @@ Height = 1;
 };
 shapes = (
 {
+piece = {
+Height = 0;
+};
 pos = (551,0);
 ref = _smart.groupleft;
 scale = (-1,1);
@@ -72,6 +75,9 @@ Height = 1;
 };
 shapes = (
 {
+piece = {
+Height = 0;
+};
 pos = (856,0);
 ref = _smart.groupleft;
 scale = (-1,1);

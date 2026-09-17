@@ -26,6 +26,9 @@ ref = singleintegral;
 },
 {
 alignment = -1;
+piece = {
+Width = 100;
+};
 pos = (0,90);
 ref = _smart.volumeintegralcomponent.disp;
 }
@@ -94,6 +97,9 @@ ref = singleintegral;
 },
 {
 alignment = -1;
+piece = {
+Width = 100;
+};
 ref = _smart.volumeintegralcomponent.disp;
 }
 );
