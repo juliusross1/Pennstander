@@ -1,50 +1,53 @@
 {
 category = Symbol;
+export = 0;
 glyphname = counterclockwisecontourIntegral.disp;
 layers = (
 {
 anchors = (
 {
 name = math.ic;
-pos = (2837,-565);
+pos = (2682,-565);
 }
 );
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
 alignment = -1;
-pos = (543,0);
+pos = (388,0);
 ref = contourIntegral.disp;
 },
 {
-pos = (210,1178);
+pos = (55,1178);
 ref = _clockwiseintegralarrow.disp;
 scale = (1,-1);
 }
 );
-width = 2137;
+width = 1982;
 },
 {
 anchors = (
 {
 name = math.ic;
-pos = (2800,-497);
+pos = (3356,-497);
 }
 );
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
+pos = (556,0);
 ref = contourIntegral.disp;
 },
 {
-pos = (-501,1207);
+pos = (55,1207);
 ref = _clockwiseintegralarrow.disp;
 scale = (1,-1);
 }
 );
-width = 1900;
+width = 2456;
 }
 );
+metricLeft = "=55";
 metricRight = "=singleintegral.disp";
 production = counterclockwisecontourIntegral.disp;
 subCategory = Halfform;

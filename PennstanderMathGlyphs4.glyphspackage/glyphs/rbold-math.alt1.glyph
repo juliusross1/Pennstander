@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 8;
+color = 0;
 glyphname = "rbold-math.alt1";
 kernLeft = "nbold-math";
 kernRight = "rbold-math";
@@ -22,13 +22,12 @@ layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
 piece = {
-Weight = 100;
 alt1 = 1;
 };
 ref = _smart.r;
 }
 );
-width = 918;
+width = 893;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -44,13 +43,12 @@ name = "{100,900,0}";
 shapes = (
 {
 piece = {
-Weight = 900;
 alt1 = 1;
 };
 ref = _smart.r;
 }
 );
-width = 893;
+width = 918;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -66,7 +64,6 @@ name = "{900,900,0}";
 shapes = (
 {
 piece = {
-Weight = 900;
 alt1 = 1;
 };
 ref = _smart.r;

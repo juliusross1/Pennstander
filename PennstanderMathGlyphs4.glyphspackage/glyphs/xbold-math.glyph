@@ -18,13 +18,10 @@ width = 1079;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-piece = {
-Weight = 100;
-};
 ref = _smart.x;
 }
 );
-width = 1079;
+width = 1140;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -39,13 +36,10 @@ layerId = "78841E6E-1DF1-4CDD-B7FF-39D27AFB12A4";
 name = "{100,900,0}";
 shapes = (
 {
-piece = {
-Weight = 900;
-};
 ref = _smart.x;
 }
 );
-width = 1140;
+width = 1079;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -60,9 +54,6 @@ layerId = "B0DD123A-D2C8-4E8A-A8D8-BB9E4B5B7D8D";
 name = "{900,900,0}";
 shapes = (
 {
-piece = {
-Weight = 900;
-};
 ref = _smart.x;
 }
 );

@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 0;
 glyphname = "rbold-math.alt1.ssty1";
 layers = (
 {
@@ -7,26 +7,24 @@ layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
 piece = {
-Weight = 150;
 alt1 = 1;
 };
 ref = _smart.r;
 }
 );
-width = 916;
+width = 918;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
 piece = {
-Weight = 150;
 alt1 = 1;
 };
 ref = _smart.r;
 }
 );
-width = 916;
+width = 893;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -41,13 +39,12 @@ layerId = "B18EDFA5-CF12-4ECA-B8CE-39711FA31C2C";
 shapes = (
 {
 piece = {
-Weight = 900;
 alt1 = 1;
 };
 ref = _smart.r;
 }
 );
-width = 893;
+width = 918;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -62,7 +59,6 @@ layerId = "4887C51F-2759-4E6F-B894-A7C85BFF1C31";
 shapes = (
 {
 piece = {
-Weight = 900;
 alt1 = 1;
 };
 ref = _smart.r;

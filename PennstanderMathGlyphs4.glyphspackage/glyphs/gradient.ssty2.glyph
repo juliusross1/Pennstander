@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 0;
 glyphname = gradient.ssty2;
 layers = (
 {
@@ -13,15 +14,12 @@ Weight = 200;
 ref = _smart.gradient;
 }
 );
-width = 1116;
+width = 1094;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-piece = {
-Weight = 900;
-};
 ref = _smart.gradient;
 }
 );

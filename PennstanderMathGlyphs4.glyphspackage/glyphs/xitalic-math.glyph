@@ -18,9 +18,6 @@ width = 1079;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-piece = {
-Weight = 900;
-};
 ref = _smart.x;
 }
 );
@@ -62,7 +59,6 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 900;
 };
 ref = _smart.x;
 }

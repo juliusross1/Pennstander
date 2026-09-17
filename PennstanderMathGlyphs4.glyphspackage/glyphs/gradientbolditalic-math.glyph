@@ -17,7 +17,6 @@ width = 1094;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 0;
 Weight = 100;
@@ -41,7 +40,6 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 100;
 };
 ref = _smart.gradient;
 }
@@ -60,7 +58,6 @@ coordinates = (
 layerId = "4127596D-4D7E-4F50-9F29-934D4322B155";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 100;
 Weight = 100;
@@ -82,7 +79,6 @@ coordinates = (
 layerId = "BB489AFE-D231-452F-A2AD-303ADC671F66";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 100;
 Weight = 900;
@@ -90,7 +86,7 @@ Weight = 900;
 ref = _smart.gradient;
 }
 );
-width = 1426;
+width = 1274;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -111,7 +107,7 @@ Weight = 900;
 ref = _smart.gradient;
 }
 );
-width = 1426;
+width = 1274;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -125,7 +121,6 @@ coordinates = (
 layerId = "4095A3FD-9994-4B84-A345-59FBC5F55AE7";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 0;
 Weight = 900;
@@ -149,7 +144,6 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 900;
 };
 ref = _smart.gradient;
 }

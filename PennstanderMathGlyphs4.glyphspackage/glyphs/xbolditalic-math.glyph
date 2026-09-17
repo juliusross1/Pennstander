@@ -20,12 +20,11 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 100;
 };
 ref = _smart.x;
 }
 );
-width = 1079;
+width = 1140;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -42,7 +41,6 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 100;
 };
 ref = _smart.x;
 }
@@ -64,12 +62,11 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 100;
 };
 ref = _smart.x;
 }
 );
-width = 1332;
+width = 1416;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -86,12 +83,11 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 900;
 };
 ref = _smart.x;
 }
 );
-width = 1416;
+width = 1332;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -108,7 +104,6 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 900;
 };
 ref = _smart.x;
 }
@@ -130,12 +125,11 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 900;
 };
 ref = _smart.x;
 }
 );
-width = 1140;
+width = 1079;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -152,7 +146,6 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 900;
 };
 ref = _smart.x;
 }

@@ -40,6 +40,7 @@ name = "{100,900,0}";
 shapes = (
 {
 piece = {
+"Math Weight" = 100;
 Weight = 900;
 };
 ref = _smart.r;
@@ -60,9 +61,6 @@ layerId = "3825963C-DA17-411E-9E1F-74CCDB487953";
 name = "{900,900,0}";
 shapes = (
 {
-piece = {
-Weight = 900;
-};
 ref = _smart.r;
 }
 );

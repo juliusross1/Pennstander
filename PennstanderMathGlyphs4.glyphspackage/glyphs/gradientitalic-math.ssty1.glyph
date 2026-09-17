@@ -1,5 +1,6 @@
 {
 category = Symbol;
+color = 0;
 glyphname = "gradientitalic-math.ssty1";
 layers = (
 {
@@ -7,21 +8,15 @@ layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
 alignment = -1;
-piece = {
-Weight = 150;
-};
 ref = _smart.gradient;
 }
 );
-width = 1105;
+width = 1094;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-piece = {
-Weight = 900;
-};
 ref = _smart.gradient;
 }
 );
@@ -43,12 +38,11 @@ shapes = (
 alignment = -1;
 piece = {
 Italic = 100;
-Weight = 150;
 };
 ref = _smart.gradient;
 }
 );
-width = 1070;
+width = 1046;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -65,12 +59,11 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 900;
 };
 ref = _smart.gradient;
 }
 );
-width = 1426;
+width = 1274;
 }
 );
 metricLeft = equal;

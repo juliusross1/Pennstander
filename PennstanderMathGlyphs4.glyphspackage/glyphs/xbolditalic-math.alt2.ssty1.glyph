@@ -8,7 +8,6 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Weight = 150;
 alt2 = 1;
 };
 ref = _smart.x;
@@ -23,7 +22,6 @@ shapes = (
 alignment = -1;
 piece = {
 Italic = 0;
-Weight = 150;
 alt2 = 1;
 };
 ref = _smart.x;
@@ -46,7 +44,6 @@ shapes = (
 alignment = -1;
 piece = {
 Italic = 100;
-Weight = 150;
 alt2 = 1;
 };
 ref = _smart.x;
@@ -69,7 +66,6 @@ shapes = (
 alignment = -1;
 piece = {
 Italic = 100;
-Weight = 150;
 alt2 = 1;
 };
 ref = _smart.x;
@@ -91,13 +87,12 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 900;
 alt2 = 1;
 };
 ref = _smart.x;
 }
 );
-width = 1514;
+width = 1385;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -113,7 +108,6 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 900;
 alt2 = 1;
 };
 ref = _smart.x;
@@ -135,13 +129,12 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 900;
 alt2 = 1;
 };
 ref = _smart.x;
 }
 );
-width = 1152;
+width = 1181;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -157,7 +150,6 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 900;
 alt2 = 1;
 };
 ref = _smart.x;

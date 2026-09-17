@@ -1,5 +1,6 @@
 {
 color = 5;
+export = 0;
 glyphname = _smart.rightanglebracket;
 layers = (
 {
@@ -20,6 +21,9 @@ rand1 = 1;
 };
 shapes = (
 {
+piece = {
+Weight = 100;
+};
 pos = (558,0);
 ref = "_smart.leftanglebracket-math";
 scale = (-1,1);
@@ -49,6 +53,7 @@ shapes = (
 {
 piece = {
 Height = 120;
+Weight = 100;
 };
 pos = (834,0);
 ref = "_smart.leftanglebracket-math";
@@ -78,6 +83,7 @@ rand1 = 2;
 shapes = (
 {
 piece = {
+Weight = 100;
 rand1 = 1;
 };
 pos = (594,0);
@@ -109,6 +115,7 @@ shapes = (
 {
 piece = {
 Height = 120;
+Weight = 100;
 rand1 = 1;
 };
 pos = (757,0);
@@ -136,6 +143,10 @@ rand1 = 1;
 };
 shapes = (
 {
+piece = {
+Height = 0;
+Weight = 900;
+};
 pos = (763,0);
 ref = "_smart.leftanglebracket-math";
 scale = (-1,1);
@@ -165,6 +176,7 @@ shapes = (
 {
 piece = {
 Height = 120;
+Weight = 900;
 };
 pos = (1456,0);
 ref = "_smart.leftanglebracket-math";
@@ -194,6 +206,8 @@ rand1 = 2;
 shapes = (
 {
 piece = {
+Height = 0;
+Weight = 900;
 rand1 = 1;
 };
 pos = (778,0);
@@ -219,12 +233,13 @@ layerId = "3441D4AB-9BE2-457B-A6C3-DE830C5712BA";
 name = Black_rand1_high;
 partSelection = {
 Height = 2;
-rand1 = 1;
+rand1 = 2;
 };
 shapes = (
 {
 piece = {
 Height = 120;
+Weight = 900;
 rand1 = 1;
 };
 pos = (1407,0);

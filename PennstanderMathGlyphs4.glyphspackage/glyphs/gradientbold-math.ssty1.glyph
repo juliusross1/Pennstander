@@ -1,4 +1,5 @@
 {
+color = 0;
 glyphname = "gradientbold-math.ssty1";
 layers = (
 {
@@ -6,9 +7,6 @@ layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
 alignment = -1;
-piece = {
-Weight = 150;
-};
 ref = _smart.gradient;
 }
 );
@@ -19,9 +17,6 @@ layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
 alignment = -1;
-piece = {
-Weight = 150;
-};
 ref = _smart.gradient;
 }
 );
@@ -41,9 +36,6 @@ name = "{100,900,0}";
 shapes = (
 {
 alignment = -1;
-piece = {
-Weight = 900;
-};
 ref = _smart.gradient;
 }
 );
@@ -62,9 +54,6 @@ layerId = "CB248749-ED57-41CD-B97C-D4181F2057B8";
 name = "{900,900,0}";
 shapes = (
 {
-piece = {
-Weight = 900;
-};
 ref = _smart.gradient;
 }
 );

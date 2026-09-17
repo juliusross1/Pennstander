@@ -28,10 +28,11 @@ Height = 100;
 rand1 = 0;
 rand2 = 1;
 };
+pos = (167,0);
 ref = _smart.braceright;
 }
 );
-width = 775;
+width = 942;
 }
 );
 metricLeft = "=|braceleft.s10";

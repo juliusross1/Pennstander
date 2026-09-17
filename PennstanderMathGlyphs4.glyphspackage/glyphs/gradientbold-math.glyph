@@ -14,7 +14,6 @@ width = 1094;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-alignment = -1;
 piece = {
 Weight = 100;
 };
@@ -36,7 +35,6 @@ layerId = "34B1410B-A3EB-43EE-ADA6-7D754C60E995";
 name = "{100,900,0}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Weight = 900;
 };
@@ -59,6 +57,8 @@ name = "{900,900,0}";
 shapes = (
 {
 piece = {
+Italic = 0;
+"Math Weight" = 100;
 Weight = 900;
 };
 ref = _smart.gradient;

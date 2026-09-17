@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 0;
 glyphname = "gradientbolditalic-math.ssty1";
 kernLeft = "xbolditalic-math";
 kernRight = "xbolditalic-math";
@@ -8,28 +9,22 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-alignment = -1;
-piece = {
-Weight = 150;
-};
 ref = _smart.gradient;
 }
 );
-width = 1105;
+width = 1094;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 0;
-Weight = 150;
 };
 ref = _smart.gradient;
 }
 );
-width = 1105;
+width = 1267;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -44,15 +39,13 @@ layerId = "AD835114-AE51-4DB4-A4EE-73EFFE4ECF73";
 name = "{100,100,100}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 100;
-Weight = 150;
 };
 ref = _smart.gradient;
 }
 );
-width = 1070;
+width = 1046;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -67,15 +60,13 @@ layerId = "4127596D-4D7E-4F50-9F29-934D4322B155";
 name = "{900,100,100}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 100;
-Weight = 150;
 };
 ref = _smart.gradient;
 }
 );
-width = 1092;
+width = 1274;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -90,15 +81,13 @@ layerId = "BB489AFE-D231-452F-A2AD-303ADC671F66";
 name = "{100,900,100}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 100;
-Weight = 900;
 };
 ref = _smart.gradient;
 }
 );
-width = 1426;
+width = 1046;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -115,12 +104,11 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 900;
 };
 ref = _smart.gradient;
 }
 );
-width = 1426;
+width = 1274;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -135,15 +123,13 @@ layerId = "4095A3FD-9994-4B84-A345-59FBC5F55AE7";
 name = "{100,900,0}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 0;
-Weight = 900;
 };
 ref = _smart.gradient;
 }
 );
-width = 1267;
+width = 1094;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -160,7 +146,6 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 900;
 };
 ref = _smart.gradient;
 }

@@ -1,7 +1,7 @@
 {
 category = Letter;
 color = 5;
-glyphname = _smart.r;
+glyphname = _smart.r.001;
 layers = (
 {
 anchors = (
@@ -20,6 +20,7 @@ pos = (918,1291);
 );
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 partSelection = {
+Weight = 1;
 Italic = 1;
 alt1 = 1;
 };
@@ -77,6 +78,7 @@ pos = (883,1291);
 );
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 partSelection = {
+Weight = 2;
 Italic = 1;
 alt1 = 1;
 };
@@ -136,6 +138,7 @@ associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 layerId = "E0F61AC3-81D6-4544-B53E-96B8241E628B";
 name = ItalicThin;
 partSelection = {
+Weight = 1;
 Italic = 2;
 alt1 = 1;
 };
@@ -195,6 +198,7 @@ associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 layerId = "394C656B-4B4D-4C55-AE42-AC4E4530E33F";
 name = ItalicBlack;
 partSelection = {
+Weight = 2;
 Italic = 2;
 alt1 = 1;
 };
@@ -254,6 +258,7 @@ associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 layerId = "DFC009CB-6DE5-4F34-BC9E-364C8A01EB5B";
 name = Thin_alt1;
 partSelection = {
+Weight = 1;
 Italic = 1;
 alt1 = 2;
 };
@@ -313,6 +318,7 @@ associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 layerId = "9C6DA3A4-2F37-4AF7-8FFA-035342C73382";
 name = ItalicThin_alt1;
 partSelection = {
+Weight = 1;
 Italic = 2;
 alt1 = 2;
 };
@@ -372,6 +378,7 @@ associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 layerId = "65DCA0A2-CE8F-4D20-AD25-00B70ED96B6D";
 name = ItalicBlack_alt1;
 partSelection = {
+Weight = 2;
 Italic = 2;
 alt1 = 2;
 };
@@ -431,6 +438,7 @@ associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 layerId = "A1B74EE6-63A2-4A2A-A930-32812E2C057D";
 name = Black_alt1;
 partSelection = {
+Weight = 2;
 Italic = 1;
 alt1 = 2;
 };
@@ -473,6 +481,11 @@ width = 893;
 }
 );
 partsSettings = (
+{
+bottomValue = 100;
+name = Weight;
+topValue = 900;
+},
 {
 bottomValue = 0;
 name = Italic;

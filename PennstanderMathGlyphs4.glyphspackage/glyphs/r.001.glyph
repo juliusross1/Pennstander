@@ -1,6 +1,6 @@
 {
 color = 0;
-glyphname = r.ssty2;
+glyphname = r.001;
 kernLeft = n;
 kernRight = r;
 layers = (
@@ -23,5 +23,4 @@ ref = _smart.r;
 width = 918;
 }
 );
-production = r.ssty2;
 }

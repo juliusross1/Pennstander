@@ -8,7 +8,6 @@ shapes = (
 {
 alignment = -1;
 piece = {
-Weight = 200;
 alt2 = 1;
 };
 ref = _smart.x;
@@ -21,7 +20,6 @@ layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
 piece = {
-Weight = 900;
 alt2 = 1;
 };
 ref = _smart.x;

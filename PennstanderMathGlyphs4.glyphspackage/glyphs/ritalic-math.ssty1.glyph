@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 10;
+color = 0;
 glyphname = "ritalic-math.ssty1";
 kernLeft = "nitalic-math";
 kernRight = "ritalic-math";
@@ -11,13 +11,12 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 150;
 alt1 = 0;
 };
 ref = _smart.r;
 }
 );
-width = 916;
+width = 918;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -43,13 +42,12 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 150;
 alt1 = 0;
 };
 ref = _smart.r;
 }
 );
-width = 1103;
+width = 1098;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -66,7 +64,6 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 900;
 };
 ref = _smart.r;
 }

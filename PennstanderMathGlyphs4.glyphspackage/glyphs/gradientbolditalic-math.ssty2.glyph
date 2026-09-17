@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 0;
 glyphname = "gradientbolditalic-math.ssty2";
 kernLeft = "xbolditalic-math";
 kernRight = "xbolditalic-math";
@@ -9,9 +10,6 @@ layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
 alignment = -1;
-piece = {
-Weight = 200;
-};
 ref = _smart.gradient;
 }
 );
@@ -24,7 +22,6 @@ shapes = (
 alignment = -1;
 piece = {
 Italic = 0;
-Weight = 200;
 };
 ref = _smart.gradient;
 }
@@ -47,7 +44,6 @@ shapes = (
 alignment = -1;
 piece = {
 Italic = 100;
-Weight = 200;
 };
 ref = _smart.gradient;
 }
@@ -70,7 +66,6 @@ shapes = (
 alignment = -1;
 piece = {
 Italic = 100;
-Weight = 200;
 };
 ref = _smart.gradient;
 }
@@ -93,7 +88,6 @@ shapes = (
 alignment = -1;
 piece = {
 Italic = 100;
-Weight = 900;
 };
 ref = _smart.gradient;
 }
@@ -115,12 +109,11 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 900;
 };
 ref = _smart.gradient;
 }
 );
-width = 1426;
+width = 1274;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -138,7 +131,6 @@ shapes = (
 alignment = -1;
 piece = {
 Italic = 0;
-Weight = 900;
 };
 ref = _smart.gradient;
 }
@@ -160,7 +152,6 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 900;
 };
 ref = _smart.gradient;
 }
