@@ -11,6 +11,7 @@ shapes = (
 {
 piece = {
 Italic = 0;
+Weight = 100;
 alt1 = 0;
 };
 ref = _smart.r;
@@ -23,7 +24,9 @@ layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
 piece = {
+Italic = 0;
 Weight = 100;
+alt1 = 0;
 };
 ref = _smart.r;
 }
@@ -44,8 +47,9 @@ name = "{100,900,0}";
 shapes = (
 {
 piece = {
-"Math Weight" = 100;
+Italic = 0;
 Weight = 900;
+alt1 = 0;
 };
 ref = _smart.r;
 }
@@ -67,6 +71,7 @@ shapes = (
 {
 piece = {
 Italic = 0;
+Weight = 900;
 alt1 = 0;
 };
 ref = _smart.r;

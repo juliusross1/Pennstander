@@ -25,13 +25,13 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 100;
+Weight = 900;
 alt1 = 0;
 };
 ref = _smart.h;
 }
 );
-width = 940;
+width = 1123;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -48,6 +48,8 @@ shapes = (
 {
 piece = {
 Italic = 100;
+Weight = 100;
+alt1 = 0;
 };
 ref = _smart.h;
 }
@@ -67,10 +69,10 @@ layerId = "44B2F788-505C-4902-96FA-7AE3D1A9294A";
 name = "{900,100,100}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 100;
 Weight = 900;
+alt1 = 0;
 };
 ref = _smart.h;
 }

@@ -11,6 +11,7 @@ shapes = (
 {
 piece = {
 Italic = 0;
+Weight = 100;
 alt1 = 0;
 alt2 = 0;
 };
@@ -25,6 +26,7 @@ shapes = (
 {
 piece = {
 Italic = 0;
+Weight = 900;
 alt1 = 0;
 alt2 = 0;
 };
@@ -48,6 +50,9 @@ shapes = (
 {
 piece = {
 Italic = 100;
+Weight = 100;
+alt1 = 0;
+alt2 = 0;
 };
 ref = _smart.x;
 }
@@ -69,6 +74,9 @@ shapes = (
 {
 piece = {
 Italic = 100;
+Weight = 900;
+alt1 = 0;
+alt2 = 0;
 };
 ref = _smart.x;
 }

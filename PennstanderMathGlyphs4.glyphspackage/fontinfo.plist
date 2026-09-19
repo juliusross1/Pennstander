@@ -23,7 +23,7 @@ name = Uppercase;
 },
 {
 automatic = 1;
-code = "a a.ss01 b c d eth e schwa f g g.ss01 h i idotless j jdotless k l m n o p q r s t u v v.ss02 w x y z z.ss02 alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon varphi chi psi omega thetaSymbol phi piSymbol kappaSymbol rhoSymbol epsilonLunateSymbol a-fraktur b-fraktur c-fraktur d-fraktur e-fraktur f-fraktur g-fraktur h-fraktur i-fraktur j-fraktur k-fraktur l-fraktur m-fraktur n-fraktur o-fraktur p-fraktur q-fraktur r-fraktur s-fraktur t-fraktur u-fraktur v-fraktur w-fraktur x-fraktur y-fraktur z-fraktur iitalicDoubleStruck jitalicDoubleStruck idoubleStruck jdoubleStruck pidoubleStruck hitalic-math aitalic-math aitalic-math.ss01 bitalic-math citalic-math ditalic-math eitalic-math fitalic-math gitalic-math gitalic-math.ss01 iitalic-math jitalic-math kitalic-math litalic-math mitalic-math nitalic-math oitalic-math pitalic-math qitalic-math ritalic-math sitalic-math titalic-math uitalic-math vitalic-math vitalic-math.ss02 zitalic-math.ss02 witalic-math xitalic-math yitalic-math zitalic-math alphaitalic-math betaitalic-math gammaitalic-math deltaitalic-math epsilonitalic-math zetaitalic-math etaitalic-math thetaitalic-math iotaitalic-math kappaitalic-math lambdaitalic-math muitalic-math nuitalic-math xiitalic-math omicronitalic-math piitalic-math rhoitalic-math sigmafinalitalic-math sigmaitalic-math tauitalic-math upsilonitalic-math varphiitalic-math chiitalic-math psiitalic-math omegaitalic-math epsilonLunateSymbolitalic-math thetaSymbolitalic-math kappaSymbolitalic-math phiitalic-math rhoSymbolitalic-math piSymbolitalic-math abold-math abold-math.ss01 bbold-math cbold-math dbold-math ebold-math fbold-math gbold-math gbold-math.ss01 hbold-math ibold-math jbold-math kbold-math lbold-math mbold-math nbold-math obold-math pbold-math qbold-math rbold-math sbold-math tbold-math ubold-math vbold-math wbold-math xbold-math ybold-math zbold-math alphabold-math betabold-math gammabold-math deltabold-math epsilonbold-math zetabold-math etabold-math thetabold-math iotabold-math kappabold-math lambdabold-math mubold-math nubold-math xibold-math omicronbold-math pibold-math rhobold-math sigmafinalbold-math sigmabold-math taubold-math upsilonbold-math varphibold-math chibold-math psibold-math omegabold-math epsilonLunateSymbolbold-math thetaSymbolbold-math kappaSymbolbold-math phibold-math rhoSymbolbold-math piSymbolbold-math a-frakturbold-math b-frakturbold-math c-frakturbold-math d-frakturbold-math e-frakturbold-math f-frakturbold-math g-frakturbold-math h-frakturbold-math i-frakturbold-math j-frakturbold-math k-frakturbold-math l-frakturbold-math m-frakturbold-math n-frakturbold-math o-frakturbold-math p-frakturbold-math q-frakturbold-math r-frakturbold-math s-frakturbold-math t-frakturbold-math u-frakturbold-math v-frakturbold-math w-frakturbold-math x-frakturbold-math y-frakturbold-math z-frakturbold-math abolditalic-math abolditalic-math.ss01 bbolditalic-math cbolditalic-math dbolditalic-math ebolditalic-math fbolditalic-math gbolditalic-math gbolditalic-math.ss01 hbolditalic-math ibolditalic-math jbolditalic-math kbolditalic-math lbolditalic-math mbolditalic-math nbolditalic-math obolditalic-math pbolditalic-math qbolditalic-math rbolditalic-math sbolditalic-math tbolditalic-math ubolditalic-math vbolditalic-math vbolditalic-math.ss02 wbolditalic-math xbolditalic-math ybolditalic-math zbolditalic-math zbolditalic-math.ss02 alphabolditalic-math betabolditalic-math gammabolditalic-math deltabolditalic-math epsilonbolditalic-math zetabolditalic-math etabolditalic-math thetabolditalic-math iotabolditalic-math kappabolditalic-math lambdabolditalic-math mubolditalic-math nubolditalic-math xibolditalic-math omicronbolditalic-math pibolditalic-math rhobolditalic-math sigmafinalbolditalic-math sigmabolditalic-math taubolditalic-math upsilonbolditalic-math varphibolditalic-math chibolditalic-math psibolditalic-math omegabolditalic-math epsilonLunateSymbolbolditalic-math thetaSymbolbolditalic-math kappaSymbolbolditalic-math phibolditalic-math rhoSymbolbolditalic-math piSymbolbolditalic-math a.ssty1 a.ssty2 a.ss01.ssty1 a.ss01.ssty2 b.ssty1 b.ssty2 c.ssty1 c.ssty2 d.alt1 d.ssty1 d.ssty2 d.alt1.ssty1 d.alt1.ssty2 eth.ssty1 eth.ssty2 e.alt1 e.ssty1 e.ssty2 schwa.ssty1 schwa.ssty2 f.alt1 f.ssty1 f.ssty2 f.alt1.ssty1 f.alt1.ssty2 g.ssty1 g.ssty2 g.ss01.ssty1 g.ss01.ssty2 h.alt1 h.ssty1 h.ssty2 h.alt1.ssty1 h.alt1.ssty2 i.ssty1 i.ssty2 idotless.ssty1 idotless.ssty2 j.ssty1 j.ssty2 jdotless.ssty1 jdotless.ssty2 k.ssty1 k.ssty2 l.ssty1 l.ssty2 m.ssty1 m.ssty2 n.ssty1 n.ssty2 o.ssty1 o.ssty2 p.ssty1 p.ssty2 q.ssty1 q.ssty2 r.alt1 r.ssty1 r.ssty2 r.alt1.ssty1 r.alt1.ssty2 s.ssty1 s.ssty2 t.ssty1 t.ssty2 u.ssty1 u.ssty2 v.ssty1 v.ssty2 v.ss02.ssty1 v.ss02.ssty2 w.ssty1 w.ssty2 x.alt1 x.alt2 x.ssty1 x.ssty2 x.alt1.ssty1 x.alt1.ssty2 x.alt2.ssty1 x.alt2.ssty2 y.ssty1 y.ssty2 z.ssty1 z.ssty2 z.ss02.ssty1 z.ss02.ssty2 alpha.ssty1 alpha.ssty2 beta.ssty1 beta.ssty2 gamma.ssty1 gamma.ssty2 delta.ssty1 delta.ssty2 epsilon.ssty1 epsilon.ssty2 zeta.ssty1 zeta.ssty2 eta.ssty1 eta.ssty2 theta.ssty1 theta.ssty2 iota.ssty1 iota.ssty2 kappa.ssty1 kappa.ssty2 lambda.ssty1 lambda.ssty2 mu.ssty1 mu.ssty2 nu.ssty1 nu.ssty2 xi.ssty1 xi.ssty2 omicron.ssty1 omicron.ssty2 pi.ssty1 pi.ssty2 rho.ssty1 rho.ssty2 sigmafinal.ssty1 sigmafinal.ssty2 sigma.ssty1 sigma.ssty2 tau.ssty1 tau.ssty2 upsilon.ssty1 upsilon.ssty2 varphi.ssty1 varphi.ssty2 chi.ssty1 chi.ssty2 psi.ssty1 psi.ssty2 omega.ssty1 omega.ssty2 thetaSymbol.ssty1 thetaSymbol.ssty2 phi.ssty1 phi.ssty2 piSymbol.ssty1 piSymbol.ssty2 kappaSymbol.ssty1 kappaSymbol.ssty2 rhoSymbol.ssty1 rhoSymbol.ssty2 epsilonLunateSymbol.ssty1 epsilonLunateSymbol.ssty2 a-fraktur.ssty1 a-fraktur.ssty2 b-fraktur.ssty1 b-fraktur.ssty2 c-fraktur.ssty1 c-fraktur.ssty2 d-fraktur.ssty1 d-fraktur.ssty2 e-fraktur.ssty1 e-fraktur.ssty2 f-fraktur.ssty1 f-fraktur.ssty2 g-fraktur.ssty1 g-fraktur.ssty2 h-fraktur.ssty1 h-fraktur.ssty2 i-fraktur.ssty1 i-fraktur.ssty2 j-fraktur.ssty1 j-fraktur.ssty2 k-fraktur.ssty1 k-fraktur.ssty2 l-fraktur.ssty1 l-fraktur.ssty2 m-fraktur.ssty1 m-fraktur.ssty2 n-fraktur.ssty1 n-fraktur.ssty2 o-fraktur.ssty1 o-fraktur.ssty2 p-fraktur.ssty1 p-fraktur.ssty2 q-fraktur.ssty1 q-fraktur.ssty2 r-fraktur.ssty1 r-fraktur.ssty2 s-fraktur.ssty1 s-fraktur.ssty2 t-fraktur.ssty1 t-fraktur.ssty2 u-fraktur.ssty1 u-fraktur.ssty2 v-fraktur.ssty1 v-fraktur.ssty2 w-fraktur.ssty1 w-fraktur.ssty2 x-fraktur.ssty1 x-fraktur.ssty2 y-fraktur.ssty1 y-fraktur.ssty2 z-fraktur.ssty1 z-fraktur.ssty2 hitalic-math.alt1 hitalic-math.ssty1 hitalic-math.ssty2 hitalic-math.alt1.ssty1 hitalic-math.alt1.ssty2 aitalic-math.ssty1 aitalic-math.ssty2 aitalic-math.ss01.ssty1 aitalic-math.ss01.ssty2 bitalic-math.ssty1 bitalic-math.ssty2 citalic-math.ssty1 citalic-math.ssty2 ditalic-math.alt1 ditalic-math.ssty1 ditalic-math.ssty2 ditalic-math.alt1.ssty1 ditalic-math.alt1.ssty2 eitalic-math.ssty1 eitalic-math.ssty2 fitalic-math.alt1 fitalic-math.ssty1 fitalic-math.ssty2 fitalic-math.alt1.ssty1 fitalic-math.alt1.ssty2 gitalic-math.ssty1 gitalic-math.ssty2 gitalic-math.ss01.ssty1 gitalic-math.ss01.ssty2 iitalic-math.ssty1 iitalic-math.ssty2 jitalic-math.ssty1 jitalic-math.ssty2 kitalic-math.ssty1 kitalic-math.ssty2 litalic-math.ssty1 litalic-math.ssty2 mitalic-math.ssty1 mitalic-math.ssty2 nitalic-math.ssty1 nitalic-math.ssty2 oitalic-math.ssty1 oitalic-math.ssty2 pitalic-math.ssty1 pitalic-math.ssty2 qitalic-math.ssty1 qitalic-math.ssty2 ritalic-math.alt1 ritalic-math.ssty1 ritalic-math.ssty2 ritalic-math.alt1.ssty1 ritalic-math.alt1.ssty2 sitalic-math.ssty1 sitalic-math.ssty2 titalic-math.ssty1 titalic-math.ssty2 uitalic-math.ssty1 uitalic-math.ssty2 vitalic-math.ssty1 vitalic-math.ssty2 vitalic-math.ss02.ssty1 vitalic-math.ss02.ssty2 zitalic-math.ss02.ssty1 zitalic-math.ss02.ssty2 witalic-math.ssty1 witalic-math.ssty2 xitalic-math.alt1 xitalic-math.alt2 xitalic-math.ssty1 xitalic-math.ssty2 xitalic-math.alt1.ssty1 xitalic-math.alt1.ssty2 xitalic-math.alt2.ssty1 xitalic-math.alt2.ssty2 yitalic-math.ssty1 yitalic-math.ssty2 zitalic-math.ssty1 zitalic-math.ssty2 alphaitalic-math.ssty1 alphaitalic-math.ssty2 betaitalic-math.ssty1 betaitalic-math.ssty2 gammaitalic-math.ssty1 gammaitalic-math.ssty2 deltaitalic-math.ssty1 deltaitalic-math.ssty2 epsilonitalic-math.ssty1 epsilonitalic-math.ssty2 zetaitalic-math.ssty1 zetaitalic-math.ssty2 etaitalic-math.ssty1 etaitalic-math.ssty2 thetaitalic-math.ssty1 thetaitalic-math.ssty2 iotaitalic-math.ssty1 iotaitalic-math.ssty2 kappaitalic-math.ssty1 kappaitalic-math.ssty2 lambdaitalic-math.ssty1 lambdaitalic-math.ssty2 muitalic-math.ssty1 muitalic-math.ssty2 nuitalic-math.ssty1 nuitalic-math.ssty2 xiitalic-math.ssty1 xiitalic-math.ssty2 omicronitalic-math.ssty1 omicronitalic-math.ssty2 piitalic-math.ssty1 piitalic-math.ssty2 rhoitalic-math.ssty1 rhoitalic-math.ssty2 sigmafinalitalic-math.ssty1 sigmafinalitalic-math.ssty2 sigmaitalic-math.ssty1 sigmaitalic-math.ssty2 tauitalic-math.ssty1 tauitalic-math.ssty2 upsilonitalic-math.ssty1 upsilonitalic-math.ssty2 varphiitalic-math.ssty1 varphiitalic-math.ssty2 chiitalic-math.ssty1 chiitalic-math.ssty2 psiitalic-math.ssty1 psiitalic-math.ssty2 omegaitalic-math.ssty1 omegaitalic-math.ssty2 epsilonLunateSymbolitalic-math.ssty1 epsilonLunateSymbolitalic-math.ssty2 thetaSymbolitalic-math.ssty1 thetaSymbolitalic-math.ssty2 kappaSymbolitalic-math.ssty1 kappaSymbolitalic-math.ssty2 phiitalic-math.ssty1 phiitalic-math.ssty2 rhoSymbolitalic-math.ssty1 rhoSymbolitalic-math.ssty2 piSymbolitalic-math.ssty1 piSymbolitalic-math.ssty2 abold-math.ssty1 abold-math.ssty2 abold-math.ss01.ssty1 abold-math.ss01.ssty2 bbold-math.ssty1 bbold-math.ssty2 cbold-math.ssty1 cbold-math.ssty2 dbold-math.alt1 dbold-math.ssty1 dbold-math.ssty2 dbold-math.alt1.ssty1 dbold-math.alt1.ssty2 ebold-math.ssty1 ebold-math.ssty2 fbold-math.alt1 fbold-math.ssty1 fbold-math.ssty2 fbold-math.alt1.ssty1 fbold-math.alt1.ssty2 gbold-math.ssty1 gbold-math.ssty2 gbold-math.ss01.ssty1 gbold-math.ss01.ssty2 hbold-math.alt1 hbold-math.ssty1 hbold-math.ssty2 hbold-math.alt1.ssty1 hbold-math.alt1.ssty2 ibold-math.ssty1 ibold-math.ssty2 jbold-math.ssty1 jbold-math.ssty2 kbold-math.ssty1 kbold-math.ssty2 lbold-math.ssty1 lbold-math.ssty2 mbold-math.ssty1 mbold-math.ssty2 nbold-math.ssty1 nbold-math.ssty2 obold-math.ssty1 obold-math.ssty2 pbold-math.ssty1 pbold-math.ssty2 qbold-math.ssty1 qbold-math.ssty2 rbold-math.alt1 rbold-math.ssty1 rbold-math.ssty2 rbold-math.alt1.ssty1 rbold-math.alt1.ssty2 sbold-math.ssty1 sbold-math.ssty2 tbold-math.ssty1 tbold-math.ssty2 ubold-math.ssty1 ubold-math.ssty2 vbold-math.ssty1 vbold-math.ssty2 wbold-math.ssty1 wbold-math.ssty2 xbold-math.alt1 xbold-math.alt2 xbold-math.ssty1 xbold-math.ssty2 xbold-math.alt1.ssty1 xbold-math.alt1.ssty2 xbold-math.alt2.ssty1 xbold-math.alt2.ssty2 ybold-math.ssty1 ybold-math.ssty2 zbold-math.ssty1 zbold-math.ssty2 alphabold-math.ssty1 alphabold-math.ssty2 betabold-math.ssty1 betabold-math.ssty2 gammabold-math.ssty1 gammabold-math.ssty2 deltabold-math.ssty1 deltabold-math.ssty2 epsilonbold-math.ssty1 epsilonbold-math.ssty2 zetabold-math.ssty1 zetabold-math.ssty2 etabold-math.ssty1 etabold-math.ssty2 thetabold-math.ssty1 thetabold-math.ssty2 iotabold-math.ssty1 iotabold-math.ssty2 kappabold-math.ssty1 kappabold-math.ssty2 lambdabold-math.ssty1 lambdabold-math.ssty2 mubold-math.ssty1 mubold-math.ssty2 nubold-math.ssty1 nubold-math.ssty2 xibold-math.ssty1 xibold-math.ssty2 omicronbold-math.ssty1 omicronbold-math.ssty2 pibold-math.ssty1 pibold-math.ssty2 rhobold-math.ssty1 rhobold-math.ssty2 sigmafinalbold-math.ssty1 sigmafinalbold-math.ssty2 sigmabold-math.ssty1 sigmabold-math.ssty2 taubold-math.ssty1 taubold-math.ssty2 upsilonbold-math.ssty1 upsilonbold-math.ssty2 varphibold-math.ssty1 varphibold-math.ssty2 chibold-math.ssty1 chibold-math.ssty2 psibold-math.ssty1 psibold-math.ssty2 omegabold-math.ssty1 omegabold-math.ssty2 epsilonLunateSymbolbold-math.ssty1 epsilonLunateSymbolbold-math.ssty2 thetaSymbolbold-math.ssty1 thetaSymbolbold-math.ssty2 kappaSymbolbold-math.ssty1 kappaSymbolbold-math.ssty2 phibold-math.ssty1 phibold-math.ssty2 rhoSymbolbold-math.ssty1 rhoSymbolbold-math.ssty2 piSymbolbold-math.ssty1 piSymbolbold-math.ssty2 a-frakturbold-math.ssty1 a-frakturbold-math.ssty2 b-frakturbold-math.ssty1 b-frakturbold-math.ssty2 c-frakturbold-math.ssty1 c-frakturbold-math.ssty2 d-frakturbold-math.ssty1 d-frakturbold-math.ssty2 e-frakturbold-math.ssty1 e-frakturbold-math.ssty2 f-frakturbold-math.ssty1 f-frakturbold-math.ssty2 g-frakturbold-math.ssty1 g-frakturbold-math.ssty2 h-frakturbold-math.ssty1 h-frakturbold-math.ssty2 i-frakturbold-math.ssty1 i-frakturbold-math.ssty2 j-frakturbold-math.ssty1 j-frakturbold-math.ssty2 k-frakturbold-math.ssty1 k-frakturbold-math.ssty2 l-frakturbold-math.ssty1 l-frakturbold-math.ssty2 m-frakturbold-math.ssty1 m-frakturbold-math.ssty2 n-frakturbold-math.ssty1 n-frakturbold-math.ssty2 o-frakturbold-math.ssty1 o-frakturbold-math.ssty2 p-frakturbold-math.ssty1 p-frakturbold-math.ssty2 q-frakturbold-math.ssty1 q-frakturbold-math.ssty2 r-frakturbold-math.ssty1 r-frakturbold-math.ssty2 s-frakturbold-math.ssty1 s-frakturbold-math.ssty2 t-frakturbold-math.ssty1 t-frakturbold-math.ssty2 u-frakturbold-math.ssty1 u-frakturbold-math.ssty2 v-frakturbold-math.ssty1 v-frakturbold-math.ssty2 w-frakturbold-math.ssty1 w-frakturbold-math.ssty2 x-frakturbold-math.ssty1 x-frakturbold-math.ssty2 y-frakturbold-math.ssty1 y-frakturbold-math.ssty2 z-frakturbold-math.ssty1 z-frakturbold-math.ssty2 abolditalic-math.ssty1 abolditalic-math.ssty2 abolditalic-math.ss01.ssty1 abolditalic-math.ss01.ssty2 bbolditalic-math.ssty1 bbolditalic-math.ssty2 cbolditalic-math.ssty1 cbolditalic-math.ssty2 dbolditalic-math.alt1 dbolditalic-math.ssty1 dbolditalic-math.ssty2 dbolditalic-math.alt1.ssty1 dbolditalic-math.alt1.ssty2 ebolditalic-math.ssty1 ebolditalic-math.ssty2 fbolditalic-math.alt1 fbolditalic-math.ssty1 fbolditalic-math.ssty2 fbolditalic-math.alt1.ssty1 fbolditalic-math.alt1.ssty2 gbolditalic-math.ssty1 gbolditalic-math.ssty2 gbolditalic-math.ss01.ssty1 gbolditalic-math.ss01.ssty2 hbolditalic-math.alt1 hbolditalic-math.ssty1 hbolditalic-math.ssty2 hbolditalic-math.alt1.ssty1 hbolditalic-math.alt1.ssty2 ibolditalic-math.ssty1 ibolditalic-math.ssty2 jbolditalic-math.ssty1 jbolditalic-math.ssty2 kbolditalic-math.ssty1 kbolditalic-math.ssty2 lbolditalic-math.ssty1 lbolditalic-math.ssty2 mbolditalic-math.ssty1 mbolditalic-math.ssty2 nbolditalic-math.ssty1 nbolditalic-math.ssty2 obolditalic-math.ssty1 obolditalic-math.ssty2 pbolditalic-math.ssty1 pbolditalic-math.ssty2 qbolditalic-math.ssty1 qbolditalic-math.ssty2 rbolditalic-math.alt1 rbolditalic-math.ssty1 rbolditalic-math.ssty2 rbolditalic-math.alt1.ssty1 rbolditalic-math.alt1.ssty2 sbolditalic-math.ssty1 sbolditalic-math.ssty2 tbolditalic-math.ssty1 tbolditalic-math.ssty2 ubolditalic-math.ssty1 ubolditalic-math.ssty2 vbolditalic-math.ssty1 vbolditalic-math.ssty2 vbolditalic-math.ss02.ssty1 vbolditalic-math.ss02.ssty2 wbolditalic-math.ssty1 wbolditalic-math.ssty2 xbolditalic-math.alt1 xbolditalic-math.alt2 xbolditalic-math.ssty1 xbolditalic-math.ssty2 xbolditalic-math.alt1.ssty1 xbolditalic-math.alt1.ssty2 xbolditalic-math.alt2.ssty1 xbolditalic-math.alt2.ssty2 ybolditalic-math.ssty1 ybolditalic-math.ssty2 zbolditalic-math.ssty1 zbolditalic-math.ssty2 zbolditalic-math.ss02.ssty1 zbolditalic-math.ss02.ssty2 alphabolditalic-math.ssty1 alphabolditalic-math.ssty2 betabolditalic-math.ssty1 betabolditalic-math.ssty2 gammabolditalic-math.ssty1 gammabolditalic-math.ssty2 deltabolditalic-math.ssty1 deltabolditalic-math.ssty2 epsilonbolditalic-math.ssty1 epsilonbolditalic-math.ssty2 zetabolditalic-math.ssty1 zetabolditalic-math.ssty2 etabolditalic-math.ssty1 etabolditalic-math.ssty2 thetabolditalic-math.ssty1 thetabolditalic-math.ssty2 iotabolditalic-math.ssty1 iotabolditalic-math.ssty2 kappabolditalic-math.ssty1 kappabolditalic-math.ssty2 lambdabolditalic-math.ssty1 lambdabolditalic-math.ssty2 mubolditalic-math.ssty1 mubolditalic-math.ssty2 nubolditalic-math.ssty1 nubolditalic-math.ssty2 xibolditalic-math.ssty1 xibolditalic-math.ssty2 omicronbolditalic-math.ssty1 omicronbolditalic-math.ssty2 pibolditalic-math.ssty1 pibolditalic-math.ssty2 rhobolditalic-math.ssty1 rhobolditalic-math.ssty2 sigmafinalbolditalic-math.ssty1 sigmafinalbolditalic-math.ssty2 sigmabolditalic-math.ssty1 sigmabolditalic-math.ssty2 taubolditalic-math.ssty1 taubolditalic-math.ssty2 upsilonbolditalic-math.ssty1 upsilonbolditalic-math.ssty2 varphibolditalic-math.ssty1 varphibolditalic-math.ssty2 chibolditalic-math.ssty1 chibolditalic-math.ssty2 psibolditalic-math.ssty1 psibolditalic-math.ssty2 omegabolditalic-math.ssty1 omegabolditalic-math.ssty2 epsilonLunateSymbolbolditalic-math.ssty1 epsilonLunateSymbolbolditalic-math.ssty2 thetaSymbolbolditalic-math.ssty1 thetaSymbolbolditalic-math.ssty2 kappaSymbolbolditalic-math.ssty1 kappaSymbolbolditalic-math.ssty2 phibolditalic-math.ssty1 phibolditalic-math.ssty2 rhoSymbolbolditalic-math.ssty1 rhoSymbolbolditalic-math.ssty2 piSymbolbolditalic-math.ssty1 piSymbolbolditalic-math.ssty2 e.alt2.old ij l.ss03 l.ss03.ssty1 l.ss03.ssty2 t.ss03 t.ss03.ssty1 t.ss03.ssty2 idotlessitalic-math idotlessitalic-math.ssty1 idotlessitalic-math.ssty2 jdotlessitalic-math jdotlessitalic-math.ssty1 jdotlessitalic-math.ssty2 lbold-math.ss03 lbold-math.ss03.ssty1 lbold-math.ss03.ssty2 tbold-math.ss03 tbold-math.ss03.ssty1 tbold-math.ss03.ssty2 litalic-math.ss03 litalic-math.ss03.ssty1 litalic-math.ss03.ssty2 titalic-math.ss03 titalic-math.ss03.ssty1 titalic-math.ss03.ssty2 lbolditalic-math.ss03 lbolditalic-math.ss03.ssty1 lbolditalic-math.ss03.ssty2 tbolditalic-math.ss03 tbolditalic-math.ss03.ssty1 tbolditalic-math.ss03.ssty2 dDoubleStrucklower pidoubleStruck.ssty1 pidoubleStruck.ssty2";
+code = "a a.ss01 b c d eth e schwa f g g.ss01 h i idotless j jdotless k l m n o p q r s t u v v.ss02 w x y z z.ss02 alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon varphi chi psi omega thetaSymbol phi piSymbol kappaSymbol rhoSymbol epsilonLunateSymbol a-fraktur b-fraktur c-fraktur d-fraktur e-fraktur f-fraktur g-fraktur h-fraktur i-fraktur j-fraktur k-fraktur l-fraktur m-fraktur n-fraktur o-fraktur p-fraktur q-fraktur r-fraktur s-fraktur t-fraktur u-fraktur v-fraktur w-fraktur x-fraktur y-fraktur z-fraktur iitalicDoubleStruck jitalicDoubleStruck idoubleStruck jdoubleStruck pidoubleStruck hitalic-math aitalic-math aitalic-math.ss01 bitalic-math citalic-math ditalic-math eitalic-math fitalic-math gitalic-math gitalic-math.ss01 iitalic-math jitalic-math kitalic-math litalic-math mitalic-math nitalic-math oitalic-math pitalic-math qitalic-math ritalic-math sitalic-math titalic-math uitalic-math vitalic-math vitalic-math.ss02 zitalic-math.ss02 witalic-math xitalic-math yitalic-math zitalic-math alphaitalic-math betaitalic-math gammaitalic-math deltaitalic-math epsilonitalic-math zetaitalic-math etaitalic-math thetaitalic-math iotaitalic-math kappaitalic-math lambdaitalic-math muitalic-math nuitalic-math xiitalic-math omicronitalic-math piitalic-math rhoitalic-math sigmafinalitalic-math sigmaitalic-math tauitalic-math upsilonitalic-math varphiitalic-math chiitalic-math psiitalic-math omegaitalic-math epsilonLunateSymbolitalic-math thetaSymbolitalic-math kappaSymbolitalic-math phiitalic-math rhoSymbolitalic-math piSymbolitalic-math abold-math abold-math.ss01 bbold-math cbold-math dbold-math ebold-math fbold-math gbold-math gbold-math.ss01 hbold-math ibold-math jbold-math kbold-math lbold-math mbold-math nbold-math obold-math pbold-math qbold-math rbold-math sbold-math tbold-math ubold-math vbold-math wbold-math xbold-math ybold-math zbold-math alphabold-math betabold-math gammabold-math deltabold-math epsilonbold-math zetabold-math etabold-math thetabold-math iotabold-math kappabold-math lambdabold-math mubold-math nubold-math xibold-math omicronbold-math pibold-math rhobold-math sigmafinalbold-math sigmabold-math taubold-math upsilonbold-math varphibold-math chibold-math psibold-math omegabold-math epsilonLunateSymbolbold-math thetaSymbolbold-math kappaSymbolbold-math phibold-math rhoSymbolbold-math piSymbolbold-math a-frakturbold-math b-frakturbold-math c-frakturbold-math d-frakturbold-math e-frakturbold-math f-frakturbold-math g-frakturbold-math h-frakturbold-math i-frakturbold-math j-frakturbold-math k-frakturbold-math l-frakturbold-math m-frakturbold-math n-frakturbold-math o-frakturbold-math p-frakturbold-math q-frakturbold-math r-frakturbold-math s-frakturbold-math t-frakturbold-math u-frakturbold-math v-frakturbold-math w-frakturbold-math x-frakturbold-math y-frakturbold-math z-frakturbold-math abolditalic-math abolditalic-math.ss01 bbolditalic-math cbolditalic-math dbolditalic-math ebolditalic-math fbolditalic-math gbolditalic-math gbolditalic-math.ss01 hbolditalic-math ibolditalic-math jbolditalic-math kbolditalic-math lbolditalic-math mbolditalic-math nbolditalic-math obolditalic-math pbolditalic-math qbolditalic-math rbolditalic-math sbolditalic-math tbolditalic-math ubolditalic-math vbolditalic-math vbolditalic-math.ss02 wbolditalic-math xbolditalic-math ybolditalic-math zbolditalic-math zbolditalic-math.ss02 alphabolditalic-math betabolditalic-math gammabolditalic-math deltabolditalic-math epsilonbolditalic-math zetabolditalic-math etabolditalic-math thetabolditalic-math iotabolditalic-math kappabolditalic-math lambdabolditalic-math mubolditalic-math nubolditalic-math xibolditalic-math omicronbolditalic-math pibolditalic-math rhobolditalic-math sigmafinalbolditalic-math sigmabolditalic-math taubolditalic-math upsilonbolditalic-math varphibolditalic-math chibolditalic-math psibolditalic-math omegabolditalic-math epsilonLunateSymbolbolditalic-math thetaSymbolbolditalic-math kappaSymbolbolditalic-math phibolditalic-math rhoSymbolbolditalic-math piSymbolbolditalic-math a.ssty1 a.ssty2 a.ss01.ssty1 a.ss01.ssty2 b.ssty1 b.ssty2 c.ssty1 c.ssty2 d.alt1 d.ssty1 d.ssty2 d.alt1.ssty1 d.alt1.ssty2 eth.ssty1 eth.ssty2 e.alt1 e.ssty1 e.ssty2 schwa.ssty1 schwa.ssty2 f.alt1 f.ssty1 f.ssty2 f.alt1.ssty1 f.alt1.ssty2 g.ssty1 g.ssty2 g.ss01.ssty1 g.ss01.ssty2 h.alt1 h.ssty1 h.ssty2 h.alt1.ssty1 h.alt1.ssty2 i.ssty1 i.ssty2 idotless.ssty1 idotless.ssty2 j.ssty1 j.ssty2 jdotless.ssty1 jdotless.ssty2 k.ssty1 k.ssty2 l.ssty1 l.ssty2 m.ssty1 m.ssty2 n.ssty1 n.ssty2 o.ssty1 o.ssty2 p.ssty1 p.ssty2 q.ssty1 q.ssty2 r.alt1 r.ssty1 r.ssty2 r.alt1.ssty1 r.alt1.ssty2 s.ssty1 s.ssty2 t.ssty1 t.ssty2 u.ssty1 u.ssty2 v.ssty1 v.ssty2 v.ss02.ssty1 v.ss02.ssty2 w.ssty1 w.ssty2 x.alt1 x.alt2 x.ssty1 x.ssty2 x.alt1.ssty1 x.alt1.ssty2 x.alt2.ssty1 x.alt2.ssty2 y.ssty1 y.ssty2 z.ssty1 z.ssty2 z.ss02.ssty1 z.ss02.ssty2 alpha.ssty1 alpha.ssty2 beta.ssty1 beta.ssty2 gamma.ssty1 gamma.ssty2 delta.ssty1 delta.ssty2 epsilon.ssty1 epsilon.ssty2 zeta.ssty1 zeta.ssty2 eta.ssty1 eta.ssty2 theta.ssty1 theta.ssty2 iota.ssty1 iota.ssty2 kappa.ssty1 kappa.ssty2 lambda.ssty1 lambda.ssty2 mu.ssty1 mu.ssty2 nu.ssty1 nu.ssty2 xi.ssty1 xi.ssty2 omicron.ssty1 omicron.ssty2 pi.ssty1 pi.ssty2 rho.ssty1 rho.ssty2 sigmafinal.ssty1 sigmafinal.ssty2 sigma.ssty1 sigma.ssty2 tau.ssty1 tau.ssty2 upsilon.ssty1 upsilon.ssty2 varphi.ssty1 varphi.ssty2 chi.ssty1 chi.ssty2 psi.ssty1 psi.ssty2 omega.ssty1 omega.ssty2 thetaSymbol.ssty1 thetaSymbol.ssty2 phi.ssty1 phi.ssty2 piSymbol.ssty1 piSymbol.ssty2 kappaSymbol.ssty1 kappaSymbol.ssty2 rhoSymbol.ssty1 rhoSymbol.ssty2 epsilonLunateSymbol.ssty1 epsilonLunateSymbol.ssty2 a-fraktur.ssty1 a-fraktur.ssty2 b-fraktur.ssty1 b-fraktur.ssty2 c-fraktur.ssty1 c-fraktur.ssty2 d-fraktur.ssty1 d-fraktur.ssty2 e-fraktur.ssty1 e-fraktur.ssty2 f-fraktur.ssty1 f-fraktur.ssty2 g-fraktur.ssty1 g-fraktur.ssty2 h-fraktur.ssty1 h-fraktur.ssty2 i-fraktur.ssty1 i-fraktur.ssty2 j-fraktur.ssty1 j-fraktur.ssty2 k-fraktur.ssty1 k-fraktur.ssty2 l-fraktur.ssty1 l-fraktur.ssty2 m-fraktur.ssty1 m-fraktur.ssty2 n-fraktur.ssty1 n-fraktur.ssty2 o-fraktur.ssty1 o-fraktur.ssty2 p-fraktur.ssty1 p-fraktur.ssty2 q-fraktur.ssty1 q-fraktur.ssty2 r-fraktur.ssty1 r-fraktur.ssty2 s-fraktur.ssty1 s-fraktur.ssty2 t-fraktur.ssty1 t-fraktur.ssty2 u-fraktur.ssty1 u-fraktur.ssty2 v-fraktur.ssty1 v-fraktur.ssty2 w-fraktur.ssty1 w-fraktur.ssty2 x-fraktur.ssty1 x-fraktur.ssty2 y-fraktur.ssty1 y-fraktur.ssty2 z-fraktur.ssty1 z-fraktur.ssty2 hitalic-math.alt1 hitalic-math.ssty1 hitalic-math.ssty2 hitalic-math.alt1.ssty1 hitalic-math.alt1.ssty2 aitalic-math.ssty1 aitalic-math.ssty2 aitalic-math.ss01.ssty1 aitalic-math.ss01.ssty2 bitalic-math.ssty1 bitalic-math.ssty2 citalic-math.ssty1 citalic-math.ssty2 ditalic-math.alt1 ditalic-math.ssty1 ditalic-math.ssty2 ditalic-math.alt1.ssty1 ditalic-math.alt1.ssty2 eitalic-math.ssty1 eitalic-math.ssty2 fitalic-math.alt1 fitalic-math.ssty1 fitalic-math.ssty2 fitalic-math.alt1.ssty1 fitalic-math.alt1.ssty2 gitalic-math.ssty1 gitalic-math.ssty2 gitalic-math.ss01.ssty1 gitalic-math.ss01.ssty2 iitalic-math.ssty1 iitalic-math.ssty2 jitalic-math.ssty1 jitalic-math.ssty2 kitalic-math.ssty1 kitalic-math.ssty2 litalic-math.ssty1 litalic-math.ssty2 mitalic-math.ssty1 mitalic-math.ssty2 nitalic-math.ssty1 nitalic-math.ssty2 oitalic-math.ssty1 oitalic-math.ssty2 pitalic-math.ssty1 pitalic-math.ssty2 qitalic-math.ssty1 qitalic-math.ssty2 ritalic-math.alt1 ritalic-math.ssty1 ritalic-math.ssty2 ritalic-math.alt1.ssty1 ritalic-math.alt1.ssty2 sitalic-math.ssty1 sitalic-math.ssty2 titalic-math.ssty1 titalic-math.ssty2 uitalic-math.ssty1 uitalic-math.ssty2 vitalic-math.ssty1 vitalic-math.ssty2 vitalic-math.ss02.ssty1 vitalic-math.ss02.ssty2 zitalic-math.ss02.ssty1 zitalic-math.ss02.ssty2 witalic-math.ssty1 witalic-math.ssty2 xitalic-math.alt1 xitalic-math.alt2 xitalic-math.ssty1 xitalic-math.ssty2 xitalic-math.alt1.ssty1 xitalic-math.alt1.ssty2 xitalic-math.alt2.ssty1 xitalic-math.alt2.ssty2 yitalic-math.ssty1 yitalic-math.ssty2 zitalic-math.ssty1 zitalic-math.ssty2 alphaitalic-math.ssty1 alphaitalic-math.ssty2 betaitalic-math.ssty1 betaitalic-math.ssty2 gammaitalic-math.ssty1 gammaitalic-math.ssty2 deltaitalic-math.ssty1 deltaitalic-math.ssty2 epsilonitalic-math.ssty1 epsilonitalic-math.ssty2 zetaitalic-math.ssty1 zetaitalic-math.ssty2 etaitalic-math.ssty1 etaitalic-math.ssty2 thetaitalic-math.ssty1 thetaitalic-math.ssty2 iotaitalic-math.ssty1 iotaitalic-math.ssty2 kappaitalic-math.ssty1 kappaitalic-math.ssty2 lambdaitalic-math.ssty1 lambdaitalic-math.ssty2 muitalic-math.ssty1 muitalic-math.ssty2 nuitalic-math.ssty1 nuitalic-math.ssty2 xiitalic-math.ssty1 xiitalic-math.ssty2 omicronitalic-math.ssty1 omicronitalic-math.ssty2 piitalic-math.ssty1 piitalic-math.ssty2 rhoitalic-math.ssty1 rhoitalic-math.ssty2 sigmafinalitalic-math.ssty1 sigmafinalitalic-math.ssty2 sigmaitalic-math.ssty1 sigmaitalic-math.ssty2 tauitalic-math.ssty1 tauitalic-math.ssty2 upsilonitalic-math.ssty1 upsilonitalic-math.ssty2 varphiitalic-math.ssty1 varphiitalic-math.ssty2 chiitalic-math.ssty1 chiitalic-math.ssty2 psiitalic-math.ssty1 psiitalic-math.ssty2 omegaitalic-math.ssty1 omegaitalic-math.ssty2 epsilonLunateSymbolitalic-math.ssty1 epsilonLunateSymbolitalic-math.ssty2 thetaSymbolitalic-math.ssty1 thetaSymbolitalic-math.ssty2 kappaSymbolitalic-math.ssty1 kappaSymbolitalic-math.ssty2 phiitalic-math.ssty1 phiitalic-math.ssty2 rhoSymbolitalic-math.ssty1 rhoSymbolitalic-math.ssty2 piSymbolitalic-math.ssty1 piSymbolitalic-math.ssty2 abold-math.ssty1 abold-math.ssty2 abold-math.ss01.ssty1 abold-math.ss01.ssty2 bbold-math.ssty1 bbold-math.ssty2 cbold-math.ssty1 cbold-math.ssty2 dbold-math.alt1 dbold-math.ssty1 dbold-math.ssty2 dbold-math.alt1.ssty1 dbold-math.alt1.ssty2 ebold-math.ssty1 ebold-math.ssty2 fbold-math.alt1 fbold-math.ssty1 fbold-math.ssty2 fbold-math.alt1.ssty1 fbold-math.alt1.ssty2 gbold-math.ssty1 gbold-math.ssty2 gbold-math.ss01.ssty1 gbold-math.ss01.ssty2 hbold-math.alt1 hbold-math.ssty1 hbold-math.ssty2 hbold-math.alt1.ssty1 hbold-math.alt1.ssty2 ibold-math.ssty1 ibold-math.ssty2 jbold-math.ssty1 jbold-math.ssty2 kbold-math.ssty1 kbold-math.ssty2 lbold-math.ssty1 lbold-math.ssty2 mbold-math.ssty1 mbold-math.ssty2 nbold-math.ssty1 nbold-math.ssty2 obold-math.ssty1 obold-math.ssty2 pbold-math.ssty1 pbold-math.ssty2 qbold-math.ssty1 qbold-math.ssty2 rbold-math.alt1 rbold-math.ssty1 rbold-math.ssty2 rbold-math.alt1.ssty1 rbold-math.alt1.ssty2 sbold-math.ssty1 sbold-math.ssty2 tbold-math.ssty1 tbold-math.ssty2 ubold-math.ssty1 ubold-math.ssty2 vbold-math.ssty1 vbold-math.ssty2 wbold-math.ssty1 wbold-math.ssty2 xbold-math.alt1 xbold-math.alt2 xbold-math.ssty1 xbold-math.ssty2 xbold-math.alt1.ssty1 xbold-math.alt1.ssty2 xbold-math.alt2.ssty1 xbold-math.alt2.ssty2 ybold-math.ssty1 ybold-math.ssty2 zbold-math.ssty1 zbold-math.ssty2 alphabold-math.ssty1 alphabold-math.ssty2 betabold-math.ssty1 betabold-math.ssty2 gammabold-math.ssty1 gammabold-math.ssty2 deltabold-math.ssty1 deltabold-math.ssty2 epsilonbold-math.ssty1 epsilonbold-math.ssty2 zetabold-math.ssty1 zetabold-math.ssty2 etabold-math.ssty1 etabold-math.ssty2 thetabold-math.ssty1 thetabold-math.ssty2 iotabold-math.ssty1 iotabold-math.ssty2 kappabold-math.ssty1 kappabold-math.ssty2 lambdabold-math.ssty1 lambdabold-math.ssty2 mubold-math.ssty1 mubold-math.ssty2 nubold-math.ssty1 nubold-math.ssty2 xibold-math.ssty1 xibold-math.ssty2 omicronbold-math.ssty1 omicronbold-math.ssty2 pibold-math.ssty1 pibold-math.ssty2 rhobold-math.ssty1 rhobold-math.ssty2 sigmafinalbold-math.ssty1 sigmafinalbold-math.ssty2 sigmabold-math.ssty1 sigmabold-math.ssty2 taubold-math.ssty1 taubold-math.ssty2 upsilonbold-math.ssty1 upsilonbold-math.ssty2 varphibold-math.ssty1 varphibold-math.ssty2 chibold-math.ssty1 chibold-math.ssty2 psibold-math.ssty1 psibold-math.ssty2 omegabold-math.ssty1 omegabold-math.ssty2 epsilonLunateSymbolbold-math.ssty1 epsilonLunateSymbolbold-math.ssty2 thetaSymbolbold-math.ssty1 thetaSymbolbold-math.ssty2 kappaSymbolbold-math.ssty1 kappaSymbolbold-math.ssty2 phibold-math.ssty1 phibold-math.ssty2 rhoSymbolbold-math.ssty1 rhoSymbolbold-math.ssty2 piSymbolbold-math.ssty1 piSymbolbold-math.ssty2 a-frakturbold-math.ssty1 a-frakturbold-math.ssty2 b-frakturbold-math.ssty1 b-frakturbold-math.ssty2 c-frakturbold-math.ssty1 c-frakturbold-math.ssty2 d-frakturbold-math.ssty1 d-frakturbold-math.ssty2 e-frakturbold-math.ssty1 e-frakturbold-math.ssty2 f-frakturbold-math.ssty1 f-frakturbold-math.ssty2 g-frakturbold-math.ssty1 g-frakturbold-math.ssty2 h-frakturbold-math.ssty1 h-frakturbold-math.ssty2 i-frakturbold-math.ssty1 i-frakturbold-math.ssty2 j-frakturbold-math.ssty1 j-frakturbold-math.ssty2 k-frakturbold-math.ssty1 k-frakturbold-math.ssty2 l-frakturbold-math.ssty1 l-frakturbold-math.ssty2 m-frakturbold-math.ssty1 m-frakturbold-math.ssty2 n-frakturbold-math.ssty1 n-frakturbold-math.ssty2 o-frakturbold-math.ssty1 o-frakturbold-math.ssty2 p-frakturbold-math.ssty1 p-frakturbold-math.ssty2 q-frakturbold-math.ssty1 q-frakturbold-math.ssty2 r-frakturbold-math.ssty1 r-frakturbold-math.ssty2 s-frakturbold-math.ssty1 s-frakturbold-math.ssty2 t-frakturbold-math.ssty1 t-frakturbold-math.ssty2 u-frakturbold-math.ssty1 u-frakturbold-math.ssty2 v-frakturbold-math.ssty1 v-frakturbold-math.ssty2 w-frakturbold-math.ssty1 w-frakturbold-math.ssty2 x-frakturbold-math.ssty1 x-frakturbold-math.ssty2 y-frakturbold-math.ssty1 y-frakturbold-math.ssty2 z-frakturbold-math.ssty1 z-frakturbold-math.ssty2 abolditalic-math.ssty1 abolditalic-math.ssty2 abolditalic-math.ss01.ssty1 abolditalic-math.ss01.ssty2 bbolditalic-math.ssty1 bbolditalic-math.ssty2 cbolditalic-math.ssty1 cbolditalic-math.ssty2 dbolditalic-math.alt1 dbolditalic-math.ssty1 dbolditalic-math.ssty2 dbolditalic-math.alt1.ssty1 dbolditalic-math.alt1.ssty2 ebolditalic-math.ssty1 ebolditalic-math.ssty2 fbolditalic-math.alt1 fbolditalic-math.ssty1 fbolditalic-math.ssty2 fbolditalic-math.alt1.ssty1 fbolditalic-math.alt1.ssty2 gbolditalic-math.ssty1 gbolditalic-math.ssty2 gbolditalic-math.ss01.ssty1 gbolditalic-math.ss01.ssty2 hbolditalic-math.alt1 hbolditalic-math.ssty1 hbolditalic-math.ssty2 hbolditalic-math.alt1.ssty1 hbolditalic-math.alt1.ssty2 ibolditalic-math.ssty1 ibolditalic-math.ssty2 jbolditalic-math.ssty1 jbolditalic-math.ssty2 kbolditalic-math.ssty1 kbolditalic-math.ssty2 lbolditalic-math.ssty1 lbolditalic-math.ssty2 mbolditalic-math.ssty1 mbolditalic-math.ssty2 nbolditalic-math.ssty1 nbolditalic-math.ssty2 obolditalic-math.ssty1 obolditalic-math.ssty2 pbolditalic-math.ssty1 pbolditalic-math.ssty2 qbolditalic-math.ssty1 qbolditalic-math.ssty2 rbolditalic-math.alt1 rbolditalic-math.ssty1 rbolditalic-math.ssty2 rbolditalic-math.alt1.ssty1 rbolditalic-math.alt1.ssty2 sbolditalic-math.ssty1 sbolditalic-math.ssty2 tbolditalic-math.ssty1 tbolditalic-math.ssty2 ubolditalic-math.ssty1 ubolditalic-math.ssty2 vbolditalic-math.ssty1 vbolditalic-math.ssty2 vbolditalic-math.ss02.ssty1 vbolditalic-math.ss02.ssty2 wbolditalic-math.ssty1 wbolditalic-math.ssty2 xbolditalic-math.alt1 xbolditalic-math.alt2 xbolditalic-math.ssty1 xbolditalic-math.ssty2 xbolditalic-math.alt1.ssty1 xbolditalic-math.alt1.ssty2 xbolditalic-math.alt2.ssty1 xbolditalic-math.alt2.ssty2 ybolditalic-math.ssty1 ybolditalic-math.ssty2 zbolditalic-math.ssty1 zbolditalic-math.ssty2 zbolditalic-math.ss02.ssty1 zbolditalic-math.ss02.ssty2 alphabolditalic-math.ssty1 alphabolditalic-math.ssty2 betabolditalic-math.ssty1 betabolditalic-math.ssty2 gammabolditalic-math.ssty1 gammabolditalic-math.ssty2 deltabolditalic-math.ssty1 deltabolditalic-math.ssty2 epsilonbolditalic-math.ssty1 epsilonbolditalic-math.ssty2 zetabolditalic-math.ssty1 zetabolditalic-math.ssty2 etabolditalic-math.ssty1 etabolditalic-math.ssty2 thetabolditalic-math.ssty1 thetabolditalic-math.ssty2 iotabolditalic-math.ssty1 iotabolditalic-math.ssty2 kappabolditalic-math.ssty1 kappabolditalic-math.ssty2 lambdabolditalic-math.ssty1 lambdabolditalic-math.ssty2 mubolditalic-math.ssty1 mubolditalic-math.ssty2 nubolditalic-math.ssty1 nubolditalic-math.ssty2 xibolditalic-math.ssty1 xibolditalic-math.ssty2 omicronbolditalic-math.ssty1 omicronbolditalic-math.ssty2 pibolditalic-math.ssty1 pibolditalic-math.ssty2 rhobolditalic-math.ssty1 rhobolditalic-math.ssty2 sigmafinalbolditalic-math.ssty1 sigmafinalbolditalic-math.ssty2 sigmabolditalic-math.ssty1 sigmabolditalic-math.ssty2 taubolditalic-math.ssty1 taubolditalic-math.ssty2 upsilonbolditalic-math.ssty1 upsilonbolditalic-math.ssty2 varphibolditalic-math.ssty1 varphibolditalic-math.ssty2 chibolditalic-math.ssty1 chibolditalic-math.ssty2 psibolditalic-math.ssty1 psibolditalic-math.ssty2 omegabolditalic-math.ssty1 omegabolditalic-math.ssty2 epsilonLunateSymbolbolditalic-math.ssty1 epsilonLunateSymbolbolditalic-math.ssty2 thetaSymbolbolditalic-math.ssty1 thetaSymbolbolditalic-math.ssty2 kappaSymbolbolditalic-math.ssty1 kappaSymbolbolditalic-math.ssty2 phibolditalic-math.ssty1 phibolditalic-math.ssty2 rhoSymbolbolditalic-math.ssty1 rhoSymbolbolditalic-math.ssty2 piSymbolbolditalic-math.ssty1 piSymbolbolditalic-math.ssty2 ij l.ss03 l.ss03.ssty1 l.ss03.ssty2 r.001 t.ss03 t.ss03.ssty1 t.ss03.ssty2 idotlessitalic-math idotlessitalic-math.ssty1 idotlessitalic-math.ssty2 jdotlessitalic-math jdotlessitalic-math.ssty1 jdotlessitalic-math.ssty2 lbold-math.ss03 lbold-math.ss03.ssty1 lbold-math.ss03.ssty2 tbold-math.ss03 tbold-math.ss03.ssty1 tbold-math.ss03.ssty2 litalic-math.ss03 litalic-math.ss03.ssty1 litalic-math.ss03.ssty2 titalic-math.ss03 titalic-math.ss03.ssty1 titalic-math.ss03.ssty2 lbolditalic-math.ss03 lbolditalic-math.ss03.ssty1 lbolditalic-math.ss03.ssty2 tbolditalic-math.ss03 tbolditalic-math.ss03.ssty1 tbolditalic-math.ss03.ssty2 dDoubleStrucklower pidoubleStruck.ssty1 pidoubleStruck.ssty2";
 name = Lowercase;
 }
 );
@@ -6766,11 +6766,11 @@ sub gbolditalic-math by gbolditalic-math.ss01;
 labels = (
 {
 language = dflt;
-value = "alternate letters";
+value = "Alternate Letters";
 },
 {
 language = NLD;
-value = "alternatieve letters";
+value = "Alternatieve Letters";
 }
 );
 tag = ss01;
@@ -6815,11 +6815,11 @@ sub zbolditalic-math by zbolditalic-math.ss02;
 labels = (
 {
 language = dflt;
-value = "sharp letters";
+value = "Sharp Letters";
 },
 {
 language = NLD;
-value = "scherpe letters";
+value = "Scherpe Letters";
 }
 );
 tag = ss02;
@@ -6838,11 +6838,11 @@ sub tbolditalic-math by tbolditalic-math.ss03;
 labels = (
 {
 language = dflt;
-value = "straight feet";
+value = "Straight Feet";
 },
 {
 language = NLD;
-value = "rechte voeten";
+value = "Rechte Voeten";
 }
 );
 tag = ss03;
@@ -6861,11 +6861,11 @@ sub foursuperior by foursuperior.ss04;
 labels = (
 {
 language = dflt;
-value = "alternate 4";
+value = "Alternate 4";
 },
 {
 language = NLD;
-value = "alternatieve 4";
+value = "Alternatieve 4";
 }
 );
 tag = ss04;
@@ -6892,11 +6892,11 @@ sub y-frakturbold-math by y-frakturbold-math.ss05;
 labels = (
 {
 language = dflt;
-value = "simplified fraktur";
+value = "Simplified Fraktur";
 },
 {
 language = NLD;
-value = "vereenvoudigde fraktur";
+value = "Vereenvoudigde Fraktur";
 }
 );
 tag = ss05;
@@ -6910,11 +6910,11 @@ sub sevenbold-math by sevenbold-math.ss07;
 labels = (
 {
 language = dflt;
-value = "alternate 7";
+value = "Alternate 7";
 },
 {
 language = NLD;
-value = "alternatieve 7";
+value = "Alternatieve 7";
 }
 );
 tag = ss07;
@@ -6929,11 +6929,11 @@ sub braceright by braceright.alt2;
 labels = (
 {
 language = dflt;
-value = "alternate parentheses";
+value = "Alternate Parentheses";
 },
 {
 language = NLD;
-value = "alternatieve haakjes";
+value = "Alternatieve Haakjes";
 }
 );
 tag = ss08;
@@ -6986,11 +6986,11 @@ lookup integral_alternates_serif;
 labels = (
 {
 language = dflt;
-value = flair;
+value = Flair;
 },
 {
 language = NLD;
-value = flair;
+value = Flair;
 }
 );
 tag = ss20;
@@ -8396,6 +8396,16 @@ sub titalic-math.ss03 from [titalic-math.ss03.ssty1 titalic-math.ss03.ssty2];
 sub lbolditalic-math.ss03 from [lbolditalic-math.ss03.ssty1 lbolditalic-math.ss03.ssty2];
 sub tbolditalic-math.ss03 from [tbolditalic-math.ss03.ssty1 tbolditalic-math.ss03.ssty2];
 sub gradientbolditalic-math from [gradientbolditalic-math.ssty1 gradientbolditalic-math.ssty2];
+sub cup from [cup.ssty1 cup.ssty2];
+sub fallingDiagonal-math from [fallingDiagonal-math.ssty1 fallingDiagonal-math.ssty2];
+sub radical.t from [radical.t.ssty1 radical.t.ssty2];
+sub risingDiagonal-math from [risingDiagonal-math.ssty1 risingDiagonal-math.ssty2];
+sub summationdoubleStruck from [summationdoubleStruck.ssty1 summationdoubleStruck.ssty2];
+sub summationdoubleStruck.disp from [summationdoubleStruck.disp.ssty1 summationdoubleStruck.disp.ssty2];
+sub quarternote-musical from [quarternote-musical.ssty1 quarternote-musical.ssty2];
+sub flat-musical from [flat-musical.ssty1 flat-musical.ssty2];
+sub natural-musical from [natural-musical.ssty1 natural-musical.ssty2];
+sub sharp-musical from [sharp-musical.ssty1 sharp-musical.ssty2];
 sub Fturned from [Fturned.ssty1 Fturned.ssty2];
 sub pidoubleStruck from [pidoubleStruck.ssty1 pidoubleStruck.ssty2];
 sub istrokemod from [istrokemod.ssty1 istrokemod.ssty2];
@@ -8404,7 +8414,6 @@ sub four.alt1.ss04 from [four.alt1.ss04.ssty1 four.alt1.ss04.ssty2];
 sub four.alt2.ss04 from [four.alt2.ss04.ssty1 four.alt2.ss04.ssty2];
 sub fraction from [fraction.ssty1 fraction.ssty2];
 sub radical.ext from [radical.ext.ssty1 radical.ext.ssty2];
-sub ruleroot.ext from [ruleroot.ext.ssty1 ruleroot.ext.ssty2];
 sub rulerootdown.right from [rulerootdown.right.ssty1 rulerootdown.right.ssty2];
 sub slash.s1 from [slash.s1.ssty1 slash.s1.ssty2];
 sub slash.s2 from [slash.s2.ssty1 slash.s2.ssty2];
@@ -8415,17 +8424,8 @@ sub slash.s6 from [slash.s6.ssty1 slash.s6.ssty2];
 sub slash.s7 from [slash.s7.ssty1 slash.s7.ssty2];
 sub slash from [slash.ssty1 slash.ssty2];
 sub backslash from [backslash.ssty1 backslash.ssty2];
+sub ruleroot.ext from [ruleroot.ext.ssty1 ruleroot.ext.ssty2];
 sub underscoredbl from [underscoredbl.ssty1 underscoredbl.ssty2];
-sub cup from [cup.ssty1 cup.ssty2];
-sub risingDiagonal-math from [risingDiagonal-math.ssty1 risingDiagonal-math.ssty2];
-sub fallingDiagonal-math from [fallingDiagonal-math.ssty1 fallingDiagonal-math.ssty2];
-sub radical.t from [radical.t.ssty1 radical.t.ssty2];
-sub summationdoubleStruck from [summationdoubleStruck.ssty1 summationdoubleStruck.ssty2];
-sub summationdoubleStruck.disp from [summationdoubleStruck.disp.ssty1 summationdoubleStruck.disp.ssty2];
-sub quarternote-musical from [quarternote-musical.ssty1 quarternote-musical.ssty2];
-sub flat-musical from [flat-musical.ssty1 flat-musical.ssty2];
-sub natural-musical from [natural-musical.ssty1 natural-musical.ssty2];
-sub sharp-musical from [sharp-musical.ssty1 sharp-musical.ssty2];
 sub upWhiteTriangle from [upWhiteTriangle.ssty1 upWhiteTriangle.ssty2];
 sub rightWhiteTriangle from [rightWhiteTriangle.ssty1 rightWhiteTriangle.ssty2];
 sub downWhiteTriangle from [downWhiteTriangle.ssty1 downWhiteTriangle.ssty2];
@@ -8453,6 +8453,7 @@ sub whiteCircleWithDotRight from [whiteCircleWithDotRight.ssty1 whiteCircleWithD
 sub whiteCircleWithTwoDots from [whiteCircleWithTwoDots.ssty1 whiteCircleWithTwoDots.ssty2];
 sub whiteFlag from [whiteFlag.ssty1 whiteFlag.ssty2];
 sub mediumWhiteCircle from [mediumWhiteCircle.ssty1 mediumWhiteCircle.ssty2];
+sub mediumsmallwhitecircle from [mediumsmallwhitecircle.ssty1 mediumsmallwhitecircle.ssty2];
 sub ellipsis from [ellipsis.ssty1 ellipsis.ssty2];
 sub bullet from [bullet.ssty1 bullet.ssty2];
 sub angstrom from [angstrom.ssty1 angstrom.ssty2];
@@ -8466,11 +8467,10 @@ sub topRightcorner from [topRightcorner.ssty1 topRightcorner.ssty2];
 sub topLeftCorner from [topLeftCorner.ssty1 topLeftCorner.ssty2];
 sub lowerHalfWhiteSquare from [lowerHalfWhiteSquare.ssty1 lowerHalfWhiteSquare.ssty2];
 sub lowerLeftHalfWhiteSquare from [lowerLeftHalfWhiteSquare.ssty1 lowerLeftHalfWhiteSquare.ssty2];
-sub mathll from [mathll.ssty1 mathll.ssty2];
 sub perspective from [perspective.ssty1 perspective.ssty2];
 sub projective from [projective.ssty1 projective.ssty2];
+sub radical.s4 from [radical.s4.ssty1 radical.s4.ssty2];
 sub squareLozenge from [squareLozenge.ssty1 squareLozenge.ssty2];
-sub summationmod2.disp from [summationmod2.disp.ssty1 summationmod2.disp.ssty2];
 sub topHalfWhiteSquare from [topHalfWhiteSquare.ssty1 topHalfWhiteSquare.ssty2];
 sub topRightHalfWhiteSquare from [topRightHalfWhiteSquare.ssty1 topRightHalfWhiteSquare.ssty2];
 sub turnedNotSign from [turnedNotSign.ssty1 turnedNotSign.ssty2];
@@ -8707,7 +8707,7 @@ sub greaterthandot from [greaterthandot.ssty1 greaterthandot.ssty2];
 sub hermitianconjugatematrix from [hermitianconjugatematrix.ssty1 hermitianconjugatematrix.ssty2];
 sub homothetic from [homothetic.ssty1 homothetic.ssty2];
 sub identicalWithDotAbove from [identicalWithDotAbove.ssty1 identicalWithDotAbove.ssty2];
-sub imageof from [imageof.ssty1 imageof.ssty2];
+sub originalof from [originalof.ssty1 originalof.ssty2];
 sub imageorapproximatelyequal from [imageorapproximatelyequal.ssty1 imageorapproximatelyequal.ssty2];
 sub intercalate from [intercalate.ssty1 intercalate.ssty2];
 sub interiorProduct from [interiorProduct.ssty1 interiorProduct.ssty2];
@@ -8815,8 +8815,12 @@ sub minusSignWithRisingDots from [minusSignWithRisingDots.ssty1 minusSignWithRis
 sub minusplus from [minusplus.ssty1 minusplus.ssty2];
 sub minustilde from [minustilde.ssty1 minustilde.ssty2];
 sub models from [models.ssty1 models.ssty2];
+sub summationmod2.disp from [summationmod2.disp.ssty1 summationmod2.disp.ssty2];
+sub summationmod2 from [summationmod2.ssty1 summationmod2.ssty2];
 sub gradientbold-math from [gradientbold-math.ssty1 gradientbold-math.ssty2];
 sub gradientitalic-math from [gradientitalic-math.ssty1 gradientitalic-math.ssty2];
+sub mathgg from [mathgg.ssty1 mathgg.ssty2];
+sub mathll from [mathll.ssty1 mathll.ssty2];
 sub multiply.circled from [multiply.circled.ssty1 multiply.circled.ssty2];
 sub multiplyInLeftHalfCircled from [multiplyInLeftHalfCircled.ssty1 multiplyInLeftHalfCircled.ssty2];
 sub multiplyInRightHalfCircled from [multiplyInRightHalfCircled.ssty1 multiplyInRightHalfCircled.ssty2];
@@ -8869,6 +8873,7 @@ sub northEastAndSouthWestArrow from [northEastAndSouthWestArrow.ssty1 northEastA
 sub northWestAndSouthEastArrow from [northWestAndSouthEastArrow.ssty1 northWestAndSouthEastArrow.ssty2];
 sub notalmostequalto from [notalmostequalto.ssty1 notalmostequalto.ssty2];
 sub notasymptoticallyequalto from [notasymptoticallyequalto.ssty1 notasymptoticallyequalto.ssty2];
+sub doesnotcontainasmember from [doesnotcontainasmember.ssty1 doesnotcontainasmember.ssty2];
 sub notelement from [notelement.ssty1 notelement.ssty2];
 sub notequivalentto from [notequivalentto.ssty1 notequivalentto.ssty2];
 sub notgreater from [notgreater.ssty1 notgreater.ssty2];
@@ -8929,7 +8934,6 @@ sub summation from [summation.ssty1 summation.ssty2];
 sub radical.s1 from [radical.s1.ssty1 radical.s1.ssty2];
 sub radical.s2 from [radical.s2.ssty1 radical.s2.ssty2];
 sub radical.s3 from [radical.s3.ssty1 radical.s3.ssty2];
-sub radical.s4 from [radical.s4.ssty1 radical.s4.ssty2];
 sub radical from [radical.ssty1 radical.ssty2];
 sub micro from [micro.ssty1 micro.ssty2];
 sub partialdiff from [partialdiff.ssty1 partialdiff.ssty2];
@@ -8937,7 +8941,7 @@ sub openSubset from [openSubset.ssty1 openSubset.ssty2];
 sub openSuperset from [openSuperset.ssty1 openSuperset.ssty2];
 sub operator.circled from [operator.circled.ssty1 operator.circled.ssty2];
 sub orWithDotInside from [orWithDotInside.ssty1 orWithDotInside.ssty2];
-sub originalof from [originalof.ssty1 originalof.ssty2];
+sub imageof from [imageof.ssty1 imageof.ssty2];
 sub orthogonal from [orthogonal.ssty1 orthogonal.ssty2];
 sub parallel.circled from [parallel.circled.ssty1 parallel.circled.ssty2];
 sub parallel from [parallel.ssty1 parallel.ssty2];
@@ -9096,6 +9100,7 @@ sub succeedsbutnotequivalentto from [succeedsbutnotequivalentto.ssty1 succeedsbu
 sub succeedsorequalto from [succeedsorequalto.ssty1 succeedsorequalto.ssty2];
 sub succeedsorequivalentto from [succeedsorequivalentto.ssty1 succeedsorequivalentto.ssty2];
 sub succeedsunderrelation from [succeedsunderrelation.ssty1 succeedsunderrelation.ssty2];
+sub containsasmember from [containsasmember.ssty1 containsasmember.ssty2];
 sub summationWithIntegral.disp from [summationWithIntegral.disp.ssty1 summationWithIntegral.disp.ssty2];
 sub summationWithIntegral from [summationWithIntegral.ssty1 summationWithIntegral.ssty2];
 sub superset from [superset.ssty1 superset.ssty2];
@@ -9256,13 +9261,8 @@ sub doublestruckBar from [doublestruckBar.ssty1 doublestruckBar.ssty2];
 sub endarrowcomponent from [endarrowcomponent.ssty1 endarrowcomponent.ssty2];
 sub numbersign from [numbersign.ssty1 numbersign.ssty2];
 sub pescomb from [pescomb.ssty1 pescomb.ssty2];
-sub containsasmember from [containsasmember.ssty1 containsasmember.ssty2];
-sub doesnotcontainasmember from [doesnotcontainasmember.ssty1 doesnotcontainasmember.ssty2];
-sub mathgg from [mathgg.ssty1 mathgg.ssty2];
-sub measuredRightAngle from [measuredRightAngle.ssty1 measuredRightAngle.ssty2];
-sub mediumsmallwhitecircle from [mediumsmallwhitecircle.ssty1 mediumsmallwhitecircle.ssty2];
 sub ruleroot from [ruleroot.ssty1 ruleroot.ssty2];
-sub summationmod2 from [summationmod2.ssty1 summationmod2.ssty2];
+sub measuredRightAngle from [measuredRightAngle.ssty1 measuredRightAngle.ssty2];
 ";
 tag = ssty;
 },
@@ -9687,15 +9687,6 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Math Weight";
-Location = 25;
-}
-);
 }
 );
 exports = 0;
@@ -9716,15 +9707,6 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Math Weight";
-Location = 37.5;
-}
-);
 }
 );
 exports = 0;
@@ -9746,15 +9728,6 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Math Weight";
-Location = 50;
-}
-);
 }
 );
 exports = 0;
@@ -9776,15 +9749,6 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Math Weight";
-Location = 62.5;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -9804,15 +9768,6 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Math Weight";
-Location = 75;
-}
-);
 }
 );
 exports = 0;
@@ -9834,15 +9789,6 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Math Weight";
-Location = 87.5;
-}
-);
 }
 );
 exports = 0;
@@ -9870,15 +9816,6 @@ value = (
 {
 name = "Disable Subroutines";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Math Weight";
-Location = 100;
-}
-);
 }
 );
 exports = 0;
@@ -9907,15 +9844,6 @@ value = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Math Weight";
-Location = 100;
-}
-);
 }
 );
 exports = 0;
@@ -9944,15 +9872,6 @@ value = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 0;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Math Weight";
-Location = 100;
-}
-);
 }
 );
 exports = 0;

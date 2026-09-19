@@ -12,7 +12,7 @@ shapes = (
 piece = {
 Italic = 0;
 Weight = 100;
-alt1 = 0;
+Weight = 100;
 };
 ref = _smart.f;
 }
@@ -24,6 +24,7 @@ layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
 piece = {
+Italic = 0;
 Weight = 900;
 };
 ref = _smart.f;
@@ -46,6 +47,8 @@ shapes = (
 {
 piece = {
 Italic = 100;
+Weight = 100;
+Weight = 100;
 };
 ref = _smart.f;
 }
@@ -65,7 +68,6 @@ layerId = "0859D3FC-53B9-4491-8A77-ECAD933402D9";
 name = "{900,100,100}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 100;
 Weight = 900;
@@ -73,7 +75,7 @@ Weight = 900;
 ref = _smart.f;
 }
 );
-width = 1162;
+width = 1255;
 }
 );
 subCategory = Math;

@@ -10,6 +10,8 @@ layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
 piece = {
+Italic = 0;
+Weight = 100;
 alt1 = 1;
 };
 ref = _smart.d;
@@ -21,7 +23,6 @@ width = 1145;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 0;
 Weight = 100;
@@ -68,7 +69,6 @@ layerId = "12066E5C-EEFD-4BF4-B129-A6266D790AF1";
 name = "{900,100,100}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 100;
 Weight = 100;
@@ -115,7 +115,6 @@ layerId = "8CD8AC80-58E1-4C6A-AB55-C03B84BA10D4";
 name = "{900,900,100}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 100;
 Weight = 900;
@@ -139,7 +138,6 @@ layerId = "B6F09190-7D92-400C-9F9C-E9D8FA82509D";
 name = "{100,900,0}";
 shapes = (
 {
-alignment = -1;
 piece = {
 Italic = 0;
 Weight = 900;

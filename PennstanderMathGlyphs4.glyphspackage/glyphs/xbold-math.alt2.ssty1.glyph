@@ -6,8 +6,9 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-alignment = -1;
 piece = {
+Italic = 0;
+Weight = 150;
 alt2 = 1;
 };
 ref = _smart.x;
@@ -19,8 +20,9 @@ width = 1179;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-alignment = -1;
 piece = {
+Italic = 0;
+Weight = 150;
 alt2 = 1;
 };
 ref = _smart.x;
@@ -41,12 +43,14 @@ layerId = "2FBD80F5-7E66-4C83-8AB6-E4170EC58C6D";
 shapes = (
 {
 piece = {
+Italic = 0;
+Weight = 900;
 alt2 = 1;
 };
 ref = _smart.x;
 }
 );
-width = 1181;
+width = 1152;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -61,6 +65,8 @@ layerId = "EE00680B-82F7-4424-97DD-A199904FAB9C";
 shapes = (
 {
 piece = {
+Italic = 0;
+Weight = 900;
 alt2 = 1;
 };
 ref = _smart.x;

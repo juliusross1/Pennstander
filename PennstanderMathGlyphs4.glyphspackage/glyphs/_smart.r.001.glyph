@@ -1,6 +1,7 @@
 {
 category = Letter;
 color = 5;
+export = 0;
 glyphname = _smart.r.001;
 layers = (
 {

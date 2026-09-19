@@ -10,13 +10,12 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 100;
 alt1 = 0;
 };
 ref = _smart.h;
 }
 );
-width = 940;
+width = 1123;
 },
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -24,7 +23,6 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 100;
 alt1 = 0;
 };
 ref = _smart.h;

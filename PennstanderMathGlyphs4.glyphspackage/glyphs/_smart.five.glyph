@@ -16,7 +16,6 @@ pos = (1127,1291);
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 partSelection = {
 alt1 = 1;
-Weight = 2;
 };
 shapes = (
 {
@@ -89,7 +88,6 @@ pos = (1087,1291);
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 partSelection = {
 alt1 = 1;
-Weight = 1;
 };
 shapes = (
 {
@@ -164,7 +162,6 @@ layerId = "31134B56-3E91-4D86-9FAD-1DD2A2D09B7E";
 name = Thin.alt1;
 partSelection = {
 alt1 = 2;
-Weight = 1;
 };
 shapes = (
 {
@@ -239,7 +236,6 @@ layerId = "177F32D9-DBF9-442C-AA58-794E53870CBC";
 name = Black.alt1;
 partSelection = {
 alt1 = 2;
-Weight = 2;
 };
 shapes = (
 {
@@ -304,11 +300,6 @@ partsSettings = (
 bottomValue = 0;
 name = alt1;
 topValue = 1;
-},
-{
-bottomValue = 100;
-name = Weight;
-topValue = 900;
 }
 );
 }

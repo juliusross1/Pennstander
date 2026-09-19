@@ -19,7 +19,7 @@ shapes = (
 ref = five;
 }
 );
-width = 1137;
+width = 1127;
 }
 );
 metricLeft = five;

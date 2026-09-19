@@ -6,29 +6,29 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-alignment = -1;
 piece = {
+Italic = 0;
 Weight = 200;
-alt1 = 1;
+alt1 = 2;
 };
 ref = _smart.h;
 }
 );
-width = 955;
+width = 960;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-alignment = -1;
 piece = {
+Italic = 0;
 Weight = 200;
-alt1 = 1;
+alt1 = 2;
 };
 ref = _smart.h;
 }
 );
-width = 955;
+width = 960;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -42,10 +42,10 @@ coordinates = (
 layerId = "8F3F5E1A-30E4-4CFC-94E3-5DAAC9E031CD";
 shapes = (
 {
-alignment = -1;
 piece = {
+Italic = 0;
 Weight = 900;
-alt1 = 1;
+alt1 = 1.95341;
 };
 ref = _smart.h;
 }
@@ -65,8 +65,9 @@ layerId = "CB90844E-C7D3-459A-9104-259A1DAC7FC6";
 shapes = (
 {
 piece = {
+Italic = 0;
 Weight = 900;
-alt1 = 1;
+alt1 = 1.95341;
 };
 ref = _smart.h;
 }

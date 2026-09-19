@@ -7,6 +7,7 @@ layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
 piece = {
+Italic = 0;
 Weight = 150;
 alt1 = 1;
 };
@@ -19,8 +20,8 @@ width = 1148;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-alignment = -1;
 piece = {
+Italic = 0;
 Weight = 150;
 alt1 = 1;
 };
@@ -41,8 +42,8 @@ coordinates = (
 layerId = "F9407674-0BF4-41AC-8462-7CED85B21DFB";
 shapes = (
 {
-alignment = -1;
 piece = {
+Italic = 0;
 Weight = 900;
 alt1 = 1;
 };
@@ -64,6 +65,7 @@ layerId = "87479DCF-E8BF-436B-86C5-CE9CBDF3F879";
 shapes = (
 {
 piece = {
+Italic = 0;
 Weight = 900;
 alt1 = 1;
 };

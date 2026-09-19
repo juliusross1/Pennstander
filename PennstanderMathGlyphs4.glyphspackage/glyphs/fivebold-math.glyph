@@ -23,6 +23,7 @@ shapes = (
 {
 piece = {
 Weight = 100;
+alt1 = 0;
 };
 ref = _smart.five;
 }
@@ -43,6 +44,7 @@ shapes = (
 {
 piece = {
 Weight = 900;
+alt1 = 0;
 };
 ref = _smart.five;
 }
@@ -63,6 +65,7 @@ shapes = (
 {
 piece = {
 Weight = 900;
+alt1 = 0;
 };
 ref = _smart.five;
 }
