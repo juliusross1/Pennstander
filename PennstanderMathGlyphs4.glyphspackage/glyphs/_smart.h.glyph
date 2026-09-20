@@ -326,12 +326,6 @@ pos = (1101,1291);
 }
 );
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-attr = {
-coordinates = (
-0,
-0
-);
-};
 layerId = "C5B74AE1-D7B6-4553-8360-CE08698ADF43";
 name = Italic_alt1;
 partSelection = {

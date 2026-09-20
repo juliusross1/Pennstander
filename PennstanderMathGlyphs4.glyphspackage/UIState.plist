@@ -1,15 +1,7 @@
 {
 displayStrings = (
-"𝑔/_smart.h/_smart.h hℎ𝐡𝒉/h.alt1/h.ssty1/h.ssty2/h.alt1.ssty1/h.alt1.ssty2/hitalic-math.alt1/hbold-math.alt1/hbold-math.alt1.ssty1/hbold-math.alt1.ssty2/hbolditalic-math.alt1 ℎ/hitalic-math.ssty2/hitalic-math.ssty1",
-"/_smart.five 5𝟓/five.alt1/five.ssty1/five.ssty2/fivebold-math.alt1/fivebold-math.ssty1/fivebold-math.ssty2",
-"/_smart.x x𝑥𝐱𝒙/x.alt1/x.alt2/xitalic-math.alt1/xitalic-math.alt2/xitalic-math.alt1.ssty1/xitalic-math.alt1.ssty2/xitalic-math.alt2.ssty1/xitalic-math.alt2.ssty2/xbold-math.alt1/xbold-math.alt2/xbold-math.alt1.ssty1/xbold-math.alt1.ssty2/xbold-math.alt2.ssty1/xbold-math.alt2.ssty2/xbolditalic-math.alt1/xbolditalic-math.alt2/xbolditalic-math.ssty1/xbolditalic-math.ssty2/xbolditalic-math.alt1.ssty1/xbolditalic-math.alt1.ssty2/xbolditalic-math.alt2.ssty1/xbolditalic-math.alt2.ssty2",
-"/_smart.d d𝑑/_smart.d 𝐝𝒅/d.alt1/d.ssty1/d.ssty2/d.alt1.ssty1/d.alt1.ssty2/ditalic-math.alt1/ditalic-math.ssty1/_smart.d/ditalic-math.ssty2/ditalic-math.alt1.ssty1/ditalic-math.alt1.ssty2/dbold-math.alt1/dbold-math.alt1.ssty1/dbold-math.alt1.ssty2/dbolditalic-math.alt1/dbolditalic-math.ssty1/dbolditalic-math.ssty2/dbolditalic-math.alt1.ssty1/dbolditalic-math.alt1.ssty2",
-"/_smart.r r𝑟𝐫𝒓/r.alt1/r.ssty1/r.ssty2/r.alt1.ssty1/r.alt1.ssty2/ritalic-math.alt1/ritalic-math.ssty2/ritalic-math.alt1.ssty1/ritalic-math.alt1.ssty2/rbold-math.alt1/rbold-math.alt1.ssty1/rbold-math.alt1.ssty2/rbolditalic-math.alt1/rbolditalic-math.ssty1/rbolditalic-math.ssty2/rbolditalic-math.alt1.ssty1/rbolditalic-math.alt1.ssty2/r.001",
-"𝑥/_smart.x/xitalic-math.ssty1",
-"/_smart.h hℎ𝐡𝒉/h.alt1/h.ssty1/h.ssty2/h.alt1.ssty1/h.alt1.ssty2/hitalic-math.alt1/hitalic-math.ssty1/hitalic-math.ssty2/hitalic-math.alt1.ssty1/hitalic-math.alt1.ssty2/hbold-math.alt1/hbold-math.alt1.ssty1/hbold-math.alt1.ssty2/hbolditalic-math.alt1/hbolditalic-math.ssty1/hbolditalic-math.ssty2/hbolditalic-math.alt1.ssty1/hbolditalic-math.alt1.ssty2",
-"/_smart.d d𝑑𝐝𝒅/d.alt1/d.ssty1/d.ssty2/d.alt1.ssty1/d.alt1.ssty2/ditalic-math.alt1/ditalic-math.ssty1/ditalic-math.ssty2/ditalic-math.alt1.ssty1/ditalic-math.alt1.ssty2/dbold-math.alt1/dbold-math.alt1.ssty1/dbold-math.alt1.ssty2/dbolditalic-math.alt1/dbolditalic-math.ssty1/dbolditalic-math.ssty2/dbolditalic-math.alt1.ssty1/dbolditalic-math.alt1.ssty2",
-"/_smart.five 5𝟓/five.alt1/five.ssty1/five.ssty2/fivebold-math.alt1/fivebold-math.ssty1/fivebold-math.ssty2",
-"/_smart.x x𝑥𝐱𝒙/x.alt1/x.alt2/x.ssty1/x.ssty2/x.alt1.ssty1/x.alt1.ssty2/x.alt2.ssty1/x.alt2.ssty2/xitalic-math.alt1/xitalic-math.alt2/xitalic-math.ssty2/xitalic-math.alt1.ssty1/xitalic-math.alt1.ssty2/xitalic-math.alt2.ssty1/xitalic-math.alt2.ssty2/xbold-math.alt1/xbold-math.alt2/xbold-math.alt1.ssty1/xbold-math.alt1.ssty2/xbold-math.alt2.ssty1/xbold-math.alt2.ssty2/xbolditalic-math.alt1/xbolditalic-math.alt2/xbolditalic-math.ssty2/xbolditalic-math.alt1.ssty1/xbolditalic-math.alt1.ssty2/xbolditalic-math.alt2.ssty1/xbolditalic-math.alt2.ssty2",
-"/_smart.r r𝑟𝐫𝒓/r.alt1/i.ssty1/u.ssty1/r.ssty1/r.ssty2/r.alt1.ssty1/r.alt1.ssty2/ritalic-math.alt1/rbold-math.alt1/rbold-math.alt1.ssty1/rbold-math.alt1.ssty2/rbolditalic-math.alt1/r.001"
+"ℚℚ",
+"/QdoubleStruck.heavy",
+"ℚ"
 );
 }

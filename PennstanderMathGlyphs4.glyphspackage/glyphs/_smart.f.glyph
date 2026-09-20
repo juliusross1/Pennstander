@@ -20,7 +20,6 @@ pos = (1030,1258);
 );
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 partSelection = {
-Weight = 1;
 Italic = 1;
 alt1 = 1;
 };
@@ -100,7 +99,6 @@ associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 layerId = "B88CED82-D5BC-4C68-8BCD-C27E6A7D6D7E";
 name = Thin.alt1;
 partSelection = {
-Weight = 1;
 Italic = 1;
 alt1 = 2;
 };
@@ -165,7 +163,7 @@ width = 916;
 anchors = (
 {
 name = math.br;
-pos = (802,24);
+pos = (702,24);
 },
 {
 name = math.ta;
@@ -180,7 +178,6 @@ associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 layerId = "176716E4-E488-419A-9982-773B24247830";
 name = Italic;
 partSelection = {
-Weight = 1;
 Italic = 2;
 alt1 = 1;
 };
@@ -245,7 +242,7 @@ width = 1207;
 anchors = (
 {
 name = math.br;
-pos = (852,24);
+pos = (752,24);
 },
 {
 name = math.ta;
@@ -260,7 +257,6 @@ associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 layerId = "88BE53DB-69F6-4311-80D3-BC9F54DCD211";
 name = Italic.alt1;
 partSelection = {
-Weight = 1;
 Italic = 2;
 alt1 = 2;
 };
@@ -325,86 +321,6 @@ width = 1207;
 anchors = (
 {
 name = math.br;
-pos = (799,0);
-},
-{
-name = math.ta;
-pos = (862,1470);
-},
-{
-name = math.tr;
-pos = (1185,1291);
-}
-);
-associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-layerId = "0859D3FC-53B9-4491-8A77-ECAD933402D9";
-name = ItalicBlack;
-partSelection = {
-Weight = 2;
-Italic = 2;
-alt1 = 1;
-};
-shapes = (
-{
-closed = 1;
-nodes = (
-(169,-5,o),
-(340,-2,o),
-(442,14,c),
-(446,65,o),
-(533,470,o),
-(551,545,c),
-(600,549,o),
-(734,552,o),
-(753,552,c),
-(779,646,o),
-(811,779,o),
-(825,866,c),
-(787,872,o),
-(666,879,o),
-(606,879,c),
-(604,902,o),
-(616,959,o),
-(621,978,cs),
-(638,1040,o),
-(680,1082,o),
-(745,1082,cs),
-(781,1082,o),
-(823,1055,o),
-(845,1008,c),
-(889,1054,o),
-(1039,1225,o),
-(1118,1323,c),
-(1096,1375,o),
-(1041,1467,o),
-(810,1467,cs),
-(517,1467,o),
-(315,1243,o),
-(252,1008,cs),
-(239,960,o),
-(222,871,o),
-(216,822,c),
-(189,817,o),
-(113,800,o),
-(87,791,c),
-(55,673,o),
-(31,533,o),
-(35,455,c),
-(80,470,o),
-(132,484,o),
-(150,487,c),
-(111,295,o),
-(47,46,o),
-(41,-5,c)
-);
-}
-);
-width = 1162;
-},
-{
-anchors = (
-{
-name = math.br;
 pos = (842,0);
 },
 {
@@ -418,7 +334,6 @@ pos = (950,1263);
 );
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 partSelection = {
-Weight = 2;
 Italic = 1;
 alt1 = 1;
 };
@@ -483,6 +398,85 @@ width = 949;
 anchors = (
 {
 name = math.br;
+pos = (799,0);
+},
+{
+name = math.ta;
+pos = (862,1470);
+},
+{
+name = math.tr;
+pos = (1185,1291);
+}
+);
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
+layerId = "0859D3FC-53B9-4491-8A77-ECAD933402D9";
+name = ItalicBlack;
+partSelection = {
+Italic = 2;
+alt1 = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(169,-5,o),
+(340,-2,o),
+(442,14,c),
+(446,65,o),
+(533,470,o),
+(551,545,c),
+(600,549,o),
+(734,552,o),
+(753,552,c),
+(779,646,o),
+(811,779,o),
+(825,866,c),
+(787,872,o),
+(666,879,o),
+(606,879,c),
+(604,902,o),
+(616,959,o),
+(621,978,cs),
+(638,1040,o),
+(680,1082,o),
+(745,1082,cs),
+(781,1082,o),
+(823,1055,o),
+(845,1008,c),
+(889,1054,o),
+(1039,1225,o),
+(1118,1323,c),
+(1096,1375,o),
+(1041,1467,o),
+(810,1467,cs),
+(517,1467,o),
+(315,1243,o),
+(252,1008,cs),
+(239,960,o),
+(222,871,o),
+(216,822,c),
+(189,817,o),
+(113,800,o),
+(87,791,c),
+(55,673,o),
+(31,533,o),
+(35,455,c),
+(80,470,o),
+(132,484,o),
+(150,487,c),
+(111,295,o),
+(47,46,o),
+(41,-5,c)
+);
+}
+);
+width = 1162;
+},
+{
+anchors = (
+{
+name = math.br;
 pos = (801,0);
 },
 {
@@ -494,11 +488,10 @@ name = math.tr;
 pos = (1173,1291);
 }
 );
-associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 layerId = "EFA26519-A436-4A8B-84F8-B0599948CAD0";
 name = ItalicBlack.alt1;
 partSelection = {
-Weight = 2;
 Italic = 2;
 alt1 = 2;
 };
@@ -578,7 +571,6 @@ associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 layerId = "09F0A51C-40F0-467C-B2F2-47235804C97D";
 name = Black.alt1;
 partSelection = {
-Weight = 2;
 Italic = 1;
 alt1 = 2;
 };
@@ -641,11 +633,6 @@ width = 949;
 }
 );
 partsSettings = (
-{
-bottomValue = 100;
-name = Weight;
-topValue = 900;
-},
 {
 bottomValue = 0;
 name = Italic;

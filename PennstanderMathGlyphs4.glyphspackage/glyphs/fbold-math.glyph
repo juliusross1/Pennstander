@@ -12,7 +12,6 @@ shapes = (
 piece = {
 Italic = 0;
 Weight = 100;
-Weight = 100;
 };
 ref = _smart.f;
 }
@@ -25,7 +24,6 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 100;
 Weight = 100;
 };
 ref = _smart.f;

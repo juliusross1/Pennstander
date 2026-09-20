@@ -24,12 +24,11 @@ shapes = (
 piece = {
 Italic = 0;
 Weight = 200;
-Weight = 100;
 };
 ref = _smart.f;
 }
 );
-width = 926;
+width = 920;
 }
 );
 production = f.ssty2;

@@ -12,7 +12,6 @@ shapes = (
 piece = {
 Italic = 0;
 Weight = 100;
-Weight = 100;
 };
 ref = _smart.f;
 }
@@ -25,7 +24,6 @@ shapes = (
 {
 piece = {
 Italic = 0;
-Weight = 100;
 Weight = 100;
 };
 ref = _smart.f;
@@ -49,7 +47,6 @@ shapes = (
 piece = {
 Italic = 100;
 Weight = 100;
-Weight = 100;
 };
 ref = _smart.f;
 }
@@ -71,7 +68,6 @@ shapes = (
 {
 piece = {
 Italic = 100;
-Weight = 100;
 Weight = 100;
 };
 ref = _smart.f;
@@ -99,7 +95,7 @@ Weight = 900;
 ref = _smart.f;
 }
 );
-width = 1255;
+width = 1162;
 },
 {
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -121,7 +117,7 @@ Weight = 900;
 ref = _smart.f;
 }
 );
-width = 1255;
+width = 1162;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";

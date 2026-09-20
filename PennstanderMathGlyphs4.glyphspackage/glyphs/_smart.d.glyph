@@ -171,12 +171,6 @@ pos = (1415,1291);
 }
 );
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-attr = {
-coordinates = (
-0,
-0
-);
-};
 layerId = "3EBD6D25-FA17-483E-8685-A54F21B8E11A";
 name = Italic;
 partSelection = {
@@ -255,12 +249,6 @@ pos = (1161,1459);
 }
 );
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-attr = {
-coordinates = (
-0,
-0
-);
-};
 layerId = "4B483C16-39EA-46B1-9E29-B196DD095F9F";
 name = Thin_alt1;
 partSelection = {
@@ -339,12 +327,6 @@ pos = (1415,1291);
 }
 );
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-attr = {
-coordinates = (
-0,
-0
-);
-};
 layerId = "1FC252E7-C254-4FDE-AA18-CFE69E0B3822";
 name = Italic_alt1;
 partSelection = {
@@ -423,12 +405,6 @@ pos = (1629,1291);
 }
 );
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-attr = {
-coordinates = (
-0,
-0
-);
-};
 layerId = "F9DC53C9-C4EF-4FBD-8142-C838999BAD37";
 name = ItalicBlack;
 partSelection = {
@@ -507,12 +483,6 @@ pos = (1504,1291);
 }
 );
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-attr = {
-coordinates = (
-0,
-0
-);
-};
 layerId = "DC92827E-9A52-4990-BDE4-5F0AC2CBD335";
 name = ItalicBlack_alt1;
 partSelection = {
@@ -591,12 +561,6 @@ pos = (1287,1434);
 }
 );
 associatedMasterId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
-attr = {
-coordinates = (
-0,
-0
-);
-};
 layerId = "AE9A7648-0C78-46CD-B480-39D6475F82A3";
 name = Black_alt1;
 partSelection = {

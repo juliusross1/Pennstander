@@ -20,6 +20,7 @@ shapes = (
 alignment = -1;
 piece = {
 Height = 10;
+Weight = 100;
 };
 ref = _smart.rightanglebracket;
 }

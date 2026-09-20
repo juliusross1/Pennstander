@@ -14,7 +14,7 @@ alt1 = 1;
 ref = _smart.f;
 }
 );
-width = 923;
+width = 918;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -28,7 +28,7 @@ alt1 = 1;
 ref = _smart.f;
 }
 );
-width = 838;
+width = 918;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";

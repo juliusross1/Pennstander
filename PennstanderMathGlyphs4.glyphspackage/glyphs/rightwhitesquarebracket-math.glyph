@@ -13,30 +13,6 @@ rand2 = 0;
 ref = "_smart.whitesquarebracketright-math";
 }
 );
-userData = {
-com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-(
-"rightwhitesquarebracket-math.bot",
-0,
-0,
-200
-),
-(
-"rightwhitesquarebracket-math.ext",
-1,
-200,
-200
-),
-(
-"rightwhitesquarebracket-math.top",
-0,
-200,
-0
-)
-);
-};
-};
 width = 757;
 },
 {
@@ -51,30 +27,6 @@ rand2 = 0;
 ref = "_smart.whitesquarebracketright-math";
 }
 );
-userData = {
-com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-(
-"rightwhitesquarebracket-math.bot",
-0,
-0,
-200
-),
-(
-"rightwhitesquarebracket-math.ext",
-1,
-200,
-200
-),
-(
-"rightwhitesquarebracket-math.top",
-0,
-200,
-0
-)
-);
-};
-};
 width = 1138;
 }
 );
