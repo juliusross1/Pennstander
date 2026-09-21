@@ -8,7 +8,7 @@ shapes = (
 ref = union;
 },
 {
-pos = (357,-98);
+pos = (387,-98);
 ref = dotmath;
 scale = (0.802,0.853);
 }

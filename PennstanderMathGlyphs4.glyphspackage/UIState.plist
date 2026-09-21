@@ -1,7 +1,14 @@
 {
 displayStrings = (
-"ℚℚ",
+"⊍",
 "/QdoubleStruck.heavy",
-"ℚ"
+"ℚ",
+"𝔔",
+"|𝔘|",
+"|/_smart.f |/_smart.f 𝑓|𝑔|",
+"ΦΨ",
+" /fitalic-math.ssty1/fitalic-math.ssty2 𝝌",
+" /Q-fraktur.ssty1",
+"𝕼𝑓/fitalic-math.ssty1/fbolditalic-math.ssty1/fitalic-math.ssty2/fbold-math.ssty1/fbold-math.ssty2"
 );
 }

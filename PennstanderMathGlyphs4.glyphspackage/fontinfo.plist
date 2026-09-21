@@ -6551,7 +6551,9 @@ tag = dtls;
 code = "#ifdef VARIABLE
 condition 700 < wght ;
 sub QdoubleStruck by QdoubleStruck.heavy;
-#endif";
+sub multiset by multiset.heavy;
+#endif
+";
 tag = rlig;
 },
 {
@@ -8833,8 +8835,6 @@ sub multiplyInTriangle from [multiplyInTriangle.ssty1 multiplyInTriangle.ssty2];
 sub multiplyWithCircumflexAccentCircled from [multiplyWithCircumflexAccentCircled.ssty1 multiplyWithCircumflexAccentCircled.ssty2];
 sub multiplyWithDotAbove from [multiplyWithDotAbove.ssty1 multiplyWithDotAbove.ssty2];
 sub multiplyWithUnderbar from [multiplyWithUnderbar.ssty1 multiplyWithUnderbar.ssty2];
-sub multiset.heavy from [multiset.heavy.ssty1 multiset.heavy.ssty2];
-sub multiset from [multiset.ssty1 multiset.ssty2];
 sub multisetmultiplication from [multisetmultiplication.ssty1 multisetmultiplication.ssty2];
 sub multisetunion from [multisetunion.ssty1 multisetunion.ssty2];
 sub nAryCircledDotOperator.disp from [nAryCircledDotOperator.disp.ssty1 nAryCircledDotOperator.disp.ssty2];

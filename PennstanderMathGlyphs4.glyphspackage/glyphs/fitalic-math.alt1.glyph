@@ -77,7 +77,7 @@ alt1 = 1;
 ref = _smart.f;
 }
 );
-width = 1121;
+width = 1181;
 }
 );
 subCategory = Math;

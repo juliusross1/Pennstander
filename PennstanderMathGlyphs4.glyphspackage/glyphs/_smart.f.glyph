@@ -163,7 +163,7 @@ width = 916;
 anchors = (
 {
 name = math.br;
-pos = (702,24);
+pos = (642,24);
 },
 {
 name = math.ta;
@@ -171,7 +171,7 @@ pos = (802,1470);
 },
 {
 name = math.tr;
-pos = (1196,1291);
+pos = (1116,1291);
 }
 );
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -236,7 +236,7 @@ nodes = (
 );
 }
 );
-width = 1207;
+width = 1107;
 },
 {
 anchors = (
@@ -550,7 +550,7 @@ nodes = (
 );
 }
 );
-width = 1121;
+width = 1181;
 },
 {
 anchors = (
