@@ -535,11 +535,11 @@ sub f_a by f_a.ss01;
 labels = (
 {
 language = dflt;
-value = "alternate letters";
+value = "Alternate Letters";
 },
 {
 language = NLD;
-value = "alternatieve letters";
+value = "Alternatieve Letters";
 }
 );
 tag = ss01;
@@ -629,11 +629,11 @@ sub _playingcardA by _playingcardA.ss02;
 labels = (
 {
 language = dflt;
-value = "sharp letters";
+value = "Sharp Letters";
 },
 {
 language = NLD;
-value = "scherpe letters";
+value = "Scherpe Letters";
 }
 );
 tag = ss02;
@@ -669,11 +669,11 @@ sub lcommaaccent.loclMAH by lcommaaccent.loclMAH.ss03;
 labels = (
 {
 language = dflt;
-value = "straight feet";
+value = "Straight Feet";
 },
 {
 language = NLD;
-value = "rechte voeten";
+value = "Rechte Voeten";
 }
 );
 tag = ss03;
@@ -696,11 +696,11 @@ sub fourOfSpadesCards by fourOfSpadesCards.ss04;
 labels = (
 {
 language = dflt;
-value = "alternate 4";
+value = "Alternate 4";
 },
 {
 language = NLD;
-value = "alternatieve 4";
+value = "Alternatieve 4";
 }
 );
 tag = ss04;
@@ -712,11 +712,11 @@ code = "sub ampersand by ampersand.ss06;
 labels = (
 {
 language = dflt;
-value = "alternate symbols";
+value = "Alternate Symbols";
 },
 {
-language = dflt;
-value = "alternatieve  symbolen ";
+language = NLD;
+value = "Alternatieve Symbolen";
 }
 );
 tag = ss06;
@@ -738,11 +738,11 @@ sub sevenOfSpadesCards by sevenOfSpadesCards.ss07;
 labels = (
 {
 language = dflt;
-value = "alternate 7";
+value = "Alternate 7";
 },
 {
 language = NLD;
-value = "alternatieve 7";
+value = "Alternatieve 7";
 }
 );
 tag = ss07;
@@ -924,11 +924,11 @@ sub five by five.alt1;
 labels = (
 {
 language = dflt;
-value = flair;
+value = Flair;
 },
 {
 language = NLD;
-value = flair;
+value = Flair;
 }
 );
 tag = ss20;
