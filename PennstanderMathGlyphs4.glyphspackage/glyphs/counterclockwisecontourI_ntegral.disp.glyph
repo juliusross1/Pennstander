@@ -1,6 +1,5 @@
 {
 category = Symbol;
-export = 0;
 glyphname = counterclockwisecontourIntegral.disp;
 layers = (
 {

@@ -6548,15 +6548,6 @@ lookup SUB_6 {
 tag = dtls;
 },
 {
-code = "#ifdef VARIABLE
-condition 700 < wght ;
-sub QdoubleStruck by QdoubleStruck.heavy;
-sub multiset by multiset.heavy;
-#endif
-";
-tag = rlig;
-},
-{
 automatic = 1;
 code = "lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
@@ -6667,6 +6658,15 @@ lookup DOWN {
 } DOWN;
 ";
 tag = frac;
+},
+{
+code = "#ifdef VARIABLE
+condition 700 < wght ;
+sub QdoubleStruck by QdoubleStruck.heavy;
+sub multiset by multiset.heavy;
+#endif
+";
+tag = rvrn;
 },
 {
 automatic = 1;
