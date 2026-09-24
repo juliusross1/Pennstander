@@ -307,7 +307,7 @@ width = 1483;
 }
 );
 production = "b-frakturbold-math";
-script = "Black letter";
+script = math;
 subCategory = Blackletter;
 unicode = 120199;
 }

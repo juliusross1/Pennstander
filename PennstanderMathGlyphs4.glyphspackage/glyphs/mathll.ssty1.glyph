@@ -120,5 +120,5 @@ width = 1255;
 );
 metricLeft = less;
 metricRight = less;
-script = "";
+script = math;
 }

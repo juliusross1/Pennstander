@@ -70,6 +70,6 @@ ref = _smart.gradient;
 width = 1267;
 }
 );
-script = "";
+script = math;
 unicode = (120513,120687);
 }

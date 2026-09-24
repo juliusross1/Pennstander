@@ -6664,6 +6664,9 @@ code = "#ifdef VARIABLE
 condition 700 < wght ;
 sub QdoubleStruck by QdoubleStruck.heavy;
 sub multiset by multiset.heavy;
+
+condition 500 < wght ;
+sub dollar.ss06 by dollar;
 #endif
 ";
 tag = rvrn;
@@ -9285,7 +9288,6 @@ lookup numeral_alternates;
 
 
 ";
-disabled = 1;
 tag = rand;
 },
 {
@@ -9676,6 +9678,14 @@ name = "Decompose Glyphs";
 value = (
 widebarbelow.s1
 );
+},
+{
+name = "Variable Font Origin";
+value = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
+},
+{
+name = "Post-Export Command";
+value = "/Users/juliusross/Documents/Pennstander/.venv/bin/python3 /Users/juliusross/Documents/Pennstander/insertavartables.py";
 }
 );
 name = Regular;
@@ -9814,6 +9824,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = "Disable Subroutines";
 value = 1;
 }

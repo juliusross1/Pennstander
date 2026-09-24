@@ -239,7 +239,7 @@ nodes = (
 width = 1740;
 }
 );
-script = "Black Letter";
+script = math;
 subCategory = Blackletter;
 tags = (
 "Looks dark on Black"

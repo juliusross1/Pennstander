@@ -201,5 +201,5 @@ name = Italic;
 topValue = 100;
 }
 );
-script = "";
+script = math;
 }

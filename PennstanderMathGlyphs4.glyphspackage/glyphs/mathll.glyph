@@ -29,6 +29,6 @@ width = 1221;
 );
 metricLeft = less;
 metricRight = less;
-script = "";
+script = math;
 unicode = 8810;
 }

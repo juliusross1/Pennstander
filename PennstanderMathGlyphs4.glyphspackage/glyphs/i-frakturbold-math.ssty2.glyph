@@ -243,6 +243,6 @@ width = 798;
 }
 );
 production = "i-frakturbold-math.ssty2";
-script = "Black letter";
+script = math;
 subCategory = Blackletter;
 }

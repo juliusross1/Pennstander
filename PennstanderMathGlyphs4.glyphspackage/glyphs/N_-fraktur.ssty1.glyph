@@ -213,7 +213,7 @@ width = 1536;
 }
 );
 production = "N-fraktur.ssty1";
-script = "Black Letter";
+script = math;
 subCategory = Blackletter;
 tags = (
 "Looks dark on Black"

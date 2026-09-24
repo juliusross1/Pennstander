@@ -338,4 +338,5 @@ width = 1602;
 }
 );
 production = "Y-frakturbold-math.ssty2";
+script = math;
 }

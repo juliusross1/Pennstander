@@ -141,7 +141,7 @@ nodes = (
 width = 1375;
 }
 );
-script = "Black Letter";
+script = math;
 subCategory = Blackletter;
 unicode = 120079;
 }

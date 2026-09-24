@@ -116,6 +116,6 @@ width = 798;
 );
 note = i;
 production = "i-fraktur.ssty1";
-script = "Black letter";
+script = math;
 subCategory = Blackletter;
 }

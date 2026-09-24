@@ -107,6 +107,6 @@ width = 1893;
 }
 );
 production = arrow.ssty1;
-script = "";
+script = math;
 subCategory = Arrow;
 }

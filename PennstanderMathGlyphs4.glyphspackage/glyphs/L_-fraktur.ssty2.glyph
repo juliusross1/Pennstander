@@ -143,6 +143,6 @@ width = 1375;
 }
 );
 production = "L-fraktur.ssty2";
-script = "Black Letter";
+script = math;
 subCategory = Blackletter;
 }

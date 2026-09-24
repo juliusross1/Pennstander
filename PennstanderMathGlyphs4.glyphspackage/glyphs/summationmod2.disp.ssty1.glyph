@@ -186,7 +186,7 @@ width = 1710;
 );
 metricLeft = summation.disp;
 production = summationmod2.disp.ssty1;
-script = "";
+script = math;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 };

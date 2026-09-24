@@ -241,5 +241,6 @@ nodes = (
 width = 1566;
 }
 );
+script = math;
 unicode = 120172;
 }

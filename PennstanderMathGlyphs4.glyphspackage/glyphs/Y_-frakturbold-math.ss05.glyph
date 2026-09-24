@@ -306,6 +306,6 @@ nodes = (
 width = 1257;
 }
 );
-script = "Black Letter";
+script = math;
 unicode = 921892;
 }

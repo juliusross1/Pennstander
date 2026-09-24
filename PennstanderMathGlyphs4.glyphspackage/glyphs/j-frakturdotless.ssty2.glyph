@@ -119,6 +119,6 @@ width = 539;
 );
 note = i;
 production = "j-frakturdotless.ssty2";
-script = "Black letter";
+script = math;
 subCategory = Blackletter;
 }

@@ -38,6 +38,6 @@ scale = (-1,1);
 width = 1084;
 }
 );
-script = "";
+script = math;
 unicode = 1014;
 }

@@ -307,5 +307,5 @@ width = 1257;
 }
 );
 production = "Y-frakturbold-math.ss05.ssty1";
-script = "Black Letter";
+script = math;
 }

@@ -143,5 +143,5 @@ nodes = (
 width = 1084;
 }
 );
-script = "";
+script = math;
 }

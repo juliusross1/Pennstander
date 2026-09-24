@@ -151,7 +151,7 @@ width = 921;
 }
 );
 note = b;
-script = "Black letter";
+script = math;
 subCategory = Blackletter;
 unicode = 120095;
 }

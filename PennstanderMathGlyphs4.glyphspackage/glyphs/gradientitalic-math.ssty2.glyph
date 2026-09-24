@@ -74,5 +74,5 @@ width = 1274;
 );
 metricLeft = equal;
 metricRight = equal;
-script = "";
+script = math;
 }

@@ -69,6 +69,6 @@ width = 1274;
 );
 metricLeft = equal;
 metricRight = equal;
-script = "";
+script = math;
 unicode = 120571;
 }

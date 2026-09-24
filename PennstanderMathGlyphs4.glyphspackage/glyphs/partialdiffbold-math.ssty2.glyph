@@ -258,5 +258,5 @@ width = 1278;
 }
 );
 production = "partialdiffbold-math.ssty2";
-script = "";
+script = math;
 }
