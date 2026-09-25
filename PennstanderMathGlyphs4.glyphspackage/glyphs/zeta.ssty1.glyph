@@ -133,4 +133,8 @@ width = 841;
 }
 );
 production = zeta.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

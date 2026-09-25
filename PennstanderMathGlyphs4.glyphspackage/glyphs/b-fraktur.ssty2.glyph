@@ -66,7 +66,7 @@ nodes = (
 (1035,824,o),
 (917,922,o),
 (796,1023,c),
-(681,937,o),
+(683,938,o),
 (529,847,o),
 (417,761,c)
 );
@@ -155,4 +155,8 @@ note = b;
 production = "b-fraktur.ssty2";
 script = math;
 subCategory = Blackletter;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

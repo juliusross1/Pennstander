@@ -150,7 +150,7 @@ nodes = (
 (545,880,o),
 (345,503,o),
 (82,34,c),
-(116,28,o),
+(115,28,o),
 (161,25,o),
 (199,26,c),
 (541,672,o),
@@ -209,7 +209,7 @@ nodes = (
 (545,880,o),
 (345,503,o),
 (82,34,c),
-(116,28,o),
+(115,28,o),
 (161,25,o),
 (199,26,c),
 (541,672,o),
@@ -462,4 +462,8 @@ width = 1320;
 );
 production = "Lambdabolditalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

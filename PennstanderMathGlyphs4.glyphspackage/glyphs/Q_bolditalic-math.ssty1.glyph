@@ -190,7 +190,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1060,-12,o),
+(1059,-13,o),
 (1087,30,o),
 (1105,60,c),
 (1030,81,o),
@@ -219,7 +219,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(751,145,o),
+(750,144,o),
 (675,95,o),
 (556,95,cs),
 (364,95,o),
@@ -277,7 +277,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1060,-12,o),
+(1059,-13,o),
 (1087,30,o),
 (1105,60,c),
 (1030,81,o),
@@ -306,7 +306,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(751,145,o),
+(750,144,o),
 (675,95,o),
 (556,95,cs),
 (364,95,o),
@@ -686,4 +686,8 @@ width = 1371;
 );
 production = "Qbolditalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

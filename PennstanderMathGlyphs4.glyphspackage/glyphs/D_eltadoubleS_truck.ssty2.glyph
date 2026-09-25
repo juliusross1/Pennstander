@@ -145,4 +145,8 @@ width = 1788;
 production = DeltadoubleStruck.ssty2;
 script = math;
 subCategory = Other;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

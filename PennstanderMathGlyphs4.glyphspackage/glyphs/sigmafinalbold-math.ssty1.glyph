@@ -284,4 +284,8 @@ width = 1070;
 }
 );
 production = "sigmafinalbold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

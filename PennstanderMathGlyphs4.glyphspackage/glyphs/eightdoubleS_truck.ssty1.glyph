@@ -322,4 +322,8 @@ width = 1058;
 }
 );
 production = eightdoubleStruck.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

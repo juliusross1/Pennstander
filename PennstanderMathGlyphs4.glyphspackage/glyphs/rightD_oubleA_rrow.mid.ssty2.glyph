@@ -55,4 +55,8 @@ production = rightDoubleArrow.mid.ssty2;
 tags = (
 extended
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

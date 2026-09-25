@@ -510,4 +510,8 @@ width = 926;
 );
 production = "Fbolditalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

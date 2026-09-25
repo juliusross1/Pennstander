@@ -342,4 +342,8 @@ width = 1406;
 );
 production = "Thetabold-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

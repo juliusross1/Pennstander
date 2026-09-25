@@ -41,7 +41,7 @@ nodes = (
 (851,923,o),
 (595,923,cs),
 (409,923,o),
-(264,770,o),
+(263,769,o),
 (243,747,c),
 (231,985,o),
 (220,1278,o),
@@ -320,4 +320,8 @@ width = 1369;
 );
 production = "bitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

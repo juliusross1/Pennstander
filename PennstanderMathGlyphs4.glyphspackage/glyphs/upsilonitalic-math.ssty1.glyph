@@ -36,7 +36,7 @@ nodes = (
 (680,1021,o),
 (657,1018,o),
 (650,1017,c),
-(712,854,o),
+(712,853,o),
 (775,719,o),
 (798,636,cs),
 (916,238,o),
@@ -268,4 +268,8 @@ width = 1301;
 }
 );
 production = "upsilonitalic-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -190,4 +190,8 @@ width = 1351;
 }
 );
 production = a.ss01.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

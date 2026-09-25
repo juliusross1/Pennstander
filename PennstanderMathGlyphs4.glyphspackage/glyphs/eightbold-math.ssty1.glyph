@@ -298,4 +298,8 @@ width = 1159;
 }
 );
 production = "eightbold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

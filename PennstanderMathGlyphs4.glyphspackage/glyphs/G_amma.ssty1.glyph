@@ -91,4 +91,8 @@ width = 1005;
 }
 );
 production = Gamma.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

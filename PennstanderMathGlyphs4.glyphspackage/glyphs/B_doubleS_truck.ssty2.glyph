@@ -201,4 +201,8 @@ width = 1353;
 );
 production = BdoubleStruck.ssty2;
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

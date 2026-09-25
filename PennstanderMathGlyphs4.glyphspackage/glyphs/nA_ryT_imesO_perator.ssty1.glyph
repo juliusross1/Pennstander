@@ -86,7 +86,7 @@ width = 1580;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-nAryTimesOperator.disp
+nAryTimesOperator.disp.ssty1
 );
 };
 };

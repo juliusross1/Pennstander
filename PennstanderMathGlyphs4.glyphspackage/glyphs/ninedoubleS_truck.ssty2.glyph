@@ -353,4 +353,8 @@ production = ninedoubleStruck.ssty2;
 tags = (
 "Intermediate layers"
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -128,4 +128,8 @@ width = 1121;
 }
 );
 production = upsilon.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

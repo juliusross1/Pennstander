@@ -340,4 +340,8 @@ width = 1358;
 );
 production = "ThetaSymbolbold-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

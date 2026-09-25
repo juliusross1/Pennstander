@@ -49,7 +49,7 @@ nodes = (
 (238,-4,o),
 (525,-4,cs),
 (728,-4,o),
-(874,113,o),
+(874,112,o),
 (914,204,c)
 );
 }
@@ -230,4 +230,8 @@ width = 1261;
 );
 production = "citalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

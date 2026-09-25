@@ -328,4 +328,8 @@ width = 1093;
 }
 );
 production = threedoubleStruck.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

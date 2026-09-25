@@ -9,17 +9,17 @@ shapes = (
 closed = 1;
 nodes = (
 (459,-2425,l),
-(481,-1670,o),
+(481,-1671,o),
 (491,418,o),
 (491,755,cs),
 (491,3142,o),
-(477,3309,o),
+(477,3310,o),
 (453,3621,c),
 (373,3623,o),
 (278,3625,o),
 (184,3625,cs),
-(93,3624,o),
-(4,3621,o),
+(92,3624,o),
+(5,3621,o),
 (-49,3618,c),
 (-51,3599,o),
 (-55,3568,o),
@@ -78,4 +78,8 @@ width = 760;
 metricLeft = "=bracketright.007";
 metricRight = "=bracketright.007";
 production = rightCeiling.s07.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

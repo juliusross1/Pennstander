@@ -347,4 +347,8 @@ width = 1539;
 );
 production = "Q-frakturbold-math.ssty1";
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

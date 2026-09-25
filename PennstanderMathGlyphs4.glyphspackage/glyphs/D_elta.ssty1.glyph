@@ -108,4 +108,8 @@ width = 1385;
 }
 );
 production = Delta.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -54,15 +54,15 @@ width = 1054;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-slash,
-slash.s1,
-slash.s2,
-slash.s3,
-slash.s4,
-slash.s4,
-slash.s5,
-slash.s6,
-slash.s7
+slash.ssty1,
+slash.s1.ssty1,
+slash.s2.ssty1,
+slash.s3.ssty1,
+slash.s4.ssty1,
+slash.s4.ssty1,
+slash.s5.ssty1,
+slash.s6.ssty1,
+slash.s7.ssty1
 );
 };
 };

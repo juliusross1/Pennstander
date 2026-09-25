@@ -224,4 +224,8 @@ width = 1293;
 );
 production = XdoubleStruck.ssty1;
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

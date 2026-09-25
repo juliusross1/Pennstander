@@ -30,7 +30,7 @@ nodes = (
 );
 }
 );
-width = 632;
+width = 642;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -68,4 +68,8 @@ production = leftBarbUpHarpoon.rgt.ssty2;
 tags = (
 extended
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

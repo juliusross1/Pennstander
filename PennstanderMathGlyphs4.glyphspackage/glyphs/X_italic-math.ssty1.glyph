@@ -159,7 +159,7 @@ nodes = (
 (659,579,o),
 (366,287,o),
 (107,40,c),
-(137,18,o),
+(136,19,o),
 (164,4,o),
 (204,-1,c),
 (220,15,o),
@@ -270,4 +270,8 @@ width = 1573;
 );
 production = "Xitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

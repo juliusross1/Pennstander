@@ -255,4 +255,8 @@ width = 1279;
 production = "jdotlessitalic-math.ssty1";
 script = latin;
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

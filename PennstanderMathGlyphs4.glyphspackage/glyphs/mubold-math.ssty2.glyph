@@ -315,4 +315,8 @@ width = 1409;
 }
 );
 production = "mubold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -117,5 +117,7 @@ width = 1653;
 );
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+};
 };
 }

@@ -227,4 +227,8 @@ width = 1021;
 );
 production = epsilonLunateSymbol.ssty2;
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

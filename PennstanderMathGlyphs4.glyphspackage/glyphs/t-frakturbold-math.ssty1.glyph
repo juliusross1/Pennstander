@@ -217,4 +217,8 @@ width = 1091;
 production = "t-frakturbold-math.ssty1";
 script = math;
 subCategory = Blackletter;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

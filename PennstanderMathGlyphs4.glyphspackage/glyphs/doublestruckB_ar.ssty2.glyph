@@ -47,4 +47,8 @@ width = 1287;
 }
 );
 subCategory = Other;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

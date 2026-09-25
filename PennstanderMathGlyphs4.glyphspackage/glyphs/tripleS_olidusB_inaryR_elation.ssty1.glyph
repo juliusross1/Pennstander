@@ -8,52 +8,52 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(889,281,o),
-(1089,666,o),
-(1399,1289,c),
-(1381,1306,o),
-(1343,1322,o),
-(1304,1330,c),
-(1052,803,o),
-(855,407,o),
-(599,15,c),
-(617,3,o),
-(660,-16,o),
-(686,-23,c)
+(887,280,o),
+(1087,666,o),
+(1397,1288,c),
+(1379,1305,o),
+(1342,1321,o),
+(1302,1330,c),
+(1051,803,o),
+(853,406,o),
+(597,14,c),
+(616,2,o),
+(659,-17,o),
+(684,-24,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(1335,284,o),
-(1535,669,o),
-(1845,1292,c),
-(1827,1309,o),
-(1789,1325,o),
-(1750,1333,c),
-(1498,806,o),
-(1301,410,o),
-(1045,18,c),
-(1063,6,o),
-(1106,-13,o),
-(1132,-20,c)
+(1333,284,o),
+(1533,669,o),
+(1843,1291,c),
+(1825,1308,o),
+(1788,1324,o),
+(1747,1333,c),
+(1496,806,o),
+(1299,410,o),
+(1043,18,c),
+(1062,6,o),
+(1104,-13,o),
+(1130,-20,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(447,280,o),
-(647,665,o),
-(957,1288,c),
-(939,1305,o),
-(901,1321,o),
-(862,1329,c),
-(610,802,o),
-(413,406,o),
-(157,14,c),
-(175,2,o),
-(218,-17,o),
-(244,-24,c)
+(445,279,o),
+(645,665,o),
+(955,1287,c),
+(937,1304,o),
+(900,1320,o),
+(860,1329,c),
+(608,801,o),
+(411,405,o),
+(155,14,c),
+(174,2,o),
+(217,-18,o),
+(242,-25,c)
 );
 }
 );
@@ -122,14 +122,14 @@ metricRight = "=slash";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-tripleSolidusBinaryRelation,
-tripleSolidusBinaryRelation.s1,
-tripleSolidusBinaryRelation.s2,
-tripleSolidusBinaryRelation.s3,
-tripleSolidusBinaryRelation.s4,
-tripleSolidusBinaryRelation.s5,
-tripleSolidusBinaryRelation.s6,
-tripleSolidusBinaryRelation.s7
+tripleSolidusBinaryRelation.ssty1,
+tripleSolidusBinaryRelation.s1.ssty1,
+tripleSolidusBinaryRelation.s2.ssty1,
+tripleSolidusBinaryRelation.s3.ssty1,
+tripleSolidusBinaryRelation.s4.ssty1,
+tripleSolidusBinaryRelation.s5.ssty1,
+tripleSolidusBinaryRelation.s6.ssty1,
+tripleSolidusBinaryRelation.s7.ssty1
 );
 };
 };

@@ -162,4 +162,8 @@ width = 1211;
 }
 );
 production = varphi.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

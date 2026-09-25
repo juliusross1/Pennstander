@@ -11,7 +11,7 @@ shapes = (
 closed = 1;
 nodes = (
 (694,1297,c),
-(662,1198,o),
+(662,1197,o),
 (210,170,o),
 (121,19,c),
 (133,10,o),
@@ -51,4 +51,8 @@ nodes = (
 width = 903;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

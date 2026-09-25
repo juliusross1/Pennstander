@@ -132,5 +132,7 @@ userData = {
 RMXScaler = {
 source = product;
 };
+com.nagwa.MATHPlugin.variants = {
+};
 };
 }

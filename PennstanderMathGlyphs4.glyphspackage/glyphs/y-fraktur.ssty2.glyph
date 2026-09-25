@@ -126,4 +126,8 @@ note = y;
 production = "y-fraktur.ssty2";
 script = math;
 subCategory = Blackletter;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

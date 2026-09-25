@@ -240,4 +240,8 @@ width = 1147;
 }
 );
 production = "omicronitalic-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

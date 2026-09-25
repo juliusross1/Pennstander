@@ -571,4 +571,8 @@ width = 841;
 }
 );
 production = "zetabolditalic-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

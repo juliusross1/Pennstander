@@ -259,4 +259,8 @@ width = 1278;
 );
 production = "partialdiffbold-math.ssty1";
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

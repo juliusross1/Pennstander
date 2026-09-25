@@ -117,10 +117,10 @@ userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-radical,
-radical.s1,
-radical.s2,
-radical.s3
+radical.ssty2,
+radical.s1.ssty2,
+radical.s2.ssty2,
+radical.s3.ssty2
 );
 };
 };

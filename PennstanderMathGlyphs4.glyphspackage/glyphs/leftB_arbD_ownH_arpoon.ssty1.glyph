@@ -8,30 +8,30 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(156,603,o),
-(153,582,o),
-(159,561,c),
-(438,413,o),
-(835,213,o),
-(874,203,c),
-(882,216,o),
-(914,257,o),
-(914,275,c),
-(767,334,o),
-(491,469,o),
-(333,550,c),
+(158,603,o),
+(154,582,o),
+(161,561,c),
+(440,412,o),
+(837,213,o),
+(876,203,c),
+(884,216,o),
+(915,257,o),
+(915,275,c),
+(768,334,o),
+(493,469,o),
+(334,550,c),
 (778,546,o),
-(1300,539,o),
-(1555,529,c),
-(1560,551,o),
-(1562,585,o),
-(1561,609,c),
-(1373,618,o),
-(1107,630,o),
-(752,630,cs),
-(526,630,o),
-(243,625,o),
-(150,622,c)
+(1301,539,o),
+(1556,529,c),
+(1561,552,o),
+(1563,586,o),
+(1562,609,c),
+(1375,618,o),
+(1108,630,o),
+(753,630,cs),
+(528,630,o),
+(245,625,o),
+(152,622,c)
 );
 }
 );
@@ -39,19 +39,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftBarbdownHarpoon.lft.ssty1,
+leftBarbdownHarpoon.lft,
 0,
 0,
 200
 ),
 (
-leftBarbdownHarpoon.mid.ssty1,
+leftBarbdownHarpoon.mid,
 1,
 200,
 200
 ),
 (
-leftBarbdownHarpoon.rgt.ssty1,
+leftBarbdownHarpoon.rgt,
 0,
 200,
 0
@@ -59,7 +59,7 @@ leftBarbdownHarpoon.rgt.ssty1,
 );
 };
 };
-width = 1615;
+width = 1616;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -98,19 +98,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftBarbdownHarpoon.lft.ssty1,
+leftBarbdownHarpoon.lft,
 0,
 0,
 200
 ),
 (
-leftBarbdownHarpoon.mid.ssty1,
+leftBarbdownHarpoon.mid,
 1,
 200,
 200
 ),
 (
-leftBarbdownHarpoon.rgt.ssty1,
+leftBarbdownHarpoon.rgt,
 0,
 200,
 0
@@ -123,4 +123,8 @@ width = 1893;
 );
 metricLeft = "=leftArrow";
 production = leftBarbDownHarpoon.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

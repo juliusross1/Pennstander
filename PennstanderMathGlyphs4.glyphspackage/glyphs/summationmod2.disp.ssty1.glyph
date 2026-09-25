@@ -189,5 +189,7 @@ production = summationmod2.disp.ssty1;
 script = math;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+};
 };
 }

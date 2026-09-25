@@ -211,7 +211,7 @@ nodes = (
 (835,159,o),
 (862,258,cs),
 (954,598,o),
-(1116,1126,o),
+(1116,1125,o),
 (1187,1299,c),
 (1170,1303,o),
 (1130,1305,o),
@@ -334,4 +334,8 @@ width = 1429;
 );
 production = "Hitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -211,9 +211,9 @@ nodes = (
 closed = 1;
 nodes = (
 (591,204,o),
-(482,296,o),
+(482,295,o),
 (444,335,c),
-(471,439,o),
+(471,438,o),
 (571,763,o),
 (586,813,c),
 (632,858,o),
@@ -292,9 +292,9 @@ nodes = (
 closed = 1;
 nodes = (
 (591,204,o),
-(482,296,o),
+(482,295,o),
 (444,335,c),
-(471,439,o),
+(471,438,o),
 (571,763,o),
 (586,813,c),
 (632,858,o),
@@ -638,4 +638,8 @@ width = 1271;
 );
 production = "pbolditalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

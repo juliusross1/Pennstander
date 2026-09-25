@@ -4,26 +4,87 @@ color = 0;
 glyphname = gradient.ssty2;
 layers = (
 {
+anchors = (
+{
+name = math.br;
+pos = (1112,0);
+}
+);
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-alignment = -1;
-piece = {
-Weight = 200;
-};
-ref = _smart.gradient;
-}
+closed = 1;
+nodes = (
+(932,1284,o),
+(191,1275,o),
+(111,1255,c),
+(140,1084,o),
+(483,232,o),
+(566,-78,c),
+(605,-77,o),
+(653,-89,o),
+(688,-78,c),
+(704,-4,o),
+(858,445,o),
+(1005,1274,c)
 );
-width = 1094;
 },
 {
+closed = 1;
+nodes = (
+(343,1161,o),
+(695,1176,o),
+(881,1171,c),
+(872,991,o),
+(661,153,o),
+(633,22,c),
+(608,124,o),
+(329,826,o),
+(250,1160,c)
+);
+}
+);
+width = 1116;
+},
+{
+anchors = (
+{
+name = math.br;
+pos = (1269,0);
+}
+);
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-piece = {
-Italic = 0;
-};
-ref = _smart.gradient;
+closed = 1;
+nodes = (
+(1058,1328,o),
+(180,1346,o),
+(44,1292,c),
+(68,1119,o),
+(481,236,o),
+(580,-75,c),
+(747,-80,o),
+(797,-82,o),
+(824,-83,c),
+(843,-8,o),
+(1007,488,o),
+(1223,1310,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(571,984,o),
+(726,981,o),
+(789,981,c),
+(773,802,o),
+(750,701,o),
+(705,313,c),
+(684,449,o),
+(549,760,o),
+(515,974,c)
+);
 }
 );
 width = 1267;
@@ -31,4 +92,8 @@ width = 1267;
 );
 metricLeft = equal;
 metricRight = equal;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

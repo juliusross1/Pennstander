@@ -121,4 +121,8 @@ width = 1751;
 );
 metricLeft = "=logicaland";
 metricRight = "=logicaland";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

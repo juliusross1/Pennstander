@@ -184,4 +184,8 @@ width = 1413;
 production = "P-fraktur.ssty2";
 script = math;
 subCategory = Blackletter;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

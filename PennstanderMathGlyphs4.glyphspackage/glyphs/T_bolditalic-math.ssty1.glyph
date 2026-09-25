@@ -145,7 +145,7 @@ shapes = (
 closed = 1;
 nodes = (
 (283,1231,o),
-(508,1238,o),
+(507,1238,o),
 (625,1241,c),
 (616,1205,o),
 (601,1152,o),
@@ -209,7 +209,7 @@ shapes = (
 closed = 1;
 nodes = (
 (283,1231,o),
-(508,1238,o),
+(507,1238,o),
 (625,1241,c),
 (616,1205,o),
 (601,1152,o),
@@ -502,4 +502,8 @@ width = 1050;
 );
 production = "Tbolditalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

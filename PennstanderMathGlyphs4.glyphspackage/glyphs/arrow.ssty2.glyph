@@ -109,4 +109,8 @@ width = 1893;
 production = arrow.ssty2;
 script = math;
 subCategory = Arrow;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

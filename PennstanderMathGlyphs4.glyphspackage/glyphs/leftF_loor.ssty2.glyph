@@ -19,19 +19,19 @@ nodes = (
 (406,-369,o),
 (502,-369,cs),
 (598,-369,o),
-(696,-363,o),
+(697,-363,o),
 (733,-363,c),
 (736,-336,o),
 (740,-303,o),
 (740,-276,c),
-(677,-278,o),
-(361,-277,o),
+(676,-278,o),
+(362,-278,o),
 (334,-277,c),
 (318,-114,o),
 (309,35,o),
 (309,398,cs),
 (309,725,o),
-(316,1328,o),
+(316,1327,o),
 (334,1560,c)
 );
 }
@@ -126,18 +126,18 @@ width = 760;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-leftFloor.s01,
-leftFloor.s02,
-leftFloor.s03,
-leftFloor.s04,
-leftFloor.s05,
-leftFloor.s06,
-leftFloor.s07,
-leftFloor.s08,
-leftFloor.s09,
-leftFloor.s10,
-leftFloor.s11,
-leftFloor.s12
+leftFloor.s01.ssty2,
+leftFloor.s02.ssty2,
+leftFloor.s03.ssty2,
+leftFloor.s04.ssty2,
+leftFloor.s05.ssty2,
+leftFloor.s06.ssty2,
+leftFloor.s07.ssty2,
+leftFloor.s08.ssty2,
+leftFloor.s09.ssty2,
+leftFloor.s10.ssty2,
+leftFloor.s11.ssty2,
+leftFloor.s12.ssty2
 );
 };
 };

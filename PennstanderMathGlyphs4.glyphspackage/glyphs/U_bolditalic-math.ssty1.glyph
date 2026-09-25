@@ -574,4 +574,8 @@ width = 1212;
 );
 production = "Ubolditalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

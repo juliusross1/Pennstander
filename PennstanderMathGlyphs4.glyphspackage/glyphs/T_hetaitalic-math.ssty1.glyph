@@ -33,7 +33,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1224,6,o),
+(1223,6,o),
 (1396,315,o),
 (1373,673,cs),
 (1346,1067,o),
@@ -204,7 +204,7 @@ nodes = (
 (1451,402,o),
 (1451,908,cs),
 (1451,1185,o),
-(1323,1401,o),
+(1322,1401,o),
 (943,1377,cs),
 (501,1348,o),
 (143,952,o),
@@ -342,4 +342,8 @@ width = 1606;
 );
 production = "Thetaitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

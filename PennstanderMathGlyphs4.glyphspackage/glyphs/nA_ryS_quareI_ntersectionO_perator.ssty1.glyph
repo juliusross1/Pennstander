@@ -76,7 +76,7 @@ width = 1421;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-nArySquareIntersectionOperator.disp
+nArySquareIntersectionOperator.disp.ssty1
 );
 };
 };

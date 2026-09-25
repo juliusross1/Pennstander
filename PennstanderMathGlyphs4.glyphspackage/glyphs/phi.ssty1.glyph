@@ -173,4 +173,8 @@ width = 1211;
 );
 production = phi.ssty1;
 script = greek;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

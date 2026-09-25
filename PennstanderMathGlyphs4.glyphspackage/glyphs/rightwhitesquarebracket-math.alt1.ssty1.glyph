@@ -6,11 +6,62 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-piece = {
-Weight = 150;
-rand1 = 1;
-};
-ref = "_smart.whitesquarebracketright-math";
+closed = 1;
+nodes = (
+(64,-357,o),
+(180,-347,o),
+(281,-339,cs),
+(394,-330,o),
+(509,-322,o),
+(547,-319,c),
+(571,-8,o),
+(583,95,o),
+(583,445,cs),
+(583,828,o),
+(569,1201,o),
+(535,1452,c),
+(404,1488,o),
+(82,1541,o),
+(-52,1559,c),
+(-54,1549,o),
+(-55,1539,o),
+(-54,1523,cs),
+(-54,1512,o),
+(-53,1498,o),
+(-51,1486,c),
+(-3,1478,o),
+(97,1457,o),
+(208,1435,c),
+(204,1198,o),
+(195,-31,o),
+(193,-269,c),
+(143,-273,o),
+(85,-277,o),
+(20,-279,c),
+(20,-301,o),
+(24,-345,o),
+(26,-359,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(483,24,o),
+(473,-76,o),
+(456,-239,c),
+(384,-248,o),
+(330,-254,o),
+(275,-261,c),
+(278,-2,o),
+(285,1166,o),
+(288,1418,c),
+(345,1407,o),
+(399,1397,o),
+(449,1389,c),
+(474,1215,o),
+(483,804,o),
+(483,398,cs)
+);
 }
 );
 userData = {
@@ -43,11 +94,62 @@ width = 777;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-piece = {
-Weight = 900;
-rand1 = 1;
-};
-ref = "_smart.whitesquarebracketright-math";
+closed = 1;
+nodes = (
+(181,-500,o),
+(580,-444,o),
+(680,-434,cs),
+(768,-425,o),
+(856,-412,o),
+(938,-397,c),
+(972,-97,o),
+(968,180,o),
+(968,519,cs),
+(968,957,o),
+(964,1351,o),
+(926,1546,c),
+(788,1591,o),
+(91,1700,o),
+(20,1700,c),
+(20,1652,o),
+(25,1600,o),
+(31,1554,cs),
+(40,1485,o),
+(52,1418,o),
+(56,1401,c),
+(67,1397,o),
+(128,1385,o),
+(207,1369,c),
+(199,1088,o),
+(205,195,o),
+(213,-163,c),
+(139,-174,o),
+(82,-182,o),
+(68,-182,c),
+(68,-284,o),
+(82,-440,o),
+(91,-500,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(628,186,o),
+(622,75,o),
+(612,-97,c),
+(601,-100,o),
+(555,-109,o),
+(496,-119,c),
+(496,215,o),
+(501,994,o),
+(505,1310,c),
+(547,1301,o),
+(578,1294,o),
+(594,1289,c),
+(633,940,o),
+(628,695,o),
+(628,387,cs)
+);
 }
 );
 userData = {
@@ -83,19 +185,19 @@ production = "rightwhitesquarebracket-math.alt1.ssty1";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-"rightwhitesquarebracket-math.alt1",
-"rightwhitesquarebracket-math.alt1.s01",
-"rightwhitesquarebracket-math.alt1.s02",
-"rightwhitesquarebracket-math.alt1.s03",
-"rightwhitesquarebracket-math.alt1.s04",
-"rightwhitesquarebracket-math.alt1.s05",
-"rightwhitesquarebracket-math.alt1.s06",
-"rightwhitesquarebracket-math.alt1.s07",
-"rightwhitesquarebracket-math.alt1.s08",
-"rightwhitesquarebracket-math.alt1.s09",
-"rightwhitesquarebracket-math.alt1.s10",
-"rightwhitesquarebracket-math.alt1.s11",
-"rightwhitesquarebracket-math.alt1.s12"
+"rightwhitesquarebracket-math.alt1.ssty1",
+"rightwhitesquarebracket-math.alt1.s01.ssty1",
+"rightwhitesquarebracket-math.alt1.s02.ssty1",
+"rightwhitesquarebracket-math.alt1.s03.ssty1",
+"rightwhitesquarebracket-math.alt1.s04.ssty1",
+"rightwhitesquarebracket-math.alt1.s05.ssty1",
+"rightwhitesquarebracket-math.alt1.s06.ssty1",
+"rightwhitesquarebracket-math.alt1.s07.ssty1",
+"rightwhitesquarebracket-math.alt1.s08.ssty1",
+"rightwhitesquarebracket-math.alt1.s09.ssty1",
+"rightwhitesquarebracket-math.alt1.s10.ssty1",
+"rightwhitesquarebracket-math.alt1.s11.ssty1",
+"rightwhitesquarebracket-math.alt1.s12.ssty1"
 );
 };
 };

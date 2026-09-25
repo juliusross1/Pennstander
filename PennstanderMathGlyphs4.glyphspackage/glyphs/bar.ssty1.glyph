@@ -64,7 +64,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(257,-287,o),
+(257,-286,o),
 (251,75,o),
 (251,329,cs),
 (251,820,o),
@@ -77,10 +77,10 @@ nodes = (
 (148,797,o),
 (148,479,cs),
 (148,221,o),
-(156,-126,o),
+(156,-127,o),
 (167,-353,c),
-(186,-355,o),
-(232,-358,o),
+(185,-355,o),
+(231,-358,o),
 (249,-359,c)
 );
 }
@@ -118,19 +118,19 @@ userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-bar,
-bar.s01,
-bar.s02,
-bar.s03,
-bar.s04,
-bar.s05,
-bar.s06,
-bar.s07,
-bar.s08,
-bar.s09,
-bar.s10,
-bar.s11,
-bar.s12
+bar.ssty1,
+bar.s01.ssty1,
+bar.s02.ssty1,
+bar.s03.ssty1,
+bar.s04.ssty1,
+bar.s05.ssty1,
+bar.s06.ssty1,
+bar.s07.ssty1,
+bar.s08.ssty1,
+bar.s09.ssty1,
+bar.s10.ssty1,
+bar.s11.ssty1,
+bar.s12.ssty1
 );
 };
 };

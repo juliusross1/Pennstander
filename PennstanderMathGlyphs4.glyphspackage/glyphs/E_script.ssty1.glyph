@@ -186,4 +186,8 @@ width = 1501;
 );
 production = Escript.ssty1;
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

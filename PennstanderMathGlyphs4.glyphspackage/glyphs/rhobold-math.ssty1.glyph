@@ -304,4 +304,8 @@ width = 1355;
 }
 );
 production = "rhobold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

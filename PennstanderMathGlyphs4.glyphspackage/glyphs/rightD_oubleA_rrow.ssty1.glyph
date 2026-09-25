@@ -8,60 +8,60 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(929,955,o),
-(1263,679,o),
-(1422,576,c),
-(1433,610,l),
-(1180,478,o),
-(812,216,o),
-(746,189,c),
-(746,172,o),
-(776,145,o),
-(784,135,c),
-(822,144,o),
-(1210,411,o),
-(1485,565,c),
-(1485,618,l),
-(1262,775,o),
-(914,1059,o),
-(861,1073,c),
-(846,1064,o),
-(821,1043,o),
-(809,1029,c)
+(934,955,o),
+(1268,679,o),
+(1427,576,c),
+(1438,610,l),
+(1185,478,o),
+(817,216,o),
+(751,189,c),
+(751,172,o),
+(781,145,o),
+(789,135,c),
+(827,144,o),
+(1215,411,o),
+(1490,565,c),
+(1490,618,l),
+(1267,775,o),
+(919,1059,o),
+(866,1073,c),
+(851,1064,o),
+(826,1043,o),
+(814,1029,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(915,763,o),
-(456,756,o),
-(52,735,c),
-(51,712,o),
-(53,686,o),
-(58,663,c),
-(341,674,o),
-(892,684,o),
-(1332,684,c),
-(1335,705,o),
-(1265,726,o),
-(1263,753,c)
+(920,763,o),
+(461,756,o),
+(57,735,c),
+(56,712,o),
+(58,686,o),
+(63,663,c),
+(346,674,o),
+(897,684,o),
+(1337,684,c),
+(1340,705,o),
+(1270,726,o),
+(1268,753,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(938,497,o),
-(446,488,o),
-(49,468,c),
-(48,445,o),
-(50,418,o),
-(55,395,c),
-(338,406,o),
-(759,416,o),
-(1200,416,c),
-(1203,437,o),
-(1265,465,o),
-(1264,489,c)
+(943,497,o),
+(451,488,o),
+(54,468,c),
+(53,445,o),
+(55,418,o),
+(60,395,c),
+(343,406,o),
+(764,416,o),
+(1205,416,c),
+(1208,437,o),
+(1270,465,o),
+(1269,489,c)
 );
 }
 );
@@ -69,19 +69,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-rightDoubleArrow.lft.ssty1,
+rightDoubleArrow.lft,
 0,
 0,
 200
 ),
 (
-rightDoubleArrow.mid.ssty1,
+rightDoubleArrow.mid,
 1,
 200,
 200
 ),
 (
-rightDoubleArrow.rgt.ssty1,
+rightDoubleArrow.rgt,
 0,
 200,
 0
@@ -89,7 +89,7 @@ rightDoubleArrow.rgt.ssty1,
 );
 };
 };
-width = 1635;
+width = 1641;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -158,19 +158,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-rightDoubleArrow.lft.ssty1,
+rightDoubleArrow.lft,
 0,
 0,
 200
 ),
 (
-rightDoubleArrow.mid.ssty1,
+rightDoubleArrow.mid,
 1,
 200,
 200
 ),
 (
-rightDoubleArrow.rgt.ssty1,
+rightDoubleArrow.rgt,
 0,
 200,
 0
@@ -184,4 +184,8 @@ width = 1943;
 metricLeft = "=rightArrow";
 metricRight = "=rightArrow";
 production = rightDoubleArrow.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -48,7 +48,7 @@ nodes = (
 (858,340,o),
 (863,614,o),
 (867,810,c),
-(1108,875,o),
+(1106,874,o),
 (1200,1012,o),
 (1261,1151,c),
 (1246,836,o),
@@ -246,4 +246,8 @@ subCategory = Blackletter;
 tags = (
 "Looks dark on Black"
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

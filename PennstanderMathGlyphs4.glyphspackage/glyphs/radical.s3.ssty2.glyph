@@ -68,5 +68,7 @@ note = uni221A.s3;
 production = radical.s3.ssty2;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
+com.nagwa.MATHPlugin.variants = {
+};
 };
 }

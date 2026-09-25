@@ -44,7 +44,7 @@ nodes = (
 (278,-11,o),
 (588,-11,cs),
 (687,-11,o),
-(786,14,o),
+(785,13,o),
 (855,84,c),
 (907,-26,o),
 (1011,-128,o),
@@ -290,4 +290,8 @@ width = 1391;
 );
 production = "Qitalic-math.ss02.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -218,4 +218,8 @@ width = 1067;
 }
 );
 production = "ninebold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -87,4 +87,8 @@ width = 1838;
 );
 metricLeft = "=plus.circled";
 metricRight = "=plus.circled";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

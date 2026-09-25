@@ -37,10 +37,10 @@ nodes = (
 (230,770,o),
 (238,898,o),
 (255,1041,c),
-(238,1046,o),
+(240,1045,o),
 (221,1049,o),
 (201,1052,cs),
-(184,1055,o),
+(183,1055,o),
 (161,1057,o),
 (149,1057,c),
 (138,922,o),
@@ -270,4 +270,8 @@ width = 1348;
 );
 production = "uitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

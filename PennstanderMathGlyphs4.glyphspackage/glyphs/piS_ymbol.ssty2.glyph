@@ -192,4 +192,8 @@ width = 1859;
 }
 );
 production = piSymbol.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

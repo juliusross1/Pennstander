@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = math.bl;
-pos = (360,-26);
+pos = (16,-9);
 },
 {
 name = math.ta;
@@ -98,7 +98,7 @@ width = 1151;
 anchors = (
 {
 name = math.bl;
-pos = (-8,0);
+pos = (158,0);
 },
 {
 name = math.ta;
@@ -188,4 +188,8 @@ width = 1542;
 production = "R-fraktur.ssty1";
 script = math;
 subCategory = Blackletter;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

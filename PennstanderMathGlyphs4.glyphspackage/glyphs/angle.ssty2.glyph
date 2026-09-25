@@ -76,4 +76,8 @@ width = 1693;
 tags = (
 isempty
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

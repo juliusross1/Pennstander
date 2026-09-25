@@ -10,20 +10,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(51,400,l),
-(48,315,o),
-(53,106,o),
-(51,0,c),
-(154,0,l),
-(156,101,o),
-(152,314,o),
-(154,400,c)
+(57,400,l),
+(54,315,o),
+(59,106,o),
+(57,0,c),
+(160,0,l),
+(162,101,o),
+(158,314,o),
+(160,400,c)
 );
 }
 );
 vertOrigin = 929;
 vertWidth = 1021;
-width = 205;
+width = 218;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -56,4 +56,8 @@ production = downArrow.mid.ssty2;
 tags = (
 extended
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

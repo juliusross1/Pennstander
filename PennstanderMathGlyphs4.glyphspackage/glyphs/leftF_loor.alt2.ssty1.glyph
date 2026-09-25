@@ -9,29 +9,29 @@ shapes = (
 closed = 1;
 nodes = (
 (217,1559,l),
-(202,1322,o),
+(202,1323,o),
 (194,736,o),
 (194,445,cs),
 (194,95,o),
-(208,-47,o),
+(208,-48,o),
 (232,-359,c),
-(307,-357,o),
+(308,-357,o),
 (418,-346,o),
 (526,-331,cs),
-(619,-319,o),
+(618,-319,o),
 (709,-305,o),
 (773,-295,c),
-(776,-280,o),
-(778,-246,o),
+(776,-279,o),
+(778,-245,o),
 (778,-225,c),
 (713,-237,o),
-(349,-277,o),
+(348,-277,o),
 (323,-282,c),
-(306,-119,o),
+(306,-118,o),
 (296,19,o),
 (296,398,cs),
 (296,707,o),
-(302,1318,o),
+(302,1319,o),
 (313,1548,c)
 );
 }
@@ -126,19 +126,19 @@ width = 771;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-leftFloor.alt2,
-leftFloor.alt2.s01,
-leftFloor.alt2.s02,
-leftFloor.alt2.s03,
-leftFloor.alt2.s04,
-leftFloor.alt2.s05,
-leftFloor.alt2.s06,
-leftFloor.alt2.s07,
-leftFloor.alt2.s08,
-leftFloor.alt2.s09,
-leftFloor.alt2.s10,
-leftFloor.alt2.s11,
-leftFloor.alt2.s12
+leftFloor.alt2.ssty1,
+leftFloor.alt2.s01.ssty1,
+leftFloor.alt2.s02.ssty1,
+leftFloor.alt2.s03.ssty1,
+leftFloor.alt2.s04.ssty1,
+leftFloor.alt2.s05.ssty1,
+leftFloor.alt2.s06.ssty1,
+leftFloor.alt2.s07.ssty1,
+leftFloor.alt2.s08.ssty1,
+leftFloor.alt2.s09.ssty1,
+leftFloor.alt2.s10.ssty1,
+leftFloor.alt2.s11.ssty1,
+leftFloor.alt2.s12.ssty1
 );
 };
 };

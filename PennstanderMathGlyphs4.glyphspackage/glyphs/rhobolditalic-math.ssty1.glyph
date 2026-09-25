@@ -620,4 +620,8 @@ width = 1355;
 }
 );
 production = "rhobolditalic-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

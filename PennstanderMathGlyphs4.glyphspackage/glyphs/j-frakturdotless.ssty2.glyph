@@ -121,4 +121,8 @@ note = i;
 production = "j-frakturdotless.ssty2";
 script = math;
 subCategory = Blackletter;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

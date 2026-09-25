@@ -6,11 +6,62 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-piece = {
-Weight = 200;
-rand1 = 1;
-};
-ref = "_smart.whitesquarebracketright-math";
+closed = 1;
+nodes = (
+(72,-367,o),
+(207,-354,o),
+(307,-346,cs),
+(419,-337,o),
+(532,-328,o),
+(573,-324,c),
+(597,-16,o),
+(608,100,o),
+(608,450,cs),
+(608,836,o),
+(596,1209,o),
+(561,1459,c),
+(431,1495,o),
+(84,1551,o),
+(-47,1569,c),
+(-49,1556,o),
+(-49,1541,o),
+(-49,1525,cs),
+(-48,1510,o),
+(-46,1492,o),
+(-44,1481,c),
+(1,1473,o),
+(99,1452,o),
+(208,1430,c),
+(203,1190,o),
+(195,-18,o),
+(195,-262,c),
+(141,-267,o),
+(86,-270,o),
+(23,-273,c),
+(23,-300,o),
+(28,-350,o),
+(31,-369,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(492,35,o),
+(483,-68,o),
+(467,-230,c),
+(400,-238,o),
+(343,-245,o),
+(290,-251,c),
+(292,11,o),
+(300,1155,o),
+(303,1411,c),
+(359,1400,o),
+(413,1390,o),
+(458,1383,c),
+(484,1197,o),
+(492,797,o),
+(492,398,cs)
+);
 }
 );
 userData = {
@@ -43,11 +94,62 @@ width = 797;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-piece = {
-Weight = 900;
-rand1 = 1;
-};
-ref = "_smart.whitesquarebracketright-math";
+closed = 1;
+nodes = (
+(181,-500,o),
+(580,-444,o),
+(680,-434,cs),
+(768,-425,o),
+(856,-412,o),
+(938,-397,c),
+(972,-97,o),
+(968,180,o),
+(968,519,cs),
+(968,957,o),
+(964,1351,o),
+(926,1546,c),
+(788,1591,o),
+(91,1700,o),
+(20,1700,c),
+(20,1652,o),
+(25,1600,o),
+(31,1554,cs),
+(40,1485,o),
+(52,1418,o),
+(56,1401,c),
+(67,1397,o),
+(128,1385,o),
+(207,1369,c),
+(199,1088,o),
+(205,195,o),
+(213,-163,c),
+(139,-174,o),
+(82,-182,o),
+(68,-182,c),
+(68,-284,o),
+(82,-440,o),
+(91,-500,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(628,186,o),
+(622,75,o),
+(612,-97,c),
+(601,-100,o),
+(555,-109,o),
+(496,-119,c),
+(496,215,o),
+(501,994,o),
+(505,1310,c),
+(547,1301,o),
+(578,1294,o),
+(594,1289,c),
+(633,940,o),
+(628,695,o),
+(628,387,cs)
+);
 }
 );
 userData = {
@@ -83,19 +185,19 @@ production = "rightwhitesquarebracket-math.alt1.ssty2";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-"rightwhitesquarebracket-math.alt1",
-"rightwhitesquarebracket-math.alt1.s01",
-"rightwhitesquarebracket-math.alt1.s02",
-"rightwhitesquarebracket-math.alt1.s03",
-"rightwhitesquarebracket-math.alt1.s04",
-"rightwhitesquarebracket-math.alt1.s05",
-"rightwhitesquarebracket-math.alt1.s06",
-"rightwhitesquarebracket-math.alt1.s07",
-"rightwhitesquarebracket-math.alt1.s08",
-"rightwhitesquarebracket-math.alt1.s09",
-"rightwhitesquarebracket-math.alt1.s10",
-"rightwhitesquarebracket-math.alt1.s11",
-"rightwhitesquarebracket-math.alt1.s12"
+"rightwhitesquarebracket-math.alt1.ssty2",
+"rightwhitesquarebracket-math.alt1.s01.ssty2",
+"rightwhitesquarebracket-math.alt1.s02.ssty2",
+"rightwhitesquarebracket-math.alt1.s03.ssty2",
+"rightwhitesquarebracket-math.alt1.s04.ssty2",
+"rightwhitesquarebracket-math.alt1.s05.ssty2",
+"rightwhitesquarebracket-math.alt1.s06.ssty2",
+"rightwhitesquarebracket-math.alt1.s07.ssty2",
+"rightwhitesquarebracket-math.alt1.s08.ssty2",
+"rightwhitesquarebracket-math.alt1.s09.ssty2",
+"rightwhitesquarebracket-math.alt1.s10.ssty2",
+"rightwhitesquarebracket-math.alt1.s11.ssty2",
+"rightwhitesquarebracket-math.alt1.s12.ssty2"
 );
 };
 };

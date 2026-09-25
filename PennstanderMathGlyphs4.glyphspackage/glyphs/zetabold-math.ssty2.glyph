@@ -279,4 +279,8 @@ width = 841;
 }
 );
 production = "zetabold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

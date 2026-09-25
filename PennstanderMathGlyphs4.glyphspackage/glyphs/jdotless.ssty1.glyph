@@ -116,10 +116,14 @@ nodes = (
 );
 }
 );
-width = 861;
+width = 856;
 }
 );
 metricLeft = "=j";
 metricRight = "=j";
 production = jdotless.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

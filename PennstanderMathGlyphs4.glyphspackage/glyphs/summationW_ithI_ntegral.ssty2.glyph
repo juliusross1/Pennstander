@@ -220,7 +220,7 @@ width = 1563;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-summationWithIntegral.disp
+summationWithIntegral.disp.ssty2
 );
 };
 };

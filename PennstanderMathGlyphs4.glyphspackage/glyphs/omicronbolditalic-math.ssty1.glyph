@@ -492,4 +492,8 @@ width = 1047;
 }
 );
 production = "omicronbolditalic-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

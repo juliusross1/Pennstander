@@ -47,7 +47,7 @@ nodes = (
 (436,1067,o),
 (118,1045,c),
 (117,1017,o),
-(120,986,o),
+(120,985,o),
 (124,966,c),
 (335,973,l),
 (338,752,o),
@@ -252,4 +252,8 @@ width = 1431;
 }
 );
 production = "piitalic-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

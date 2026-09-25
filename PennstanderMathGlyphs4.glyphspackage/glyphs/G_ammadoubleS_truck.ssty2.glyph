@@ -122,4 +122,8 @@ width = 1346;
 production = GammadoubleStruck.ssty2;
 script = math;
 subCategory = Other;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

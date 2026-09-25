@@ -64,9 +64,13 @@ nodes = (
 );
 }
 );
-width = 884;
+width = 876;
 }
 );
 metricLeft = "=|greater";
 metricRight = "=|greater";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

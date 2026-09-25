@@ -8,23 +8,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(513,-353,o),
-(559,-350,o),
+(514,-352,o),
+(560,-349,o),
 (579,-331,c),
-(551,12,o),
+(552,11,o),
 (340,473,o),
 (239,596,c),
 (340,731,o),
-(491,1156,o),
+(491,1157,o),
 (526,1539,c),
-(512,1549,o),
-(457,1555,o),
+(512,1548,o),
+(456,1555,o),
 (437,1559,c),
-(414,1199,o),
-(223,762,o),
+(414,1198,o),
+(223,761,o),
 (128,604,c),
 (222,485,o),
-(452,3,o),
+(451,4,o),
 (496,-359,c)
 );
 }
@@ -65,19 +65,19 @@ production = "leftanglebracket-math.alt1.ssty1";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-"leftanglebracket-math.alt1",
-"leftanglebracket-math.alt1.s01",
-"leftanglebracket-math.alt1.s02",
-"leftanglebracket-math.alt1.s03",
-"leftanglebracket-math.alt1.s04",
-"leftanglebracket-math.alt1.s05",
-"leftanglebracket-math.alt1.s06",
-"leftanglebracket-math.alt1.s07",
-"leftanglebracket-math.alt1.s08",
-"leftanglebracket-math.alt1.s09",
-"leftanglebracket-math.alt1.s10",
-"leftanglebracket-math.alt1.s11",
-"leftanglebracket-math.alt1.s12"
+"leftanglebracket-math.alt1.ssty1",
+"leftanglebracket-math.alt1.s01.ssty1",
+"leftanglebracket-math.alt1.s02.ssty1",
+"leftanglebracket-math.alt1.s03.ssty1",
+"leftanglebracket-math.alt1.s04.ssty1",
+"leftanglebracket-math.alt1.s05.ssty1",
+"leftanglebracket-math.alt1.s06.ssty1",
+"leftanglebracket-math.alt1.s07.ssty1",
+"leftanglebracket-math.alt1.s08.ssty1",
+"leftanglebracket-math.alt1.s09.ssty1",
+"leftanglebracket-math.alt1.s10.ssty1",
+"leftanglebracket-math.alt1.s11.ssty1",
+"leftanglebracket-math.alt1.s12.ssty1"
 );
 };
 };

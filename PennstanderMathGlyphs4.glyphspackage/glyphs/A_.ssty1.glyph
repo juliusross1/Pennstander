@@ -145,4 +145,8 @@ width = 1053;
 );
 production = A.ssty1;
 subCategory = Letter;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -123,4 +123,8 @@ production = rightArrow.rgt.ssty2;
 tags = (
 extended
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -230,4 +230,8 @@ width = 1475;
 );
 production = "Deltaitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

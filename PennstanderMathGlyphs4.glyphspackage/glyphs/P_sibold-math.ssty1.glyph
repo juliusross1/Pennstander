@@ -402,4 +402,8 @@ width = 1457;
 );
 production = "Psibold-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

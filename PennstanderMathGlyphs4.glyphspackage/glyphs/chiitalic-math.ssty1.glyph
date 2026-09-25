@@ -196,7 +196,7 @@ nodes = (
 (509,1022,o),
 (595,903,o),
 (634,837,cs),
-(669,777,o),
+(668,779,o),
 (743,523,o),
 (745,385,cs),
 (749,-8,o),
@@ -310,4 +310,8 @@ width = 1690;
 }
 );
 production = "chiitalic-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

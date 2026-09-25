@@ -234,4 +234,8 @@ width = 745;
 );
 production = "lbold-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

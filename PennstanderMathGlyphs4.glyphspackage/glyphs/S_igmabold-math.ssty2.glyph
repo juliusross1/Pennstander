@@ -281,4 +281,8 @@ width = 990;
 );
 production = "Sigmabold-math.ssty2";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

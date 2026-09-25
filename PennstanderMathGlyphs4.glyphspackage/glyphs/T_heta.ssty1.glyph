@@ -164,4 +164,8 @@ width = 1406;
 }
 );
 production = Theta.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

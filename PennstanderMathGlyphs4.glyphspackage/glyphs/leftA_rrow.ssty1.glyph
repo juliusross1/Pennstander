@@ -55,19 +55,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftArrow.lft.ssty1,
+leftArrow.lft,
 0,
 0,
 200
 ),
 (
-leftArrow.mid.ssty1,
+leftArrow.mid,
 1,
 200,
 200
 ),
 (
-leftArrow.rgt.ssty1,
+leftArrow.rgt,
 0,
 200,
 0
@@ -130,19 +130,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftArrow.lft.ssty1,
+leftArrow.lft,
 0,
 0,
 200
 ),
 (
-leftArrow.mid.ssty1,
+leftArrow.mid,
 1,
 200,
 200
 ),
 (
-leftArrow.rgt.ssty1,
+leftArrow.rgt,
 0,
 200,
 0
@@ -154,4 +154,8 @@ width = 1892;
 }
 );
 production = leftArrow.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

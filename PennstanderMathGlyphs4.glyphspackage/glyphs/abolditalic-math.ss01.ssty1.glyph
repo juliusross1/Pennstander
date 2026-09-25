@@ -219,7 +219,7 @@ shapes = (
 closed = 1;
 nodes = (
 (705,-23,o),
-(908,74,o),
+(907,73,o),
 (975,145,c),
 (965,83,o),
 (995,-1,o),
@@ -320,7 +320,7 @@ shapes = (
 closed = 1;
 nodes = (
 (705,-23,o),
-(908,74,o),
+(907,73,o),
 (975,145,c),
 (965,83,o),
 (995,-1,o),
@@ -798,4 +798,8 @@ width = 1351;
 );
 production = "abolditalic-math.ss01.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

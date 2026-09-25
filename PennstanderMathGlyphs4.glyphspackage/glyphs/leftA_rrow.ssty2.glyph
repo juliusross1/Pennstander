@@ -25,7 +25,7 @@ nodes = (
 (390,552,o),
 (223,643,c),
 (236,602,l),
-(385,692,o),
+(383,691,o),
 (556,808,o),
 (708,901,c)
 );
@@ -55,19 +55,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftArrow.lft.ssty2,
+leftArrow.lft,
 0,
 0,
 200
 ),
 (
-leftArrow.mid.ssty2,
+leftArrow.mid,
 1,
 200,
 200
 ),
 (
-leftArrow.rgt.ssty2,
+leftArrow.rgt,
 0,
 200,
 0
@@ -130,19 +130,19 @@ userData = {
 com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
-leftArrow.lft.ssty2,
+leftArrow.lft,
 0,
 0,
 200
 ),
 (
-leftArrow.mid.ssty2,
+leftArrow.mid,
 1,
 200,
 200
 ),
 (
-leftArrow.rgt.ssty2,
+leftArrow.rgt,
 0,
 200,
 0
@@ -154,4 +154,8 @@ width = 1892;
 }
 );
 production = leftArrow.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

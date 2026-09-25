@@ -190,4 +190,8 @@ width = 1620;
 );
 production = Rscript.ssty2;
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

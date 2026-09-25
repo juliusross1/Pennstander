@@ -92,4 +92,8 @@ width = 588;
 );
 production = I.ss01.ssty1;
 script = latin;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

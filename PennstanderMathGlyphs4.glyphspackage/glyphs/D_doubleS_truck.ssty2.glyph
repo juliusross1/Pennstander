@@ -139,4 +139,8 @@ width = 1433;
 );
 production = DdoubleStruck.ssty2;
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

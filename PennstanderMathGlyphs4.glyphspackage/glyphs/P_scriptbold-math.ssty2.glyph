@@ -350,4 +350,8 @@ width = 1572;
 }
 );
 production = "Pscriptbold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -8,28 +8,28 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(81,1521,o),
-(40,1485,o),
-(22,1468,c),
-(98,1315,o),
-(329,780,o),
-(352,591,cs),
-(368,457,o),
-(153,-69,o),
-(64,-356,c),
-(79,-366,o),
-(134,-385,o),
-(154,-390,c),
-(230,-126,o),
-(466,428,o),
-(444,584,cs),
-(419,769,o),
-(197,1333,o),
-(95,1528,c)
+(77,1521,o),
+(36,1484,o),
+(19,1468,c),
+(96,1314,o),
+(325,781,o),
+(349,591,cs),
+(365,456,o),
+(150,-69,o),
+(61,-357,c),
+(76,-366,o),
+(131,-386,o),
+(151,-391,c),
+(227,-126,o),
+(463,426,o),
+(441,583,cs),
+(416,767,o),
+(194,1332,o),
+(91,1528,c)
 );
 }
 );
-width = 578;
+width = 571;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -67,19 +67,19 @@ production = "rightanglebracket-math.ssty1";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-"rightanglebracket-math",
-"rightanglebracket-math.s01",
-"rightanglebracket-math.s02",
-"rightanglebracket-math.s03",
-"rightanglebracket-math.s04",
-"rightanglebracket-math.s05",
-"rightanglebracket-math.s06",
-"rightanglebracket-math.s07",
-"rightanglebracket-math.s08",
-"rightanglebracket-math.s09",
-"rightanglebracket-math.s10",
-"rightanglebracket-math.s11",
-"rightanglebracket-math.s12"
+"rightanglebracket-math.ssty1",
+"rightanglebracket-math.s01.ssty1",
+"rightanglebracket-math.s02.ssty1",
+"rightanglebracket-math.s03.ssty1",
+"rightanglebracket-math.s04.ssty1",
+"rightanglebracket-math.s05.ssty1",
+"rightanglebracket-math.s06.ssty1",
+"rightanglebracket-math.s07.ssty1",
+"rightanglebracket-math.s08.ssty1",
+"rightanglebracket-math.s09.ssty1",
+"rightanglebracket-math.s10.ssty1",
+"rightanglebracket-math.s11.ssty1",
+"rightanglebracket-math.s12.ssty1"
 );
 };
 };

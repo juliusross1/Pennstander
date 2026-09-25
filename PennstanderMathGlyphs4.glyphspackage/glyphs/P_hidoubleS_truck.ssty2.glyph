@@ -257,4 +257,8 @@ width = 1295;
 production = PhidoubleStruck.ssty2;
 script = math;
 subCategory = Other;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

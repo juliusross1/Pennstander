@@ -68,4 +68,8 @@ width = 1892;
 }
 );
 production = narylogicaland.disp.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

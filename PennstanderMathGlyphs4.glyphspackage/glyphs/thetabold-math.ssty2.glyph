@@ -284,4 +284,8 @@ width = 1265;
 }
 );
 production = "thetabold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -256,4 +256,8 @@ width = 1238;
 }
 );
 production = "kappabold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

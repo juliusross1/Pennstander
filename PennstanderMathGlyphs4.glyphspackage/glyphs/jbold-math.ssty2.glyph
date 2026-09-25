@@ -298,4 +298,8 @@ width = 1121;
 );
 production = "jbold-math.ssty2";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -138,7 +138,7 @@ shapes = (
 closed = 1;
 nodes = (
 (464,-33,o),
-(542,29,o),
+(541,28,o),
 (580,78,c),
 (577,89,o),
 (548,144,o),
@@ -199,7 +199,7 @@ shapes = (
 closed = 1;
 nodes = (
 (464,-33,o),
-(542,29,o),
+(541,28,o),
 (580,78,c),
 (577,89,o),
 (548,144,o),
@@ -476,4 +476,8 @@ width = 699;
 }
 );
 production = "iotabolditalic-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

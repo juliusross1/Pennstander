@@ -28,7 +28,7 @@ nodes = (
 (943,16,o),
 (951,55,o),
 (951,90,c),
-(739,89,o),
+(738,89,o),
 (467,96,o),
 (247,113,c),
 (362,354,o),
@@ -222,4 +222,8 @@ width = 1344;
 );
 production = "Zitalic-math.ss02.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -19,7 +19,7 @@ pos = (882,1294);
 },
 {
 name = math.tl;
-pos = (-6,1288);
+pos = (4,1291);
 },
 {
 name = math.tr;
@@ -82,7 +82,7 @@ nodes = (
 );
 }
 );
-width = 1476;
+width = 1470;
 },
 {
 anchors = (
@@ -100,7 +100,7 @@ pos = (1113,1333);
 },
 {
 name = math.tl;
-pos = (-150,1245);
+pos = (6,1291);
 },
 {
 name = math.tr;
@@ -169,4 +169,8 @@ width = 1672;
 metricRight = H;
 production = Hscript.ssty1;
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

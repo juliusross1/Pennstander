@@ -125,5 +125,7 @@ userData = {
 RMXScaler = {
 source = "gammaitalic-math";
 };
+com.nagwa.MATHPlugin.variants = {
+};
 };
 }

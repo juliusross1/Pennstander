@@ -278,4 +278,8 @@ width = 1273;
 );
 production = "zitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

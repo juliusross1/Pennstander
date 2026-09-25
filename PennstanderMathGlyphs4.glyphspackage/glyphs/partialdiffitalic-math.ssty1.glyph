@@ -146,7 +146,7 @@ nodes = (
 (1193,313,o),
 (1203,829,cs),
 (1216,1049,o),
-(1174,1235,o),
+(1173,1235,o),
 (1099,1280,c),
 (1024,1380,o),
 (756,1437,o),
@@ -260,4 +260,8 @@ width = 1456;
 );
 production = "partialdiffitalic-math.ssty1";
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

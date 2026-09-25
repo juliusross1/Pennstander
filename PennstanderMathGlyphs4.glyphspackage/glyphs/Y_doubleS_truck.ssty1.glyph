@@ -73,7 +73,7 @@ nodes = (
 );
 }
 );
-width = 1132;
+width = 1129;
 },
 {
 anchors = (
@@ -152,4 +152,8 @@ width = 1335;
 metricRight = "=Y";
 production = YdoubleStruck.ssty1;
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

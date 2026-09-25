@@ -6,11 +6,62 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-piece = {
-Weight = 150;
-rand1 = 1;
-};
-ref = "_smart.whitesquarebracketleft-math";
+closed = 1;
+nodes = (
+(753,-345,o),
+(757,-301,o),
+(757,-279,c),
+(692,-277,o),
+(634,-273,o),
+(584,-269,c),
+(582,-31,o),
+(573,1198,o),
+(569,1435,c),
+(680,1457,o),
+(781,1478,o),
+(828,1486,c),
+(830,1498,o),
+(831,1512,o),
+(831,1523,cs),
+(832,1539,o),
+(831,1549,o),
+(829,1559,c),
+(695,1541,o),
+(373,1488,o),
+(242,1452,c),
+(208,1201,o),
+(194,828,o),
+(194,445,cs),
+(194,95,o),
+(206,-8,o),
+(230,-319,c),
+(267,-322,o),
+(383,-330,o),
+(496,-339,cs),
+(597,-347,o),
+(713,-357,o),
+(751,-359,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(294,804,o),
+(303,1215,o),
+(328,1389,c),
+(378,1397,o),
+(432,1407,o),
+(489,1418,c),
+(492,1166,o),
+(499,-2,o),
+(502,-261,c),
+(447,-254,o),
+(393,-248,o),
+(321,-239,c),
+(304,-76,o),
+(294,24,o),
+(294,398,cs)
+);
 }
 );
 userData = {
@@ -43,11 +94,62 @@ width = 777;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-piece = {
-Weight = 900;
-rand1 = 1;
-};
-ref = "_smart.whitesquarebracketleft-math";
+closed = 1;
+nodes = (
+(996,-440,o),
+(1010,-284,o),
+(1010,-182,c),
+(996,-182,o),
+(939,-174,o),
+(865,-163,c),
+(873,195,o),
+(879,1088,o),
+(871,1369,c),
+(950,1385,o),
+(1011,1397,o),
+(1022,1401,c),
+(1026,1418,o),
+(1038,1485,o),
+(1047,1554,cs),
+(1053,1600,o),
+(1058,1652,o),
+(1058,1700,c),
+(987,1700,o),
+(290,1591,o),
+(152,1546,c),
+(114,1351,o),
+(110,957,o),
+(110,519,cs),
+(110,180,o),
+(106,-97,o),
+(140,-397,c),
+(222,-412,o),
+(310,-425,o),
+(398,-434,cs),
+(498,-444,o),
+(897,-500,o),
+(987,-500,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,695,o),
+(445,940,o),
+(484,1289,c),
+(500,1294,o),
+(531,1301,o),
+(573,1310,c),
+(577,994,o),
+(582,215,o),
+(582,-119,c),
+(523,-109,o),
+(477,-100,o),
+(466,-97,c),
+(456,75,o),
+(450,186,o),
+(450,387,cs)
+);
 }
 );
 userData = {
@@ -83,19 +185,19 @@ production = "leftwhitesquarebracket-math.alt1.ssty1";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-"leftwhitesquarebracket-math.alt1",
-"leftwhitesquarebracket-math.alt1.s01",
-"leftwhitesquarebracket-math.alt1.s02",
-"leftwhitesquarebracket-math.alt1.s03",
-"leftwhitesquarebracket-math.alt1.s04",
-"leftwhitesquarebracket-math.alt1.s05",
-"leftwhitesquarebracket-math.alt1.s06",
-"leftwhitesquarebracket-math.alt1.s07",
-"leftwhitesquarebracket-math.alt1.s08",
-"leftwhitesquarebracket-math.alt1.s09",
-"leftwhitesquarebracket-math.alt1.s10",
-"leftwhitesquarebracket-math.alt1.s11",
-"leftwhitesquarebracket-math.alt1.s12"
+"leftwhitesquarebracket-math.alt1.ssty1",
+"leftwhitesquarebracket-math.alt1.s01.ssty1",
+"leftwhitesquarebracket-math.alt1.s02.ssty1",
+"leftwhitesquarebracket-math.alt1.s03.ssty1",
+"leftwhitesquarebracket-math.alt1.s04.ssty1",
+"leftwhitesquarebracket-math.alt1.s05.ssty1",
+"leftwhitesquarebracket-math.alt1.s06.ssty1",
+"leftwhitesquarebracket-math.alt1.s07.ssty1",
+"leftwhitesquarebracket-math.alt1.s08.ssty1",
+"leftwhitesquarebracket-math.alt1.s09.ssty1",
+"leftwhitesquarebracket-math.alt1.s10.ssty1",
+"leftwhitesquarebracket-math.alt1.s11.ssty1",
+"leftwhitesquarebracket-math.alt1.s12.ssty1"
 );
 };
 };

@@ -70,7 +70,7 @@ width = 1521;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-narylogicaland.disp
+narylogicaland.disp.ssty1
 );
 };
 };

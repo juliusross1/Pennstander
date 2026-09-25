@@ -59,7 +59,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(760,129,o),
+(759,129,o),
 (423,130,o),
 (140,105,c),
 (140,76,o),
@@ -310,4 +310,8 @@ width = 1356;
 );
 production = "Xiitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -326,4 +326,8 @@ width = 1243;
 );
 production = "qbold-math.ssty2";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -328,4 +328,8 @@ width = 1429;
 }
 );
 production = "psibold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

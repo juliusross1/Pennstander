@@ -254,4 +254,8 @@ width = 1249;
 );
 production = "Pibold-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -55,7 +55,7 @@ com.nagwa.MATHPlugin.variants = {
 hAssembly = (
 (
 ruleroot.ext,
-0,
+1,
 0,
 300
 ),
@@ -71,4 +71,8 @@ rulerootdown.right,
 width = 902;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

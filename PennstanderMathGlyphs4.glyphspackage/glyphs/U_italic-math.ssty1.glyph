@@ -59,7 +59,7 @@ nodes = (
 (151,977,o),
 (151,801,cs),
 (151,617,o),
-(162,455,o),
+(163,453,o),
 (196,323,cs),
 (253,96,o),
 (373,-42,o),
@@ -282,4 +282,8 @@ width = 1522;
 );
 production = "Uitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

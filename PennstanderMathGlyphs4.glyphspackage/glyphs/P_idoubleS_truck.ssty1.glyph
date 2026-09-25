@@ -160,4 +160,8 @@ width = 1329;
 production = PidoubleStruck.ssty1;
 script = math;
 subCategory = Other;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

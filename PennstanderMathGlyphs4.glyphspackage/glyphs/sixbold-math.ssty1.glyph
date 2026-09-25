@@ -288,4 +288,8 @@ width = 1081;
 metricLeft = six;
 metricRight = six;
 production = "sixbold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

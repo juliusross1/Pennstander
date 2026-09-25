@@ -54,7 +54,7 @@ nodes = (
 (505,587,o),
 (631,600,c),
 (644,627,o),
-(652,659,o),
+(651,660,o),
 (644,694,c),
 (574,695,o),
 (499,695,o),
@@ -187,4 +187,8 @@ width = 1454;
 }
 );
 production = Qscript.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

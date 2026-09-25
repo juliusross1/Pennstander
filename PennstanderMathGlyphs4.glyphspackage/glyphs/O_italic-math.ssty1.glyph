@@ -274,4 +274,8 @@ width = 1624;
 );
 production = "Oitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

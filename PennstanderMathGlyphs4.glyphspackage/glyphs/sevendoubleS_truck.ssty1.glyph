@@ -138,4 +138,8 @@ width = 1163;
 }
 );
 production = sevendoubleStruck.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

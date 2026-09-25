@@ -337,4 +337,8 @@ width = 1211;
 );
 production = "varphibold-math.ssty1";
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -169,7 +169,7 @@ nodes = (
 (1039,1122,o),
 (1039,914,cs),
 (1039,412,o),
-(707,80,o),
+(706,80,o),
 (296,74,c)
 );
 }
@@ -232,7 +232,7 @@ nodes = (
 (1039,1122,o),
 (1039,914,cs),
 (1039,412,o),
-(707,80,o),
+(706,80,o),
 (296,74,c)
 );
 }
@@ -494,4 +494,8 @@ width = 1228;
 );
 production = "Dbolditalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

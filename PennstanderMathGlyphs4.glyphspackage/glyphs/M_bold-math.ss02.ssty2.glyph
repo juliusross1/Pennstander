@@ -262,4 +262,8 @@ width = 1492;
 );
 production = "Mbold-math.ss02.ssty2";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

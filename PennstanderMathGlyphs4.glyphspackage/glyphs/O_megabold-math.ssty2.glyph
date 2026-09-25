@@ -382,4 +382,8 @@ width = 1465;
 );
 production = "Omegabold-math.ssty2";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

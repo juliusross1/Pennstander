@@ -37,4 +37,8 @@ production = rightBarbUpHarpoon.mid.ssty1;
 tags = (
 extended
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

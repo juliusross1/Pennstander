@@ -548,4 +548,8 @@ width = 1121;
 }
 );
 production = "upsilonbolditalic-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -328,4 +328,8 @@ width = 1237;
 }
 );
 production = "deltabold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

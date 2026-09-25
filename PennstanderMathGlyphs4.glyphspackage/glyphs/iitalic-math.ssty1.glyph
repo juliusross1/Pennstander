@@ -250,4 +250,8 @@ width = 910;
 );
 production = "iitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

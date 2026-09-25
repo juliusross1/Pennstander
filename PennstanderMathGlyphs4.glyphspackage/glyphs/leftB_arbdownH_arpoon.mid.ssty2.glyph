@@ -36,4 +36,8 @@ width = 400;
 );
 production = leftBarbdownHarpoon.mid.ssty2;
 subCategory = Arrow;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

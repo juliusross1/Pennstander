@@ -84,4 +84,8 @@ width = 1980;
 }
 );
 production = nAryTimesOperator.disp.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

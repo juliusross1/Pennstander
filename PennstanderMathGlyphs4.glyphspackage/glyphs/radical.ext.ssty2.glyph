@@ -48,4 +48,8 @@ width = 1079;
 );
 note = uni221A.x;
 production = radical.ext.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

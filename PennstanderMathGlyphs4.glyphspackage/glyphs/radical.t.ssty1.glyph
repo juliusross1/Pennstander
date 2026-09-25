@@ -58,4 +58,8 @@ width = 1478;
 note = uni221A.t;
 production = radical.t.ssty1;
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

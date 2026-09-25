@@ -298,4 +298,8 @@ width = 1271;
 }
 );
 production = "kappaSymbolbold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

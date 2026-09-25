@@ -74,4 +74,8 @@ width = 1721;
 }
 );
 production = nArySquareIntersectionOperator.disp.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -70,4 +70,8 @@ metricRight = "=logicalor";
 tags = (
 isempty
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

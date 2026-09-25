@@ -60,7 +60,7 @@ nodes = (
 );
 }
 );
-width = 861;
+width = 856;
 },
 {
 anchors = (
@@ -117,7 +117,7 @@ nodes = (
 );
 }
 );
-width = 861;
+width = 856;
 },
 {
 anchors = (
@@ -518,4 +518,8 @@ width = 1121;
 );
 production = "jdotlessbolditalic-math.ssty1";
 script = latin;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

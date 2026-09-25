@@ -350,4 +350,8 @@ width = 1355;
 }
 );
 production = "rhoSymbolbold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

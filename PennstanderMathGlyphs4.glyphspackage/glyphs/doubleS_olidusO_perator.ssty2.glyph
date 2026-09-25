@@ -8,39 +8,39 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(459,282,o),
-(663,665,o),
-(965,1290,c),
-(944,1310,o),
-(906,1327,o),
-(858,1338,c),
-(614,822,o),
-(412,412,o),
-(157,20,c),
-(178,5,o),
-(223,-17,o),
-(255,-26,c)
+(457,282,o),
+(660,665,o),
+(962,1290,c),
+(941,1310,o),
+(904,1327,o),
+(855,1338,c),
+(611,822,o),
+(409,412,o),
+(154,20,c),
+(175,5,o),
+(219,-17,o),
+(252,-26,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(884,282,o),
-(1088,665,o),
-(1390,1290,c),
-(1369,1310,o),
-(1331,1327,o),
-(1283,1338,c),
-(1039,822,o),
-(837,412,o),
-(582,20,c),
-(603,5,o),
-(648,-17,o),
-(680,-26,c)
+(882,282,o),
+(1085,665,o),
+(1387,1290,c),
+(1366,1310,o),
+(1329,1327,o),
+(1280,1338,c),
+(1036,822,o),
+(834,412,o),
+(579,20,c),
+(600,5,o),
+(644,-17,o),
+(677,-26,c)
 );
 }
 );
-width = 1487;
+width = 1488;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -88,14 +88,14 @@ metricRight = "=slash";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-doubleSolidusOperator,
-doubleSolidusOperator.s1,
-doubleSolidusOperator.s2,
-doubleSolidusOperator.s3,
-doubleSolidusOperator.s4,
-doubleSolidusOperator.s5,
-doubleSolidusOperator.s6,
-doubleSolidusOperator.s7
+doubleSolidusOperator.ssty2,
+doubleSolidusOperator.s1.ssty2,
+doubleSolidusOperator.s2.ssty2,
+doubleSolidusOperator.s3.ssty2,
+doubleSolidusOperator.s4.ssty2,
+doubleSolidusOperator.s5.ssty2,
+doubleSolidusOperator.s6.ssty2,
+doubleSolidusOperator.s7.ssty2
 );
 };
 };

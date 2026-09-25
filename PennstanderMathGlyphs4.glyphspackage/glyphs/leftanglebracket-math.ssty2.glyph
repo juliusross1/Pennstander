@@ -8,23 +8,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(496,-360,o),
+(497,-360,o),
 (547,-319,o),
 (569,-300,c),
-(493,-143,o),
-(259,394,o),
+(493,-142,o),
+(259,393,o),
 (237,577,cs),
 (222,710,o),
 (441,1244,o),
 (528,1530,c),
-(508,1541,o),
+(509,1541,o),
 (447,1563,o),
 (419,1569,c),
-(345,1307,o),
-(104,739,o),
+(344,1306,o),
+(104,738,o),
 (124,586,cs),
-(148,403,o),
-(376,-171,o),
+(148,402,o),
+(376,-170,o),
 (479,-369,c)
 );
 }
@@ -65,19 +65,19 @@ production = "leftanglebracket-math.ssty2";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-"leftanglebracket-math",
-"leftanglebracket-math.s01",
-"leftanglebracket-math.s02",
-"leftanglebracket-math.s03",
-"leftanglebracket-math.s04",
-"leftanglebracket-math.s05",
-"leftanglebracket-math.s06",
-"leftanglebracket-math.s07",
-"leftanglebracket-math.s08",
-"leftanglebracket-math.s09",
-"leftanglebracket-math.s10",
-"leftanglebracket-math.s11",
-"leftanglebracket-math.s12"
+"leftanglebracket-math.ssty2",
+"leftanglebracket-math.s01.ssty2",
+"leftanglebracket-math.s02.ssty2",
+"leftanglebracket-math.s03.ssty2",
+"leftanglebracket-math.s04.ssty2",
+"leftanglebracket-math.s05.ssty2",
+"leftanglebracket-math.s06.ssty2",
+"leftanglebracket-math.s07.ssty2",
+"leftanglebracket-math.s08.ssty2",
+"leftanglebracket-math.s09.ssty2",
+"leftanglebracket-math.s10.ssty2",
+"leftanglebracket-math.s11.ssty2",
+"leftanglebracket-math.s12.ssty2"
 );
 };
 };

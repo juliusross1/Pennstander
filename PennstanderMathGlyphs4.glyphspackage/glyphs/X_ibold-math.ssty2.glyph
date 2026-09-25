@@ -310,4 +310,8 @@ width = 933;
 );
 production = "Xibold-math.ssty2";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

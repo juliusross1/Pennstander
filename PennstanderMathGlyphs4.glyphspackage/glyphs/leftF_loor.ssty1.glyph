@@ -9,7 +9,7 @@ shapes = (
 closed = 1;
 nodes = (
 (225,1559,l),
-(204,1307,o),
+(204,1306,o),
 (194,750,o),
 (194,445,cs),
 (194,91,o),
@@ -21,17 +21,17 @@ nodes = (
 (605,-359,o),
 (697,-355,o),
 (734,-355,c),
-(736,-330,o),
+(736,-331,o),
 (740,-305,o),
 (740,-284,c),
 (675,-286,o),
-(349,-286,o),
+(348,-286,o),
 (323,-286,c),
 (306,-123,o),
 (296,24,o),
 (296,398,cs),
 (296,728,o),
-(304,1326,o),
+(304,1327,o),
 (320,1551,c)
 );
 }
@@ -126,18 +126,18 @@ width = 760;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-leftFloor.s01,
-leftFloor.s02,
-leftFloor.s03,
-leftFloor.s04,
-leftFloor.s05,
-leftFloor.s06,
-leftFloor.s07,
-leftFloor.s08,
-leftFloor.s09,
-leftFloor.s10,
-leftFloor.s11,
-leftFloor.s12
+leftFloor.s01.ssty1,
+leftFloor.s02.ssty1,
+leftFloor.s03.ssty1,
+leftFloor.s04.ssty1,
+leftFloor.s05.ssty1,
+leftFloor.s06.ssty1,
+leftFloor.s07.ssty1,
+leftFloor.s08.ssty1,
+leftFloor.s09.ssty1,
+leftFloor.s10.ssty1,
+leftFloor.s11.ssty1,
+leftFloor.s12.ssty1
 );
 };
 };

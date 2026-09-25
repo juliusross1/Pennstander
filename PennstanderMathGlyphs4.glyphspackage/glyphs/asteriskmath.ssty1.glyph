@@ -167,4 +167,8 @@ nodes = (
 width = 1059;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

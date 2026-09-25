@@ -55,15 +55,15 @@ nodes = (
 closed = 1;
 nodes = (
 (1512,-307,o),
-(1842,54,o),
-(1842,581,cs),
+(1842,53,o),
+(1842,580,cs),
 (1842,1148,o),
-(1554,1502,o),
-(971,1502,cs),
-(432,1502,o),
+(1554,1501,o),
+(971,1501,cs),
+(432,1501,o),
 (100,1146,o),
-(100,595,cs),
-(100,112,o),
+(100,594,cs),
+(100,111,o),
 (440,-307,o),
 (971,-307,cs)
 );
@@ -75,11 +75,11 @@ nodes = (
 (217,170,o),
 (217,581,cs),
 (217,1066,o),
-(487,1402,o),
-(979,1402,cs),
-(1474,1402,o),
+(487,1401,o),
+(979,1401,cs),
+(1474,1401,o),
 (1721,1101,o),
-(1721,565,cs),
+(1721,564,cs),
 (1721,120,o),
 (1451,-201,o),
 (955,-201,cs)
@@ -181,8 +181,8 @@ production = nAryCircledPlusOperator.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-nAryCircledPlusOperator,
-nAryCircledPlusOperator.disp
+nAryCircledPlusOperator.ssty2,
+nAryCircledPlusOperator.disp.ssty2
 );
 };
 };

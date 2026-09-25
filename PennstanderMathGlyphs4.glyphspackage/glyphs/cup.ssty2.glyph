@@ -105,4 +105,8 @@ width = 1280;
 }
 );
 script = math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

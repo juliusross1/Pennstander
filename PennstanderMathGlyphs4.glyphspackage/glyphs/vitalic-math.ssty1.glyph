@@ -32,7 +32,7 @@ nodes = (
 (237,869,o),
 (183,1092,c),
 (156,1086,o),
-(119,1076,o),
+(118,1076,o),
 (84,1065,c),
 (172,774,o),
 (326,305,o),
@@ -222,4 +222,8 @@ width = 1247;
 );
 production = "vitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

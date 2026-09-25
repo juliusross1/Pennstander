@@ -62,4 +62,8 @@ width = 1340;
 metricLeft = "=radical";
 note = uni221A.s4;
 production = radical.s4.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

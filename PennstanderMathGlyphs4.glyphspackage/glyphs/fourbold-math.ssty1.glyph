@@ -294,4 +294,8 @@ width = 1104;
 }
 );
 production = "fourbold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

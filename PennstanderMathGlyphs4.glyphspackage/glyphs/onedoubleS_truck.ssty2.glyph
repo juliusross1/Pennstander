@@ -18,7 +18,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(188,-6,o),
+(186,-7,o),
 (797,9,o),
 (869,9,c),
 (874,35,o),
@@ -37,7 +37,7 @@ nodes = (
 (385,1317,o),
 (353,1317,c),
 (279,1256,o),
-(74,1056,o),
+(73,1055,o),
 (41,1022,c),
 (54,994,o),
 (85,946,o),
@@ -136,4 +136,8 @@ width = 1046;
 }
 );
 production = onedoubleStruck.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

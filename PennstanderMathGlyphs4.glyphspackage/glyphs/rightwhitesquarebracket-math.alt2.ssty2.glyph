@@ -6,11 +6,62 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-piece = {
-Weight = 200;
-rand2 = 1;
-};
-ref = "_smart.whitesquarebracketright-math";
+closed = 1;
+nodes = (
+(611,-56,o),
+(625,100,o),
+(625,450,cs),
+(625,882,o),
+(608,1321,o),
+(574,1569,c),
+(437,1568,o),
+(104,1526,o),
+(-47,1505,c),
+(-49,1492,o),
+(-49,1478,o),
+(-49,1461,cs),
+(-48,1446,o),
+(-46,1430,o),
+(-44,1418,c),
+(1,1422,o),
+(104,1435,o),
+(216,1449,c),
+(211,1181,o),
+(202,-71,o),
+(202,-239,c),
+(107,-228,o),
+(16,-216,o),
+(-12,-211,c),
+(-13,-237,o),
+(-11,-279,o),
+(-8,-298,c),
+(57,-308,o),
+(200,-328,o),
+(293,-340,cs),
+(400,-355,o),
+(509,-367,o),
+(586,-369,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(509,30,o),
+(499,-111,o),
+(483,-274,c),
+(441,-267,o),
+(343,-255,o),
+(296,-249,c),
+(299,-87,o),
+(308,1226,o),
+(312,1460,c),
+(371,1468,o),
+(424,1474,o),
+(472,1480,c),
+(498,1294,o),
+(509,836,o),
+(509,398,cs)
+);
 }
 );
 userData = {
@@ -43,11 +94,62 @@ width = 813;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-piece = {
-Weight = 900;
-rand2 = 1;
-};
-ref = "_smart.whitesquarebracketright-math";
+closed = 1;
+nodes = (
+(1082,-170,o),
+(1098,180,o),
+(1098,519,cs),
+(1098,1007,o),
+(1064,1505,o),
+(1026,1700,c),
+(888,1697,o),
+(256,1672,o),
+(20,1644,c),
+(20,1596,o),
+(25,1544,o),
+(31,1498,cs),
+(40,1429,o),
+(52,1372,o),
+(56,1355,c),
+(68,1355,o),
+(157,1363,o),
+(268,1373,c),
+(262,1088,o),
+(267,281,o),
+(274,-95,c),
+(170,-81,o),
+(84,-69,o),
+(68,-65,c),
+(58,-167,o),
+(52,-323,o),
+(61,-383,c),
+(150,-395,o),
+(657,-463,o),
+(763,-477,cs),
+(859,-490,o),
+(955,-500,o),
+(1038,-500,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(758,186,o),
+(752,12,o),
+(742,-160,c),
+(727,-157,o),
+(653,-147,o),
+(558,-134,c),
+(558,200,o),
+(564,1135,o),
+(568,1397,c),
+(635,1402,o),
+(686,1404,o),
+(704,1403,c),
+(743,1054,o),
+(758,695,o),
+(758,387,cs)
+);
 }
 );
 userData = {
@@ -83,19 +185,19 @@ production = "rightwhitesquarebracket-math.alt2.ssty2";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-"rightwhitesquarebracket-math.alt2",
-"rightwhitesquarebracket-math.alt2.s01",
-"rightwhitesquarebracket-math.alt2.s02",
-"rightwhitesquarebracket-math.alt2.s03",
-"rightwhitesquarebracket-math.alt2.s04",
-"rightwhitesquarebracket-math.alt2.s05",
-"rightwhitesquarebracket-math.alt2.s06",
-"rightwhitesquarebracket-math.alt2.s07",
-"rightwhitesquarebracket-math.alt2.s08",
-"rightwhitesquarebracket-math.alt2.s09",
-"rightwhitesquarebracket-math.alt2.s10",
-"rightwhitesquarebracket-math.alt2.s11",
-"rightwhitesquarebracket-math.alt2.s12"
+"rightwhitesquarebracket-math.alt2.ssty2",
+"rightwhitesquarebracket-math.alt2.s01.ssty2",
+"rightwhitesquarebracket-math.alt2.s02.ssty2",
+"rightwhitesquarebracket-math.alt2.s03.ssty2",
+"rightwhitesquarebracket-math.alt2.s04.ssty2",
+"rightwhitesquarebracket-math.alt2.s05.ssty2",
+"rightwhitesquarebracket-math.alt2.s06.ssty2",
+"rightwhitesquarebracket-math.alt2.s07.ssty2",
+"rightwhitesquarebracket-math.alt2.s08.ssty2",
+"rightwhitesquarebracket-math.alt2.s09.ssty2",
+"rightwhitesquarebracket-math.alt2.s10.ssty2",
+"rightwhitesquarebracket-math.alt2.s11.ssty2",
+"rightwhitesquarebracket-math.alt2.s12.ssty2"
 );
 };
 };

@@ -114,4 +114,8 @@ width = 1047;
 }
 );
 production = omicron.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

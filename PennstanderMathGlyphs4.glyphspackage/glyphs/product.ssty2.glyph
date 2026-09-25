@@ -119,8 +119,8 @@ production = product.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-product,
-product.disp
+product.ssty2,
+product.disp.ssty2
 );
 };
 };

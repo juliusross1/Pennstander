@@ -93,4 +93,8 @@ production = rightHookArrow.lft.ssty1;
 tags = (
 extended
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

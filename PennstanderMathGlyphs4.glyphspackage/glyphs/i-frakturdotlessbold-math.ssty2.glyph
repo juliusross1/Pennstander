@@ -178,4 +178,8 @@ note = i;
 production = "i-frakturdotlessbold-math.ssty2";
 script = math;
 subCategory = Blackletter;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

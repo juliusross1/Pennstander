@@ -268,4 +268,8 @@ width = 1078;
 }
 );
 production = "taubold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

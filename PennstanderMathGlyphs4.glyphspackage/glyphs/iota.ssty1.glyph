@@ -110,4 +110,8 @@ width = 699;
 }
 );
 production = iota.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

@@ -119,7 +119,7 @@ nodes = (
 (914,1019,o),
 (894,1019,cs),
 (870,1019,o),
-(846,1017,o),
+(844,1016,o),
 (835,1014,c)
 );
 }
@@ -128,4 +128,8 @@ width = 1108;
 }
 );
 production = u.ssty2;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

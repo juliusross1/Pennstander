@@ -8,35 +8,35 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(447,284,o),
-(647,669,o),
-(957,1292,c),
-(939,1309,o),
-(901,1325,o),
-(862,1333,c),
-(610,806,o),
-(413,410,o),
-(157,18,c),
-(175,6,o),
-(218,-13,o),
-(244,-20,c)
+(445,284,o),
+(645,669,o),
+(955,1292,c),
+(937,1309,o),
+(900,1324,o),
+(860,1333,c),
+(608,805,o),
+(411,410,o),
+(155,18,c),
+(174,6,o),
+(217,-13,o),
+(242,-20,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(860,284,o),
-(1060,669,o),
-(1370,1292,c),
-(1352,1309,o),
-(1314,1325,o),
-(1275,1333,c),
-(1023,806,o),
-(826,410,o),
-(570,18,c),
-(588,6,o),
-(631,-13,o),
-(657,-20,c)
+(857,284,o),
+(1058,670,o),
+(1368,1292,c),
+(1349,1309,o),
+(1312,1324,o),
+(1272,1333,c),
+(1021,806,o),
+(824,410,o),
+(568,18,c),
+(587,6,o),
+(629,-13,o),
+(654,-20,c)
 );
 }
 );
@@ -88,14 +88,14 @@ metricRight = "=slash";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-doubleSolidusOperator,
-doubleSolidusOperator.s1,
-doubleSolidusOperator.s2,
-doubleSolidusOperator.s3,
-doubleSolidusOperator.s4,
-doubleSolidusOperator.s5,
-doubleSolidusOperator.s6,
-doubleSolidusOperator.s7
+doubleSolidusOperator.ssty1,
+doubleSolidusOperator.s1.ssty1,
+doubleSolidusOperator.s2.ssty1,
+doubleSolidusOperator.s3.ssty1,
+doubleSolidusOperator.s4.ssty1,
+doubleSolidusOperator.s5.ssty1,
+doubleSolidusOperator.s6.ssty1,
+doubleSolidusOperator.s7.ssty1
 );
 };
 };

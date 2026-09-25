@@ -304,4 +304,8 @@ width = 1084;
 }
 );
 production = "epsilonLunateSymbolbold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

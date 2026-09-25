@@ -34,7 +34,7 @@ nodes = (
 (520,99,o),
 (258,100,c),
 (354,208,o),
-(801,873,o),
+(802,874,o),
 (979,1230,c),
 (984,1262,o),
 (987,1300,o),
@@ -149,4 +149,8 @@ width = 1173;
 production = "Z-fraktur.ss05.ssty2";
 script = math;
 subCategory = Blackletter;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

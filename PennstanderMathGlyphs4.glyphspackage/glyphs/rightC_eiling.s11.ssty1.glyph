@@ -18,10 +18,10 @@ nodes = (
 (377,4803,o),
 (281,4805,o),
 (186,4805,cs),
-(101,4804,o),
-(14,4802,o),
+(100,4804,o),
+(15,4802,o),
 (-49,4797,c),
-(-51,4781,o),
+(-51,4782,o),
 (-55,4747,o),
 (-55,4726,c),
 (10,4728,o),
@@ -31,7 +31,7 @@ nodes = (
 (389,4375,o),
 (389,802,cs),
 (389,468,o),
-(381,-2600,o),
+(381,-2601,o),
 (365,-3599,c)
 );
 }
@@ -78,4 +78,8 @@ width = 760;
 metricLeft = "=bracketright.011";
 metricRight = "=bracketright.011";
 production = rightCeiling.s11.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

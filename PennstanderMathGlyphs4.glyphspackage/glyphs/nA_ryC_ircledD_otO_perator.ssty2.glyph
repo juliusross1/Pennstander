@@ -48,18 +48,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(1035,493,o),
-(1093,540,o),
-(1093,599,cs),
-(1093,652,o),
-(1050,705,o),
-(983,705,cs),
-(911,705,o),
-(852,661,o),
-(852,601,cs),
-(852,541,o),
+(1030,493,o),
+(1088,539,o),
+(1088,598,cs),
+(1088,650,o),
+(1047,701,o),
+(981,701,cs),
+(910,701,o),
+(852,659,o),
+(852,599,cs),
+(852,540,o),
 (884,493,o),
-(970,493,cs)
+(967,493,cs)
 );
 }
 );
@@ -135,8 +135,8 @@ production = nAryCircledDotOperator.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-nAryCircledDotOperator,
-nAryCircledDotOperator.disp
+nAryCircledDotOperator.ssty2,
+nAryCircledDotOperator.disp.ssty2
 );
 };
 };

@@ -219,4 +219,8 @@ width = 1108;
 }
 );
 production = "lambdabold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

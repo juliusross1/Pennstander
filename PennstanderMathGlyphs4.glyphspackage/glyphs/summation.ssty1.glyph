@@ -119,8 +119,8 @@ userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
-summation,
-summation.disp
+summation.ssty1,
+summation.disp.ssty1
 );
 };
 };

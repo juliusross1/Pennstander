@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = math.bl;
-pos = (385,-28);
+pos = (7,-10);
 },
 {
 name = math.ta;
@@ -96,7 +96,7 @@ width = 1125;
 anchors = (
 {
 name = math.bl;
-pos = (385,-28);
+pos = (7,-10);
 },
 {
 name = math.ta;
@@ -186,7 +186,7 @@ width = 1125;
 anchors = (
 {
 name = math.bl;
-pos = (-8,0);
+pos = (158,0);
 },
 {
 name = math.ta;
@@ -285,7 +285,7 @@ width = 1542;
 anchors = (
 {
 name = math.bl;
-pos = (-8,0);
+pos = (158,0);
 },
 {
 name = math.ta;

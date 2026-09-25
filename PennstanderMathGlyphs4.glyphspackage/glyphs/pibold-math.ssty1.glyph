@@ -252,4 +252,8 @@ width = 1149;
 }
 );
 production = "pibold-math.ssty1";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

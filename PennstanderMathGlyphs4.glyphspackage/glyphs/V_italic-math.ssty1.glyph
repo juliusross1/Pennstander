@@ -44,7 +44,7 @@ nodes = (
 (143,1351,o),
 (123,1344,c),
 (150,1176,o),
-(320,432,o),
+(320,431,o),
 (522,-10,c),
 (540,-16,o),
 (575,-19,o),
@@ -222,4 +222,8 @@ width = 1513;
 );
 production = "Vitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

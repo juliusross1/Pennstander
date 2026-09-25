@@ -230,4 +230,8 @@ width = 1385;
 );
 production = "Deltabold-math.ssty2";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

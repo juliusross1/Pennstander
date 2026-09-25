@@ -142,4 +142,8 @@ width = 1083;
 }
 );
 production = zerodoubleStruck.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

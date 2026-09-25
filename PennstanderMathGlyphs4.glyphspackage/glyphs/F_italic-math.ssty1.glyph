@@ -52,7 +52,7 @@ nodes = (
 (402,1307,o),
 (295,1307,o),
 (147,1307,c),
-(169,918,o),
+(168,920,o),
 (196,422,o),
 (196,-10,c),
 (309,-24,l)
@@ -250,4 +250,8 @@ width = 1289;
 );
 production = "Fitalic-math.ssty1";
 subCategory = Math;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

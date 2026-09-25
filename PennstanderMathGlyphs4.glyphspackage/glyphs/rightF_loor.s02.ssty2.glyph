@@ -9,17 +9,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(374,1780,o),
+(374,1781,o),
 (382,725,o),
 (382,398,cs),
 (382,-546,o),
 (372,-702,o),
 (356,-865,c),
-(329,-865,o),
-(13,-866,o),
+(328,-866,o),
+(14,-866,o),
 (-50,-864,c),
 (-50,-891,o),
-(-46,-926,o),
+(-46,-925,o),
 (-43,-951,c),
 (-1,-953,o),
 (95,-957,o),
@@ -27,7 +27,7 @@ nodes = (
 (285,-958,o),
 (380,-955,o),
 (462,-954,c),
-(488,-641,o),
+(488,-640,o),
 (501,-483,o),
 (501,450,cs),
 (501,765,o),
@@ -80,4 +80,8 @@ metricLeft = "=bracketright.002";
 metricRight = "=bracketright.002";
 production = rightFloor.s02.ssty2;
 subCategory = Parenthesis;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

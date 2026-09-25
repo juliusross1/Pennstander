@@ -218,4 +218,8 @@ subCategory = Blackletter;
 tags = (
 "Looks dark on Black"
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

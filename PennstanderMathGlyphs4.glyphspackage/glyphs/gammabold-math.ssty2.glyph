@@ -254,4 +254,8 @@ width = 1210;
 }
 );
 production = "gammabold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

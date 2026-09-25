@@ -270,4 +270,8 @@ width = 995;
 }
 );
 production = "threebold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

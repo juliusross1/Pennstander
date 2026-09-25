@@ -290,4 +290,8 @@ width = 1433;
 }
 );
 production = "thetaSymbolbold-math.ssty2";
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

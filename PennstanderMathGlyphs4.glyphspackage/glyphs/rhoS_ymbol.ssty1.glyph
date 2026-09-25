@@ -170,4 +170,8 @@ width = 1355;
 }
 );
 production = rhoSymbol.ssty1;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }

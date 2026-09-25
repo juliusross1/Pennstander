@@ -377,4 +377,8 @@ production = sixdoubleStruck.ssty2;
 tags = (
 "Intermediate Layers"
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+};
+};
 }
