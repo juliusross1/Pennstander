@@ -8,15 +8,15 @@ shapes = (
 ref = minus;
 },
 {
-pos = (672,183);
+pos = (978,144);
 ref = mathsymboldot;
 },
 {
-pos = (672,-380);
+pos = (986,-342);
 ref = mathsymboldot;
 }
 );
-width = 1146;
+width = 1410;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";

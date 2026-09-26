@@ -9680,10 +9680,6 @@ widebarbelow.s1
 );
 },
 {
-name = "Variable Font Origin";
-value = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-},
-{
 name = "Post-Export Command";
 value = "/Users/juliusross/Documents/Pennstander/.venv/bin/python3 /Users/juliusross/Documents/Pennstander/insertavartables.py";
 }
@@ -9704,7 +9700,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 1;
 };
@@ -9724,7 +9719,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.125;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.875;
@@ -9745,7 +9739,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.25;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.75;
@@ -9796,7 +9789,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.5;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.5;
@@ -9817,7 +9809,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.625;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.375;
@@ -9845,7 +9836,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.75;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.25;
@@ -9873,7 +9863,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.875;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.125;
@@ -9901,7 +9890,6 @@ name = "Disable Subroutines";
 value = 0;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 1;
 };

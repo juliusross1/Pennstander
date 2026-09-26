@@ -5,53 +5,57 @@ layers = (
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
-pos = (406,535);
+pos = (346,535);
 ref = arrowmark;
-scale = (1.1,1);
+scale = (1.2,1);
 },
 {
-pos = (422,-477);
+pos = (342,703);
 ref = arrowmark;
-scale = (1.1,1);
-},
-{
-angle = -89.1;
-pos = (-119,1165);
-ref = arrowmark;
-scale = (1.1,1);
+scale = (1.2,-1);
 },
 {
 angle = -89.1;
-pos = (881,1179);
+pos = (-119,1215);
 ref = arrowmark;
-scale = (1.1,1);
+scale = (1.2,1);
+},
+{
+angle = -89.1;
+pos = (881,1239);
+ref = arrowmark;
+scale = (1.2,1);
 }
 );
-width = 1959;
+width = 1960;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-pos = (409,567);
+pos = (-73,607);
 ref = arrowmark;
+scale = (1.66,0.88);
 },
 {
-pos = (474,-590);
+pos = (-49,632);
 ref = arrowmark;
-},
-{
-angle = -89.1;
-pos = (-197,1117);
-ref = arrowmark;
+scale = (1.66,-0.88);
 },
 {
 angle = -89.1;
-pos = (973,1231);
+pos = (-174,1489);
 ref = arrowmark;
+scale = (1.66,0.88);
+},
+{
+angle = -89.1;
+pos = (861,1551);
+ref = arrowmark;
+scale = (1.66,0.88);
 }
 );
-width = 2011;
+width = 1787;
 }
 );
 metricLeft = "=equal";
