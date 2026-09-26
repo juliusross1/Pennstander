@@ -285,8 +285,6 @@ nodes = (
 width = 1081;
 }
 );
-metricLeft = six;
-metricRight = six;
 production = "sixbold-math.ssty2";
 userData = {
 com.nagwa.MATHPlugin.variants = {

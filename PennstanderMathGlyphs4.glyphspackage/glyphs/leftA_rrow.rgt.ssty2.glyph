@@ -63,8 +63,6 @@ nodes = (
 width = 715;
 }
 );
-metricLeft = "=|rightArrow.lft";
-metricRight = "=|rightArrow.lft";
 production = leftArrow.rgt.ssty2;
 tags = (
 extended

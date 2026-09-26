@@ -163,8 +163,6 @@ nodes = (
 width = 1372;
 }
 );
-metricLeft = "=EdoubleStruck";
-metricRight = K;
 production = KdoubleStruck.ssty2;
 script = math;
 userData = {

@@ -159,8 +159,6 @@ vertWidth = 1489;
 width = 1200;
 }
 );
-metricLeft = upArrow;
-metricRight = upArrow;
 metricTop = "=upArrow";
 production = upTwoHeadedArrow.ssty2;
 userData = {

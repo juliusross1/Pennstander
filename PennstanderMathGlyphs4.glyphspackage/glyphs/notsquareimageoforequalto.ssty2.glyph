@@ -147,8 +147,6 @@ nodes = (
 width = 1221;
 }
 );
-metricLeft = "=subset";
-metricRight = "=subset";
 tags = (
 isempty
 );

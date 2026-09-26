@@ -164,8 +164,6 @@ nodes = (
 width = 3052;
 }
 );
-metricLeft = nAryCircledPlusOperator.disp;
-metricRight = nAryCircledPlusOperator.disp;
 production = nAryCircledTimesOperator.disp.ssty1;
 userData = {
 com.nagwa.MATHPlugin.variants = {

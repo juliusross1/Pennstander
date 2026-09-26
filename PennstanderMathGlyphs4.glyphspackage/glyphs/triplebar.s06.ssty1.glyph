@@ -153,11 +153,9 @@ nodes = (
 );
 }
 );
-width = 945;
+width = 944;
 }
 );
-metricLeft = "=bar";
-metricRight = "=bar";
 production = triplebar.s06.ssty1;
 subCategory = Parenthesis;
 userData = {

@@ -151,8 +151,6 @@ nodes = (
 width = 1465;
 }
 );
-metricLeft = equal;
-metricRight = equal;
 tags = (
 isempty
 );

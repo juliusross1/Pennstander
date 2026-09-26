@@ -51,7 +51,7 @@ nodes = (
 );
 }
 );
-width = 1083;
+width = 1084;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -100,7 +100,7 @@ nodes = (
 );
 }
 );
-width = 992;
+width = 993;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
@@ -217,8 +217,6 @@ nodes = (
 width = 1018;
 }
 );
-metricLeft = seven;
-metricRight = seven;
 production = "sevenbold-math.ss07.ssty1";
 userData = {
 com.nagwa.MATHPlugin.variants = {

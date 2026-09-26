@@ -173,8 +173,6 @@ nodes = (
 width = 1722;
 }
 );
-metricLeft = "=plus.circled";
-metricRight = "=plus.circled";
 subCategory = Arrow;
 userData = {
 com.nagwa.MATHPlugin.variants = {

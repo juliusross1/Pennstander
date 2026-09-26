@@ -204,8 +204,6 @@ triplebar.top,
 width = 1848;
 }
 );
-metricLeft = "=bar";
-metricRight = "=bar";
 subCategory = Parenthesis;
 userData = {
 com.nagwa.MATHPlugin.variants = {

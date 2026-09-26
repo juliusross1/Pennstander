@@ -133,8 +133,6 @@ nodes = (
 width = 1820;
 }
 );
-metricLeft = "=leftArrow";
-metricRight = "=leftArrow";
 production = northWestDoubleArrow.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

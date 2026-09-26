@@ -184,7 +184,6 @@ nodes = (
 width = 1710;
 }
 );
-metricLeft = summation.disp;
 production = summationmod2.disp.ssty2;
 script = math;
 userData = {

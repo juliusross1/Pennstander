@@ -89,8 +89,6 @@ nodes = (
 width = 1226;
 }
 );
-metricLeft = "=subset";
-metricRight = "=subset";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };

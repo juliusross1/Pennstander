@@ -85,8 +85,6 @@ nodes = (
 width = 1261;
 }
 );
-metricLeft = "=equal";
-metricRight = "=equal";
 subCategory = "";
 userData = {
 com.nagwa.MATHPlugin.variants = {

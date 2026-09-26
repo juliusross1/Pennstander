@@ -75,7 +75,7 @@ nodes = (
 );
 }
 );
-width = 1130;
+width = 1126;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -153,8 +153,6 @@ nodes = (
 width = 1148;
 }
 );
-metricLeft = "=equal";
-metricRight = "=equal";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };

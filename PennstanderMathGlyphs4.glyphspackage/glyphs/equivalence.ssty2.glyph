@@ -183,8 +183,6 @@ equivalence.rgt,
 width = 982;
 }
 );
-metricLeft = equal;
-metricRight = equal;
 production = equivalence.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

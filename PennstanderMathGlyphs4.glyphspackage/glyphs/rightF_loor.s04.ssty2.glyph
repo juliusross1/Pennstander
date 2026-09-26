@@ -76,8 +76,6 @@ nodes = (
 width = 760;
 }
 );
-metricLeft = "=bracketright.004";
-metricRight = "=bracketright.004";
 production = rightFloor.s04.ssty2;
 subCategory = Parenthesis;
 userData = {

@@ -110,8 +110,6 @@ nodes = (
 width = 721;
 }
 );
-metricLeft = "=bar";
-metricRight = "=bar";
 production = doublebar.s05.ssty2;
 subCategory = Parenthesis;
 userData = {

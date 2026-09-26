@@ -155,8 +155,6 @@ nodes = (
 width = 2009;
 }
 );
-metricLeft = "=|rightTwoheadedArrow.rgt";
-metricRight = "=|rightTwoheadedArrow.rgt";
 production = leftTwoheadedArrow.lft.ssty2;
 tags = (
 extended

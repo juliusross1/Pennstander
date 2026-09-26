@@ -82,7 +82,7 @@ nodes = (
 );
 }
 );
-width = 1476;
+width = 1470;
 },
 {
 anchors = (
@@ -166,7 +166,6 @@ nodes = (
 width = 1672;
 }
 );
-metricRight = H;
 production = Hscript.ssty1;
 script = math;
 userData = {

@@ -143,8 +143,6 @@ nodes = (
 width = 1250;
 }
 );
-metricLeft = "=T";
-metricRight = "=T";
 production = TdoubleStruck.ssty2;
 script = math;
 userData = {

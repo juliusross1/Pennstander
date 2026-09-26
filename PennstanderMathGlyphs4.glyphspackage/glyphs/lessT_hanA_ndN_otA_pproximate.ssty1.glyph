@@ -120,7 +120,7 @@ nodes = (
 );
 }
 );
-width = 944;
+width = 940;
 },
 {
 anchors = (
@@ -243,8 +243,6 @@ nodes = (
 width = 1035;
 }
 );
-metricLeft = "=less";
-metricRight = "=less";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };

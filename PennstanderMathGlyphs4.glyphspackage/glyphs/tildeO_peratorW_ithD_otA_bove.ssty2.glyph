@@ -139,8 +139,6 @@ nodes = (
 width = 996;
 }
 );
-metricLeft = "=tilde";
-metricRight = "=tilde";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };

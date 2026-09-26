@@ -65,8 +65,6 @@ nodes = (
 width = 1313;
 }
 );
-metricLeft = "=logicaland";
-metricRight = "=logicaland";
 tags = (
 isempty
 );

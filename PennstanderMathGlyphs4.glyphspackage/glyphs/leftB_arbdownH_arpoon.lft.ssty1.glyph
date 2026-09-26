@@ -100,7 +100,6 @@ nodes = (
 width = 1363;
 }
 );
-metricLeft = "=leftArrow";
 production = leftBarbdownHarpoon.lft.ssty1;
 subCategory = Arrow;
 tags = (

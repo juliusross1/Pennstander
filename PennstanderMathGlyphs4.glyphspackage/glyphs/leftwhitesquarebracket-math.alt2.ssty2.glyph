@@ -155,8 +155,6 @@ vAssembly = (
 width = 1208;
 }
 );
-metricLeft = "=bracketleft";
-metricRight = "=bracketleft";
 production = "leftwhitesquarebracket-math.alt2.ssty2";
 userData = {
 com.nagwa.MATHPlugin.variants = {

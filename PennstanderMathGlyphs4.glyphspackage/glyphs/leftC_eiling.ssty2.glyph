@@ -123,8 +123,6 @@ bracketleft.top,
 width = 760;
 }
 );
-metricLeft = "=bracketleft";
-metricRight = "=bracketleft";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 vVariants = (

@@ -119,8 +119,6 @@ nodes = (
 width = 1392;
 }
 );
-metricLeft = "=|rightHookArrow.rgt";
-metricRight = "=|rightHookArrow.rgt";
 production = leftHookArrow.lft.ssty2;
 tags = (
 extended

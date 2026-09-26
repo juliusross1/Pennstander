@@ -65,7 +65,6 @@ nodes = (
 width = 1420;
 }
 );
-metricLeft = equal;
 tags = (
 extended
 );

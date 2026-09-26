@@ -143,7 +143,6 @@ height = 240;
 width = 819;
 }
 );
-metricLeft = "=bracketright";
 production = "rightwhitesquarebracket-math.s07.ssty2";
 userData = {
 RMXScaler = {

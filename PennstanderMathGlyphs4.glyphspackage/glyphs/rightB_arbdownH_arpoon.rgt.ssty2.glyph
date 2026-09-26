@@ -99,7 +99,6 @@ nodes = (
 width = 1363;
 }
 );
-metricRight = "=rightArrow";
 production = rightBarbdownHarpoon.rgt.ssty2;
 tags = (
 extended

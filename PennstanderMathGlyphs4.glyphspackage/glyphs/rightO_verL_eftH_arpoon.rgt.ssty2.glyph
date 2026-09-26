@@ -147,7 +147,6 @@ nodes = (
 width = 1350;
 }
 );
-metricRight = rightArrow;
 production = rightOverLeftHarpoon.rgt.ssty2;
 tags = (
 extended

@@ -165,8 +165,6 @@ nodes = (
 width = 1880;
 }
 );
-metricLeft = "=nArySquareIntersectionOperator";
-metricRight = "=nArySquareIntersectionOperator";
 production = naryintersection.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

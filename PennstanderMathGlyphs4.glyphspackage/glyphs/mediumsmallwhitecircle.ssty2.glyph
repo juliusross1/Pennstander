@@ -4,8 +4,6 @@ glyphname = mediumsmallwhitecircle.ssty2;
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-metricLeft = "=plus.circled";
-metricRight = "=plus.circled";
 shapes = (
 {
 closed = 1;
@@ -85,8 +83,6 @@ nodes = (
 width = 1838;
 }
 );
-metricLeft = "=plus.circled";
-metricRight = "=plus.circled";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };

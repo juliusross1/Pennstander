@@ -129,8 +129,6 @@ nodes = (
 width = 2008;
 }
 );
-metricLeft = rightArrow;
-metricRight = rightArrow;
 production = northEastArrowWithHook.ssty2;
 subCategory = Arrow;
 userData = {

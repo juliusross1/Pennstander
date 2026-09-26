@@ -149,8 +149,6 @@ nodes = (
 width = 1380;
 }
 );
-metricLeft = "=less";
-metricRight = "=greater";
 tags = (
 isempty
 );

@@ -32,7 +32,7 @@ pos = (167,0);
 ref = _smart.braceright;
 }
 );
-width = 942;
+width = 1098;
 }
 );
 metricLeft = "=|braceleft.s10";

@@ -6,46 +6,47 @@ layers = (
 anchors = (
 {
 name = math.ic;
-pos = (3267,-898);
+pos = (3112,-898);
 }
 );
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
+pos = (-155,0);
 ref = contourIntegral.alt2.disp;
 },
 {
 alignment = -1;
 angle = -8;
-pos = (322,1385);
+pos = (167,1385);
 ref = _clockwiseintegralarrow.disp;
 scale = (1,-1);
 }
 );
-width = 2262;
+width = 2107;
 },
 {
 anchors = (
 {
 name = math.ic;
-pos = (2803,-480);
+pos = (3359,-480);
 }
 );
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-pos = (-186,0);
+pos = (370,0);
 ref = contourIntegral.alt2.disp;
 },
 {
 alignment = -1;
 angle = -30;
-pos = (123,1659);
+pos = (679,1659);
 ref = _clockwiseintegralarrow.disp;
 scale = (1,-1);
 }
 );
-width = 2062;
+width = 2618;
 }
 );
 metricLeft = "=counterclockwisecontourIntegral.disp";

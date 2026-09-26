@@ -201,8 +201,6 @@ nodes = (
 width = 2383;
 }
 );
-metricLeft = "=leftArrow";
-metricRight = "=rightArrow";
 production = leftRightVerticalStrokeArrow.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

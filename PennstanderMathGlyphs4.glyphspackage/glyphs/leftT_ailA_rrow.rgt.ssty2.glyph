@@ -131,7 +131,6 @@ nodes = (
 width = 1042;
 }
 );
-metricRight = "=leftArrow";
 production = leftTailArrow.rgt.ssty2;
 tags = (
 extended

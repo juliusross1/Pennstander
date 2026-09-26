@@ -85,8 +85,6 @@ nodes = (
 width = 981;
 }
 );
-metricLeft = "=equal";
-metricRight = "=equal";
 production = largeDownTack.ssty2;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;

@@ -217,8 +217,6 @@ nodes = (
 width = 1018;
 }
 );
-metricLeft = seven;
-metricRight = seven;
 production = "sevenbold-math.ss07.ssty2";
 userData = {
 com.nagwa.MATHPlugin.variants = {

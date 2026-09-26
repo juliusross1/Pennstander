@@ -4,8 +4,6 @@ glyphname = veeunderbar.ssty2;
 layers = (
 {
 layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-metricLeft = "=logicalor";
-metricRight = "=logicalor";
 shapes = (
 {
 closed = 1;

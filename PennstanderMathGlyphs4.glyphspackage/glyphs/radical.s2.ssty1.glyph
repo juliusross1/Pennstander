@@ -74,7 +74,6 @@ nodes = (
 width = 1684;
 }
 );
-metricLeft = "=radical";
 note = uni221A.s2;
 production = radical.s2.ssty1;
 userData = {

@@ -137,8 +137,6 @@ nodes = (
 width = 921;
 }
 );
-metricLeft = "=braceleft.s1";
-metricRight = "=braceleft.s1";
 subCategory = Parenthesis;
 userData = {
 RMXScaler = {

@@ -183,8 +183,6 @@ nodes = (
 width = 1661;
 }
 );
-metricLeft = summation;
-metricRight = "=summation";
 production = summationmod2.ssty2;
 userData = {
 com.nagwa.MATHPlugin.extendedShape = 1;

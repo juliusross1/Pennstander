@@ -229,8 +229,6 @@ braceright.top,
 width = 729;
 }
 );
-metricLeft = "=|braceleft";
-metricRight = "=|braceleft";
 production = braceright.ssty2;
 subCategory = Parenthesis;
 userData = {

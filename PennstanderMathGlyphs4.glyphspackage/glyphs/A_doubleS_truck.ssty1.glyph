@@ -85,7 +85,7 @@ nodes = (
 );
 }
 );
-width = 1235;
+width = 1231;
 },
 {
 anchors = (
@@ -171,7 +171,6 @@ nodes = (
 width = 1598;
 }
 );
-metricRight = "=A";
 production = AdoubleStruck.ssty1;
 script = math;
 userData = {

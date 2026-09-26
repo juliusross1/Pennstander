@@ -139,7 +139,6 @@ nodes = (
 width = 1314;
 }
 );
-metricLeft = U;
 production = UdoubleStruck.ssty1;
 script = math;
 userData = {

@@ -169,7 +169,6 @@ nodes = (
 width = 1274;
 }
 );
-metricLeft = Z;
 production = ZdoubleStruck.ssty1;
 script = math;
 userData = {

@@ -149,7 +149,6 @@ nodes = (
 width = 1335;
 }
 );
-metricRight = "=Y";
 production = YdoubleStruck.ssty2;
 script = math;
 userData = {

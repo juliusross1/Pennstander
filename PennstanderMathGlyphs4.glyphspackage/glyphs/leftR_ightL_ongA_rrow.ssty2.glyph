@@ -155,8 +155,6 @@ nodes = (
 width = 3541;
 }
 );
-metricLeft = leftArrow;
-metricRight = rightArrow;
 production = leftRightLongArrow.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

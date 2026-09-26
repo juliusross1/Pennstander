@@ -64,7 +64,6 @@ nodes = (
 width = 820;
 }
 );
-metricRight = "=leftArrow";
 production = leftBarbdownHarpoon.rgt.ssty2;
 subCategory = Arrow;
 userData = {

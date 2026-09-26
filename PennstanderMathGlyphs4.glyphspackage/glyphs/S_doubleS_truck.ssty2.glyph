@@ -191,7 +191,6 @@ nodes = (
 width = 1206;
 }
 );
-metricLeft = S;
 production = SdoubleStruck.ssty2;
 script = math;
 userData = {

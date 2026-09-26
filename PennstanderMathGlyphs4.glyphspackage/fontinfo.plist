@@ -9437,7 +9437,7 @@ name = Thin;
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
-GSOffsetHorizontal = -10;
+GSOffsetHorizontal = 15;
 GSOffsetKeepCompatible = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 0;
@@ -9502,6 +9502,7 @@ UpperLimitBaselineRiseMin = 400;
 UpperLimitGapMin = 300;
 };
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -9606,7 +9607,7 @@ userData = {
 GSCornerRadius = 200;
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
-GSOffsetHorizontal = 70;
+GSOffsetHorizontal = -20;
 GSOffsetKeepCompatible = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 100;

@@ -166,7 +166,6 @@ nodes = (
 width = 1672;
 }
 );
-metricRight = H;
 production = Hscript.ssty2;
 script = math;
 userData = {

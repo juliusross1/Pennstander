@@ -24,10 +24,11 @@ piece = {
 Height = 120;
 rand1 = 1;
 };
+pos = (-83,0);
 ref = _smart.rightanglebracket;
 }
 );
-width = 1471;
+width = 1324;
 }
 );
 metricLeft = "=|leftanglebracket-math";

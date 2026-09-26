@@ -107,8 +107,6 @@ nodes = (
 width = 1221;
 }
 );
-metricLeft = "=logicaland";
-metricRight = "=logicaland";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };

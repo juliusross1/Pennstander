@@ -65,8 +65,6 @@ nodes = (
 width = 1313;
 }
 );
-metricLeft = "=logicalor";
-metricRight = "=logicalor";
 tags = (
 isempty
 );

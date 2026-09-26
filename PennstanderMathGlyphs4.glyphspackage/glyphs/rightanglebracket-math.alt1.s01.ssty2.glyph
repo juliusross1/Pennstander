@@ -81,8 +81,6 @@ nodes = (
 width = 836;
 }
 );
-metricLeft = "=|leftanglebracket-math";
-metricRight = "=|leftanglebracket-math";
 production = "rightanglebracket-math.alt1.s01.ssty2";
 userData = {
 com.nagwa.MATHPlugin.variants = {

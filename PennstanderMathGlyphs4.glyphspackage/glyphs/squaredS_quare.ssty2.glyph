@@ -219,8 +219,6 @@ nodes = (
 width = 1528;
 }
 );
-metricLeft = "=squareddotoperator";
-metricRight = "=squareddotoperator";
 tags = (
 isempty
 );

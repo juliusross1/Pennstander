@@ -181,8 +181,6 @@ nodes = (
 width = 1368;
 }
 );
-metricLeft = "=intersection";
-metricRight = "=intersection";
 tags = (
 isempty
 );

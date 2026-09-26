@@ -73,8 +73,6 @@ nodes = (
 width = 914;
 }
 );
-metricLeft = "=upArrow";
-metricRight = bar;
 production = downBarbLeftHarpoon.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

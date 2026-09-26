@@ -142,8 +142,6 @@ nodes = (
 width = 2205;
 }
 );
-metricLeft = "=singleintegral.disp";
-metricRight = "=singleintegral.disp";
 production = singleintegral.alt3.disp.ssty2;
 subCategory = Halfform;
 tags = (

@@ -158,8 +158,6 @@ doublebar.top,
 width = 721;
 }
 );
-metricLeft = bar;
-metricRight = bar;
 production = doublebar.ssty2;
 subCategory = Parenthesis;
 userData = {

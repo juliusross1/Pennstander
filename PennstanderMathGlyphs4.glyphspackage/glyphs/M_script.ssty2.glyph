@@ -216,7 +216,6 @@ nodes = (
 width = 2326;
 }
 );
-metricLeft = "=Escript";
 production = Mscript.ssty2;
 script = math;
 userData = {

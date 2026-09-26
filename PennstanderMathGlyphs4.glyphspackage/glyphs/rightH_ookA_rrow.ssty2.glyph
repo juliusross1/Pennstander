@@ -177,8 +177,6 @@ rightHookArrow.rgt,
 width = 2178;
 }
 );
-metricLeft = rightArrow;
-metricRight = rightArrow;
 production = rightHookArrow.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

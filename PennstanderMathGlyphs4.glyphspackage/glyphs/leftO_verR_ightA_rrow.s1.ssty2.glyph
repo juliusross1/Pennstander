@@ -200,8 +200,6 @@ nodes = (
 width = 2260;
 }
 );
-metricLeft = "=leftArrow";
-metricRight = "=rightArrow";
 production = leftOverRightArrow.s1.ssty2;
 subCategory = Arrow;
 userData = {

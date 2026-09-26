@@ -151,7 +151,6 @@ nodes = (
 width = 870;
 }
 );
-metricRight = "=|rightArrow";
 production = leftDoubleArrowFromBar.rgt.ssty2;
 subCategory = Arrow;
 tags = (

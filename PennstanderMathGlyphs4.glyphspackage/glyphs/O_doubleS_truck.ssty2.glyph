@@ -163,8 +163,6 @@ nodes = (
 width = 1384;
 }
 );
-metricLeft = O;
-metricRight = O;
 production = OdoubleStruck.ssty2;
 script = math;
 userData = {

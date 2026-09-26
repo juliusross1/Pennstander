@@ -21,10 +21,11 @@ alignment = -1;
 piece = {
 Height = 40;
 };
+pos = (-69,0);
 ref = _smart.rightanglebracket;
 }
 );
-width = 994;
+width = 883;
 }
 );
 metricLeft = "=|leftanglebracket-math";

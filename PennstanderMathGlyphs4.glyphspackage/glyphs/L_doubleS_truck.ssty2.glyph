@@ -139,8 +139,6 @@ nodes = (
 width = 1286;
 }
 );
-metricLeft = "=EdoubleStruck";
-metricRight = "=EdoubleStruck";
 production = LdoubleStruck.ssty2;
 script = math;
 userData = {

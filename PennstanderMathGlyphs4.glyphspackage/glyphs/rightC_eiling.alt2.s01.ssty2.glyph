@@ -75,8 +75,6 @@ nodes = (
 width = 768;
 }
 );
-metricLeft = "=bracketright.001";
-metricRight = "=bracketright.001";
 production = rightCeiling.alt2.s01.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

@@ -133,7 +133,6 @@ nodes = (
 width = 826;
 }
 );
-metricLeft = "=bracketright";
 production = "rightwhitesquarebracket-math.s11.ssty2";
 userData = {
 RMXScaler = {

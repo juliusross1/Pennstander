@@ -103,7 +103,6 @@ nodes = (
 width = 1030;
 }
 );
-metricLeft = "=rightFrombarArrow";
 production = rightFrombarArrow.lft.ssty2;
 tags = (
 extended

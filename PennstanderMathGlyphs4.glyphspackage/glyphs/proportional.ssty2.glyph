@@ -85,8 +85,6 @@ nodes = (
 width = 1484;
 }
 );
-metricLeft = "=equal";
-metricRight = "=equal";
 tags = (
 "looks bad on Black"
 );

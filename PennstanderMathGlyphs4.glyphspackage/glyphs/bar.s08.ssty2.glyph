@@ -64,8 +64,6 @@ nodes = (
 width = 419;
 }
 );
-metricLeft = "=bar";
-metricRight = "=bar";
 production = bar.s08.ssty2;
 subCategory = Parenthesis;
 userData = {

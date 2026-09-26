@@ -73,8 +73,6 @@ nodes = (
 width = 1740;
 }
 );
-metricLeft = "=nArySquareIntersectionOperator.disp";
-metricRight = "=nArySquareIntersectionOperator.disp";
 production = nArySquareUnionOperator.disp.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

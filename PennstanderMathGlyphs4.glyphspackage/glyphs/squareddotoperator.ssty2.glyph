@@ -129,8 +129,6 @@ nodes = (
 width = 1528;
 }
 );
-metricLeft = "=squareddotoperator";
-metricRight = "=squareddotoperator";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };

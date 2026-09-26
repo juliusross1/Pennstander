@@ -99,8 +99,6 @@ minus.rgt,
 width = 999;
 }
 );
-metricLeft = "=equal";
-metricRight = "=equal";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 hVariants = (

@@ -58,7 +58,7 @@ nodes = (
 );
 }
 );
-width = 1137;
+width = 1138;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -119,7 +119,6 @@ nodes = (
 width = 1392;
 }
 );
-metricRight = "=rightArrow";
 production = rightHookArrow.rgt.ssty1;
 tags = (
 extended

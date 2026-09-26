@@ -131,8 +131,6 @@ nodes = (
 width = 1784;
 }
 );
-metricLeft = "=upArrow";
-metricRight = "=upArrow";
 userData = {
 com.nagwa.MATHPlugin.variants = {
 };

@@ -153,8 +153,6 @@ nodes = (
 width = 1299;
 }
 );
-metricLeft = O;
-metricRight = O;
 production = Schwa.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

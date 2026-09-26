@@ -138,8 +138,6 @@ width = 1661;
 }
 );
 metricBottom = "=upArrow";
-metricLeft = "=upArrow";
-metricRight = "=upArrow";
 metricTop = "=upArrow";
 metricVertWidth = "=upArrow";
 production = upDoubleArrow.ssty2;

@@ -119,8 +119,6 @@ nodes = (
 width = 873;
 }
 );
-metricLeft = "=j";
-metricRight = "=j";
 production = jdotless.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

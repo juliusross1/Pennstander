@@ -115,8 +115,6 @@ nodes = (
 width = 1166;
 }
 );
-metricLeft = "=|element";
-metricRight = "=|element";
 production = containsasmember.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

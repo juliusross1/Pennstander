@@ -193,8 +193,6 @@ leftFrombarArrow.rgt,
 width = 1921;
 }
 );
-metricLeft = "=leftArrow";
-metricRight = "=leftArrow";
 production = leftFrombarArrow.ssty2;
 tags = (
 "Needs extended version"

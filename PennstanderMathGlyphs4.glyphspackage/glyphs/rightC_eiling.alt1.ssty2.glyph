@@ -123,8 +123,6 @@ bracketright.top,
 width = 730;
 }
 );
-metricLeft = "=bracketright";
-metricRight = "=bracketright";
 production = rightCeiling.alt1.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

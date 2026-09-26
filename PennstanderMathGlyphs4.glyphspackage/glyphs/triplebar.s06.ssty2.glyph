@@ -156,8 +156,6 @@ nodes = (
 width = 1005;
 }
 );
-metricLeft = "=bar";
-metricRight = "=bar";
 production = triplebar.s06.ssty2;
 subCategory = Parenthesis;
 userData = {

@@ -193,8 +193,6 @@ singleintegral.top,
 width = 1701;
 }
 );
-metricLeft = "=singleintegral";
-metricRight = "=singleintegral";
 production = singleintegral.alt3.ssty2;
 subCategory = Halfform;
 tags = (

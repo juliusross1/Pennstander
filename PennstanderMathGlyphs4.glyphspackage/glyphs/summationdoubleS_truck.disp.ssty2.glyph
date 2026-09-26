@@ -166,8 +166,6 @@ nodes = (
 width = 1784;
 }
 );
-metricLeft = summation.disp;
-metricRight = "=summation.disp";
 production = summationdoubleStruck.disp.ssty2;
 script = math;
 subCategory = Other;

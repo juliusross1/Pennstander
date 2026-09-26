@@ -153,8 +153,6 @@ leftArrow.rgt,
 width = 3193;
 }
 );
-metricLeft = rightArrow;
-metricRight = rightArrow;
 production = rightLongArrow.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

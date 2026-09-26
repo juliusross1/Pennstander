@@ -63,7 +63,6 @@ nodes = (
 width = 730;
 }
 );
-metricRight = "=leftArrow";
 production = leftBarbUpHarpoon.rgt.ssty2;
 tags = (
 extended

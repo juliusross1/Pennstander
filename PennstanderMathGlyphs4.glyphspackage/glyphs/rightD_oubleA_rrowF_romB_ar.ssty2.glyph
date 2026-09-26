@@ -221,8 +221,6 @@ rightDoubleArrow.rgt,
 width = 1985;
 }
 );
-metricLeft = rightArrow;
-metricRight = rightArrow;
 production = rightDoubleArrowFromBar.ssty2;
 subCategory = Arrow;
 tags = (

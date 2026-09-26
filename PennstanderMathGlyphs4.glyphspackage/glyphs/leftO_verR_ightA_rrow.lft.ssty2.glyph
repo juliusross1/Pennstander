@@ -168,7 +168,6 @@ nodes = (
 width = 1533;
 }
 );
-metricLeft = leftArrow;
 production = leftOverRightArrow.lft.ssty2;
 subCategory = Arrow;
 tags = (

@@ -147,7 +147,6 @@ nodes = (
 width = 1350;
 }
 );
-metricLeft = "=leftArrow";
 production = leftOverRightHarpoon.lft.ssty1;
 tags = (
 extended

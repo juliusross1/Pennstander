@@ -166,8 +166,6 @@ nodes = (
 width = 1486;
 }
 );
-metricLeft = summation;
-metricRight = summation;
 production = summationdoubleStruck.ssty2;
 script = math;
 userData = {

@@ -173,8 +173,6 @@ nodes = (
 width = 3385;
 }
 );
-metricLeft = "=|leftLongDoubleFromBarArrow";
-metricRight = "=|leftLongDoubleFromBarArrow";
 production = rightLongDoubleFromBarArrow.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

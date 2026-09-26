@@ -45,7 +45,7 @@ nodes = (
 );
 }
 );
-width = 1253;
+width = 1246;
 }
 );
 metricLeft = "=equal";

@@ -129,8 +129,6 @@ nodes = (
 width = 2177;
 }
 );
-metricLeft = OperatorCircle.component;
-metricRight = OperatorCircle.component;
 production = nAryCircledDotOperator.ssty1;
 userData = {
 com.nagwa.MATHPlugin.variants = {

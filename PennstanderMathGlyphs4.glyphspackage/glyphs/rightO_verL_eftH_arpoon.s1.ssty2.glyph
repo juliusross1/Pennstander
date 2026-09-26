@@ -155,8 +155,6 @@ nodes = (
 width = 2488;
 }
 );
-metricLeft = "=leftArrow";
-metricRight = "=rightArrow";
 production = rightOverLeftHarpoon.s1.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

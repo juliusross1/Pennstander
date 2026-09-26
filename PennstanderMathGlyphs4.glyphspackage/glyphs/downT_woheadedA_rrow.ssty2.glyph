@@ -155,8 +155,6 @@ nodes = (
 width = 1192;
 }
 );
-metricLeft = "=upArrow";
-metricRight = "=upArrow";
 metricVertWidth = "=upArrow";
 production = downTwoheadedArrow.ssty2;
 userData = {

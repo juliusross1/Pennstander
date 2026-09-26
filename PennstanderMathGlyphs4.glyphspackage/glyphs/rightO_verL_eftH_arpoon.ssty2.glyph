@@ -179,8 +179,6 @@ rightOverLeftHarpoon.rgt,
 width = 1988;
 }
 );
-metricLeft = "=leftArrow";
-metricRight = "=rightArrow";
 production = rightOverLeftHarpoon.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

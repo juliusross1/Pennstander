@@ -121,8 +121,6 @@ leftBarbUpHarpoon.rgt,
 width = 1893;
 }
 );
-metricLeft = "=leftArrow";
-metricRight = "=leftArrow";
 production = leftBarbUpHarpoon.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

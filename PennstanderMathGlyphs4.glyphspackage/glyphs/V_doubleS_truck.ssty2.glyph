@@ -178,8 +178,6 @@ nodes = (
 width = 1203;
 }
 );
-metricLeft = "=V";
-metricRight = "=V";
 production = VdoubleStruck.ssty2;
 script = math;
 userData = {

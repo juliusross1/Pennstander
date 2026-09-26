@@ -144,8 +144,6 @@ nodes = (
 width = 1687;
 }
 );
-metricLeft = "=Escript";
-metricRight = U;
 production = Uscript.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

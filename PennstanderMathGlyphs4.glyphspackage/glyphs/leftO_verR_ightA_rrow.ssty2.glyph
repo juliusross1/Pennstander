@@ -244,8 +244,6 @@ leftOverRightArrow.rgt,
 width = 2340;
 }
 );
-metricLeft = "=leftArrow";
-metricRight = "=rightArrow";
 production = leftOverRightArrow.ssty2;
 subCategory = Arrow;
 userData = {

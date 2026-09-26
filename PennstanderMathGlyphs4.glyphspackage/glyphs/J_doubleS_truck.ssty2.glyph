@@ -140,8 +140,6 @@ nodes = (
 width = 1278;
 }
 );
-metricLeft = J;
-metricRight = J;
 production = JdoubleStruck.ssty2;
 script = math;
 userData = {

@@ -191,8 +191,6 @@ com.nagwa.MATHPlugin.variants = {
 width = 2985;
 }
 );
-metricLeft = "=leftArrow";
-metricRight = "=rightArrow";
 production = leftRightLongDoubleArrow.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {

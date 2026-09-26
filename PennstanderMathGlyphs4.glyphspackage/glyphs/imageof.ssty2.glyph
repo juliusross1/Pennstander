@@ -173,8 +173,6 @@ nodes = (
 width = 1528;
 }
 );
-metricLeft = "=equal";
-metricRight = "=equal";
 production = imageof.ssty2;
 userData = {
 com.nagwa.MATHPlugin.variants = {
