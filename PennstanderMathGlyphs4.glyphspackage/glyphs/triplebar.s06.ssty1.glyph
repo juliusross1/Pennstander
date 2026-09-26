@@ -153,7 +153,7 @@ nodes = (
 );
 }
 );
-width = 944;
+width = 945;
 }
 );
 metricLeft = "=bar";

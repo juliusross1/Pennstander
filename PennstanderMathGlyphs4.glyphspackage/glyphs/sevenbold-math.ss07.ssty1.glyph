@@ -51,7 +51,7 @@ nodes = (
 );
 }
 );
-width = 1084;
+width = 1083;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -100,7 +100,7 @@ nodes = (
 );
 }
 );
-width = 993;
+width = 992;
 },
 {
 associatedMasterId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
