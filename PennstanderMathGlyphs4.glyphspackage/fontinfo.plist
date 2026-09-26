@@ -9211,7 +9211,6 @@ sub xor from [xor.ssty1 xor.ssty2];
 sub zNotationDomainAntirestriction from [zNotationDomainAntirestriction.ssty1 zNotationDomainAntirestriction.ssty2];
 sub zNotationRangeAntirestriction from [zNotationRangeAntirestriction.ssty1 zNotationRangeAntirestriction.ssty2];
 sub zNotationRelationalComposition from [zNotationRelationalComposition.ssty1 zNotationRelationalComposition.ssty2];
-sub zNotationSchemaComposition from [zNotationSchemaComposition.ssty1 zNotationSchemaComposition.ssty2];
 sub zNotationSchemaPiping from [zNotationSchemaPiping.ssty1 zNotationSchemaPiping.ssty2];
 sub zNotationSchemaProjection from [zNotationSchemaProjection.ssty1 zNotationSchemaProjection.ssty2];
 sub leftToBarOverRightToBarArrow from [leftToBarOverRightToBarArrow.ssty1 leftToBarOverRightToBarArrow.ssty2];
