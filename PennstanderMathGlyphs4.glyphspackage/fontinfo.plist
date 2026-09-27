@@ -6514,6 +6514,7 @@ features = (
 automatic = 1;
 code = "feature dtls;
 feature frac;
+feature rvrn;
 feature zero;
 feature ss01;
 feature ss02;
@@ -6521,9 +6522,10 @@ feature ss03;
 feature ss04;
 feature ss05;
 feature ss07;
+feature ss08;
 feature ss20;
 feature ssty;
-feature cv05;
+feature ss06;
 ";
 tag = aalt;
 },
@@ -6550,7 +6552,7 @@ tag = dtls;
 {
 automatic = 1;
 code = "lookup ccmp_DFLT_1 {
-	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb leftangleabovecomb macroncomb ringcomb tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
@@ -6587,11 +6589,12 @@ tag = ccmp;
 {
 automatic = 1;
 code = "script latn;
+
 language CAT;
-lookup locl_latn_0 {
+lookup puntvolat {
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_0;
+} puntvolat;
 ";
 disabled = 1;
 tag = locl;
@@ -8407,6 +8410,7 @@ sub lbolditalic-math.ss03 from [lbolditalic-math.ss03.ssty1 lbolditalic-math.ss0
 sub tbolditalic-math.ss03 from [tbolditalic-math.ss03.ssty1 tbolditalic-math.ss03.ssty2];
 sub gradientbolditalic-math from [gradientbolditalic-math.ssty1 gradientbolditalic-math.ssty2];
 sub cup from [cup.ssty1 cup.ssty2];
+sub hbar from [hbar.ssty1 hbar.ssty2];
 sub fallingDiagonal-math from [fallingDiagonal-math.ssty1 fallingDiagonal-math.ssty2];
 sub epsilonLunateReversedSymbol from [epsilonLunateReversedSymbol.ssty1 epsilonLunateReversedSymbol.ssty2];
 sub summationmod2.disp from [summationmod2.disp.ssty1 summationmod2.disp.ssty2];
@@ -8528,7 +8532,6 @@ sub asteriskmath from [asteriskmath.ssty1 asteriskmath.ssty2];
 sub asteriskoperator.circled from [asteriskoperator.circled.ssty1 asteriskoperator.circled.ssty2];
 sub asymptoticallyequal from [asymptoticallyequal.ssty1 asymptoticallyequal.ssty2];
 sub bar.circled from [bar.circled.ssty1 bar.circled.ssty2];
-sub because from [because.ssty1 because.ssty2];
 sub betsymbol from [betsymbol.ssty1 betsymbol.ssty2];
 sub between from [between.ssty1 between.ssty2];
 sub bigReverseSolidus from [bigReverseSolidus.ssty1 bigReverseSolidus.ssty2];
@@ -9083,7 +9086,6 @@ sub squareoriginalof from [squareoriginalof.ssty1 squareoriginalof.ssty2];
 sub squareoriginaloforequalto from [squareoriginaloforequalto.ssty1 squareoriginaloforequalto.ssty2];
 sub squareoriginalofornotequalto from [squareoriginalofornotequalto.ssty1 squareoriginalofornotequalto.ssty2];
 sub starequals from [starequals.ssty1 starequals.ssty2];
-sub staroperator from [staroperator.ssty1 staroperator.ssty2];
 sub strictlyequivalentto from [strictlyequivalentto.ssty1 strictlyequivalentto.ssty2];
 sub subset from [subset.ssty1 subset.ssty2];
 sub subsetAboveSubset from [subsetAboveSubset.ssty1 subsetAboveSubset.ssty2];
@@ -9129,7 +9131,6 @@ sub supersetnotequal from [supersetnotequal.ssty1 supersetnotequal.ssty2];
 sub tackdown from [tackdown.ssty1 tackdown.ssty2];
 sub tackleft from [tackleft.ssty1 tackleft.ssty2];
 sub theredoesnotexist from [theredoesnotexist.ssty1 theredoesnotexist.ssty2];
-sub therefore from [therefore.ssty1 therefore.ssty2];
 sub thermodynamic from [thermodynamic.ssty1 thermodynamic.ssty2];
 sub threeConsecutiveEqualsSigns from [threeConsecutiveEqualsSigns.ssty1 threeConsecutiveEqualsSigns.ssty2];
 sub tildeOperatorAboveRightArrow from [tildeOperatorAboveRightArrow.ssty1 tildeOperatorAboveRightArrow.ssty2];
@@ -9256,7 +9257,6 @@ sub whiteParallelogram from [whiteParallelogram.ssty1 whiteParallelogram.ssty2];
 sub whiteRect from [whiteRect.ssty1 whiteRect.ssty2];
 sub whiteVerticalRect from [whiteVerticalRect.ssty1 whiteVerticalRect.ssty2];
 sub whiteRoundedCornersSquare from [whiteRoundedCornersSquare.ssty1 whiteRoundedCornersSquare.ssty2];
-sub whiteInBlackSquare from [whiteInBlackSquare.ssty1 whiteInBlackSquare.ssty2];
 sub whiteSmallSquare from [whiteSmallSquare.ssty1 whiteSmallSquare.ssty2];
 sub leftHalfBlackSquare from [leftHalfBlackSquare.ssty1 leftHalfBlackSquare.ssty2];
 sub rightHalfBlackSquare from [rightHalfBlackSquare.ssty1 rightHalfBlackSquare.ssty2];
@@ -9332,6 +9332,12 @@ lookup fence_alternates;
 lookup integral_alternates_withserif;
 ";
 tag = rand;
+},
+{
+automatic = 1;
+code = "sub dollar by dollar.ss06;
+";
+tag = ss06;
 }
 );
 fontMaster = (
@@ -9501,7 +9507,6 @@ UpperLimitBaselineRiseMin = 400;
 UpperLimitGapMin = 300;
 };
 };
-visible = 1;
 },
 {
 axesValues = (
