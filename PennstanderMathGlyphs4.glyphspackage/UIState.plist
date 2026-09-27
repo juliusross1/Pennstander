@@ -1,13 +1,14 @@
 {
 displayStrings = (
-"tℓℏ/hbar.ssty1/hbar.ssty2",
-"∆",
+"∑/.notdef ∫⨋",
+"⨋/summationWithIntegral.disp",
 "∹",
 "/arrowmark A⊹",
 "-⊹",
 "-⊹",
 "➛",
 "!ĳt⚠⋲⋺⊶⊷⊶⊎",
-"⧈"
+"⧈",
+"⦜"
 );
 }

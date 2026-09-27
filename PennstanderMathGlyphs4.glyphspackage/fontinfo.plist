@@ -6391,7 +6391,7 @@ sub integralWithOverbar from [integralWithOverbar integralWithOverbar.alt1 integ
 sub doubleStrokeIntegral from [doubleStrokeIntegral doubleStrokeIntegral.alt1 doubleStrokeIntegral.alt2 doubleStrokeIntegral.alt3];
 sub rectangularLineIntegral from [rectangularLineIntegral rectangularLineIntegral.alt1];
 sub counterclockwiseIntegral from [counterclockwiseIntegral counterclockwiseIntegral.alt1 counterclockwiseIntegral.alt2 counterclockwiseIntegral.alt3];
-sub timesIntegral from [timesIntegral timesIntegral.alt1 timesIntegral.alt2 timesIntegral.alt3];
+#sub timesIntegral from [timesIntegral timesIntegral.alt1 timesIntegral.alt2 timesIntegral.alt3];
 sub nopoleLineIntegral from [nopoleLineIntegral nopoleLineIntegral.alt1 nopoleLineIntegral.alt2 nopoleLineIntegral.alt3];
 sub quadrupleIntegral from [quadrupleIntegral quadrupleIntegral.alt1 quadrupleIntegral.alt2 quadrupleIntegral.alt3];
 sub volumeIntegral from [volumeIntegral volumeIntegral.alt1 volumeIntegral.alt2 volumeIntegral.alt3];
@@ -6419,7 +6419,7 @@ sub integralWithUnion by integralWithUnion.alt1;
 sub integralWithOverbar by integralWithOverbar.alt1;
 sub doubleStrokeIntegral by doubleStrokeIntegral.alt1;
 sub counterclockwiseIntegral by counterclockwiseIntegral.alt1;
-sub timesIntegral by timesIntegral.alt1;
+#sub timesIntegral by timesIntegral.alt1;
 sub nopoleLineIntegral by nopoleLineIntegral.alt1;
 sub quadrupleIntegral by quadrupleIntegral.alt1;
 sub rectangularLineIntegral by rectangularLineIntegral.alt1;
@@ -6667,6 +6667,9 @@ code = "#ifdef VARIABLE
 condition 700 < wght ;
 sub QdoubleStruck by QdoubleStruck.heavy;
 sub multiset by multiset.heavy;
+
+condition 600<wght;
+sub summationWithIntegral by summationWithIntegral.heavy
 
 condition 500 < wght ;
 sub dollar.ss06 by dollar;
@@ -9111,8 +9114,6 @@ sub succeedsorequalto from [succeedsorequalto.ssty1 succeedsorequalto.ssty2];
 sub succeedsorequivalentto from [succeedsorequivalentto.ssty1 succeedsorequivalentto.ssty2];
 sub succeedsunderrelation from [succeedsunderrelation.ssty1 succeedsunderrelation.ssty2];
 sub containsasmember from [containsasmember.ssty1 containsasmember.ssty2];
-sub summationWithIntegral.disp from [summationWithIntegral.disp.ssty1 summationWithIntegral.disp.ssty2];
-sub summationWithIntegral from [summationWithIntegral.ssty1 summationWithIntegral.ssty2];
 sub superset from [superset.ssty1 superset.ssty2];
 sub supersetAboveSubset from [supersetAboveSubset.ssty1 supersetAboveSubset.ssty2];
 sub supersetAboveSuperset from [supersetAboveSuperset.ssty1 supersetAboveSuperset.ssty2];
@@ -9705,6 +9706,7 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 1;
 };
@@ -9724,6 +9726,7 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.125;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.875;
@@ -9744,6 +9747,7 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.25;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.75;
@@ -9775,6 +9779,7 @@ name = "Remove Overlap";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.375;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.625;
@@ -9794,6 +9799,7 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.5;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.5;
@@ -9812,8 +9818,15 @@ customParameters = (
 disabled = 1;
 name = "Disable Subroutines";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"summationWithIntegral=summationWithIntegral.heavy"
+);
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.625;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.375;
@@ -9832,7 +9845,8 @@ customParameters = (
 name = "Rename Glyphs";
 value = (
 "QdoubleStruck=QdoubleStruck.heavy",
-"multiset=multiset.heavy"
+"multiset=multiset.heavy",
+"summationWithIntegral=summationWithIntegral.heavy"
 );
 },
 {
@@ -9841,6 +9855,7 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.75;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.25;
@@ -9859,7 +9874,8 @@ customParameters = (
 name = "Rename Glyphs";
 value = (
 "QdoubleStruck=QdoubleStruck.heavy",
-"multiset=multiset.heavy"
+"multiset=multiset.heavy",
+"summationWithIntegral=summationWithIntegral.heavy"
 );
 },
 {
@@ -9868,6 +9884,7 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.875;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.125;
@@ -9886,7 +9903,8 @@ customParameters = (
 name = "Rename Glyphs";
 value = (
 "QdoubleStruck=QdoubleStruck.heavy",
-"multiset=multiset.heavy"
+"multiset=multiset.heavy",
+"summationWithIntegral=summationWithIntegral.heavy"
 );
 },
 {
