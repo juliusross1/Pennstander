@@ -16,12 +16,12 @@ width = 1531;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-pos = (1528,0);
+pos = (1529,0);
 ref = imageof;
 scale = (-1,1);
 }
 );
-width = 1528;
+width = 1529;
 }
 );
 metricLeft = equal;

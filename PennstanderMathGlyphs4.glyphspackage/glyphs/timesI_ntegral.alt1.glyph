@@ -1,6 +1,5 @@
 {
 color = 8;
-export = 0;
 glyphname = timesIntegral.alt1;
 layers = (
 {
@@ -16,8 +15,10 @@ shapes = (
 ref = _singleintegral.alt1.shorterlserifs;
 },
 {
-pos = (127,-88);
+alignment = -1;
+pos = (83,-88);
 ref = _timesIntegralcomponent;
+scale = (1.0609,1);
 }
 );
 width = 1322;
@@ -35,8 +36,9 @@ shapes = (
 ref = _singleintegral.alt1.shorterlserifs;
 },
 {
-pos = (207,51);
+pos = (416,51);
 ref = _timesIntegralcomponent;
+scale = (0.714,1);
 }
 );
 width = 1771;
