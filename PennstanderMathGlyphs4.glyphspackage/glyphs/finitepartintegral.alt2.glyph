@@ -19,6 +19,42 @@ pos = (134,-81);
 ref = _finitepartonintegral;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+finitepartintegral.bot,
+0,
+0,
+200
+),
+(
+finitepartintegral.ext,
+1,
+200,
+200
+),
+(
+finitepartintegral.mid,
+0,
+200,
+200
+),
+(
+finitepartintegral.ext,
+1,
+200,
+200
+),
+(
+finitepartintegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1489;
 },
 {
@@ -38,6 +74,42 @@ pos = (133,-58);
 ref = _finitepartonintegral;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+finitepartintegral.bot,
+0,
+0,
+200
+),
+(
+finitepartintegral.ext,
+1,
+200,
+200
+),
+(
+finitepartintegral.mid,
+0,
+200,
+200
+),
+(
+finitepartintegral.ext,
+1,
+200,
+200
+),
+(
+finitepartintegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1683;
 }
 );

@@ -19,6 +19,42 @@ pos = (62,7);
 ref = _intersectionintegral.component;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+integralWithIntersection.bot,
+0,
+0,
+200
+),
+(
+integralWithIntersection.ext,
+1,
+200,
+200
+),
+(
+integralWithIntersection.mid,
+0,
+200,
+200
+),
+(
+integralWithIntersection.ext,
+1,
+200,
+200
+),
+(
+integralWithIntersection.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1254;
 },
 {
@@ -38,6 +74,42 @@ pos = (194,-53);
 ref = _intersectionintegral.component;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+integralWithIntersection.bot,
+0,
+0,
+200
+),
+(
+integralWithIntersection.ext,
+1,
+200,
+200
+),
+(
+integralWithIntersection.mid,
+0,
+200,
+200
+),
+(
+integralWithIntersection.ext,
+1,
+200,
+200
+),
+(
+integralWithIntersection.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1701;
 }
 );

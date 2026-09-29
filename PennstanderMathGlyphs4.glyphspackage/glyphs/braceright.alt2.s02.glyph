@@ -34,8 +34,6 @@ ref = _smart.braceright;
 width = 845;
 }
 );
-metricLeft = "=|braceleft.s2";
-metricRight = "=|braceleft.s2";
 subCategory = Parenthesis;
 userData = {
 RMXScaler = {

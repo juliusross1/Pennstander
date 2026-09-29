@@ -15,6 +15,42 @@ shapes = (
 ref = timesIntegral;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+timesIntegral.bot,
+0,
+0,
+200
+),
+(
+timesIntegral.ext,
+1,
+200,
+200
+),
+(
+timesIntegral.mid,
+0,
+200,
+200
+),
+(
+timesIntegral.ext,
+1,
+200,
+200
+),
+(
+timesIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1239;
 },
 {
@@ -30,6 +66,42 @@ shapes = (
 ref = timesIntegral;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+timesIntegral.bot,
+0,
+0,
+200
+),
+(
+timesIntegral.ext,
+1,
+200,
+200
+),
+(
+timesIntegral.mid,
+0,
+200,
+200
+),
+(
+timesIntegral.ext,
+1,
+200,
+200
+),
+(
+timesIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1473;
 }
 );

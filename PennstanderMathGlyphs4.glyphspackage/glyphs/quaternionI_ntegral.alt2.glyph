@@ -19,6 +19,42 @@ pos = (155,-48);
 ref = _quaternionIntegralcomponent;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+quaternionIntegral.bot,
+0,
+0,
+200
+),
+(
+quaternionIntegral.ext,
+1,
+200,
+200
+),
+(
+quaternionIntegral.mid,
+0,
+200,
+200
+),
+(
+quaternionIntegral.ext,
+1,
+200,
+200
+),
+(
+quaternionIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1489;
 },
 {
@@ -38,6 +74,42 @@ pos = (115,26);
 ref = _quaternionIntegralcomponent;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+quaternionIntegral.bot,
+0,
+0,
+200
+),
+(
+quaternionIntegral.ext,
+1,
+200,
+200
+),
+(
+quaternionIntegral.mid,
+0,
+200,
+200
+),
+(
+quaternionIntegral.ext,
+1,
+200,
+200
+),
+(
+quaternionIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1683;
 }
 );

@@ -69,8 +69,6 @@ nodes = (
 width = 2858;
 }
 );
-metricLeft = "=integral.ext";
-metricRight = "=integral.ext";
 production = tripleIntegral.ext;
 subCategory = Halfform;
 tags = (

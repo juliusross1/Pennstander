@@ -19,6 +19,42 @@ pos = (150,-70);
 ref = _doubleStrokeIntegralcomponent;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+doubleStrokeIntegral.bot,
+0,
+0,
+200
+),
+(
+doubleStrokeIntegral.ext,
+1,
+200,
+200
+),
+(
+doubleStrokeIntegral.mid,
+0,
+200,
+200
+),
+(
+doubleStrokeIntegral.ext,
+1,
+200,
+200
+),
+(
+doubleStrokeIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1489;
 },
 {
@@ -38,6 +74,42 @@ pos = (120,-30);
 ref = _doubleStrokeIntegralcomponent;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+doubleStrokeIntegral.bot,
+0,
+0,
+200
+),
+(
+doubleStrokeIntegral.ext,
+1,
+200,
+200
+),
+(
+doubleStrokeIntegral.mid,
+0,
+200,
+200
+),
+(
+doubleStrokeIntegral.ext,
+1,
+200,
+200
+),
+(
+doubleStrokeIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1683;
 }
 );

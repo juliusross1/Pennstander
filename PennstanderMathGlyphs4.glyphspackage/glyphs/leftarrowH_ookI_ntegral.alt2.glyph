@@ -21,6 +21,42 @@ pos = (33,-11);
 ref = _hookarrowintegralcomponent;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftarrowHookIntegral.bot,
+0,
+0,
+200
+),
+(
+leftarrowHookIntegral.ext,
+1,
+200,
+200
+),
+(
+leftarrowHookIntegral.mid,
+0,
+200,
+200
+),
+(
+leftarrowHookIntegral.ext,
+1,
+200,
+200
+),
+(
+leftarrowHookIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 1407;
 },
 {
@@ -48,6 +84,42 @@ ref = _hookarrowintegralcomponent;
 scale = (0.95,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftarrowHookIntegral.bot,
+0,
+0,
+200
+),
+(
+leftarrowHookIntegral.ext,
+1,
+200,
+200
+),
+(
+leftarrowHookIntegral.mid,
+0,
+200,
+200
+),
+(
+leftarrowHookIntegral.ext,
+1,
+200,
+200
+),
+(
+leftarrowHookIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 2157;
 }
 );

@@ -136,7 +136,7 @@ nodes = (
 );
 }
 );
-width = 1528;
+width = 1529;
 }
 );
 production = imageof.ssty2;

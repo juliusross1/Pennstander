@@ -15,6 +15,42 @@ shapes = (
 ref = volumeIntegral;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+volumeIntegral.bot,
+0,
+0,
+200
+),
+(
+volumeIntegral.ext,
+1,
+200,
+200
+),
+(
+volumeIntegral.mid,
+0,
+200,
+200
+),
+(
+volumeIntegral.ext,
+1,
+200,
+200
+),
+(
+volumeIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 2550;
 },
 {
@@ -30,6 +66,42 @@ shapes = (
 ref = volumeIntegral;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+volumeIntegral.bot,
+0,
+0,
+200
+),
+(
+volumeIntegral.ext,
+1,
+200,
+200
+),
+(
+volumeIntegral.mid,
+0,
+200,
+200
+),
+(
+volumeIntegral.ext,
+1,
+200,
+200
+),
+(
+volumeIntegral.top,
+0,
+200,
+0
+)
+);
+};
+};
 width = 3510;
 }
 );

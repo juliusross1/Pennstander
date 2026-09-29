@@ -33,7 +33,6 @@ nodes = (
 width = 1748;
 }
 );
-metricRight = "=integral.bot";
 production = clockwisecontourIntegral.ext;
 script = math;
 subCategory = Halfform;

@@ -141,8 +141,7 @@ nodes = (
 width = 2854;
 }
 );
-metricLeft = "=integral.bot";
-metricRight = "=integral.bot";
+metricLeft = "=singleintegral.bot";
 production = tripleIntegral.bot;
 subCategory = Halfform;
 tags = (
