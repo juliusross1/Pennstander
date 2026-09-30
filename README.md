@@ -122,8 +122,8 @@ Pennstander and PennstanderMath have random alternates for some glyphs, which ca
 
 PennstanderMathVF.ttf is a variable font with an experimental variable MATH table. This is not an Opentype specification, but is supported in ConTeXt.  
 
-Math Weight controls the weight of the math-bold letters (0=default, 100=maximum weight)
-math slant controls the slant of the math-slant letters (0=no slant, 50=default, 100=maximum slant)
+The math weight number controls the weight of the math-bold letters (0=default, 100=maximum weight) and the
+math slant number controls the slant of the math-italic letters (0=no slant, 50=default, 100=maximum slant)
 
 Use a recent ConTeXt MKXL, with `PennstanderMathVF.ttf` installed or in the same directory as the document.  
 
@@ -154,7 +154,6 @@ Use a recent ConTeXt MKXL, with `PennstanderMathVF.ttf` installed or in the same
 ```
 
 <img src="https://github.com/juliusross1/Pennstander/blob/main/samples/pennstander-variable.png" width="650">
-
 
 In case anybody wants to use this but does not want to use variable math, there is a script that will create a static font from this variable font.  Sample usage:
 
