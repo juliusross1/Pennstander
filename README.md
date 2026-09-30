@@ -98,7 +98,7 @@ PennstanderMath has cheap optical sizing using the weight axis.   Fussy users ma
 
 ## Randoms (Experimental)
 
-Pennstander and PennstanderMath have random alternates for some glyphs, which can be used in ConTeXt to get randomness in mathematics.  Sample usages:
+Pennstander and PennstanderMath have random alternates for some glyphs, which can be used in ConTeXt to get randomness in mathematics.  Sample usage:
 
 ```
 \usetypescriptfile[type-imp-pennstander]
@@ -120,7 +120,7 @@ Pennstander and PennstanderMath have random alternates for some glyphs, which ca
 
 ## Variable Mathematics Font (Experimental)
 
-PennstanderMAathVF.ttf is a variable font with an experimental variable mathematics table (which is not an Opentype specification) that is supported in ConTeXt.  
+PennstanderMathVF.ttf is a variable font with an experimental variable MATH table. This is not an Opentype specification, but is supported in ConTeXt.  
 
 Math Weight controls the weight of the math-bold letters (0=default, 100=maximum weight)
 math slant controls the slant of the math-slant letters (0=no slant, 50=default, 100=maximum slant)
