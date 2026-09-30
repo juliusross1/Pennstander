@@ -41,7 +41,7 @@ Here is the [Pennstander Math guide](docs/pennstandermath_guide.pdf) [(download)
 This is available as [Pennstander-otf on CTAN](https://www.ctan.org/pkg/pennstander-otf) (thanks to Cédric Pierquet)
 
 ## ConTeXt
-Sample usage for ConTeXt MKXL (the required typescript and goodies files are included in the latest ConTeXt, or can be found above and placed in your working directory)
+Sample usage for ConTeXt MKXL:
 ```
 \usetypescriptfile[type-imp-pennstander]
 \setupbodyfont[pennstander]
@@ -94,6 +94,70 @@ Here is some {\bf bold}, some {\it italics} and some {\bf\it bolditalics} and an
 
 ## Cheap Optical Sizing
 PennstanderMath has cheap optical sizing using the weight axis.   Fussy users may want the text font to match this so that operators in superscripts and subscripts do not look too Thin; [here is an example of how to achieve this in luaLaTeX](/docs/cheapopticalsizing.pdf) (I am not sure what is the best way to do this in ConTeXt)
+
+
+## Randoms (Experimental)
+
+Pennstander and PennstanderMath have random alternates for some glyphs, which can be used in ConTeXt to get randomness in mathematics.  Sample usages:
+
+```
+\usetypescriptfile[type-imp-pennstander]
+\setupbodyfont[pennstander]
+\setupmathematics[stylealternative=random]
+\starttext
+\startformula
+  \startalign[n=1,align=middle]
+    \NC \{a,b,c\} \quad \{a,b,c\} \quad \{a,b,c\} \NR
+    \NC (x+y) \quad (x+y) \quad [x-y] \quad [x-y] \NR
+    \NC \int f(x)\,dx \quad \int f(x)\,dx \quad \int f(x)\,dx \NR
+  \stopalign
+\stopformula
+\stoptext
+```
+
+<img src="https://github.com/juliusross1/Pennstander/blob/main/samples/pennstander-randoms.png" width="650">
+
+
+## Variable Mathematics Font (Experimental)
+
+PennstanderMAathVF.ttf is a variable font with an experimental variable mathematics table (which is not an Opentype specification) that is supported in ConTeXt.  Sample usage:
+
+Use a recent ConTeXt MKXL, with `PennstanderMathVF.ttf` installed or in the same directory as the document.
+
+```tex
+\usetypescriptfile[type-imp-pennstander]
+\definefontfeature[pennstander-math-vf]
+  [axis={weight=400,math weight=80,math slant=100}]
+% Adjust weight from 100 to 900; math weight and math slant from 0 to 100.
+\starttypescript[math][pennstander-math-vf]
+  \definefontsynonym[MathRoman][file:PennstanderMathVF.ttf]
+    [features={math\mathsizesuffix,pennstander-math-vf},goodies=pennstander-math]
+\stoptypescript
+\definetypeface[pennstander-vf][rm][serif][pennstander]
+\definetypeface[pennstander-vf][mm][math][pennstander-math-vf]
+\setupbodyfont[pennstander-vf,12pt]
+
+\starttext
+\startformula
+  \startalign[n=2,align={right,left}]
+    \NC \nabla \cdot {\bf E}  \NC = \frac{\rho}{\varepsilon_0} \NR
+    \NC \nabla \cdot {\bf B}  \NC = 0 \NR
+    \NC \nabla \times {\bf E} \NC = -\frac{\partial {\bf B}}{\partial t} \NR
+    \NC \nabla \times {\bf B} \NC = \mu_0 {\bf J}
+      + \mu_0 \varepsilon_0 \frac{\partial {\bf E}}{\partial t} \NR
+  \stopalign
+\stopformula
+\stoptext
+```
+
+<img src="https://github.com/juliusross1/Pennstander/blob/main/samples/pennstander-variable.png" width="650">
+
+This loads the variable mathematics font explicitly; the text uses the regular static Pennstander font.  The "math weight" axis controls additional weight of the math-bold letters.  The "math slant" axis controls the slant of the math-italics (the default in pennstander is math slant=50).  
+
+
+
+
+
 
 ## Sample
 
