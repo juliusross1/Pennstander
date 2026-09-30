@@ -158,7 +158,8 @@ Use a recent ConTeXt MKXL, with `PennstanderMathVF.ttf` installed or in the same
 
 In case anybody wants to use this but does not want to use variable math, there is a script that will create a static font from this variable font.  Sample usage:
 
-```python3 pythonScripts/instantiate_pennstander.py \
+```
+python3 pythonScripts/instantiate_pennstander.py \
   -i fonts/opentype/PennstanderMathVF.ttf \
   wght=400 MWGT=80 MLNT=100 \
   -o PennstanderMath-Custom.ttf
