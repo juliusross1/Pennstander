@@ -115,6 +115,9 @@ Pennstander and PennstanderMath have random alternates for some glyphs, which ca
 \stoptext
 ```
 
+Setting ``stylealternative=random`` gives the most randomness.  Other options are randomletters, randomnumerals, randomfences, randomsansintegrals, randomserifintegrals,randomintegrals (with multiple options allowed as a list).
+
+
 <img src="https://github.com/juliusross1/Pennstander/blob/main/samples/pennstander-randoms.png" width="650">
 
 
@@ -155,7 +158,7 @@ Use a recent ConTeXt MKXL, with `PennstanderMathVF.ttf` installed or in the same
 
 <img src="https://github.com/juliusross1/Pennstander/blob/main/samples/pennstander-variable.png" width="650">
 
-In case anybody wants to use this but does not want to use variable math, there is a script that will create a static font from this variable font.  Sample usage:
+e In case anybody wants to use this but does not want to use variable math, there is a script that will create a static font from this variable font.  Sample usage:
 
 ```
 python3 pythonScripts/instantiate_pennstander.py \
