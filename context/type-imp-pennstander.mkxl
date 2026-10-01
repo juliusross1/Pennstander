@@ -15,12 +15,22 @@
 
 \starttypescriptcollection[pennstander]
 
+% This is no longer needed:
+%
 % \definefontfeature[pennstander-math-scale][pennstanderscale=yes]
+%
+% The experfimental flair feature is also gone and ended up as fixes
+% and a new random feature.
 
-\definefontfeature [pennstanderregular]    [axis={flair=0,weight=125}]
-\definefontfeature [pennstanderitalic]     [axis={flair=0,weight=125,italic=75}]
-\definefontfeature [pennstanderbold]       [axis={flair=0,weight=250}]
-\definefontfeature [pennstanderbolditalic] [axis={flair=0,weight=250,italic=75}]
+% 100 Thin
+% 200 Extralight
+% 300 Light
+% 400 Regular
+%
+% \definefontfeature [pennstanderregular]    [axis={weight=400}]
+% \definefontfeature [pennstanderitalic]     [axis={weight=400,italic=50}]
+% \definefontfeature [pennstanderbold]       [axis={weight=600}]
+% \definefontfeature [pennstanderbolditalic] [axis={weight=600,italic=50}]
 
 \pushglobalsetups
     \startsetups[\s!math:pennstander]
