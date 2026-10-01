@@ -3,7 +3,7 @@
 
 \usemodule[math-characters-renewed]
 
-\setupbodyfont[pennstander-regular]
+\setupbodyfont[pennstander-bold]
 %\setupbodyfont[pennstander-black]
 %\setupbodyfont[pennstander-thin]
 
@@ -181,19 +181,15 @@ c:= \sqrt{a^2 + b^2} \notin \mathbb Q
 \AllFenceSizes{triplebar}\crlf\crlf
 \AllFenceSizes{openbracket}
 }
-\def\fontlist{pennstander-thin,pennstander-regular,pennstander-bold}
-\def\fontlist{pennstander-regular}
-
 \startbuffer[alphabets]
-\doloopoverlist\fontlist{
-{\switchtobodyfont[\recursestring]
+{\switchtobodyfont[pennstander-regular]
    \doloopoverlist\alphabetlist
 {%
 \startalignment[center]
 \showmathfontcharacters[alternative=glyphs,list=\recursestring,showfeatures=none]
 \stopalignment
 }
-}}
+}
 \stopbuffer
 \page
 \setupmathematics[default=normal,lcgreek=normal]
@@ -237,11 +233,8 @@ c:= \sqrt{a^2 + b^2} \notin \mathbb Q
 \stopformula
 \stopbuffer
 
-\doloopoverlist\fontlist
-{
-{\switchtobodyfont[\recursestring]
+{\switchtobodyfont[pennstander-regular]
 \getbuffer[integrals]}
-}
 
 
 \subsection[title={Radicals}]
@@ -253,11 +246,8 @@ c:= \sqrt{a^2 + b^2} \notin \mathbb Q
 \stopbuffer
 
 
-\doloopoverlist\fontlist
-{
-{\switchtobodyfont[\recursestring]
+{\switchtobodyfont[pennstander-regular]
 \getbuffer[radicals]}
-}
 \subsection[title={Accents and Stackers}]
 \startbuffer[accents]
 \startformula
@@ -290,11 +280,8 @@ c:= \sqrt{a^2 + b^2} \notin \mathbb Q
 \stopformula
 \stopbuffer
 
-\doloopoverlist\fontlist
-{
-{\switchtobodyfont[\recursestring]
+{\switchtobodyfont[pennstander-regular]
 \getbuffer[accents]}
-}
 
 
 \subsection[title={Arrows}]
@@ -352,10 +339,9 @@ U \mrightleftharpoons{1+2}{a+b+c} V \mtriplerel{1+2}{a+b+c} W
     miscellaneoussymbolsandpictographs}
 
 
-\doloopoverlist\fontlist{
-\edef\fontchoice{\recursestring}%
+{\switchtobodyfont[pennstander-regular]
 \doloopoverlist\symbollist{%
-{\switchtobodyfont[\fontchoice]{\showmathfontcharacters[alternative=glyphswithoutsizes,list=\recursestring,showfeatures=none]}}}\blank[10pt]
+\showmathfontcharacters[alternative=glyphswithoutsizes,list=\recursestring,showfeatures=none]}\blank[10pt]
 }
 
 
@@ -424,13 +410,6 @@ U \mrightleftharpoons{1+2}{a+b+c} V \mtriplerel{1+2}{a+b+c} W
 
 
 
-
-
-%\doloopoverlist{pennstander-thin-ss,pennstander-regular-ss,pennstander-bold-ss}
-%{
-%\setupbodyfont[\recursestring]
-%\getbuffer[alternatives]
-%}
 
 
 
