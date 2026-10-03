@@ -1,0 +1,64 @@
+% !TEX root = pennstander-variable.tex
+\usetypescriptfile[type-imp-pennstander]
+\definefontfeature[pennstander-math-vf]
+  [axis={weight=400,math weight=80,math slant=100}]
+% Adjust weight from 100 to 900; math weight and math slant from 0 to 100.
+\starttypescript[math][pennstander-math-vf]
+  \definefontsynonym[MathRoman][file:PennstanderMathVF.ttf]
+    [features={math\mathsizesuffix,pennstander-math-vf},goodies=pennstander-math]
+\stoptypescript
+\starttypescript[math][pennstander-math-static]
+  \definefontsynonym[MathRoman][file:PennstanderMath-Regular.otf]
+    [features={math\mathsizesuffix},goodies=pennstander-math]
+\stoptypescript
+\definetypeface[pennstander-vf][rm][serif][modern]
+\definetypeface[pennstander-vf][mm][math][pennstander-math-vf]
+\definetypeface[pennstander-static][rm][serif][modern]
+\definetypeface[pennstander-static][mm][math][pennstander-math-static]
+\setupbodyfont[modern,12pt]
+\definebodyfontenvironment[16pt]
+
+% Match the compact, two-column comparison in pennstander-variable.png.
+\definepapersize[comparison][width=168mm,height=98.6mm]
+\setuppapersize[comparison][comparison]
+\setuplayout[topspace=8mm,backspace=7.5mm,width=153mm,
+  height=83mm,header=0mm,footer=0mm]
+\setuppagenumbering[state=stop]
+\setupformulas[spacebefore=0pt,spaceafter=0pt]
+
+% Use the same equations in both columns so only the math font changes.
+\starttexdefinition MaxwellEquations
+\startformula
+  \startalign[n=2,align={right,left},spaceinbetween=2.5mm]
+    \NC \nabla \cdot {\bf E}  \NC = \frac{\rho}{\varepsilon_0} \NR
+    \NC \nabla \cdot {\bf B}  \NC = 0 \NR
+    \NC \nabla \times {\bf E} \NC = -\frac{\partial {\bf B}}{\partial t} \NR
+    \NC \nabla \times {\bf B} \NC = \mu_0 {\bf J}
+      + \mu_0 \varepsilon_0 \frac{\partial {\bf E}}{\partial t} \NR
+  \stopalign
+\stopformula
+\stoptexdefinition
+
+\starttext
+\hbox to \textwidth{%
+  \vtop{\hsize=58mm
+    \startalignment[middle]
+      {\bf PennstanderMathVF.ttf}\par
+      weight=400, math weight=80,\par
+      math slant=100\par
+    \stopalignment
+    \blank[8mm]
+    \switchtobodyfont[pennstander-vf,16pt]
+    \MaxwellEquations
+  }%
+  \hfill
+  \vtop{\hsize=76mm
+    \startalignment[middle]
+      {\bf PennstanderMath-Regular.otf}\par
+    \stopalignment
+    \blank[13mm]
+    \switchtobodyfont[pennstander-static,16pt]
+    \MaxwellEquations
+  }%
+}
+\stoptext
