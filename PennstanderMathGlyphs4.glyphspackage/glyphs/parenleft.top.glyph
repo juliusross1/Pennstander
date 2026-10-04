@@ -32,26 +32,6 @@ nodes = (
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
-vAssembly = (
-(
-groupleft.bot,
-0,
-0,
-300
-),
-(
-groupleft.ext,
-1,
-300,
-300
-),
-(
-groupleft.top,
-0,
-300,
-0
-)
-);
 };
 };
 width = 2006;

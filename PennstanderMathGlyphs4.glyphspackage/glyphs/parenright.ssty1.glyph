@@ -157,7 +157,7 @@ vAssembly = (
 parenright.bot,
 0,
 0,
-0
+200
 ),
 (
 parenright.ext,
@@ -168,7 +168,7 @@ parenright.ext,
 (
 parenright.top,
 0,
-0,
+200,
 0
 )
 );

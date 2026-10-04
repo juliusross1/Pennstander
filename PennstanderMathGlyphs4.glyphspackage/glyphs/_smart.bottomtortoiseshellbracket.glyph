@@ -164,7 +164,7 @@ metricLeft = "=equal";
 metricRight = "=equal";
 partsSettings = (
 {
-bottomValue = 100;
+bottomValue = 0;
 name = Width;
 topValue = 1000;
 }

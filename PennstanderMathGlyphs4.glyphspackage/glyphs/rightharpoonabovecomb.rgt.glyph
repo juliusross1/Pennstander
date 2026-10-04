@@ -52,20 +52,6 @@ nodes = (
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
-hAssembly = (
-(
-rightarrowabovecomb.mid,
-0,
-0,
-200
-),
-(
-rightharpoonabovecomb,
-1,
-200,
-0
-)
-);
 };
 };
 width = 679;

@@ -130,6 +130,30 @@ nodes = (
 );
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+downArrow.bot,
+0,
+0,
+200
+),
+(
+downArrow.mid,
+1,
+200,
+200
+),
+(
+downArrow.top,
+0,
+200,
+0
+)
+);
+};
+};
 vertOrigin = 125;
 vertWidth = 2000;
 width = 1188;

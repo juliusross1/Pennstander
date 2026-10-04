@@ -126,6 +126,30 @@ nodes = (
 );
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+leftArrow.lft,
+0,
+0,
+200
+),
+(
+leftArrow.mid,
+1,
+200,
+200
+),
+(
+leftArrow.rgt,
+0,
+200,
+0
+)
+);
+};
+};
 width = 3193;
 }
 );

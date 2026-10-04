@@ -11,7 +11,7 @@ Width = 300;
 ref = _smart.bottomtortoiseshellbracket;
 }
 );
-width = 3227;
+width = 3733;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -23,7 +23,7 @@ Width = 300;
 ref = _smart.bottomtortoiseshellbracket;
 }
 );
-width = 3344;
+width = 3601;
 }
 );
 production = bottomtortoiseshellbracket.s03;

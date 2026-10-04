@@ -80,7 +80,6 @@ width = 1138;
 );
 metricLeft = "=bracketleft";
 metricRight = "=bracketleft";
-production = "leftwhitesquarebracket-math";
 unicode = 10214;
 userData = {
 com.nagwa.MATHPlugin.variants = {

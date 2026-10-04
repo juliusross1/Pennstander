@@ -49,6 +49,30 @@ ref = upArrow;
 scale = (1,-1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+downArrow.bot,
+0,
+0,
+200
+),
+(
+downArrow.mid,
+1,
+200,
+200
+),
+(
+downArrow.top,
+0,
+200,
+0
+)
+);
+};
+};
 vertOrigin = 45;
 vertWidth = 2080;
 width = 1188;
