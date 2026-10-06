@@ -116,7 +116,7 @@ Pennstander and PennstanderMath have random alternates for some glyphs, which ca
 ```
 
 
-<img src="https://github.com/juliusross1/Pennstander/blob/main/samples/pennstander-randoms.png" width="650">
+<img src="https://raw.githubusercontent.com/juliusross1/Pennstander/main/samples/pennstander-randoms.png?v=7212c9231410" width="650">
 
  
 
