@@ -6346,9 +6346,9 @@ code = "#
 
 lookup integral_alternates_withoutserif {
 sub singleintegral from [singleintegral singleintegral.alt2 singleintegral.alt3];
-sub dblIntegral from [dblIntegral.alt2 dblIntegral.alt3 dblIntegral.alt4];
-sub tripleIntegral from [tripleIntegral.alt2 tripleIntegral.alt3];
-sub surfaceIntegral from [surfaceIntegral.alt2 surfaceIntegral.alt3];
+sub dblIntegral from [dblIntegral dblIntegral.alt2 dblIntegral.alt3 dblIntegral.alt4];
+sub tripleIntegral from [tripleIntegral tripleIntegral.alt2 tripleIntegral.alt3];
+sub surfaceIntegral from [surfaceIntegral surfaceIntegral.alt2 surfaceIntegral.alt3];
 sub clockwiseIntegral from [clockwiseIntegral clockwiseIntegral.alt2 clockwiseIntegral.alt3];
 sub contourIntegral from [contourIntegral contourIntegral.alt2 contourIntegral.alt3];
 sub integralWithUnderbar from [integralWithUnderbar integralWithUnderbar.alt2 integralWithUnderbar.alt3];
@@ -6375,9 +6375,9 @@ sub circulationIntegral from [circulationIntegral circulationIntegral.alt2 circu
 
 lookup integral_alternates_withserif {
 sub singleintegral from [singleintegral singleintegral.alt1 singleintegral.alt2 singleintegral.alt3];
-sub dblIntegral from [dblIntegral.alt1 dblIntegral.alt2 dblIntegral.alt3 dblIntegral.alt4];
-sub tripleIntegral from [tripleIntegral.alt1 tripleIntegral.alt2 tripleIntegral.alt3];
-sub surfaceIntegral from [surfaceIntegral.alt1 surfaceIntegral.alt2 surfaceIntegral.alt3];
+sub dblIntegral from [dblIntegral dblIntegral.alt1 dblIntegral.alt2 dblIntegral.alt3 dblIntegral.alt4];
+sub tripleIntegral from [tripleIntegral tripleIntegral.alt1 tripleIntegral.alt2 tripleIntegral.alt3];
+sub surfaceIntegral from [surfaceIntegral surfaceIntegral.alt1 surfaceIntegral.alt2 surfaceIntegral.alt3];
 sub clockwiseIntegral from [clockwiseIntegral clockwiseIntegral.alt1 clockwiseIntegral.alt2 clockwiseIntegral.alt3];
 sub contourIntegral from [contourIntegral contourIntegral.alt1 contourIntegral.alt2 contourIntegral.alt3];
 sub integralWithUnderbar from [integralWithUnderbar integralWithUnderbar.alt1 integralWithUnderbar.alt2 integralWithUnderbar.alt3];
@@ -9696,9 +9696,13 @@ value = "/Users/juliusross/Documents/Pennstander/.venv/bin/python3 /Users/julius
 {
 name = "Decompose Components";
 value = 1;
+},
+{
+name = fileName;
+value = PennstanderMathVF;
 }
 );
-name = Regular;
+name = Variable;
 type = variable;
 },
 {
