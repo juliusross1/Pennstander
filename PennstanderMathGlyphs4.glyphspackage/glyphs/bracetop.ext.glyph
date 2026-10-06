@@ -1,7 +1,6 @@
 {
 category = Punctuation;
 glyphname = bracetop.ext;
-kernLeft = braceleft;
 kernRight = braceleft;
 layers = (
 {
@@ -9,7 +8,7 @@ layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
 angle = -90;
-pos = (0,1560);
+pos = (0,1860);
 ref = braceleft.ext;
 }
 );
@@ -20,7 +19,7 @@ layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
 angle = -90;
-pos = (0,1508);
+pos = (0,1808);
 ref = braceleft.ext;
 }
 );

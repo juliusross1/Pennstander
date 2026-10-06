@@ -1,5 +1,5 @@
 {
-glyphname = rule;
+glyphname = rule.s1;
 kernLeft = minus;
 kernRight = minus;
 layers = (
@@ -9,46 +9,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(800,967,o),
-(799,1007,o),
-(797,1014,c),
-(636,1014,o),
+(1000,967,o),
+(999,1007,o),
+(997,1014,c),
+(836,1014,o),
 (185,1015,o),
 (109,1003,c),
 (103,994,o),
 (100,955,o),
 (100,941,c),
 (181,947,o),
-(741,946,o),
-(800,943,c)
+(941,946,o),
+(1000,943,c)
 );
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
-hAssembly = (
-(
-ruledown.left,
-0,
-0,
-200
-),
-(
-rule.ext,
-1,
-200,
-200
-),
-(
-ruledown.right,
-0,
-200,
-0
-)
-);
 };
 };
-width = 900;
+width = 1100;
 },
 {
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
@@ -56,57 +36,28 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(990,973,o),
-(989,1301,o),
-(987,1308,c),
-(826,1308,o),
+(1200,973,o),
+(1199,1301,o),
+(1197,1308,c),
+(1036,1308,o),
 (185,1309,o),
 (109,1297,c),
 (103,1288,o),
 (100,961,o),
 (100,947,c),
 (181,953,o),
-(931,952,o),
-(990,949,c)
+(1141,952,o),
+(1200,949,c)
 );
 }
 );
 userData = {
 com.nagwa.MATHPlugin.variants = {
-hAssembly = (
-(
-ruledown.left,
-0,
-0,
-200
-),
-(
-rule.ext,
-1,
-200,
-200
-),
-(
-ruledown.right,
-0,
-200,
-0
-)
-);
 };
 };
 vertWidth = 0;
-width = 1090;
+width = 1300;
 }
 );
-production = rule;
-unicode = 8254;
-userData = {
-com.nagwa.MATHPlugin.variants = {
-hVariants = (
-rule,
-rule.s1
-);
-};
-};
+production = rule.s1;
 }
