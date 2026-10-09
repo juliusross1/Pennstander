@@ -165,7 +165,7 @@ In case anybody wants to use this but does not want to use variable math, there 
 ```
 python3 pythonScripts/instantiate_pennstander.py \
   -i fonts/opentype/PennstanderMathVF.ttf \
-  wght=400 MWGT=80 MLNT=100 \
+  wght=400 MWGT=80 MLNT=-15 \
   -o PennstanderMath-Custom.ttf
 ```
 
