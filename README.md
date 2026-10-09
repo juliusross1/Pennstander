@@ -136,7 +136,7 @@ For the following sample, use a recent ConTeXt MKXL, with `PennstanderMathVF.ttf
 \usetypescriptfile[type-imp-pennstander]
 \definefontfeature[pennstander-math-vf]
   [axis={weight=400,math weight=80,math slant=-15}]
-% Adjust weight from 100 to 900; math weight and math slant from 0 to -15.
+% Adjust weight from 100 to 900; math weight from 0 to 100 and math slant from 0 to -15.
 \starttypescript[math][pennstander-math-vf]
   \definefontsynonym[MathRoman][file:PennstanderMathVF.ttf]
     [features={math\mathsizesuffix,pennstander-math-vf},goodies=pennstander-math]
