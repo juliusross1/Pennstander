@@ -128,15 +128,15 @@ Setting ``stylealternative=random`` gives the most randomness.  Other options ar
 PennstanderMathVF.ttf is a variable font with an experimental variable MATH table. This is not an Opentype specification, but is supported in ConTeXt.  
 
 The math weight number controls the weight of the math-bold letters (0=default, 100=maximum weight) and the
-math slant number controls the slant of the math-italic letters (0=no slant, 50=default, 100=maximum slant)
+math slant number controls the slant of the math-italic letters (0=no slant, -7.5=default, -15=maximum slant)
 
 For the following sample, use a recent ConTeXt MKXL, with `PennstanderMathVF.ttf` installed or in the same directory as the document.  
 
 ```tex
 \usetypescriptfile[type-imp-pennstander]
 \definefontfeature[pennstander-math-vf]
-  [axis={weight=400,math weight=80,math slant=100}]
-% Adjust weight from 100 to 900; math weight and math slant from 0 to 100.
+  [axis={weight=400,math weight=80,math slant=-15}]
+% Adjust weight from 100 to 900; math weight and math slant from 0 to -15.
 \starttypescript[math][pennstander-math-vf]
   \definefontsynonym[MathRoman][file:PennstanderMathVF.ttf]
     [features={math\mathsizesuffix,pennstander-math-vf},goodies=pennstander-math]
