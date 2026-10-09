@@ -6314,7 +6314,7 @@ Location = 100;
 },
 {
 Axis = "Math Slant";
-Location = 100;
+Location = -15;
 }
 );
 },
@@ -6673,7 +6673,7 @@ condition 600<wght;
 sub summationWithIntegral by summationWithIntegral.heavy;
 
 condition 500 < wght ;
-sub dollar.ss06 by dollar;
+sub dollar.ss06 by dollar.heavy;
 #endif
 ";
 tag = rvrn;
@@ -9703,13 +9703,24 @@ value = PennstanderMathVF;
 }
 );
 name = Variable;
+properties = (
+{
+key = postscriptFullNames;
+values = (
+{
+language = dflt;
+value = "PennstanderMath-Variable";
+}
+);
+}
+);
 type = variable;
 },
 {
 axesValues = (
 100,
 300,
-50
+-7.5
 );
 customParameters = (
 {
@@ -9728,7 +9739,7 @@ weightClass = 100;
 axesValues = (
 200,
 400,
-50
+-7.5
 );
 customParameters = (
 {
@@ -9749,7 +9760,7 @@ weightClass = 200;
 axesValues = (
 300,
 500,
-50
+-7.5
 );
 customParameters = (
 {
@@ -9770,7 +9781,7 @@ weightClass = 300;
 axesValues = (
 400,
 600,
-50
+-7.5
 );
 customParameters = (
 {
@@ -9800,7 +9811,7 @@ name = Regular;
 axesValues = (
 500,
 700,
-50
+-7.5
 );
 customParameters = (
 {
@@ -9821,7 +9832,7 @@ weightClass = 500;
 axesValues = (
 600,
 800,
-50
+-7.5
 );
 customParameters = (
 {
@@ -9848,7 +9859,7 @@ weightClass = 600;
 axesValues = (
 700,
 900,
-50
+-7.5
 );
 customParameters = (
 {
@@ -9877,7 +9888,7 @@ weightClass = 700;
 axesValues = (
 800,
 900,
-50
+-7.5
 );
 customParameters = (
 {
@@ -9906,7 +9917,7 @@ weightClass = 800;
 axesValues = (
 900,
 900,
-50
+-7.5
 );
 customParameters = (
 {

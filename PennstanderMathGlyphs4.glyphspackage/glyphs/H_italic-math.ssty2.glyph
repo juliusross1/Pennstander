@@ -183,7 +183,7 @@ attr = {
 coordinates = (
 100,
 100,
-100
+-15
 );
 };
 layerId = "493A5E64-8FB3-4950-AF4C-1BC7A0226931";
@@ -269,7 +269,7 @@ attr = {
 coordinates = (
 900,
 100,
-100
+-15
 );
 };
 layerId = "3A53549D-8741-43A1-A12F-EAD3673D7436";

@@ -157,7 +157,7 @@ attr = {
 coordinates = (
 100,
 100,
-100
+-15
 );
 };
 layerId = "9EBF2DE9-7956-4BE0-A5F3-E55704819FA8";
@@ -232,7 +232,7 @@ attr = {
 coordinates = (
 900,
 100,
-100
+-15
 );
 };
 layerId = "11852C34-20D0-4EAE-821D-7B111A568CAD";
@@ -307,7 +307,7 @@ attr = {
 coordinates = (
 100,
 900,
-100
+-15
 );
 };
 layerId = "676B29A7-CD4F-4E9F-8E05-13A4A24C592C";
@@ -382,7 +382,7 @@ attr = {
 coordinates = (
 900,
 900,
-100
+-15
 );
 };
 layerId = "642BE2F7-0121-4351-A3B0-FAC5BA25E457";
