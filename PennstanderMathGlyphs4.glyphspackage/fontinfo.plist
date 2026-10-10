@@ -9460,14 +9460,14 @@ AxisHeight = 600;
 DelimitedSubFormulaMinHeight = 1200;
 DisplayOperatorMinHeight = 2300;
 FlattenedAccentBaseHeight = 1291;
-FractionDenomDisplayStyleGapMin = 185;
-FractionDenominatorDisplayStyleShiftDown = 1200;
-FractionDenominatorGapMin = 170;
-FractionDenominatorShiftDown = 840;
-FractionNumDisplayStyleGapMin = 175;
-FractionNumeratorDisplayStyleShiftUp = 1400;
-FractionNumeratorGapMin = 50;
-FractionNumeratorShiftUp = 1350;
+FractionDenomDisplayStyleGapMin = 150;
+FractionDenominatorDisplayStyleShiftDown = 1100;
+FractionDenominatorGapMin = 100;
+FractionDenominatorShiftDown = 600;
+FractionNumDisplayStyleGapMin = 250;
+FractionNumeratorDisplayStyleShiftUp = 1000;
+FractionNumeratorGapMin = 100;
+FractionNumeratorShiftUp = 1000;
 FractionRuleThickness = 67;
 LowerLimitBaselineDropMin = 1400;
 LowerLimitGapMin = 260;
@@ -9630,14 +9630,14 @@ AxisHeight = 600;
 DelimitedSubFormulaMinHeight = 1200;
 DisplayOperatorMinHeight = 2500;
 FlattenedAccentBaseHeight = 1291;
-FractionDenomDisplayStyleGapMin = 165;
-FractionDenominatorDisplayStyleShiftDown = 1525;
-FractionDenominatorGapMin = 120;
-FractionDenominatorShiftDown = 920;
-FractionNumDisplayStyleGapMin = 175;
-FractionNumeratorDisplayStyleShiftUp = 1400;
+FractionDenomDisplayStyleGapMin = 150;
+FractionDenominatorDisplayStyleShiftDown = 1100;
+FractionDenominatorGapMin = 100;
+FractionDenominatorShiftDown = 600;
+FractionNumDisplayStyleGapMin = 150;
+FractionNumeratorDisplayStyleShiftUp = 1000;
 FractionNumeratorGapMin = 100;
-FractionNumeratorShiftUp = 1100;
+FractionNumeratorShiftUp = 1000;
 FractionRuleThickness = 357;
 LowerLimitBaselineDropMin = 550;
 LowerLimitGapMin = 200;
@@ -9735,7 +9735,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 1;
 };
@@ -9755,7 +9754,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.125;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.875;
@@ -9776,7 +9774,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.25;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.75;
@@ -9808,7 +9805,6 @@ name = "Remove Overlap";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.375;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.625;
@@ -9828,7 +9824,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.5;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.5;
@@ -9855,7 +9850,6 @@ value = (
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.625;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.375;
@@ -9884,7 +9878,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.75;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.25;
@@ -9913,7 +9906,6 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.875;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.125;
