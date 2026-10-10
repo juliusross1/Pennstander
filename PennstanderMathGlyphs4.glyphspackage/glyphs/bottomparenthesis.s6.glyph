@@ -17,7 +17,7 @@ width = 5000;
 layerId = "B5042207-EFBA-41B6-8DFD-104A953B46A6";
 shapes = (
 {
-pos = (0,897);
+pos = (0,797);
 ref = topparenthesis.s6;
 scale = (1,-1);
 }

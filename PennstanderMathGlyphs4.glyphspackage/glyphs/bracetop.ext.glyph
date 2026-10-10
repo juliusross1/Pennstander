@@ -19,7 +19,7 @@ layerId = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
 shapes = (
 {
 angle = -90;
-pos = (0,1808);
+pos = (0,1848);
 ref = braceleft.ext;
 }
 );

@@ -9438,6 +9438,9 @@ pos = 5100;
 },
 {
 pos = -3900;
+},
+{
+pos = 1180;
 }
 );
 name = Thin;
@@ -9452,7 +9455,7 @@ GSRoughenHorizontal = 15;
 GSRoughenSegmentLength = 15;
 GSRoughenVertical = 10;
 com.nagwa.MATHPlugin.constants = {
-AccentBaseHeight = 950;
+AccentBaseHeight = 980;
 AxisHeight = 600;
 DelimitedSubFormulaMinHeight = 1200;
 DisplayOperatorMinHeight = 2300;
@@ -9472,7 +9475,7 @@ MathLeading = 200;
 MinConnectorOverlap = 100;
 OverbarExtraAscender = 67;
 OverbarRuleThickness = 67;
-OverbarVerticalGap = 400;
+OverbarVerticalGap = 250;
 RadicalDegreeBottomRaisePercent = 61;
 RadicalDisplayStyleVerticalGap = 388;
 RadicalExtraAscender = 150;
@@ -9504,7 +9507,7 @@ SuperscriptShiftUp = 800;
 SuperscriptShiftUpCramped = 200;
 UnderbarExtraDescender = 67;
 UnderbarRuleThickness = 67;
-UnderbarVerticalGap = 400;
+UnderbarVerticalGap = 300;
 UpperLimitBaselineRiseMin = 400;
 UpperLimitGapMin = 300;
 };
@@ -9607,6 +9610,9 @@ pos = 5100;
 },
 {
 pos = -3900;
+},
+{
+pos = 1180;
 }
 );
 name = Black;
@@ -9619,7 +9625,7 @@ GSOffsetKeepCompatible = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 100;
 com.nagwa.MATHPlugin.constants = {
-AccentBaseHeight = 950;
+AccentBaseHeight = 980;
 AxisHeight = 600;
 DelimitedSubFormulaMinHeight = 1200;
 DisplayOperatorMinHeight = 2500;
@@ -9639,7 +9645,7 @@ MathLeading = 1700;
 MinConnectorOverlap = 100;
 OverbarExtraAscender = 357;
 OverbarRuleThickness = 357;
-OverbarVerticalGap = 200;
+OverbarVerticalGap = 250;
 RadicalDegreeBottomRaisePercent = 55;
 RadicalDisplayStyleVerticalGap = 333;
 RadicalExtraAscender = 100;
@@ -9671,7 +9677,7 @@ SuperscriptShiftUp = 800;
 SuperscriptShiftUpCramped = 200;
 UnderbarExtraDescender = 357;
 UnderbarRuleThickness = 357;
-UnderbarVerticalGap = 200;
+UnderbarVerticalGap = 300;
 UpperLimitBaselineRiseMin = 300;
 UpperLimitGapMin = 50;
 };
@@ -9729,6 +9735,7 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 1;
 };
@@ -9801,6 +9808,7 @@ name = "Remove Overlap";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "B5042207-EFBA-41B6-8DFD-104A953B46A6" = 0.375;
 "B5195C1E-69AB-4BC6-9855-DF55601A0735" = 0.625;
@@ -10506,6 +10514,9 @@ name = "Fencetop High";
 {
 filter = "tags CONTAINS \"fence\"";
 name = "Fence Bottom Low";
+},
+{
+name = AccentBaeHeight;
 }
 );
 note = "Todo:

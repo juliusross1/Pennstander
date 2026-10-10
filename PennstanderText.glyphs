@@ -2,7 +2,16 @@
 .appVersion = "3529";
 .formatVersion = 3;
 DisplayStrings = (
-"̏"
+"hởhotð",
+"Abba  ABBA
+
+
+",
+"",
+"",
+"",
+"/four.ss04/four.tf.ss04",
+$
 );
 axes = (
 {
@@ -14,7 +23,6 @@ name = Slant;
 tag = slnt;
 },
 {
-hidden = 1;
 name = Flair;
 tag = FLAR;
 }
@@ -57,8 +65,8 @@ FLAR = {
 100 = 100;
 };
 slnt = {
--15 = -15;
 0 = 0;
+100 = 100;
 };
 wght = {
 100 = 100;
@@ -527,11 +535,11 @@ sub f_a by f_a.ss01;
 labels = (
 {
 language = dflt;
-value = "Alternate Letters";
+value = "alternate letters";
 },
 {
 language = NLD;
-value = "Alternatieve Letters";
+value = "alternatieve letters";
 }
 );
 tag = ss01;
@@ -621,11 +629,11 @@ sub _playingcardA by _playingcardA.ss02;
 labels = (
 {
 language = dflt;
-value = "Sharp Letters";
+value = "sharp letters";
 },
 {
 language = NLD;
-value = "Scherpe Letters";
+value = "scherpe letters";
 }
 );
 tag = ss02;
@@ -661,11 +669,11 @@ sub lcommaaccent.loclMAH by lcommaaccent.loclMAH.ss03;
 labels = (
 {
 language = dflt;
-value = "Straight Feet";
+value = "straight feet";
 },
 {
 language = NLD;
-value = "Rechte Voeten";
+value = "rechte voeten";
 }
 );
 tag = ss03;
@@ -688,11 +696,11 @@ sub fourOfSpadesCards by fourOfSpadesCards.ss04;
 labels = (
 {
 language = dflt;
-value = "Alternate 4";
+value = "alternate 4";
 },
 {
 language = NLD;
-value = "Alternatieve 4";
+value = "alternatieve 4";
 }
 );
 tag = ss04;
@@ -704,11 +712,11 @@ code = "sub ampersand by ampersand.ss06;
 labels = (
 {
 language = dflt;
-value = "Alternate Symbols";
+value = "alternate symbols";
 },
 {
-language = NLD;
-value = "Alternatieve Symbolen";
+language = dflt;
+value = "alternatieve  symbolen ";
 }
 );
 tag = ss06;
@@ -730,11 +738,11 @@ sub sevenOfSpadesCards by sevenOfSpadesCards.ss07;
 labels = (
 {
 language = dflt;
-value = "Alternate 7";
+value = "alternate 7";
 },
 {
 language = NLD;
-value = "Alternatieve 7";
+value = "alternatieve 7";
 }
 );
 tag = ss07;
@@ -916,11 +924,11 @@ sub five by five.alt1;
 labels = (
 {
 language = dflt;
-value = Flair;
+value = flair;
 },
 {
 language = NLD;
-value = Flair;
+value = flair;
 }
 );
 tag = ss20;
@@ -1272,7 +1280,7 @@ GSOffsetVertical = 10;
 {
 axesValues = (
 100,
--15,
+100,
 0
 );
 customParameters = (
@@ -1356,7 +1364,7 @@ GSOffsetVertical = 10;
 {
 axesValues = (
 900,
--15,
+100,
 0
 );
 customParameters = (
@@ -168668,7 +168676,7 @@ unicode = 781;
 glyphname = dblgravecomb;
 kernLeft = dblgravecomb;
 kernRight = dblgravecomb;
-lastChange = "2026-10-09 02:35:25 +0000";
+lastChange = "2026-05-31 22:46:24 +0000";
 layers = (
 {
 anchors = (
@@ -169003,7 +169011,7 @@ associatedMasterId = "82219AB4-7C60-4B3A-9196-329BE868CB10";
 attr = {
 coordinates = (
 100,
--15,
+100,
 100
 );
 };
@@ -169062,7 +169070,7 @@ associatedMasterId = "63DB0068-8B02-4205-807F-6F2453D24B26";
 attr = {
 coordinates = (
 900,
--15,
+100,
 100
 );
 };
@@ -207534,30 +207542,15 @@ customParameters = (
 {
 name = "Variable Font Origin";
 value = "B5195C1E-69AB-4BC6-9855-DF55601A0735";
-},
-{
-name = fileName;
-value = PennstanderVF;
 }
 );
-name = Variable;
-properties = (
-{
-key = postscriptFullNames;
-values = (
-{
-language = dflt;
-value = "Pennstander-Variable";
-}
-);
-}
-);
+name = Regular;
 type = variable;
 },
 {
 axesValues = (
 100,
--7.5,
+50,
 0
 );
 instanceInterpolations = {
@@ -207572,7 +207565,7 @@ weightClass = 100;
 {
 axesValues = (
 200,
--7.5,
+50,
 0
 );
 instanceInterpolations = {
@@ -207590,7 +207583,7 @@ weightClass = 200;
 {
 axesValues = (
 300,
--7.5,
+50,
 0
 );
 instanceInterpolations = {
@@ -207608,7 +207601,7 @@ weightClass = 300;
 {
 axesValues = (
 400,
--7.5,
+50,
 0
 );
 instanceInterpolations = {
@@ -207624,7 +207617,7 @@ name = ItalicRegular;
 {
 axesValues = (
 500,
--7.5,
+50,
 0
 );
 instanceInterpolations = {
@@ -207642,7 +207635,7 @@ weightClass = 500;
 {
 axesValues = (
 600,
--7.5,
+50,
 0
 );
 instanceInterpolations = {
@@ -207660,7 +207653,7 @@ weightClass = 600;
 {
 axesValues = (
 700,
--7.5,
+50,
 0
 );
 instanceInterpolations = {
@@ -207678,7 +207671,7 @@ weightClass = 700;
 {
 axesValues = (
 800,
--7.5,
+50,
 0
 );
 instanceInterpolations = {
@@ -207696,7 +207689,7 @@ weightClass = 800;
 {
 axesValues = (
 900,
--7.5,
+50,
 0
 );
 instanceInterpolations = {

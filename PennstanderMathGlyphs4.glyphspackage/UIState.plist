@@ -1,9 +1,14 @@
 {
 displayStrings = (
-x,
-"⏝/bottomparenthesis.ext/bottomparenthesis.lft/bottomparenthesis.rgt/bottomparenthesis.s1/bottomparenthesis.s2/bottomparenthesis.s3/bottomparenthesis.s4/bottomparenthesis.s5/bottomparenthesis.s6/bottomparenthesis.s7",
+"⏞/bracetop.lft/bracetop.ext/bracetop.lft/bracetop.mid/bracetop.rgt/bracetop.s01/bracetop.s02/bracetop.s03/bracetop.s04/bracetop.s05 i/bracetop.s06/bracetop.s07/bracetop.s08",
+"‾",
 "/bottomsquarebracket.mid",
 "+-=/fractionrule/fractionrule.left ⎯/fractionrule.right",
-"/dollar.heavy"
+"/dollar.heavy",
+"HH⏞/bracetop.s01/bracetop.s02",
+"x⏞/bracetop.001",
+"/bracetop.lft/bracetop.mid/bracetop.rgt/bracetop.s01/bracetop.s02/bracetop.s03/bracetop.s04/bracetop.s05/bracetop.s06/bracetop.s07/bracetop.s08",
+"⏞",
+"/bracetop.ext"
 );
 }
